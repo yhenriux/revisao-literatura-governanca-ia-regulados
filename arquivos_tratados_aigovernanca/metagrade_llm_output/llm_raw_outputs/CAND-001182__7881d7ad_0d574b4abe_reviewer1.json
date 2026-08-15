@@ -1,0 +1,156 @@
+{
+  "bibliographic": {
+    "title": "Green AI: exploring carbon footprints, mitigation strategies, and trade offs in large language model training",
+    "authors": "Vivian Liu; Yiqiao Yin",
+    "year": "2024",
+    "venue": "Discover Artificial Intelligence",
+    "doi": "10.1007/s44163-024-00149-w",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Liu, V., & Yin, Y. (2024). Green AI: exploring carbon footprints, mitigation strategies, and trade offs in large language model training. Discover Artificial Intelligence, 4, Article 49. https://doi.org/10.1007/s44163-024-00149-w"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative environmental impact assessment of LLM training; hardware (GPU) emissions comparison; mitigation strategy analysis",
+    "study_design": "evaluation of CO2 emissions of well-known LLMs with contrast of training emissions across two widely used GPUs",
+    "sample_description": "well-known large language models; two widely used GPUs",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM training carbon footprint, greenhouse gas emissions, GPU hardware choice, Green AI mitigation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "off_topic",
+      "no_conversational_governance",
+      "no_regulated_deployment_governance"
+    ],
+    "exclusion_reason": "The article focuses on environmental sustainability, CO2 emissions, and mitigation strategies for LLM training. It does not address conversational governance, accountability, compliance, human oversight, auditability, guardrails, or regulated-domain deployment of conversational AI systems.",
+    "decision_rationale": "Although the paper explicitly studies LLMs and mentions applications such as smart assistants, its central contribution is Green AI and carbon footprint mitigation during model training, not governance of conversational systems in regulated environments. No governance, accountability, compliance, observability, or oversight mechanisms for conversational AI are presented in the provided text.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Exclusion is straightforward from title, abstract, and introduction; topic is environmental impact of LLM training rather than conversational governance."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 2,
+    "limitations_transparency": 3,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal is based only on front matter (pages 1-2). The study appears methodologically oriented toward environmental cost analysis, but detailed methods, sample enumeration, and full results are not visible in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "For the target review on conversational governance in regulated LLM systems, relevance is very low. Provided text supports a coherent environmental-sustainability study, but methodological detail and result reporting are insufficiently visible in the excerpt to support higher confidence."
+  },
+  "coding": {
+    "open_codes": [
+      "green_ai",
+      "carbon_footprint",
+      "llm_training_emissions",
+      "gpu_hardware_choice",
+      "environmental_sustainability",
+      "mitigation_strategies",
+      "trade_offs"
+    ],
+    "axial_codes": [
+      "environmental_cost_of_ai",
+      "training_phase_optimization",
+      "sustainable_model_development"
+    ],
+    "theme": "Environmental sustainability of LLM training",
+    "subtheme": "Carbon footprint mitigation and hardware trade-offs",
+    "concepts": [
+      "CO2 emissions",
+      "greenhouse gas emissions",
+      "Green AI",
+      "carbon footprint",
+      "hardware choice",
+      "responsible and sustainable LLM training"
+    ],
+    "model_layers": [
+      "infrastructure"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "LLM training has a high carbon footprint, but emissions can be reduced through mitigation strategies and hardware choices without necessarily sacrificing robustness and performance.",
+    "contribution": "Evaluates CO2 emissions of well-known LLMs, contrasts emissions across two GPUs, and proposes measures for more responsible and sustainable LLM training.",
+    "limitations": "Investigations into CO2 emissions of AI models remain an emerging area; authors discuss benefits and drawbacks of proposed solutions, but full limitations are not visible in the provided excerpt.",
+    "use_in_review": "Exclude from central and supporting evidence for conversational governance. At most peripheral foundational context if the review separately discusses broader LLM lifecycle costs, but it does not inform governance of conversational systems in regulated settings."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a 2024 peer-reviewed journal research paper on Green AI and LLM training emissions.",
+      "excerpt": "Discover Artificial Intelligence (2024) 4:49 | https://doi.org/10.1007/s44163-024-00149-w",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study objective is evaluation of CO2 emissions of well-known LLMs and mitigation of training-related emissions.",
+      "excerpt": "we evaluate the CO2 emissions of well- known large language models",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Hardware choice is compared for training emissions across two widely used GPUs.",
+      "excerpt": "we discuss how the choice of hardware affects CO2 emissions by contrasting the CO2 emissions during model training for two widely used GPUs",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Focus is environmental sustainability of training, not conversational governance.",
+      "excerpt": "We argue for the training of LLMs in a way that is responsible and sustainable by suggesting measures for reducing carbon emissions",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM applications mentioned include translation and smart assistants, but governance is not addressed.",
+      "excerpt": "From language translation to smart assistants, the application of large language models (LLMs) in our daily lives has greatly increased",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Ethical discussion concerns environmental risks of large models, not regulated-domain accountability.",
+      "excerpt": "Prior work highlight the ethical and envi- ronmental risks of excessively large language models",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational governance, compliance, audit, or human oversight content appears in provided text.",
+      "excerpt": "Keywords Natural language processing (NLP) · Greenhouse gas emissions · Environmental damage · Large language models (LLMs)",
+      "page": "1",
+      "section": "keywords",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors claim sustainable training may preserve model robustness and performance.",
+      "excerpt": "training more environmentally safe AI models without sacrificing their robustness and performance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

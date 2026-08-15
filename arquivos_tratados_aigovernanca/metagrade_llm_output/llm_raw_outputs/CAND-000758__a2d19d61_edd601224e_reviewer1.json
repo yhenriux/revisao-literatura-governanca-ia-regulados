@@ -1,0 +1,202 @@
+{
+  "bibliographic": {
+    "title": "Reporting Guidelines for Artificial Intelligence Studies in Healthcare (for Both Conventional and Large Language Models): What's New in 2024",
+    "authors": "Seong Ho Park, Chong Hyun Suh",
+    "year": "2024",
+    "venue": "Korean J Radiol",
+    "doi": "10.3348/kjr.2024.0598",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Park, S. H., & Suh, C. H. (2024). Reporting Guidelines for Artificial Intelligence Studies in Healthcare (for Both Conventional and Large Language Models): What's New in 2024. Korean Journal of Radiology, 25(8), 687-690. https://doi.org/10.3348/kjr.2024.0598"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "editorial narrative review",
+    "study_design": "editorial",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare; radiology; medicine",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Reporting guidelines for AI and LLM studies in healthcare (TRIPOD+AI, CLAIM 2024, CHART in development); recommendations for transparency and reproducibility in LLM research reporting including chatbots and prompting"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "regulated_healthcare",
+      "llm_mention",
+      "chatbot_mention",
+      "transparency_reporting"
+    ],
+    "exclusion_codes": [
+      "no_operational_governance",
+      "no_deployed_conversational_system",
+      "reporting_guideline_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed editorial summarizing 2024 updates to healthcare AI reporting guidelines (TRIPOD+AI, CLAIM) and offering minimum recommendations for LLM study reporting, including LLM-linked chatbots and CHART. It addresses transparency and reproducibility in research reporting rather than operational conversational governance, guardrails, oversight, audit, or compliance of deployed LLM conversational systems in regulated settings. Relevant as foundational/contextual evidence on reporting transparency for LLM chatbot studies in healthcare.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage scored central_candidate (90.67/A), but the full text is an editorial on research reporting guidelines, not empirical or operational conversational governance; adjudication should confirm foundational vs supporting classification."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Editorial without empirical sampling or primary data collection; appraised as narrative guideline synthesis. Strengths: clear objectives, structured recommendations (Table 2), citation of established guidelines. Weaknesses for governance review: no evaluation of deployed conversational systems, oversight mechanisms, or operational risk controls."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Coherent editorial synthesis with explicit LLM and chatbot reporting recommendations in a regulated healthcare context. Limited direct relevance to operational conversational governance because focus is research reporting quality, not deployment supervision, audit, or compliance controls."
+  },
+  "coding": {
+    "open_codes": [
+      "reporting_guidelines",
+      "research_transparency",
+      "LLM_reporting",
+      "chatbot_reporting",
+      "healthcare_AI",
+      "prompting_transparency",
+      "test_data_independence",
+      "stochasticity_reporting"
+    ],
+    "axial_codes": [
+      "research_integrity",
+      "transparency_standards",
+      "regulated_healthcare_AI"
+    ],
+    "theme": "Transparency and reproducibility standards for reporting healthcare AI and LLM research",
+    "subtheme": "LLM and chatbot study reporting recommendations",
+    "concepts": [
+      "TRIPOD+AI",
+      "CLAIM 2024",
+      "CHART",
+      "prompting transparency",
+      "data leakage disclosure",
+      "stochasticity reporting",
+      "LLM-linked chatbots"
+    ],
+    "model_layers": [
+      "knowledge/reporting standards"
+    ],
+    "rq_alignment": [
+      "transparency in regulated LLM contexts",
+      "chatbot research quality",
+      "healthcare compliance via reporting standards"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Updated healthcare AI reporting guidelines (TRIPOD+AI, CLAIM 2024) address model development and performance reporting, while separate minimum recommendations are needed for LLM studies—including chatbot evaluations—covering test data independence, prompt transparency, stochasticity, and session design.",
+    "contribution": "Concise 2024 update on healthcare AI reporting guidelines and actionable minimum recommendations (Table 2) to improve transparency and reproducibility in LLM research reports, including LLM-linked chatbots via emerging CHART.",
+    "limitations": "Editorial format without systematic review methods; does not address operational governance, deployment monitoring, human oversight, or audit of live conversational systems; several issues noted as still unaddressed in latest guideline updates.",
+    "use_in_review": "Use as foundational/contextual evidence on transparency and reporting standards for LLM and chatbot studies in regulated healthcare; not central evidence for operational conversational governance frameworks."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed editorial in Korean Journal of Radiology, 2024",
+      "excerpt": "Korean J Radiol 2024;25(8):687-690 eISSN 2005-8330 https://doi.org/10.3348/kjr.2024.0598 Editorial",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors are Seong Ho Park and Chong Hyun Suh",
+      "excerpt": "Seong Ho Park, Chong Hyun Suh Department of Radiology and Research Institute of Radiology, University of Ulsan College of Medicine, Asan Medical Center, Seoul, Republic of Korea",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Article summarizes reporting guideline updates and offers LLM-specific reporting recommendations",
+      "excerpt": "This brief article aims to provide a concise summary of the key updates to these guidelines for 2024",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Covers LLMs and specific recommendations for reporting LLM studies",
+      "excerpt": "it covers the prospects of developing reporting guidelines for studies on large multimodal models, more frequently referred to as large language models (LLMs), and offers specific recommendations for reporting on LLM studies",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated healthcare domain",
+      "excerpt": "Keywords: Artificial intelligence; Deep learning; Large language model; Large multimodal model; Chatbot; Reporting guideline; TRIPOD+AI; CLAIM; Healthcare; Medicine; Radiology",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "CHART guideline is being developed for LLM-linked chatbots",
+      "excerpt": "a guideline named the CHatbot Assessment Reporting Tool (CHART) is being developed for studies to evaluate the performance of LLM-linked chatbots in summarizing evidence and providing clinical advice",
+      "page": "3",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Minimum recommendations target transparency and reproducibility in LLM reporting",
+      "excerpt": "Table 2. Minimum recommendations for improving transparency and reproducibility in reporting research studies of large language models",
+      "page": "3",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Prompt transparency requirement for LLM studies",
+      "excerpt": "Researchers should provide the full text of the prompts used, along with the",
+      "page": "3",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Complete prompt transparency is essential due to output sensitivity",
+      "excerpt": "Given the sensitivity of LLM outputs to prompt variations, complete transparency regarding prompts is essential",
+      "page": "3",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Chat session design must be reported because prior interactions influence responses",
+      "excerpt": "These distinctions are important because LLM responses are influenced by prior interactions within a session",
+      "page": "3",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Example cites ChatGPT-4 evaluated on radiology questions",
+      "excerpt": "Kim et al. [14] demonstrated an example of rigorous reporting, in which ChatGPT-4 was evaluated using 87 standard exam-style radiology questions",
+      "page": "3",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "TRIPOD+AI and CLAIM 2024 focus on model development and performance reporting",
+      "excerpt": "Both guidelines focus on evaluating model development and performance",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Important issues remain unaddressed in latest updates",
+      "excerpt": "while also addressing important issues that remain unaddressed in the latest updates",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    }
+  ]
+}

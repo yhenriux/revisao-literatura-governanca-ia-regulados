@@ -1,0 +1,202 @@
+{
+  "bibliographic": {
+    "title": "The Role of Artificial Intelligence in Strengthening Risk Compliance and Driving Financial Innovation in Banking",
+    "authors": "Srinivasarao Paleti",
+    "year": "2022",
+    "venue": "International Journal of Science and Research (IJSR)",
+    "doi": "10.21275/SR22123165037",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Paleti, S. (2022). The role of artificial intelligence in strengthening risk compliance and driving financial innovation in banking. International Journal of Science and Research, 11(12). https://doi.org/10.21275/SR22123165037"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "narrative conceptual overview",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "banking / financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "General AI, machine learning, NLP, chatbots, generative AI, and large language models discussed within banking risk compliance, fraud detection, customer engagement, and regulatory compliance contexts"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_primary_focus",
+      "insufficient_conversational_governance_focus",
+      "insufficient_llm_governance_focus",
+      "no_empirical_or_dedicated_method"
+    ],
+    "exclusion_reason": "The article is a broad conceptual overview of AI for risk compliance and financial innovation in banking. Mentions of chatbots, NLP, generative AI, and large language models are brief and peripheral; it does not centrally address conversational governance of LLM-based systems.",
+    "decision_rationale": "Although the paper touches regulated banking, compliance, oversight, transparency, chatbots, generative AI, and large language models, its primary contribution is a general discussion of AI-enabled banking innovation and risk control rather than governance of conversational LLM systems. No dedicated study design, sample, or framework for conversational AI governance is presented in the provided text.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Metadata year (2021) conflicts with journal issue date (December 2022); abstract and several passages appear garbled or corrupted, limiting reliable appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 1,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 1,
+    "limitations_transparency": 0,
+    "evidence_support": 1,
+    "transferability": 2,
+    "notes": "Conceptual banking-AI overview without reported empirical methods, sampling, data collection, or systematic analysis. Provided excerpts do not describe study limitations or ethics. Text quality issues reduce confidence in full-text interpretation."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 1,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Low confidence for the review topic because conversational governance of LLM systems is not a central or coherently developed focus; the paper offers only incidental mentions amid a general banking-AI narrative."
+  },
+  "coding": {
+    "open_codes": [
+      "banking AI adoption",
+      "risk compliance",
+      "financial innovation",
+      "fraud detection",
+      "RegTech",
+      "customer engagement",
+      "chatbots",
+      "NLP",
+      "generative AI mention",
+      "LLM mention",
+      "regulatory transparency",
+      "AI governance requirements"
+    ],
+    "axial_codes": [
+      "regulated financial services",
+      "AI-enabled risk management",
+      "peripheral conversational AI",
+      "peripheral generative AI governance"
+    ],
+    "theme": "AI for risk compliance and innovation in banking",
+    "subtheme": "incidental references to chatbots, generative AI, and LLMs",
+    "concepts": [
+      "risk compliance",
+      "financial innovation",
+      "machine learning",
+      "chatbots",
+      "natural language processing",
+      "generative AI",
+      "large language models",
+      "transparency",
+      "governance",
+      "AIA regulation"
+    ],
+    "model_layers": [
+      "policy/regulation",
+      "organizational banking operations",
+      "AI technology applications"
+    ],
+    "rq_alignment": [
+      "regulated domain context",
+      "partial technology overlap",
+      "weak conversational governance alignment",
+      "weak LLM governance alignment"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Artificial intelligence can strengthen risk compliance and drive financial innovation in banking through applications such as fraud detection, customer engagement, real-time monitoring, and regulatory compliance support.",
+    "contribution": "Provides a broad conceptual framing of AI use in banking risk and innovation, with brief references to chatbots, generative AI, LLMs, and regulatory transparency requirements.",
+    "limitations": "No empirical evaluation; conversational governance and LLM-specific governance are not developed as core topics; provided text lacks clear methodological reporting and contains corrupted passages.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance in LLM-based regulated systems; at most marginal contextual background on banking AI regulation and brief technology mentions."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article published in IJSR December 2022.",
+      "excerpt": "Volume 11 Issue 12, December 2022 Fully Refereed | Open Access | Double Blind Peer Reviewed Journal",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Author is Srinivasarao Paleti.",
+      "excerpt": "Srinivasarao Paleti Assistant Consultant Email: srinivaassarao[at]gmail.com ORCID ID: 0009-0001-2495-7793",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Paper presents a conceptual overview of AI in banking rather than an empirical study.",
+      "excerpt": "This paper outlines how Artificial Intelligence (AI) augmented intelligence is changing the way the banking sector is doing business today.",
+      "page": "3",
+      "section": "Artificial Intelligence: An Overview",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Primary focus is AI for risk compliance and financial innovation in banking.",
+      "excerpt": "The introduction of artificial intelligence (AI) provides enhanced opportunities for financial innovation in banking, while concurrently promoting various forms of risk compliance in the financial services industry.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Chatbots and NLP are mentioned as customer interaction AI, not as a governance focus.",
+      "excerpt": "AI in the financial sector enables banks to deliver letters to customers via interaction AI by creating artificial chatbots that understand natural language processing.",
+      "page": "4",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Large language models are mentioned only briefly in a customer personalization context.",
+      "excerpt": "banks are likely to gain early mover's advantages by customizing through fine-tuning large language models to cater to the demands of individual customers",
+      "page": "9",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs are discussed as a risk example, not as an object of conversational governance.",
+      "excerpt": "Large language models are an example of the newly developed AI technologies that promulgated misunderstanding and conspiracy theories on unprecedented scale in a matter of days.",
+      "page": "10",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Generative AI governance is referenced in relation to AIA regulation and transparency, but not conversational governance specifically.",
+      "excerpt": "Transparency in participation and executed practices is however a prerequisite to avoid that one side is profiting on another’s expense, which is regarded as essential in context of the AIA regulation due to generative AI applications.",
+      "page": "14",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Paper discusses governing AI operations generally, including architecture, KPIs, testing, and troubleshooting.",
+      "excerpt": "A comprehensive regime describing cohesively how AI (operations) work, with regard to architecture, KPIs, testing, and troubleshooting is another essential requirement.",
+      "page": "14",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated banking/compliance context is explicit.",
+      "excerpt": "Keywords: Artificial Intelligence (AI), Risk Compliance, Financial Innovation, RegTech (Regulatory Technology), Machine Learning (ML), Fraud Detection, Predictive Analytics, Banking Automation, Regulatory Compliance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No sample or empirical study design is reported in the provided text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Main synthesis claim about AI strengthening compliance and innovation in banking.",
+      "excerpt": "The introduction of artificial intelligence (AI) provides enhanced opportunities for financial innovation in banking, while concurrently promoting various forms of risk compliance in the financial services industry.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "synthesis"
+    }
+  ]
+}

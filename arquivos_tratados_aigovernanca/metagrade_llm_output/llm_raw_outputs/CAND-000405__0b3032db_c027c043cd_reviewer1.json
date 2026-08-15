@@ -1,0 +1,197 @@
+{
+  "bibliographic": {
+    "title": "The Global Majority in International AI Governance",
+    "authors": "Chinasa T. Okolo; Mubarak Raji",
+    "year": "2023",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "book",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Okolo, C. T., & Raji, M. (2023). The Global Majority in international AI governance. Venue unclear."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "policy and governance analysis through conceptual lens",
+    "study_design": "conceptual book chapter with policy and regulatory landscape review",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "international AI governance and development policy",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Broad AI governance, national and regional AI strategies, and references to prominent models including ChatGPT, GPT-4, DALL-E, and Claude as examples of Global North dominance"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_review",
+    "inclusion_codes": [
+      "AI_governance",
+      "regulated_context_policy",
+      "bias_fairness_ethics",
+      "risk_regulation"
+    ],
+    "exclusion_codes": [
+      "insufficient_conversational_governance_focus",
+      "insufficient_operational_llm_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The text is a conceptual chapter on international AI governance and the Global AI Divide, with emphasis on inequities in development, regulation, and participation of Global Majority countries. It references generative AI and models such as ChatGPT and GPT-4 only as illustrations of infrastructure and development asymmetries, and discusses national AI bills, risk-based regulation, and ethical deployment at policy level. It does not address conversational AI systems, operational governance mechanisms such as guardrails, RAG, observability, tracing, human handoff, or post-deployment monitoring of LLM-based conversational systems in regulated environments.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated triage scored the item as a central candidate largely due to governance and LLM keyword hits, but full-text review shows no substantive focus on conversational or operational LLM governance."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Clear conceptual objective and structured policy-oriented argument, but no empirical sample, no explicit systematic review or data-collection protocol, and limited discussion of study limitations in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The chapter coherently links the Global AI Divide to governance exclusion and policy responses, but its conceptual policy-analysis design offers limited direct evidence for operational conversational LLM governance in regulated settings."
+  },
+  "coding": {
+    "open_codes": [
+      "Global AI Divide",
+      "Global Majority exclusion",
+      "Western dominance in AI governance",
+      "national AI strategies",
+      "soft law and draft legislation",
+      "risk-based AI regulation",
+      "ethical deployment principles",
+      "technological dependency",
+      "bias and power imbalances"
+    ],
+    "axial_codes": [
+      "macro-level AI governance",
+      "equity and participation",
+      "regulatory and legislative frameworks",
+      "development and infrastructure inequality"
+    ],
+    "theme": "International AI governance equity",
+    "subtheme": "Global Majority participation in AI regulation and policy",
+    "concepts": [
+      "Global AI Divide",
+      "technological colonialism",
+      "responsible AI",
+      "risk-based regulation",
+      "soft law",
+      "ethical AI deployment"
+    ],
+    "model_layers": [
+      "policy",
+      "regulatory",
+      "institutional"
+    ],
+    "rq_alignment": [
+      "background on AI governance in regulated contexts",
+      "bias fairness and accountability at policy level",
+      "weak alignment to conversational LLM operational governance"
+    ],
+    "coding_confidence": 0.84
+  },
+  "synthesis": {
+    "main_claim": "International AI governance is dominated by Western nations and corporations, sidelining Global Majority priorities and perpetuating dependency, while national and regional strategies may offer pathways toward more inclusive governance.",
+    "contribution": "Provides a Global AI Divide lens for analyzing inequities in AI development, innovation, and regulation, and synthesizes emerging policy responses and recommendations for democratizing AI governance.",
+    "limitations": "Conceptual and policy-focused rather than empirical; limited operational detail on AI system deployment controls; generative and conversational AI are referenced peripherally rather than analyzed as governed conversational systems.",
+    "use_in_review": "Use as foundational contextual evidence on international and national AI governance, regulation, bias, and risk framing in Global Majority contexts; not suitable as central evidence for conversational governance of LLM-based systems."
+  },
+  "evidence": [
+    {
+      "claim": "Publication is a book chapter examining international AI governance through the Global AI Divide lens.",
+      "excerpt": "This chapter examines the global governance of artificial intelligence (AI) through the lens of the Global AI Divide",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors are identifiable from front matter.",
+      "excerpt": "Chinasa T. Okolo, Ph.D., Technecultura1 Mubarak Raji, School of Information Sciences, University of Illinois Urbana-Champaign2",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Study is conceptual policy analysis, not empirical.",
+      "excerpt": "In this chapter, we classify the “Global Majority” as countries within Africa, Asia, the Caribbean, Latin America, and Oceania",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLMs are mentioned as examples of development divide, not as the governance focus.",
+      "excerpt": "Well-resourced companies in the Global North predominantly create models like GPT-4, DALL-E, and Claude.",
+      "page": "6",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "ChatGPT is cited as an example of high training cost, not conversational governance.",
+      "excerpt": "the costs to train prominent AI models like Gemini, ChatGPT, and DALL-E are in the millions of dollars",
+      "page": "6",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Generative AI appears in discussion of national governance frameworks.",
+      "excerpt": "Interim Measures for the Management of Generative AI Services (IAPP, 2024).",
+      "page": "12",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated-domain content is at legislative and policy level.",
+      "excerpt": "the Control of Usage of Artificial Intelligence Technology in Nigeria Bill, 2023 (HB.942), seeks to ensure the ethical deployment of AI in Nigeria to enhance societal safety.",
+      "page": "9",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Risk-based regulation is discussed comparatively.",
+      "excerpt": "takes a risk-based approach to AI regulation like the EU AI Act",
+      "page": "12",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Bias and governance exclusion are central themes.",
+      "excerpt": "Global North-focused AI governance frameworks, such as the EU AI Act, Global Partnership on Artificial Intelligence (GPAI) Principles, and OECD AI Principles, are gaining momentum without the inclusion of most Global Majority countries",
+      "page": "7",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Objective is clearly stated with actionable recommendations.",
+      "excerpt": "The chapter concludes with actionable recommendations to democratize AI governance for Majority World countries",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational AI operational governance mechanisms are described in the provided text.",
+      "excerpt": "Keywords: AI governance, responsible AI, global development, technology regulation, digital infrastructure, global majority",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Deployment is discussed in policy bills, not technical conversational controls.",
+      "excerpt": "Regulate the Development, Deployment, and use of Artificial Intelligence in Nigeria and for Related Matters",
+      "page": "9",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

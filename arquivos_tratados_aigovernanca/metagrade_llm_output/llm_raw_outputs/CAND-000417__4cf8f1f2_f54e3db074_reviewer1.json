@@ -1,0 +1,171 @@
+{
+  "bibliographic": {
+    "title": "A comprehensive review of large language models: issues and solutions in learning environments",
+    "authors": "Tariq Shahzad; Tehseen Mazhar; Muhammad Usman Tariq; Wasim Ahmad; Khmaies Ouahada; Habib Hamam",
+    "year": "2025",
+    "venue": "Discover Sustainability",
+    "doi": "10.1007/s43621-025-00815-8",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Shahzad, T., Mazhar, T., Tariq, M. U., Ahmad, W., Ouahada, K., & Hamam, H. (2025). A comprehensive review of large language models: Issues and solutions in learning environments. Discover Sustainability, 6, 27. https://doi.org/10.1007/s43621-025-00815-8"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "literature review",
+    "study_design": "comprehensive review with proposed theoretical framework",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "education",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models (including ChatGPT-4) applied in digital and higher education learning environments"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_EDUCATION",
+      "ETHICAL_GOVERNANCE_THEMES",
+      "THEORETICAL_FRAMEWORK"
+    ],
+    "exclusion_codes": [
+      "CONVERSATIONAL_GOVERNANCE_NOT_EVIDENT",
+      "LIMITED_REGULATED_COMPLIANCE_DETAIL"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed comprehensive review focused on LLMs in education, proposing a theoretical integration framework and addressing ethical barriers such as data privacy and bias. Provided text supports relevance to regulated learning contexts and generic governance concerns, but does not substantiate a primary focus on conversational governance, conversational systems, observability, audit, or compliance mechanisms required for central evidence in this review scope.",
+    "decision_confidence": 0.68,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter (pages 1-2) was supplied; full review methods, case studies, and governance solutions cannot be verified."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Abstract and introduction clearly state aims and education focus, but supplied text does not describe review search strategy, inclusion criteria, corpus size, or analytical procedure beyond claiming a systematic analysis."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "low",
+    "explanation": "Coherent framing of LLM issues in education and ethical challenges is present, but methodological detail and governance-specific findings are insufficient in the provided excerpts to support high-confidence synthesis."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM_in_education",
+      "ethical_challenges",
+      "data_privacy",
+      "bias",
+      "theoretical_framework",
+      "personalization",
+      "adaptability",
+      "overreliance_on_AI"
+    ],
+    "axial_codes": [
+      "EDUCATION_APPLICATION",
+      "ETHICAL_RISK_MITIGATION",
+      "INTEGRATION_FRAMEWORK"
+    ],
+    "theme": "LLM adoption and ethical integration in learning environments",
+    "subtheme": "barriers and solutions for privacy, bias, and pedagogical concerns",
+    "concepts": [
+      "large language models",
+      "theoretical framework",
+      "data privacy",
+      "bias",
+      "personalization",
+      "teaching-learning process"
+    ],
+    "model_layers": [
+      "policy_ethics",
+      "application_domain"
+    ],
+    "rq_alignment": [
+      "LLM governance themes in regulated education",
+      "ethical and risk barriers to LLM deployment"
+    ],
+    "coding_confidence": 0.62
+  },
+  "synthesis": {
+    "main_claim": "LLMs can transform education, but their integration requires a structured framework that addresses personalization, ethical concerns, adaptability, data privacy, and bias.",
+    "contribution": "Provides a comprehensive review of LLMs in learning environments and proposes a novel theoretical framework with practical case studies and solutions to educational barriers.",
+    "limitations": "Supplied text does not document review methodology, sample of studies, or detailed governance mechanisms; conversational-AI-specific governance is not evidenced.",
+    "use_in_review": "Use as supporting evidence on ethical and practical barriers to LLM use in regulated education settings; not sufficient as central evidence for conversational governance architecture or operational controls."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal review on LLMs in education published in 2025.",
+      "excerpt": "Discover Sustainability Review A comprehensive review of large language models: issues and solutions in learning environments",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study proposes a theoretical framework for LLM integration in education.",
+      "excerpt": "A novel theoretical framework is proposed to guide the integration of LLMs into education",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Addresses ethical governance concerns including data privacy and bias.",
+      "excerpt": "solutions to barriers, such as data privacy and bias",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Claims systematic analysis but methods are not described in provided text.",
+      "excerpt": "By providing a systematic analysis and proposing a structured framework",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Focuses on regulated learning context of education.",
+      "excerpt": "their application in education, including digital and higher education settings",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "References specific LLM technology example.",
+      "excerpt": "A notable example is ChatGPT-4, which represents the state-of-the-art in LLM development",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Identifies ethical and practical challenges relevant to governance.",
+      "excerpt": "critical ethical and practical challenges, such as data privacy, bias, overreliance on AI, and pedagogical concerns",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Notes gap in theoretical frameworks for effective LLM integration.",
+      "excerpt": "there is a lack of theoretical frameworks that outline how LLMs can be effectively integrated",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No explicit conversational governance, chatbot, audit, or compliance mechanism focus in provided text.",
+      "excerpt": "respond to questions, and perform complex tasks",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

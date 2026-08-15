@@ -1,0 +1,180 @@
+{
+  "bibliographic": {
+    "title": "A Categorical Archive of ChatGPT Failures",
+    "authors": "Ali Borji",
+    "year": "2023",
+    "venue": "Research Square",
+    "doi": "10.21203/rs.3.rs-2895792/v1",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Borji, A. (2023). A categorical archive of ChatGPT failures. Research Square. https://doi.org/10.21203/rs.3.rs-2895792/v1"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "descriptive failure taxonomy based on ChatGPT interaction examples",
+    "study_design": "categorical archive of observed ChatGPT failures",
+    "sample_description": "ChatGPT responses and interaction examples organized into failure categories",
+    "sample_size": "unclear",
+    "sector": "general cross-domain",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "ChatGPT; large language models; chatbots; dialogue systems; conversational agents; question answering"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_conversational_system",
+      "failure_risk_analysis",
+      "bias_and_limitations"
+    ],
+    "exclusion_codes": [
+      "no_operational_governance_focus",
+      "no_regulated_domain_context",
+      "incomplete_full_text_in_corpus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly analyzes ChatGPT as a conversational dialogue system and catalogs eleven failure categories including reasoning, factual errors, math, coding, and bias, while highlighting risks, limitations, and societal implications. This supports risk-oriented governance discussion, but the provided text does not evidence operational governance mechanisms, regulated-domain deployment, audit/compliance controls, or human oversight frameworks.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial sections were supplied; full methodology, complete failure taxonomy, sampling procedure, and governance-relevant implications require verification in the full PDF."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Objective is clearly stated, but the excerpt does not describe systematic sampling, inclusion criteria for prompts, or analytic procedures beyond categorical presentation. Limitations about model versioning are acknowledged."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The study offers a coherent failure-oriented account of ChatGPT relevant to conversational AI risk, but available text provides limited detail on data collection rigor, sample scope, and governance mechanisms, reducing confidence for central evidentiary use."
+  },
+  "coding": {
+    "open_codes": [
+      "chatgpt_failures",
+      "failure_categories",
+      "conversational_dialogue_system",
+      "risks_and_limitations",
+      "bias_in_outputs",
+      "reasoning_failures"
+    ],
+    "axial_codes": [
+      "LLM_failure_modes",
+      "conversational_AI_risk_identification",
+      "model_limitations_and_societal_implications"
+    ],
+    "theme": "Taxonomy of failures in ChatGPT conversational interactions",
+    "subtheme": "Risk and limitation catalog for dialogue-system LLMs",
+    "concepts": [
+      "reasoning failures",
+      "factual errors",
+      "math failures",
+      "coding failures",
+      "bias",
+      "risks",
+      "limitations",
+      "societal implications"
+    ],
+    "model_layers": [
+      "model_behavior",
+      "output_quality",
+      "failure_mode_catalog"
+    ],
+    "rq_alignment": [
+      "risk_identification_in_conversational_LLMs",
+      "failure_taxonomy_for_governance_context"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "ChatGPT exhibits recurring failures across eleven categories, and a structured archive of these failures is needed to understand risks, limitations, and societal implications of conversational LLMs.",
+    "contribution": "Provides a categorical archive of ChatGPT failure types to help researchers and developers improve future language models and chatbots.",
+    "limitations": "Failures may no longer exist in newer ChatGPT versions as the technology improves; the archive is positioned for comparison and synthetic data generation rather than as a governance framework.",
+    "use_in_review": "Use as supporting evidence on conversational LLM failure modes and risk/limitation themes; not sufficient as central evidence on conversational governance, compliance, or operational controls in regulated settings."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on ChatGPT failures in a conversational system context",
+      "excerpt": "However, a comprehensive analysis of ChatGPT’s failures is lacking, which is the focus of this study.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Eleven failure categories are presented, including bias and reasoning",
+      "excerpt": "Eleven categories of failures, including reasoning, factual errors, math, coding, and bias, are presented and discussed.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Risks, limitations, and societal implications are highlighted",
+      "excerpt": "The risks, limitations, and societal implications of ChatGPT are also highlighted.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "ChatGPT is framed as a question-and-answer dialogue system",
+      "excerpt": "ChatGPT has quickly gained recognition as a well-known question-and-answer dialogue system",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study goal is to assist improvement of future language models and chatbots",
+      "excerpt": "The goal of this study is to assist researchers and developers in enhancing future language models and chatbots.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors acknowledge temporal limitation of failure examples",
+      "excerpt": "Failures may no longer exist in the newer versions of ChatGPT as the technology continues to improve.",
+      "page": "3",
+      "section": "limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Archive may support model comparison and synthetic data generation",
+      "excerpt": "This archive of failures can serve as a basis for comparison between models and also generate synthetic data for model training and testing.",
+      "page": "3",
+      "section": "limitations",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Reasoning failures are discussed using LLM assessment framing",
+      "excerpt": "The NLP community typically assesses LLMs based on diﬀerent types of reasoning skills, such as arithmetic reasoning, commonsense reasoning, logical reasoning, symbolic reasoning, and multimodal reasoning.",
+      "page": "3",
+      "section": "2.1 Reasoning",
+      "supports": "coding"
+    },
+    {
+      "claim": "Data collection appears based on prompting ChatGPT",
+      "excerpt": "I asked ChatGPT whether it can understand logic.",
+      "page": "7",
+      "section": "limitations",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No operational governance mechanisms are evidenced in supplied text",
+      "excerpt": "The goal of this study is to assist researchers and developers in enhancing future language models and chatbots.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "bibliographic": {
+    "title": "Large language models in patient education for brain tumors: opportunities, risks, and ethical considerations",
+    "authors": "Rafail C. Christodoulou, Platon S. Papageorgiou, Ana Carolina Lucio Pereira, Elena E. Solomou, Sokratis G. Papageorgiou, Evros Vassiliou, Michalis F. Georgiou",
+    "year": "2026",
+    "venue": "Frontiers in Oncology",
+    "doi": "10.3389/fonc.2026.1795441",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Christodoulou, R. C., Papageorgiou, P. S., Lucio Pereira, A. C., Solomou, E. E., Papageorgiou, S. G., Vassiliou, E., & Georgiou, M. F. (2026). Large language models in patient education for brain tumors: opportunities, risks, and ethical considerations. Frontiers in Oncology, 16, 1795441. https://doi.org/10.3389/fonc.2026.1795441"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "narrative review",
+    "study_design": "narrative review with literature synthesis using controlled vocabulary and keyword search for transformer-based LLM studies after 2020",
+    "sample_description": "Evidence from neuro-oncology, radiology, and digital health literature on LLMs for patient education in brain tumors",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLMs and AI chatbots for explaining imaging results, diagnoses, and treatment options in patient-centered language under clinician supervision"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM",
+      "healthcare_regulated",
+      "governance_oversight",
+      "conversational_interface",
+      "ethical_risk"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Narrative review focused primarily on LLM-supported patient education in neuro-oncology, but it explicitly addresses governance, oversight, clinician supervision, privacy, ethical risks, and proposes a clinician-guided framework for responsible integration. Relevant to regulated LLM use and human oversight, yet not centered on conversational governance as the main object of study.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial full text provided; number of included studies and complete review methodology not visible in supplied excerpts."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Clear narrative-review objective and ethical framing are present. Search terms and post-2020 inclusion criterion are described, but the supplied text does not report the number of included studies or a full critical appraisal protocol for source studies."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The review coherently links LLM opportunities and risks in regulated healthcare education and proposes supervised integration, but available excerpts are incomplete and the narrative design limits methodological certainty."
+  },
+  "coding": {
+    "open_codes": [
+      "patient education",
+      "brain tumors",
+      "clinician supervision",
+      "hallucinations",
+      "data privacy",
+      "health literacy",
+      "AI chatbot",
+      "ethical challenges"
+    ],
+    "axial_codes": [
+      "human oversight",
+      "responsible AI integration",
+      "clinical education governance",
+      "conversational patient interaction"
+    ],
+    "theme": "Responsible LLM use for patient education in regulated neuro-oncology settings",
+    "subtheme": "Clinician-guided framework with governance and oversight",
+    "concepts": [
+      "governance",
+      "oversight",
+      "clinician supervision",
+      "ethical standards",
+      "privacy",
+      "hallucinations",
+      "chatbots",
+      "patient education"
+    ],
+    "model_layers": [
+      "human-in-the-loop supervision",
+      "ethical and compliance alignment",
+      "patient-facing conversational interface"
+    ],
+    "rq_alignment": [
+      "governance_accountability",
+      "human_oversight_contestation",
+      "regulated_high_stakes",
+      "llm_genai",
+      "conversational_ai",
+      "risk_audit_compliance"
+    ],
+    "coding_confidence": 0.8
+  },
+  "synthesis": {
+    "main_claim": "Under clinician supervision, LLMs may improve patient understanding and engagement in brain tumor care, but safe implementation requires structured governance, oversight, and ethical alignment.",
+    "contribution": "Synthesizes neuro-oncology, radiology, and digital health evidence on LLM-assisted patient education and proposes a clinician-guided framework for responsible integration.",
+    "limitations": "Supplied text is partial; narrative review design; brain tumor domain specificity; exact corpus size and appraisal of primary studies are unclear.",
+    "use_in_review": "Use as supporting evidence on governance, oversight, ethical risks, and supervised conversational LLM deployment in regulated healthcare, especially patient education contexts."
+  },
+  "evidence": [
+    {
+      "claim": "Study is a narrative review on LLMs in brain tumor patient education.",
+      "excerpt": "Objective: This narrative review evaluates the role of large language models (LLMs) in supporting patient education for individuals with brain tumors.",
+      "page": "1",
+      "section": "background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Article addresses governance and oversight for safe LLM implementation.",
+      "excerpt": "Safe implementation will require structured governance, oversight, and alignment with ethical standards.",
+      "page": "1",
+      "section": "conclusion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Proposes clinician-guided responsible integration framework.",
+      "excerpt": "A clinician-guided framework for responsible integration is proposed.",
+      "page": "1",
+      "section": "conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLMs should be used under clinician supervision as educational support tools.",
+      "excerpt": "When used under clinician supervision as educational support tools, LLMs may enhance patient understanding and engagement in brain tumor care.",
+      "page": "1",
+      "section": "conclusion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Review discusses key LLM risks including privacy and ethical challenges.",
+      "excerpt": "Key limitations are also discussed, including hallucinations, output variability, overtrust, data privacy concerns, and ethical challenges.",
+      "page": "1",
+      "section": "background",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Specific LLMs such as ChatGPT-4 are discussed.",
+      "excerpt": "none of the patient materials on brain tumor prognosis, whether online or generated by ChatGPT-4, met the recommended readability standards",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Search strategy targeted transformer-based LLM literature after 2020.",
+      "excerpt": "ensuring inclusion of contemporary studies on transformer-based LLMs after 2020.",
+      "page": "3",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Search terms included LLM, ChatGPT, GPT-4, patient education, and brain tumor terms.",
+      "excerpt": "including variations of: \"large language model,\" \"ChatGPT,\" \"GPT-4,\" \"artificial intelligence,\" \"patient education,\" \"health literacy,\" \"oncology communication,\" \"brain tumor,\" \"glioma,\"",
+      "page": "3",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "AI chatbots enable scalable conversational patient interaction.",
+      "excerpt": "while a doctor can see only a limited number of patients, an AI chatbot can interact with many patients simultaneously throughout the day",
+      "page": "3",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Framework figure describes LLM-assisted education under clinician supervision.",
+      "excerpt": "Large language models transform radiotherapy and imaging data into simplified, personalized, and accessible patient-centered educational content under clinician supervision",
+      "page": "5",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Article is peer reviewed and published in Frontiers in Oncology.",
+      "excerpt": "REVIEWED BY Qazi Zeeshan, University of Pittsburgh Medical Center, United States Troy Teo, Northwestern Medicine, United States",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated healthcare context is explicit.",
+      "excerpt": "Patients with brain tumors often struggle to understand their condition because of complex imaging findings, multidisciplinary care pathways",
+      "page": "1",
+      "section": "background",
+      "supports": "methodology"
+    }
+  ]
+}

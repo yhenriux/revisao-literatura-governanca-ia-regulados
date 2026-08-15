@@ -1,0 +1,231 @@
+{
+  "bibliographic": {
+    "title": "Ethical Considerations in Personal Health Large Language Models",
+    "authors": "Jialin Liu; Siru Liu",
+    "year": "2026",
+    "venue": "Journal of Medical Internet Research",
+    "doi": "10.2196/92240",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Liu, J., & Liu, S. (2026). Ethical considerations in personal health large language models. Journal of Medical Internet Research, 28, e92240. https://doi.org/10.2196/92240"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "viewpoint; ethics framework synthesis",
+    "study_design": "viewpoint article proposing a governance framework",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare; personal health; digital health",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "text-based, platform-mediated, dialogue-driven personal health large language models (PH-LLMs) deployed directly to consumers"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "conversational_ai",
+      "governance_accountability",
+      "regulated_high_stakes",
+      "human_oversight_contestation",
+      "risk_audit_compliance",
+      "operational_technical_governance",
+      "foundational_value"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a viewpoint focused on text-based, dialogue-driven PH-LLMs in consumer health contexts and proposes a governance framework across privacy, accuracy, equity, transparency, human-AI interaction, and regulatory governance, with implementation mechanisms such as risk-tiered certification, tiered accountability, and postdeployment oversight.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial introduction/abstract text were provided; full-text verification is needed to confirm complete framework content, methods, and limitations."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Appropriate as a conceptual viewpoint rather than an empirical study. The text states the framework is evidence-informed but partly anticipatory; no empirical sample or formal review methodology is described in the provided excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is clearly structured and highly relevant to governed conversational PH-LLMs in regulated health settings, but confidence is moderated because the provided text describes an anticipatory viewpoint without detailed empirical or systematic review methods."
+  },
+  "coding": {
+    "open_codes": [
+      "PH-LLMs",
+      "consumer-facing dialogue",
+      "clinical oversight gap",
+      "privacy",
+      "accuracy",
+      "equity",
+      "transparency",
+      "human-AI interaction",
+      "regulatory governance",
+      "health literacy",
+      "hallucination mitigation",
+      "role disclosure",
+      "granular consent",
+      "fairness auditing",
+      "risk-tiered certification",
+      "tiered accountability",
+      "postdeployment oversight",
+      "adverse-event reporting"
+    ],
+    "axial_codes": [
+      "conversational governance",
+      "regulated healthcare AI",
+      "design and deployment controls",
+      "accountability mechanisms",
+      "postdeployment monitoring"
+    ],
+    "theme": "Ethical and regulatory governance of personal health LLMs",
+    "subtheme": "Operational governance framework for dialogue-driven consumer health LLMs",
+    "concepts": [
+      "beneficence",
+      "nonmaleficence",
+      "autonomy",
+      "justice",
+      "governance",
+      "accountability",
+      "transparency",
+      "privacy",
+      "patient safety",
+      "human oversight",
+      "fairness auditing",
+      "postdeployment oversight"
+    ],
+    "model_layers": [
+      "design controls",
+      "deployment controls",
+      "implementation mechanisms",
+      "postdeployment oversight"
+    ],
+    "rq_alignment": [
+      "governance of generative AI",
+      "conversational systems in regulated health",
+      "human oversight and accountability",
+      "risk management and compliance",
+      "monitoring after deployment"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Direct-to-consumer, dialogue-driven PH-LLMs create a distinct ethical risk profile that general AI governance frameworks do not fully address, requiring a PH-LLM-specific governance framework.",
+    "contribution": "Proposes a governance framework grounded in the four principles of biomedical ethics, operationalized through design and deployment controls and implementation mechanisms including risk-tiered certification, tiered accountability, and postdeployment oversight via adverse-event reporting, transparency reporting, and independent safety evaluation.",
+    "limitations": "The framework is described as evidence-informed but partly anticipatory; full methodological limits are unclear from the provided excerpt.",
+    "use_in_review": "Use as central conceptual evidence on conversational governance, accountability, safeguards, fairness auditing, and postdeployment oversight for LLM-based personal health systems in regulated healthcare contexts."
+  },
+  "evidence": [
+    {
+      "claim": "Article type and focus on PH-LLMs",
+      "excerpt": "Viewpoint Ethical Considerations in Personal Health Large Language Models",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors and publication details",
+      "excerpt": "Jialin Liu1,2*, MD; Siru Liu3*, PhD",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "PH-LLMs are consumer-facing dialogue systems in health contexts",
+      "excerpt": "PH-LLMs are consumer-facing generative systems designed to support individuals through natural language dialogue across health-related contexts",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Focus on text-based dialogue-driven PH-LLMs without clinical oversight",
+      "excerpt": "This viewpoint focuses on text-based, dialogue-driven PH-LLMs deployed directly to consumers.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Distinct governance gap beyond general AI frameworks",
+      "excerpt": "Their direct-to-consumer use without clinical oversight creates a distinct ethical risk profile that general artificial intelligence governance frameworks do not fully address.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Six governance domains identified",
+      "excerpt": "synthesizes PH-LLM–specific challenges across 6 domains: privacy, accuracy, equity, transparency, human-artificial intelligence interaction, and regulatory governance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Framework grounded in biomedical ethics principles",
+      "excerpt": "Grounded in the 4 principles of biomedical ethics, we propose a governance framework that operationalizes beneficence, nonmaleficence, autonomy, and justice",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Design and deployment controls proposed",
+      "excerpt": "through design and deployment controls, including health literacy-aligned communication, crisis and pharmacological safeguards, hallucination mitigation, role disclosure, granular consent, fairness auditing, and accessible design.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Implementation mechanisms include certification and accountability",
+      "excerpt": "implementation mechanisms, including risk-tiered certification, tiered accountability, and postdeployment oversight through adverse-event reporting, transparency reporting, and independent safety evaluation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Framework is partly anticipatory",
+      "excerpt": "This framework is intended as an evidence-informed but partly anticipatory approach to governing PH-LLMs in personal health management.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Regulated medical device context may apply",
+      "excerpt": "Some PH-LLM functions may fall within medical device software regulation when intended for diagnostic, therapeutic, or patient-specific clinical decision support",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "High-stakes health decision influence",
+      "excerpt": "because they operate on sensitive personal information and may influence high-stakes decisions",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Distinguished from general-purpose chatbots",
+      "excerpt": "We distinguish these systems from general-purpose chatbots by their sustained health-oriented interaction, use of personal health disclosures, and potential to shape real-world health decisions.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Peer-reviewed journal publication metadata",
+      "excerpt": "(J Med Internet Res 2026;28:e92240) doi: 10.2196/92240",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    }
+  ]
+}

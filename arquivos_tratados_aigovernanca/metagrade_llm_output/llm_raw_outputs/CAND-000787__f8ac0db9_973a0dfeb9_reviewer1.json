@@ -1,0 +1,168 @@
+{
+  "bibliographic": {
+    "title": "Anthropological contributions to historical ecology: 50 questions, infinite prospects",
+    "authors": "Chelsey Geralda Armstrong, Anna C. Shoemaker, Iain McKechnie, Anneli Ekblom, Péter Szabó, Paul J. Lane, Alex C. McAlvay, Oliver J. Boles, Sarah Walshaw, Nik Petek, Kevin S. Gibbons, Erendira Quintana Morales, Eugene N. Anderson, Aleksandra Ibragimow, Grzegorz Podruczny, Jana C. Vamosi, Tony Marks-Block, Joyce K. LeCompte, Sākihitowin Awâsis, Carly Nabess, Paul Sinclair, Carole L. Crumley",
+    "year": "2017",
+    "venue": "PLOS ONE",
+    "doi": "10.1371/journal.pone.0171883",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Armstrong, C. G., Shoemaker, A. C., McKechnie, I., Ekblom, A., Szabó, P., Lane, P. J., McAlvay, A. C., Boles, O. J., Walshaw, S., Petek, N., Gibbons, K. S., Quintana Morales, E., Anderson, E. N., Ibragimow, A., Podruczny, G., Vamosi, J. C., Marks-Block, T., LeCompte, J. K., Awâsis, S., Nabess, C., Sinclair, P., & Crumley, C. L. (2017). Anthropological contributions to historical ecology: 50 questions, infinite prospects. PLOS ONE, 12(2), e0171883. https://doi.org/10.1371/journal.pone.0171883"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "consensus-driven crowdsourcing and facilitated workshops",
+    "study_design": "Deliberative consensus process combining crowdsourcing, literature reviews, online discussions, and two in-person workshops over two years to identify priority research questions",
+    "sample_description": "Historical ecology researchers and practitioners from anthropology, archaeology, and related disciplines; 47 workshop participants in Vancouver second-stage meeting",
+    "sample_size": "50 priority questions; 47 workshop participants (second-stage meeting)",
+    "sector": "academic research in anthropology, archaeology, and historical ecology",
+    "regulated_domain": "no",
+    "llm_specificity": "not_applicable",
+    "technology_context": "historical ecology, human-environment interactions, environmental resource management and policy; no AI, LLM, or conversational systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_wrong_population_technology",
+      "E2_wrong_intervention_phenomenon",
+      "E3_out_of_scope_topic"
+    ],
+    "exclusion_reason": "The article identifies priority research questions for historical ecology in anthropology and archaeology. It does not address LLMs, generative AI, conversational systems, or governance of AI in regulated environments.",
+    "decision_rationale": "Python triage matched generic terms such as governance, ethics, education, and policy in an environmental-historical context, but the full text contains no LLM, chatbot, agent, RAG, guardrails, observability, or AI accountability content. Governance references concern resource and environmental management, conservation, and Indigenous land governance, which are outside the review scope.",
+    "decision_confidence": 0.97,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is unambiguous from title, abstract, and full-text excerpts; no AI or conversational technology content present."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Methodologically sound consensus exercise for historical ecology agenda-setting, but not transferable to conversational AI governance in regulated LLM systems. Ethics approval reported; limitations of consensus process not deeply discussed in provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "Internally coherent for historical ecology research prioritization, but relevance to LLM conversational governance is negligible despite incidental keyword overlap on governance and policy."
+  },
+  "coding": {
+    "open_codes": [
+      "priority_question_identification",
+      "consensus_workshop",
+      "environmental_governance",
+      "resource_management",
+      "Indigenous_partnerships",
+      "historical_ecology",
+      "interdisciplinary_research_agenda"
+    ],
+    "axial_codes": [
+      "research_agenda_setting",
+      "environmental_policy_governance",
+      "human_environment_interactions"
+    ],
+    "theme": "Environmental and historical-ecological research prioritization",
+    "subtheme": "Resource management and environmental governance questions",
+    "concepts": [
+      "historical ecology",
+      "consensus-building",
+      "environmental governance",
+      "resource management",
+      "Indigenous governance systems",
+      "policy integration"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.95
+  },
+  "synthesis": {
+    "main_claim": "A consensus-driven process produced 50 priority research questions for historical ecology from anthropological and archaeological perspectives, organized into six interrelated themes.",
+    "contribution": "Provides a structured research agenda for historical ecology spanning climate change, biodiversity, methods, communication, and resource/environmental management and governance.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from evidence synthesis. Not usable as central, supporting, or foundational evidence for conversational governance of LLMs in regulated settings; keyword overlap on governance and ethics is contextual and environmental, not AI-related."
+  },
+  "evidence": [
+    {
+      "claim": "Article topic is historical ecology, not AI or conversational systems",
+      "excerpt": "This paper presents the results of a consensus-driven process identifying 50 priority research questions for historical ecology",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance refers to environmental resource management, not AI governance",
+      "excerpt": "resource and environmental management and governance",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM or conversational AI technology discussed",
+      "excerpt": "Historical ecology encompasses research concerned with decadal, centennial, and millennial human-environmental interactions",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Consensus workshop methodology with defined facilitation",
+      "excerpt": "A deliberative approach was designed to maximize discussion and debate with defined outcomes. Two in-person workshops (in Sweden and Canada) over the course of two years",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "47 participants in second-stage workshop",
+      "excerpt": "Initially, 47 workshop participants from various disciplinary backgrounds, all self-associated with historical ecology, broke into",
+      "page": "3",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Ethics approval obtained for study",
+      "excerpt": "Ethics approval was granted specifically for this study by Uppsala University Ethics Board on behalf of the State Research Council.",
+      "page": "4",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Environmental governance and policy are core themes",
+      "excerpt": "Governance and applied policy is at the core of many of the research questions",
+      "page": "11",
+      "section": "Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Education reference concerns curricula for historical ecology",
+      "excerpt": "How can historical ecology be made relevant for education and built into curricula?",
+      "page": "14",
+      "section": "Results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Applied change-oriented research motivation",
+      "excerpt": "historical ecology encourages applied, change-oriented research",
+      "page": "16",
+      "section": "Discussion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Six thematic nodes structure the 50 questions",
+      "excerpt": "Six interrelated themes arose from our consensus-building workshop model: (1) climate and environmental change and variability; (2) multi-scalar, multi-disciplinary; (3) biodiversity and community ecology; (4) resource and environmental management and governance; (5) methods and applications; and (6) communication",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

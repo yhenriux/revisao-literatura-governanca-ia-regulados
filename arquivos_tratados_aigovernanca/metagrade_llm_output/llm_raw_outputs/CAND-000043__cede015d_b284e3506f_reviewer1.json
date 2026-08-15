@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "Navigating the Future of Finance: The Transformative Role of Generative AI",
+    "authors": "Hassnian Ali; Ahmet Faruk Aysan",
+    "year": "2026",
+    "venue": "Journal of Central Banking Law and Institutions",
+    "doi": "10.21098/jcli.v5i1.431",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Ali, H., & Aysan, A. F. (2026). Navigating the future of finance: The transformative role of generative AI. Journal of Central Banking Law and Institutions, 5(1), 79–124. https://doi.org/10.21098/jcli.v5i1.431"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "Structured Topic Modelling (STM)",
+    "study_design": "machine learning-based topic modelling of academic and grey literature",
+    "sample_description": "academic and grey literature on GenAI in the financial sector",
+    "sample_size": "unclear",
+    "sector": "financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "GenAI applications in financial modelling, risk assessment, fraud detection, and customer service"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "genai_finance",
+      "governance_ethics_regulatory",
+      "regulated_financial_domain",
+      "literature_synthesis"
+    ],
+    "exclusion_codes": [
+      "not_conversational_governance_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article synthesises academic and grey literature on GenAI in finance using STM and explicitly addresses ethical governance, regulatory frameworks, accountability, transparency, privacy, and risk in a regulated sector. However, the provided text does not centre conversational AI, chatbots, agents, guardrails, observability, human oversight, or operational governance of LLM-based conversational systems; customer service is mentioned only as an application area.",
+    "decision_confidence": 0.68,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front-matter text (pages 1–4 fragments) was supplied; metadata extraction errors (title, year, publication type) require verification against the full PDF, and conversational-governance relevance must be confirmed in later sections."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Objective and STM method are clearly stated in the abstract, but corpus size, search strategy, inclusion criteria, and limitations are not visible in the excerpt provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings on GenAI governance, ethics, and regulation in finance are coherent with the stated STM literature-review aim, but adequacy of the underlying corpus and methods cannot be fully judged from the partial text; relevance to conversational LLM governance is indirect rather than central."
+  },
+  "coding": {
+    "open_codes": [
+      "structured_topic_modelling",
+      "academic_and_grey_literature",
+      "genai_financial_applications",
+      "ethical_governance",
+      "regulatory_frameworks",
+      "algorithmic_bias",
+      "data_security",
+      "customer_service"
+    ],
+    "axial_codes": [
+      "literature_synthesis_method",
+      "genai_in_regulated_finance",
+      "governance_and_ethics_themes"
+    ],
+    "theme": "GenAI transformation and governance in financial services",
+    "subtheme": "ethical and regulatory challenges from literature topic modelling",
+    "concepts": [
+      "generative artificial intelligence",
+      "structured topic modelling",
+      "risk management",
+      "fraud detection",
+      "ethical governance",
+      "accountability",
+      "transparency",
+      "privacy",
+      "algorithmic bias",
+      "regulatory frameworks"
+    ],
+    "model_layers": [
+      "policy_regulatory_layer",
+      "organisational_risk_ethics_layer"
+    ],
+    "rq_alignment": [
+      "genai_governance_in_regulated_contexts",
+      "risk_and_compliance_in_finance",
+      "ethics_and_accountability"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "GenAI can transform financial services through modelling, risk assessment, fraud detection, and customer service, but deployment requires addressing data security, algorithmic bias, and robust ethical governance via regulatory frameworks balancing innovation and consumer protection.",
+    "contribution": "Applies STM to academic and grey literature to map themes, trends, and gaps in GenAI's role in finance, distinguishing technical academic discourse from grey-literature emphasis on ethical risks and regulatory challenges.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence for cross-cutting themes on GenAI governance, ethics, compliance, and regulation in financial services; not suitable as central evidence for conversational LLM governance mechanisms such as guardrails, observability, human handoff, or post-deployment monitoring."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with identifiable authors and DOI.",
+      "excerpt": "NAVIGATING THE FUTURE OF FINANCE: THE TRANSFORMATIVE ROLE OF GENERATIVE AI Hassnian Ali and Ahmet Faruk Aysan",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses STM on academic and grey literature about GenAI in finance.",
+      "excerpt": "This study employs Structured Topic Modelling (STM), a machine learning-based method for analysing unstructured text, to uncover key themes from academic and grey literature.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated financial domain is the primary context.",
+      "excerpt": "Generative Artificial Intelligence (GenAI) has the potential to transform the financial services sector by advancing financial modelling, risk assessment, fraud detection, and customer service.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Grey literature emphasises ethical risks and regulatory challenges.",
+      "excerpt": "Academic discourse focuses on technical applications, including portfolio optimisation and financial forecasting, while grey literature emphasises ethical risks, regulatory challenges, and operational concerns.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Article addresses governance themes relevant to regulated GenAI deployment.",
+      "excerpt": "Policymakers must develop regulatory frameworks that balance innovation and consumer protection, ensuring privacy, transparency, and accountability.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Ethical governance is identified as a future research area.",
+      "excerpt": "The study identifies five key areas for future research: ethical governance, blockchain integration, employment impacts, AI-driven risk management, and personalised financial services.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "GenAI is discussed generically rather than as a specific conversational system architecture.",
+      "excerpt": "Unlike traditional AI models, which are designed for specific tasks using structured data, GenAI models exhibit high generalisability, producing content that closely mimics human-generated content across various formats and contexts.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Customer service is an application area but conversational governance is not elaborated in the excerpt.",
+      "excerpt": "particularly in financial modelling, risk management, fraud detection, and customer service.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "ChatGPT and LLMs appear in keywords and citations, not as the study's primary technology focus.",
+      "excerpt": "Keywords: artificial intelligence (AI); generative AI; chatGPT; finance; structure topic modelling",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research novelty is comprehensive combination of academic and grey literature insights.",
+      "excerpt": "The novelty of this research lies in its comprehensive approach, combining insights from academic research with in",
+      "page": "3",
+      "section": "introduction",
+      "supports": "appraisal"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "bibliographic": {
+    "title": "VOYAGER: An Open-Ended Embodied Agent with Large Language Models",
+    "authors": "Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi Jim Fan, Anima Anandkumar",
+    "year": "2023",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Wang, G., Xie, Y., Jiang, Y., Mandlekar, A., Xiao, C., Zhu, Y., Fan, L., & Anandkumar, A. (2023). VOYAGER: An open-ended embodied agent with large language models. arXiv preprint arXiv:2305.16291."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "LLM-based embodied agent with automatic curriculum, skill library, and iterative prompting evaluated in Minecraft simulation",
+    "study_design": "Experimental technical evaluation against LLM-agent baselines in MineDojo/Minecraft",
+    "sample_description": "Minecraft open-ended environment; comparisons with LLM-based agent techniques such as ReAct, Reflexion, and AutoGPT",
+    "sample_size": "unclear",
+    "sector": "AI research / gaming simulation",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Embodied lifelong-learning agent using GPT-4 and GPT-3.5 via blackbox prompting in Minecraft; code-as-action space with environment feedback and self-verification"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_population",
+      "wrong_intervention",
+      "wrong_outcome",
+      "wrong_context"
+    ],
+    "exclusion_reason": "The study addresses embodied autonomous LLM agents for open-ended Minecraft exploration and skill acquisition, not conversational governance, compliance, auditability, human oversight, or regulated high-stakes deployment contexts.",
+    "decision_rationale": "Although the paper is strongly LLM-specific and describes agent architecture with logs, errors, and interpretable skills, its central focus is autonomous embodied learning without human intervention in a game environment. The provided text contains no substantive treatment of conversational governance, guardrails, compliance, accountability, contestation, or regulated-domain application.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Scope mismatch is explicit in the abstract and introduction; exclusion does not depend on ambiguous terminology matching."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Appraisal reflects only the provided front matter and excerpts. The study appears methodologically coherent for embodied-agent benchmarking, but ethics, limitations, and full evaluation protocol are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internal coherence and empirical support appear adequate for embodied-agent claims in Minecraft, but relevance to conversational governance in regulated LLM systems is very low based on the provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "embodied agent",
+      "lifelong learning",
+      "automatic curriculum",
+      "skill library",
+      "iterative prompting",
+      "GPT-4",
+      "Minecraft",
+      "code as actions",
+      "environment feedback",
+      "self-verification",
+      "interpretable skills"
+    ],
+    "axial_codes": [
+      "LLM agent architecture",
+      "autonomous exploration",
+      "continual skill accumulation"
+    ],
+    "theme": "LLM-powered embodied lifelong learning agents",
+    "subtheme": "Open-ended skill discovery in simulated game environments",
+    "concepts": [
+      "automatic curriculum",
+      "skill library",
+      "iterative prompting mechanism",
+      "blackbox LLM queries",
+      "catastrophic forgetting mitigation"
+    ],
+    "model_layers": [
+      "planning/curriculum generation",
+      "action program generation",
+      "skill storage and retrieval",
+      "environment feedback loop"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "VOYAGER is an LLM-powered embodied lifelong learning agent in Minecraft that autonomously explores, acquires reusable skills, and outperforms prior LLM-agent baselines on exploration and task-progress metrics.",
+    "contribution": "Proposes a three-component architecture—automatic curriculum, growing skill library, and iterative prompting with environment feedback, execution errors, and self-verification—for open-ended embodied learning using GPT-4 without fine-tuning.",
+    "limitations": "Provided excerpts do not report study limitations, ethics, or governance implications; evaluation context is limited to Minecraft/MineDojo rather than regulated conversational systems.",
+    "use_in_review": "Exclude from central or supporting evidence on conversational governance in regulated LLM systems; at most brief contextual mention as an example of autonomous LLM-agent architecture outside governed conversational deployment."
+  },
+  "evidence": [
+    {
+      "claim": "Paper is an arXiv 2023 preprint on VOYAGER, an LLM-powered embodied agent.",
+      "excerpt": "VOYAGER: An Open-Ended Embodied Agent with Large Language Models",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Uses GPT-4 via blackbox queries without fine-tuning.",
+      "excerpt": "VOYAGER interacts with GPT-4 via blackbox queries, which bypasses the need for model parameter fine-tuning.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Operates without human intervention, opposing human-oversight governance focus.",
+      "excerpt": "without human intervention",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Core components are curriculum, skill library, and iterative prompting with feedback and errors.",
+      "excerpt": "an automatic curriculum that maximizes exploration, 2) an ever-growing skill library of executable code for storing and retrieving complex behaviors, and 3) a new iterative prompting mechanism that incorporates environment feedback, execution errors, and self-verification",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Skills are described as interpretable but not as governance or audit mechanisms.",
+      "excerpt": "The skills developed by VOYAGER are temporally extended, interpretable, and compositional",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical gains are reported against prior SOTA in Minecraft.",
+      "excerpt": "It obtains 3.3× more unique items, travels 2.3× longer distances, and unlocks key tech tree milestones up to 15.3× faster than prior SOTA.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study context is gaming/simulation, not a regulated sector.",
+      "excerpt": "Let us consider Minecraft as an example.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Compared against other LLM-based agent techniques in MineDojo.",
+      "excerpt": "We evaluate VOYAGER systematically against other LLM-based agent techniques (e.g., ReAct [29], Reflexion [30], AutoGPT [28]) in MineDojo [23]",
+      "page": "3",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Iterative prompting uses execution observations from Minecraft simulation.",
+      "excerpt": "executes the generated program to obtain observations from the Minecraft simulation (such as inventory",
+      "page": "3",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "GPT-3.5 is used for self-ask/self-answer NLP subtasks due to budget.",
+      "excerpt": "We also leverage GPT-3.5 to self-ask questions based on the agent’s current state and exploration progress and self-answer questions.",
+      "page": "4",
+      "section": "unclear",
+      "supports": "methodology"
+    }
+  ]
+}

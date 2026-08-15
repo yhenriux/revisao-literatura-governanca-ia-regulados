@@ -1,0 +1,199 @@
+{
+  "bibliographic": {
+    "title": "Governed AI-Assisted Engineering: Graduated Human Oversight for Agentic Code Generation in Regulated Domains",
+    "authors": "Richard Kang",
+    "year": "2025",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Kang, R. (2025). Governed AI-Assisted Engineering: Graduated Human Oversight for Agentic Code Generation in Regulated Domains. Preprint."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "conceptual framework development with regulatory mapping, comparative framework analysis, and analytical productivity modeling",
+    "study_design": "three-tier graduated oversight framework (GAIE) with Oversight Classification Model (OCM); evaluation via regulatory coverage analysis, comparative framework analysis, and analytical productivity modeling",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "banking, insurance, healthcare, energy, financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "agentic AI coding systems; multi-agent supervisor architecture with human interaction layer, evidence capture, and monitoring; references OWASP LLM Top 10 and MITRE ATLAS"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "governance_framework",
+      "human_oversight",
+      "regulated_domain",
+      "audit_traceability",
+      "risk_compliance_mapping"
+    ],
+    "exclusion_codes": [
+      "weak_conversational_ai_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper strongly addresses graduated human oversight, compliance evidence, audit trails, and regulated-domain governance for agentic LLM-based systems, but its primary focus is software engineering and agentic code generation rather than conversational AI governance, chatbots, or customer-facing conversational systems central to the review scope.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Conversational AI relevance is indirect (IDE copilots, human interaction layer); confirm whether agentic coding governance counts within the review's conversational-governance inclusion criteria."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Clear framework contribution with mapped regulatory references and stated evaluation methods, but provided text shows no empirical field sample or primary data collection; productivity estimates (84–97%) derive from analytical modeling rather than observed deployment studies."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Internally coherent governance framework with explicit oversight tiers and compliance artifacts, but evidence in the provided text is primarily conceptual and analytical rather than empirically validated; relevance to conversational-governance scope is partial because the dominant context is agentic code generation."
+  },
+  "coding": {
+    "open_codes": [
+      "graduated human oversight",
+      "oversight classification",
+      "compliance evidence artifacts",
+      "immutable audit trail",
+      "multi-agent supervisor",
+      "prompt/response safety controls",
+      "post-deployment monitoring"
+    ],
+    "axial_codes": [
+      "human-in-the-loop governance",
+      "proportionate oversight calibration",
+      "regulated AI development pipeline",
+      "traceability and auditability"
+    ],
+    "theme": "Governance of agentic AI-assisted engineering in regulated industries",
+    "subtheme": "Graduated human oversight tiers for agentic code generation",
+    "concepts": [
+      "GAIE",
+      "OCM",
+      "human-in-the-loop",
+      "human-over-the-loop",
+      "automated-with-monitoring",
+      "evidence capture layer"
+    ],
+    "model_layers": [
+      "task classification (OCM)",
+      "oversight tier routing",
+      "cross-cutting safety controls",
+      "evidence capture and audit trail",
+      "monitoring subsystem",
+      "human interaction layer"
+    ],
+    "rq_alignment": [
+      "human oversight and accountability in LLM systems",
+      "risk management and compliance in regulated contexts",
+      "auditability, logs, and traceability",
+      "operational governance and post-deployment monitoring"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The GAIE framework calibrates human oversight intensity to regulatory impact for agentic code generation through a three-tier model (OCM), preserving most agentic coding velocity while maintaining compliance evidence coverage.",
+    "contribution": "Introduces OCM as a deterministic decision function routing tasks by regulatory impact, customer proximity, reversibility, and data sensitivity; defines tier-specific evidence artifacts; maps against Bank of Thailand 2025 policy, MAS, NIST AI RMF, ISO/IEC 42001, and EU AI Act.",
+    "limitations": "Provided text emphasizes framework design and analytical evaluation; no empirical deployment study or end-user conversational system evaluation is evidenced; conversational AI appears as evolutionary context rather than the paper's core governance object.",
+    "use_in_review": "Supporting evidence for graduated human oversight, compliance artifact design, audit trails, LLM safety controls, and cross-jurisdiction regulatory mapping in regulated agentic/LLM contexts; not central evidence for conversational AI governance per se."
+  },
+  "evidence": [
+    {
+      "claim": "Paper presents GAIE as a three-tier graduated human oversight framework for agentic code generation in regulated domains",
+      "excerpt": "We present the Governed AI-Assisted Engineering (GAIE) framework, a three-tier graduated human oversight model for agentic code generation in regulated domains.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "OCM classifies tasks by regulatory impact and routes them to oversight tiers",
+      "excerpt": "GAIE introduces the Oversight Classification Model (OCM), a deterministic decision function that classifies code generation tasks by regulatory impact, customer proximity, reversibility, and data sensitivity",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Three oversight tiers include human-in-the-loop, human-over-the-loop, and automated-with-monitoring",
+      "excerpt": "route them through one of three oversight tiers: human-in-the-loop (strategic functions), human-over-the- loop (customer-impacting), or automated-with-monitoring (inter- nal).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Each tier requires evidence artifacts for compliance auditability",
+      "excerpt": "Each tier defines required evidence artifacts for compliance auditability.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Framework targets regulated industries including banking, insurance, healthcare, and energy",
+      "excerpt": "Regulated industries — banking, insurance, healthcare, en- ergy — face supervisory expectations that extend to any AI system influencing decisions with customer or public impact.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance challenge shifts to development pipeline when agents write regulated-function code",
+      "excerpt": "When AI agents write code that governs regulated functions — credit approval logic, customer onboarding workflows, anti-money laundering screening rules — the oversight ques- tion transfers from model output governance to development pipeline governance.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Evaluation uses regulatory coverage analysis, comparative framework analysis, and analytical productivity modeling",
+      "excerpt": "Evaluation through regulatory coverage analysis, comparative framework analysis, and analytical pro- ductivity modeling suggests that graduated oversight preserves 84–97% of agentic coding velocity",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Conversational AI appears as an evolutionary phase of AI-assisted development, not the paper's main object",
+      "excerpt": "Phase 2 — AI copilot (2023–2024). Conversational AI assistants integrated into IDEs generate multi-line code blocks in response to natural-language prompts.",
+      "page": "3",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Reference architecture includes a human interaction layer and monitoring subsystem",
+      "excerpt": "five subsystems: supervisor agent, collaborator agents, human interaction layer, evidence capture layer, and monitor- ing subsystem.",
+      "page": "9",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Cross-cutting controls include LLM safety, sandboxing, and immutable audit trail",
+      "excerpt": "Immutable audit trail. Complete provenance chain from task",
+      "page": "7",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Prompt/response safety controls align with OWASP LLM Top 10 and MITRE ATLAS",
+      "excerpt": "Prompt/response safety controls. Aligned with OWASP LLM Top 10 [36] and MITRE ATLAS [37]: prompt injection detection (LLM01)",
+      "page": "7",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors disclaim that the work is thought leadership and not compliance advice",
+      "excerpt": "This work constitutes academic thought leadership and does not constitute compli- ance advice or an institutional compliance assessment.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

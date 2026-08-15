@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "Making AI Compliance Evidence Machine-Readable",
+    "authors": "Rodrigo Cilla Ugarte; Miguel Ángel Patricio Guisado; Antonio Berlanga de Jesús; José Manuel Molina López",
+    "year": "2024",
+    "venue": "IEEE Computer",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Cilla Ugarte, R., Patricio Guisado, M. Á., Berlanga de Jesús, A., & Molina López, J. M. (2024). Making AI compliance evidence machine-readable. Preprint submitted to IEEE Computer."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "Compliance-as-Code technical framework with case validation",
+    "study_design": "Architecture design and reference implementation validated on two Annex III high-risk AI systems",
+    "sample_description": "Two high-risk systems under the EU AI Act: a credit scoring model and a medical imaging segmentation system",
+    "sample_size": "2",
+    "sector": "Financial services (credit scoring); healthcare (medical imaging)",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "OSCAL interchange format; three-layer Compliance-as-Code architecture (policy, evidence, enforcement); MLOps pipeline integration; EU AI Act, ISO/IEC 42001, NIST AI RMF"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "AI_GOVERNANCE",
+      "COMPLIANCE_AUDIT",
+      "REGULATED_HIGH_RISK",
+      "RISK_MANAGEMENT",
+      "HUMAN_OVERSIGHT_REF"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI",
+      "NO_LLM_SPECIFIC"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper strongly addresses AI governance, compliance evidence, risk traceability, auditability, and regulated high-risk contexts (EU AI Act Annex III), but the provided text contains no conversational systems, chatbots, agents, RAG, or LLM-specific governance. It is relevant as supporting infrastructure for machine-readable compliance and assurance, not as central evidence for conversational LLM governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial page 2 are available; confirm absence of conversational/LLM content in full text and verify empirical validation details, limitations, and peer-review status."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Clear problem statement and proposed architecture, but appraisal is limited by incomplete text. Validation on only two cases is acknowledged in abstract; detailed methods, results tables, limitations, and ethics discussion are not visible in the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent for AI compliance-as-code and regulated high-risk ML systems, but available evidence is partial and the work is not specific to conversational LLM governance. Two-case validation limits adequacy for broad synthesis claims."
+  },
+  "coding": {
+    "open_codes": [
+      "AI assurance",
+      "machine-readable evidence",
+      "OSCAL",
+      "Compliance-as-Code",
+      "EU AI Act",
+      "risk traceability",
+      "conformity assessment",
+      "MLOps integration",
+      "human oversight requirements",
+      "logging and documentation"
+    ],
+    "axial_codes": [
+      "Regulatory compliance infrastructure",
+      "Audit and evidence generation",
+      "Risk management operationalization",
+      "High-risk AI lifecycle governance"
+    ],
+    "theme": "Operationalizing AI governance through machine-readable compliance evidence",
+    "subtheme": "OSCAL-based Compliance-as-Code for high-risk AI systems",
+    "concepts": [
+      "AI Assurance",
+      "OSCAL property extensions",
+      "three-layer architecture (policy, evidence, enforcement)",
+      "assurance evidence as training byproduct",
+      "risk-acceptance justification"
+    ],
+    "model_layers": [
+      "policy",
+      "evidence",
+      "enforcement"
+    ],
+    "rq_alignment": [
+      "governance and accountability",
+      "risk audit and compliance",
+      "regulated high-stakes contexts",
+      "human oversight (referenced via EU AI Act Articles 9–15)"
+    ],
+    "coding_confidence": 0.75
+  },
+  "synthesis": {
+    "main_claim": "AI governance frameworks specify what to assure but lack executable infrastructure; OSCAL can serve as a machine-readable interchange format for AI compliance, extended with 16 AI lifecycle properties and a three-layer Compliance-as-Code architecture that generates assurance evidence during model training.",
+    "contribution": "Proposes OSCAL extensions for AI lifecycle assurance, a policy-evidence-enforcement architecture, an SDK producing NIST-schema-validated OSCAL Assessment Results, and open-source validation on credit scoring and medical imaging high-risk systems.",
+    "limitations": "unclear",
+    "use_in_review": "Include as supporting evidence for compliance, auditability, machine-readable governance artifacts, and regulated high-risk AI assurance. Do not use as central evidence for conversational LLM governance, guardrails, or dialogue-specific oversight mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on machine-readable AI compliance evidence, not conversational AI",
+      "excerpt": "AI Assurance—producing the machine-readable evidence required to demonstrate compliance with AI governance frameworks",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational or LLM-specific system described in available text",
+      "excerpt": "We test the approach on two Annex III high-risk systems: a credit scoring model and a medical imaging segmentation system.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Strong alignment with regulated high-risk domains",
+      "excerpt": "Organizations building high-risk AI systems under the EU AI Act face a gap",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Proposed governance infrastructure uses OSCAL and Compliance-as-Code",
+      "excerpt": "This paper proposes OSCAL—the NIST standard adopted for FedRAMP cybersecurity compliance—as a candidate interchange format for AI governance",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Three-layer architecture for assurance evidence generation",
+      "excerpt": "present a three-layer Compliance-as-Code architecture (policy, evidence, enforcement) that generates assurance evidence as a byproduct of model training",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human oversight appears as regulatory requirement context, not conversational handoff",
+      "excerpt": "It must satisfy the EU AI Act Articles 9–15 (risk management, data governance, documentation, logging, transparency, human oversight, accuracy)",
+      "page": "1",
+      "section": "Background",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empirical validation limited to two case systems",
+      "excerpt": "validate the approach on two high-risk systems under the EU AI Act",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Open-source reference implementation supports transferability appraisal",
+      "excerpt": "The architecture and reference implementation are open-source under Apache 2.0.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Preprint status affects peer-review certainty",
+      "excerpt": "Preprint. This work has been submitted to IEEE Computer (Special Issue on AI Governance and Compliance) for possible publication.",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Risk and bias governance mapped across frameworks",
+      "excerpt": "Data governance Art. 10 Quality criteria; bias examination A.7.4",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    }
+  ]
+}

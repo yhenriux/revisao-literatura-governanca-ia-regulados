@@ -1,0 +1,172 @@
+{
+  "bibliographic": {
+    "title": "Minimum Reporting Items for Clear Evaluation of Accuracy Reports of Large Language Models in Healthcare (MI-CLEAR-LLM): 2025 Updates",
+    "authors": "Seong Ho Park, Chong Hyun Suh, Jeong Hyun Lee, Ali S. Tejani, Seng Chan You, Charles E. Kahn, Jr, Linda Moy",
+    "year": "2025",
+    "venue": "Korean Journal of Radiology",
+    "doi": "10.3348/kjr.2025.1522",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Park, S. H., Suh, C. H., Lee, J. H., Tejani, A. S., You, S. C., Kahn, C. E., Jr., & Moy, L. (2025). Minimum reporting items for clear evaluation of accuracy reports of large language models in healthcare (MI-CLEAR-LLM): 2025 updates. Korean Journal of Radiology. https://doi.org/10.3348/kjr.2025.1522"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "reporting guideline or checklist development and update",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare, medicine, radiology",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM accuracy evaluations in healthcare, including proprietary LLMs via web-based chatbot interfaces, APIs, and self-managed open-source LLMs"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_healthcare",
+      "reporting_guideline",
+      "transparency_reproducibility",
+      "chatbot_access_mode"
+    ],
+    "exclusion_codes": [
+      "not_conversational_governance_primary",
+      "not_operational_governance_system"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The provided text describes an updated reporting checklist (MI-CLEAR-LLM) for transparency and reproducibility in studies evaluating LLM accuracy in healthcare. It references chatbot interfaces as an LLM access mode and healthcare as a regulated context, but the primary focus is methodological reporting standards rather than operational conversational governance, guardrails, oversight, audit, or deployment governance.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and introduction on page 1 were supplied; full checklist items, development process, and examples were not available for complete eligibility and appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Objective and scope are clearly stated on page 1, but the excerpt does not describe how the checklist was developed, validated, or empirically evaluated. Appraisal is therefore limited to visible reporting-quality signals."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "The article appears coherent and relevant to LLM evaluation transparency in healthcare, but the available excerpt lacks detail on guideline development methods, consensus procedures, and empirical validation, limiting confidence for synthesis on conversational governance."
+  },
+  "coding": {
+    "open_codes": [
+      "MI-CLEAR-LLM",
+      "reporting checklist",
+      "transparency",
+      "reproducibility",
+      "LLM accuracy evaluation",
+      "chatbot interface",
+      "API access",
+      "open-source LLM",
+      "healthcare",
+      "radiology"
+    ],
+    "axial_codes": [
+      "methodological transparency",
+      "LLM evaluation governance",
+      "regulated healthcare AI",
+      "model access and specification reporting"
+    ],
+    "theme": "Reporting standards for LLM accuracy studies in healthcare",
+    "subtheme": "Updated checklist covering chatbot, API, and self-managed LLM access modes",
+    "concepts": [
+      "minimum reporting items",
+      "model identification",
+      "prompt optimization",
+      "stochasticity management",
+      "test data independence",
+      "transparency in reporting"
+    ],
+    "model_layers": [
+      "evaluation methodology",
+      "model access mode",
+      "prompt execution",
+      "test data governance"
+    ],
+    "rq_alignment": [
+      "transparency",
+      "reproducibility",
+      "regulated healthcare context",
+      "LLM-specific evaluation reporting"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "The updated MI-CLEAR-LLM checklist defines minimum reporting items to improve transparency, methodological assessment, and reproducibility of studies evaluating LLM accuracy in healthcare.",
+    "contribution": "Extends prior reporting guidance from proprietary web-based chatbot LLMs to API-based and self-managed open-source LLMs, with items covering model identification, access mode, adaptation, prompt optimization, stochasticity, and test data independence.",
+    "limitations": "The provided excerpt does not report checklist development methods, validation, limitations of the guideline itself, or operational governance mechanisms for deployed conversational systems.",
+    "use_in_review": "Use as foundational contextual evidence on methodological transparency and reporting governance for healthcare LLM studies; not central evidence for operational conversational governance, human oversight, or compliance controls in deployed systems."
+  },
+  "evidence": [
+    {
+      "claim": "Article presents an updated MI-CLEAR-LLM reporting checklist for healthcare LLM accuracy studies.",
+      "excerpt": "the MInimum reporting items for CLear Evaluation of Accuracy Reports of Large Language Models in healthcare (MI-CLEAR-LLM) checklist was developed. This article presents an extensively updated version.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Original focus included proprietary LLMs accessed via web-based chatbot interfaces.",
+      "excerpt": "While the original version focused on proprietary LLMs accessed via web-based chatbot interfaces",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Updated checklist also covers APIs and self-managed open-source LLMs.",
+      "excerpt": "the updated checklist incorporates considerations relevant to application programming interfaces and self-managed models, typically based on open-source LLMs.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Primary aim is transparency and reproducibility in reporting LLM accuracy evaluations.",
+      "excerpt": "Adoption of the updated MI-CLEAR-LLM can help ensure transparency in reporting and enable more accurate and meaningful evaluation of studies.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Checklist categories include methodological factors influencing LLM outputs.",
+      "excerpt": "The checklist includes essential items across categories such as model identification, access mode, input data type, adaptation strategy, prompt optimization, prompt execution, stochasticity management, and test data independence.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Healthcare is the regulated application context.",
+      "excerpt": "Keywords: Large language model; Large multimodal model; Generative; Artificial intelligence; Chatbot; Application programming interface; Local deployment; Reporting; Guideline; Checklist; Healthcare; Medicine; Radiology",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Motivation includes poor reporting quality identified in systematic reviews.",
+      "excerpt": "Recent systematic reviews have raised concerns about the quality of reporting in studies evaluating the accuracy of large language models (LLMs) in medical applications.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Published as a peer-reviewed journal special review.",
+      "excerpt": "Korean J Radiol 2025 eISSN 2005-8330 https://doi.org/10.3348/kjr.2025.1522 Special Review | Artificial Intelligence Received: October 13, 2025 Accepted: October 16, 2025",
+      "page": "1",
+      "section": "front matter",
+      "supports": "bibliographic"
+    }
+  ]
+}

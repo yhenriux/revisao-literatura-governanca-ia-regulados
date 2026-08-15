@@ -1,0 +1,190 @@
+{
+  "bibliographic": {
+    "title": "Large Language Models in Medicine: Clinical Applications, Technical Challenges, and Ethical Considerations",
+    "authors": "Kyu-Hwan Jung",
+    "year": "2025",
+    "venue": "Healthcare Informatics Research",
+    "doi": "10.4258/hir.2025.31.2.114",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Jung, K.-H. (2025). Large language models in medicine: Clinical applications, technical challenges, and ethical considerations. Healthcare Informatics Research, 31(2), 114–124. https://doi.org/10.4258/hir.2025.31.2.114"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "narrative literature survey",
+    "study_design": "non-systematic literature survey",
+    "sample_description": "Peer-reviewed articles, technical reports, and expert commentary from relevant medical and artificial intelligence journals",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Clinical documentation assistance, decision support, patient communication, workflow optimization; models including GPT, Gemini, and LLaMA"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_in_medicine",
+      "regulated_healthcare",
+      "ethical_governance_themes",
+      "patient_communication",
+      "human_oversight"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Peer-reviewed narrative review of LLMs in clinical medicine that explicitly addresses patient communication, accountability, privacy, bias, safety, transparency, and human oversight in a regulated healthcare context. Relevant to conversational governance themes but not focused on governance frameworks, guardrails, observability, or conversational system design; best treated as supporting rather than central evidence.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial PDF text provided; full text needed to verify depth of coverage on conversational interfaces, governance mechanisms, and methodological details of the literature survey."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Objectives and thematic structure are clear, but the excerpt provides no systematic search strategy, inclusion/exclusion criteria, database list, or quality appraisal of included sources. Method is described only as a broad literature survey."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings on ethics and oversight are coherent with stated objectives, but the non-systematic survey method and absent reporting of search and selection procedures limit confidence for direct use as primary governance evidence."
+  },
+  "coding": {
+    "open_codes": [
+      "clinical_documentation",
+      "decision_support",
+      "patient_communication",
+      "workflow_optimization",
+      "model_hallucination",
+      "clinical_validation",
+      "integration_issues",
+      "transparency",
+      "algorithmic_bias",
+      "patient_safety",
+      "accountability",
+      "data_privacy",
+      "human_oversight",
+      "assistive_role"
+    ],
+    "axial_codes": [
+      "clinical_LLM_applications",
+      "technical_limitations",
+      "ethical_governance",
+      "human_supervision"
+    ],
+    "theme": "Ethical and technical governance considerations for LLM deployment in clinical medicine",
+    "subtheme": "Assistive clinical use with oversight, safety, and accountability constraints",
+    "concepts": [
+      "human oversight",
+      "accountability",
+      "privacy",
+      "bias",
+      "transparency",
+      "patient communication",
+      "clinical validation"
+    ],
+    "model_layers": [
+      "application_layer",
+      "ethical_governance_layer",
+      "technical_risk_layer"
+    ],
+    "rq_alignment": [
+      "human_oversight",
+      "accountability",
+      "privacy",
+      "bias",
+      "regulated_healthcare",
+      "patient_communication"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "LLMs have transformative potential in clinical medicine for documentation, decision support, patient communication, and workflow optimization, but substantial technical and ethical hurdles require rigorous validation, guidelines, and human oversight, supporting an assistive rather than autonomous role.",
+    "contribution": "Maps clinical LLM application areas and synthesizes technical challenges (hallucination, validation, integration, transparency) with ethical concerns (bias, safety, accountability, privacy, clinician-patient interaction impacts) in healthcare.",
+    "limitations": "Narrative literature survey without reported systematic search or appraisal methods in the provided text; governance mechanisms for conversational systems are not the primary focus.",
+    "use_in_review": "Use as supporting evidence on ethical governance, human oversight, accountability, and patient communication for LLMs in regulated healthcare; cite for contextual framing rather than as primary conversational-governance methodology."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a peer-reviewed review on LLMs in medicine",
+      "excerpt": "Review Article",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses a literature survey method",
+      "excerpt": "Methods: A literature survey of peer-reviewed articles, technical reports, and expert commentary from relevant medical and artificial intelligence journals was conducted.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLMs are applied to patient communication among clinical uses",
+      "excerpt": "Results: LLMs have potential in clinical documentation assistance, decision support, patient communication, and workflow optimization.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Ethical issues include accountability and privacy",
+      "excerpt": "ethical issues (e.g., bias, safety, accountability, privacy) were identified and analyzed.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human oversight is recommended",
+      "excerpt": "substantial technical and ethical hurdles necessitate rigorous research, validation, clearly defined guidelines, and human oversight.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Evidence supports assistive rather than autonomous role",
+      "excerpt": "Existing evidence supports an assistive rather than autonomous role, mandating careful, evidence-based integration that prioritizes patient safety and equity.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Specific LLM families are named",
+      "excerpt": "Notable examples at the forefront of this technology include OpenAI's Generative Pre-trained Transformer (GPT) series, Google's Gemini, and Meta's LLaMA",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Physician-patient dialogue summarization is a conversational application",
+      "excerpt": "summarizing physician-patient dialogues",
+      "page": "2",
+      "section": "clinical applications",
+      "supports": "coding"
+    },
+    {
+      "claim": "Ethical considerations are emphasized for healthcare AI",
+      "excerpt": "Substantial emphasis is also placed on ethical considerations, which are particularly critical in healthcare AI applications.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Technical challenges include transparency and hallucination",
+      "excerpt": "Key technical challenges include model hallucination, lack of robust clinical validation, integration issues, and limited transparency.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "bibliographic": {
+    "title": "Defining Success in Probabilistic Products: Key Performance Indicators and Lifecycle Management for Generative AI Applications in Enterprise",
+    "authors": "Vraj Bharatkumar Thakkar",
+    "year": "2025",
+    "venue": "International Journal of Technology, Management and Humanities",
+    "doi": "10.21590/ijtmh.11.04.08",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Thakkar, V. B. (2025). Defining Success in Probabilistic Products: Key Performance Indicators and Lifecycle Management for Generative AI Applications in Enterprise. International Journal of Technology, Management and Humanities, 11(4), 66-79. https://doi.org/10.21590/ijtmh.11.04.08"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "framework development with comparative analysis and applied practitioner case evidence",
+    "study_design": "conceptual framework paper drawing on practitioner-led enterprise deployment experience",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "enterprise software",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "enterprise generative AI and Large Language Model applications deployed from inception to production scale"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "governance_accountability",
+      "human_oversight_contestation",
+      "risk_audit_compliance",
+      "operational_technical_governance"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses enterprise generative AI and LLMs, proposing AI-native KPIs and a Probabilistic Product Lifecycle with human-in-the-loop governance, risk, and compliance dimensions. However, the provided text centers on product management metrics and lifecycle evaluation rather than conversational AI governance architecture, making it better suited as supporting rather than central evidence for conversational governance in regulated settings.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Provided excerpts are limited to front matter and early pages; full text is needed to verify conversational-AI relevance, case evidence depth, and whether regulated-domain claims extend beyond brief mentions of compliance and regulatory exposure."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Clear conceptual contribution on KPIs and lifecycle for probabilistic AI products, but the supplied text offers limited methodological detail on comparative analysis, case selection, and empirical validation."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and relevant to operational governance and human oversight in enterprise LLM deployments, but methodological transparency and empirical adequacy are weak in the available text because case evidence and analysis procedures are not described in detail."
+  },
+  "coding": {
+    "open_codes": [
+      "probabilistic product management",
+      "AI-native KPIs",
+      "hallucination rate",
+      "human intervention rate",
+      "token efficiency",
+      "response accuracy",
+      "probabilistic product lifecycle",
+      "continuous evaluation",
+      "human-in-the-loop governance",
+      "enterprise deployment",
+      "regulatory exposure",
+      "high-stakes workflows"
+    ],
+    "axial_codes": [
+      "operational governance",
+      "performance measurement",
+      "human oversight",
+      "risk management",
+      "lifecycle management"
+    ],
+    "theme": "Product management and lifecycle governance for enterprise generative AI",
+    "subtheme": "AI-native KPIs and human-in-the-loop evaluation for probabilistic systems",
+    "concepts": [
+      "Probabilistic Product Lifecycle",
+      "Human Intervention Rate",
+      "Hallucination Rate",
+      "Response Accuracy",
+      "Token Efficiency",
+      "LLMOps",
+      "human-in-the-loop governance"
+    ],
+    "model_layers": [
+      "measurement layer",
+      "lifecycle management layer",
+      "human oversight layer",
+      "risk and compliance layer"
+    ],
+    "rq_alignment": [
+      "operational governance of generative AI",
+      "human oversight and intervention monitoring",
+      "risk and compliance in high-stakes enterprise workflows",
+      "post-deployment evaluation metrics"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Traditional deterministic SaaS success metrics are insufficient for enterprise generative AI; product success should be measured with AI-native KPIs and managed through a Probabilistic Product Lifecycle that integrates continuous evaluation and human-in-the-loop governance.",
+    "contribution": "Introduces Response Accuracy, Hallucination Rate, Token Efficiency, and Human Intervention Rate as KPIs, plus a lifecycle model reframing uncertainty as a measurable product dimension for enterprise generative AI.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence on operational governance, monitoring KPIs, human intervention measurement, and lifecycle management for enterprise LLM products; not primary evidence for conversational governance frameworks in regulated domains."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on enterprise generative AI and Large Language Models.",
+      "excerpt": "For a given input, a Large Language Model may generate multiple plausible responses, each varying in accuracy, completeness, cost, and risk.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Proposes AI-native KPIs including human oversight measurement.",
+      "excerpt": "These metrics include Response Accuracy, Hallucination Rate, Token Efficiency, and Human Intervention Rate.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Introduces lifecycle governance with human-in-the-loop.",
+      "excerpt": "this study introduces a Probabilistic Product Lifecycle model that integrates continuous evaluation, human-in-the-loop governance",
+      "page": "2",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Addresses high-stakes and compliance-related enterprise contexts.",
+      "excerpt": "Generative AI products are increasingly embedded in high-stakes workflows including analytics, forecasting, customer support, compliance, and decision-making.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Mentions regulatory risk from incorrect outputs.",
+      "excerpt": "does not merely degrade user experience but can propagate downstream errors, financial loss, or regulatory exposure.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Method draws on practitioner enterprise deployment experience.",
+      "excerpt": "Drawing on practitioner-led experience launching enterprise generative AI products from inception to production scale",
+      "page": "2",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Uses comparative analysis and applied case evidence.",
+      "excerpt": "Through comparative analysis and applied case evidence, the study establishes a new standard for measuring success in enterprise generative AI products",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Peer-reviewed journal publication with declared conflicts.",
+      "excerpt": "Source of support: Nil Conflict of interest: None",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

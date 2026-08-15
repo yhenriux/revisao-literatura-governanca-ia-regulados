@@ -1,0 +1,171 @@
+{
+  "bibliographic": {
+    "title": "Impact of ChatGPT and similar generative artificial intelligence on several business sectors: Applications, opportunities, challenges, and future prospects",
+    "authors": "Jayesh Rane; Ömer Kaya; Suraj Kumar Mallick; Nitin Liladhar Rane",
+    "year": "2024",
+    "venue": "Generative Artificial Intelligence in Agriculture, Education, and Business (book chapter, pp. 27-83), Deep Science Publishing",
+    "doi": "10.70593/978-81-981271-7-4_2",
+    "publication_type": "book",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Rane, J., Kaya, O., Mallick, S. K., & Rane, N. L. (2024). Impact of ChatGPT and similar generative artificial intelligence on several business sectors: Applications, opportunities, challenges, and future prospects. In Generative Artificial Intelligence in Agriculture, Education, and Business (pp. 27-83). Deep Science Publishing. https://doi.org/10.70593/978-81-981271-7-4_2"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "narrative literature review",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "marketing, customer service, healthcare, finance, education, and other business sectors",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "ChatGPT and similar generative AI language models; conversational agent; chatbots; natural language processing"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "title-abstract screening",
+    "inclusion_codes": [
+      "LLM_GENAI",
+      "CONVERSATIONAL_AI",
+      "REGULATED_DOMAIN_PARTIAL",
+      "RISK_PRIVACY_ETHICS_MENTIONED"
+    ],
+    "exclusion_codes": [
+      "CONVERSATIONAL_GOVERNANCE_NOT_CENTRAL",
+      "NO_OPERATIONAL_GOVERNANCE_FRAMEWORK",
+      "SECTORAL_APPLICATION_REVIEW"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The provided text identifies a broad sectoral review of ChatGPT applications, opportunities, and challenges across business domains including healthcare, finance, and education. It mentions security, privacy, ethics, misinformation, and opaque AI decision-making, but the available excerpts do not present conversational governance, human oversight, accountability mechanisms, auditability, or regulated-environment governance frameworks as the study focus.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter, abstract, and introduction excerpts are available; full chapter may contain additional governance-related content not captured in the extract."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Abstract clearly states a review of ChatGPT impacts across sectors and lists implementation challenges, but the provided text does not describe review protocol, search strategy, inclusion criteria, or analytical method."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "Based on limited excerpts, the chapter appears coherent as a sectoral ChatGPT review and is partially relevant to regulated domains and risk themes, but methodological transparency is unclear and conversational governance is not evidenced as a primary contribution."
+  },
+  "coding": {
+    "open_codes": [
+      "ChatGPT sectoral adoption",
+      "customer service automation",
+      "healthcare administrative support",
+      "finance risk management",
+      "data privacy concerns",
+      "opaque AI decision-making",
+      "misinformation risk"
+    ],
+    "axial_codes": [
+      "LLM business applications",
+      "regulated-sector use cases",
+      "implementation barriers",
+      "ethical and security challenges"
+    ],
+    "theme": "Sectoral impact of generative AI language models",
+    "subtheme": "Applications and challenges of ChatGPT across business sectors",
+    "concepts": [
+      "conversational agent",
+      "chatbots",
+      "large language model",
+      "data privacy",
+      "security",
+      "opaque AI decision-making",
+      "risk management"
+    ],
+    "model_layers": [],
+    "rq_alignment": [
+      "LLM and conversational use in regulated sectors",
+      "high-level risk and ethics challenges"
+    ],
+    "coding_confidence": 0.58
+  },
+  "synthesis": {
+    "main_claim": "ChatGPT is widely adopted across multiple business sectors to automate processes, improve decision-making, and enhance customer interactions, but organizations face security, privacy, ethical, misinformation, opacity, and workforce challenges.",
+    "contribution": "Provides a cross-sector overview of ChatGPT applications, opportunities, challenges, and future prospects in marketing, customer service, healthcare, finance, and education.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence on ChatGPT adoption and generic implementation challenges in regulated-adjacent sectors; not suitable as central evidence on conversational governance mechanisms, human oversight, or operational compliance controls."
+  },
+  "evidence": [
+    {
+      "claim": "Study is a review of ChatGPT impacts across business sectors.",
+      "excerpt": "This review highlights the applications, opportunities, challenges, and future prospects of ChatGPT",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "ChatGPT is framed as a conversational AI language model.",
+      "excerpt": "ChatGPT was first intended to be a conversational agent",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated or high-stakes sectors are included among application contexts.",
+      "excerpt": "widespread adoption in sectors like marketing, customer service, healthcare, finance, and education",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Customer service and conversational interaction are explicit use cases.",
+      "excerpt": "ChatGPT simplifies customer service processes by providing round-the-clock assistance and customized solutions",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Healthcare and finance applications are mentioned.",
+      "excerpt": "ChatGPT helps with administrative work and patient management in the healthcare industry. In the finance industry, it improves operations, risk management, and fraud detection",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Security, privacy, and ethics are listed as major concerns but not as governance frameworks.",
+      "excerpt": "Security, data privacy, and the moral application of AI continue to be major concerns",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Opacity and misinformation are identified as challenges.",
+      "excerpt": "the possibility of false information spreading, opaque AI decision-making",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational governance, oversight, or audit mechanisms are described in the provided text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Bibliographic year and venue differ from extracted metadata.",
+      "excerpt": "Rane, J., Kaya, O., Mallick, S. K., & Rane, N. L. (2024). Impact of ChatGPT and similar generative artificial intelligence on several business sectors",
+      "page": "1",
+      "section": "citation",
+      "supports": "appraisal"
+    }
+  ]
+}

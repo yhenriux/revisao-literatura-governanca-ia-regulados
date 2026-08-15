@@ -1,0 +1,164 @@
+{
+  "bibliographic": {
+    "title": "A study of generative large language model for medical research and healthcare",
+    "authors": "Cheng Peng, Xi Yang, Aokun Chen, Kaleb E. Smith, Nima PourNejatian, Anthony B. Costa, Cheryl Martin, Mona G. Flores, Ying Zhang, Tanja Magoc, Gloria Lipori, Duane A. Mitchell, Naykky S. Ospina, Mustafa M. Ahmed, William R. Hogan, Elizabeth A. Shenkman, Yi Guo, Jiang Bian, Yonghui Wu",
+    "year": "2023",
+    "venue": "npj Digital Medicine",
+    "doi": "10.1038/s41746-023-00958-w",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Peng, C., Yang, X., Chen, A., Smith, K. E., PourNejatian, N., Costa, A. B., Martin, C., Flores, M. G., Zhang, Y., Magoc, T., Lipori, G., Mitchell, D. A., Ospina, N. S., Ahmed, M. M., Hogan, W. R., Shenkman, E. A., Guo, Y., Bian, J., & Wu, Y. (2023). A study of generative large language model for medical research and healthcare. npj Digital Medicine, 6, 210. https://doi.org/10.1038/s41746-023-00958-w"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "clinical LLM development, training, and multi-task evaluation",
+    "study_design": "development and evaluation of a domain-specific generative LLM (GatorTronGPT) using large-scale clinical and general English corpora, biomedical NLP benchmarking, synthetic text generation, and physician Turing test",
+    "sample_description": "277 billion words of training text including 82 billion words of de-identified clinical text from 126 clinical departments and approximately 2 million patients at University of Florida Health and 195 billion words of diverse general English text; physician evaluation via Turing test",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "GatorTronGPT generative clinical LLM based on GPT-3 architecture with up to 20 billion parameters; prompt-based text generation; biomedical NLP and healthcare text generation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_HEALTHCARE",
+      "REGULATED_DOMAIN_HEALTH",
+      "GENERATIVE_CLINICAL_LLM"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_GOVERNANCE_FOCUS",
+      "NO_OPERATIONAL_GOVERNANCE_MECHANISMS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a strong empirical study of a clinical generative LLM in healthcare and mentions conversational ability, opportunities, and concerns such as hallucinations, bias, and privacy. However, the provided text centers on model development, biomedical NLP performance, synthetic data generation, and physician Turing-test evaluation rather than conversational governance mechanisms such as guardrails, observability, audit, human oversight, accountability, or compliance frameworks.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter/page 1 text is available; later sections may contain additional governance, ethics, or deployment discussion not visible in the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 0,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal is based only on the provided excerpt. Objectives and main results are clearly stated, with large-scale training data and statistical evaluation in the physician Turing test. Limitations, full methods, and governance-related analysis are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "moderate",
+    "explanation": "For the review's conversational-governance focus, relevance is limited because governance is referenced mainly as background concerns rather than as an studied intervention or framework. Coherence and empirical clarity for clinical LLM development appear strong in the excerpt, but confidence is constrained by incomplete full-text access."
+  },
+  "coding": {
+    "open_codes": [
+      "clinical_llm_development",
+      "biomedical_nlp_evaluation",
+      "synthetic_text_generation",
+      "physician_turing_test",
+      "healthcare_risk_concerns",
+      "prompt_based_conversation"
+    ],
+    "axial_codes": [
+      "domain_specific_llm_in_regulated_healthcare",
+      "generative_ai_opportunities_and_challenges",
+      "limited_governance_mechanism_evidence"
+    ],
+    "theme": "Development and evaluation of clinical generative LLMs in healthcare",
+    "subtheme": "Performance validation and surfaced risks without operational conversational governance",
+    "concepts": [
+      "GatorTronGPT",
+      "clinical text pretraining",
+      "hallucinations",
+      "bias",
+      "patient privacy",
+      "conversational text generation",
+      "human evaluation"
+    ],
+    "model_layers": [
+      "model_training",
+      "output_generation",
+      "human_evaluation"
+    ],
+    "rq_alignment": [
+      "LLM applications in regulated healthcare",
+      "risks and challenges of generative LLMs in clinical settings"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "A generative clinical LLM trained on large-scale real-world clinical and general English text can improve biomedical NLP, enable high-volume synthetic clinical text generation, and produce outputs that physicians rate similarly to human-written text on readability and clinical relevance.",
+    "contribution": "Provides empirical evidence for building and evaluating a healthcare-specific generative LLM rather than relying on general-purpose models such as ChatGPT, while noting healthcare opportunities and concerns.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence on clinical LLM development, conversational generation capability, and healthcare risk themes; not as central evidence on conversational governance, auditability, or operational control mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Study develops and evaluates a healthcare-specific generative LLM named GatorTronGPT.",
+      "excerpt": "This study develops a generative clinical LLM, GatorTronGPT, using 277 billion words of text",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Article is set in regulated healthcare using large-scale clinical data.",
+      "excerpt": "82 billion words of clinical text from 126 clinical departments and approximately 2 million patients at the University of Florida Health",
+      "page": "1",
+      "section": "front matter",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLMs are described as having conversational ability through prompt-based generation.",
+      "excerpt": "The conversational ability of LLMs is achieved using prompt-based text generation",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Healthcare concerns include hallucinations, bias, and privacy/ethics risks.",
+      "excerpt": "concerning the hallucinations and fabrications7,8, bias and stereotype9, and risks of patient privacy and ethics10",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Primary empirical focus is NLP utility and text-generation evaluation, not governance mechanisms.",
+      "excerpt": "evaluate its utility for biomedical natural language processing (NLP) and healthcare text generation",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Human expert evaluation is used via a physician Turing test.",
+      "excerpt": "Physicians’ Turing test using 1 (worst) to 9 (best) scale shows that there are no signiﬁcant differences in linguistic readability",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study reports statistically supported comparison between model-generated and human text.",
+      "excerpt": "physicians cannot differentiate them (p < 0.001)",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Article frames opportunities and challenges rather than operational governance controls.",
+      "excerpt": "This study provides insights into the opportunities and challenges of LLMs for medical research and healthcare",
+      "page": "1",
+      "section": "front matter",
+      "supports": "synthesis"
+    }
+  ]
+}

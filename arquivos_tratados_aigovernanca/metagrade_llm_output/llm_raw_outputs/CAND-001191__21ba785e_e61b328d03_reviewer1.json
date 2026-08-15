@@ -1,0 +1,170 @@
+{
+  "bibliographic": {
+    "title": "AI hype as a cyber security risk: the moral responsibility of implementing generative AI in business",
+    "authors": "Declan Humphreys",
+    "year": "2024",
+    "venue": "AI and Ethics",
+    "doi": "10.1007/s43681-024-00443-4",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Humphreys, D. (2024). AI hype as a cyber security risk: the moral responsibility of implementing generative AI in business. AI and Ethics, 4, 791–804. https://doi.org/10.1007/s43681-024-00443-4"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "normative ethical analysis",
+    "study_design": "conceptual ethics paper with threat discussion and checklist recommendations",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "business",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "generative AI and large language models (e.g., ChatGPT, LLaMA, Claude, Gemini) deployed in business contexts, with emphasis on cyber security risk and ethical implementation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GENAI",
+      "GOVERNANCE_ETHICS",
+      "RISK_SECURITY",
+      "GUARDRAILS_MENTION"
+    ],
+    "exclusion_codes": [
+      "WEAK_CONVERSATIONAL_FOCUS",
+      "LIMITED_REGULATED_DOMAIN_EVIDENCE"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O artigo aborda obrigações éticas e riscos de cibersegurança na implementação de IA generativa/LLMs em negócios, incluindo guardrails e princípios de explicabilidade, mas o trecho fornecido não centra governança conversacional nem ambientes regulados de alto risco; é evidência de apoio para dimensões éticas, risco e implantação.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Avaliação baseada principalmente em front matter (p. 1 e fragmento p. 3); é necessário verificar corpo completo para checklists, limitações, foco conversacional e menções a setores regulados."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Estudo conceitual/normativo sobre ética e cibersegurança na adoção de IA generativa; não há desenho empírico, amostra ou coleta de dados no texto fornecido. Adequado como contribuição ética de apoio, mas com evidência metodológica limitada pelo extrato disponível."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "O texto apresenta objetivo e enquadramento ético coerentes, porém a avaliação repousa em trecho parcial do artigo; relevância para governança conversacional em ambientes regulados é indireta e moderada."
+  },
+  "coding": {
+    "open_codes": [
+      "AI hype",
+      "cyber security risk",
+      "ethical obligations",
+      "guardrails",
+      "overreliance",
+      "over-trust",
+      "business deployment",
+      "moral responsibility"
+    ],
+    "axial_codes": [
+      "ethical governance of GenAI",
+      "organizational risk exposure",
+      "implementation safeguards"
+    ],
+    "theme": "Responsabilidade moral e governança ética na implementação de IA generativa",
+    "subtheme": "Riscos de cibersegurança e adoção apressada em contexto empresarial",
+    "concepts": [
+      "beneficence",
+      "non-maleficence",
+      "autonomy",
+      "justice",
+      "explicability",
+      "guardrails",
+      "large language models",
+      "generative AI"
+    ],
+    "model_layers": [
+      "ethics and accountability",
+      "risk and security",
+      "deployment governance"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa",
+      "controle de risco",
+      "compliance ético",
+      "guardrails"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "Empresas têm obrigações éticas ao implementar IA generativa/LLMs e a corrida por adoção sem salvaguardas adequadas expõe organizações a riscos graves de cibersegurança, incluindo backdoors e modelos envenenados.",
+    "contribution": "Articula ameaças de cibersegurança ligadas a IA generativa com princípios éticos (beneficência, não maleficência, autonomia, justiça, explicabilidade) e propõe checklists para implementação ética em ambiente de negócios.",
+    "limitations": "Texto fornecido não detalha limitações do estudo, validação empírica dos checklists ou aplicação a domínios regulados/conversacionais específicos.",
+    "use_in_review": "Evidência de apoio para discussões sobre governança ética, risco de implantação, guardrails e responsabilidade organizacional na adoção de LLMs; não deve ser tratado como evidência central para governança conversacional em ambientes regulados."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo publicado como pesquisa original revisada por pares em AI and Ethics (2024).",
+      "excerpt": "ORIGINAL RESEARCH AI and Ethics (2024) 4:791–804",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Foco em obrigações éticas na implementação de IA generativa e riscos de cibersegurança.",
+      "excerpt": "This paper examines the ethical obligations companies have when implementing generative Artificial Intelligence (AI).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Adoção apressada sem guardrails ou avaliações de segurança adequadas.",
+      "excerpt": "the race to integrate generative AI is not being accompanied by adequate guardrails or safety evaluations",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Uso de LLMs em áreas de negócio, incluindo atendimento ao cliente.",
+      "excerpt": "Companies are using these LLMs such as ChatGPT, LLaMA, Claude, and Gemini to aid many areas of business. The areas which are most likely to see the potential of generative AI to improve businesses are areas such as sales, marketing, software engineering, customer service",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Princípios éticos usados como base analítica.",
+      "excerpt": "we discuss the moral obligations of implementing generative AI into business by considering the ethical principles of beneficence, non-maleficence, autonomy, justice, and explicability",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Contribuição inclui checklists para implementação ética de IA generativa.",
+      "excerpt": "This paper concludes by recommending a set of checklists for ethical implementation of generative AI in business environment",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Preocupações com confiança excessiva e dependência excessiva em IA generativa.",
+      "excerpt": "We identify two examples of ethical concern, overreliance and over-trust in generative AI",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Não há evidência no trecho fornecido de foco primário em governança conversacional ou setores regulados específicos.",
+      "excerpt": "implementing generative AI in business environment to minimise cyber security risk",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "bibliographic": {
+    "title": "Optimizing Large Language Models for ESG Activity Detection in Financial Texts",
+    "authors": "Mattia Birti; Andrea Maurino; Francesco Osborne",
+    "year": "2025",
+    "venue": "6th ACM International Conference on AI in Finance (ICAIF '25)",
+    "doi": "10.1145/3768292.3770371",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Birti, M., Maurino, A., & Osborne, F. (2025). Optimizing Large Language Models for ESG Activity Detection in Financial Texts. In Proceedings of the 6th ACM International Conference on AI in Finance (ICAIF '25) (pp. 1-8). ACM. https://doi.org/10.1145/3768292.3770371"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "benchmark dataset creation and supervised fine-tuning evaluation",
+    "study_design": "experimental comparison of LLMs for domain-specific text classification",
+    "sample_description": "ESG-Activities benchmark with labeled text segments from financial/sustainability disclosures classified according to the EU ESG taxonomy",
+    "sample_size": "1325",
+    "sector": "financial technology / sustainable finance",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "fine-tuned open and proprietary LLMs for ESG environmental-activity text classification in financial texts; not a conversational or agentic system"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "OUT_OF_SCOPE_CONVERSATIONAL_AI",
+      "OUT_OF_SCOPE_CONVERSATIONAL_GOVERNANCE",
+      "FOCUS_TECHNICAL_NLP_CLASSIFICATION"
+    ],
+    "exclusion_reason": "The article empirically optimizes LLMs for ESG activity detection in financial texts via fine-tuning and benchmark evaluation. It does not study conversational AI systems, chatbots, agents, RAG pipelines, guardrails, observability, human oversight, accountability mechanisms, or governance of LLM-based conversational deployments in regulated settings.",
+    "decision_rationale": "Although the paper uses LLMs in a regulated financial/compliance context and mentions ESG regulatory frameworks, its core contribution is technical text classification and dataset benchmarking. No conversational interface, dialogue governance, operational oversight, audit/logging, or conversational risk controls are addressed. Python conversational_ai score was 0/3, consistent with the provided text.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Scope mismatch is explicit in title, abstract, and stated task definition; exclusion does not depend on ambiguous governance terminology."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Methodological quality appears adequate for an empirical NLP classification study, but appraisal relevance to conversational governance in regulated LLM systems is very low. Full methodology and evaluation details are only partially visible in the excerpt provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the review question on conversational governance of LLM systems in regulated environments, the study is only weakly relevant despite financial/compliance context. It offers limited transferable evidence on governance mechanisms, oversight, or conversational risk management."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM fine-tuning",
+      "ESG text classification",
+      "benchmark dataset",
+      "EU ESG taxonomy",
+      "financial text analysis",
+      "synthetic data augmentation",
+      "domain-specific NLP"
+    ],
+    "axial_codes": [
+      "technical model optimization",
+      "regulated finance NLP application",
+      "sustainability disclosure analysis"
+    ],
+    "theme": "Domain-specific LLM optimization for financial ESG classification",
+    "subtheme": "Benchmarking and fine-tuning for environmental-activity detection",
+    "concepts": [
+      "ESG-Activities dataset",
+      "EU ESG taxonomy",
+      "fine-tuning",
+      "text classification",
+      "Llama_7B",
+      "Gemma_7B",
+      "sustainability reports",
+      "compliance support"
+    ],
+    "model_layers": [
+      "data layer",
+      "model training layer",
+      "evaluation layer"
+    ],
+    "rq_alignment": [
+      "weak alignment: regulated financial context with LLMs",
+      "no alignment: conversational governance",
+      "no alignment: human oversight or accountability in conversational systems"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Current-generation LLMs can identify environmental-activity-related text in financial disclosures, and fine-tuning on the authors' ESG-Activities benchmark substantially improves classification performance over general-purpose models.",
+    "contribution": "Introduces the ESG-Activities benchmark with 1,325 labeled segments and shows that fine-tuned open models can outperform some proprietary LLMs for EU ESG taxonomy-aligned environmental activity detection.",
+    "limitations": "General-purpose LLMs are limited in domain-specific ESG activity categorization; high-quality structured training data are scarce; task is more complex than broad SDG linking.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance. May serve only as distant contextual background on regulated-finance NLP uses of LLMs, not on governance of conversational LLM systems."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on LLM-based ESG activity detection in financial texts, not conversational systems.",
+      "excerpt": "Optimizing Large Language Models for ESG Activity Detection in Financial Texts",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors are identifiable from the ACM reference format.",
+      "excerpt": "Mattia Birti, Andrea Maurino, and Francesco Osborne. 2025. Optimizing Large Language Models for ESG Activity Detection in Financial Texts.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is an empirical LLM classification investigation with a new benchmark dataset.",
+      "excerpt": "we investigate the ability of current-generation LLMs to identify text related to environmental activities",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample size is 1,325 labeled text segments.",
+      "excerpt": "we introduce ESG-Activities, a benchmark dataset containing 1,325 labeled text segments classified according to the EU ESG taxonomy",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Specific open LLMs are evaluated after fine-tuning.",
+      "excerpt": "open models such as Llama_7B and Gemma_7B outperforming large proprietary solutions in specific configurations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated/compliance context is financial ESG disclosure alignment, not conversational AI governance.",
+      "excerpt": "enhance ESG transparency and compliance through natural language processing techniques",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Task is fine-grained document classification rather than conversational interaction.",
+      "excerpt": "categorizing text based on specific environmental activities, such as those defined in the ESG taxonomy",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors report reproducibility artifacts for data and code.",
+      "excerpt": "we provide the complete codebase for our analysis to ensure reproducibility",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "General-purpose LLMs struggle with domain-specific ESG activity specificity.",
+      "excerpt": "General-purpose LLMs struggle with this level of specificity.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No conversational governance mechanisms are described in the provided text.",
+      "excerpt": "Section 4 describes the methodology adopted in our analysis. Section 5 presents the evaluation and discusses key insights.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "bibliographic": {
+    "title": "ChatGPT vs Google for Queries Related to Dementia and Other Cognitive Decline: Comparison of Results",
+    "authors": "Vagelis Hristidis; Nicole Ruggiano; Ellen L Brown; Sai Rithesh Reddy Ganta; Selena Stewart",
+    "year": "2023",
+    "venue": "Journal of Medical Internet Research",
+    "doi": "10.2196/48966",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Hristidis, V., Ruggiano, N., Brown, E. L., Ganta, S. R. R., & Stewart, S. (2023). ChatGPT vs Google for queries related to dementia and other cognitive decline: Comparison of results. Journal of Medical Internet Research, 25, e48966. https://doi.org/10.2196/48966"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative evaluation with expert rating",
+    "study_design": "comparative cross-platform query experiment with expert assessment and readability analysis",
+    "sample_description": "60 PLWD-related queries (30 informational, 30 service delivery/transactional) submitted to Google and ChatGPT; evaluated by three domain experts",
+    "sample_size": "60 queries; 3 domain experts",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "ChatGPT compared with Google web search for dementia and cognitive decline information seeking"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "borderline",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_CHATGPT",
+      "CONVERSATIONAL_AI",
+      "REGULATED_HEALTHCARE",
+      "HUMAN_EXPERT_REVIEW"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_GOVERNANCE_FOCUS",
+      "NO_OPERATIONAL_GOVERNANCE_MECHANISMS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study is an empirical comparison of ChatGPT and Google output quality for dementia-related queries in a regulated healthcare context, with human expert assessment of reliability, objectivity, and relevance. Provided text does not address conversational governance mechanisms such as guardrails, observability, audit, compliance frameworks, or formal oversight architectures; governance relevance is indirect via findings on source attribution, currency, and expert review.",
+    "decision_confidence": 0.68,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage flagged borderline_manual; article strongly matches LLM and healthcare domains but weakly matches governance and operational technical governance dimensions based on available text."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal based on abstract and partial introduction only; ethics, full limitations, and detailed analysis procedures not visible in provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Methods and findings are clearly reported in the abstract for a comparative quality study, but provided text offers limited detail on full protocol and does not substantively address conversational governance constructs central to the review scope."
+  },
+  "coding": {
+    "open_codes": [
+      "chatgpt_google_comparison",
+      "dementia_information_seeking",
+      "expert_quality_rating",
+      "source_attribution_gap",
+      "information_currency",
+      "response_relevance",
+      "readability_assessment",
+      "interrater_reliability"
+    ],
+    "axial_codes": [
+      "llm_output_quality_evaluation",
+      "healthcare_information_access",
+      "human_expert_oversight_of_outputs"
+    ],
+    "theme": "Quality and trustworthiness of LLM-generated health information",
+    "subtheme": "Comparative evaluation of ChatGPT versus web search for dementia-related queries",
+    "concepts": [
+      "ChatGPT",
+      "Google",
+      "large language models",
+      "chatbots",
+      "dementia",
+      "caregivers",
+      "reliability",
+      "objectivity",
+      "relevance",
+      "readability"
+    ],
+    "model_layers": [],
+    "rq_alignment": [
+      "regulated_healthcare_llm_use",
+      "human_assessment_of_model_outputs"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "ChatGPT and Google each have trade-offs for PLWD-related queries: Google offers superior currency and source reliability, while ChatGPT yields more objective and more relevant responses but rarely cites sources and may lack validity timestamps.",
+    "contribution": "Provides empirical expert-rated evidence on strengths and weaknesses of ChatGPT relative to traditional search in a high-stakes healthcare information-seeking context.",
+    "limitations": "Only abstract and partial introduction supplied; full study limitations, ethics, and governance implications cannot be fully assessed from provided text.",
+    "use_in_review": "Potential supporting or contextual evidence on LLM output risks (missing sources, outdated information, low readability) and human expert review in healthcare, but not primary evidence on conversational governance frameworks or operational controls."
+  },
+  "evidence": [
+    {
+      "claim": "Study compares ChatGPT and Google for PLWD-related queries using domain experts",
+      "excerpt": "A set of 30 informational and 30 service delivery (transactional) PLWD-related queries were selected and submitted to both Google and ChatGPT. Three domain experts assessed the results",
+      "page": "1",
+      "section": "Abstract Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Article focuses on specific LLM platform ChatGPT in healthcare context",
+      "excerpt": "The recent advancements in large language models (LLMs), such as ChatGPT, provide a new alternative to the more traditional web search engines, such as Google.",
+      "page": "1",
+      "section": "Abstract Background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "ChatGPT lacks source attribution and currency transparency",
+      "excerpt": "ChatGPT rarely includes the source of a result. Google more often provides a date for and a known reliable source of the response compared to ChatGPT",
+      "page": "1",
+      "section": "Abstract Conclusions",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human expert review used as evaluation mechanism",
+      "excerpt": "Three domain experts assessed the results for their currency of information, reliability of the source, objectivity, relevance to the query, and similarity of their response.",
+      "page": "1",
+      "section": "Abstract Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Interrater reliability analysis reported",
+      "excerpt": "Interrater reliability coefficients were calculated for all outcomes.",
+      "page": "1",
+      "section": "Abstract Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Readability analysis conducted with low scores especially for ChatGPT",
+      "excerpt": "The readability was low for both platforms, especially for ChatGPT (mean grade level 12.17, SD 1.94) compared to Google (mean grade level 9.86, SD 3.47).",
+      "page": "1",
+      "section": "Abstract Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Conversational AI/chatbots mentioned as background context",
+      "excerpt": "Recent advances in deep learning, which is a type of machine learning based on artificial neural networks, have given rise to several conversational artificial intelligence (AI) platforms (chatbots).",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated healthcare domain is dementia and cognitive decline",
+      "excerpt": "People living with dementia or other cognitive decline and their caregivers (PLWD) increasingly rely on the web to find information about their condition",
+      "page": "1",
+      "section": "Abstract Background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No operational governance mechanisms described in provided text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Peer-reviewed JMIR publication",
+      "excerpt": "(J Med Internet Res 2023;25:e48966) doi: 10.2196/48966",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

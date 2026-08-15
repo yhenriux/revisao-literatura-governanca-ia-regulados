@@ -1,0 +1,163 @@
+{
+  "bibliographic": {
+    "title": "Managing the race to the moon: Global policy and governance in Artificial Intelligence regulation—A contemporary overview and an analysis of socioeconomic consequences",
+    "authors": "Yoshija Walter",
+    "year": "2024",
+    "venue": "Discover Artificial Intelligence",
+    "doi": "10.1007/s44163-024-00109-4",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Walter, Y. (2024). Managing the race to the moon: Global policy and governance in Artificial Intelligence regulation—A contemporary overview and an analysis of socioeconomic consequences. Discover Artificial Intelligence, 4, 14. https://doi.org/10.1007/s44163-024-00109-4"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "policy perspective and comparative regulatory overview",
+    "study_design": "perspective article with cross-regional comparative policy analysis",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "cross-sector public policy and regulation",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "global AI regulation with references to foundation models, generative AI, ChatGPT, and chatbots within EU and international policy frameworks"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "AI_governance",
+      "regulatory_policy",
+      "generative_AI_regulation",
+      "risk_classification"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a policy perspective on global AI regulation and governance across regions, with socioeconomic analysis and a proposed integrated regulatory model. It references generative AI, foundation models, and ChatGPT mainly as examples within EU AI Act classification and international policy debates, but the provided text does not center conversational AI governance, operational controls, observability, human oversight mechanisms, or regulated-domain deployment of LLM conversational systems.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage marked central_candidate, but conversational-governance specificity is weak in the excerpts; manual confirmation is needed on whether operational conversational governance content appears later in the full text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Perspective piece with clearly stated policy objectives and comparative claims, but the provided text does not describe explicit search, selection, or analytic procedures. Adequate as contextual policy evidence, limited for operational conversational-governance synthesis."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is coherent for macro-level AI regulation, but methodological transparency is limited in the supplied text and the content is only partially aligned with conversational LLM governance in regulated operational settings."
+  },
+  "coding": {
+    "open_codes": [
+      "global AI regulation",
+      "comparative policy analysis",
+      "socioeconomic consequences",
+      "EU AI Act",
+      "foundation models",
+      "generative AI classification",
+      "dynamic laws",
+      "public-private regulatory collaboration"
+    ],
+    "axial_codes": [
+      "macro-level AI governance",
+      "international regulatory harmonization",
+      "risk-based AI classification",
+      "innovation-regulation tension"
+    ],
+    "theme": "Global AI policy and governance",
+    "subtheme": "Comparative international regulation of generative and foundation-model AI",
+    "concepts": [
+      "dynamic laws",
+      "AI race",
+      "regulatory compliance",
+      "risk management",
+      "data governance",
+      "democratic law-making"
+    ],
+    "model_layers": [
+      "policy layer",
+      "legal-regulatory layer"
+    ],
+    "rq_alignment": [
+      "AI governance in regulated contexts",
+      "risk and compliance framing for generative AI"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Rapid AI innovation outpaces regulatory and ethical standard-setting globally; a collaborative public-private model proposing adaptive dynamic laws is needed to bridge industry advancement and democratic law-making.",
+    "contribution": "Contemporary comparative overview of AI regulation across the United States, European Union, Asia, Africa, and the Americas, including socioeconomic implications and discussion of generative AI policy developments such as the EU AI Act and China's generative AI regulation.",
+    "limitations": "Perspective format without explicit methodological procedures in the provided excerpts; conversational AI governance and operational deployment controls are not substantively developed in the supplied text.",
+    "use_in_review": "Use as foundational contextual evidence on international AI governance, risk classification, and generative AI regulatory obligations; not as central evidence for conversational governance mechanisms in regulated LLM systems."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a policy perspective on global AI regulation and governance.",
+      "excerpt": "Perspective Managing the race to the moon: Global policy and governance in Artificial Intelligence regulation",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study compares regulatory approaches across major world regions.",
+      "excerpt": "contrasting regulatory approaches across key regions—the United States, European Union, Asia, Africa, and the Americas",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Proposes an integrated collaborative regulatory model called dynamic laws.",
+      "excerpt": "proposes an innovative and integrated regulatory model. The model advocates for a collaborative network that blends governmental authority with industry expertise, aiming to establish adaptive, responsive regulations (called \"dynamic laws\")",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "EU AI Act distinguishes foundation models and generative AI such as ChatGPT with specific obligations.",
+      "excerpt": "Foundation Models are a subset of General Purpose AI, trained on vast data and adaptable to many tasks. These models have specific regulatory obligations, including risk management and data governance. Generative AI, like ChatGPT, is also recognized, requiring providers to inform users of AI interaction",
+      "page": "5",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Chatbots like ChatGPT may change risk classification under evolving regulation.",
+      "excerpt": "it is possible that chatbots like ChatGPT or Bard can change in their risk classification, as presently conceived",
+      "page": "5",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "China introduced restrictive generative AI regulation in August 2023.",
+      "excerpt": "On August 15, 2023, China introduced a law restricting the development of generative AI technology.",
+      "page": "8",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulatory enforcement can affect access to conversational generative AI tools.",
+      "excerpt": "Italy's temporary block of ChatGPT due to data regulations, Microsoft’s challenges in introducing Copilot in the European market",
+      "page": "12",
+      "section": "discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "No empirical sample or data-collection protocol is described in the provided text.",
+      "excerpt": "This comparative study reveals the intricacies and hurdles in formulating a cohesive global policy for AI regulation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

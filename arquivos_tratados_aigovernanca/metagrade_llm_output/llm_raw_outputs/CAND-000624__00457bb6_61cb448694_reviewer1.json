@@ -1,0 +1,158 @@
+{
+  "bibliographic": {
+    "title": "Can GPT-4o Evaluate Usability Like Human Experts? A Comparative Study on Issue Identification in Heuristic Evaluation",
+    "authors": "Guilherme Guerino, Luiz Rodrigues, Bruna Capeleti, Rafael Ferreira Mello, André Freire, and Luciana Zaina",
+    "year": "2025",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Guerino, G., Rodrigues, L., Capeleti, B., Mello, R. F., Freire, A., & Zaina, L. (2025). Can GPT-4o evaluate usability like human experts? A comparative study on issue identification in heuristic evaluation. arXiv preprint arXiv:2506.16345."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative heuristic evaluation",
+    "study_design": "comparative study of GPT-4o versus human HCI experts on heuristic evaluation of web UI screenshots using Nielsen's heuristics",
+    "sample_description": "screenshots from a web-based system about mineral research and product information; heuristic evaluation performed by GPT-4o and human experts",
+    "sample_size": "unclear",
+    "sector": "Human-Computer Interaction; usability evaluation; web-based information systems",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "GPT-4o applied to heuristic evaluation of user interface screenshots via a literature-grounded prompt based on Nielsen's heuristics"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "wrong_intervention",
+      "wrong_outcome",
+      "wrong_context"
+    ],
+    "exclusion_reason": "The study compares GPT-4o with human HCI experts for usability heuristic evaluation of web interface screenshots. It does not address conversational AI governance, chatbots, agents, guardrails, auditability, compliance mechanisms, human oversight in regulated deployments, or governance of LLM-based conversational systems in high-stakes regulated environments.",
+    "decision_rationale": "Although the paper explicitly studies GPT-4o and LLMs in HCI, its focus is usability inspection and issue identification overlap with human experts, not governance, accountability, risk control, or regulated conversational system operation. The provided text contains no evidence of conversational system governance or regulated-domain application.",
+    "decision_confidence": 0.91,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is explicit in title and abstract; the article is an HCI comparative usability study rather than a governance study."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal is based only on front matter and partial introduction provided. The study appears internally coherent for its HCI usability aim, but sampling size, expert count, and full analytic protocol are not visible in the supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "high",
+    "explanation": "Confidence is high that the study is off-scope for a review on conversational governance in regulated LLM systems. Within its own HCI usability domain, the abstract reports measurable comparative findings and acknowledges hallucination-driven false positives, but supplied text is insufficient to fully judge adequacy."
+  },
+  "coding": {
+    "open_codes": [
+      "heuristic evaluation",
+      "GPT-4o",
+      "human expert comparison",
+      "usability inspection",
+      "issue identification overlap",
+      "hallucination",
+      "false positives",
+      "Nielsen heuristics"
+    ],
+    "axial_codes": [
+      "LLM-assisted HCI evaluation",
+      "human-AI performance comparison",
+      "usability inspection automation"
+    ],
+    "theme": "LLM use in HCI usability evaluation",
+    "subtheme": "Automated heuristic evaluation with GPT-4o",
+    "concepts": [
+      "heuristic evaluation",
+      "Large Language Models",
+      "GPT-4o",
+      "Human-Computer Interaction",
+      "usability",
+      "Nielsen heuristics",
+      "human judgment",
+      "hallucinations"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "GPT-4o identifies only a small share of issues found by human HCI experts in heuristic evaluation, while also producing additional issues including false positives linked to hallucinations.",
+    "contribution": "Provides an empirical comparison of GPT-4o versus human experts in heuristic evaluation of web UI screenshots and offers takeaways for conscious use of GPT-4o in this HCI method.",
+    "limitations": "GPT-4o showed difficulty with heuristics related to flexibility, control, and user efficiency; generated false positives due to hallucinations and attempts to predict issues; only 21.2% overlap with human-identified issues despite finding 27 new issues.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance in regulated LLM systems. At most, it could serve as distant contextual background on human-AI comparison and LLM reliability limits in expert judgment tasks, but it does not study governance mechanisms or regulated conversational deployments."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on comparing GPT-4o and human experts in heuristic evaluation of web-based systems.",
+      "excerpt": "this study aims to compare the results of a heuristic evaluation performed by GPT-4o and human experts",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Uses GPT-4o specifically with Nielsen's heuristics on UI screenshots.",
+      "excerpt": "we selected a set of screenshots from a web system and asked GPT-4o to perform a heuristic evaluation based on Nielsen's Heuristics from a literature-grounded prompt",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Reports low overlap with human experts and additional GPT-4o findings.",
+      "excerpt": "only 21.2% of the issues identified by human experts were also identified by GPT-4o, despite it found 27 new issues",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Identifies hallucination-related false positives as a limitation.",
+      "excerpt": "GPT-4o generated several false positives due to hallucinations and attempts to predict issues",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Publication is an arXiv preprint from 2025.",
+      "excerpt": "arXiv:2506.16345v1 [cs.HC] 19 Jun 2025",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Human expert judgment is central to the baseline method, not conversational governance oversight.",
+      "excerpt": "heuristic evaluation is carried out by multiple experts since it involves human judgment",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs are framed as supporting HCI activities such as UI testing and inspection, not governed conversational systems.",
+      "excerpt": "The literature has investigated the role of LLMs in supporting HCI activities, including UI sketching and UI testing and inspection",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "No regulated-domain application is described in the provided text.",
+      "excerpt": "a web-based system that integrates, systematizes and disseminates information based on maps and graphs about mineral research and product",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

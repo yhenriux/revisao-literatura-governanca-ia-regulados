@@ -1,0 +1,190 @@
+{
+  "bibliographic": {
+    "title": "A Survey of Large Language Models",
+    "authors": "Wayne Xin Zhao, Kun Zhou, Junyi Li, Tianyi Tang, Zican Dong, Yupeng Hou, Beichen Zhang, Yingqian Min, Junjie Zhang, Peiyu Liu, Xiaolei Wang, Yifan Du, Chen Yang, Yushuo Chen, Zhipeng Chen, Jinhao Jiang, Ruiyang Ren, Yifan Li, Xinyu Tang, Zikang Liu, Yiwen Hu, Jian-Yun Nie, Ji-Rong Wen",
+    "year": "2026",
+    "venue": "Frontiers of Computer Science",
+    "doi": "10.1007/s11704-026-60308-3",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Zhao, W. X., Zhou, K., Li, J., Tang, T., Dong, Z., Hou, Y., Zhang, B., Min, Y., Zhang, J., Liu, P., Wang, X., Du, Y., Yang, C., Chen, Y., Chen, Z., Jiang, J., Ren, R., Li, Y., Tang, X., Liu, Z., Hu, Y., Nie, J.-Y., & Wen, J.-R. (2026). A survey of large language models. Frontiers of Computer Science, 20(12). https://doi.org/10.1007/s11704-026-60308-3"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "literature survey",
+    "study_design": "survey",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "AI research",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM pre-training, post-training, utilization, and evaluation across the model lifecycle"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "off_topic_primary_focus"
+    ],
+    "exclusion_reason": "Primary focus is a technical survey of LLM techniques and lifecycle stages, not conversational governance, accountability, or regulated deployment contexts.",
+    "decision_rationale": "The article is an authoritative LLM survey covering pre-training, post-training, utilization, and evaluation, with brief mentions of alignment, safety, and societal impact. Provided text does not establish conversational governance, compliance, audit, human oversight, or regulated-domain application as central objects of study. It may serve as foundational technical context for LLM capabilities and lifecycle, but not as central evidence for conversational governance in regulated environments.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Deterministic triage graded this as central_candidate (99.33/A) based on keyword overlap, but full-text front matter indicates a general LLM technical survey rather than governance-focused work."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Clear survey objective and four-dimension structure are evident, but provided excerpt does not describe review search strategy, inclusion criteria, or corpus size. Limited transferability to conversational governance in regulated settings."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internally coherent as an LLM technical survey, but provided text offers little direct evidence on conversational governance, compliance, oversight, or regulated deployment. Adequacy and relevance for the review question are low despite high technical authority on LLMs."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM lifecycle",
+      "pre-training",
+      "post-training",
+      "alignment",
+      "safety",
+      "utilization",
+      "evaluation",
+      "agentic reasoning",
+      "dialogue systems mention"
+    ],
+    "axial_codes": [
+      "technical foundations",
+      "model development pipeline",
+      "societal impact mention"
+    ],
+    "theme": "Technical survey of large language model development and deployment",
+    "subtheme": "LLM lifecycle stages and evaluation",
+    "concepts": [
+      "pre-training",
+      "post-training",
+      "in-context learning",
+      "prompt engineering",
+      "alignment",
+      "safety benchmarks",
+      "agentic reasoning"
+    ],
+    "model_layers": [
+      "model development",
+      "deployment utilization",
+      "evaluation"
+    ],
+    "rq_alignment": [
+      "background on LLM capabilities and lifecycle",
+      "limited alignment with conversational governance RQ"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "The survey systematically reviews recent LLM advancements across pre-training, post-training, utilization, and evaluation, and synthesizes limitations and future directions.",
+    "contribution": "Provides a structured, comprehensive technical framework for understanding LLM development, behavior, and progress trajectory.",
+    "limitations": "Provided excerpt emphasizes technical pipeline coverage; conversational governance, regulated contexts, audit, and operational oversight are not established as primary contributions.",
+    "use_in_review": "Use as foundational contextual evidence on LLM technical lifecycle, capabilities, alignment/safety training, and evaluation—not as central evidence on conversational governance in regulated environments."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a survey of large language models published in a peer-reviewed journal.",
+      "excerpt": "A Survey of Large Language Models",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research type is a systematic review/survey of LLM techniques across four dimensions.",
+      "excerpt": "This survey systematically reviews recent advancements in LLM techniques across four key dimensions",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Four covered dimensions are pre-training, post-training, utilization, and evaluation.",
+      "excerpt": "(1) pre-training methodologies ... (2) post-training techniques ... (3) utilization strategies ... and (4) evaluation methods",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Post-training includes alignment and safety adaptation.",
+      "excerpt": "post-training techniques, including supervised fine-tuning and reinforcement learning, which adapt foundational models to downstream tasks and enhance their alignment and safety",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Utilization includes agentic reasoning and deployment interaction strategies.",
+      "excerpt": "utilization strategies, such as in-context learning, prompt engineering, and agentic reasoning, that optimize real-world deployment",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Evaluation includes safety benchmarks among ability dimensions.",
+      "excerpt": "evaluation methods, encompassing benchmarks for key ability dimensions such as core language capabilities, reasoning, and safety",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "ChatGPT is referenced as a dialogue-oriented model, not as a governance object.",
+      "excerpt": "the launch of ChatGPT, an advanced dialogue-oriented model that sparked global interest in generative AI",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Venue is Frontiers of Computer Science, December 2026 issue.",
+      "excerpt": "Frontiers of Computer Science | Issue 12 | Volume 20 | December 2026",
+      "page": "2",
+      "section": "header",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Authors acknowledge societal impact but frame the survey around technical frameworks.",
+      "excerpt": "LLMs necessitate new frameworks for understanding their development, behavior, and societal impact",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No regulated-domain focus is evidenced in the provided text.",
+      "excerpt": "automated customer support systems, and sophisticated content creation suites, demonstrating their deep integration into professional and operational workflows",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Survey objective clarity is high regarding LLM progress and limitations.",
+      "excerpt": "provide a systematic and comprehensive framework for understanding the trajectory, current limitations, and future directions of LLM progress",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Sampling and review protocol details are not present in provided excerpt.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

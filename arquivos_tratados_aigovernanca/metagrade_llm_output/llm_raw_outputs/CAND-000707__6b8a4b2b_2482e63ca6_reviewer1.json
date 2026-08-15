@@ -1,0 +1,172 @@
+{
+  "bibliographic": {
+    "title": "Learning From Failure: Integrating Negative Examples when Fine-tuning Large Language Models as Agents",
+    "authors": "Renxi Wang; Haonan Li; Xudong Han; Yixuan Zhang; Timothy Baldwin",
+    "year": "unclear",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Wang, R., Li, H., Han, X., Zhang, Y., & Baldwin, T. (unclear). Learning from failure: Integrating negative examples when fine-tuning large language models as agents. [Preprint]."
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "fine-tuning LLM agents with positive and negative interaction trajectories",
+    "study_design": "experimental technical evaluation across multiple agent task benchmarks",
+    "sample_description": "Agent interaction trajectories collected from LLM-environment tool use on mathematical reasoning, multi-hop question answering, and strategic question answering tasks",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM agents interacting with environments via tools (e.g., search engines, calculators), ReAct-style reasoning and actions, GPT-4 trajectory collection, fine-tuning of smaller models"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "llm_agents",
+      "operational_learning_from_failure",
+      "tool_use_interaction"
+    ],
+    "exclusion_codes": [
+      "no_regulated_domain",
+      "no_governance_accountability_focus",
+      "no_conversational_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article empirically addresses fine-tuning LLMs as tool-using agents and learning from failed interaction trajectories, which is peripherally relevant to operational learning and agent behavior. It does not address conversational governance, accountability, compliance, auditability, human oversight, or regulated high-stakes contexts central to the review scope.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial PDF text was provided; publication year, venue, peer-review status, full methods, results tables, and governance-related terms require verification in the complete paper."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal is based on abstract, introduction, and fragmented excerpts only. The study objective and technical approach are clearly stated, but sampling sizes, full evaluation protocol, statistical analysis, limitations, and ethics are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Within the provided text, the argument that negative trajectories can improve agent fine-tuning is coherent, but evidence depth is limited to partial front matter. Relevance to conversational governance in regulated environments is very low because the paper focuses on agent performance optimization rather than governance, oversight, compliance, or regulated deployment."
+  },
+  "coding": {
+    "open_codes": [
+      "negative_trajectories",
+      "agent_fine_tuning",
+      "tool_use",
+      "interaction_trajectories",
+      "quality_control",
+      "ReAct_actions",
+      "failed_task_learning"
+    ],
+    "axial_codes": [
+      "LLM_agent_training",
+      "operational_failure_learning",
+      "technical_performance_optimization"
+    ],
+    "theme": "Learning from failed agent trajectories during LLM fine-tuning",
+    "subtheme": "Data-efficient agent tuning with negative examples",
+    "concepts": [
+      "agent",
+      "interaction trajectory",
+      "negative example",
+      "fine-tuning",
+      "tool use",
+      "quality control",
+      "prefix/suffix labeling"
+    ],
+    "model_layers": [
+      "training_data_curation",
+      "model_fine_tuning",
+      "inference"
+    ],
+    "rq_alignment": [
+      "operational_learning"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "Unsuccessful LLM-environment interaction trajectories contain valuable information and, with appropriate quality control and fine-tuning strategies such as success/failure prefix or suffix labeling, can substantially improve agent performance.",
+    "contribution": "Proposes using both successful and unsuccessful trajectories for agent fine-tuning instead of discarding failures, reporting large performance gains on mathematical reasoning, multi-hop question answering, and strategic question answering, and claims to be the first to demonstrate the value of negative trajectories in agent-tuning scenarios.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting technical evidence on operational learning from agent failures and low-resource trajectory reuse. Not suitable as central evidence for conversational governance, accountability, compliance, audit, or regulated-domain deployment."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on fine-tuning LLMs as agents that interact with environments through tools",
+      "excerpt": "Large language models (LLMs) have achieved success in acting as agents, which interact with environments through tools such as search engines.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Failed trajectories are proposed as useful training signal with quality control",
+      "excerpt": "unsuccessful trajectories offer valuable insights, and LLMs can learn from these trajectories through appropriate quality control and fine-tuning strategies.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Method adds prefix or suffix indicating trajectory success during training",
+      "excerpt": "By simply adding a prefix or suffix that tells the model whether to generate a successful trajectory during training, we improve model performance by a large margin",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Evaluated on mathematical reasoning, multi-hop QA, and strategic QA",
+      "excerpt": "we improve model performance by a large margin on mathematical reasoning, multi-hop question answering, and strategic question answering tasks.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Prior agent-tuning work discards unsuccessful trajectories",
+      "excerpt": "previous work has simply discarded trajectories that do not successfully complete the task (i.e. negative examples), using only successful trajectories (i.e. positive examples)",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Agent pipeline includes data collection, fine-tuning, and inference with GPT-4 trajectories",
+      "excerpt": "fine-tuning LLMs as agents, typically in three stages: data collection, fine-tuning, and inference",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Code and data are publicly available",
+      "excerpt": "Code and data are available at: https://github.com/Reason-Wang/NAT.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Interaction phase executes LLM-generated actions with tools in ReAct format",
+      "excerpt": "during the interaction phase, the system executes the LLM-generated actions using the predefined tools, returns the resulting observations back to the LLM",
+      "page": "3",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No regulated-domain or governance context is presented in the supplied text",
+      "excerpt": "we improve model performance by a large margin on mathematical reasoning, multi-hop question answering, and strategic question answering tasks.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "bibliographic": {
+    "title": "Who judges the judges? Governance from metrics: a runtime framework for continuous LLM compliance monitoring",
+    "authors": "Jehanne Dussert",
+    "year": "2026",
+    "venue": "arXiv preprint",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Dussert, J. (2026). Who judges the judges? Governance from metrics: A runtime framework for continuous LLM compliance monitoring. Preprint. arXiv:2605.24737."
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "framework design and implementation with benchmark evaluation",
+    "study_design": "Design, implementation, and evaluation of an open-source runtime governance framework (govllm) validated on a ground-truth corpus of annotated prompt/response pairs using multiple on-premise small language model judges",
+    "sample_description": "Ground truth corpus of 49 annotated prompt/response pairs across five regulatory criteria, evaluated by four on-premise small language models (1.7B–7B parameters)",
+    "sample_size": "49 prompt/response pairs; 4 SLM judges",
+    "sector": "Regulated environments; EU regulatory and public-sector contexts referenced (EU AI Act, GDPR, ANSSI, accessibility)",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "govllm open-source runtime framework with governance-driven routing, specialised LLM regulatory judges per criterion, on-premise evaluation, continuous observability, and human arbitration on inter-judge disagreement"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_governance",
+      "runtime_compliance_monitoring",
+      "human_oversight",
+      "regulated_context",
+      "observability_audit",
+      "technical_framework"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper directly proposes and evaluates a runtime framework for continuous LLM compliance monitoring, governance-driven routing, regulatory judge panels, human arbitration, and alignment with EU AI Act, GDPR, ANSSI, and accessibility requirements in regulated deployment contexts.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front-matter and selected page excerpts were supplied; complete methods, full results, and limitations sections may extend beyond the provided text."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Strong conceptual and architectural contribution with reported agreement rates and bias analysis, but empirical validation is limited to a small annotated corpus and four on-premise SLMs; some architectural claims are explicitly deferred to future work."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 5,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are internally coherent and highly relevant to runtime LLM governance and compliance monitoring, but confidence is moderated by the small benchmark sample, partial text availability, and stated future-work validation for some architectural elements."
+  },
+  "coding": {
+    "open_codes": [
+      "governance from metrics",
+      "continuous compliance monitoring",
+      "compliance fiction",
+      "regulatory judge panel",
+      "inter-judge disagreement",
+      "human arbitration",
+      "governance-driven routing",
+      "behavioral drift detection",
+      "on-premise evaluation",
+      "position bias in judges",
+      "transparency at interaction level",
+      "governed qualification lifecycle"
+    ],
+    "axial_codes": [
+      "runtime observability",
+      "regulatory compliance architecture",
+      "human-in-the-loop escalation",
+      "LLM-as-judge evaluation"
+    ],
+    "theme": "Continuous runtime governance and compliance monitoring for deployed LLM systems",
+    "subtheme": "Regulatory judge panels, uncertainty signaling, and human arbitration",
+    "concepts": [
+      "govllm",
+      "governance from metrics",
+      "Profile-as-jury",
+      "intra-judge incoherence rate",
+      "test → human gate → production → quarantine pipeline",
+      "regulatory uncertainty signal"
+    ],
+    "model_layers": [
+      "routing architecture",
+      "evaluator/judge panel",
+      "observability and tracing",
+      "human gate and escalation"
+    ],
+    "rq_alignment": [
+      "generative AI governance in production",
+      "continuous compliance monitoring",
+      "human oversight and arbitration",
+      "observability and auditability",
+      "regulated deployment constraints",
+      "risk and bias in automated evaluation"
+    ],
+    "coding_confidence": 0.86
+  },
+  "synthesis": {
+    "main_claim": "Regulatory compliance for deployed LLM systems should be treated as a continuous, measurable runtime signal derived from observability rather than as a binary, audit-time verdict.",
+    "contribution": "Introduces the governance-from-metrics principle and the open-source govllm framework, including governance-driven routing, specialised regulatory LLM judges, reframing inter-judge disagreement as regulatory uncertainty warranting human arbitration, and empirical validation on a 49-pair ground-truth corpus with four on-premise SLMs.",
+    "limitations": "Empirical validation is based on only 49 annotated prompt/response pairs and four small on-premise models; some architectural elements are described as left for future empirical validation; conversational-system specificity is limited despite interaction-level transparency claims.",
+    "use_in_review": "Use as central evidence on runtime LLM governance, continuous compliance monitoring, judge-panel design, human escalation, on-premise evaluation constraints, and EU-regulatory-aligned observability in regulated deployments."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on continuous runtime LLM compliance monitoring rather than binary audit-time conformity.",
+      "excerpt": "Current approaches to AI compliance treat conformity as a binary, audit-time verdict rather than a continuous, measurable property of production systems.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Proposes governance-from-metrics and the govllm open-source runtime framework.",
+      "excerpt": "We introduce governance from metrics, a principle whereby regulatory compliance is derived as a continuous signal from runtime observability rather than from static assessments.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Uses specialised LLM regulatory judges and treats disagreement as a signal for human arbitration.",
+      "excerpt": "a panel of regulatory judges — LLM evaluators specialised per criterion (EU AI Act, GDPR, ANSSI, accessibility) — whose inter-judge disagreement we reframe not as noise but as a regulatory uncertainty signal warranting human arbitration.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empirical validation uses a small annotated corpus and four on-premise SLMs.",
+      "excerpt": "We validate this approach through a ground truth corpus of 49 annotated prompt/response pairs across five regulatory criteria, evaluated by four small language models (SLMs — 1.7B–7B parameters) running fully on-premise.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Reports inter-model agreement rates and absence of a single dominant judge.",
+      "excerpt": "Agreement rates range from 51.5% (mistral:7b) to 69.1% (phi4-mini), with no single model dominating across all criteria",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Addresses regulated environments and on-premise evaluation as a regulatory requirement.",
+      "excerpt": "in regulated environments subject to data sovereignty requirements, routing compliance evaluation through external APIs may itself conflict with the obligations being assessed. On-premise evaluation is therefore a regulatory requirement, not a design preference",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Frames generative AI systems as dynamic and poorly served by point-in-time governance.",
+      "excerpt": "agentic and generative AI systems are dynamic by nature — their behaviour evolves with use, context, and model updates. Yet most existing governance approaches remain frozen in point-in-time assessments",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Proposes a governed qualification lifecycle with human gate and drift detection aligned to AI Act art. 9.",
+      "excerpt": "we propose a formal test →human gate → production →quarantine pipeline implementing continuous behavioural drift detection aligned with AI Act art. 9 requirements.",
+      "page": "2",
+      "section": "contributions",
+      "supports": "coding"
+    },
+    {
+      "claim": "Positions govllm as operational tooling for runtime monitoring aligned with EU AI Act, GDPR, ANSSI, and accessibility.",
+      "excerpt": "govllm is designed to bridge this gap — operationalising AI governance in direct alignment with the EU AI Act, the GDPR, ANSSI security requirements, and accessibility standards.",
+      "page": "3",
+      "section": "related work",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Operationalises transparency at the interaction level with real-time judge evaluation and surfaced scores.",
+      "excerpt": "it operationalises the transparency obligations of EU AI Act article 13 at the interaction level: each model response is evaluated in real time by a judge LLM against a governance profile defined for the active use case, and the resulting scores are surfaced directly to the user",
+      "page": "6",
+      "section": "architecture",
+      "supports": "coding"
+    },
+    {
+      "claim": "Some architectural elements are explicitly deferred to future empirical validation.",
+      "excerpt": "Inter-judge variance as a regulatory signal, epistemic discrimination across model families, and trajectory-based routing are formalised architecturally in §5 and left for empirical validation in future work (§7).",
+      "page": "3",
+      "section": "related work",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Documents judge-specific position bias affecting agreement by up to 25 percentage points.",
+      "excerpt": "a judge-specific position bias that degrades agreement by up to 25 percentage points across three question- order conditions (original, reversed, permuted).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "bibliographic": {
+    "title": "Diagnostic Concordance of Large Language Models with Postoperative Surgeon Diagnoses: A Comparative Analysis of ChatGPT, Claude, and Gemini",
+    "authors": "Tasneem Shaik Zaheerudeen, Nembian Raja Rajan",
+    "year": "2026",
+    "venue": "Journal of Clinical and Diagnostic Research",
+    "doi": "10.7860/JCDR/2026/85628.23103",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Zaheerudeen, T. S., & Rajan, N. R. (2026). Diagnostic concordance of large language models with postoperative surgeon diagnoses: A comparative analysis of ChatGPT, Claude, and Gemini. Journal of Clinical and Diagnostic Research, 20(4), PC15-PC20. https://doi.org/10.7860/JCDR/2026/85628.23103"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "retrospective observational comparative diagnostic accuracy study",
+    "study_design": "single-centre retrospective observational comparative study",
+    "sample_description": "106 real-world surgical cases with documented presenting symptoms and confirmed postoperative diagnoses from SRM Medical College and Hospitals, Kattankulathur, Chennai, Tamil Nadu, India",
+    "sample_size": "106",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Standardised prompts with patient demographics, symptoms and clinical history submitted to ChatGPT (GPT-4, GPT-4-0613), Claude (Claude 3 Opus, claude-3-opus-20240229) and Gemini (Gemini Pro, gemini pro-1.0) for diagnostic concordance comparison against surgeon diagnoses"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "TOPIC_MISMATCH",
+      "NO_CONVERSATIONAL_GOVERNANCE",
+      "NO_GOVERNANCE_MECHANISMS"
+    ],
+    "exclusion_reason": "The study evaluates diagnostic concordance of three commercial LLMs against postoperative surgeon diagnoses in surgical cases. It does not address conversational AI systems, conversational governance, guardrails, observability, audit/logging, compliance frameworks, or operational governance mechanisms relevant to the review scope.",
+    "decision_rationale": "Although the article uses specific LLMs in a regulated healthcare setting and briefly mentions human oversight and accountability in its conclusion, the primary focus is comparative diagnostic accuracy using standardised one-shot prompts, not governance of conversational LLM deployments. Python triage over-weighted generic governance terms; no conversational AI terms were matched.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is clear from title, abstract, methods and conclusion; exclusion does not depend on ambiguous governance coding."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "For its own aim (diagnostic concordance), the study reports a clear comparative design, defined LLM versions, independent categorisation by two investigators, and statistical tests including Clopper-Pearson 95% CIs, McNemar's exact test and Cohen's kappa. Ethics and broader reflexivity are not substantively described in the provided text. Findings are limited by single-centre retrospective design and surgical case specificity."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "Within-review relevance to conversational governance is very low because governance is only mentioned peripherally in the conclusion. For the study's own diagnostic-concordance question, internal coherence and adequacy appear moderate based on reported methods and results, but transferability beyond the single surgical centre is limited."
+  },
+  "coding": {
+    "open_codes": [
+      "diagnostic_concordance",
+      "surgical_cases",
+      "llm_comparison",
+      "standardised_prompting",
+      "human_oversight_mention",
+      "accountability_mention"
+    ],
+    "axial_codes": [
+      "clinical_llm_evaluation",
+      "adjunctive_diagnostic_support",
+      "deployment_limitations"
+    ],
+    "theme": "Clinical diagnostic performance of commercial LLMs",
+    "subtheme": "Surgical diagnosis concordance versus surgeon gold standard",
+    "concepts": [
+      "diagnostic accuracy",
+      "postoperative diagnosis",
+      "pattern recognition",
+      "atypical presentations",
+      "human oversight",
+      "accountability"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "ChatGPT, Claude and Gemini showed comparable diagnostic concordance with postoperative surgeon diagnoses in 106 retrospective surgical cases, with similar accuracy across models and moderate-to-high inter-model agreement.",
+    "contribution": "Provides a real-world, single-centre comparative analysis of three named commercial LLMs against confirmed postoperative diagnoses rather than vignettes or exam questions, plus qualitative commentary on reasoning strengths and failures.",
+    "limitations": "LLMs struggled with atypical symptoms, rare conditions and cases lacking imaging data; accountability concerns and the need for human oversight are cited as reasons against independent clinical deployment.",
+    "use_in_review": "Exclude as central or supporting evidence on conversational governance. May serve only as peripheral contextual background on clinical LLM limitations and human oversight rhetoric, not as evidence on governance mechanisms, conversational systems, or regulated deployment controls."
+  },
+  "evidence": [
+    {
+      "claim": "Study aim is diagnostic concordance of three LLMs against surgeon diagnoses",
+      "excerpt": "Aim: To evaluate the diagnostic concordance of three leading LLMs, ChatGPT, Claude and Gemini against postoperative surgeon diagnoses.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Design is retrospective observational comparative study with 106 surgical cases",
+      "excerpt": "The present single centre retrospective observational comparative study including a total of 106 surgical cases from SRM Medical College and Hospitals, Kattankulathur, Chennai, Tamil Nadu, India",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLMs were evaluated via standardised prompts, not conversational system governance",
+      "excerpt": "Standardised prompts containing patient demographics, symptoms and clinical history were submitted to ChatGPT (GPT-4, version GPT-4-0613), Claude (Claude 3 Opus, version claude-3-opus-20240229) and Gemini (Gemini Pro, version gemini pro-1.0)",
+      "page": "1",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Analysis used Clopper-Pearson CIs, McNemar's test and Cohen's kappa",
+      "excerpt": "Model accuracy was calculated with Clopper-Pearson 95% confidence intervals. Pair-wise differences were assessed using McNemar’s exact test and inter-model agreement was quantified with Cohen’s kappa.",
+      "page": "1",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Results report comparable accuracy and inter-model agreement",
+      "excerpt": "Inter-model agreement was moderate to high (κ=0.592-0.843). All three models correctly diagnosed 78 cases (73.6%), while all three failed in 13 cases (12.3%).",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Governance content is limited to deployment caution and human oversight",
+      "excerpt": "significant limitations in handling atypical presentations, contextual interpretation and accountability concerns preclude independent clinical deployment. These findings underscore the necessity of human oversight",
+      "page": "1",
+      "section": "conclusion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors frame contribution toward responsible AI integration, not conversational governance",
+      "excerpt": "The present study findings contribute to the evidence base necessary for responsible AI integration in surgical decision- making.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Qualitative analysis identified AI diagnostic reasoning strengths and limitations",
+      "excerpt": "Qualitative analysis identified strengths and limitations of Artificial Intelligence (AI) diagnostic reasoning.",
+      "page": "1",
+      "section": "methods",
+      "supports": "appraisal"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "bibliographic": {
+    "title": "Measuring Faithfulness in Chain-of-Thought Reasoning",
+    "authors": "Tamera Lanham, Anna Chen, Ansh Radhakrishnan, Benoit Steiner, Carson Denison, Danny Hernandez, Dustin Li, Esin Durmus, Evan Hubinger, Jackson Kernion, Kamile Lukosiute, Karina Nguyen, Newton Cheng, Nicholas Joseph, Nicholas Schiefer, Oliver Rausch, Robin Larson, Sam McCandlish, Sandipan Kundu, Saurav Kadavath, Shannon Yang, Thomas Henighan, Timothy Maxwell, Timothy Telleen-Lawton, Tristan Hume, Zac Hatfield-Dodds, Jared Kaplan, Jan Brauner, Samuel R. Bowman, Ethan Perez",
+    "year": "2023",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Lanham, T., Chen, A., Radhakrishnan, A., Steiner, B., Denison, C., Hernandez, D., Li, D., Durmus, E., Hubinger, E., Kernion, J., Lukosiute, K., Nguyen, K., Cheng, N., Joseph, N., Schiefer, N., Rausch, O., Larson, R., McCandlish, S., Kundu, S., Kadavath, S., Yang, S., Henighan, T., Maxwell, T., Telleen-Lawton, T., Hume, T., Hatfield-Dodds, Z., Kaplan, J., Brauner, J., Bowman, S. R., & Perez, E. (2023). Measuring faithfulness in chain-of-thought reasoning. arXiv preprint arXiv:2307.13702."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "intervention experiments on chain-of-thought reasoning in large language models",
+    "study_design": "perturbation-based faithfulness tests (early answering, adding mistakes, paraphrasing, filler tokens) across benchmark tasks",
+    "sample_description": "LLM evaluated on multiple question-answering tasks including AQuA algebra word problems; primary model is a 175B-parameter decoder-only transformer fine-tuned as a helpful dialog assistant via RLHF",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "chain-of-thought reasoning faithfulness measurement in RLHF-tuned large language models"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_focus",
+      "explainability_interpretability",
+      "high_stakes_motivation"
+    ],
+    "exclusion_codes": [
+      "no_conversational_governance",
+      "no_regulated_deployment",
+      "no_operational_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study empirically measures whether chain-of-thought explanations faithfully reflect LLM reasoning, with explicit links to explainability and high-stakes reliance, but it does not address conversational governance, regulated deployment, compliance, audit, human oversight systems, or post-deployment operational governance. It is best treated as foundational contextual evidence on explanation faithfulness rather than central conversational-governance evidence.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated metadata misidentified title/year; relevance to conversational governance in regulated settings is indirect and requires human adjudication."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Clear experimental objective and intervention-based method design are reported, but provided excerpts do not include full sample sizes, complete task list, statistical reporting, or ethics discussion."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Methods coherently test CoT faithfulness through multiple perturbations on a specified RLHF-tuned LLM, but the supplied text does not establish regulated-domain deployment evidence, and the work is only indirectly relevant to conversational governance."
+  },
+  "coding": {
+    "open_codes": [
+      "chain-of-thought faithfulness",
+      "intervention testing",
+      "early answering",
+      "mistake injection",
+      "paraphrasing ablation",
+      "filler tokens",
+      "explainability claims",
+      "high-stakes motivation",
+      "RLHF dialog assistant"
+    ],
+    "axial_codes": [
+      "LLM explainability",
+      "reasoning transparency",
+      "model behavior under perturbation"
+    ],
+    "theme": "Faithfulness of LLM-generated step-by-step reasoning",
+    "subtheme": "Intervention-based measurement of explanation fidelity",
+    "concepts": [
+      "chain-of-thought",
+      "faithfulness",
+      "interpretability",
+      "explainability",
+      "post-hoc reasoning",
+      "test-time computation",
+      "RLHF assistant"
+    ],
+    "model_layers": [
+      "reasoning layer",
+      "output/explanation layer"
+    ],
+    "rq_alignment": [
+      "explainability",
+      "accountability",
+      "risk of relying on model explanations"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Chain-of-thought reasoning in LLMs is not consistently faithful to the model's actual reasoning process; faithfulness varies by task, and larger more capable models often produce less faithful reasoning on the studied tasks.",
+    "contribution": "Proposes perturbation-based tests for measuring CoT faithfulness and empirically shows that performance gains are not explained solely by added test-time compute or particular phrasing of the CoT.",
+    "limitations": "Provided excerpts do not fully report all tasks, metrics, sample sizes, or generalization beyond the studied 175B RLHF-tuned assistant and benchmarks.",
+    "use_in_review": "Use as foundational contextual evidence on whether LLM explanations can be trusted for oversight and accountability; not primary evidence for conversational governance mechanisms in regulated deployments."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on measuring faithfulness of chain-of-thought reasoning in large language models.",
+      "excerpt": "Large language models (LLMs) perform bet- ter when they produce step-by-step, “Chain-of- Thought” (CoT) reasoning before answering a question, but it is unclear if the stated reason- ing is a faithful explanation of the model’s actual reasoning",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Study motivation includes reliance on LLM outputs in high-stakes settings.",
+      "excerpt": "It is often critical to understand why a large language model (LLM) provided the output it did, to understand the extent to which we can rely on its output (especially in high-stakes set- tings such as medicine",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Methods use intervention tests on stated reasoning.",
+      "excerpt": "Our tests intervene on the model’s stated reasoning in different ways and evaluate how the model’s answer changes in response.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Primary model is a 175B RLHF-tuned helpful dialog assistant.",
+      "excerpt": "we use a 175B-parameter pretrained, decoder-only transformer (Vaswani et al., 2017) LLM (Radford et al., 2018; 2019; Brown et al., 2020), fine-tuned to be a helpful dialog as- sistant using reinforcement learning from human feedback (RLHF",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Results indicate variation in CoT use and reduced faithfulness in larger models.",
+      "excerpt": "We find great variation in how much LLMs use CoT on different tasks, not using CoT at all for some tasks while relying upon it heavily for other tasks.",
+      "page": "2",
+      "section": "conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Paraphrasing ablation suggests phrasing alone is not the main performance driver.",
+      "excerpt": "In this work, we find similar performance when replacing CoT with paraphrased CoT, indicating that the particular phrasing of CoT is not a driver of performance.",
+      "page": "2",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Smaller models may generate more faithful reasoning than larger ones.",
+      "excerpt": "We find that smaller models often generate more faithful reasoning than larger, more capable ones, and that models",
+      "page": "2",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Work links to interpretability and explainability claims about CoT prompting.",
+      "excerpt": "Many have claimed that the interpretability or explainability of LLMs is enhanced when they are prompted to generate step-by-step reasoning before giving an answer",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational governance, compliance, audit, or regulated deployment framework is studied.",
+      "excerpt": "we propose tests for measuring CoT faithfulness, enabling us to investigate CoT faithfulness across a variety of tasks on LLMs fine-tuned to behave as a helpful assistant",
+      "page": "2",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

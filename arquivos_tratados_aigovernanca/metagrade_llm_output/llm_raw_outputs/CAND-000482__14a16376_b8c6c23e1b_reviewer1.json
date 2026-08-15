@@ -1,0 +1,173 @@
+{
+  "bibliographic": {
+    "title": "Causal Inference for Banking, Finance, and Insurance – A Survey",
+    "authors": "Satyam Kumar; Yelleti Vivek; Vadlamani Ravi; Indranil Bose",
+    "year": "unclear",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "unknown",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Kumar, S., Vivek, Y., Ravi, V., & Bose, I. (unclear). Causal Inference for Banking, Finance, and Insurance – A Survey. unclear."
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "literature survey",
+    "study_design": "comprehensive survey of 37 papers published during 1992-2023 on causal inference applied to banking, finance, and insurance",
+    "sample_description": "37 papers concerning application of causal inference to banking, finance, and insurance, categorized by domain families and causal methods",
+    "sample_size": "37",
+    "sector": "banking; finance; insurance",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "causal inference; statistical methods; Bayesian causal networks; Granger causality; counterfactuals; machine learning; deep learning; explainable AI; interpretable machine learning"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_TOPIC_MISMATCH",
+      "E_NO_CONVERSATIONAL_AI",
+      "E_NO_LLM_GOVERNANCE"
+    ],
+    "exclusion_reason": "The paper is a domain survey on causal inference in banking, finance, and insurance. It does not study conversational AI, LLM-based systems, or conversational governance mechanisms such as guardrails, human oversight, audit logs, or compliance controls for generative conversational systems.",
+    "decision_rationale": "Although the article mentions artificial intelligence, machine learning, explainability, transparency, traceability, compliance, and regulated sectors, these references support a causal-inference survey in financial services—not governance of conversational LLM systems. The central object is causal inference methods and their application in banking/finance/insurance, which falls outside the review scope.",
+    "decision_confidence": 0.93,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Scope mismatch is explicit in title and abstract; no conversational or LLM-governance focus is present in the supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal is based only on front matter and excerpted pages. The study presents itself as a structured survey of 37 papers, but full search protocol, inclusion criteria, and quality appraisal are not visible in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "As a survey, the paper appears internally coherent for causal inference in regulated financial domains, but its relevance to conversational governance in LLM systems is very low because the provided text contains no substantive treatment of conversational systems, LLMs, or operational governance of generative AI deployments."
+  },
+  "coding": {
+    "open_codes": [
+      "causal_inference",
+      "counterfactuals",
+      "bayesian_causal_network",
+      "granger_causality",
+      "banking",
+      "finance",
+      "insurance",
+      "explainable_ai",
+      "transparency",
+      "traceability",
+      "financial_risk",
+      "governance_finance"
+    ],
+    "axial_codes": [
+      "causal_methods_in_regulated_finance",
+      "explainability_adjacent_to_causality",
+      "non_conversational_ai"
+    ],
+    "theme": "Causal inference methods in banking, finance, and insurance",
+    "subtheme": "Survey of statistical and ML causal approaches in regulated financial sectors",
+    "concepts": [
+      "causal inference",
+      "counterfactual",
+      "explainable AI",
+      "interpretable machine learning",
+      "financial risk",
+      "compliance context"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Causal inference is important for explaining decisions of statistical and AI models, and its application in banking and insurance remains underdeveloped; the authors survey 37 papers (1992-2023) and recommend future research directions.",
+    "contribution": "Provides a categorized map of causal inference literature across banking, finance subdomains, and insurance, covering methods such as Bayesian causal networks, Granger causality, and counterfactuals.",
+    "limitations": "Application of causal inference in banking and insurance is described as still in its infancy; broader methodological limitations of the survey itself are unclear from the provided excerpts.",
+    "use_in_review": "Exclude from central or supporting evidence for conversational governance in LLM systems. At most, it could serve as distant contextual background on explainability and regulated finance, but it does not address the review's core technology or governance object."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a survey on causal inference in banking, finance, and insurance, not conversational AI or LLM governance.",
+      "excerpt": "This paper presents a comprehensive survey of 37 papers published during 1992- 2023 and concerning the application of causal inference to banking, finance, and insurance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors position causal inference as relevant to explaining AI model decisions, but not as conversational governance.",
+      "excerpt": "Causal Inference plays an significant role in explaining the decisions taken by statistical models and artificial intelligence models.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulated high-stakes domains are banking, finance, and insurance.",
+      "excerpt": "The papers are categorized according to the following families of domains: (i) Banking, (ii) Finance and its subdomains such as corporate finance, governance finance including financial risk and financial policy, financial economics, and Behavioral finance, and (iii) Insurance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Technology context is ML/DL and explainable AI, without LLM or conversational systems.",
+      "excerpt": "Explainable AI deals with the implementation of transparency and traceability of black-box statistical and machine learning methods, particularly deep learning (DL).",
+      "page": "3",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Authors argue for moving beyond explainable AI toward causal/interpretable approaches, not for conversational governance.",
+      "excerpt": "We argue that there is a need to go beyond explainable AI.",
+      "page": "3",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Traditional ML is association-focused; causal approaches address cause-and-effect questions in models.",
+      "excerpt": "Traditional ML models focus on associations rather than causation.",
+      "page": "3",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No conversational AI, chatbot, agent, RAG, or LLM governance mechanisms are evidenced in the supplied text.",
+      "excerpt": "Traditional interpretability frameworks, for example, are unable to respond to causal questions, such as \"What is the impact of the nth filter of the mth layer of a deep neural network on the predictions of the model?\"",
+      "page": "3",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Survey sample size is 37 papers.",
+      "excerpt": "This paper presents a comprehensive survey of 37 papers published during 1992- 2023",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors conclude banking and insurance causal inference application remains immature.",
+      "excerpt": "we observed that the application of causal inference in the banking and insurance sectors is still in its infancy, and thus more research is possible to turn it into a viable method.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Mentions of interaction refer to financial/customer interaction in reviewed studies, not conversational AI interaction design.",
+      "excerpt": "they proposed a novel feature engineering process, which is based on recency, frequency and monetary (RFM) aspects of the customer interaction that is used to identify important customers.",
+      "page": "29",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

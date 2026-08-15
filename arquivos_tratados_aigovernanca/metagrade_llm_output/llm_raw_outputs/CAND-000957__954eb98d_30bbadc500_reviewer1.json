@@ -1,0 +1,155 @@
+{
+  "bibliographic": {
+    "title": "Tutorial: Prompt Engineering as an Important Emerging Skill for Medical Professionals",
+    "authors": "Bertalan Meskó",
+    "year": "2023",
+    "venue": "Journal of Medical Internet Research",
+    "doi": "10.2196/50638",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Meskó, B. (2023). Tutorial: Prompt engineering as an important emerging skill for medical professionals. Journal of Medical Internet Research, 25, e50638. https://doi.org/10.2196/50638"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "tutorial narrative summary",
+    "study_design": "tutorial",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "health care",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models (ChatGPT, GPT-4), generative AI, prompt engineering for medical professionals"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_HEALTHCARE",
+      "PROMPT_ENGINEERING",
+      "CONVERSATIONAL_AI_KEYWORDS"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_GOVERNANCE_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The provided text describes a JMIR tutorial summarizing prompt engineering research and offering practical recommendations for health care professionals using LLMs. It addresses LLMs, generative AI, and health care, with keywords referencing chatbots and conversational agents, but contains no explicit treatment of conversational governance, accountability, oversight, compliance, guardrails, audit, or monitoring in the excerpt supplied.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only page 1 (abstract and opening section) was supplied; governance-related content may appear later in the full text, and tutorial review methodology is not visible in the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Appraisal based only on page 1. Clear tutorial objective and health care target audience, but no empirical sample, search strategy, or systematic review protocol is described in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "The excerpt presents a coherent tutorial aim on prompt engineering for medical professionals, but methodological detail is absent and the content is only weakly relevant to conversational governance because governance mechanisms are not discussed in the supplied text."
+  },
+  "coding": {
+    "open_codes": [
+      "prompt_engineering",
+      "LLM_adoption",
+      "health_care_professionals",
+      "decision_support",
+      "risk_assessment",
+      "generative_AI"
+    ],
+    "axial_codes": [
+      "professional_LLM_interaction",
+      "regulated_health_care_context"
+    ],
+    "theme": "LLM skill development in health care",
+    "subtheme": "prompt engineering tutorial",
+    "concepts": [
+      "prompt engineering",
+      "large language models",
+      "ChatGPT",
+      "GPT-4",
+      "decision support",
+      "risk assessment",
+      "chatbots",
+      "conversational agents"
+    ],
+    "model_layers": [
+      "human_prompt_design",
+      "LLM_output_guidance"
+    ],
+    "rq_alignment": [
+      "background on LLM use in regulated health care",
+      "weak alignment with conversational governance RQs"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "Prompt engineering is an essential emerging skill for medical professionals to effectively interact with LLMs in health care.",
+    "contribution": "Summarizes current research on prompt engineering and provides practical recommendations for health care professionals to improve interactions with LLMs.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence on LLM adoption, professional interaction practices, and health care applications; not central evidence for conversational governance because governance topics are absent from the provided text."
+  },
+  "evidence": [
+    {
+      "claim": "Paper is a tutorial on prompt engineering for medical professionals using LLMs in health care.",
+      "excerpt": "This paper summarizes the current state of research about prompt engineering and, at the same time, aims at providing practical recommendations for the wide range of health care professionals to improve their interactions with LLMs.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study focuses on specific LLMs including ChatGPT and GPT-4.",
+      "excerpt": "KEYWORDS artificial intelligence; AI; digital health; future; technology; ChatGPT; GPT-4; large language models",
+      "page": "1",
+      "section": "abstract/keywords",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated health care domain is explicit.",
+      "excerpt": "due to the possible implications of LLMs in health care",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Conversational AI terms appear as keywords but governance is not discussed in the excerpt.",
+      "excerpt": "chatbot; chatbots; conversational agent; conversational agents",
+      "page": "1",
+      "section": "keywords",
+      "supports": "coding"
+    },
+    {
+      "claim": "Prompt engineering is defined as designing instructions to guide LLM outputs.",
+      "excerpt": "Prompt engineering is a relatively new field of research that refers to the practice of designing, refining, and implementing prompts or instructions that guide the output of large language models (LLMs) to help in various tasks.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Medical use cases include decision support and risk assessment.",
+      "excerpt": "Decision support: medical professionals can use prompt engineering to optimize AI systems to aid in decision-making processes, such as diagnosis, treatment selection, or risk assessment.",
+      "page": "1",
+      "section": "body",
+      "supports": "coding"
+    },
+    {
+      "claim": "No governance, accountability, audit, or oversight content is present in the supplied text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

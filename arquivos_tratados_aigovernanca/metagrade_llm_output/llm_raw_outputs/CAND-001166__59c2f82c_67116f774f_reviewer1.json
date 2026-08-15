@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "Artificial Intelligence–Based Chatbots for Promoting Health Behavioral Changes: Systematic Review",
+    "authors": "Abhishek Aggarwal; Cheuk Chi Tam; Dezhi Wu; Xiaoming Li; Shan Qiao",
+    "year": "2023",
+    "venue": "Journal of Medical Internet Research",
+    "doi": "10.2196/40789",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Aggarwal, A., Tam, C. C., Wu, D., Li, X., & Qiao, S. (2023). Artificial intelligence–based chatbots for promoting health behavioral changes: Systematic review. Journal of Medical Internet Research, 25, e40789. https://doi.org/10.2196/40789"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic_review_PRISMA",
+    "study_design": "systematic review with quality appraisal using CASP and CONSORT-AI checklists",
+    "sample_description": "15 empirical studies evaluating feasibility or efficacy of AI chatbots for health behavior change, published 1980–2022",
+    "sample_size": "15 included studies",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI-driven conversational chatbots using ML, NLP, deep learning, and platforms such as IBM Watson Assistant; not LLM-specific"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "borderline",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "conversational_ai",
+      "regulated_healthcare",
+      "systematic_review_method"
+    ],
+    "exclusion_codes": [
+      "not_llm_specific",
+      "governance_not_primary_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a PRISMA systematic review of AI chatbots for health behavior change in a regulated healthcare domain and reports monitoring, deployment, and interaction data collection. However, the provided text does not center on conversational governance, accountability frameworks, guardrails, observability, audit, human oversight, or LLM-based systems; its primary objective is feasibility and efficacy of behavior-change interventions.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage scored as central_candidate, but full-text evidence shows primary focus on health behavior change efficacy rather than conversational governance in LLM systems; manual adjudication needed on scope fit."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Clear PRISMA systematic review with multi-database search and structured quality appraisal (CASP, CONSORT-AI). Authors acknowledge moderate to high risk of internal validity, insufficient description of AI techniques, and generalizability limits. Ethics/reflexivity is not substantively addressed in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Methodologically coherent systematic review with transparent limitations, but direct relevance to conversational governance in LLM systems in regulated environments is low because governance is not a primary analytic focus and LLMs are not specifically examined."
+  },
+  "coding": {
+    "open_codes": [
+      "health_behavior_change",
+      "AI_chatbots",
+      "feasibility_efficacy",
+      "PRISMA_systematic_review",
+      "real_time_interaction_data",
+      "deployment_scalability",
+      "quality_appraisal_CASP",
+      "CONSORT-AI_reporting"
+    ],
+    "axial_codes": [
+      "conversational_health_interventions",
+      "empirical_evidence_synthesis",
+      "intervention_characteristics"
+    ],
+    "theme": "Efficacy and feasibility of AI chatbots for health behavior change",
+    "subtheme": "Intervention design, monitoring, and deployment in healthcare chatbots",
+    "concepts": [
+      "behavior_change_strategies",
+      "personalized_services",
+      "user_chatbot_interaction_data",
+      "internal_validity_risk",
+      "generalizability_limits"
+    ],
+    "model_layers": [
+      "application_layer",
+      "data_collection_layer"
+    ],
+    "rq_alignment": [
+      "conversational_ai_in_regulated_context"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "AI chatbots show promising efficacy for health behavior change across diverse populations, but evidence on feasibility, acceptability, and usability is mixed and conclusions require caution due to validity and reporting limitations.",
+    "contribution": "Synthesizes 15 empirical studies on AI chatbot interventions for health behaviors using PRISMA, identifying common behavior-change strategies (goal setting, monitoring, feedback) and scalability via accessible platforms, while appraising study quality with CASP and CONSORT-AI.",
+    "limitations": "Moderate to high risk of internal validity, insufficient description of AI techniques, and limited generalizability; authors call for more robust randomized controlled trials.",
+    "use_in_review": "Use as borderline or supporting contextual evidence on healthcare chatbot interventions, monitoring of interaction data, and deployment practices; not suitable as central evidence on conversational governance or LLM-specific governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a systematic review of AI chatbots for health behavior change following PRISMA",
+      "excerpt": "The aim of this systematic review was to evaluate the feasibility, efficacy, and intervention characteristics of AI chatbots for promoting health behavior change.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "PRISMA-guided methods with multi-database search",
+      "excerpt": "The screening, extraction, and analysis of the identified articles were performed by following the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "15 studies included after screening",
+      "excerpt": "Finally, 15 articles met the inclusion criteria and were selected for this review (Figure 1).",
+      "page": "3",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Inclusion criteria require AI/ML/NLP-based chatbots, not LLM-specific",
+      "excerpt": "chatbots developed upon existing AI platforms (eg, IBM Watson Assistant [IBM Corp]) or AI algorithms, such as ML, deep learning, natural language understanding, and NLP",
+      "page": "3",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated healthcare context",
+      "excerpt": "Artificial intelligence (AI)–based chatbots can offer personalized, engaging, and on-demand health promotion interventions.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Conversational agent technology context",
+      "excerpt": "AI-driven chatbots (AI chatbots) are conversational agents that mimic human interaction through written, oral, and visual forms of communication with a user",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Interaction data collection and monitoring on chatbot platform",
+      "excerpt": "Real-time user-chatbot interaction data, such as user preferences and behavioral performance, were collected on the chatbot platform to identify ways of providing personalized services.",
+      "page": "1",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Deployment scalability mentioned",
+      "excerpt": "The AI chatbots demonstrated potential for scalability by deployment through accessible devices and platforms (eg, smartphones and Facebook Messenger).",
+      "page": "1",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Quality appraisal used CASP and CONSORT-AI",
+      "excerpt": "AI techniques specific to AI chatbot interventions were also appraised using the CONSORT-AI (Consolidated Standards of Reporting Trials–Artificial Intelligence) extension guidance for AI studies",
+      "page": "4",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors report validity and AI-description limitations",
+      "excerpt": "the reported results need to be interpreted with caution because of the moderate to high risk of internal validity, insufficient description of AI techniques, and limitation for generalizability",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Primary outcomes are efficacy/feasibility, not governance",
+      "excerpt": "Of the 15 included studies, several demonstrated the high efficacy of AI chatbots in promoting healthy lifestyles (n=6, 40%), smoking cessation (n=4, 27%)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

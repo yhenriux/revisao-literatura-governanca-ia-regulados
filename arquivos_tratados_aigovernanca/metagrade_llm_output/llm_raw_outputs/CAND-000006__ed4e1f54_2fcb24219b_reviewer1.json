@@ -1,0 +1,201 @@
+{
+  "bibliographic": {
+    "title": "Responsible AI in practice 2025 global insights from the AI Company Data Initiative",
+    "authors": "Thomson Reuters Foundation and UNESCO",
+    "year": "2026",
+    "venue": "unclear",
+    "doi": "10.54678/YJWP8855",
+    "publication_type": "report",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Thomson Reuters Foundation & UNESCO. (2026). Responsible AI in practice 2025: Global insights from the AI Company Data Initiative. Thomson Reuters Foundation & UNESCO. https://doi.org/10.54678/YJWP8855"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "corporate disclosure document analysis with LLM-assisted content parsing against the AICDI framework",
+    "study_design": "cross-sectional analysis of voluntary corporate AI governance disclosures",
+    "sample_description": "Companies covered by the AI Company Data Initiative (AICDI), assessed through public corporate materials including annual and ESG reports, governance and responsible AI webpages, cybersecurity and privacy policies, and diversity reporting",
+    "sample_size": "unclear",
+    "sector": "multi-sector corporations (technology, telecommunications, banking, chemicals, cement, and other industries represented in case studies)",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Corporate-level responsible AI governance disclosure and regulatory landscape mapping; LLM used as an analysis tool to parse source documents against the AICDI survey framework, not as the primary subject of conversational system governance"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "AI_GOVERNANCE",
+      "REGULATORY_LANDSCAPE",
+      "RESPONSIBLE_AI_DISCLOSURE",
+      "RISK_COMPLIANCE",
+      "HUMAN_OVERSIGHT"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The publication provides empirical global insights on corporate responsible AI governance, regulatory frameworks, risk management, human oversight, and generative AI regulation through the AICDI initiative. It explicitly uses a large language model to analyze corporate disclosures. However, the provided text contains no evidence on conversational AI systems, chatbots, agents, RAG, guardrails, observability, tracing, handoff, or contestation in deployed conversational LLM applications. It is therefore better suited as foundational/contextual evidence for AI governance in regulated environments than as central evidence on conversational governance.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Confirm publication type (report vs. journal article), peer-review status, and AICDI sample size/statistics from sections not fully extracted (Key Statistics, AICDI dataset breakdown)."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Strengths include a clearly described disclosure-based methodology and structured thematic findings. The LLM-assisted parsing approach is transparently described, including instructions to populate fields only with explicit evidence and to flag interpretive content. Weaknesses for this review include unclear sample size in the provided excerpts, likely voluntary-disclosure bias, and no conversational-AI operational governance detail."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are coherent with the stated aim of assessing corporate responsible AI practice through public disclosures, but voluntary reporting and LLM-assisted extraction introduce limitations. Relevance to conversational LLM governance is indirect: strong on corporate governance, regulation, and generative AI policy context; weak on conversational system controls and post-deployment oversight."
+  },
+  "coding": {
+    "open_codes": [
+      "voluntary corporate disclosure",
+      "AICDI framework",
+      "responsible AI governance",
+      "regulatory landscape mapping",
+      "investor engagement",
+      "LLM-assisted document parsing",
+      "generative AI regulation",
+      "worker protections",
+      "ethical risk management",
+      "training data and user data rights"
+    ],
+    "axial_codes": [
+      "institutional AI governance",
+      "regulatory compliance",
+      "accountability and transparency",
+      "human oversight and redress",
+      "risk and harm management",
+      "operational governance gaps"
+    ],
+    "theme": "Corporate responsible AI governance practice and disclosure",
+    "subtheme": "Regulatory context and voluntary corporate reporting on AI governance",
+    "concepts": [
+      "AI Company Data Initiative (AICDI)",
+      "voluntary disclosure",
+      "responsible AI frameworks",
+      "generative AI safeguards",
+      "investor proxy voting principles",
+      "purple teaming"
+    ],
+    "model_layers": [
+      "policy/regulatory layer",
+      "organizational governance layer",
+      "risk and ethics layer"
+    ],
+    "rq_alignment": [
+      "AI governance in regulated/high-stakes contexts",
+      "compliance and risk management",
+      "human oversight and accountability",
+      "generative AI adoption governance"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Public corporate commitment to AI governance frameworks remains limited and uneven, with gaps between published AI strategies and demonstrated practice, especially around worker protections, ethical issues, and data governance.",
+    "contribution": "Provides a 2025 global empirical snapshot of corporate responsible AI disclosures, maps major AI regulatory developments, and documents how an LLM was used to operationalize structured assessment of public corporate materials against the AICDI framework.",
+    "limitations": "Based on voluntary public disclosures rather than independent verification of deployed AI systems; sample size and full limitation discussion are not available in the provided excerpts; no focus on conversational AI operational controls.",
+    "use_in_review": "Use as foundational/contextual evidence for the regulatory and corporate governance backdrop of responsible generative AI in regulated environments. Do not treat as central evidence on conversational LLM governance, guardrails, observability, audit logs, tracing, handoff, or contestation mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Publication is a 2026 open-access report by Thomson Reuters Foundation and UNESCO with stated DOI.",
+      "excerpt": "Published in 2026 by the Thomson Reuters Foundation",
+      "page": "2",
+      "section": "Front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study analyzes corporate public materials using a large language model against the AICDI framework.",
+      "excerpt": "These documents were analysed using a large language model to parse content against the AICDI framework.",
+      "page": "23",
+      "section": "Methodology",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM parsing was constrained to explicit evidence and flagged interpretive content.",
+      "excerpt": "The model was instructed to populate survey response fields only where information was explicitly and clearly evidenced in the source material.",
+      "page": "23",
+      "section": "Methodology",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Regulatory landscape includes generative AI transparency and safety requirements.",
+      "excerpt": "California has passed targeted AI transparency and safety laws that require impacted companies above certain thresholds to report risk assessments and safety measures for large generative AI models.",
+      "page": "19",
+      "section": "The regulatory and framework landscape",
+      "supports": "coding"
+    },
+    {
+      "claim": "China's Interim Measures for Generative AI Services impose accountability and traceability obligations on public-facing generative AI systems.",
+      "excerpt": "These measures are designed to ensure accountability and traceability in the operation of public-facing generative AI systems.",
+      "page": "20",
+      "section": "The regulatory and framework landscape",
+      "supports": "coding"
+    },
+    {
+      "claim": "Finding 1 indicates low public commitment to AI governance frameworks.",
+      "excerpt": "Finding 1: Public commitment from companies to AI governance frameworks remains low, signalling inconsistent governance practices",
+      "page": "3",
+      "section": "Contents / Thematic findings",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Finding 2 highlights a strategy-versus-practice gap.",
+      "excerpt": "Finding 2: Many companies publish strategies on AI but it is less clear how these are put into practice",
+      "page": "3",
+      "section": "Contents / Thematic findings",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Finding 4 notes ethical issues are sidelined in AI governance and risk management.",
+      "excerpt": "Finding 4: Ethical issues - including human rights and environmental impacts - are being sidelined in AI governance and risk management",
+      "page": "3",
+      "section": "Contents / Thematic findings",
+      "supports": "coding"
+    },
+    {
+      "claim": "Finding 5 identifies limited policies on training data, third-party data controls, and user data rights.",
+      "excerpt": "Finding 5: Limited company policies on AI training data, third-party data controls, and user data rights",
+      "page": "3",
+      "section": "Contents / Thematic findings",
+      "supports": "coding"
+    },
+    {
+      "claim": "AICDI was created to promote transparency, trust, and responsibility through voluntary corporate disclosure.",
+      "excerpt": "Our AI Company Data Initiative (AICDI) was set up to ensure transparency, trust and responsibility are embedded into this seismic transformation",
+      "page": "5",
+      "section": "Forewords",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Case material references generative AI workforce guidance and public purple teaming, but not conversational system governance architecture.",
+      "excerpt": "The organisation conducts public purple teaming events to engage diverse stakeholders in analysing and assessing the fitness of their generative AI systems.",
+      "page": "71",
+      "section": "Case study 1: TELUS",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational AI, chatbot, agent, RAG, guardrails, observability, tracing, handoff, or contestation focus appears in the provided text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

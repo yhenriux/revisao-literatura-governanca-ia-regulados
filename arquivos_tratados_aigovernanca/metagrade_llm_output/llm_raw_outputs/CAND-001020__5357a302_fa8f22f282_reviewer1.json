@@ -1,0 +1,219 @@
+{
+  "bibliographic": {
+    "title": "Productivity of incident management with conversational bots-a review",
+    "authors": "Orlando Iparraguirre-Villanueva; Luz Obregon-Palomino; Wilson Pujay-Iglesias; Fernando Sierra-Liñan; Michael Cabanillas-Carbonell",
+    "year": "2023",
+    "venue": "IAES International Journal of Artificial Intelligence (IJ-AI)",
+    "doi": "10.11591/ijai.v12.i4.pp1543-1556",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Iparraguirre-Villanueva, O., Obregon-Palomino, L., Pujay-Iglesias, W., Sierra-Liñan, F., & Cabanillas-Carbonell, M. (2023). Productivity of incident management with conversational bots-a review. IAES International Journal of Artificial Intelligence, 12(4), 1543-1556. https://doi.org/10.11591/ijai.v12.i4.pp1543-1556"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic literature review with PRISMA",
+    "study_design": "systematic literature review",
+    "sample_description": "Articles from 2019 to 2022 retrieved from Scopus, Springer, Wiley, Indexes-Csic, Taylor & Francis, Pubmed, and Ebsco Host; 47 relevant articles systematized",
+    "sample_size": "47",
+    "sector": "incident management; information systems; customer service; healthcare; education; IT",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "conversational agents, chatbots, AI, NLP, conversational interfaces, virtual assistants"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "borderline",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "conversational_bots",
+      "systematic_review",
+      "regulated_domain_partial"
+    ],
+    "exclusion_codes": [
+      "no_llm_specificity",
+      "insufficient_governance_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed systematic review on conversational bots in incident management with PRISMA and coverage of healthcare and education, which aligns partially with conversational AI in high-stakes contexts. However, the provided text does not mention large language models, governance, compliance, audit, guardrails, human oversight, accountability, or post-deployment monitoring as study objectives or findings. Relevance to conversational governance in LLM-based regulated systems is therefore indirect and weak.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Borderline fit: strong conversational-bot and SLR signals, but no explicit LLM or governance content in supplied excerpts; full text needed to confirm absence of governance themes and LLM-related technologies."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Clear SLR objective and PRISMA reporting with named databases and 47 included articles. Analysis includes taxonomy tables and network mapping. Ethics, limitations, and governance dimensions are not evidenced in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Methodological reporting is moderately strong for a systematic review, with coherent focus on productivity, bot types, and processes. Adequacy is moderate because governance and LLM-specific concerns are not addressed. Relevance to the review's governance-in-regulated-LLM scope is low based on available text."
+  },
+  "coding": {
+    "open_codes": [
+      "systematic_literature_review",
+      "PRISMA",
+      "conversational_bots",
+      "chatbots",
+      "incident_management",
+      "productivity",
+      "customer_service",
+      "healthcare",
+      "education",
+      "architecture_model",
+      "NLP",
+      "artificial_intelligence"
+    ],
+    "axial_codes": [
+      "conversational_ai_applications",
+      "operational_productivity",
+      "domain_taxonomy",
+      "technical_architecture"
+    ],
+    "theme": "Productivity and application of conversational bots in incident management",
+    "subtheme": "Systematic synthesis of bot types, benefits, and optimized processes",
+    "concepts": [
+      "conversational agents",
+      "chatbots with AI",
+      "incident management",
+      "productivity",
+      "NLP",
+      "architecture model"
+    ],
+    "model_layers": [
+      "application layer",
+      "process layer",
+      "architecture model"
+    ],
+    "rq_alignment": [
+      "conversational_systems_context",
+      "regulated_domain_partial"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Conversational agents in company-managed information systems increase productivity in incident management and related processes; a systematic review of 47 articles (2019-2022) identifies key benefits, nine bot types, prominent optimized processes, and proposes an architecture model for conversational bots in incident management.",
+    "contribution": "Provides a PRISMA-based synthesis of conversational bot literature focused on productivity, classifies bot types and application processes across domains including healthcare and education, and proposes an architecture model for incident management.",
+    "limitations": "unclear",
+    "use_in_review": "Potential supporting or contextual evidence for conversational AI in operational and partially regulated domains, but not central evidence for LLM-based conversational governance because governance, oversight, compliance, and LLM-specific technologies are not evidenced in the supplied text."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article published in 2023",
+      "excerpt": "IAES International Journal of Artificial Intelligence (IJ-AI) Vol. 12, No. 4, December 2023, pp. 1543~1556",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is a systematic literature review using PRISMA",
+      "excerpt": "The present work is a systematic literature review that collects articles from 2019 to 2022",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "PRISMA used to systematize 47 relevant articles",
+      "excerpt": "PRISMA methodology was used to systematize 47 relevant articles.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Multiple bibliographic databases were searched",
+      "excerpt": "in the databases Scopus, Springer, Willey, Indexes-Csic, Taylor & Francis, Pubmed, and Ebsco Host.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Focus is productivity of conversational bots in incident management",
+      "excerpt": "Productivity of incident management with conversational bots-a review",
+      "page": "1",
+      "section": "title",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Conversational agents increase productivity in company information systems",
+      "excerpt": "The use of conversational agents (bots) in information systems managed by company’s increases productivity",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Healthcare is among application processes discussed",
+      "excerpt": "processes such as customer service, healthcare, and presentation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Health processes are among prominent optimized processes",
+      "excerpt": "the most prominent are: teaching process, health processes, and customer service processes.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Chatbots with AI are among the most common bot types identified",
+      "excerpt": "conversational agents and chatbots with artificial intelligence (AI) are the most common",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "An architecture model for conversational bots in incident management is proposed",
+      "excerpt": "An architecture model for conversational bots in incident management is also proposed.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Bots in the health sector are discussed",
+      "excerpt": "2.2. Bots in the health sector In the health sector, in [18], [19] the authors indicate that conversational interfaces (CI) have been implemented",
+      "page": "2",
+      "section": "related_work",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Machine learning is referenced among AI techniques for bot development",
+      "excerpt": "techniques such as machine learning, frequent pattern mining, reasoning, and heuristic AI search is used for its development.",
+      "page": "2",
+      "section": "related_work",
+      "supports": "methodology"
+    },
+    {
+      "claim": "NLP-based chatbots are included in the bot type taxonomy",
+      "excerpt": "Chatbot con NLP Chatbots with NLP and NLC (Natural Language Classifiers) technologies, architecture on microservices.",
+      "page": "5",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "No governance, compliance, audit, or human oversight focus is evidenced in supplied text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No explicit large language model focus is evidenced in supplied text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

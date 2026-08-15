@@ -1,0 +1,191 @@
+{
+  "bibliographic": {
+    "title": "Artificial intelligence for postpartum hemorrhage: a systematic review",
+    "authors": "AlSaad, R., Yazbek, F., Farrell, T., Albasha, S., Al-Marri, A., & Thomas, R.",
+    "year": "2026",
+    "venue": "Frontiers in Global Women's Health",
+    "doi": "10.3389/fgwh.2026.1806220",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "AlSaad, R., Yazbek, F., Farrell, T., Albasha, S., Al-Marri, A., & Thomas, R. (2026). Artificial intelligence for postpartum hemorrhage: A systematic review. Frontiers in Global Women's Health, 7, 1806220. https://doi.org/10.3389/fgwh.2026.1806220"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "PRISMA-guided systematic review with modified QUADAS-2 appraisal",
+    "study_design": "systematic review",
+    "sample_description": "33 studies on AI models for PPH prediction published between 2015 and 2025, screened from MEDLINE, Embase, Scopus, IEEE Xplore, and Google Scholar",
+    "sample_size": "33",
+    "sector": "healthcare - obstetrics and maternal health",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI predictive models for postpartum hemorrhage risk stratification, early warning, and case identification using classical machine learning, deep learning, and LLM/NLP-based clinical text methods"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_WRONG_TOPIC",
+      "E_NO_CONVERSATIONAL_AI",
+      "E_LLM_PERIPHERAL"
+    ],
+    "exclusion_reason": "Systematic review focused on AI predictive modeling for postpartum hemorrhage; does not address conversational AI, conversational governance, or LLM-based conversational systems.",
+    "decision_rationale": "The article systematically synthesizes clinical prediction models for PPH across classical ML, deep learning, and limited LLM/NLP use (2/33 studies; 6%). It does not examine chatbots, agents, RAG, guardrails, or governance of conversational LLM deployments. Brief mentions of post-deployment monitoring and governance relate to predictive model recalibration, not conversational governance in regulated LLM systems.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 5,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 3,
+    "results_clarity": 5,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "As a standalone systematic review on PPH prediction, methods appear sound (PRISMA, dual screening, modified QUADAS-2, prespecified extraction). Transferability to conversational LLM governance is low because the topic, outcomes, and technology focus differ substantially from the review scope."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The review is internally coherent and methodologically adequate for synthesizing PPH prediction evidence, but its relevance to conversational governance of LLM systems in regulated environments is very low; LLM and governance content are peripheral."
+  },
+  "coding": {
+    "open_codes": [
+      "postpartum hemorrhage",
+      "clinical prediction",
+      "systematic review",
+      "classical machine learning",
+      "deep learning",
+      "LLM/NLP clinical text",
+      "internal validation",
+      "post-deployment monitoring",
+      "risk of bias"
+    ],
+    "axial_codes": [
+      "predictive AI in healthcare",
+      "maternal health outcomes",
+      "model validation practices",
+      "implementation governance"
+    ],
+    "theme": "AI-based clinical prediction for obstetric hemorrhage risk",
+    "subtheme": "Emerging but minor role of LLM/NLP in clinical documentation-based PPH prediction",
+    "concepts": [
+      "risk stratification",
+      "early warning",
+      "QUADAS-2",
+      "external validation",
+      "closed datasets",
+      "drift detection",
+      "model recalibration"
+    ],
+    "model_layers": [
+      "data layer",
+      "model development",
+      "validation",
+      "deployment monitoring"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "AI-based PPH prediction research is expanding rapidly but remains constrained by retrospective closed datasets, heterogeneous outcomes, limited external validation, and predominance of classical ML over deep learning and LLM approaches.",
+    "contribution": "Provides a PRISMA-guided synthesis of 33 studies on AI for PPH prediction, characterizing model families, validation practices, and quality concerns; notes LLM-based approaches in only 6% of included studies and briefly recommends post-deployment governance for recalibration and drift detection.",
+    "limitations": "Included evidence is largely retrospective, single-site, and internally validated; participant selection bias is common; LLM and conversational applications are minimally represented.",
+    "use_in_review": "Exclude from central evidence on conversational LLM governance; at most marginal contextual reference for healthcare AI deployment monitoring and the limited use of LLM/NLP in regulated clinical prediction settings."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a systematic review on AI for PPH prediction, not conversational LLM governance.",
+      "excerpt": "To systematically synthesize the evidence on AI models for PPH prediction, including clinical applications, data sources, prediction targets, validation strategies, and study quality.",
+      "page": "1",
+      "section": "Objective",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM-based approaches are a minor subset of included studies.",
+      "excerpt": "LLM-based approaches in 2 studies (6%)",
+      "page": "5",
+      "section": "Results - AI model characteristics",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational AI focus is present in the provided text.",
+      "excerpt": "Classical machine learning dominated (85%), while deep learning (33%) and LLM-based approaches (6%) were less frequent.",
+      "page": "1",
+      "section": "Results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM/NLP is positioned for clinical text extraction in prediction, not conversational systems.",
+      "excerpt": "LLM/NLP-based approaches were positioned as emerging methods for extracting or modeling risk-relevant information from clinical text.",
+      "page": "7",
+      "section": "Discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance mention relates to predictive model post-deployment monitoring, not conversational governance.",
+      "excerpt": "Post-deployment monitoring should be pre-specified, with governance for recalibration, drift detection, and model updating over time.",
+      "page": "10",
+      "section": "Discussion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Review used rigorous systematic review methods.",
+      "excerpt": "We conducted a PRISMA-guided systematic review of studies published between 2015 and 2025 across MEDLINE, Embase, Scopus, IEEE Xplore, and Google Scholar.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Dual independent screening and consensus resolution were used.",
+      "excerpt": "Two reviewers independently screened records, extracted data using a prespecified form, and resolved disagreements by consensus.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Quality appraisal used modified QUADAS-2 tailored to AI-based PPH prediction.",
+      "excerpt": "Risk of bias and applicability were appraised using a modified QUADAS-2 tool tailored to AI-based PPH prediction.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Main quality concern in included primary studies was participant selection bias.",
+      "excerpt": "Participant selection was the main quality concern (high risk of bias: 48%)",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Validation in included studies was predominantly internal with limited external validation.",
+      "excerpt": "Validation was mainly internal (76%), with limited external validation.",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Study is set in regulated healthcare domain.",
+      "excerpt": "Postpartum hemorrhage (PPH) remains a leading cause of maternal morbidity and mortality",
+      "page": "1",
+      "section": "Background",
+      "supports": "coding"
+    },
+    {
+      "claim": "Generative AI was used only for manuscript preparation, not as study subject.",
+      "excerpt": "During the preparation of this manuscript, artificial intelligence tools were used to assist with English language refinement and formatting of Figures 2–5.",
+      "page": "11",
+      "section": "Generative AI statement",
+      "supports": "eligibility"
+    }
+  ]
+}

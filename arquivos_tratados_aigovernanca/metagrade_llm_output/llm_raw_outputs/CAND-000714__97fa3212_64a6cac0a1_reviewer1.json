@@ -1,0 +1,172 @@
+{
+  "bibliographic": {
+    "title": "Advanced Drone Swarm Security by Using Blockchain Governance Game",
+    "authors": "unclear",
+    "year": "2021",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "unknown",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Kim, S.-K. (2021). Advanced drone swarm security by using blockchain governance game. Venue unclear."
+  },
+  "methodology": {
+    "research_type": "theoretical",
+    "method_family": "stochastic game theory; Blockchain Governance Game (BGG); Strategic Alliance for Blockchain Governance Game (SABGG); network architecture modeling",
+    "study_design": "theoretical modeling with analytical solutions and optimization example (Table II, Fig. 3)",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "military and civilian drone applications; IoT/swarm robotics",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "AI-enabled autonomous drone swarms connected as a blockchain network; decentralized security against attacks such as 51 percent attack"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "foundational_contextual"
+    ],
+    "exclusion_codes": [
+      "wrong_technology_no_llm",
+      "wrong_technology_no_conversational_ai",
+      "off_topic_domain"
+    ],
+    "exclusion_reason": "Does not address LLMs, generative AI, conversational systems, or conversational governance in regulated high-stakes environments; governance and accountability refer to blockchain game-theoretic models for drone swarm security.",
+    "decision_rationale": "The article proposes a theoretical blockchain governance game variant (SABGG) for securing autonomous AI-enabled drone swarms. Although it uses terms such as governance, accountability, security, and artificial intelligence, these concern decentralized network security and game-theoretic timing of preliminary actions, not governança conversacional, LLM-based systems, compliance-oriented conversational AI, or regulated-domain deployment of language models. It may serve only as distant contextual background on governance-as-game-model in autonomous decentralized systems.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch with review scope is explicit in the provided abstract and methods sections."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal based on limited excerpt. The study is analytical/theoretical rather than empirical; sampling and ethics are not applicable or not reported in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Within its own domain the objective and method appear coherent, but the provided text offers limited detail on validation beyond an optimization example. For the systematic review on conversational LLM governance in regulated settings, relevance and adequacy are very low despite shared vocabulary such as governance and accountability."
+  },
+  "coding": {
+    "open_codes": [
+      "drone swarm security",
+      "blockchain governance game",
+      "SABGG",
+      "autonomous AI-enabled drones",
+      "decentralized network",
+      "preliminary security actions",
+      "accountability timing",
+      "51 percent attack",
+      "stochastic game model",
+      "strategic alliance"
+    ],
+    "axial_codes": [
+      "game-theoretic governance model",
+      "network-architecture security",
+      "autonomous systems without command center",
+      "blockchain-based decentralized control"
+    ],
+    "theme": "Blockchain game-theoretic governance for securing autonomous drone swarms",
+    "subtheme": "Optimal timing of preliminary security actions via SABGG",
+    "concepts": [
+      "Blockchain Governance Game (BGG)",
+      "Strategic Alliance for Blockchain Governance Game (SABGG)",
+      "Advanced Secure Drone Swarm (ASDS)",
+      "optimal accountability",
+      "decentralized swarm network"
+    ],
+    "model_layers": [
+      "network architecture",
+      "security/risk prevention",
+      "autonomous agent coordination"
+    ],
+    "rq_alignment": [
+      "tangential governance terminology only"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "An advanced secure drone swarm network can be protected by adapting the SABGG blockchain governance game variant to estimate when drones should take preliminary security actions and to deliver optimal accountability for attack prevention.",
+    "contribution": "Applies an analytically proven SABGG model to a blockchain-connected autonomous drone swarm architecture for network-level security design.",
+    "limitations": "Managerial aspects and actual implementations of smart drone operations are identified as future work; application is specific to drone swarm/blockchain security rather than conversational AI governance.",
+    "use_in_review": "Exclude from central and supporting evidence for conversational LLM governance. Retain only as foundational/contextual reference if the review needs a peripheral example of governance modeled as a blockchain game in autonomous decentralized systems."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on drone swarm blockchain security, not conversational AI or LLMs",
+      "excerpt": "Smart drones are artificial intelligence (AI)-enabled drones which are capable of being operated autonomously without having any command center.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance refers to Blockchain Governance Game theory, not AI/conversational governance",
+      "excerpt": "The Blockchain Governance Game (BGG) has been designed as a stochastic game model with the fluctuation and the mixed strategy game for analyzing the network",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Accountability is operational/game-theoretic within drone security",
+      "excerpt": "Analytically tractable solutions from the SABGG allow us to estimate the moments of taking preliminary actions by delivering the optimal accountability of drones for preventing attacks.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Research type is theoretical game modeling",
+      "excerpt": "which is the theoretical game model to predict the moments of security actions before attacks",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sector includes military and public safety but not regulated conversational domains",
+      "excerpt": "Drones occupy an essential place in both military and civilian applications for various roles including criminal investigations, public safety organizations, transportation management facilities, and surveillance forces",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Deployment context is decentralized drone swarm network architecture",
+      "excerpt": "This research helps users to develop a new network- architecture-level security of a smart drone swarm which is based on a decentralized network.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Security target is blockchain attacks such as 51 percent attack",
+      "excerpt": "The model is targeted to prevent blockchain based attacks (i.e., the 51 percent attack) and keeps the network decentralized.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Limitations/future work acknowledge implementation gap",
+      "excerpt": "The managerial aspects and actual implementations of smart drone operations could be the next step.",
+      "page": "6",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Conclusion reaffirms blockchain governance game variant application to drone swarms",
+      "excerpt": "An advanced secure drone swarm network architecture protects a drone swarm from an attacker by adapting a blockchain governance game variant.",
+      "page": "5",
+      "section": "conclusion",
+      "supports": "synthesis"
+    }
+  ]
+}

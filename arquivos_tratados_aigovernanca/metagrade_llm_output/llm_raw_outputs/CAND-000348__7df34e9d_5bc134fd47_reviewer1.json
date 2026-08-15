@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Clinical artificial intelligence (AI) in Japan: Regulatory pathways, domain-specific evidence, and its data infrastructure from an international perspective",
+    "authors": "Kenji Karako; Wei Tang",
+    "year": "2026",
+    "venue": "Global Health & Medicine",
+    "doi": "10.35772/ghm.2026.01048",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Karako, K., & Tang, W. (2026). Clinical artificial intelligence (AI) in Japan: Regulatory pathways, domain-specific evidence, and its data infrastructure from an international perspective. Global Health & Medicine. Advance Publication. https://doi.org/10.35772/ghm.2026.01048"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "narrative_comprehensive_literature_review_with_international_regulatory_comparison",
+    "study_design": "literature_review_2019_2026_prioritizing_prospective_multicenter_and_real_world_studies_across_five_clinical_domains",
+    "sample_description": "Literature on clinical AI in Japan across diagnostic imaging, gastrointestinal endoscopy, cardiology and remote patient monitoring, diagnosis of infectious diseases, and AI-ready data infrastructure; regulatory trajectory and approved device portfolio used as primary lens",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "clinical_SaMD_task_specific_diagnostic_AI_with_cross_cutting_section_on_LLMs_and_generative_AI_for_documentation_summarization_and_EHR_assistance"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "regulated_healthcare_context",
+      "llm_genai_governance_gap",
+      "regulatory_oversight_saMD",
+      "risk_and_oversight_discussion"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai_focus",
+      "primary_focus_non_conversational_clinical_ai"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a broad clinical AI regulatory review centered on SaMD and domain-specific diagnostic AI in Japan. It includes a substantive but secondary cross-cutting discussion of LLMs and generative AI governance gaps, oversight asymmetry, and deployment risks in healthcare, which aligns partially with the review scope. However, it does not address conversational AI, chatbots, agents, or conversational governance mechanisms; LLM content concerns documentation, summarization, and workflow rather than conversational systems.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated triage graded central_candidate with conversational_ai score 0/3; full-text confirms limited LLM governance content in one subsection and no conversational-system focus, warranting human adjudication between supporting_evidence and foundational_contextual."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Clear review objectives and structured domain coverage are evident. Methods describe literature from 2019-2026 and prioritization of prospective and real-world studies, but detailed search strategy, inclusion/exclusion criteria, and quality appraisal procedures are not visible in the provided excerpts. Ethics/reflexivity not discussed in supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings on LLM regulatory gaps and oversight asymmetry are coherent and supported by cited discussion, but evidence adequacy for conversational governance is limited because LLM content is cross-cutting rather than primary, and conversational systems are not addressed. Transferability is strongest for Japan healthcare SaMD/LLM policy context."
+  },
+  "coding": {
+    "open_codes": [
+      "SaMD_regulatory_framework",
+      "Japan_clinical_AI",
+      "LLM_outside_SaMD",
+      "oversight_gap",
+      "hallucination_risk",
+      "free_form_LLM_outputs",
+      "post_marketing_surveillance_asymmetry",
+      "radiology_report_drafting",
+      "EHR_differential_diagnosis_assistance"
+    ],
+    "axial_codes": [
+      "regulated_healthcare_governance",
+      "LLM_deployment_risk",
+      "regulatory_classification_gap",
+      "international_regulatory_comparison"
+    ],
+    "theme": "Governance and regulatory oversight of clinical AI and emerging LLMs in healthcare",
+    "subtheme": "LLMs as an unregulated category outside SaMD frameworks with asymmetric oversight",
+    "concepts": [
+      "software_as_medical_device",
+      "regulatory_perimeter",
+      "oversight_asymmetry",
+      "quality_assurance_for_LLM_outputs",
+      "change_management_obligations"
+    ],
+    "model_layers": [
+      "regulatory_compliance",
+      "risk_management",
+      "operational_deployment"
+    ],
+    "rq_alignment": [
+      "governance_in_regulated_LLM_context",
+      "risk_audit_compliance",
+      "regulated_high_stakes_healthcare"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Japan has distinctive strengths in SaMD regulatory pathways and high-volume clinical deployment infrastructure for task-specific clinical AI, but LLMs and generative AI largely fall outside existing SaMD frameworks, creating regulatory gaps, hallucination risks, and asymmetric oversight relative to approved AI medical devices.",
+    "contribution": "Provides an international comparative review of Japan's clinical AI regulatory landscape and explicitly identifies cross-cutting governance challenges for LLMs, including classification gaps, absent pre-marketing evaluation, and weaker post-marketing surveillance compared with approved SaMD.",
+    "limitations": "Primary focus is non-conversational clinical AI domains; conversational governance is not addressed; LLM discussion is a cross-cutting subsection; detailed systematic review methods are not fully evidenced in the provided text.",
+    "use_in_review": "Use as supporting evidence on healthcare regulatory governance gaps for LLMs and generative AI in a regulated domain, especially Japan/international SaMD comparison; not suitable as central evidence for conversational governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a review of clinical AI in Japan with international regulatory comparison across five domains",
+      "excerpt": "This review provides a comprehensive assessment of clinical AI across five major domains—diagnostic imaging, gastrointestinal endoscopy, cardiology and remote patient monitoring, diagnosis of infectious diseases, and an AI-ready data infrastructure",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Review covers literature from 2019 to 2026 with prioritization of stronger study designs",
+      "excerpt": "We reviewed literature published between 2019 and 2026, using Japan's regulatory trajectory, approved device portfolio, and domain-specific research output as the primary lens for international comparison and prioritizing prospective studies, multicenter trials, and real-world implementation reports.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated healthcare domain with SaMD governance focus",
+      "excerpt": "The governance of AI-enabled clinical software has converged on the concept of software as a medical device (SaMD)",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs and generative AI fall outside existing SaMD frameworks with oversight gaps",
+      "excerpt": "Large language models and generative AI, falling largely outside existing SaMD frameworks, carry the risk of hallucinations and gaps in oversight that healthcare systems in Japan and abroad are only beginning to address.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs discussed as cross-cutting regulatory and methodological challenge",
+      "excerpt": "Cross-cutting challenges— including the methodological and regulatory implications of large language models and generative AI, which represent an emerging category of clinical tools with a distinct evidence and oversight profile—are discussed in Section 8",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs have distinct capability and risk profile from task-specific diagnostic models",
+      "excerpt": "Large language models (LLMs) and generative AI systems present a capability and risk profile distinct from the task-specific diagnostic models reviewed in the preceding sections.",
+      "page": "12",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Clinical LLM applications include documentation and EHR assistance, not conversational systems",
+      "excerpt": "These results have prompted clinical interest in LLM applications including structured drafting of radiology reports and assisting with a differential diagnosis in electronic health records",
+      "page": "12",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM outputs are free-form text with subtle errors requiring quality assurance",
+      "excerpt": "LLM outputs are free-form text that have subtle and context-dependent errors.",
+      "page": "12",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Many clinical LLM applications do not meet SaMD definition and sit outside PMDA framework",
+      "excerpt": "Many clinical LLM applications—and particularly those supporting documentation, summarization, and administrative workflow—do not meet the SaMD definition, as their primary function is not the direct generation of diagnostic or treatment outputs, placing them outside the PMDA program medical device framework in Japan",
+      "page": "12",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulatory gap enables LLM deployment without pre-marketing evaluation or post-marketing surveillance",
+      "excerpt": "This regulatory gap means that LLM-based clinical tools can be deployed without pre-marketing clinical evaluation, post-marketing surveillance requirements, or change management obligations that apply to approved AI medical devices, creating asymmetric oversight",
+      "page": "12",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Publication identified as review in keywords",
+      "excerpt": "Keywords: artificial intelligence (AI), machine learning, Japan, software as a medical device, data infrastructure Review",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    }
+  ]
+}

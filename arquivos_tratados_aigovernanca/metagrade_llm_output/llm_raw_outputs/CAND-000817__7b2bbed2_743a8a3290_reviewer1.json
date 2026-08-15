@@ -1,0 +1,162 @@
+{
+  "bibliographic": {
+    "title": "Multi-Agent Causal Discovery Using Large Language Models",
+    "authors": "Hao Duong Le, Xin Xia, Haijie Xu, Chen Zhang",
+    "year": "2024",
+    "venue": "arXiv preprint",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Le, H. D., Xia, X., Xu, H., & Zhang, C. (2024). Multi-Agent Causal Discovery Using Large Language Models. arXiv preprint arXiv:2407.15073."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "multi-agent LLM framework with statistical causal discovery benchmarking",
+    "study_design": "comparative experimental evaluation on benchmark causal discovery datasets",
+    "sample_description": "five benchmark datasets evaluated against five statistical and four LLM-based baselines across three backbone LLMs",
+    "sample_size": "five benchmark datasets; 10 random seeds per method",
+    "sector": "scientific causal discovery / machine learning research",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "multi-agent debate framework (MAC) combining Meta-Debate Module and Debate-Coding Module with statistical causal discovery algorithms; evaluated with Gemini-2.0-Flash, DeepSeek-R1, and GPT-4o-2024-08-06"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "out_of_scope_topic",
+      "no_conversational_ai",
+      "no_governance_focus",
+      "no_regulated_context"
+    ],
+    "exclusion_reason": "O artigo propõe e avalia um framework multi-agente de descoberta causal com LLMs, sem tratar governança conversacional, sistemas conversacionais voltados a usuários, compliance, auditoria, supervisão humana ou ambientes regulados.",
+    "decision_rationale": "Embora use LLMs e um esquema de debate multi-agente interno, o foco é descoberta causal científica em datasets de benchmark, não governança de IA conversacional em contextos regulados. Não há evidência de chatbots, agentes conversacionais, guardrails, observabilidade operacional, accountability regulatória ou domínios de alto risco.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Escopo claramente fora da revisão: causal discovery com debate entre agentes LLM, sem interface conversacional nem governança regulatória."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Avaliação limitada ao texto fornecido (principalmente abstract, introdução e trechos parciais). O estudo parece metodologicamente coerente para descoberta causal, mas não aborda questões de governança conversacional."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Baixa relevância para a revisão sobre governança conversacional em ambientes regulados; evidência fornecida é insuficiente para avaliar integralmente limitações metodológicas do estudo completo."
+  },
+  "coding": {
+    "open_codes": [
+      "multi_agent_debate",
+      "causal_discovery",
+      "metadata_reasoning",
+      "statistical_causal_discovery_integration",
+      "llm_bias_mitigation_via_debate"
+    ],
+    "axial_codes": [
+      "multi_agent_llm_architecture",
+      "scientific_inference_not_conversational_governance"
+    ],
+    "theme": "Multi-agent LLM systems for causal graph discovery",
+    "subtheme": "Adversarial debate to reduce memorized or biased causal associations",
+    "concepts": [
+      "MAC framework",
+      "Meta-Debate Module",
+      "Debate-Coding Module",
+      "Meta Fusion",
+      "Affirmative-Negative-Judge debate",
+      "statistical causal discovery"
+    ],
+    "model_layers": [
+      "model_orchestration",
+      "reasoning_debate"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "O framework MAC melhora a descoberta causal ao combinar seleção autônoma de algoritmos SCD com refinamento via debate multi-agente sobre metadados, superando baselines estatísticos e baseados em LLM em benchmarks.",
+    "contribution": "Propõe arquitetura multi-agente (DCM + MDM) para descoberta causal, usando debate adversarial para contestar hipóteses causais suscetíveis a associações memorizadas ou enviesadas.",
+    "limitations": "unclear",
+    "use_in_review": "Excluir como evidência central ou de apoio; no máximo referência contextual distante sobre arquiteturas multi-agente LLM e mecanismos internos de contestação, sem aplicação a governança conversacional regulada."
+  },
+  "evidence": [
+    {
+      "claim": "O artigo trata de descoberta causal com LLMs, não de governança conversacional.",
+      "excerpt": "Multi-Agent Causal Discovery Using Large Language Models",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "O problema central é descoberta de relações causais entre variáveis.",
+      "excerpt": "Causal discovery aims to identify causal relationships between variables",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "A contribuição é o framework MAC com debate multi-agente para grafos causais.",
+      "excerpt": "we introduce MAC (Multi-Agent Causal Discovery Framework), which casts causal discovery as a multi-agent debate coupled with the autonomous selection of an SCD algorithm",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "O debate interno visa mitigar julgamentos enviesados ou memorizados de um único LLM.",
+      "excerpt": "recent LLM-based methods exploit metadata but treat the large language model (LLM) as a single agent, leaving its judgments vulnerable to memorized or biased associations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "MDM exige que hipóteses sobrevivam a contestação explícita antes de serem aceitas.",
+      "excerpt": "MDM refuses to trust a single pass: a candidate hypothesis must survive an explicit challenge before it is accepted",
+      "page": "4",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "A avaliação é empírica em datasets de benchmark com métricas F1, SHD e NHD.",
+      "excerpt": "Across five benchmark datasets and three metrics (F1, SHD, NHD), MAC achieves the best aggregate performance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Usa LLMs específicos como backbone experimental.",
+      "excerpt": "ranking first on 10 of 15 evaluation points with Gemini-2.0-Flash—including a perfect reconstruction of the Earthquake graph—and remains robust across three backbone LLMs",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Trata-se de preprint arXiv sem indicação de revisão por pares no texto fornecido.",
+      "excerpt": "arXiv:2407.15073v4 [cs.AI] 26 May 2026",
+      "page": "1",
+      "section": "front matter",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Não há menção a sistemas conversacionais, chatbots ou governança regulatória no texto fornecido.",
+      "excerpt": "casts causal-graph discovery as a multi-agent debate coupled with the autonomous selection of a statistical causal discovery (SCD) algorithm",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

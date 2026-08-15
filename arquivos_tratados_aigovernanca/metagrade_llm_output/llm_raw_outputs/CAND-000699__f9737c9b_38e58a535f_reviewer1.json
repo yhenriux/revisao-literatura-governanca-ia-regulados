@@ -1,0 +1,193 @@
+{
+  "bibliographic": {
+    "title": "Bayesian Modeling for Uncertainty Management in Financial Risk Forecasting and Compliance",
+    "authors": "Sharif Al Mamun; Rakib Hossain; Md. Jobayer Rahman; Malay Kumar Devnath; Farhana Afroz; Lisan Al Amin",
+    "year": "unclear",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "unknown",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Al Mamun, S., Hossain, R., Rahman, M. J., Devnath, M. K., Afroz, F., & Al Amin, L. (unclear). Bayesian modeling for uncertainty management in financial risk forecasting and compliance. unclear."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "Bayesian statistics; dynamic linear models; Bayesian logistic regression; hierarchical Beta state-space models; comparative benchmarking against LSTM and GARCH",
+    "study_design": "Time-aware out-of-sample predictive modeling and comparative evaluation across volatility forecasting, fraud detection, and compliance monitoring tasks",
+    "sample_description": "Daily S&P 500 returns for one-day-ahead 95% VaR forecasting (training 2000-2019, test 2020-2024); fraud detection dataset; compliance risk monitoring validated with pseudo-labels from historically recorded regulatory actions",
+    "sample_size": "unclear",
+    "sector": "financial services / FinTech",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "Bayesian analytics pipeline for market volatility forecasting, fraud detection, and compliance risk assessment; includes LSTM and GARCH baselines and GPU-accelerated inference"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_NO_LLM",
+      "E_NO_CONVERSATIONAL_AI",
+      "E_OUT_OF_SCOPE_TECHNOLOGY"
+    ],
+    "exclusion_reason": "The study addresses Bayesian statistical modeling for financial risk forecasting, fraud detection, and compliance monitoring using traditional machine learning and econometric methods, not large language models or conversational AI systems.",
+    "decision_rationale": "Although the paper strongly engages regulated finance, compliance, risk management, interpretability, transparency, and governance-related concerns, it does not study generative AI, LLMs, chatbots, agents, RAG, or conversational governance mechanisms required by the review's core scope. Relevance is contextual at best and insufficient for inclusion as central or supporting evidence on conversational LLM governance.",
+    "decision_confidence": 0.93,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Appraisal based on provided excerpts only. The paper presents a coherent empirical Bayesian framework with formal VaR coverage tests and comparative fraud/compliance metrics, but ethics/reflexivity and detailed sampling descriptions are limited in the supplied text. Transferability to conversational LLM governance is low."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "moderate",
+    "explanation": "Within its own domain, the work appears methodologically coherent and adequately supported for Bayesian financial risk analytics. For the target review on conversational governance in LLM-based regulated systems, relevance is very low because the technology and application context do not involve conversational or generative language-model systems."
+  },
+  "coding": {
+    "open_codes": [
+      "bayesian modeling",
+      "uncertainty quantification",
+      "financial risk forecasting",
+      "fraud detection",
+      "compliance monitoring",
+      "interpretability",
+      "transparency",
+      "regulated finance",
+      "model governance",
+      "GPU-accelerated analytics"
+    ],
+    "axial_codes": [
+      "risk analytics in regulated finance",
+      "model interpretability for compliance",
+      "operational risk monitoring"
+    ],
+    "theme": "Bayesian uncertainty management for financial risk and compliance",
+    "subtheme": "Interpretable probabilistic models for market, fraud, and compliance risk",
+    "concepts": [
+      "Value-at-Risk forecasting",
+      "Bayesian logistic regression",
+      "hierarchical Beta state-space model",
+      "compliance risk assessment",
+      "model interpretability",
+      "regulatory compliance"
+    ],
+    "model_layers": [
+      "data/analytics layer",
+      "risk modeling layer",
+      "compliance monitoring layer"
+    ],
+    "rq_alignment": [
+      "regulated high-stakes finance",
+      "risk audit and compliance",
+      "governance and accountability"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "A unified Bayesian framework can improve uncertainty quantification, interpretability, and practical performance for financial market risk forecasting, fraud detection, and compliance monitoring in regulated financial contexts.",
+    "contribution": "Provides an integrated empirical pipeline comparing Bayesian models with LSTM/GARCH baselines and reporting calibration, fraud detection, and compliance risk metrics with emphasis on interpretability and regulatory usefulness.",
+    "limitations": "Sparse fraud data, proxy compliance labels, computational scalability of posterior inference, and limited validation in live transactional/streaming environments are acknowledged in the provided text.",
+    "use_in_review": "Not recommended for inclusion in the core evidence base on conversational LLM governance. May serve only as distant contextual background on interpretability, compliance monitoring, and governance expectations in regulated finance if broader AI governance boundaries are expanded."
+  },
+  "evidence": [
+    {
+      "claim": "The paper is about Bayesian financial risk and compliance analytics, not LLMs or conversational systems.",
+      "excerpt": "Bayesian Modeling for Uncertainty Management in Financial Risk Forecasting and Compliance",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The work uses traditional machine learning and econometric methods rather than generative or large language models.",
+      "excerpt": "FinTech stacks that leverage machine learning and real-time analytics.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical evaluation includes VaR forecasting with LSTM and GARCH baselines.",
+      "excerpt": "Formal tests of unconditional (Kupiec) and conditional (Christoffersen) coverage reveal that an LSTM baseline achieves near-nominal calibration.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "The study operates in a regulated financial domain with compliance monitoring.",
+      "excerpt": "a hierarchical Beta state-space model provides transparent and adaptive compliance risk assessment.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Interpretability and transparency are emphasized for compliance and stakeholder trust.",
+      "excerpt": "The pipeline is distinguished by precise uncertainty quantification, interpretability, and GPU-accelerated analysis",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance and regulatory expectations motivate model interpretability.",
+      "excerpt": "the interpretability of complex models must be carefully maintained to meet internal governance standards and regulatory expectations.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Explainability is treated as a regulatory requirement in fraud detection.",
+      "excerpt": "regulatory requirements for model explainability.",
+      "page": "2",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Compliance monitoring is linked to regulatory oversight.",
+      "excerpt": "monitored adaptively for regulatory oversight.",
+      "page": "3",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Bayesian logistic regression was chosen over more complex neural networks due to interpretability trade-offs.",
+      "excerpt": "we used Bayesian logistic regression rather than complicated Bayesian neural networks.",
+      "page": "5",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "The authors acknowledge data and labeling limitations.",
+      "excerpt": "Remaining challenges include sparse fraud data and proxy compliance labels",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "A strict time-aware out-of-sample protocol is used to reduce leakage.",
+      "excerpt": "All experimental results adhere to a strict time-aware, out-of-sample evaluation protocol designed to prevent data leakage",
+      "page": "5",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational AI, chatbot, agent, or LLM deployment context is described in the provided text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

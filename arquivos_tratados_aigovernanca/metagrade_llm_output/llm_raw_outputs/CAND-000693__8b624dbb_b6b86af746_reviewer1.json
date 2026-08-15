@@ -1,0 +1,176 @@
+{
+  "bibliographic": {
+    "title": "Understanding and managing blockchain protocol risks",
+    "authors": "Alex Nathan; Dimosthenis Kaponis; Saul Lustgarten",
+    "year": "2023",
+    "venue": "Journal of Risk Management in Financial Institutions",
+    "doi": "unclear",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Nathan, A., Kaponis, D., & Lustgarten, S. (2023). Understanding and managing blockchain protocol risks. Journal of Risk Management in Financial Institutions, 16(4), 337–353."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "practice paper presenting collaborative risk management framework with illustrative use cases",
+    "study_design": "conceptual framework development with real-world use case demonstrations",
+    "sample_description": "developed in collaboration with financial institutions, blockchain development teams and regulators; no empirical participant sample described in provided text",
+    "sample_size": "unclear",
+    "sector": "financial institutions; blockchain/DLT; digital assets",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "blockchain; distributed ledger technology (DLT); smart contracts; decentralised applications"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_technology",
+      "wrong_phenomenon",
+      "no_conversational_ai",
+      "no_llm_genai"
+    ],
+    "exclusion_reason": "The article addresses blockchain protocol risk management for DLT adoption by financial institutions; the provided text contains no focus on large language models, generative AI, conversational systems, chatbots, agents, or conversational governance.",
+    "decision_rationale": "Although the paper offers a regulated-sector risk management framework with governance, compliance, monitoring and reporting themes, its technology context is blockchain/DLT rather than LLM-based conversational systems. Machine learning appears only in an author biography, not as the study subject. Conversational AI terms are absent from the evidence.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Practice paper proposing a structured identify-measure-monitor-report framework for blockchain protocol risks; rigor is appropriate for a practitioner framework but empirical sampling, ethics and explicit limitations are not evident in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The framework is internally coherent for blockchain protocol risk management in financial institutions, but relevance to conversational governance in LLM systems is very low based on the supplied text."
+  },
+  "coding": {
+    "open_codes": [
+      "blockchain protocol risks",
+      "risk management framework",
+      "key risk indicators",
+      "financial institution adoption",
+      "regulatory compliance",
+      "continuous monitoring",
+      "audit records",
+      "decentralised systems responsibility"
+    ],
+    "axial_codes": [
+      "operational risk governance",
+      "regulated financial services",
+      "DLT infrastructure risk"
+    ],
+    "theme": "Blockchain protocol risk management in regulated financial institutions",
+    "subtheme": "KRIs, monitoring and compliance reporting for DLT networks",
+    "concepts": [
+      "risk taxonomy",
+      "identify-measure-monitor-report cycle",
+      "centralisation risk",
+      "regulatory risk",
+      "AML/KYC/KYT/sanctions risk",
+      "transparency in risk estimation"
+    ],
+    "model_layers": [
+      "risk identification",
+      "measurement",
+      "monitoring",
+      "reporting",
+      "governance"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Blockchain protocol risks require a traditional risk management taxonomy adapted for DLT so financial institutions can identify, measure, monitor and report risks affecting adoption of blockchain networks.",
+    "contribution": "Provides a collaborative practitioner framework, risk categories, KRIs, data sources and use cases for managing overlooked blockchain protocol risks beyond AML/KYC-focused concerns.",
+    "limitations": "Explicit study limitations are not described in the provided text; certification and governance equivalents for blockchain systems remain immature compared with traditional vendors.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational LLM governance; at most distant contextual background on regulated financial risk monitoring unless the review broadens beyond conversational AI."
+  },
+  "evidence": [
+    {
+      "claim": "Article topic is blockchain protocol risks, not LLMs or conversational systems",
+      "excerpt": "This paper addresses the issue of blockchain protocol risks, a foundational category of risks affecting Distributed Ledger Technology (DLT)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Framework developed with financial institutions and regulators for regulated adoption context",
+      "excerpt": "presents a comprehensive risk management framework developed in collaboration with financial institutions, blockchain development teams and regulators",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational AI or LLM focus in study content",
+      "excerpt": "Blockchain is a distributed ledger technology (DLT) that enables secure, transparent and tamper-proof recording and sharing of data",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulatory and financial services context is central",
+      "excerpt": "their primary concerns regarding public blockchain risk revolve around regulatory, cybersecurity and financial aspects",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Machine learning mention is author background only, not study technology",
+      "excerpt": "where he researched applied and methodological aspects of large-scale machine learning",
+      "page": "1",
+      "section": "Author biographies",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Framework follows identify, measure, monitor and report cycle with compliance reporting",
+      "excerpt": "4. Report: Maintain records of KRIs and risk mitigation responses for streamlining audits, regulatory approvals and for proof of compliance",
+      "page": "3",
+      "section": "Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Risk taxonomy includes regulatory and governance-related categories",
+      "excerpt": "groups blockchain protocol risks into the following categories: centralisation; network reliability and performance; security; financial; people; and regulatory",
+      "page": "4",
+      "section": "Identify and measure",
+      "supports": "coding"
+    },
+    {
+      "claim": "Responsibility for risk management shifts to adopting organisations in decentralised systems",
+      "excerpt": "in decentralised blockchain systems, the organisations that utilise the technology are responsible for collecting and analysing the data and managing the risks",
+      "page": "4",
+      "section": "Obtaining the data",
+      "supports": "coding"
+    },
+    {
+      "claim": "Transparency about methods is emphasised for decision-making",
+      "excerpt": "transparency about the methods and their potential impact on risk estimates is crucial in decision-making contexts",
+      "page": "4",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Governance referenced in vendor due diligence and ESG contexts, not conversational governance",
+      "excerpt": "ISO and SOC2 certifications, to ensure that the vendor maintains adequate governance and control of their information security programme risks",
+      "page": "6",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

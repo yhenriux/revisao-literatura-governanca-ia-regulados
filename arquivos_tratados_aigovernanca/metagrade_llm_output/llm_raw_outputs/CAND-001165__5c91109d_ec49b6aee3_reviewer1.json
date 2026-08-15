@@ -1,0 +1,167 @@
+{
+  "bibliographic": {
+    "title": "Large Language Models and Empathy: Systematic Review",
+    "authors": "Vera Sorin; Dana Brin; Yiftach Barash; Eli Konen; Alexander Charney; Girish Nadkarni; Eyal Klang",
+    "year": "2024",
+    "venue": "Journal of Medical Internet Research",
+    "doi": "10.2196/52597",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Sorin, V., Brin, D., Barash, Y., Konen, E., Charney, A., Nadkarni, G., & Klang, E. (2024). Large language models and empathy: Systematic review. Journal of Medical Internet Research. https://doi.org/10.2196/52597"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic literature review",
+    "study_design": "systematic review with narrative synthesis",
+    "sample_description": "English-language full-length publications evaluating empathy in LLM outputs; 12 studies published in 2023 included after database and reference searching",
+    "sample_size": "12",
+    "sector": "health care",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "ChatGPT-3.5, GPT-4, LLaMA, and fine-tuned chatbots evaluated for empathy-related outputs in medical and other contexts"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "TOPIC_MISMATCH",
+      "NO_GOVERNANCE_FOCUS"
+    ],
+    "exclusion_reason": "The article systematically reviews LLM empathy capacity and evaluation metrics; the provided text contains no focus on conversational governance, accountability, oversight, audit, compliance, guardrails, or operational risk controls.",
+    "decision_rationale": "Although the study is LLM-specific, conversational (chatbots, patient questions), and healthcare-regulated, its objective and synthesis center on empathy performance rather than governance mechanisms. Python triage flagged borderline status with governance_accountability score 1/3 and risk_audit_compliance 0/3, consistent with exclusion for the conversational governance review scope.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Deterministic triage returned borderline_manual (76.0/100) with weak governance and zero risk/audit signals; manual confirmation needed because LLM, conversational, and healthcare dimensions scored highly."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "As a systematic review on empathy, objectives, search strategy, inclusion criteria, and summarized limitations are reasonably clear in the provided excerpt. Full critical appraisal items (dual screening, risk-of-bias assessment of included studies, PRISMA reporting completeness) are not evidenced in the supplied text. Transferability to conversational governance is low because governance constructs are absent."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "For the target review on conversational governance in regulated LLM systems, this study offers low relevance despite moderate adequacy as an empathy-focused systematic review. The provided text does not supply governance-related findings, frameworks, or operational controls."
+  },
+  "coding": {
+    "open_codes": [
+      "empathy",
+      "systematic review",
+      "ChatGPT",
+      "fine-tuned chatbots",
+      "medical context",
+      "subjective evaluation",
+      "automatic metrics"
+    ],
+    "axial_codes": [
+      "LLM output evaluation",
+      "healthcare conversational applications",
+      "empathic response quality",
+      "human-model comparison"
+    ],
+    "theme": "LLM empathy performance in healthcare and other contexts",
+    "subtheme": "evaluation of empathic chatbot and LLM responses",
+    "concepts": [
+      "cognitive empathy",
+      "emotional support",
+      "emotions recognition",
+      "prompt sensitivity",
+      "human subjective evaluation"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "LLMs exhibit elements of cognitive empathy, recognizing emotions and providing emotionally supportive responses; ChatGPT-3.5 and other models were reported to perform well on empathy-related tasks, sometimes outperforming humans, but with noted limitations.",
+    "contribution": "Narrative systematic synthesis of 12 2023 studies on empathy in LLM outputs, summarizing models tested, evaluation metrics, and performance patterns in medical and other settings.",
+    "limitations": "Reported model limitations include repetitive empathic phrases, difficulty following instructions, overly lengthy responses, sensitivity to prompts, and reliance on subjective evaluation metrics influenced by evaluator background.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance; at most peripheral background on healthcare LLM/chatbot interaction quality, not governance, oversight, or compliance."
+  },
+  "evidence": [
+    {
+      "claim": "Study is a systematic review of LLM empathy capacity",
+      "excerpt": "We aimed to review the literature on the capacity of LLMs in demonstrating empathy.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Includes chatbots and healthcare conversational context but not governance",
+      "excerpt": "6 studies comparing it with other LLMs such GPT-4, LLaMA (Meta), and fine-tuned chatbots. Seven studies focused on empathy within a medical context.",
+      "page": "1",
+      "section": "Abstract Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Search methods and inclusion criteria are described",
+      "excerpt": "We conducted a literature search on MEDLINE, Google Scholar, PsyArXiv, medRxiv, and arXiv between December 2022 and February 2024.",
+      "page": "1",
+      "section": "Abstract Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Sample size of included primary studies",
+      "excerpt": "A total of 12 studies published in 2023 met the inclusion criteria.",
+      "page": "1",
+      "section": "Abstract Results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Specific LLMs evaluated",
+      "excerpt": "ChatGPT-3.5 (OpenAI) was evaluated in all studies, with 6 studies comparing it with other LLMs such GPT-4, LLaMA (Meta), and fine-tuned chatbots.",
+      "page": "1",
+      "section": "Abstract Results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Healthcare regulated domain context",
+      "excerpt": "In health care, empathy is a fundamental for health care professionals and patients’ interaction.",
+      "page": "1",
+      "section": "Abstract Background",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No governance, audit, or compliance focus in provided text",
+      "excerpt": "Evaluation metric included automatic metrics such as Recall-Oriented Understudy for Gisting Evaluation and Bilingual Evaluation Understudy, and human subjective evaluation.",
+      "page": "1",
+      "section": "Abstract Results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study limitations are transparently reported",
+      "excerpt": "Limitations were noted, including repetitive use of empathic phrases, difficulty following initial instructions, overly lengthy responses, sensitivity to prompts, and overall subjective evaluation metrics",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Main conclusion on empathy rather than governance",
+      "excerpt": "Conclusions: LLMs exhibit elements of cognitive empathy, recognizing emotions and providing emotionally supportive responses in various contexts.",
+      "page": "1",
+      "section": "Abstract Conclusions",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Search query documented",
+      "excerpt": "The search query was “((“large language models”) OR (llms) OR (gpt) OR (chatgpt)) AND ((empathy) OR (“emotional awareness”) OR (“emotional intelligence”) OR (emotion))",
+      "page": "2",
+      "section": "Methods",
+      "supports": "appraisal"
+    }
+  ]
+}

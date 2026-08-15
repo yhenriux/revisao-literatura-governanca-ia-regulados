@@ -1,0 +1,192 @@
+{
+  "bibliographic": {
+    "title": "Perspective LLM potentiality and awareness: a position paper from the perspective of trustworthy and responsible AI modeling",
+    "authors": "Iqbal H. Sarker",
+    "year": "2024",
+    "venue": "Discover Artificial Intelligence",
+    "doi": "10.1007/s44163-024-00129-0",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Sarker, I. H. (2024). Perspective LLM potentiality and awareness: a position paper from the perspective of trustworthy and responsible AI modeling. Discover Artificial Intelligence, 4, 40. https://doi.org/10.1007/s44163-024-00129-0"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "position paper",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "finance, business, healthcare, cybersecurity",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Large language models (LLMs), GPT, BERT, chatbots, virtual assistants, NLP, deep learning"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_focus",
+      "governance_trust_accountability",
+      "conversational_applications_mentioned",
+      "regulated_domains_mentioned"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Position paper explicitly on LLM potentiality, risks, and trustworthy/responsible AI themes including fairness, transparency, explainability, trust, and accountability; mentions chatbots and virtual assistants and domains such as finance and healthcare, but does not center conversational governance mechanisms in regulated deployments.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial introduction were provided; full-text sections on applications, governance mechanisms, and regulated-context operational controls were not available for verification."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal adapted to a non-empirical position paper. Objective and scope are clearly stated, but empirical sampling, data collection, and explicit limitations cannot be assessed from the excerpt provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is coherent and clearly framed around trustworthy and responsible LLM use, but available text is limited to abstract and introduction, the work is conceptual rather than empirically grounded, and conversational governance in regulated operational settings is only indirectly addressed."
+  },
+  "coding": {
+    "open_codes": [
+      "position_paper",
+      "trustworthy_ai",
+      "responsible_ai",
+      "llm_risks",
+      "hallucinations",
+      "algorithmic_bias",
+      "black_box_nature",
+      "adversarial_attacks",
+      "chatbots",
+      "virtual_assistants",
+      "fairness",
+      "transparency",
+      "explainability",
+      "trust",
+      "accountability",
+      "deployment_risks"
+    ],
+    "axial_codes": [
+      "llm_governance_principles",
+      "ethical_and_societal_impacts",
+      "technical_risk_factors",
+      "conversational_applications"
+    ],
+    "theme": "Trustworthy and responsible AI for large language models",
+    "subtheme": "LLM risks, awareness, and governance-oriented principles",
+    "concepts": [
+      "hallucinations",
+      "algorithmic bias",
+      "misinformation",
+      "black-box models",
+      "adversarial attacks",
+      "fairness",
+      "transparency",
+      "explainability",
+      "trust",
+      "accountability"
+    ],
+    "model_layers": [
+      "application_layer",
+      "model_risk_layer",
+      "ethical_governance_layer"
+    ],
+    "rq_alignment": [
+      "llm_governance",
+      "risk_and_compliance",
+      "accountability_and_trust",
+      "regulated_domain_applications"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "LLMs offer major potential across domains but raise substantial trustworthiness, ethical, and societal risks that require awareness and responsible deployment emphasizing fairness, transparency, explainability, trust, and accountability.",
+    "contribution": "Provides a conceptual framing of LLM potentiality and risk awareness from a trustworthy and responsible AI perspective, identifies technical and ethical challenges, and outlines research directions.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting conceptual evidence on trustworthy/responsible LLM governance themes and general risk factors; not sufficient as central evidence for conversational governance mechanisms in regulated LLM systems because chatbots are only briefly mentioned and operational controls such as guardrails, observability, audit, or human oversight are not evidenced in the provided text."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a position paper on trustworthy and responsible LLM modeling.",
+      "excerpt": "This position paper explores the potentiality of LLM from diverse perspectives as well as the associated risk factors with awareness.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study addresses LLMs specifically.",
+      "excerpt": "Large language models (LLMs) are an exciting breakthrough in the rapidly growing field of artificial intelligence (AI)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance-related principles are explicit focus areas.",
+      "excerpt": "emphasizing fairness, transparency, explainability, trust and accountability",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated or high-stakes domains are mentioned.",
+      "excerpt": "application domains such as finance, business, healthcare, cybersecurity, and so on",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Conversational AI applications are mentioned but not the main focus.",
+      "excerpt": "ranging from chatbots and virtual assistants to content creation tools and personalized recommendation systems",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Key LLM risk factors include hallucinations and bias.",
+      "excerpt": "critical tendency to produce hallucinations, i.e., generating content that appears nonsensical or unfaithful",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Black-box nature is identified as a governance challenge.",
+      "excerpt": "these models are considered black-box and continue to progress",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Security risk via adversarial attacks is discussed.",
+      "excerpt": "adversarial attacks, in which malicious actors take advantage of vulnerabilities to manipulate model outputs or undermine system integrity",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Peer-reviewed journal publication with acceptance date.",
+      "excerpt": "Received: 1 March 2024 / Accepted: 8 May 2024",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Paper purpose is to contribute to ongoing discussion on LLM trustworthiness and responsibility.",
+      "excerpt": "the purpose of this position paper is to contribute to the ongoing discussion of LLM potentiality and awareness from the perspective of trustworthiness and responsibility in AI",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

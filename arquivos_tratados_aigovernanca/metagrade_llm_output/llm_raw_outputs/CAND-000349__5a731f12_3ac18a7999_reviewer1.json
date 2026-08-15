@@ -1,0 +1,201 @@
+{
+  "bibliographic": {
+    "title": "Integration of Artificial Intelligence Into a Medical Curriculum: Evolving Student Perceptions and Faculty Development Challenges",
+    "authors": "Kinner L. Flaglor, Gabrielle Rueff, Paul Monaco, Antonio E. Rusinol, Mark Hernandez",
+    "year": "2026",
+    "venue": "Cureus",
+    "doi": "10.7759/cureus.109621",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Flaglor, K. L., Rueff, G., Monaco, P., Rusinol, A. E., & Hernandez, M. (2026). Integration of artificial intelligence into a medical curriculum: Evolving student perceptions and faculty development challenges. Cureus. https://doi.org/10.7759/cureus.109621"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "longitudinal survey comparison and faculty workshop evaluation",
+    "study_design": "Repeated cohort surveys (2024 vs 2025 incoming M1; January 2025 vs January 2026 rising M3) plus pre-post faculty development workshops",
+    "sample_description": "Medical students and faculty at East Tennessee State University Quillen College of Medicine; rising third-year students (class size 80); workshop participants",
+    "sample_size": "Rising M3: n=62 (2025), n=68 (2026); Workshop 1: N=25 pre, 15 post; Workshop 2: N=16 pre, 7 post",
+    "sector": "medical education",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Generative AI and LLMs in medical curriculum; tools named include ChatGPT and Claude; faculty workshops on AI teaching integration, ethics, and policy"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "borderline",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GENAI",
+      "REGULATED_HEALTHCARE",
+      "GOVERNANCE_ETHICS"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_GOVERNANCE",
+      "NO_OPERATIONAL_TECHNICAL_GOVERNANCE"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study addresses generative AI and LLMs in a regulated healthcare education setting and proposes a multi-dimensional framework for responsible AI integration with ethical and policy-focused faculty development. However, the provided text does not address conversational AI system governance such as chatbots, agents, guardrails, observability, audit logs, tracing, handoff, or post-deployment operational controls.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage marked central_candidate, but extracted text centers on curriculum integration, student perceptions, and faculty workshops rather than conversational governance in deployed LLM systems."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Single-institution medical education study using a previously published satisfaction instrument and pre-post workshop measures; statistical comparisons reported with means, SD, t-statistics, and p-values. Limitations section referenced in evidence hits but full limitations text not provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are internally coherent and tied to survey and workshop data, but relevance to conversational governance in regulated LLM systems is indirect; the study focuses on educational integration and faculty readiness rather than governance of conversational AI deployments."
+  },
+  "coding": {
+    "open_codes": [
+      "student AI perceptions",
+      "faculty development workshops",
+      "responsible AI integration framework",
+      "ethical and policy considerations",
+      "ChatGPT confidence training",
+      "active learning with AI",
+      "clinical competence without AI"
+    ],
+    "axial_codes": [
+      "institutional AI adoption",
+      "educational governance",
+      "faculty readiness",
+      "learner attitudes"
+    ],
+    "theme": "Responsible generative AI integration in medical education",
+    "subtheme": "Faculty development and evolving student perceptions",
+    "concepts": [
+      "responsible AI",
+      "faculty development",
+      "generative AI in curriculum",
+      "ethical standards",
+      "policy frontiers",
+      "prompt engineering training"
+    ],
+    "model_layers": [
+      "policy",
+      "ethics",
+      "human oversight"
+    ],
+    "rq_alignment": [
+      "regulated healthcare education context",
+      "human oversight and responsible use",
+      "ethical and policy governance"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Integrating generative AI into medical education requires sustained faculty development and mission-aligned training; student AI use and attitudes are shifting, while faculty workshops increased confidence and practical engagement but also produced more cautious ethical awareness.",
+    "contribution": "Provides empirical updates on student AI perceptions across cohorts and evaluates a multi-dimensional responsible AI integration framework through faculty workshops in a U.S. medical school.",
+    "limitations": "Single institution; incomplete full-text evidence for limitations section; workshop post-sample sizes are small; not focused on conversational system governance mechanisms.",
+    "use_in_review": "Use as borderline or contextual supporting evidence for institutional, educational, and policy-oriented responsible AI adoption in regulated healthcare training environments, not as central evidence for conversational LLM governance architectures."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed 2026 Cureus journal article on AI in medical curriculum",
+      "excerpt": "Review began 05/05/2026 Review ended 05/18/2026 Published 05/25/2026",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses generative AI and LLMs in medical education context",
+      "excerpt": "The rapid integration of generative artificial intelligence (AI) into medical education presents both opportunities and continuing challenges",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs are explicitly discussed",
+      "excerpt": "Large language models (LLMs) have already transformed health professions education.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empirical design tracks student attitudes over time",
+      "excerpt": "Using our previously published satisfaction instrument, we tracked shifting attitudes toward AI among our pre-clerkship and clerkship students.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Sample sizes and response rates for rising M3 students",
+      "excerpt": "The response rate for AI use was higher in 2026 compared to 2025 (97%, n=68 vs. 89%, n=62) for rising third-year students (class sizes of 80).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Responsible AI framework and faculty workshops implemented",
+      "excerpt": "we developed a multi- dimensional framework for responsible AI integration and implemented a series of faculty development workshops.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Workshop increased faculty confidence and engagement",
+      "excerpt": "The first workshop produced an increase in confidence (+0.75) and practical engagement (+0.43).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Second workshop emphasized ethics and policy with cautious outlook",
+      "excerpt": "A second workshop focused on ethical and policy considerations yielded greater critical awareness, though with a more cautious outlook.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "ChatGPT used in faculty workshop on teaching optimization",
+      "excerpt": "The workshop demonstrated how ChatGPT (OpenAI Group PBC, San Francisco, California, United States) could best be used for preparation of teaching materials.",
+      "page": "7",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "ChatGPT confidence change was statistically significant",
+      "excerpt": "The confidence shift after the workshop (+0.75) is significant (p = 0.013).",
+      "page": "7",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Faculty development needs include prompt engineering and role-specific pathways",
+      "excerpt": "Feedback across both workshops consistently highlighted the need for hands- on training, prompt engineering instruction, and role-specific, tool-agnostic development pathways.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Prior work integrated generative AI while maintaining ethical standards",
+      "excerpt": "medical schools can develop and implement plans to integrate generative AI into preclinical curricula while maintaining academic integrity and ethical standards",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational system governance mechanisms described in provided text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

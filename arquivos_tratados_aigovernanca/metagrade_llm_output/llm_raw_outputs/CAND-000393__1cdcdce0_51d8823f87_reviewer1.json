@@ -1,0 +1,224 @@
+{
+  "bibliographic": {
+    "title": "AI and the Transformation of Accountability and Discretion in Urban Governance",
+    "authors": "Stephen Goldsmith; Juncheng Yang",
+    "year": "2026",
+    "venue": "Urban Governance",
+    "doi": "10.1016/j.ugj.2026.02.005",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Goldsmith, S., & Yang, J. (2026). AI and the Transformation of Accountability and Discretion in Urban Governance. Urban Governance. https://doi.org/10.1016/j.ugj.2026.02.005"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual analysis with illustrative cases drawing on public administration theory and algorithmic governance research",
+    "study_design": "conceptual/theoretical paper using illustrative cases",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "urban governance; public administration",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI broadly in urban governance, including chatbots, virtual assistants, conversational AI, GenAI, LLMs, IoT, digital twins, and municipal service-delivery systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "conceptual_governance_framework",
+      "regulated_public_sector_context",
+      "mentions_conversational_ai_and_llms"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is primarily a conceptual analysis of how AI reshapes discretion and accountability in urban governance, not an empirical or technical study of conversational LLM governance. It is relevant as foundational/contextual evidence because it explicitly discusses GenAI, LLMs, chatbots, virtual assistants, risks such as bias and opacity, and proposes principles including human-led decision-making and citizen-engaged oversight in public-sector settings.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter, abstract, introduction fragments, and keyword-hit excerpts were provided; full methods, limitations, and governance-principles sections were not visible for complete appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appropriate for a conceptual governance paper, but primary empirical sampling, data-collection procedures, and ethics/reflexivity are not described in the supplied text. Claims rely on theory plus illustrative secondary cases rather than original empirical investigation."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is coherent and clearly framed around accountability, discretion, and urban governance, with explicit links to GenAI, LLMs, and conversational tools. Confidence is moderate rather than high because the supplied text shows a conceptual design with illustrative cases and incomplete visibility into methods, limitations, and detailed operational governance mechanisms for conversational LLM systems."
+  },
+  "coding": {
+    "open_codes": [
+      "accountability",
+      "bureaucratic discretion",
+      "urban governance",
+      "algorithmic governance",
+      "public administration",
+      "generative AI",
+      "LLMs",
+      "chatbots",
+      "virtual assistants",
+      "conversational AI",
+      "data bias",
+      "algorithmic opacity",
+      "citizen oversight",
+      "human-led decision-making",
+      "service delivery"
+    ],
+    "axial_codes": [
+      "institutional governance of AI",
+      "redistribution of discretion",
+      "participatory accountability",
+      "public-sector conversational interfaces",
+      "risk and oversight in AI deployment"
+    ],
+    "theme": "Accountability and discretion in AI-enabled urban governance",
+    "subtheme": "Conversational AI and GenAI/LLM tools in municipal public administration",
+    "concepts": [
+      "accountable discretion",
+      "political accountability",
+      "professional accountability",
+      "participatory accountability",
+      "rule-based discretion",
+      "screen practices",
+      "citizen-engaged oversight"
+    ],
+    "model_layers": [
+      "institutional/policy layer",
+      "organizational/professional layer",
+      "citizen interaction layer",
+      "technical AI application layer"
+    ],
+    "rq_alignment": [
+      "governance and accountability in AI systems",
+      "human oversight in public-sector AI",
+      "conversational interfaces in regulated public administration",
+      "risk and bias in algorithmic governance"
+    ],
+    "coding_confidence": 0.76
+  },
+  "synthesis": {
+    "main_claim": "AI, including GenAI and LLM-based tools, does not simply restrict or enhance bureaucratic discretion but redistributes it across institutional levels, professional roles, and citizen interactions, thereby transforming multiple forms of accountability in urban governance.",
+    "contribution": "Introduces the concept of accountable discretion and proposes guiding principles linked to actionable measures, including equal AI access, adaptive administrative structures, robust data governance, proactive human-led decision-making, and citizen-engaged oversight.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational/contextual evidence for governance of AI in regulated public-sector environments. Useful for framing how conversational tools such as chatbots and virtual assistants relate to accountability, oversight, and discretion, but not as central empirical evidence on conversational LLM governance mechanisms such as guardrails, observability, or post-deployment monitoring."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article in Urban Governance.",
+      "excerpt": "Urban Governance journal homepage: www.elsevier.com/locate/ugj",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors are Stephen Goldsmith and Juncheng Yang.",
+      "excerpt": "Stephen Goldsmith a , Juncheng Yang a , b , ∗",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is primarily conceptual with illustrative cases.",
+      "excerpt": "This paper offers a conceptual analysis of the transformative role of artificial intelligence (AI) in urban governance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Illustrative cases supplement conceptual analysis.",
+      "excerpt": "While primarily conceptual, this paper uses illustrative cases to show that AI can strengthen managerial oversight",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Paper introduces accountable discretion and guiding principles.",
+      "excerpt": "the paper introduces the concept of accountable discretion and proposes guiding principles, each linked to actionable measures",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Principles include human-led decision-making and citizen-engaged oversight.",
+      "excerpt": "equal AI access, adaptive administrative structures, robust data governance, proactive human-led decision-making, and citizen-engaged oversight",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Identifies governance risks including bias and opacity.",
+      "excerpt": "introducing new risks, such as data bias, algorithmic opacity, and fragmented responsibility across actors",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Focuses on GenAI and highly interactive AI applications.",
+      "excerpt": "especially when facing the emergence of highly interactive AI applications following the rise of Generative AI (GenAI)",
+      "page": "2",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Municipal chatbots are common in OECD public service delivery.",
+      "excerpt": "67 % of OECD countries already use AI to improve service delivery, predominantly through tools such as chatbots",
+      "page": "3",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "AI includes machine learning and natural language processing.",
+      "excerpt": "AI encompasses a variety of technologies and techniques, including machine learning, neural networks, and natural language processing",
+      "page": "3",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLMs can respond to plain language and support frontline decision-making.",
+      "excerpt": "Most applications based on Large-Language Models (LLMs) can respond to plain language requests, significantly lowering the hurdle for front-line caseworkers and their supervisors to analyze data in their decisions",
+      "page": "5",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Chatbots and virtual assistants are the most common AI systems in European public administrations.",
+      "excerpt": "chatbots and virtual assistants are the most common form of AI system across European public administrations (57 of 250 cases)",
+      "page": "6",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Municipal chatbot example includes log analysis and feedback loop.",
+      "excerpt": "Municipal staff then analyze anonymized chatbot logs to better understand recurring pain points and refine processes",
+      "page": "6",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Conversational AI can transform citizen-government communication into iterative exchange.",
+      "excerpt": "These examples show how conversational AI tools can transform citizen–government communication into an iterative exchange rather than a one-way request–response process",
+      "page": "6",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Virtual assistants translate administrative language into conversational formats.",
+      "excerpt": "chatbots and virtual assistants that translate complex administrative language into conversational formats and provide round-the-clock access to public information",
+      "page": "6",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

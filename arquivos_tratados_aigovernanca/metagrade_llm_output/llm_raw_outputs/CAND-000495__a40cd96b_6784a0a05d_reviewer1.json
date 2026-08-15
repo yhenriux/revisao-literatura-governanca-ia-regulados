@@ -1,0 +1,197 @@
+{
+  "bibliographic": {
+    "title": "Threats and vulnerabilities in artificial intelligence and agentic AI models",
+    "authors": "Petar Radanliev, Omar Santos, Carsten Maple",
+    "year": "2026",
+    "venue": "Frontiers in Artificial Intelligence",
+    "doi": "10.3389/frai.2026.1731566",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Radanliev, P., Santos, O., & Maple, C. (2026). Threats and vulnerabilities in artificial intelligence and agentic AI models. Frontiers in Artificial Intelligence. https://doi.org/10.3389/frai.2026.1731566"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "PRISMA-compliant systematic literature review with bibliometric mapping, system-level analytical framework, and targeted empirical validation",
+    "study_design": "systematic literature review and conceptual framework development with synthesis of adversarial vision benchmarks and LLM red-teaming studies",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare imaging, autonomous mobility, biometric security, national security",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "artificial intelligence, agentic AI systems, large language models (ChatGPT, GPT-4, Claude 2, Mistral 7B, Vicuna), adversarial attacks, red-teaming, conversational data pipelines"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_assessment",
+    "inclusion_codes": [
+      "llm_genai",
+      "agentic_ai",
+      "risk_audit_compliance",
+      "regulated_high_stakes",
+      "foundational_framework"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "O artigo desenvolve um framework analítico de risco adversarial para IA e IA agêntica, com revisão sistemática PRISMA e síntese de red-teaming em LLMs. É relevante para governança de risco, segurança, auditoria e defesa em sistemas agênticos/LLM em contextos críticos, mas o foco central é segurança adversarial e robustez comportamental, não governança conversacional operacional.",
+    "decision_confidence": 0.74,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Metadados extraídos indicam venue ACM Digital Library e tipo preprint, enquanto o texto fornecido aponta Frontiers in Artificial Intelligence com revisão por pares; verificar consistência do PDF completo e a seção de coleta conversacional com ChatGPT."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Métodos declarados incluem revisão sistemática PRISMA, mapeamento bibliométrico e validação empírica direcionada, com codificação e κ=0.87. O tamanho e critérios detalhados da amostra da revisão não aparecem nos trechos fornecidos."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "O framework é coerente e bem articulado para ameaças adversariais em sistemas agênticos, com métodos de revisão descritos e validação parcial. A adequação amostral da SLR e a aplicabilidade direta à governança conversacional permanecem pouco detalhadas no material fornecido."
+  },
+  "coding": {
+    "open_codes": [
+      "adversarial robustness",
+      "agentic AI",
+      "system-level threat model",
+      "perceptual-cognitive-executive layers",
+      "PRISMA systematic review",
+      "LLM red-teaming",
+      "prompt injection",
+      "jailbreak vulnerabilities",
+      "governance-aware defence design",
+      "consent manager",
+      "audit logging",
+      "behavioral integrity",
+      "lifecycle resilience"
+    ],
+    "axial_codes": [
+      "security governance",
+      "adversarial risk management",
+      "multi-layered safeguards",
+      "regulated safety-critical deployment"
+    ],
+    "theme": "Segurança adversarial e governança de defesa em sistemas de IA agêntica",
+    "subtheme": "Ameaças, vulnerabilidades e mitigação em LLMs e sistemas em loop fechado",
+    "concepts": [
+      "adversarial vulnerability",
+      "agentic autonomy",
+      "closed-loop decision-making",
+      "feedback dynamics",
+      "red-teaming",
+      "governance-aware defence",
+      "privacy-compliance checkpoint"
+    ],
+    "model_layers": [
+      "perception",
+      "cognition",
+      "executive/policy",
+      "actuation",
+      "data interface",
+      "consent and compliance"
+    ],
+    "rq_alignment": [
+      "risk_audit_compliance",
+      "operational_technical_governance",
+      "regulated_high_stakes",
+      "llm_genai"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Vulnerabilidades adversariais em sistemas de IA agêntica propagam-se entre camadas perceptivas, cognitivas e executivas; nenhum mecanismo de defesa isolado garante robustez, exigindo integridade comportamental e resiliência ao longo do ciclo de vida.",
+    "contribution": "Propõe um framework analítico em nível de sistema para formalizar risco adversarial em IA agêntica, fundamentado em revisão sistemática PRISMA, mapeamento bibliométrico e síntese de estudos de red-teaming em LLMs, com agenda de pesquisa que integra raciocínio de teoria de controle e desenho de defesas sensíveis à governança.",
+    "limitations": "Não há defesa única robusta em todas as camadas; defesas como safety sentinels ou poda dinâmica de contexto reduzem ataques mas introduzem overhead; limitações da teoria clássica de aprendizado de máquina adversarial persistem.",
+    "use_in_review": "Evidência de apoio para a dimensão de governança técnica de risco, segurança, auditoria e defesa em sistemas conversacionais/agênticos baseados em LLM, especialmente em contextos regulados de alto risco; não sustenta sozinho a síntese sobre governança conversacional operacional."
+  },
+  "evidence": [
+    {
+      "claim": "Foco do estudo em ameaças adversariais para IA e IA agêntica com modelo de ameaça estendido à autonomia e decisão em loop fechado",
+      "excerpt": "This study reconceptualises adversarial vulnerability for artificial and agentic AI systems by extending the threat model to autonomy, self-governance, and closed-loop decision-making",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Método inclui revisão sistemática PRISMA, mapeamento bibliométrico e validação empírica direcionada",
+      "excerpt": "The analysis is grounded in a PRISMA-compliant systematic literature review, bibliometric mapping, and targeted empirical validation.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Resultado central de ausência de defesa única robusta e propagação de vulnerabilidades entre camadas",
+      "excerpt": "The results demonstrate that no single defence mechanism provides robustness across all layers of agentic AI systems.",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Implicações para aplicações críticas em saúde, mobilidade autônoma e segurança biométrica",
+      "excerpt": "These effects have direct implications for safety-critical applications, including autonomous mobility, healthcare imaging, and biometric security.",
+      "page": "1",
+      "section": "Results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Integração de governança no desenho de defesas",
+      "excerpt": "integrates control-theoretic reasoning and governance-aware defence design",
+      "page": "1",
+      "section": "Discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Transparência de codificação e confiabilidade interavaliadores na revisão",
+      "excerpt": "Inter-rater reliability achieved a Cohen’s κ = 0.87, confirming strong agreement.",
+      "page": "2",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Pipeline conversacional com LLM, consent manager e checkpoint de conformidade de privacidade",
+      "excerpt": "FIGURE 1 End-to-end flow, from user input through the ChatGPT core LLM, onward to a data interface and data store, highlighting a consent manager and privacy-compliance checkpoint.",
+      "page": "2",
+      "section": "Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Requisitos de auditoria e conformidade em coleta conversacional em escala",
+      "excerpt": "implementations therefore need robust consent workflows, explicit purpose limitation, encryption at rest and in transit, and audit logging to mitigate legal and ethical risks",
+      "page": "2",
+      "section": "Limitations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Análise de red-teaming em LLMs líderes com mais de 1.400 prompts adversariais",
+      "excerpt": "A systematic evaluation of prompt injection and jailbreak vulnerabilities across leading LLMs (Pathade, 2025), specifically, GPT-4, Claude 2, Mistral 7B, and Vicuna, using over 1,400 adversarial prompts",
+      "page": "17",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Necessidade de salvaguardas multicamadas e dinâmicas para LLMs",
+      "excerpt": "highlighting emergent blind spots in alignment strategies and the need for multi-layered, dynamic safeguards.",
+      "page": "17",
+      "section": "Findings",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Revisão por pares indicada no front matter",
+      "excerpt": "REVIEWED BY Liu Xinlei, Info",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

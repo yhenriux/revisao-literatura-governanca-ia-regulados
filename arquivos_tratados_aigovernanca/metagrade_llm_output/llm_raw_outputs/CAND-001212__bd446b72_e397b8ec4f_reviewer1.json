@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI",
+    "authors": "Mahyar Abbasian, Elahe Khatibi, Iman Azimi, David Oniani, Zahra Shakeri Hossein Abad, Alexander Thieme, Ram Sriram, Zhongqi Yang, Yanshan Wang, Bryant Lin, Olivier Gevaert, Li-Jia Li, Ramesh Jain, Amir M. Rahmani",
+    "year": "2024",
+    "venue": "npj Digital Medicine",
+    "doi": "10.1038/s41746-024-01074-z",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Abbasian, M., Khatibi, E., Azimi, I., Oniani, D., Shakeri Hossein Abad, Z., Thieme, A., Sriram, R., Yang, Z., Wang, Y., Lin, B., Gevaert, O., Li, L.-J., Jain, R., & Rahmani, A. M. (2024). Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI. npj Digital Medicine, 7, 82. https://doi.org/10.1038/s41746-024-01074-z"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "perspective literature review and framework proposal",
+    "study_design": "Perspective article reviewing intrinsic and extrinsic LLM evaluation metrics and proposing healthcare chatbot foundation metrics",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Generative AI, large language models, interactive conversational models (chatbots) for healthcare tasks including diagnosis support, education, mental health, scheduling, and triaging"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "llm_healthcare_chatbots",
+      "conversational_ai_evaluation",
+      "ethics_trust_bias_metrics",
+      "regulated_healthcare_context"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Perspective article focused on proposing and reviewing evaluation metrics for LLM-based healthcare chatbots. Strong alignment with conversational AI, LLMs, and regulated healthcare, and it addresses trust, ethics, bias, and user-centered assessment. Primary contribution is an evaluation-metrics framework rather than operational conversational governance mechanisms such as guardrails, audit systems, or human oversight architecture.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial PDF text was provided; full metric taxonomy, implementation guidance, and governance-related sections may extend beyond the supplied excerpts."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Appraisal adapted to a non-empirical perspective/framework paper. Literature coverage appears structured by intrinsic versus extrinsic metrics, but systematic search and selection procedures are not evidenced in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The article presents a coherent user-centered metrics framework for healthcare chatbots and explicitly addresses ethics, trust, bias, and robustness. Confidence is moderate because the supplied text does not document a systematic review protocol or empirical validation of the proposed metrics."
+  },
+  "coding": {
+    "open_codes": [
+      "foundation metrics",
+      "healthcare chatbots",
+      "intrinsic evaluation",
+      "extrinsic evaluation",
+      "user-centered evaluation",
+      "trust-building",
+      "ethics",
+      "bias evaluation",
+      "robustness",
+      "hallucinations",
+      "personalization",
+      "empathy"
+    ],
+    "axial_codes": [
+      "conversational AI evaluation",
+      "healthcare-specific LLM assessment",
+      "quality and safety measurement",
+      "user trust and ethics"
+    ],
+    "theme": "Evaluation frameworks for healthcare conversational AI",
+    "subtheme": "Foundation metrics for LLM-powered healthcare dialogues",
+    "concepts": [
+      "intrinsic versus extrinsic metrics",
+      "general versus healthcare-domain metrics",
+      "bias evaluation via agreement index",
+      "robustness against perturbations",
+      "human judgment in extrinsic evaluation"
+    ],
+    "model_layers": [
+      "language processing abilities",
+      "real-world clinical task impact",
+      "user-interactive conversation effectiveness"
+    ],
+    "rq_alignment": [
+      "evaluation of conversational LLM systems",
+      "accountability-related quality dimensions",
+      "regulated healthcare deployment concerns"
+    ],
+    "coding_confidence": 0.84
+  },
+  "synthesis": {
+    "main_claim": "Healthcare applications require a unified, comprehensive set of foundation metrics to evaluate LLM-based conversational models because generic LLM metrics fail to capture medical concepts and user-centered aspects such as trust, ethics, empathy, and personalization.",
+    "contribution": "Reviews state-of-the-art intrinsic and extrinsic LLM evaluation metrics and proposes a comprehensive, user-centered metric set for assessing healthcare chatbots across language processing, clinical task impact, and interactive conversation effectiveness.",
+    "limitations": "The provided text emphasizes challenges in defining and implementing metrics, including target audience, evaluation methods, and prompt techniques; broader governance implementation constraints are only partially evidenced in the excerpts.",
+    "use_in_review": "Use as supporting evidence on how conversational LLM effectiveness, safety, and trust-related dimensions can be operationalized through evaluation metrics in regulated healthcare settings; not primary evidence for operational governance architectures."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a 2024 npj Digital Medicine perspective on healthcare conversations powered by generative AI.",
+      "excerpt": "npj | digital medicine Perspective Published in partnership with Seoul National University Bundang Hospital https://doi.org/10.1038/s41746-024-01074-z Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study focuses on LLM-based healthcare chatbots and the need for healthcare-specific evaluation metrics.",
+      "excerpt": "The purpose of this paper is to explore state-of-the-art LLM-based evaluation metrics that are specifically applicable to the assessment of interactive conversational models in healthcare.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated, life-critical healthcare context motivates specialized evaluation.",
+      "excerpt": "The life-critical nature of healthcare applications necessitates establishing a unified and comprehensive set of evaluation metrics for conversational models.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Generic LLM metrics neglect user-centered governance-relevant dimensions such as trust and ethics.",
+      "excerpt": "Moreover, these metrics neglect pivotal user-centered aspects, including trust-building, ethics, personalization, empathy, user comprehension, and emotional support.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Paper uses a literature review of intrinsic and extrinsic evaluation methods.",
+      "excerpt": "The evaluation of language models can be categorized into intrinsic and extrinsic methods18, which can be executed automatically or manually.",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Intrinsic metrics are inadequate for healthcare chatbots.",
+      "excerpt": "However, they solely rely on surface-form similarity and language-specific perspectives, rendering them inadequate for healthcare chatbots.",
+      "page": "2",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Extrinsic metrics incorporate user perspectives and human participation.",
+      "excerpt": "Extrinsic evaluation metrics present means of measuring the performance of language models by incorporating user perspectives and real-world contexts18.",
+      "page": "3",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Proposed metrics assess healthcare chatbots from an end-user perspective.",
+      "excerpt": "we present a comprehensive set of metrics essential for conducting a user-centered evaluation of LLM-based healthcare chatbots.",
+      "page": "3",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Robustness is framed as resilience against perturbations and adversarial attacks.",
+      "excerpt": "Robustness15,25, as an extrinsic metric, explores the resilience of healthcare chatbots against perturbations and adversarial attacks.",
+      "page": "4",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Bias evaluation is explicitly discussed for healthcare chatbots.",
+      "excerpt": "Representation bias, occurring when certain groups or medical conditions are underrepresented or overlooked in the training data of the language model, leading to incomplete or inaccurate information.",
+      "page": "6",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors discuss implementation challenges for metric definition.",
+      "excerpt": "we engage in a discussion concerning the challenges associated with defining and implementing these metrics, with particular emphasis on confounding factors such as the target audience, evaluation methods, and prompt techniques",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    }
+  ]
+}

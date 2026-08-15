@@ -1,0 +1,207 @@
+{
+  "bibliographic": {
+    "title": "Ethical and Legal Governance of Generative AI in Chinese Healthcare",
+    "authors": "Jinrun Jia, Shiqiao Zhao",
+    "year": "2025",
+    "venue": "Journal of Multidisciplinary Healthcare",
+    "doi": "10.2147/JMDH.S541271",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Jia, J., & Zhao, S. (2025). Ethical and Legal Governance of Generative AI in Chinese Healthcare. Journal of Multidisciplinary Healthcare. https://doi.org/10.2147/JMDH.S541271"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "legal and ethical policy analysis with literature review",
+    "study_design": "perspective article reviewing legal/regulatory frameworks and academic literature; proposes governance framework",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "generative artificial intelligence, ChatGPT, GPT-3, Deepseek, large-scale language modeling, conversational chatbots in medical applications"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "generative_ai",
+      "healthcare_regulated_domain",
+      "governance_framework",
+      "legal_ethical_analysis"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses ethical and legal governance of generative AI in Chinese healthcare, reviews regulatory frameworks and literature, and proposes a governance framework. It aligns with regulated-domain generative AI governance but, in the provided text, emphasizes policy and legal-ethical analysis rather than operational conversational governance mechanisms such as guardrails, observability, or human oversight workflows.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial page 2 are available; full methods, literature selection criteria, and conversational AI governance depth cannot be verified."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Provided excerpt states legal-ethical review and framework development but does not describe systematic search, inclusion criteria, or detailed analytical protocol. Findings are clearly summarized in the abstract; limitations section not visible in excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The study presents a coherent legal-ethical governance focus for generative AI in healthcare and clear high-level findings, but methodological transparency is limited in the available text and the contribution appears primarily framework-oriented rather than empirically or operationally grounded."
+  },
+  "coding": {
+    "open_codes": [
+      "algorithm transparency",
+      "data privacy",
+      "bias",
+      "liability",
+      "human agency",
+      "fairness and justice",
+      "medical AI training data",
+      "coordinated regulation",
+      "AI legislation",
+      "global ethics review"
+    ],
+    "axial_codes": [
+      "legal governance",
+      "ethical governance",
+      "regulatory inadequacy",
+      "risk mitigation",
+      "healthcare policy"
+    ],
+    "theme": "Ethical and legal governance of generative AI in regulated healthcare",
+    "subtheme": "Chinese healthcare regulatory and ethical framework gaps",
+    "concepts": [
+      "governance framework",
+      "regulatory lag",
+      "unclear legal status of AI",
+      "medical data standards",
+      "inter-department coordination",
+      "transparency",
+      "accountability"
+    ],
+    "model_layers": [
+      "legal",
+      "ethical",
+      "policy",
+      "regulatory"
+    ],
+    "rq_alignment": [
+      "governance of generative AI",
+      "regulated healthcare contexts",
+      "risk and compliance",
+      "ethics and accountability",
+      "transparency and fairness"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "China is actively constructing an ethical and legal governance framework for generative AI in healthcare, but the regulatory system remains inadequate and faces challenges including lagging rules, unclear AI legal status, immature medical AI training data standards, and weak inter-agency coordination; the authors propose a legal-ethical governance framework and broader measures such as algorithm transparency, standardized medical data management, AI legislation, and a global AI ethics review committee.",
+    "contribution": "Provides a legal-ethical governance framework for generative AI in the Chinese medical field and synthesizes regulatory and academic perspectives on key risks and policy gaps.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence on legal-ethical governance frameworks, regulatory challenges, and proposed policy responses for generative AI in regulated healthcare; useful contextual material for China-specific healthcare governance rather than primary evidence on conversational system operational controls."
+  },
+  "evidence": [
+    {
+      "claim": "Article title and authorship",
+      "excerpt": "Ethical and Legal Governance of Generative AI in Chinese Healthcare Jinrun Jia, Shiqiao Zhao",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Peer review status not stated in provided text",
+      "excerpt": "Journal of Multidisciplinary Healthcare",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study reviews legal/regulatory frameworks and literature",
+      "excerpt": "This study reviews and analyzes the legal and regulatory frameworks established in China for the application of generative AI in healthcare, as well as relevant academic literature.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulatory system remains inadequate with specific challenges",
+      "excerpt": "the regulatory system remains inadequate and faces numerous challenges. These challenges include lagging regulatory rules; an unclear legal status of AI in laws such as the Civil Code; immature standards and regulatory schemes for medical AI training data; and the lack of a coordinated regulatory mechanism among different government departments.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors propose a governance framework",
+      "excerpt": "this study attempts to establish a governance framework for generative AI in the medical field in China from both legal and ethical perspectives",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Key risk areas include human agency, fairness, and liability",
+      "excerpt": "These risks are manifested in three key areas: first, the potential erosion of human agency; second, issues of fairness and justice; and third, questions of liability and responsibility.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Generative AI risks include accuracy, transparency, privacy, ethics, and bias",
+      "excerpt": "However, risks persist in terms of accuracy, transparency, data privacy, ethics, and bias.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Conversational chatbots appear in medical generative AI context",
+      "excerpt": "Conversational chatbots take on some of the duties of medical professionals.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Specific LLM examples cited",
+      "excerpt": "OpenAI officially launched ChatGPT",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "GPT-3 used in medical applications during COVID-19",
+      "excerpt": "AI models capable of generative tasks, such as GPT-3, were widely utilized for various medical applications.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study focuses on legal and ethical analysis with some clinical/technical coverage",
+      "excerpt": "This study primarily focuses on legal and ethical analysis, while also covering specific analyses of clinical and technical impacts.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Proposed policy responses include transparency, data management, and legislation",
+      "excerpt": "This includes enhancing algorithm transparency, standardizing medical data management, and promoting AI legislation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Proposal for global ethics review mechanism",
+      "excerpt": "efforts should be made to establish a global AI ethics review committee to promote the formation of internationally unified ethical and legal review mechanisms.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

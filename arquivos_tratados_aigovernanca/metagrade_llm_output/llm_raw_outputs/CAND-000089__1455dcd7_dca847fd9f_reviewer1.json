@@ -1,0 +1,161 @@
+{
+  "bibliographic": {
+    "title": "BloombergGPT: A Large Language Model for Finance",
+    "authors": "Shijie Wu, Ozan İrsoy, Steven Lu, Vadim Dabravolski, Mark Dredze, Sebastian Gehrmann, Prabhanjan Kambadur, David Rosenberg, Gideon Mann",
+    "year": "2023",
+    "venue": "arXiv preprint",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Wu, S., İrsoy, O., Lu, S., Dabravolski, V., Dredze, M., Gehrmann, S., Kambadur, P., Rosenberg, D., & Mann, G. (2023). BloombergGPT: A Large language model for finance. arXiv preprint arXiv:2303.17564."
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "large language model development, training, and benchmark evaluation",
+    "study_design": "domain-specific LLM construction with mixed financial and general-purpose corpus training followed by benchmark validation",
+    "sample_description": "363 billion token financial dataset from Bloomberg sources plus 345 billion tokens from general-purpose datasets; 50 billion parameter autoregressive language model",
+    "sample_size": "708 billion training tokens; 50 billion model parameters",
+    "sector": "financial technology",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "BloombergGPT, a finance-specialized large language model trained and evaluated on financial and general NLP benchmarks"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text",
+    "inclusion_codes": [
+      "LLM",
+      "financial_domain",
+      "domain_specific_model"
+    ],
+    "exclusion_codes": [
+      "no_conversational_governance_focus",
+      "model_training_not_governance",
+      "no_oversight_compliance_framework"
+    ],
+    "exclusion_reason": "The provided text describes development, training, and evaluation of a finance-domain LLM but does not address conversational governance, accountability mechanisms, human oversight, compliance controls, auditability, guardrails, or operational governance of deployed conversational systems.",
+    "decision_rationale": "Although the paper is strongly relevant to LLMs in finance and briefly mentions conversational systems as a potential use case, the available text contains no substantive treatment of governance, supervision, risk control, monitoring, compliance, or accountability in regulated conversational AI deployments. It is a technical model-development paper, not evidence on conversational governance.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage marked central_candidate based on broad keyword overlap; full-text sections beyond the provided excerpts were not supplied and should be checked for any governance, ethics, deployment, or oversight discussion before final exclusion."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Methodological quality appears strong for LLM training and evaluation based on the provided text, but ethics, governance, deployment safeguards, and limitations relevant to regulated conversational use are not substantively addressed in the excerpts supplied."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The study is internally coherent and adequate for reporting a domain-specific LLM, but its relevance to conversational governance in regulated environments is very low because governance mechanisms are absent from the provided evidence."
+  },
+  "coding": {
+    "open_codes": [
+      "domain_specific_llm",
+      "financial_nlp",
+      "mixed_corpus_training",
+      "benchmark_evaluation",
+      "model_scaling",
+      "question_answering",
+      "sentiment_analysis"
+    ],
+    "axial_codes": [
+      "LLM_development",
+      "regulated_sector_application_context",
+      "technical_performance_evaluation"
+    ],
+    "theme": "Domain-specific LLM development for finance",
+    "subtheme": "Training data composition and benchmark validation of BloombergGPT",
+    "concepts": [
+      "BloombergGPT",
+      "financial LLM",
+      "mixed dataset training",
+      "few-shot learning",
+      "conversational systems"
+    ],
+    "model_layers": [
+      "model_training",
+      "dataset_curation",
+      "evaluation"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "BloombergGPT, a 50 billion parameter finance-focused LLM trained on a large mixed financial and general-purpose corpus, outperforms existing models on financial tasks without sacrificing general LLM benchmark performance.",
+    "contribution": "Provides a domain-specific LLM for finance, documents modeling choices, training process, evaluation methodology, and releases Training Chronicles.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude as central or supporting evidence on conversational governance; may serve only as peripheral contextual background on finance-domain LLM capability if broader corpus sections contain no governance content."
+  },
+  "evidence": [
+    {
+      "claim": "Paper presents a finance-specialized LLM named BloombergGPT.",
+      "excerpt": "we present BloombergGPT, a 50 billion parameter language model that is trained on a wide range of financial data",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Training uses a large mixed financial and general-purpose dataset.",
+      "excerpt": "We construct a 363 billion token dataset based on Bloomberg’s extensive data sources",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Evaluation covers general LLM, open financial, and internal benchmarks.",
+      "excerpt": "We validate BloombergGPT on standard LLM benchmarks, open financial benchmarks, and a suite of internal benchmarks",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Conversational systems are mentioned only as a general LLM use case, not as a governance object.",
+      "excerpt": "few-shot learning, text generation, conversational systems, etc.",
+      "page": "3",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The work is positioned within financial technology and financial NLP tasks.",
+      "excerpt": "Financial Technology (FinTech) is a large and growing area with NLP technologies having an increasingly important role",
+      "page": "3",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "No governance, oversight, compliance, or accountability framework is described in the provided text.",
+      "excerpt": "Additionally, we explain our modeling choices, training process, and evaluation methodology.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Publication is an arXiv preprint rather than a peer-reviewed venue in the provided text.",
+      "excerpt": "arXiv:2303.17564v3 [cs.LG] 21 Dec 2023",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Main synthesis claim about financial-task performance without general benchmark sacrifice.",
+      "excerpt": "Our mixed dataset training leads to a model that outperforms existing models on financial tasks by significant margins without sacrificing performance on general LLM benchmarks.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

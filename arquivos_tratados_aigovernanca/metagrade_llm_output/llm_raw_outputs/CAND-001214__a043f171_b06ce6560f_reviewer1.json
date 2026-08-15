@@ -1,0 +1,179 @@
+{
+  "bibliographic": {
+    "title": "Evaluating large language models as agents in the clinic",
+    "authors": "Nikita Mehandru, Brenda Y. Miao, Eduardo Rodriguez Almaraz, Madhumita Sushil, Atul J. Butte, Ahmed Alaa",
+    "year": "2024",
+    "venue": "npj Digital Medicine",
+    "doi": "10.1038/s41746-024-01083-y",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Mehandru, N., Miao, B. Y., Rodriguez Almaraz, E., Sushil, M., Butte, A. J., & Alaa, A. (2024). Evaluating large language models as agents in the clinic. npj Digital Medicine. https://doi.org/10.1038/s41746-024-01083-y"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "commentary / conceptual framework",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM agents and chatbots in clinical settings, including ChatGPT, Med-PaLM 2, MedLM, and GPT-4, evaluated via proposed AI-SCE and agent-based clinical simulations"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_agents",
+      "conversational_ai",
+      "healthcare_regulated",
+      "clinical_evaluation_framework",
+      "chatbots"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed journal comment focused on LLM agents that interact with stakeholders in open-ended clinical conversations and proposes AI-SCE as an evaluation framework for deployment in medical settings. It is directly relevant to conversational LLMs in a regulated healthcare domain, but the provided text emphasizes evaluation methodology and clinical simulation rather than operational conversational governance mechanisms such as guardrails, audit, human oversight, or compliance controls.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front-matter text was supplied; publication metadata incorrectly labeled the item as a preprint, and governance-related claims require verification against the full article."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Conceptual commentary proposing AI-SCE and agent-based clinical simulation for assessing LLM agents; not an empirical study. Appraisal reflects argument clarity and framework relevance, with limited transparency on limitations in the excerpt provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is coherent and relevant to regulated clinical conversational LLM deployment, but the supplied text is a partial commentary without empirical methods, sampling, or detailed governance analysis, limiting confidence for central evidentiary use."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM_agents",
+      "clinical_chatbots",
+      "open_ended_conversations",
+      "AI-SCE",
+      "agent_based_modeling",
+      "clinical_simulation",
+      "deployment_evaluation",
+      "safety_assessment",
+      "self_governance_analogy"
+    ],
+    "axial_codes": [
+      "clinical_conversational_AI",
+      "evaluation_governance",
+      "regulated_healthcare_deployment"
+    ],
+    "theme": "Evaluation frameworks for clinical LLM agents in conversational workflows",
+    "subtheme": "AI-SCE and agent-based modeling for safety and utility assessment",
+    "concepts": [
+      "Artificial Intelligence Structured Clinical Examinations",
+      "LLM agents",
+      "clinical decision support",
+      "high-fidelity clinical simulations",
+      "utility and safety evaluation"
+    ],
+    "model_layers": [
+      "application_layer",
+      "evaluation_layer",
+      "deployment_layer"
+    ],
+    "rq_alignment": [
+      "LLM conversational systems in regulated settings",
+      "evaluation and safety before clinical deployment",
+      "agent-based assessment beyond NLP benchmarks"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "LLMs in clinical settings should be treated as intelligent agents capable of open-ended stakeholder conversations and multi-step clinical tasks, and their deployment should be evaluated through high-fidelity clinical simulations using frameworks such as AI-SCE rather than narrow NLP benchmarks.",
+    "contribution": "Introduces AI-SCE as a proposed evaluation paradigm and advocates agent-based modeling to assess the utility and safety of LLM-based chatbots as clinical agents before deployment.",
+    "limitations": "Provided text does not report empirical validation of AI-SCE, detailed governance controls, or operational oversight mechanisms; full limitations section not available in excerpt.",
+    "use_in_review": "Use as supporting evidence on evaluation-oriented governance for conversational LLM agents in healthcare, especially for framing pre-deployment clinical simulation and safety assessment; not sufficient alone for operational conversational governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a journal Comment in npj Digital Medicine with identified authors and DOI.",
+      "excerpt": "npj | digital medicine Comment Published in partnership with Seoul National University Bundang Hospital https://doi.org/10.1038/s41746-024-01083-y Evaluating large language models as agents in the clinic Nikita Mehandru, Brenda Y. Miao, Eduardo Rodriguez Almaraz, Madhumita Sushil, Atul J. Butte & Ahmed Alaa",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Focuses on LLM agents interacting in open-ended clinical conversations.",
+      "excerpt": "These LLMs are not just capable of modeling language, but can also act as intelligent “agents” that interact with stakeholders in open- ended conversations and even influence clinical decision-making.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Proposes AI-SCE evaluation framework for clinical LLM agents.",
+      "excerpt": "These evaluation frameworks, which we refer to as “Artificial Intelligence Structured Clinical Examinations” (“AI-SCE”), can draw from comparable technologies where machines operate with varying degrees of self-governance",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Discusses ChatGPT as an LLM-powered chatbot in healthcare.",
+      "excerpt": "The release of ChatGPT, a chatbot powered by a large language model (LLM), has brought LLMs into the spotlight and unlocked opportunities for their use in healthcare settings.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Names specific medical LLMs and foundation models.",
+      "excerpt": "Med-PaLM 2, Google’s medical LLM, was found to consistently perform at a human expert level on medical examination questions scoring 85%1.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Advocates evaluation of utility and safety of LLM-based chatbots as agents.",
+      "excerpt": "To evaluate the utility and safety of LLM-based chatbots as agents in these applications, we suggest the use of benchmarks that are not confined to traditional,narrowly-scoped assessments based on NLP benchmarks",
+      "page": "1",
+      "section": "clinical simulations using agent-based modeling",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Recommends agent-based modeling and clinical simulations for assessment.",
+      "excerpt": "Instead, approaches from agent-based modeling (ABM)",
+      "page": "1",
+      "section": "clinical simulations using agent-based modeling",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Addresses challenges to development and evaluation of clinical LLM agents.",
+      "excerpt": "Here,we discuss how LLM agents can be used in clinical settings, and challenges to the development and evaluation of these approaches.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Clinical agents may access guidelines, EHR databases, calculators, and tools.",
+      "excerpt": "LLM agents can be developed for a variety of clinical use cases by providing the LLM access to different sources of information and tools, including clinical guidelines, databases containing electronic health records, clinical calculators, or other curated clinical software tools",
+      "page": "1",
+      "section": "development of LLM agents for clinical use",
+      "supports": "coding"
+    },
+    {
+      "claim": "Deployment in medical settings is framed as requiring robust real-world clinical evaluations.",
+      "excerpt": "Developing these robust, real-world clinical evaluations will be crucial towards deploying LLM agents in medical settings.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    }
+  ]
+}

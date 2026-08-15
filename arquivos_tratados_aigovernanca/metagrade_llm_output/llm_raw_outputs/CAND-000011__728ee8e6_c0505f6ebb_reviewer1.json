@@ -1,0 +1,175 @@
+{
+  "bibliographic": {
+    "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+    "authors": "Lei Huang, Weijiang Yu, Weitao Ma, Weihong Zhong, Zhangyin Feng, Haotian Wang, Qianglong Chen, Weihua Peng, Xiaocheng Feng, Bing Qin, Ting Liu",
+    "year": "2024",
+    "venue": "ACM Transactions on Information Systems",
+    "doi": "10.1145/3703155",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Huang, L., Yu, W., Ma, W., Zhong, W., Feng, Z., Wang, H., Chen, Q., Peng, W., Feng, X., Qin, B., & Liu, T. (2024). A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions. ACM Transactions on Information Systems, 1(1), Article 1. https://doi.org/10.1145/3703155"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "literature survey",
+    "study_design": "survey overview of LLM hallucination literature",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models, information retrieval systems, retrieval-augmented LLMs, natural language processing"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_focus",
+      "risk_mitigation",
+      "RAG",
+      "taxonomy_framework"
+    ],
+    "exclusion_codes": [
+      "no_conversational_governance_focus",
+      "no_regulated_domain_focus",
+      "no_operational_governance_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O texto fornecido é um survey sobre alucinação, factualidade e fidelidade em LLMs, com ênfase em taxonomia, detecção, mitigação e limitações de RAG. Isso oferece contexto fundacional para confiabilidade e controle de risco em sistemas com LLM, mas não aborda governança conversacional, supervisão humana, auditoria, compliance ou ambientes regulados de forma explícita no material disponível.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Avaliação baseada apenas no front matter (páginas 1-2); é necessário ler o corpo completo para confirmar menções a chatbots, governança operacional, contextos regulados e mecanismos de accountability."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Objetivo do survey é claro no resumo, mas critérios de busca, seleção de estudos, extração e síntese não estão no trecho fornecido; avaliação metodológica permanece parcial."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "O artigo parece coerente como survey técnico sobre alucinação em LLMs e oferece estrutura conceitual útil para risco e confiabilidade, porém a relevância direta para governança conversacional em ambientes regulados é limitada no texto disponível e a robustez metodológica do review não pode ser verificada integralmente."
+  },
+  "coding": {
+    "open_codes": [
+      "hallucination",
+      "factuality",
+      "faithfulness",
+      "taxonomy",
+      "detection",
+      "mitigation",
+      "reliability",
+      "RAG_limitations",
+      "information_retrieval"
+    ],
+    "axial_codes": [
+      "LLM_reliability",
+      "risk_detection_and_mitigation",
+      "retrieval_augmented_generation"
+    ],
+    "theme": "Alucinação e confiabilidade em LLMs",
+    "subtheme": "Taxonomia, detecção e mitigação de alucinações",
+    "concepts": [
+      "hallucination taxonomy",
+      "factuality",
+      "faithfulness",
+      "hallucination detection",
+      "hallucination mitigation",
+      "retrieval-augmented LLMs"
+    ],
+    "model_layers": [
+      "risk_control",
+      "knowledge_fidelity"
+    ],
+    "rq_alignment": [
+      "partial_alignment_with_LLM_risk_and_reliability",
+      "limited_alignment_with_conversational_governance",
+      "no_explicit_regulated_domain_alignment_in_provided_text"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "LLMs são propensos a gerar conteúdo plausível porém não factual (alucinação), o que compromete a confiabilidade em sistemas reais de recuperação de informação; o survey propõe taxonomia, revisa causas, métodos de detecção, benchmarks, mitigação e limitações de LLMs com RAG.",
+    "contribution": "Fornece panorama estruturado sobre alucinação em LLMs, incluindo taxonomia, fatores causais, detecção, mitigação e desafios de RAG, útil como base conceitual para controles de risco e confiabilidade em sistemas baseados em LLM.",
+    "limitations": "No trecho fornecido, não há foco explícito em governança conversacional, compliance, auditoria, supervisão humana ou setores regulados; a metodologia completa do survey não foi apresentada.",
+    "use_in_review": "Incluir como evidência fundacional/contextual para fundamentar riscos de factualidade e fidelidade em LLMs, conectar mitigação de alucinação e limitações de RAG a camadas de controle técnico, sem tratá-lo como estudo central de governança conversacional."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo é um survey revisado em periódico ACM sobre alucinação em LLMs.",
+      "excerpt": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Publicação em periódico ACM com DOI e formato de artigo.",
+      "excerpt": "ACM Transactions on Information Systems 1, 1, Article 1 (January 2024), 58 pages. https://doi.org/10.1145/3703155",
+      "page": "1",
+      "section": "ACM Reference Format",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Foco principal em alucinação, confiabilidade, detecção e mitigação em LLMs.",
+      "excerpt": "LLMs are prone to hallucination, generating plausible yet nonfactual content.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Preocupação com confiabilidade em sistemas reais de IR.",
+      "excerpt": "raises significant concerns over the reliability of LLMs in real-world information retrieval (IR) systems",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Estrutura do survey inclui taxonomia, causas, detecção, benchmarks e mitigação.",
+      "excerpt": "we begin with an innovative taxonomy of hallucination in the era of LLM and then delve into the factors contributing to hallucinations.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Aborda limitações de LLMs com RAG no combate a alucinações.",
+      "excerpt": "we delve into the current limitations faced by retrieval-augmented LLMs in combating hallucinations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Palavras-chave indicam foco em factualidade e fidelidade, não em governança conversacional.",
+      "excerpt": "Large Language Models, Hallucination, Factuality, Faithfulness",
+      "page": "1",
+      "section": "keywords",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Contexto tecnológico centrado em LLMs contemporâneos.",
+      "excerpt": "exemplified by LLaMA [299, 300], Claude [9], Gemini [7, 259] and GPT-4 [232]",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Não há menção explícita a ambientes regulados, compliance ou governança conversacional no texto fornecido.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

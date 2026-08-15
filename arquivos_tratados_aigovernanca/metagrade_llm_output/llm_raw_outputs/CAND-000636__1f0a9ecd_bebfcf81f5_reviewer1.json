@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "Evaluating AI‑generated vs. human‑written reading comprehension passages: an expert SWOT analysis and comparative study for an educational large‑scale assessment",
+    "authors": "Lisa Marie Ripoll Y Schmitz; Philipp Sonnleitner",
+    "year": "2025",
+    "venue": "Large-scale Assessments in Education",
+    "doi": "10.1186/s40536-025-00255-w",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Ripoll Y Schmitz, L. M., & Sonnleitner, P. (2025). Evaluating AI-generated vs. human-written reading comprehension passages: An expert SWOT analysis and comparative study for an educational large-scale assessment. Large-scale Assessments in Education, 13(20). https://doi.org/10.1186/s40536-025-00255-w"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "mixed-methods; expert SWOT focus group; prompt-engineered text generation; blinded comparative expert review",
+    "study_design": "qualitative SWOT focus group plus comparative evaluation of AI-generated vs. human-written reading comprehension texts using one-shot and zero-shot prompting",
+    "sample_description": "experts in a focus group discussion for SWOT; N = 89 participants in a blinded online review of human-written and AI-generated texts",
+    "sample_size": "89",
+    "sector": "education",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "GPT-4 (ChatGPT) text generation for German reading comprehension passages in educational large-scale assessment; prompt engineering; Text Analysis Cognitive Model (TACM)"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "genai_llm",
+      "human_oversight",
+      "regulated_education",
+      "high_stakes_assessment",
+      "prompt_engineering"
+    ],
+    "exclusion_codes": [
+      "not_conversational_system",
+      "not_governance_framework"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O artigo trata de geração de textos de compreensão leitora com GPT-4 para avaliações educacionais em larga escala, enfatizando supervisão humana e refinamento humano, mas não aborda governança conversacional, sistemas conversacionais, guardrails, auditoria, compliance operacional ou mecanismos de contestação em agentes/chatbots.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Metadados extraídos divergem do PDF quanto a ano (2023 vs 2025), tipo de publicação (conference_paper vs journal_article) e venue (ACM vs Large-scale Assessments in Education); apenas trechos iniciais do texto foram fornecidos."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Objetivos e desenho misto estão claramente descritos no resumo, com SWOT qualitativo, geração de textos por prompting e revisão cega comparativa. Transparência sobre ética, limitações detalhadas e análise completa não podem ser plenamente avaliadas com base apenas nos trechos fornecidos."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "A coerência interna do estudo parece adequada para avaliar qualidade de textos gerados por LLM em avaliação educacional, mas a relevância para governança conversacional em sistemas LLM regulados é limitada porque o foco é criação de itens textuais, não governança operacional de interações conversacionais."
+  },
+  "coding": {
+    "open_codes": [
+      "human oversight",
+      "human refinement",
+      "augmented intelligence",
+      "SWOT analysis",
+      "prompt engineering",
+      "one-shot prompting",
+      "zero-shot prompting",
+      "blinded authorship review",
+      "reading comprehension text generation",
+      "educational large-scale assessment"
+    ],
+    "axial_codes": [
+      "human-AI collaboration in content development",
+      "quality assurance of AI-generated educational texts",
+      "GenAI adoption risks and opportunities"
+    ],
+    "theme": "Uso de LLM como assistente na criação de textos para avaliação educacional de larga escala",
+    "subtheme": "Supervisão humana e refinamento na geração de textos com GPT-4",
+    "concepts": [
+      "generative artificial intelligence",
+      "GPT-4",
+      "ChatGPT",
+      "Text Analysis Cognitive Model",
+      "augmented intelligence-driven perspective",
+      "large language models"
+    ],
+    "model_layers": [
+      "human oversight",
+      "content quality evaluation"
+    ],
+    "rq_alignment": [
+      "human_oversight_contestation",
+      "regulated_high_stakes",
+      "llm_genai"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Textos gerados por GPT-4 podem atingir qualidade comparável à de textos humanos em contexto de avaliação educacional em larga escala, mas ainda exigem supervisão e refinamento humanos.",
+    "contribution": "Combina análise SWOT com estudo comparativo cego (N=89) para avaliar textos narrativos e informativos gerados por one-shot e zero-shot prompting no desenvolvimento de itens de compreensão leitora.",
+    "limitations": "Implementação de ChatGPT no processo de desenvolvimento de testes permanece hipotética no momento do estudo; superioridade de textos humanos em narrativas e necessidade de refinamento humano são reconhecidas.",
+    "use_in_review": "Evidência de apoio sobre supervisão humana e uso de GenAI/LLM em contexto educacional regulado de alta consequência, útil como contraste ou contexto periférico, mas não como evidência central de governança conversacional."
+  },
+  "evidence": [
+    {
+      "claim": "Publicação em periódico revisado por pares em 2025",
+      "excerpt": "Large-scale Assessments in Education (2025) 13:20 https://doi.org/10.1186/s40536-025-00255-w",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Estudo empírico misto com GPT-4 para textos de compreensão leitora em avaliação educacional",
+      "excerpt": "The study employed a mixed-methods approach.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Amostra de revisão cega com 89 participantes",
+      "excerpt": "In a blinded online review, N = 89 participants evaluated human-written and AI-generated texts",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Ênfase em supervisão humana e refinamento",
+      "excerpt": "Still, the neces- sity of human oversight is emphasized through an augmented intelligence-driven perspective.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Contexto regulado de alta consequência em educação",
+      "excerpt": "for an educational large‑scale assessment",
+      "page": "1",
+      "section": "title/abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Foco em geração textual, não em sistema conversacional",
+      "excerpt": "determine if ChatGPT can assist text creation while maintaining high-quality standards.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "SWOT qualitativo com especialistas sobre uso de GPT-4",
+      "excerpt": "experts identified the strengths, weaknesses, opportuni- ties and threats (SWOT) of using GPT-4 for text generation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Prompt engineering com abordagens one-shot e zero-shot",
+      "excerpt": "Narrative and informative reading comprehension texts were then gener- ated using two distinct prompt engineering techniques",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Implementação operacional ainda hipotética",
+      "excerpt": "implementation of ChatGPT in the test development process remains hypothetical at this time but is likely to change.",
+      "page": "2",
+      "section": "keywords/introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLMs como tecnologia central do estudo",
+      "excerpt": "large language models (LLMs), such as OpenAI’s family of GPT (Generative Pre-trained Transformer) models have attracted considerable interest",
+      "page": "3",
+      "section": "introduction",
+      "supports": "methodology"
+    }
+  ]
+}

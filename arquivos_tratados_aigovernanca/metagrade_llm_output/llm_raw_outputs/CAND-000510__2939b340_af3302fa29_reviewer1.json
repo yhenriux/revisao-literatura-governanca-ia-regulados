@@ -1,0 +1,163 @@
+{
+  "bibliographic": {
+    "title": "A Survey on Evaluation of Large Language Models",
+    "authors": "Yupeng Chang, Xu Wang, Jindong Wang, Yuan Wu, Linyi Yang, Kaijie Zhu, Hao Chen, Xiaoyuan Yi, Cunxiang Wang, Yidong Wang, Wei Ye, Yue Zhang, Yi Chang, Philip S. Yu, Qiang Yang, Xing Xie",
+    "year": "2018",
+    "venue": "J. ACM",
+    "doi": "unclear",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Chang, Y., Wang, X., Wang, J., Wu, Y., Yang, L., Zhu, K., Chen, H., Yi, X., Wang, C., Wang, Y., Ye, W., Zhang, Y., Chang, Y., Yu, P. S., Yang, Q., & Xie, X. (2018). A Survey on Evaluation of Large Language Models. Journal of the ACM, 37(4), Article 111."
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "literature survey",
+    "study_design": "comprehensive review organized along what/where/how evaluation dimensions",
+    "sample_description": "prior work on evaluation methods and benchmarks for large language models across multiple task domains",
+    "sample_size": "unclear",
+    "sector": "academia and industry",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models; evaluation tasks including NLP, reasoning, medical usage, ethics, education, sciences, and agent applications"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_evaluation_survey",
+      "ethics_and_risk_mentioned",
+      "regulated_domains_partially_covered"
+    ],
+    "exclusion_codes": [
+      "not_conversational_governance_focus",
+      "no_operational_governance_controls"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper is a broad survey on LLM evaluation methods (what, where, how), covering ethics, medical usage, education, agents, and societal risks, but the provided text does not address conversational governance, guardrails, observability, audit, compliance, human oversight, or deployment governance in regulated conversational systems.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and introduction excerpts were provided; year/DOI appear placeholder-like (2018, XXXXXXX), and full-text sections on ethics, agents, and limitations were not available for confirmation."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal is limited to introductory/front-matter text. The stated survey framework is clear, but search strategy, inclusion criteria, corpus size, and analytic synthesis procedures are not evidenced in the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The source appears methodologically coherent as an LLM evaluation survey, but available text is insufficient to judge sampling adequacy and review rigor; relevance to conversational governance in regulated environments is indirect rather than central."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM evaluation",
+      "benchmarks",
+      "societal risk",
+      "ethics evaluation",
+      "medical usage",
+      "education evaluation",
+      "agent applications",
+      "success and failure cases"
+    ],
+    "axial_codes": [
+      "evaluation frameworks",
+      "task-level assessment",
+      "society-level risk understanding"
+    ],
+    "theme": "Evaluation of large language models",
+    "subtheme": "Multi-domain evaluation tasks and benchmarks",
+    "concepts": [
+      "what to evaluate",
+      "where to evaluate",
+      "how to evaluate",
+      "potential risks",
+      "evaluation benchmarks",
+      "agent applications"
+    ],
+    "model_layers": [
+      "model assessment",
+      "benchmarking"
+    ],
+    "rq_alignment": [
+      "indirect_support_for_governance_via_evaluation_and_risk"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "LLM evaluation is increasingly critical at both task and society levels, and this survey organizes prior evaluation work across what to evaluate, where to evaluate, and how to evaluate.",
+    "contribution": "Provides a structured overview of LLM evaluation tasks (including ethics, medical usage, education, and agent applications), evaluation methods/benchmarks, and reported success/failure cases.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational/contextual background on LLM evaluation dimensions and societal risk framing; not primary evidence for conversational governance, operational controls, or regulated-deployment governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Paper is a comprehensive review of LLM evaluation along what/where/how dimensions",
+      "excerpt": "This paper presents a comprehensive review of these evaluation methods for LLMs, focusing on three key dimensions: what to evaluate, where to evaluate, and how to evaluate.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Evaluation domains include ethics, medical usage, education, and agent applications",
+      "excerpt": "encompassing general natural language processing tasks, reasoning, medical usage, ethics, education, natural and social sciences, agent applications, and other areas.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Societal-level risk understanding is part of the evaluation motivation",
+      "excerpt": "their evaluation becomes increasingly critical, not only at the task level, but also at the society level for better understanding of their potential risks.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Benchmarks and methods are central components for assessing LLM performance",
+      "excerpt": "we answer the ‘where’ and ‘how’ questions by diving into the evaluation methods and benchmarks, which serve as crucial components in assessing the performance of LLMs.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Paper summarizes success and failure cases across tasks",
+      "excerpt": "Then, we summarize the success and failure cases of LLMs in different tasks.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors maintain open-source survey materials",
+      "excerpt": "We consistently maintain the related open-source materials at: https://github.com/MLGroupJLU/LLM-eval-survey.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Evaluation is framed as essential for identifying limitations and improving LLMs",
+      "excerpt": "AI evaluation, which serves as a critical tool to identify current system limitations and inform the design of more powerful models.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Bibliographic metadata in text includes placeholder DOI and 2018 publication line",
+      "excerpt": "A Survey on Evaluation of Large Language Models . J. ACM 37, 4, Article 111 (August 2018), 45 pages. https://doi.org/ XXXXXXX.XXXXXXX",
+      "page": "2",
+      "section": "ACM Reference Format",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "bibliographic": {
+    "title": "Transforming Conversational AI: Exploring the Power of Large Language Models in Interactive Conversational Agents",
+    "authors": "Michael McTear; Marina Ashurkina",
+    "year": "2024",
+    "venue": "Apress",
+    "doi": "10.1007/979-8-8688-0110-5",
+    "publication_type": "book",
+    "peer_reviewed": "unclear",
+    "citation_apa": "McTear, M., & Ashurkina, M. (2024). Transforming conversational AI: Exploring the power of large language models in interactive conversational agents. Apress. https://doi.org/10.1007/979-8-8688-0110-5"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "book/textbook",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "unclear",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Conversational AI systems, large language models, prompt engineering, conversational platforms, evaluation metrics, AI safety and ethics"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_CONVERSATIONAL",
+      "PROMPT_ENGINEERING",
+      "AI_SAFETY_ETHICS_CHAPTER"
+    ],
+    "exclusion_codes": [
+      "GOVERNANCE_DEPTH_INSUFFICIENT",
+      "REGULATED_CONTEXT_NOT_EVIDENCED"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O material fornecido é um livro técnico-pedagógico sobre Conversational AI e LLMs, com capítulo dedicado a AI Safety and Ethics, mas os trechos extraídos não apresentam governança operacional, supervisão humana, auditoria, compliance ou contextos regulados como foco de pesquisa. Serve principalmente como referência contextual sobre tecnologias conversacionais e LLMs.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Conteúdo do Capítulo 9 (AI Safety and Ethics) e demais capítulos não foram extraídos; relevância para governança conversacional em ambientes regulados permanece incerta."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 1,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 0,
+    "evidence_support": 1,
+    "transferability": 2,
+    "notes": "Obra não empírica; avaliação metodológica limitada ao front matter e introdução. Objetivos didáticos estão claros, mas não há desenho de estudo, amostra ou análise de dados pesquisáveis nos trechos fornecidos."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "Evidência textual disponível é predominantemente editorial e introdutória; não há achados empíricos ou framework de governança detalhado nos excertos fornecidos."
+  },
+  "coding": {
+    "open_codes": [
+      "conversational_ai",
+      "large_language_models",
+      "prompt_engineering",
+      "generative_ai",
+      "evaluation_metrics",
+      "ai_safety_ethics",
+      "conversation_design"
+    ],
+    "axial_codes": [
+      "technical_foundations",
+      "conversational_system_design",
+      "llm_application"
+    ],
+    "theme": "Fundamentos técnicos de Conversational AI com LLMs",
+    "subtheme": "Prompt engineering, plataformas e ética em IA conversacional",
+    "concepts": [
+      "ChatGPT",
+      "LLMs",
+      "prompt engineering",
+      "conversational agents",
+      "hybrid platforms",
+      "text generation",
+      "AI safety and ethics"
+    ],
+    "model_layers": [
+      "application",
+      "model",
+      "design"
+    ],
+    "rq_alignment": [
+      "contexto tecnológico de sistemas conversacionais baseados em LLM",
+      "referência parcial para ética e segurança em IA conversacional"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "LLMs e IA generativa transformaram a Conversational AI, exigindo compreensão de prompt engineering, plataformas híbridas, métricas de avaliação e considerações de segurança e ética.",
+    "contribution": "Oferece visão introdutória e não técnica sobre design conversacional, evolução neural, LLMs, engenharia de prompts, plataformas e métricas, com capítulo dedicado a AI Safety and Ethics.",
+    "limitations": "Trechos fornecidos não detalham governança operacional, supervisão humana, auditoria, compliance regulatório ou implementação em setores regulados; conteúdo substantivo dos capítulos centrais não está disponível na extração.",
+    "use_in_review": "Usar como evidência contextual/fundacional sobre arquitetura, design e tecnologias de Conversational AI com LLMs; verificar manualmente o Capítulo 9 para contribuições específicas sobre ética, segurança e responsabilidade."
+  },
+  "evidence": [
+    {
+      "claim": "Publicação é um livro de 2024 da Apress/Springer com DOI identificado",
+      "excerpt": "Copyright © 2024 by Michael McTear, Marina Ashurkina",
+      "page": "2",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Foco em LLMs e agentes conversacionais interativos",
+      "excerpt": "TRANSFORMING CONVERSATIONAL AI EXPLORING THE POWER OF LARGE LANGUAGE MODELS IN INTERACTIVE CONVERSATIONAL AGENTS",
+      "page": "1",
+      "section": "title page",
+      "supports": "coding"
+    },
+    {
+      "claim": "Motivação ligada ao lançamento do ChatGPT e impacto em Conversational AI",
+      "excerpt": "We were motivated to write this book by the launch in November 2022 of ChatGPT and by the ensuing excitement and disruption across the world of Conversational AI.",
+      "page": "7",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Objetivo de explicar prompt engineering e tecnologias de Conversational AI de forma relativamente não técnica",
+      "excerpt": "Our second aim is to enable you to understand and appreciate the complexities of the technologies of Conversational AI in a relatively non-technical way.",
+      "page": "7",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Livro inclui capítulo sobre AI Safety and Ethics",
+      "excerpt": "Chapter 9: AI Safety and Ethics 189",
+      "page": "3",
+      "section": "table of contents",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Aborda métricas de avaliação de sistemas conversacionais",
+      "excerpt": "Chapter 8, \"Evaluation Metrics,\" explores various approaches for the evaluation of conversational systems.",
+      "page": "9",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Menciona geração de texto e raciocínio dinâmico em plataformas híbridas com LLMs",
+      "excerpt": "Generative AI features become a new norm in hybrid platforms to automate the process of creating conversational systems and to enrich the end-user experience with live text generation and dynamic reasoning inside the application.",
+      "page": "9",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Menciona controvérsias associadas às novas tecnologias, sem detalhar governança operacional",
+      "excerpt": "Also, given the controversies that surrou",
+      "page": "7",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Não há evidência nos trechos de supervisão humana, auditoria, compliance ou governança operacional",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

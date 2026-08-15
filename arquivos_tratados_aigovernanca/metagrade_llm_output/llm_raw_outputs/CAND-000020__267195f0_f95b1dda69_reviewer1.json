@@ -1,0 +1,181 @@
+{
+  "bibliographic": {
+    "title": "Advancing healthcare AI governance through a comprehensive maturity model based on systematic review",
+    "authors": "Rowan Hussein, Anna Zink, Bashar Ramadan, Frederick M. Howard, Maia Hightower, Sachin Shah, Brett K. Beaulieu-Jones",
+    "year": "unclear",
+    "venue": "npj Digital Medicine",
+    "doi": "10.1038/s41746-026-02418-7",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Hussein, R., Zink, A., Ramadan, B., Howard, F. M., Hightower, M., Shah, S., & Beaulieu-Jones, B. K. (n.d.). Advancing healthcare AI governance through a comprehensive maturity model based on systematic review. npj Digital Medicine. https://doi.org/10.1038/s41746-026-02418-7"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic_review",
+    "study_design": "systematic review of healthcare AI governance frameworks with synthesis into a maturity model (HAIRA)",
+    "sample_description": "35 frameworks for AI implementation in healthcare published 2019-2024 identified via PubMed/Medline systematic search",
+    "sample_size": "35",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "healthcare AI/ML governance including predictive and generative AI; large language models mentioned as an emerging gap in existing frameworks"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "healthcare_ai_governance",
+      "systematic_review",
+      "maturity_model",
+      "regulated_healthcare",
+      "risk_monitoring_compliance"
+    ],
+    "exclusion_codes": [
+      "not_conversational_ai_focus",
+      "not_llm_specific_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a systematic review that synthesizes 35 healthcare AI governance frameworks into seven domains and the HAIRA five-level maturity model. It strongly addresses governance, risk, monitoring, compliance, ethics, and regulated healthcare contexts, but evidence shows only generic generative AI and LLM mentions as a limitation of reviewed frameworks rather than a primary focus on conversational or LLM-based systems.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Confirm publication year, verify HAIRA domain details beyond excerpted pages, and adjudicate borderline fit for conversational LLM governance versus broader healthcare AI governance."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Clear systematic review objective and search strategy are reported; synthesis into seven governance domains and HAIRA is described. Limitations regarding generative AI and LLMs are noted in discussion, but full appraisal of reporting quality and complete methods details is limited by partial text provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings about healthcare AI governance domains and resource-adaptive maturity pathways are coherently derived from a defined systematic review of 35 frameworks. Relevance to conversational LLM governance is partial because the study centers on general healthcare AI governance and explicitly notes that many frameworks may not extend to generative AI and large language models."
+  },
+  "coding": {
+    "open_codes": [
+      "healthcare_ai_governance",
+      "maturity_model",
+      "systematic_review",
+      "resource_adaptive_governance",
+      "risk_monitoring",
+      "user_interaction",
+      "generative_ai_gap",
+      "regulatory_compliance"
+    ],
+    "axial_codes": [
+      "organizational_governance",
+      "regulated_healthcare_context",
+      "post_deployment_monitoring",
+      "equity_and_bias",
+      "stakeholder_oversight"
+    ],
+    "theme": "Healthcare AI governance maturity and readiness assessment",
+    "subtheme": "Resource-tiered governance pathways across seven domains",
+    "concepts": [
+      "HAIRA",
+      "seven governance domains",
+      "five-level maturity model",
+      "FDA regulatory framework",
+      "EU AI Act",
+      "alert fatigue",
+      "AI oversight committees"
+    ],
+    "model_layers": [
+      "policy_regulatory",
+      "organizational_governance",
+      "risk_management",
+      "monitoring_audit",
+      "human_factors_oversight"
+    ],
+    "rq_alignment": [
+      "governance_accountability",
+      "risk_audit_compliance",
+      "regulated_high_stakes",
+      "operational_technical_governance"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Through a systematic review of 35 healthcare AI governance frameworks, the authors identify seven critical governance domains and propose HAIRA, a five-level maturity model that enables healthcare organizations of varying resource levels to assess and advance AI governance capabilities.",
+    "contribution": "Provides a synthesized, actionable, tiered governance maturity framework (HAIRA) for healthcare AI implementation, addressing fragmentation and resource barriers in existing guidance.",
+    "limitations": "Reviewed frameworks are oriented toward broader healthcare AI/ML governance and may not adequately cover newer generative AI applications such as large language models in healthcare.",
+    "use_in_review": "Use as foundational contextual evidence on healthcare AI governance structures, maturity assessment, monitoring, risk mitigation, and regulatory alignment; cite cautiously for conversational LLM governance because LLMs are discussed mainly as a coverage gap rather than as the study's core technology context."
+  },
+  "evidence": [
+    {
+      "claim": "Study conducts systematic review of healthcare AI governance frameworks and proposes HAIRA maturity model",
+      "excerpt": "Through a systematic review of 35 frameworks for AI implementation in healthcare (published 2019–2024), we identified seven critical domains of healthcare AI governance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "HAIRA is a five-level resource-based maturity model across seven governance domains",
+      "excerpt": "we organized key findings from the review to create the Healthcare AI Governance Readiness Assessment (HAIRA), a five-level maturity model that provides actionable governance pathways based on organizational resources.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Article addresses both predictive and generative AI in healthcare deployment",
+      "excerpt": "Artificial Intelligence (AI) is being rapidly deployed in many aspects of healthcare, with both predictive and generative AI applications poised for continued expansion",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated healthcare and legal oversight contexts are central",
+      "excerpt": "A substantial proportion of this governance may be dictated by legal frameworks overseeing medical devices. The U.S. Food and Drug Administration has proposed a regulatory framework for AI/ML software serving as a medical device",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance must foresee, measure, and mitigate consequences including equity impacts",
+      "excerpt": "Successful governance of new technologies in healthcare requires a structured approach to manage their implementation as well as to foresee, measure, and mitigate the consequences of the new technology.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "End-user interaction and error reporting channels are part of governance guidance",
+      "excerpt": "establish clear channels for end-users to report errors. Some researchers suggest creating dedicated AI oversight committees to monitor and respond to these reports in real time. Care needs to be taken to ensure user interaction with AI tools remains meaningful",
+      "page": "5",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Existing frameworks may not extend to generative AI and LLMs in healthcare",
+      "excerpt": "they primarily focused on clinical prediction models and may not extend to newer generative AI applications, such as large language models in healthcare.",
+      "page": "6",
+      "section": "discussion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Systematic search methods are reported with PubMed/Medline and 2019-2024 timeframe",
+      "excerpt": "we conducted a systematic search of PubMed/Medline for articles published in English from 2019 to 2024.",
+      "page": "10",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Governance bodies should include diverse stakeholders including ML experts and ethical/legal experts",
+      "excerpt": "this body comprise a diverse set of stakeholders, including data scientists and machine learning experts, AI developers versed in the technical aspects of the tools, clinical experts to provide insights on output accuracy and field-specific needs, ethical and legal experts",
+      "page": "2",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

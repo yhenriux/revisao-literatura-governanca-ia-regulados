@@ -1,0 +1,214 @@
+{
+  "bibliographic": {
+    "title": "From Documents to Decisions: Enterprise-Grade LLM Systems for Zero-Hallucination, Attributed Generation, and Regulatory Alignment",
+    "authors": "Yenjou Wang; Chihtan Cheng; Jia-Wei Chang",
+    "year": "2026",
+    "venue": "Computer Modeling in Engineering & Sciences",
+    "doi": "10.32604/cmes.2026.080888",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Wang, Y., Cheng, C., & Chang, J.-W. (2026). From documents to decisions: Enterprise-grade LLM systems for zero-hallucination, attributed generation, and regulatory alignment. Computer Modeling in Engineering & Sciences. https://doi.org/10.32604/cmes.2026.080888"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic review with proposed risk-controlled architecture",
+    "study_design": "narrative/systematic review of enterprise LLM technologies plus conceptual architecture proposal",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "enterprise AI across regulated domains including finance and healthcare",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "enterprise LLM systems; document perception; RAG; hybrid RAG-KG; multi-agent coordination; OCR; attribution evaluation; risk-controlled data flywheel"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "governance_accountability",
+      "regulated_high_stakes",
+      "risk_audit_compliance",
+      "operational_technical_governance",
+      "foundational_value"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a 2026 peer-reviewed review focused on enterprise-grade LLM governance, traceability, accountability, RAG, and regulatory alignment in high-risk contexts. It strongly matches governance, audit, compliance, and regulated-domain dimensions, but conversational governance is only peripheral via contrast with consumer chatbots rather than being the central object of study.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial excerpts were provided; full review methods, coverage, and conversational relevance need confirmation from the complete text."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Clear enterprise-governance objective and proposed architecture are evident, but the provided excerpt does not document full review search strategy, inclusion criteria, or systematic synthesis procedures in enough detail for stronger methodological appraisal."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The text coherently links enterprise LLM deployment to traceability, accountability, and regulatory alignment, but available evidence is limited to introductory sections and does not establish strong conversational-governance specificity or complete review methodology."
+  },
+  "coding": {
+    "open_codes": [
+      "enterprise LLM adoption",
+      "regulatory accountability",
+      "traceability",
+      "attributed generation",
+      "risk-controlled architecture",
+      "continuous improvement loop",
+      "multi-agent coordination",
+      "consumer chatbot contrast"
+    ],
+    "axial_codes": [
+      "technical governance",
+      "compliance and auditability",
+      "retrieval and knowledge governance",
+      "post-deployment risk control"
+    ],
+    "theme": "Enterprise-grade LLM governance for regulated decision support",
+    "subtheme": "Risk-controlled data flywheel architecture",
+    "concepts": [
+      "RAG",
+      "knowledge graph",
+      "attribution",
+      "accountability",
+      "traceability",
+      "governance and compliance",
+      "multi-agent systems",
+      "data flywheel",
+      "PDCA"
+    ],
+    "model_layers": [
+      "perception",
+      "reasoning",
+      "verification",
+      "governance"
+    ],
+    "rq_alignment": [
+      "governance of generative AI",
+      "risk audit and compliance",
+      "operational technical governance",
+      "regulated high-stakes deployment"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "The main obstacle to enterprise LLM adoption is not isolated model capability but the structural gap between fragmented technical modules and the need for high-reliability, governable decision-making in regulated contexts.",
+    "contribution": "The paper reviews enterprise-relevant LLM technologies and proposes a risk-controlled data flywheel architecture integrating perception, reasoning, verification, and governance layers to convert reasoning outputs into observable risk signals and support traceability, accountability, and sustainable optimization.",
+    "limitations": "Provided text does not fully specify review methodology, corpus scope, or explicit limitations; conversational governance is referenced only indirectly.",
+    "use_in_review": "Use as supporting evidence for enterprise LLM governance architectures, regulatory alignment, traceability, attribution, RAG-based control, and post-deployment risk monitoring; not as central evidence for conversational governance unless broader review scope treats enterprise decision-support systems as in scope."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal review article on enterprise LLM governance.",
+      "excerpt": "REVIEW From Documents to Decisions: Enterprise-Grade LLM Systems for Zero-Hallucination, Attributed Generation, and Regulatory Alignment",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study systematically reviews enterprise-relevant LLM technologies.",
+      "excerpt": "This paper systematically reviews key technological developments relevant to enterprise requirements",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Primary challenge is system-level consistency, traceability, and governability.",
+      "excerpt": "shifted the primary challenge from isolated generative performance to system-level consistency, traceability, and governability",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Proposes a risk-controlled data flywheel architecture with governance layers.",
+      "excerpt": "a risk-controlled data flywheel architecture is proposed that integrates perception, reasoning, verification, and governance layers",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Emphasizes traceability, accountability, and optimization in high-risk contexts.",
+      "excerpt": "emphasizing traceability, accountability, and sustainable optimization in high-risk and long-term operational contexts",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Covers RAG, hybrid RAG-KG, attribution evaluation, and multi-agent coordination.",
+      "excerpt": "including document perception, retrieval-augmented generation (RAG), hybrid RAG-KG architectures, fine-grained attribution evaluation, and multi-agent coordination",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Enterprise outputs can affect financial, legal, regulatory, and governance decisions.",
+      "excerpt": "outputs generated within enterprise environments can directly affect financial decisions, contract interpretation, regulatory analysis, and internal governance",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Errors may cause compliance violations, legal liabilities, and operational risks.",
+      "excerpt": "errors in generated content are not merely technical imperfections; they may lead to compliance violations, legal liabilities, and operational risks",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated domains include finance and healthcare.",
+      "excerpt": "in high-risk domains such as finance and healthcare, evolving regulatory requirements and compliance standards",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Conversational systems are mentioned only as a contrast case.",
+      "excerpt": "In contrast to consumer-facing chatbot applications, outputs generated within enterprise environments can directly affect financial decisions",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Enterprise deployment requires trustworthy, auditable, risk-controlled architecture.",
+      "excerpt": "establish a risk-controlled system architecture that is trustworthy, auditable, and aligned with institutional requirements",
+      "page": "2",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Formal governance mechanisms alone are insufficient for accountability gaps.",
+      "excerpt": "formal governance mechanisms alone are insufficient to close accountability gaps",
+      "page": "2",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Model cards must be embedded operationally to support accountability.",
+      "excerpt": "documentation tools, such as model cards, must be operationally embedded within system pipelines to support effective accountability",
+      "page": "2",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Enterprise LLM design is a systems-engineering challenge, not single-model optimization.",
+      "excerpt": "the design of enterprise LLM systems should be treated as a systems-engineering challenge rather than a single-model optimization problem",
+      "page": "3",
+      "section": "unclear",
+      "supports": "synthesis"
+    }
+  ]
+}

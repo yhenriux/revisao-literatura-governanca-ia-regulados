@@ -1,0 +1,204 @@
+{
+  "bibliographic": {
+    "title": "A Five-Layer Framework for AI Governance: Integrating Regulation, Standards, and Certification",
+    "authors": "Avinash Agarwal; Manisha J. Nene",
+    "year": "2025",
+    "venue": "Transforming Government: People, Process and Policy",
+    "doi": "10.1108/TG-03-2025-0065",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Agarwal, A., & Nene, M. J. (2025). A five-layer framework for AI governance: Integrating regulation, standards, and certification. Transforming Government: People, Process and Policy, 19(3), 535–555. https://doi.org/10.1108/TG-03-2025-0065"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "framework development with illustrative case studies",
+    "study_design": "Five-layer conceptual AI governance framework validated through two case studies on AI fairness and AI incident reporting",
+    "sample_description": "Two illustrative case studies (AI fairness; AI incident reporting); no empirical participant or organizational sample described in provided text",
+    "sample_size": "2 case studies",
+    "sector": "telecom, healthcare, finance, transportation, defense, public services",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Broad AI governance spanning regulation, standards, assessment, and certification; references machine learning, NLP, LLMs, and conversational AI in standards context"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "AI_governance_framework",
+      "regulated_sectors",
+      "standards_compliance_certification",
+      "fairness_risk_management",
+      "tangential_LLM_conversational_AI"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article's primary contribution is a general five-layer AI governance framework linking regulation, standards, assessment, and certification, validated via fairness and incident-reporting case studies. It addresses regulated/high-stakes sectors and compliance/risk themes relevant to the review, but LLMs and conversational systems appear as secondary extensions or illustrative regulatory/standards examples rather than as the central object of conversational governance analysis.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted metadata lists year 2023 and preprint type, but front matter indicates 2025 journal publication; conversational AI and LLM relevance is peripheral and requires human confirmation of fit for central versus supporting evidence."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Clear conceptual objective and appropriate framework-plus-case-study design for normative governance mapping. Limited transparency in provided excerpts on case-study selection criteria, detailed methods, and explicit study limitations. No primary empirical sampling; validation is illustrative rather than systematically evaluated."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and clearly links regulatory mandates to standards, assessment, and certification. Adequacy for answering conversational-LLM governance questions is partial because conversational AI and LLMs are referenced mainly as standards/extension examples. Confidence is moderate due to illustrative case-study validation and limited methodological detail in the supplied text."
+  },
+  "coding": {
+    "open_codes": [
+      "five-layer governance framework",
+      "regulation-to-certification pathway",
+      "standards mapping",
+      "fairness assessment procedures",
+      "incident reporting gaps",
+      "EU AI Act risk tiers",
+      "ISO/IEC assessment standards",
+      "conversational AI quality evaluation",
+      "LLM extension of fairness standards"
+    ],
+    "axial_codes": [
+      "structural AI governance",
+      "compliance and conformity mechanisms",
+      "risk management in regulated sectors",
+      "standards-based operationalization",
+      "trustworthy AI certification ecosystem"
+    ],
+    "theme": "Layered AI governance architecture",
+    "subtheme": "Integrating regulation, standards, assessment, and certification",
+    "concepts": [
+      "Layer 1 regulatory mandates",
+      "Layer 2 standards",
+      "Layer 3 standardized assessment procedures",
+      "Layer 4 certification schemes",
+      "Layer 5 certification ecosystem",
+      "AI fairness",
+      "AI incident reporting",
+      "chatbots",
+      "conversational AI systems",
+      "large language models"
+    ],
+    "model_layers": [
+      "regulatory mandates",
+      "standards",
+      "standardized assessment procedures",
+      "certification schemes",
+      "certification ecosystem"
+    ],
+    "rq_alignment": [
+      "governance frameworks",
+      "compliance and enforcement gaps",
+      "risk management",
+      "regulated/high-stakes sectors",
+      "standards and certification for trustworthy AI"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "A five-layer AI governance framework can bridge high-level regulatory mandates and practical implementation through progressively focused layers of standards, assessment procedures, and certification.",
+    "contribution": "Provides a structured roadmap from regulation to certification and uses fairness and incident-reporting case studies to identify governance gaps such as missing standardized assessment and reporting mechanisms.",
+    "limitations": "Provided text emphasizes conceptual mapping and illustrative case studies; conversational AI and LLM governance are not the primary analytic focus. Limitations of the framework's empirical validation are not clearly detailed in the supplied excerpts.",
+    "use_in_review": "Use as supporting evidence for layered governance models, compliance/risk pathways, and standards-based operationalization in regulated sectors; cite cautiously for conversational-LLM governance unless supplemented by sections explicitly analyzing chatbots, agents, or LLM-specific controls."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article published in 2025 with identifiable bibliographic metadata",
+      "excerpt": "Transforming Government: People, Process and Policy, 11 September 2025; 19 (3): 535–555. https://doi.org/10.1108/TG-03-2025-0065",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study proposes a five-layer AI governance framework validated by two case studies",
+      "excerpt": "A five-layer AI governance framework is proposed, spanning from broad regulatory mandates to specific standards, assessment methodologies, and certification processes.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Case studies focus on AI fairness and AI incident reporting, not conversational systems",
+      "excerpt": "Its applicability is validated through two case studies on AI fairness and AI incident reporting.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Addresses regulated and high-stakes sectors",
+      "excerpt": "influencing diverse sectors such as telecom, healthcare, finance, transportation, defense, and public services.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance outcomes include fairness, harm prevention, and public trust",
+      "excerpt": "ensuring fairness, preventing harm, fostering innovation, and maintaining public trust in AI systems",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Chatbots appear as a limited-risk regulatory example, not as the study's core subject",
+      "excerpt": "limited risk, where transparency requirements apply (e.g., chatbots)",
+      "page": "5",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Conversational AI is discussed via standards for quality evaluation of C-AI systems",
+      "excerpt": "a framework for the quality evaluation of conversational AI (C-AI) systems",
+      "page": "9",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs are referenced as an extension of fairness assessment standards rather than primary focus",
+      "excerpt": "extending it to large language models (LLMs)",
+      "page": "9",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Framework aims to improve compliance and risk management",
+      "excerpt": "mapping regulatory mandates with practical applications to improve compliance and risk management.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Framework identifies gaps in legal mandates, standardization, and implementation",
+      "excerpt": "identify gaps in legal mandates, standardization, and implementation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Assessment layer references machine learning evaluation standards",
+      "excerpt": "ISO/IEC TS 4213:2022 specifies methods to assess machine learning classification performance",
+      "page": "6",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Layers are integrated and interdependent across the governance stack",
+      "excerpt": "Each layer of the framework is interconnected, building upon and complementing the previous one.",
+      "page": "7",
+      "section": "results",
+      "supports": "synthesis"
+    }
+  ]
+}

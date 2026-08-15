@@ -1,0 +1,180 @@
+{
+  "bibliographic": {
+    "title": "Enterprise-Scale Risk Decision Intelligence Systems Using Large Language Models (LLMs) For Automated Governance, Compliance, and Policy Enforcement",
+    "authors": "B. M. Taslimul Haque; Md. Arifur Rahman",
+    "year": "2025",
+    "venue": "American Journal of Interdisciplinary Studies",
+    "doi": "10.63125/te050f20",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Haque, B. M. T., & Rahman, M. A. (2025). Enterprise-scale risk decision intelligence systems using large language models (LLMs) for automated governance, compliance, and policy enforcement. American Journal of Interdisciplinary Studies, 6(3), 254-305. https://doi.org/10.63125/te050f20"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "quantitative cross-sectional survey with descriptive statistics, correlation, multiple regression, CFA, and SEM (SPSS and SmartPLS)",
+    "study_design": "quantitative cross-sectional research design",
+    "sample_description": "400 governance professionals, compliance officers, cybersecurity analysts, enterprise risk managers, and operational executives employed in medium-sized and large enterprises across finance, healthcare, information technology, telecommunications, logistics, manufacturing, and insurance sectors",
+    "sample_size": "400",
+    "sector": "finance, healthcare, information technology, telecommunications, logistics, manufacturing, insurance",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "enterprise-scale risk decision intelligence systems using LLMs for automated governance, compliance, and policy enforcement"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "borderline",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_GOVERNANCE",
+      "COMPLIANCE_AUTOMATION",
+      "REGULATED_SECTORS",
+      "ENTERPRISE_RISK"
+    ],
+    "exclusion_codes": [
+      "CONVERSATIONAL_AI_NOT_EVIDENCED"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The provided text strongly supports LLM-based enterprise governance, compliance, and policy enforcement in regulated sectors, but does not evidence conversational AI, chatbots, agents, RAG, guardrails, or conversational governance mechanisms required for central fit to the review scope.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage flagged conversational terms, but supplied excerpts contain no chatbot, agent, or conversational-system governance evidence; full-text verification is needed to adjudicate scope fit."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal is based only on abstract and partial introduction. Survey instrument details, recruitment, ethics approval, and limitations are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Claims, constructs, and statistical methods are coherently described in the abstract, but only front-matter text is available; conversational-governance relevance is indirect, and ethics, limitations, and data-collection procedures are not evidenced."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM capability integration",
+      "governance automation intensity",
+      "compliance intelligence capability",
+      "explainable AI implementation",
+      "cybersecurity readiness",
+      "data governance maturity",
+      "institutional accountability",
+      "operational resilience"
+    ],
+    "axial_codes": [
+      "enterprise LLM governance",
+      "automated compliance",
+      "risk decision intelligence",
+      "regulated enterprise adoption"
+    ],
+    "theme": "Enterprise LLM governance for automated compliance and policy enforcement",
+    "subtheme": "Quantitative organizational adoption and performance outcomes",
+    "concepts": [
+      "governance performance",
+      "compliance accuracy",
+      "organizational transparency",
+      "decision-making efficiency",
+      "policy enforcement"
+    ],
+    "model_layers": [
+      "organizational governance layer",
+      "compliance intelligence layer",
+      "risk and cybersecurity layer"
+    ],
+    "rq_alignment": [
+      "LLM governance in regulated environments",
+      "compliance automation and accountability",
+      "human oversight and organizational transparency"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "Enterprise-scale LLM governance systems significantly improve governance coordination, compliance reliability, institutional accountability, operational resilience, and predictive governance intelligence, with LLM capability integration positively predicting governance performance.",
+    "contribution": "Provides empirical survey evidence (n=400) linking LLM integration and related governance capabilities to enterprise governance and compliance outcomes across multiple regulated sectors.",
+    "limitations": "Supplied text does not report study limitations, ethics, instrument validation beyond reliability, or whether findings generalize beyond self-reported perceptions; conversational governance is not addressed.",
+    "use_in_review": "Use as borderline or supporting evidence on enterprise LLM governance and compliance in regulated sectors; not suitable as central evidence for conversational governance without full-text confirmation of conversational-system mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses quantitative cross-sectional design with 400 enterprise professionals across multiple sectors.",
+      "excerpt": "A quantitative cross-sectional research design was adopted, and data were collected from 400 governance professionals",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research focuses on LLMs for automated governance, compliance, and policy enforcement.",
+      "excerpt": "enterprise-scale risk decision intelligence systems using Large Language Models (LLMs) for automated governance, compliance, and policy enforcement",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Sample spans regulated and high-stakes sectors including finance, healthcare, and insurance.",
+      "excerpt": "across finance, healthcare, information technology, telecommunications, logistics, manufacturing, and insurance sectors",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM capability integration significantly predicts governance performance.",
+      "excerpt": "LLM capability integration significantly influenced governance performance (β = 0.41, p < 0.001)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Explainable AI implementation strengthens organizational transparency.",
+      "excerpt": "explainable AI implementation significantly strengthened organizational transparency (β = 0.35, p < 0.01)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLM-driven governance systems support automated monitoring and intelligent policy enforcement.",
+      "excerpt": "LLM-driven governance systems address these limitations by introducing contextual reasoning, semantic interpretation, automated monitoring, and intelligent policy enforcement",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational AI, chatbot, or agent governance is evidenced in the supplied text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Statistical analysis used SPSS and SmartPLS with CFA and SEM.",
+      "excerpt": "Statistical analysis was conducted using SPSS and SmartPLS software packages through descriptive statistics, reliability testing, correlation analysis, multiple regression analysis, Confirmatory Factor Analysis, and Structural Equation Modeling",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Reliability analysis reports Cronbach's alpha from 0.87 to 0.93.",
+      "excerpt": "Cronbach’s alpha values ranging from 0.87 to 0.93",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Ethics approval and study limitations are not reported in the supplied text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

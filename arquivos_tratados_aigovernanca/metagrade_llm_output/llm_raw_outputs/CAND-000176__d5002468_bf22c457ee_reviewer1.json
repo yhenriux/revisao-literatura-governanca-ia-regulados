@@ -1,0 +1,204 @@
+{
+  "bibliographic": {
+    "title": "A review for navigating the trade-offs: evaluating open-source and proprietary large language models for clinical and biomedical information extraction",
+    "authors": "Sugihara, Y.; Milosavljevic, A.; Jankovskaja, S.; Falk, M.",
+    "year": "2026",
+    "venue": "Frontiers in Digital Health",
+    "doi": "10.3389/fdgth.2026.1778786",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Sugihara, Y., Milosavljevic, A., Jankovskaja, S., & Falk, M. (2026). A review for navigating the trade-offs: evaluating open-source and proprietary large language models for clinical and biomedical information extraction. Frontiers in Digital Health, 8, 1778786. https://doi.org/10.3389/fdgth.2026.1778786"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "narrative or integrative literature review with multi-axis evaluation framework",
+    "study_design": "review comparing open-source and proprietary LLMs across five axes for clinical and biomedical information extraction",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare; clinical; biomedical",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "large language models for clinical and biomedical information extraction workflows including named entity recognition, relation extraction, and terminology normalization; open-source versus proprietary models; mentions RAG, PHI, HIPAA, and GDPR"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GENAI",
+      "GOVERNANCE_ACCOUNTABILITY",
+      "REGULATED_HEALTHCARE",
+      "RISK_AUDIT_COMPLIANCE"
+    ],
+    "exclusion_codes": [
+      "CONVERSATIONAL_AI_ABSENT"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed review of LLMs for clinical and biomedical information extraction that explicitly evaluates transparency, auditability, patient-centric governance, accountability, compliance, privacy, and bias in regulated healthcare. It does not address conversational AI, chatbots, agents, or conversational governance workflows, so it is relevant as supporting rather than central evidence for a review focused on conversational governance.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and introductory pages were provided; full review methodology, search strategy, inclusion criteria, and synthesis methods are not visible. Conversational relevance is absent and must be confirmed at full-text level."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 2,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal is based on limited excerpt (pages 1-2). The review states a clear comparative objective and a five-axis framework, but search strategy, study selection, and synthesis procedures are not shown in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The review coherently frames OSS versus proprietary LLM trade-offs for clinical IE and governance dimensions, but adequacy of the underlying literature synthesis cannot be judged from the excerpt provided."
+  },
+  "coding": {
+    "open_codes": [
+      "open-source models",
+      "proprietary models",
+      "information extraction",
+      "transparency",
+      "auditability",
+      "patient-centric governance",
+      "schema fidelity",
+      "algorithmic fairness",
+      "data sovereignty",
+      "PHI handling",
+      "hybrid deployment"
+    ],
+    "axial_codes": [
+      "LLM model selection trade-offs",
+      "healthcare AI governance",
+      "clinical NLP deployment constraints",
+      "regulatory and ethical alignment"
+    ],
+    "theme": "Governance-oriented trade-offs between open-source and proprietary LLMs in clinical information extraction",
+    "subtheme": "Transparency, auditability, and patient-centric governance in regulated healthcare AI",
+    "concepts": [
+      "accountability",
+      "transparency",
+      "auditability",
+      "compliance",
+      "privacy",
+      "bias mitigation",
+      "reproducibility",
+      "cost",
+      "schema fidelity",
+      "RAG"
+    ],
+    "model_layers": [
+      "model selection",
+      "deployment architecture",
+      "regulatory compliance",
+      "ethical governance"
+    ],
+    "rq_alignment": [
+      "LLM governance in regulated environments",
+      "auditability and transparency",
+      "risk and compliance in healthcare AI",
+      "accountability in clinical AI deployment"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "Open-source and proprietary LLMs present distinct trade-offs for clinical and biomedical information extraction, with proprietary models stronger on schema compliance and complex reasoning while open-source models offer greater auditability, local control, cost-effectiveness, and customization for privacy-sensitive healthcare tasks.",
+    "contribution": "Provides a five-axis review framework—performance, reproducibility, cost, transparency and auditability, and patient-centric governance—for comparing OSS and proprietary LLMs in clinical IE workflows.",
+    "limitations": "Provided text does not describe the full review protocol, search methods, or number of included studies; scope is narrowed to information extraction rather than broader clinical NLP or conversational systems.",
+    "use_in_review": "Use as supporting evidence on LLM governance trade-offs, transparency, auditability, accountability, and compliance in regulated healthcare, not as primary evidence on conversational governance, chatbots, or agentic oversight."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a review of LLMs for clinical and biomedical information extraction comparing open-source and proprietary models.",
+      "excerpt": "A review for navigating the trade-offs: evaluating open-source and proprietary large language models for clinical and biomedical information extraction",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The review evaluates governance-related dimensions including transparency, auditability, and patient-centric governance.",
+      "excerpt": "through five axes: performance (including schema fidelity), reproducibility, cost, transparency & auditability, and patient-centric governance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "The study addresses accountability and compliance in clinical AI deployment.",
+      "excerpt": "balance innovation with accountability in clinical AI deployment",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "OSS models are positioned as more auditable and locally controllable for privacy-sensitive healthcare tasks.",
+      "excerpt": "OSS models offer advantages in auditability, local control, and cost-effectiveness",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Ethical and regulatory concerns include fairness, data sovereignty, bias mitigation, and regulatory alignment.",
+      "excerpt": "ethical considerations like algorithmic fairness and data sovereignty",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "The regulated healthcare context is explicit.",
+      "excerpt": "their application in healthcare raises critical trade-offs between open-source (OSS) and proprietary models",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The focus is information extraction workflows, not conversational systems.",
+      "excerpt": "This review evaluates IE workflows such as named entity recognition, relation extraction, and terminology normalization",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "RAG is referenced as part of the technical context.",
+      "excerpt": "RAG, retrieval-augmented generation",
+      "page": "2",
+      "section": "abbreviations",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulatory frameworks HIPAA and GDPR are part of the healthcare compliance context.",
+      "excerpt": "GDPR, general data protection regulation; HIPAA, health insurance portability and accountability act",
+      "page": "2",
+      "section": "abbreviations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The review narrows scope to information extraction as the primary comparative lens.",
+      "excerpt": "we focus on IE as the most illustrative lens for comparing OSS and proprietary models",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Governance factors such as sensitive data exposure risk are under-evaluated in prior work.",
+      "excerpt": "risks of sensitive data exposure in proprietary systems) are rarely integrated into evaluations",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Peer review status is indicated.",
+      "excerpt": "REVIEWED BY Martijn Schuemie, Janssen Research and Development (Belgium), Belgium Knud Nairz, University Hospital of Bern, Switzerland",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

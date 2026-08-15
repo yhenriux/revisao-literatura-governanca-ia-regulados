@@ -1,0 +1,198 @@
+{
+  "bibliographic": {
+    "title": "Navigating AI governance for oncology nursing: Existing models, implications, and a Call for nurse-led oversight in Asia Pacific health systems",
+    "authors": "Karthik Adapa, Nandini Jayakumar",
+    "year": "2026",
+    "venue": "Asia-Pacific Journal of Oncology Nursing",
+    "doi": "10.1016/j.apjon.2026.100964",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Adapa, K., & Jayakumar, N. (2026). Navigating AI governance for oncology nursing: Existing models, implications, and a Call for nurse-led oversight in Asia Pacific health systems. Asia-Pacific Journal of Oncology Nursing, 13, 100964. https://doi.org/10.1016/j.apjon.2026.100964"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "commentary with critical policy and framework overview",
+    "study_design": "commentary",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare oncology nursing",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Broad AI in oncology including machine learning imaging, natural language processing on clinical notes, predictive analytics, and clinical documentation automation; governance models include EU AI Act, WHO Ethics Guidance, NAM AI Code of Conduct, and IMDRF Good Machine Learning Practice"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "regulated_healthcare",
+      "ai_governance",
+      "human_oversight",
+      "policy_frameworks"
+    ],
+    "exclusion_codes": [
+      "no_conversational_llm_focus",
+      "no_operational_llm_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed commentary on AI governance for oncology nursing in Asia Pacific health systems. It strongly addresses regulated healthcare governance, human oversight, accountability, risk-based regulation, and lifecycle monitoring, but does not study or propose governance for conversational LLM systems, chatbots, agents, RAG, guardrails, observability, or post-deployment operational controls specific to generative conversational AI. Generative AI appears only in the authors' writing-process declaration.",
+    "decision_confidence": 0.86,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated triage graded this as a central candidate, but full text indicates a non-empirical healthcare governance commentary without conversational LLM focus; adjudication should confirm contextual versus central placement."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Appropriate as normative commentary mapping regulatory and ethical frameworks to nursing practice, but offers no empirical sampling, primary data collection, or evaluation of conversational AI systems. Limitations of the commentary approach are not explicitly discussed in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is coherent and adequately supported for a policy commentary on nurse-led AI governance in regulated oncology care, but methodological limitations are substantial for empirical synthesis and relevance to conversational LLM governance is only partial."
+  },
+  "coding": {
+    "open_codes": [
+      "nurse-led oversight",
+      "human control layer",
+      "pacing gap",
+      "risk-based AI regulation",
+      "lifecycle monitoring",
+      "clinical accountability",
+      "Asia Pacific health systems"
+    ],
+    "axial_codes": [
+      "regulatory and ethical frameworks",
+      "frontline clinical workforce governance",
+      "accountability in AI-assisted decisions",
+      "deployment and post-implementation oversight"
+    ],
+    "theme": "AI governance integration with oncology nursing in regulated health systems",
+    "subtheme": "nurse-led human oversight across the cancer care pathway",
+    "concepts": [
+      "EU AI Act",
+      "WHO Ethics Guidance",
+      "NAM AI Code of Conduct",
+      "IMDRF Good Machine Learning Practice",
+      "human oversight",
+      "accountability",
+      "equity",
+      "patient-centred care"
+    ],
+    "model_layers": [
+      "supranational regulation",
+      "national legislation",
+      "institutional frameworks",
+      "clinical frontline oversight"
+    ],
+    "rq_alignment": [
+      "regulated_domain_governance",
+      "human_oversight_accountability",
+      "risk_and_compliance_frameworks"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "As AI becomes operational in Asia Pacific oncology care, governance must move beyond technology-centric oversight to deliberate nurse-led mechanisms that position nurses as the essential human control layer for safe, equitable, patient-centred AI use.",
+    "contribution": "Critically overviews major AI governance models relevant to nursing and translates them into eight actionable recommendations for health system leaders, policymakers, and nurse executives in oncology settings.",
+    "limitations": "Commentary without new data or empirical evaluation; focuses on broad clinical AI rather than conversational or LLM-specific systems; limitations of the commentary itself are not clearly stated in the provided text.",
+    "use_in_review": "Use as foundational contextual evidence on human oversight, accountability, and multi-layer governance in regulated healthcare. Do not treat as central evidence on conversational governance of LLM-based systems."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a commentary on AI governance for oncology nursing in Asia Pacific health systems.",
+      "excerpt": "Commentary Navigating AI governance for oncology nursing: Existing models, implications, and a Call for nurse-led oversight in Asia Pacific health systems",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No new empirical data were created or analyzed.",
+      "excerpt": "Data availability does not apply to this article as no new data were created or analyzed in this study.",
+      "page": "5",
+      "section": "conclusion",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Authors used ChatGPT and Claude only for language proofreading, not as the study subject.",
+      "excerpt": "During the preparation of this work, the author(s) used ChatGPT and Claude to proofread and quality check for language/grammar.",
+      "page": "5",
+      "section": "conclusion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Nurses are framed as the essential human control layer for safe and equitable AI use.",
+      "excerpt": "Nurses are uniquely positioned as the \"connective tissue\" of clinical operations to serve as the essential human control layer",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "The text reviews existing governance models including the EU AI Act, WHO Ethics Guidance, and NAM AI Code of Conduct.",
+      "excerpt": "This commentary examines existing AI governance models—from the EU AI Act to the World Health Organization (WHO) Ethics Guidance and the NAM AI Code of Conduct",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Governance gap includes pre-deployment evaluation, in-workflow guidance, and post-implementation monitoring.",
+      "excerpt": "lack of clear mechanisms to evaluate AI systems before deployment, guide their use within clinical workflows, and monitor their performance once implemented",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Oncology AI examples include machine learning imaging and NLP on clinical notes, not conversational LLM systems.",
+      "excerpt": "AI applications range from machine learning models that detect early-stage tumours on imaging to natural language processing tools that extract prognostic data from unstructured clinical notes",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "EU AI Act is described as a risk-based regulatory framework with human oversight requirements relevant to clinical AI.",
+      "excerpt": "It employs a risk-based classification system: AI systems used in medical devices, clinical decision support, and emergency triage",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "IMDRF GMLP emphasizes development, validation, and lifecycle monitoring of AI-enabled medical devices.",
+      "excerpt": "Good Machine Learning Practice (GMLP) guidance establishes 10 harmonised principles for the development, validation, and lifecycle monitoring of AI-enabled medical devices.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Accountability depends on nurse documentation of interaction with AI and clinical reasoning.",
+      "excerpt": "the nurse's documentation of their interaction with the AI system, their clinical reasoning in accepting or modifying the recommendation, and their communication with the patient become critical elements of accountability",
+      "page": "4",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Eight actionable recommendations are offered to leaders and policymakers.",
+      "excerpt": "Eight actionable recommendations are offered for health system leaders, policymakers, and nurse executives.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Published in a peer-reviewed oncology nursing journal.",
+      "excerpt": "K. Adapa, N. Jayakumar Asia-Pacific Journal of Oncology Nursing 13 (2026) 100964",
+      "page": "4",
+      "section": "unclear",
+      "supports": "bibliographic"
+    }
+  ]
+}

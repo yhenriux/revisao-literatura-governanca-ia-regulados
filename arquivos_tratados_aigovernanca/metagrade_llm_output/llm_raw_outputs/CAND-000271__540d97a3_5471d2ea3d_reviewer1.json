@@ -1,0 +1,170 @@
+{
+  "bibliographic": {
+    "title": "Preventable yet persistent: silicosis and gaps in public health policy – a narrative review",
+    "authors": "Rajmane P, Saha R, Devagekar A, Mandati Santhosh Reddy, Revanasiddappa Devarinti",
+    "year": "2026",
+    "venue": "Monaldi Archives for Chest Disease",
+    "doi": "10.4081/monaldi.2026.3937",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Rajmane, P., Saha, R., Devagekar, A., Reddy, M. S., & Devarinti, R. (2026). Preventable yet persistent: silicosis and gaps in public health policy – a narrative review. Monaldi Archives for Chest Disease. https://doi.org/10.4081/monaldi.2026.3937"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "narrative review",
+    "study_design": "narrative review of literature on silicosis and occupational/public health policy",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "occupational health, public health, pharmacy practice",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "occupational lung disease (silicosis) prevention, regulatory enforcement, and public health policy; no LLM or conversational AI systems studied"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "no_llm_genai_focus",
+      "no_conversational_ai",
+      "keyword_false_positive"
+    ],
+    "exclusion_reason": "Narrative review on silicosis and occupational/public health policy accountability; generative AI appears only in a writing-process declaration stating no AI was used. No LLM systems, conversational AI, chatbots, agents, RAG, or AI governance in regulated technology contexts.",
+    "decision_rationale": "Despite Python triage hits on accountability, governance, ethics, legal, healthcare, and AI terms, the article's substantive focus is silicosis epidemiology, prevention, and occupational health policy. Governance and accountability refer to employer/regulatory responsibility for occupational disease, not conversational or LLM governance. AI mentions are limited to a standard publisher declaration of non-use in manuscript preparation.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal reflects the narrative review as an occupational health policy paper, not as evidence for LLM conversational governance. Narrative review design is stated but systematic search/sampling methods are not described in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "For the review scope on conversational governance of LLMs in regulated settings, relevance is very low. Provided text shows a coherent occupational health policy argument but no substantive engagement with LLMs, conversational systems, or AI governance mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "silicosis",
+      "occupational_health",
+      "public_health_policy",
+      "regulatory_oversight",
+      "rights_based_accountability",
+      "inter_ministerial_coordination",
+      "preventable_occupational_disease",
+      "no_genai_used_in_writing"
+    ],
+    "axial_codes": [
+      "occupational_health_governance",
+      "policy_and_regulatory_enforcement",
+      "ethical_accountability_non_AI"
+    ],
+    "theme": "Occupational health policy and accountability for silicosis prevention",
+    "subtheme": "Gaps in enforcement, reporting, and inter-sector coordination",
+    "concepts": [
+      "accountability",
+      "governance",
+      "regulatory oversight",
+      "ethics",
+      "legal obligation",
+      "public health"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.92
+  },
+  "synthesis": {
+    "main_claim": "Silicosis is preventable but persists globally due to inconsistent adoption of engineering controls, surveillance, and weak enforcement; the authors advocate rights-based accountability, mandatory digital reporting, and stronger inter-ministerial occupational health governance.",
+    "contribution": "Synthesizes occupational health, epidemiological, legal, and policy literature to argue for a paradigm shift from silicosis management to elimination through coordinated regulatory action.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central evidence on conversational governance of LLMs; keyword overlap on governance/accountability/regulation is contextual to occupational disease policy, not AI systems."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a narrative review on silicosis and public health policy, not on LLMs or conversational AI.",
+      "excerpt": "Preventable yet persistent: silicosis and gaps in public health policy – a narrative review",
+      "page": "2",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Peer-reviewed journal article accepted for publication.",
+      "excerpt": "manuscripts that have undergone a regular peer review and have been accepted for publication",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No generative AI was used in writing; AI is not the study subject.",
+      "excerpt": "the authors declare that no generative artificial intelligence (AI) or AI-assisted technologies were used in the writing process of this manuscript",
+      "page": "3",
+      "section": "Declaration",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research type is narrative review focused on silicosis as occupational lung disease.",
+      "excerpt": "Silicosis remains a critical, 100% preventable occupational lung disease that continues to persist as a global public health crisis",
+      "page": "3",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Accountability discussed in occupational health policy context, not AI governance.",
+      "excerpt": "This review advocates for a transition toward a rights- based accountability model, mandatory digital reporting",
+      "page": "3",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance refers to occupational health governance collapse/failures.",
+      "excerpt": "It is rapidly fatal and represents a total collapse of occupational health governance",
+      "page": "6",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulatory oversight cited for silicosis prevention in high-income countries.",
+      "excerpt": "high-income countries saw a drastic decline in silicosis cases during the mid-20th century due to robust regulatory oversight",
+      "page": "5",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Inter-ministerial governance architecture proposed for occupational health integration.",
+      "excerpt": "coordinated action across the Ministries of Health, Labour, Industry, and Environment, a governance architecture that India does not yet have in place",
+      "page": "14",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Ethical concerns framed around preventable worker deaths and employer responsibility.",
+      "excerpt": "serious moral questions about employer responsibilities and the ethics of placing profit over human life",
+      "page": "15",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors accountable for scholarly work, not AI system accountability.",
+      "excerpt": "agreed to be accountable for all aspects of the work",
+      "page": "2",
+      "section": "contributions",
+      "supports": "eligibility"
+    }
+  ]
+}

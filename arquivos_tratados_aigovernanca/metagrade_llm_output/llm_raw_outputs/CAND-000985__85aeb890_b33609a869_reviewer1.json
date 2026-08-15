@@ -1,0 +1,167 @@
+{
+  "bibliographic": {
+    "title": "The Opportunities and Risks of Large Language Models in Mental Health",
+    "authors": "Hannah R Lawrence; Renee A Schneider; Susan B Rubin; Maja J Matarić; Daniel J McDuff; Megan Jones Bell",
+    "year": "2024",
+    "venue": "JMIR Ment Health",
+    "doi": "10.2196/59479",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Lawrence, H. R., Schneider, R. A., Rubin, S. B., Matarić, M. J., McDuff, D. J., & Jones Bell, M. (2024). The opportunities and risks of large language models in mental health. JMIR Mental Health, 11, e59479. https://doi.org/10.2196/59479"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "viewpoint narrative literature summary",
+    "study_design": "viewpoint",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "mental health / health care",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "large language models applied to mental health education, assessment, and intervention"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM",
+      "mental_health",
+      "governance_ethics",
+      "risk_mitigation",
+      "deployment"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Viewpoint article that summarizes extant literature on LLM use in mental health and explicitly addresses risks, mitigation strategies, responsible development/testing/deployment, ethical standards, and stakeholder involvement in a regulated health domain. Relevant to governance themes but not focused on conversational system governance mechanisms; only front matter was available for appraisal.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only page 1 (abstract and introduction start) was provided; full-text methods, conversational AI specifics, and detailed governance mechanisms cannot be verified."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 4,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Viewpoint format with stated aim to summarize literature and discuss opportunities/risks; no search strategy, inclusion criteria, or empirical protocol described in the available text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "Governance-relevant claims about risk mitigation, ethical deployment, and stakeholder involvement are coherent and applicable to regulated mental health contexts, but methodological transparency for the literature summary is limited in the provided excerpt."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM mental health applications",
+      "risk mitigation",
+      "responsible deployment",
+      "ethical standards",
+      "lived experience involvement",
+      "health equity",
+      "fine-tuning"
+    ],
+    "axial_codes": [
+      "responsible AI development",
+      "risk governance",
+      "stakeholder participation"
+    ],
+    "theme": "Opportunities and risks of LLMs in mental health",
+    "subtheme": "Responsible development, testing, and deployment",
+    "concepts": [
+      "risk mitigation",
+      "ethical standards",
+      "stakeholder involvement",
+      "health equity",
+      "fine-tuning",
+      "deployment"
+    ],
+    "model_layers": [
+      "development",
+      "testing",
+      "deployment",
+      "oversight"
+    ],
+    "rq_alignment": [
+      "governance",
+      "risk control",
+      "human oversight",
+      "regulated healthcare",
+      "ethical compliance"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "LLMs may enable large-scale mental health education, assessment, and intervention, but their application requires balancing urgent need with responsible development, risk mitigation, ethical standards, equity, and involvement of people with lived experience across all stages.",
+    "contribution": "Provides a viewpoint synthesis of literature on LLM opportunities and risks in mental health and recommends strategies to mitigate harms while supporting positive impact.",
+    "limitations": "Available text is limited to front matter; literature review methods, conversational system details, and full risk/governance framework are not evidenced in the excerpt.",
+    "use_in_review": "Use as supporting evidence for ethical governance, risk mitigation, deployment responsibility, and stakeholder participation principles for LLMs in regulated mental health settings; not primary evidence for conversational governance architecture or operational controls."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a viewpoint on LLMs in mental health published in JMIR Ment Health (2024).",
+      "excerpt": "Viewpoint The Opportunities and Risks of Large Language Models in Mental Health",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors summarize extant literature rather than reporting primary empirical study.",
+      "excerpt": "In this paper, we summarize the extant literature on efforts to use LLMs to provide mental health education, assessment, and intervention",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study addresses LLMs in a regulated health domain.",
+      "excerpt": "efforts to use LLMs to provide mental health education, assessment, and intervention",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Paper explicitly discusses risks and mitigation strategies.",
+      "excerpt": "We then highlight risks associated with LLMs’ application to mental health and encourage the adoption of strategies to mitigate these risks.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Responsible development, testing, and deployment are emphasized.",
+      "excerpt": "The urgent need for mental health support must be balanced with responsible development, testing, and deployment of mental health LLMs.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Ethical standards and stakeholder involvement are governance-relevant requirements.",
+      "excerpt": "ensure that mental health LLMs are fine-tuned for mental health, enhance mental health equity, and adhere to ethical standards and that people, including those with lived experience with mental health concerns, are involved in all stages from development through deployment.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Technology context is generic LLM capability for mental health tasks.",
+      "excerpt": "LLMs are artificial intelligence models trained using extensive data sets to predict language sequences",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Peer-reviewed journal venue is identifiable.",
+      "excerpt": "JMIR Ment Health 2024;11:e59479; doi: 10.2196/59479",
+      "page": "1",
+      "section": "abstract",
+      "supports": "bibliographic"
+    }
+  ]
+}

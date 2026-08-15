@@ -1,0 +1,199 @@
+{
+  "bibliographic": {
+    "title": "The Agentic AI Framework (AAIF): a policy-enforced architecture for accountable and high-performance intrusion detection",
+    "authors": "Ibrahim Adabara; Bashir Olaniyi Sadiq; Aliyu Nuhu Shuaibu; Yale Ibrahim Danjuma; Venkateswarlu Maninti; Mutebi Joe",
+    "year": "2026",
+    "venue": "Frontiers in Artificial Intelligence",
+    "doi": "10.3389/frai.2026.1755696",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Adabara, I., Sadiq, B. O., Shuaibu, A. N., Danjuma, Y. I., Maninti, V., & Joe, M. (2026). The Agentic AI Framework (AAIF): a policy-enforced architecture for accountable and high-performance intrusion detection. Frontiers in Artificial Intelligence, 9, 1755696. https://doi.org/10.3389/frai.2026.1755696"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "Design Science Research",
+    "study_design": "Framework design, implementation, and evaluation using a benchmark intrusion-detection dataset",
+    "sample_description": "CICIDS2017 network intrusion dataset with over 2.8 million network flow records across benign and malicious traffic",
+    "sample_size": "over 2.8 million network flow records",
+    "sector": "cybersecurity",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "Deep learning-based intrusion detection integrated with a YAML-based policy engine, audit ledger, and governance metrics aligned to NIST AI Risk Management Framework 2.0"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_technology",
+      "wrong_application_domain",
+      "not_conversational"
+    ],
+    "exclusion_reason": "The study proposes and evaluates a policy-enforced deep learning intrusion detection framework in cybersecurity; it does not address conversational AI, chatbots, agents in dialogue, RAG, or LLM-based systems in regulated conversational environments.",
+    "decision_rationale": "Although the article strongly addresses AI governance, accountability, auditability, and policy compliance, its core system is a network intrusion detection pipeline using deep learning on CICIDS2017. The review scope targets conversational governance in LLM-based systems in regulated settings. Provided text shows no conversational interface, no LLM application, and a cybersecurity rather than regulated-sector conversational context. Governance concepts are present but not in the target phenomenon.",
+    "decision_confidence": 0.91,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Title uses 'Agentic AI' and automated triage scored highly on governance terms; manual confirmation is needed to avoid misclassifying a cybersecurity IDS paper as central conversational LLM governance evidence."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Internally, the study presents a clear DSR-based framework with quantitative detection and governance metrics. Transferability to conversational LLM governance in regulated domains is limited based on the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Claims appear coherent and supported for cybersecurity IDS governance, but relevance to conversational LLM governance in regulated environments is very low because the evidenced system is deep learning intrusion detection, not conversational or LLM-based."
+  },
+  "coding": {
+    "open_codes": [
+      "policy-enforced inference",
+      "YAML governance schema",
+      "audit ledger",
+      "NIST AI RMF alignment",
+      "ethical compliance metrics",
+      "deep learning IDS",
+      "feedback loop",
+      "governance compliance index"
+    ],
+    "axial_codes": [
+      "technical AI governance",
+      "policy-as-code",
+      "accountable autonomous decisions",
+      "cybersecurity operations"
+    ],
+    "theme": "Policy-enforced AI governance architecture",
+    "subtheme": "Intrusion detection with executable governance constraints",
+    "concepts": [
+      "Agentic AI Framework (AAIF)",
+      "Policy Engine",
+      "Governance Compliance Index",
+      "Ethical Compliance Rate",
+      "False Escalation Rate"
+    ],
+    "model_layers": [
+      "detection model",
+      "policy engine",
+      "audit ledger",
+      "feedback loop"
+    ],
+    "rq_alignment": [
+      "AI governance mechanisms",
+      "accountability and auditability",
+      "policy compliance enforcement"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "AAIF integrates deep learning intrusion detection with a YAML-based policy engine and audit mechanisms to preserve detection performance while achieving full policy and ethical compliance.",
+    "contribution": "Provides a reproducible policy-enforced architecture and governance metrics demonstrating accountable autonomy without degrading IDS performance on CICIDS2017.",
+    "limitations": "Provided excerpts do not detail study limitations; evaluation is confined to one cybersecurity benchmark dataset and non-conversational IDS use case.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational LLM governance; optionally cite only as peripheral contextual reference for policy-schema and audit-loop design patterns if the review permits non-conversational governance analogies."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed original research article in Frontiers in Artificial Intelligence",
+      "excerpt": "TYPE Original Research",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors and publication metadata",
+      "excerpt": "Adabara I, Sadiq BO, Shuaibu AN, Danjuma YI, Maninti V and Joe M (2026) The Agentic AI Framework (AAIF)",
+      "page": "1",
+      "section": "citation",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses Design Science Research and deep learning, not LLMs",
+      "excerpt": "Guided by Design Science Research, the framework combines a deep learning detection model with a governance layer",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Application domain is cybersecurity intrusion detection",
+      "excerpt": "a policy-aware intrusion detection architecture that integrates predictive modeling with executable governance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical evaluation on CICIDS2017 with large sample",
+      "excerpt": "evaluated on the CICIDS2017 dataset, which contains over 2.8 million network flow records",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance layer uses YAML policy schema and auditable decisions",
+      "excerpt": "an interpretable Policy Engine that enforces operational and ethical constraints through a declarative YAML-based domain-specific language, ensuring that each decision is auditable and policy-compliant",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Aligned to NIST AI Risk Management Framework 2.0",
+      "excerpt": "a governance layer aligned to the NIST AI Risk Management Framework 2.0",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Reports governance and detection performance outcomes",
+      "excerpt": "achieving a weighted F1-score of 0.483 and an AUROC of 0.978",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Reports full ethical/policy compliance metrics",
+      "excerpt": "complete compliance under the defined policy schema, with an Ethical Compliance Rate of 1.0 and a False Escalation Rate of 0.0",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Architecture includes governance oversight loop, not conversational interaction",
+      "excerpt": "The first subsystem is the operational intrusion detection pipeline, and the second is the governance and ethical oversight loop. Their interaction enables policy-aware inference and continuous feedback.",
+      "page": "5",
+      "section": "architecture",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Audit ledger and closed-loop governance feedback are core components",
+      "excerpt": "The Audit Ledger and Feedback Loop record all decisions, policy triggers, and compliance metrics, and returns feedback to the inference layer.",
+      "page": "5",
+      "section": "architecture",
+      "supports": "coding"
+    },
+    {
+      "claim": "Generative AI was not used in the research artifact described",
+      "excerpt": "Generative AI was not used in the creation of this manuscript.",
+      "page": "17",
+      "section": "generative ai statement",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "IDS research prioritizes accuracy over governance in related work",
+      "excerpt": "most IDS research continues to prioritize detection accuracy, while governance, accountability",
+      "page": "3",
+      "section": "related work",
+      "supports": "synthesis"
+    }
+  ]
+}

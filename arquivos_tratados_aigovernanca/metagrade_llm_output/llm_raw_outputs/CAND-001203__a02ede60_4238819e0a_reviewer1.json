@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "A chatbot for mental health support: exploring the impact of Emohaa on reducing mental distress in China",
+    "authors": "Sahand Sabour, Wen Zhang, Xiyao Xiao, Yuwei Zhang, Yinhe Zheng, Jiaxin Wen, Jialu Zhao, Minlie Huang",
+    "year": "2023",
+    "venue": "Frontiers in Digital Health",
+    "doi": "10.3389/fdgth.2023.1133987",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Sabour, S., Zhang, W., Xiao, X., Zhang, Y., Zheng, Y., Wen, J., Zhao, J., & Huang, M. (2023). A chatbot for mental health support: Exploring the impact of Emohaa on reducing mental distress in China. Frontiers in Digital Health, 5, 1133987. https://doi.org/10.3389/fdgth.2023.1133987"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "randomized controlled trial",
+    "study_design": "RCT with three arms (Emohaa CBT-Bot, Emohaa Full, control); intention-to-treat and per-protocol analyses",
+    "sample_description": "Participants randomly assigned to use Emohaa variants or control in a mental health support study in China",
+    "sample_size": "N = 247 (intention-to-treat); N = 134 (per-protocol)",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "unclear",
+    "technology_context": "Emohaa conversational agent with template-based CBT-Bot and generative dialogue ES-Bot for emotional support; deep learning and NLP referenced"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_focus_clinical_efficacy",
+      "no_governance_accountability_focus",
+      "llm_governance_not_addressed"
+    ],
+    "exclusion_reason": "Primary contribution is an RCT evaluating clinical effectiveness of a mental health chatbot; provided text does not address conversational governance, LLM governance mechanisms, accountability, oversight, audit, compliance, guardrails, or related operational controls.",
+    "decision_rationale": "The article clearly fits conversational AI in a regulated healthcare domain, but its central aim is symptom reduction efficacy rather than governance of conversational or generative systems. Technology is described as conversational agents using NLP, deep learning, and a generative dialogue platform, without explicit LLM-specific governance content in the supplied text.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Appraisal is based only on the excerpted text. The study appears methodologically appropriate for an efficacy RCT, but transparency on ethics, limitations, and full data-collection procedures cannot be fully judged from the provided pages."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the review question on conversational governance in LLM-based regulated systems, relevance is low because the supplied text centers on mental distress outcomes, not governance. Within its own efficacy aim, coherence and reported RCT design appear adequate, but only partial text was available for full methodological appraisal."
+  },
+  "coding": {
+    "open_codes": [
+      "mental_health_chatbot",
+      "randomized_controlled_trial",
+      "cognitive_behavioral_therapy",
+      "emotional_support_bot",
+      "generative_dialogue_platform",
+      "clinical_outcomes"
+    ],
+    "axial_codes": [
+      "conversational_agent_deployment",
+      "healthcare_application",
+      "effectiveness_evaluation"
+    ],
+    "theme": "Clinical effectiveness of conversational mental health support",
+    "subtheme": "CBT and emotional support chatbot RCT in China",
+    "concepts": [
+      "conversational agents",
+      "chatbots",
+      "cognitive behavioral therapy",
+      "emotional support",
+      "mental distress reduction",
+      "deep learning",
+      "natural language processing"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Emohaa, a conversational agent providing CBT-based cognitive support and emotional venting support, significantly reduced mental distress symptoms compared with control in an RCT.",
+    "contribution": "Empirical evidence that a Chinese-language mental health conversational agent combining template-based CBT exercises and generative emotional support can improve depression, negative affect, and insomnia outcomes.",
+    "limitations": "unclear",
+    "use_in_review": "Low value as central evidence for conversational governance; may serve only as peripheral contextual background on conversational agents in regulated mental healthcare if broader background is needed."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with clear bibliographic metadata",
+      "excerpt": "PUBLISHED 04 May 2023 CITATION Sabour S, Zhang W, Xiao X, Zhang Y, Zheng Y, Wen J, Zhao J and Huang M (2023) A chatbot for mental health support",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses RCT design with defined sample sizes",
+      "excerpt": "Following the RCT design, the current study randomly assigned participants into three groups",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "ITT and per-protocol sample sizes are reported",
+      "excerpt": "With both Intention-To-Treat (N = 247) and PerProtocol (N = 134) analyses",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Primary outcome focus is clinical effectiveness, not governance",
+      "excerpt": "In this study, we analyze the effectiveness of Emohaa in reducing symptoms of mental distress.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Technology is a conversational agent/chatbot in healthcare",
+      "excerpt": "we introduce Emohaa, a conversational agent that provides cognitive support through CBT-Bot exercises and guided conversations",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "System combines template-based and generative dialogue components",
+      "excerpt": "a template-based platform that contains conversations with pre-deﬁned options and exercises",
+      "page": "2",
+      "section": "materials and methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Generative dialogue platform is part of the system architecture",
+      "excerpt": "Second, a generative dialogue platfor",
+      "page": "2",
+      "section": "materials and methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated high-stakes healthcare context",
+      "excerpt": "One of the essential applications of such agents is health care, mainly for providing mental health support.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "NLP and deep learning are referenced, but LLMs are not explicitly identified",
+      "excerpt": "KEYWORDS Chatbots, conversational agents, emotional support, mental health support, cognitive behavioral therapy (CBT), deep learning",
+      "page": "1",
+      "section": "keywords",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Reported results support efficacy claim",
+      "excerpt": "participants who used two types of Emohaa experienced considerably more signiﬁcant improvements in symptoms of mental distress",
+      "page": "1",
+      "section": "methods and results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Statistical outcome evidence is reported",
+      "excerpt": "depression (F[2, 244] = 6.26, p = 0.002), negative affect (F[2, 244] =",
+      "page": "1",
+      "section": "methods and results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No governance, oversight, audit, or compliance mechanisms are described in supplied text",
+      "excerpt": "we concluded that Emohaa is a practical and effective tool for reducing mental distress.",
+      "page": "1",
+      "section": "discussion",
+      "supports": "eligibility"
+    }
+  ]
+}

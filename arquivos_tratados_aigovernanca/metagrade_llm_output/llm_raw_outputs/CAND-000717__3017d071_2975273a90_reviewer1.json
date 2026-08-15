@@ -1,0 +1,187 @@
+{
+  "bibliographic": {
+    "title": "LUCE: A Blockchain Solution for monitoring data License accoUntability and CompliancE",
+    "authors": "Andine Havelange; Michel Dumontier; Birgit Wouters; Jona Linde; David Townend; Arno Riedl; Visara Urovi",
+    "year": "unclear",
+    "venue": "Arxiv Computing Research Repository",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Havelange, A., Dumontier, M., Wouters, B., Linde, J., Townend, D., Riedl, A., & Urovi, V. (unclear). LUCE: A Blockchain Solution for monitoring data License accoUntability and CompliancE. Arxiv Computing Research Repository."
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "blockchain platform architecture and prototype design",
+    "study_design": "preliminary technical proposal with architecture description and smart contract prototype",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "scientific research data sharing",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "blockchain, smart contracts, data licensing, GDPR, scientific data sharing"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_not_llm_or_genai",
+      "E2_not_conversational_ai",
+      "E3_out_of_scope_technology"
+    ],
+    "exclusion_reason": "The paper addresses blockchain-based data license accountability and GDPR compliance for scientific data sharing; it does not discuss LLMs, generative AI, conversational systems, chatbots, agents, or conversational governance.",
+    "decision_rationale": "Although the text strongly addresses accountability, compliance, privacy, and regulatory concepts (GDPR, licensing), the study centers on a blockchain platform (LUCE) for scientific data sharing. No LLM, generative AI, conversational interface, or agent-based system is described. It falls outside the review scope on conversational governance in LLM-based systems.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Clear mismatch with review scope; exclusion rationale is unambiguous from provided text."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Preliminary technical paper describing platform architecture and a first smart contract prototype; no empirical evaluation or user study reported in the provided text. Appraisal reflects design-description quality only, not eligibility for the review topic."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Findings are coherent for a blockchain data-governance proposal but are preliminary, not empirically validated in the provided text, and have very low relevance to conversational LLM governance."
+  },
+  "coding": {
+    "open_codes": [
+      "blockchain platform",
+      "data licensing",
+      "data accountability",
+      "GDPR compliance",
+      "smart contracts",
+      "data sharing",
+      "data provenance",
+      "privacy concerns",
+      "trust in data sharing"
+    ],
+    "axial_codes": [
+      "regulatory_compliance",
+      "data_governance_infrastructure",
+      "accountability_monitoring"
+    ],
+    "theme": "Data license accountability and compliance via blockchain",
+    "subtheme": "Automated enforcement of licensing terms and GDPR rights in scientific data sharing",
+    "concepts": [
+      "accountability",
+      "compliance",
+      "GDPR access rectification erasure",
+      "smart contract enforcement",
+      "data provenance",
+      "licensing terms"
+    ],
+    "model_layers": [
+      "infrastructure/platform",
+      "policy/compliance enforcement"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "LUCE is a blockchain-supported platform that records data use and purpose to enable data accountability and automatic management of data licensing terms, including GDPR rights to access, rectification, and erasure.",
+    "contribution": "Provides a distributed solution for automatic management of data accountability and license terms in scientific data-sharing contexts.",
+    "limitations": "Presented as preliminary work with a first prototype smart contract; empirical evaluation and operational limitations are not detailed in the provided text.",
+    "use_in_review": "Exclude from central and supporting evidence for conversational LLM governance; at most a distant contextual reference for accountability/compliance monitoring concepts unrelated to conversational AI."
+  },
+  "evidence": [
+    {
+      "claim": "Paper title and focus on license accountability and compliance",
+      "excerpt": "LUCE: A Blockchain Solution for monitoring data License accoUntability and CompliancE",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM or conversational AI technology",
+      "excerpt": "LUCE is a blockchain platform solution designed to stimulate data sharing and reuse, by facilitating compliance with licensing terms.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Accountability via recorded data use and purpose",
+      "excerpt": "The platform enables data accountability by recording the use of data and their purpose on a blockchain-supported platform",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "GDPR rights support",
+      "excerpt": "LUCE can ensure subjects' General Data Protection Regulation's (GDPR) rights to access, rectification and erasure.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Distributed automatic management contribution",
+      "excerpt": "Our contribution is to provide a distributed solution for the automatic management of data accountability and their license terms.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Preliminary work status",
+      "excerpt": "In this paper we present our preliminary work on monitoring data License accoUntability and CompliancE (LUCE).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Smart contract interaction not conversational AI",
+      "excerpt": "A smart contract is a computer code that runs on the top of a blockchain network and that contains rules - rights and obligations - defining the interaction between the parties to the smart contract",
+      "page": "3",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Trust factor in data sharing practices",
+      "excerpt": "a majority of researchers share their data only directly, that is, from person to person (e.g. by email), and mostly with collaborators, which suggests that trust is an important factor in sharing data",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Ethical and privacy barriers to sharing",
+      "excerpt": "Concerns regarding privacy, control over what happens to the data and ethical issues prevent researchers from sharing their data.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Legal clarity via licensing",
+      "excerpt": "One way to deal with these concerns is to use data licensing. Licenses clearly state what can and what cannot be done with the data, thereby creating legal clarity",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Related work on data provenance accountability",
+      "excerpt": "DataProv and ProvChain are both blockchain-based solution for data provenance accountability.",
+      "page": "5",
+      "section": "related work",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Prototype smart contract presented",
+      "excerpt": "Thereafter we present a first prototype of the smart contract used in LUCE and conclude this paper",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    }
+  ]
+}

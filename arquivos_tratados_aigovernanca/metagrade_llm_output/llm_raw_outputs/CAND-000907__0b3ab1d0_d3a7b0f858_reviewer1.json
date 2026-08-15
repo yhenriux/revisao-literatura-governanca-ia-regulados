@@ -1,0 +1,157 @@
+{
+  "bibliographic": {
+    "title": "Measuring Massive Multitask Language Understanding",
+    "authors": "Dan Hendrycks; Collin Burns; Steven Basart; Andy Zou; Mantas Mazeika; Dawn Song; Jacob Steinhardt",
+    "year": "2021",
+    "venue": "International Conference on Learning Representations (ICLR)",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2021). Measuring massive multitask language understanding. In Proceedings of the International Conference on Learning Representations (ICLR)."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "benchmark design and model evaluation",
+    "study_design": "experimental benchmark evaluation across 57 multiple-choice subject tasks in zero-shot and few-shot settings",
+    "sample_description": "57 academic and professional subject tasks spanning STEM, humanities, and social sciences; models evaluated include GPT-3 variants (Ada, Babbage, Curie, Davinci) and UnifiedQA",
+    "sample_size": "57 tasks",
+    "sector": "academic research",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "GPT-3 few-shot/zero-shot evaluation via OpenAI API; multitask language understanding benchmark (MMLU)"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "off_topic_governance",
+      "no_conversational_ai_system",
+      "no_regulated_deployment_context"
+    ],
+    "exclusion_reason": "The paper proposes and evaluates an LLM knowledge benchmark; it does not study conversational AI governance, oversight, compliance mechanisms, or deployment in regulated environments.",
+    "decision_rationale": "Although the benchmark includes law, morality, and ethics as evaluation subjects and reports GPT-3 weaknesses and miscalibration, the study focus is multitask language understanding measurement rather than governance of conversational LLM systems. It may serve only as foundational contextual evidence on capability gaps in legally and ethically relevant domains.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "The provided text clearly identifies the paper as a benchmark/evaluation study without governance or conversational-system focus."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 5,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 5,
+    "limitations_transparency": 4,
+    "evidence_support": 5,
+    "transferability": 2,
+    "notes": "Methodologically strong benchmark paper with transparent experimental setup and clear reporting of model performance, calibration issues, and subject-level blind spots. Limited reflexivity on downstream governance or regulated-use implications; transferability to conversational governance in regulated settings is low."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 5,
+    "adequacy": 4,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "High internal methodological quality for benchmark evaluation, but very low relevance to conversational governance, accountability, or regulated deployment questions central to the review scope."
+  },
+  "coding": {
+    "open_codes": [
+      "multitask_benchmark",
+      "few_shot_evaluation",
+      "zero_shot_evaluation",
+      "gpt3_performance",
+      "law_subject_weakness",
+      "morality_subject_weakness",
+      "calibration_error",
+      "lopsided_domain_performance",
+      "blind_spot_identification"
+    ],
+    "axial_codes": [
+      "LLM_capability_assessment",
+      "model_limitation_identification"
+    ],
+    "theme": "LLM knowledge benchmarking",
+    "subtheme": "domain-specific performance gaps",
+    "concepts": [
+      "MMLU",
+      "GPT-3",
+      "few-shot learning",
+      "classification accuracy",
+      "confidence miscalibration",
+      "expert-level accuracy gap"
+    ],
+    "model_layers": [
+      "foundation_model_evaluation"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "The authors introduce a 57-task benchmark to measure multitask language understanding and show that while the largest GPT-3 model substantially outperforms smaller models, it remains far below expert-level accuracy, performs unevenly across subjects, and is especially weak on socially important areas such as law and morality while often miscalibrating its confidence.",
+    "contribution": "Provides a broad benchmark (MMLU) for assessing breadth and depth of pretrained language model knowledge across diverse academic and professional subjects using zero-shot and few-shot evaluation.",
+    "limitations": "Models show lopsided performance, near-random accuracy on some important subjects, and poor self-knowledge of correctness; benchmark does not address conversational deployment, governance, or regulated operational controls.",
+    "use_in_review": "Use only as foundational contextual background to justify that LLMs may underperform on law- and ethics-related knowledge and exhibit confidence errors; not usable as direct evidence on conversational governance mechanisms, oversight, audit, or compliance in regulated environments."
+  },
+  "evidence": [
+    {
+      "claim": "Published as peer-reviewed ICLR 2021 conference paper",
+      "excerpt": "Published as a conference paper at ICLR 2021",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study proposes a multitask benchmark covering law among 57 subjects",
+      "excerpt": "The test covers 57 tasks including elementary mathematics, US history, computer science, law, and more.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "GPT-3 largest model evaluated with reported accuracy",
+      "excerpt": "the 175 billion parameter GPT-3 model reaches a much higher 43.9% accuracy",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Models remain weak on socially important subjects including law and morality",
+      "excerpt": "they still have near-random accuracy on some socially important subjects such as morality and law",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Future models need strong understanding of legal and ethical domains",
+      "excerpt": "it will be important for future models to have a strong understanding of what is legal and what is ethical",
+      "page": "2",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "GPT-3 shows substantial confidence miscalibration",
+      "excerpt": "GPT-3 does not have an accurate sense of what it does or does not know since its average confidence can be up to 24% off from its actual accuracy",
+      "page": "2",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Evaluation uses GPT-3 via OpenAI API in few-shot setting",
+      "excerpt": "For GPT-3 we use the OpenAI API, which provides access to four model variants",
+      "page": "5",
+      "section": "experiments",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No governance, conversational system, or regulated deployment focus in provided text",
+      "excerpt": "we introduce a new benchmark for assessing models across a diverse set of subjects that humans learn",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

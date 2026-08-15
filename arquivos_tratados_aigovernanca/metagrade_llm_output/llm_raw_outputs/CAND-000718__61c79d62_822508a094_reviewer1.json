@@ -1,0 +1,198 @@
+{
+  "bibliographic": {
+    "title": "Learning Efficient Guardrails for Compliance",
+    "authors": "Xiaofei Wen; Wenjie Jacky Mo; Yanan Xie; Peng Qi; Muhao Chen",
+    "year": "2026",
+    "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Wen, X., Mo, W. J., Xie, Y., Qi, P., & Chen, M. (2026). Learning efficient guardrails for compliance. In Proceedings of the 43rd International Conference on Machine Learning. PMLR 306."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "benchmark development, supervised model training, comparative experimental evaluation",
+    "study_design": "construction of POLICYGUARDBENCH (60k policy-trajectory pairs) and experimental comparison of POLICYGUARD-4B against foundation models and safety guardrail baselines on full-trajectory and prefix-based violation detection tasks",
+    "sample_description": "60k policy-trajectory pairs spanning source and target subdomains for generalization assessment; trajectories represented as text-based web-agent action sequences paired with policies",
+    "sample_size": "60000 policy-trajectory pairs",
+    "sector": "unclear",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "autonomous web agents operating under human-specified or institutional policies; lightweight online guardrails for policy-trajectory compliance detection using foundation models and dedicated guardrail models"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "guardrails",
+      "policy_compliance",
+      "llm_agents",
+      "benchmark",
+      "risk_safety",
+      "deployment_governance"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The study directly addresses guardrails, policy compliance, safety, and deployment of LLM-based autonomous web agents, which aligns with operational-technical governance and risk/compliance dimensions of the review. However, it does not examine conversational systems, chatbots, human contestation workflows, audit/logging, or sector-specific regulated deployments; its focus is benchmark-driven compliance detection for web-agent trajectories rather than conversational governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted metadata conflicts with PDF front matter on year (2025 vs 2026) and publication type (preprint vs ICML conference paper); conversational-AI relevance is absent and requires adjudication against review scope."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Clear empirical contribution with benchmark, trained model, and broad baselines including frontier and open-source LLMs. Transparency is good on evaluation metrics and hardware but limited detail on full dataset construction and policy sourcing in the provided excerpts. Limitations acknowledge imperfect detection and text-based trajectory abstraction."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are internally coherent and empirically well supported for policy-compliance guardrails in web agents, but relevance to conversational governance in regulated sector contexts is only partial because the work is domain-general, agent-focused, and does not address conversational interfaces, sector-specific regulation, or governance mechanisms such as audit trails or human contestation."
+  },
+  "coding": {
+    "open_codes": [
+      "policy compliance detection",
+      "guardrail model",
+      "web agent trajectories",
+      "prefix-based violation detection",
+      "benchmark dataset",
+      "inference efficiency",
+      "cross-domain generalization",
+      "human oversight recommendation"
+    ],
+    "axial_codes": [
+      "operational technical governance",
+      "compliance monitoring",
+      "agent safety controls",
+      "deployment risk mitigation"
+    ],
+    "theme": "Efficient guardrails for policy compliance in autonomous LLM-based agents",
+    "subtheme": "Benchmarking and lightweight online violation detection",
+    "concepts": [
+      "POLICYGUARDBENCH",
+      "POLICYGUARD-4B",
+      "policy-trajectory pairs",
+      "prefix-based violation detection",
+      "full-trajectory classification",
+      "accuracy-efficiency trade-off"
+    ],
+    "model_layers": [
+      "guardrail layer",
+      "policy alignment layer",
+      "agent trajectory monitoring"
+    ],
+    "rq_alignment": [
+      "guardrails",
+      "compliance",
+      "risk and safety",
+      "deployment",
+      "human oversight",
+      "LLM-based agents"
+    ],
+    "coding_confidence": 0.84
+  },
+  "synthesis": {
+    "main_claim": "Accurate and generalizable policy-compliance guardrails are feasible at small model scale, and a dedicated benchmark can evaluate both full-trajectory compliance and early prefix-based violation detection for autonomous web agents.",
+    "contribution": "Introduces POLICYGUARDBENCH with 60k policy-trajectory pairs and POLICYGUARD-4B, a lightweight guardrail model that balances strong detection performance with low inference latency and shows generalization to unseen domains.",
+    "limitations": "POLICYGUARDBENCH abstracts web-agent behavior as text-based action sequences; no detection system is perfect; authors recommend additional safety layers and human oversight in high-stakes environments.",
+    "use_in_review": "Use as supporting evidence for technical guardrail approaches to policy compliance and deployment-time risk control in LLM/agent systems; not primary evidence for conversational governance, regulated-sector case studies, or accountability mechanisms such as audit logs, tracing, or contestation."
+  },
+  "evidence": [
+    {
+      "claim": "Study introduces a compliance benchmark and lightweight guardrail model for web agents",
+      "excerpt": "we introduce POLICYGUARD- BENCH, a benchmark of 60k policy-trajectory pairs",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Focus is autonomous web agents under policy constraints, not conversational systems",
+      "excerpt": "Autonomous web agents are increasingly deployed for long-horizon tasks",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Policies aim to ensure compliance with safety, regulatory and ethical requirements",
+      "excerpt": "ensure compliance with safety, regulatory and ethical requirements",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Guardrails may operate online before trajectories complete",
+      "excerpt": "in real-world deployments, guardrails often operate online and intervene before a trajectory is co",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Dataset construction uses LLM-based policy scoring",
+      "excerpt": "further refined using heuristic rules and LLM-based scoring to ensure that the policies are semantically relevant and checkable",
+      "page": "4",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Evaluation compares foundation models, safety guardrails, and frontier systems",
+      "excerpt": "We compare POLICYGUARD-4B against three categories of baselines: (1) open-source foundation models",
+      "page": "5",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Existing safety-oriented guardrails fail on policy compliance detection",
+      "excerpt": "existing safety-oriented guardrails fail to transfer to policy compli- ance detection",
+      "page": "5",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "POLICYGUARD-4B achieves competitive accuracy-efficiency balance",
+      "excerpt": "our lightweight POLICYGUARD-4B strikes the best balance of accuracy and efficiency",
+      "page": "5",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Prefix-based violation detection task is explicitly evaluated",
+      "excerpt": "Prefix-based violation detection accuracy on POLICYGUARDBENCH",
+      "page": "7",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Authors recommend human oversight in high-stakes deployments",
+      "excerpt": "reliance on such models should be accompanied by other safety layers and human oversight in high-stakes environments",
+      "page": "9",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Benchmark limitation is text-based trajectory abstraction",
+      "excerpt": "POLICYGUARDBENCH represents web-agent trajectories as text-based action sequences",
+      "page": "9",
+      "section": "Limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Peer-reviewed ICML conference publication",
+      "excerpt": "Proceedings of the 43 rd International Conference on Machine Learning, Seoul, South Korea. PMLR 306, 2026",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

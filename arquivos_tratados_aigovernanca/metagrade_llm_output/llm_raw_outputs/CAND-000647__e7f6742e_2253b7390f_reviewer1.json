@@ -1,0 +1,244 @@
+{
+  "bibliographic": {
+    "title": "Human–AI hybrid finance: from AI tools to decision systems",
+    "authors": "Gang Kou; Yan Li; Haomin Wang; Xin Wang",
+    "year": "2026",
+    "venue": "Financial Innovation",
+    "doi": "10.1186/s40854-026-00941-w",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Kou, G., Li, Y., Wang, H., & Wang, X. (2026). Human–AI hybrid finance: from AI tools to decision systems. Financial Innovation, 12, Article 125. https://doi.org/10.1186/s40854-026-00941-w"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "integrative conceptual literature review",
+    "study_design": "integrative and conceptual review synthesizing literature across finance, management, human-computer interaction (HCI), and AI",
+    "sample_description": "literature synthesis across finance, management, HCI, AI, explainability, trust, governance, FinLLMs, agentic finance, and financial regulation",
+    "sample_size": "unclear",
+    "sector": "financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "FinLLMs, generative AI, agentic finance, explainable AI, human–AI hybrid financial decision systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "integrative_review",
+      "governance_oversight_accountability",
+      "regulated_finance",
+      "finllm_genai",
+      "explainability_contestability",
+      "human_ai_hybrid_systems"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Integrative conceptual review explicitly centered on allocating authority, oversight, and accountability in financial workflows, integrating FinLLMs, generative AI, agentic finance, governance, explainability, and contestability in a regulated finance context. Strong governance and LLM relevance, but conversational/chatbot governance is secondary rather than primary.",
+    "decision_confidence": 0.86,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Provided text is front matter and selected excerpts only; confirm full-text coverage of conversational interfaces, deployment monitoring, and stated review limitations."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Clear integrative review objective and stated inclusion domains (HCI, XAI, governance, FinLLM/GenAI, regulation). Search strategy, corpus size, and full limitations are not visible in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The review presents a coherent governance-oriented framework for human–AI finance with direct FinLLM/GenAI and oversight/contestability content, but appraisal is limited by incomplete full-text access to search methods, corpus boundaries, and explicit limitations."
+  },
+  "coding": {
+    "open_codes": [
+      "decision architecture",
+      "authority allocation",
+      "meaningful oversight",
+      "accountability",
+      "contestability",
+      "reliance wedge",
+      "delegation frontier",
+      "FinLLMs",
+      "agentic finance",
+      "reflexive AI loop"
+    ],
+    "axial_codes": [
+      "human–AI hybrid governance",
+      "explainability and auditability",
+      "regulated financial decision systems",
+      "generative AI in finance"
+    ],
+    "theme": "Governance of human–AI hybrid financial decision systems",
+    "subtheme": "Oversight, accountability, and explainability for FinLLMs and agentic finance",
+    "concepts": [
+      "delegation frontier",
+      "reliance wedge",
+      "decision-useful explainable artificial intelligence (XAI)",
+      "meaningful oversight",
+      "reflexive AI loop"
+    ],
+    "model_layers": [
+      "governance",
+      "oversight",
+      "accountability",
+      "explainability",
+      "human-in-the-loop decision workflow"
+    ],
+    "rq_alignment": [
+      "governance",
+      "accountability",
+      "human oversight",
+      "explainability",
+      "contestability",
+      "regulated high-stakes finance",
+      "LLM/GenAI systems"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "AI in finance is shifting from a predictive tool to a component of human–AI hybrid financial decision systems, and the central research question is decision architecture: how authority, oversight, and accountability should be allocated across financial workflows.",
+    "contribution": "Proposes an integrated decision-system framework with five connected constructs—delegation frontier, reliance wedge, decision-useful XAI, meaningful oversight, and reflexive AI loop—to organize research on investment, trading, credit, asset management, risk, compliance, and financial regulation.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence for governance, oversight, accountability, explainability, and contestability in regulated finance involving FinLLMs, generative AI, and agentic systems; not a primary source for conversational-interface-specific governance."
+  },
+  "evidence": [
+    {
+      "claim": "Bibliographic identification and publication venue",
+      "excerpt": "Human–AI hybrid finance: from AI tools to decision systems Gang Kou1, Yan Li2, Haomin Wang3 and Xin Wang1*",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Publication venue and year",
+      "excerpt": "Kou et al. Financial Innovation (2026) 12:125",
+      "page": "6",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is an integrative conceptual review",
+      "excerpt": "This integrative and conceptual review synthesizes literature across finance, management, human–computer interaction (HCI), and AI",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Central governance question on authority, oversight, and accountability",
+      "excerpt": "the central question is moving from model performance to decision architecture: how authority, oversight, and accountability should be allocated across financial workflows.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human–AI complementarity is conditional and governance-dependent",
+      "excerpt": "human–AI complementarity in finance is conditional rather than automatic, depending on task structure, private information, feedback quality, incentives, explanation design, and governance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Review integrates FinLLMs and agentic finance with governance framework",
+      "excerpt": "integrates evidence on methods, data, scenarios, explainability, trust, governance, financial large language models (FinLLMs), and agentic finance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Five-construct integrated decision-system framework",
+      "excerpt": "integrated decision-system framework consisting of five connected constructs—delegation frontier, reliance wedge, decision-useful explainable artificial intelligence (XAI), meaningful oversight, and reflexive AI loop",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated finance applications covered",
+      "excerpt": "support cumulative research on investment, trading, credit, asset management, risk, compliance, and financial regulation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM/FinLLM coverage in finance",
+      "excerpt": "AI in finance expanded into supervised learning, deep learning, reinforcement learning, and large language models (LLMs), including financial large language models (FinLLMs)",
+      "page": "2",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Finance is highly exposed to generative AI",
+      "excerpt": "Finance is also one of the domains most exposed to generative AI (GenAI) because it is information-intensive, text heavy, highly codified, and operationally dependent on rapid judgment under uncertainty",
+      "page": "2",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Review inclusion domains include governance and contestability",
+      "excerpt": "Explainable AI, trustworthy AI, and governance research is included to examine transparency, accountability, oversight, and contestability.",
+      "page": "5",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "FinLLM/GenAI/agentic AI included as workflow and action layer",
+      "excerpt": "FinLLM, generative AI, and agentic AI studies are included because they show how AI is becoming a language, workflow, and action layer in finance.",
+      "page": "5",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Financial regulation included for institutional governance linkage",
+      "excerpt": "Financial regulation and systemic-risk work is included where it helps connect AI-mediated decisions to institutional governance",
+      "page": "5",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "GenAI extends AI into language, interaction, and workflow",
+      "excerpt": "FinLLMs and GenAI extend AI into language, interaction, and workflow.",
+      "page": "7",
+      "section": "discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLM reliance should vary by task type",
+      "excerpt": "An analyst should not rely on an LLM equally for factual retrieval, causal inference, and valuation judgment.",
+      "page": "17",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "High-stakes decisions require understanding, contestation, audit, and accountability",
+      "excerpt": "help determine whether AI-mediated decisions can be understood, contested, audited, and assigned to accountable parties.",
+      "page": "19",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLM-generated outputs pose governance risks in finance",
+      "excerpt": "an LLM may generate a misleading investment memo; and an agent may take actions that are difficult to reconstruct.",
+      "page": "19",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Explanation design must be governed, especially for LLMs",
+      "excerpt": "explanation design must be governed, not merely deployed. LLMs make this issue sharper because they can generate fluent rationales that sound authoritative without being tied to the actual decision process.",
+      "page": "21",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

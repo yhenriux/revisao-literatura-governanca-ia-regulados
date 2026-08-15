@@ -1,0 +1,191 @@
+{
+  "bibliographic": {
+    "title": "A framework for human evaluation of large language models in healthcare derived from literature review",
+    "authors": "Thomas Yu Chow Tam, Sonish Sivarajkumar, Sumit Kapoor, Alisa V. Stolyar, Katelyn Polanska, Karleigh R. McCarthy, Hunter Osterhoudt, Xizhi Wu, Shyam Visweswaran, Sunyang Fu, Piyush Mathur, Giovanni E. Cacciamani, Cong Sun, Yifan Peng, Yanshan Wang",
+    "year": "2024",
+    "venue": "npj Digital Medicine",
+    "doi": "10.1038/s41746-024-01258-7",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Tam, T. Y. C., Sivarajkumar, S., Kapoor, S., Stolyar, A. V., Polanska, K., McCarthy, K. R., Osterhoudt, H., Wu, X., Visweswaran, S., Fu, S., Mathur, P., Cacciamani, G. E., Sun, C., Peng, Y., & Wang, Y. (2024). A framework for human evaluation of large language models in healthcare derived from literature review. npj Digital Medicine. https://doi.org/10.1038/s41746-024-01258-7"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "literature review with framework development",
+    "study_design": "literature review of 142 studies with proposed evaluation framework (QUEST)",
+    "sample_description": "142 studies on human evaluation methodologies for LLMs in healthcare across various medical specialties",
+    "sample_size": "142",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Human evaluation methodologies for large language models in healthcare; proprietary LLMs (e.g., GPT-4) and open-source LLMs (e.g., LLaMA); applications include medical question answering, clinical decision support, patient monitoring, risk assessment, and health education"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text eligibility assessment",
+    "inclusion_codes": [
+      "LLM_healthcare",
+      "human_evaluation",
+      "human_oversight_adjudication",
+      "safety_trust_evaluation",
+      "regulated_healthcare_context"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article reviews human evaluation methodologies for healthcare LLMs and proposes the QUEST framework with phases including Implementation and Adjudication, plus principles covering Safety and Harm and Trust and Confidence. It directly addresses LLMs in a regulated healthcare setting and human oversight in evaluation, but the primary focus is evaluation methodology rather than operational conversational governance (e.g., guardrails, observability, deployment controls, chatbot governance).",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only page 1 (abstract/introduction) was provided; full review methods, search strategy, and framework operational details are unavailable for complete appraisal and eligibility confirmation."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Clear objective and sample size (142 studies) are stated, and the QUEST framework is described with workflow phases and evaluation principles. Search strategy, inclusion/exclusion criteria, quality appraisal of included studies, and ethics considerations are not visible in the provided excerpt, limiting assessment of transparency and rigor."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The abstract presents a coherent framework derived from a sizable literature review and identifies evaluation gaps, but the excerpt lacks detail on review conduct and validation, so confidence in methodological adequacy for synthesis is moderate rather than high."
+  },
+  "coding": {
+    "open_codes": [
+      "human_evaluation",
+      "literature_review",
+      "QUEST_framework",
+      "evaluation_dimensions",
+      "evaluator_selection",
+      "evaluation_metrics",
+      "statistical_analysis",
+      "safety_and_harm",
+      "trust_and_confidence",
+      "adjudication",
+      "healthcare_LLM_deployment"
+    ],
+    "axial_codes": [
+      "human_oversight",
+      "evaluation_governance",
+      "safety_assessment",
+      "trustworthiness_assessment",
+      "healthcare_regulated_AI"
+    ],
+    "theme": "Human evaluation governance for healthcare LLMs",
+    "subtheme": "Structured evaluation framework with adjudication and safety-trust principles",
+    "concepts": [
+      "QUEST",
+      "Planning",
+      "Implementation and Adjudication",
+      "Scoring and Review",
+      "Quality of Information",
+      "Understanding and Reasoning",
+      "Expression Style and Persona",
+      "Safety and Harm",
+      "Trust and Confidence"
+    ],
+    "model_layers": [
+      "evaluation_workflow",
+      "human_oversight_adjudication",
+      "safety_risk_principle",
+      "trust_confidence_principle"
+    ],
+    "rq_alignment": [
+      "human_oversight",
+      "accountability",
+      "safety",
+      "risk_assessment",
+      "regulated_healthcare_context",
+      "evaluation_methodology"
+    ],
+    "coding_confidence": 0.75
+  },
+  "synthesis": {
+    "main_claim": "A literature review of 142 studies reveals gaps in reliability, generalizability, and applicability of current human evaluation practices for healthcare LLMs, and the authors propose QUEST, a framework for human evaluation covering Planning, Implementation and Adjudication, and Scoring and Review, organized around five principles including Safety and Harm and Trust and Confidence.",
+    "contribution": "Provides a practical, structured framework (QUEST) for human evaluation of LLMs in healthcare, synthesizing evaluation dimensions, sample types, evaluator recruitment, metrics, process, and statistical analysis from existing studies.",
+    "limitations": "Current human evaluation practices for healthcare LLMs show gaps in reliability, generalizability, and applicability; quantitative metrics alone cannot fully evaluate the generative nature of LLMs.",
+    "use_in_review": "Use as supporting evidence on human evaluation governance, adjudication workflows, and safety/trust dimensions for LLMs in regulated healthcare; not primary evidence for operational conversational governance mechanisms such as guardrails, logging, or post-deployment monitoring."
+  },
+  "evidence": [
+    {
+      "claim": "Study is a literature review of 142 studies on human evaluation of healthcare LLMs",
+      "excerpt": "Our literature review of 142 studies shows gaps in reliability, generalizability, and applicability of current human evaluation practices.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Proposes QUEST framework with three workflow phases including adjudication",
+      "excerpt": "we propose QUEST, a comprehensive and practical framework for human evaluation of LLMs covering three phases of workflow: Planning, Implementation and Adjudication, and Scoring and Review.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Framework includes five evaluation principles relevant to safety and trust",
+      "excerpt": "QUEST is designed with five proposed evaluation principles: Quality of Information, Understanding and Reasoning, Expression Style and Persona, Safety and Harm, and Trust and Confidence.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human evaluation is essential for assuring safety and effectiveness of healthcare LLMs",
+      "excerpt": "assessing LLMs with human evaluations is essential to assuring safety and effectiveness.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Healthcare is the regulated application domain",
+      "excerpt": "large language models (LLMs), continuing to make inroads in healthcare",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLMs support question-answering and clinical applications with risk assessment",
+      "excerpt": "LLMs can be leveraged for medical question answering",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLMs can support clinical decision support and risk assessment",
+      "excerpt": "LLMs can support various healthcare applications, such as clinical decision support systems",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Quantitative automatic metrics are insufficient for generative LLM evaluation",
+      "excerpt": "they cannot fully evaluate the generative nature",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Review addresses evaluator selection, metrics, process, and statistical analysis",
+      "excerpt": "addresses factors such as evaluation dimensions, sample types and sizes, selection, and recruitment of evaluators, frameworks and metrics, evaluation process, and statistical analysis type.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Identified gaps limit healthcare LLM development and deployment",
+      "excerpt": "gaps in reliability, generalizability, and applicability of current human evaluation practices. To overcome such significant obstacles to healthcare LLM developments and deployments",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

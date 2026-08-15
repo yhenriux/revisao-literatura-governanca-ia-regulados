@@ -1,0 +1,177 @@
+{
+  "bibliographic": {
+    "title": "A blockchain-enabled IoT framework for smart electro-medical waste management",
+    "authors": "K. Suresh Kumar, T. Ananth Kumar, Christo Ananth, Mathiyazhagan Narayanan, Hari Mohan Rai, Saurabh Agarwal, Wooguil Pak",
+    "year": "2026",
+    "venue": "Scientific Reports",
+    "doi": "10.1038/s41598-026-45930-2",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Kumar, K. S., Kumar, T. A., Ananth, C., Narayanan, M., Rai, H. M., Agarwal, S., & Pak, W. (2026). A blockchain-enabled IoT framework for smart electro-medical waste management. Scientific Reports. https://doi.org/10.1038/s41598-026-45930-2"
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "blockchain-integrated IoT with edge CNN computer vision prototype evaluation",
+    "study_design": "prototype-scale experimental testbed with system-level performance metrics",
+    "sample_description": "prototype-scale experimental testbed for BIOT-EMW framework; no human participants described",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "IoT sensing, blockchain auditability, edge convolutional neural network classification for electro-medical waste lifecycle management"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_NO_LLM",
+      "E_NO_CONVERSATIONAL_AI",
+      "E_TOPIC_MISMATCH"
+    ],
+    "exclusion_reason": "The study addresses electro-medical waste management using blockchain, IoT, and edge CNN computer vision; it does not study LLMs, conversational AI, chatbots, agents, RAG, or conversational governance mechanisms.",
+    "decision_rationale": "Although the article mentions healthcare regulation, traceability, auditability, transparency, accountability, and AI/deep learning in a generic sense, its core contribution is a BIOT-EMW technical framework for waste lifecycle tracking and edge image classification. These governance terms refer to blockchain audit trails and operational compliance in waste management, not governance of conversational LLM systems in regulated settings. High Python triage scores appear driven by keyword overlap rather than substantive alignment with the review scope.",
+    "decision_confidence": 0.96,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic and technology mismatch with review scope is explicit in the provided text; exclusion does not depend on ambiguous interpretation."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal reflects only signals in the provided excerpts. The study reports concrete operational metrics (latency, delay, bandwidth, power, utilization, scalability) for a prototype system, but ethics, human-subject considerations, and detailed limitations are minimally evidenced in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "Within-review relevance is very low because the work is not about conversational or LLM-based systems. Methodological confidence for the review is limited by prototype-scale evaluation and sparse reporting on ethics and generalizability in the provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "blockchain auditability",
+      "IoT real-time monitoring",
+      "edge CNN classification",
+      "regulatory compliance",
+      "traceability",
+      "operational safety",
+      "prototype testbed evaluation"
+    ],
+    "axial_codes": [
+      "technical traceability governance",
+      "healthcare waste compliance",
+      "distributed edge intelligence"
+    ],
+    "theme": "Blockchain-IoT traceability for regulated healthcare waste operations",
+    "subtheme": "Edge computer vision automation for electro-medical waste classification",
+    "concepts": [
+      "traceability",
+      "auditability",
+      "transparency",
+      "accountability",
+      "regulatory compliance",
+      "security",
+      "privacy",
+      "scalability"
+    ],
+    "model_layers": [
+      "infrastructure",
+      "data/ledger",
+      "edge inference",
+      "operational monitoring"
+    ],
+    "rq_alignment": [
+      "limited overlap via generic accountability/compliance language only; no conversational governance or LLM control mechanisms"
+    ],
+    "coding_confidence": 0.93
+  },
+  "synthesis": {
+    "main_claim": "The BIOT-EMW framework integrates IoT sensing, blockchain-based auditability, and edge CNN classification to enable secure, transparent, and scalable electro-medical waste lifecycle management in healthcare settings.",
+    "contribution": "Provides an integrated technical architecture and prototype-scale performance evidence for automated EMW handling with system metrics such as latency, communication delay, bandwidth, power consumption, resource utilization, and scalability.",
+    "limitations": "Provided text emphasizes system-level operational metrics rather than exhaustive model-level benchmarking; scalability and integration with limited IoT devices are noted as feasible issues in related blockchain waste-management literature.",
+    "use_in_review": "Exclude from central evidence on conversational LLM governance. At most, peripheral contextual reference if the review separately covers non-conversational audit/traceability mechanisms in regulated healthcare operations, but not for LLM governance claims."
+  },
+  "evidence": [
+    {
+      "claim": "Article focus is blockchain-IoT waste management, not LLMs or conversational systems",
+      "excerpt": "this work proposes a blockchain-integrated Internet of Things framework, termed BIOT-EMW, which combines IoT sensing, blockchain-based auditability, and edge-level intelligence",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Edge AI used is CNN computer vision, not large language models",
+      "excerpt": "A convolutional neural network-based computer vision module is deployed at the edge to automate EMW classification",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated healthcare context is present",
+      "excerpt": "traceability, regulatory compliance, and operational safety in healthcare environments",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance terms refer to waste-management operations, not conversational AI governance",
+      "excerpt": "blockchain use can enhance accountability and regulatory compliance, but performance, scalability, and integration with limited IoT devices remain feasible issues",
+      "page": "2",
+      "section": "discussion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study design is prototype experimental evaluation with operational metrics",
+      "excerpt": "In a prototype-scale experimental testbed, the BIOT-EMW framework shows feasible and efficient operation",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Reported results include specific latency and scalability metrics",
+      "excerpt": "edge-level processing latency ranges from 3.45 to 9.33 ms",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Deep learning role is image classification at the edge",
+      "excerpt": "Computer vision and deep learning techniques, particularly convolutional neural networks (CNNs), have demonstrated strong performance in visual recognition tasks",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Blockchain supports transparency and audit trails in distributed systems",
+      "excerpt": "Blockchain technology has emerged as a promising solution for enhancing transparency, trust, and auditability in distributed systems",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational interaction or dialogue system is described",
+      "excerpt": "allowing seamless interaction with existing waste management infrastructure and systems",
+      "page": "4",
+      "section": "limitations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Evaluation emphasizes system-level rather than model-level benchmarking",
+      "excerpt": "performance evaluation of the proposed BIOT-EMW system emphasizes system-level operational metrics, including latency, delay, bandwidth, power consumption, resource utilization, and scalability, rather than exhaustive model-level benchmarking",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "Will ChatGPT transform healthcare?",
+    "authors": "unclear",
+    "year": "2023",
+    "venue": "Nature Medicine",
+    "doi": "10.1038/s41591-023-02289-5",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "unclear. (2023). Will ChatGPT transform healthcare? Nature Medicine, 29(3), 505–506. https://doi.org/10.1038/s41591-023-02289-5"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "editorial",
+    "study_design": "editorial",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "ChatGPT and other large language models applied to healthcare communication, peer support, and potential medical advice"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_HEALTHCARE",
+      "REGULATED_DOMAIN",
+      "CONVERSATIONAL_CONTEXT"
+    ],
+    "exclusion_codes": [
+      "NOT_GOVERNANCE_FOCUS",
+      "NOT_EMPIRICAL",
+      "EDITORIAL_OPINION"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "Editorial in Nature Medicine discussing potential benefits and risks of ChatGPT and LLMs in healthcare, including conversation, trust, and brief mention of safeguards and regulatory lag. Relevant as contextual background on LLMs in regulated healthcare but does not present empirical research or operational conversational governance mechanisms aligned with the review focus.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage scored borderline_manual (58.67/100, grade C); article is editorial with tangential governance signals (trust, safeguards, regulators) requiring human adjudication against inclusion criteria."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 1,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Opinion editorial without empirical design, sampling, or formal analysis. Appraisal adapted to non-research genre; scores reflect limited methodological content rather than study quality failure."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 3,
+    "adequacy": 1,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "Editorial argument is internally coherent on LLM opportunities and pitfalls in healthcare, but provides no primary data or governance framework. Adequacy for answering governance-focused review questions is low; relevance is partial via regulated healthcare context and brief safeguards discussion."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM_in_healthcare",
+      "human_like_conversation",
+      "patient_communication",
+      "peer_mental_health_support",
+      "anthropomorphic_trust",
+      "misuse_of_medical_advice",
+      "safeguards_needed",
+      "regulatory_lag"
+    ],
+    "axial_codes": [
+      "clinical_application_potential",
+      "communication_enhancement",
+      "public_health_risk",
+      "governance_gap"
+    ],
+    "theme": "Potential and risks of conversational LLMs in healthcare",
+    "subtheme": "Trust, misuse, and need for safeguards in public-facing medical advice",
+    "concepts": [
+      "large language models",
+      "ChatGPT",
+      "human-like conversation",
+      "compliance with prescriptions",
+      "trust",
+      "safeguards",
+      "regulators",
+      "government"
+    ],
+    "model_layers": [
+      "application_layer",
+      "user_interaction_layer"
+    ],
+    "rq_alignment": [
+      "regulated_healthcare_context",
+      "conversational_AI_applications",
+      "risk_and_trust_considerations"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "ChatGPT and other LLMs may enhance healthcare delivery through improved communication and peer-support interventions, but require tailoring to clinical tasks, formal evaluation against clinical standards, and safeguards against dangerous public use as a substitute for expert medical advice.",
+    "contribution": "Foundational contextual framing on LLM adoption in healthcare, highlighting conversational affordances, trust risks from anthropomorphic interaction, and the gap between technology pace and regulatory capacity.",
+    "limitations": "Editorial format without empirical methods, governance architecture, or operational oversight mechanisms; text provided is partial and truncated.",
+    "use_in_review": "Use as foundational contextual reference for regulated healthcare adoption of conversational LLMs and high-level risk/trust concerns; not suitable as central evidence on conversational governance, audit, observability, or human oversight."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a Nature Medicine editorial on ChatGPT/LLMs in healthcare published March 2023.",
+      "excerpt": "nature medicine Volume 29 | March 2023 | 505–506 | 505 https://doi.org/10.1038/s41591-023-02289-5 Editorial Will ChatGPT transform healthcare?",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Focuses on specific LLM (ChatGPT) in healthcare regulated context.",
+      "excerpt": "ChatGPT and other large language models may be able to enhance healthcare delivery and patients' quality of life.",
+      "page": "1",
+      "section": "editorial body",
+      "supports": "coding"
+    },
+    {
+      "claim": "Addresses conversational capability of LLMs.",
+      "excerpt": "ChatGPT's ability to engage people with human-like conversation serves as a reminder of how important language and communication are",
+      "page": "1",
+      "section": "editorial body",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Mentions compliance in clinical communication context.",
+      "excerpt": "it could help to improve compliance with medical prescriptions, by making the language more accessible to the patient",
+      "page": "1",
+      "section": "editorial body",
+      "supports": "coding"
+    },
+    {
+      "claim": "Raises trust risk when conversational models mimic human responses.",
+      "excerpt": "People tend to more naturally trust something that mimics human behaviors and responses, such as the responses generated by ChatGPT.",
+      "page": "1",
+      "section": "editorial body",
+      "supports": "coding"
+    },
+    {
+      "claim": "Warns against using conversational models in lieu of professional medical advice.",
+      "excerpt": "people could be tempted to use conversational models for applications for which they were not designed, and in lieu of professional medical advice",
+      "page": "1",
+      "section": "editorial body",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Calls for safeguards against dangerous uses.",
+      "excerpt": "the use of ChatGPT and other language models in healthcare will require careful consideration to ensure that safeguards are in place to protect against potentially dangerous uses",
+      "page": "1",
+      "section": "editorial body",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Notes regulatory/government lag relative to technology pace.",
+      "excerpt": "these technologies are evolving at a much faster pace than the regulators, government and advocates can cope.",
+      "page": "1",
+      "section": "editorial body",
+      "supports": "coding"
+    },
+    {
+      "claim": "No empirical study design or sample described.",
+      "excerpt": "Editorial Will ChatGPT transform healthcare?",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Highlights need for formal clinical evaluation after task-specific training.",
+      "excerpt": "the evidence accumulated so far highlights the need for extensive and formal evaluation of language models against standard clinical practices after they have been trained for specific clinical tasks",
+      "page": "1",
+      "section": "editorial body",
+      "supports": "synthesis"
+    }
+  ]
+}

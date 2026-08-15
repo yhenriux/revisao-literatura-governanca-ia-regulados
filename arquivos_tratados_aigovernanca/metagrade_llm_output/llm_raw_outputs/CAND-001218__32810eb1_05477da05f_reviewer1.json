@@ -1,0 +1,181 @@
+{
+  "bibliographic": {
+    "title": "Towards Clinical Generative Artificial Intelligence: Conceptual Framework",
+    "authors": "Nicola Bragazzi, Sergio Garbarino",
+    "year": "2023",
+    "venue": "JMIR Preprints (submitted to JMIR AI)",
+    "doi": "10.2196/preprints.55957",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Bragazzi, N., & Garbarino, S. (2023). Towards clinical generative artificial intelligence: Conceptual framework. JMIR Preprints. https://doi.org/10.2196/preprints.55957"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual framework development",
+    "study_design": "unclear",
+    "sample_description": "not applicable",
+    "sample_size": "not applicable",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "generative artificial intelligence applied to clinical decision-making"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "genai_governance",
+      "regulated_healthcare",
+      "human_oversight",
+      "conceptual_framework"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "O texto fornecido descreve um framework conceitual para IA generativa clinica com enfase em verificacao, supervisao humana (clinician-, expert-, patient-in-the-loop), compliance etico-legal e aprendizagem continua em saude regulada. Ha forte alinhamento com governanca de GenAI em contexto regulado, mas pouca ou nenhuma evidencia explicita no excerto sobre governanca conversacional, chatbots, agentes, RAG, guardrails, observabilidade ou mecanismos operacionais de auditoria/logs.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Apenas front matter, abstract e trechos parciais foram fornecidos; os onze paradigmas de verificacao e o desenho metodologico completo nao estao integralmente disponiveis para adjudicacao definitiva."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Estudo conceitual com objetivo explicito de enquadrar IA generativa clinica de forma verificavel, explicavel, justa e responsavel. Rigor metodologico empirico nao aplicavel; avaliacao limitada pelos excertos disponiveis, sem acesso ao corpo completo do manuscrito."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "O framework e coerente e relevante para governanca de GenAI em saude, mas a evidencia textual fornecida e predominantemente abstrata e conceitual, com pouca especificidade sobre sistemas conversacionais ou controles operacionais pos-implantacao exigidos pelo escopo da revisao."
+  },
+  "coding": {
+    "open_codes": [
+      "verification paradigms",
+      "clinician-in-the-loop",
+      "expert-in-the-loop",
+      "patient-in-the-loop",
+      "evidence-based AI",
+      "hallucinations",
+      "continuous learning",
+      "ethical legal compliance",
+      "clinical auditing"
+    ],
+    "axial_codes": [
+      "human oversight",
+      "accountability and fairness",
+      "risk in clinical GenAI",
+      "regulated healthcare governance"
+    ],
+    "theme": "Governanca conceitual de IA generativa clinica",
+    "subtheme": "Supervisao humana e verificacao de evidencias em decisao clinica",
+    "concepts": [
+      "eleven verification paradigms",
+      "clinically explainable fair and responsible AI",
+      "clinician-expert-patient-in-the-loop AI",
+      "evidence-based clinical decision-making"
+    ],
+    "model_layers": [
+      "oversight",
+      "accountability",
+      "compliance",
+      "continuous learning",
+      "risk management"
+    ],
+    "rq_alignment": [
+      "human oversight",
+      "accountability",
+      "compliance in regulated healthcare",
+      "generative AI governance"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "O artigo propoe onze paradigmas de verificacao e um modelo de IA clinicamente explicavel, justa e responsavel com clinician-, expert- e patient-in-the-loop para integrar IA generativa a decisao clinica baseada em evidencias.",
+    "contribution": "Oferece um framework conceitual que articula capacidades de IA generativa com julgamento clinico, transparencia, etica, compliance e aprendizagem continua em ambientes de saude.",
+    "limitations": "Preprint em revisao; excertos fornecidos nao detalham integralmente os onze paradigmas nem evidenciam governanca conversacional ou controles tecnicos-operacionais especificos.",
+    "use_in_review": "Util como evidencia fundacional/contextual sobre governanca de GenAI em saude regulada e supervisao humana, mas nao como estudo central sobre governanca conversacional em LLMs."
+  },
+  "evidence": [
+    {
+      "claim": "O trabalho e um framework conceitual para IA generativa clinica",
+      "excerpt": "Towards Clinical Generative Artificial Intelligence: Conceptual Framework",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Documento e preprint submetido e em revisao",
+      "excerpt": "currently under peer-review/community review",
+      "page": "1",
+      "section": "disclaimer",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Foco em decisao clinica com IA generativa",
+      "excerpt": "The advent of generative Artificial Intelligence (AI) presents a revolutionary opportunity in clinical decision-making.",
+      "page": "3",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Propoe onze paradigmas de verificacao",
+      "excerpt": "eleven \"verification paradigms\" are here proposed",
+      "page": "3",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Modelo com supervisao humana multiator",
+      "excerpt": "clinically explainable, fair, and responsible, clinician-, expert-, and patient-in-the-loop AI",
+      "page": "3",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "IA deve aumentar e nao substituir julgamento clinico",
+      "excerpt": "The integration of AI should enhance, not replace, the clinician's judgment",
+      "page": "3",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Enfatiza aprendizagem continua e compliance etico-legal",
+      "excerpt": "continuous learning and adaptation based on real-world outcomes and ethical and legal compliance",
+      "page": "3",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Risco de alucinacoes em contexto medico",
+      "excerpt": "generative AI can produce \"hallucinations\" or even \"fabrications\" and \"falsifications\"",
+      "page": "7",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Menciona revisao e auditoria de decisoes clinicas",
+      "excerpt": "reviewing and auditing clinical decisions and outcomes to continuously learn and improve decision-making skills",
+      "page": "7",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Necessidade de conhecimento evidence-based e confiavel",
+      "excerpt": "ensure that it produces evidence-based, reliable, and impactful knowledge",
+      "page": "3",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

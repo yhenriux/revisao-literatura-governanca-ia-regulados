@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "Bias and Unfairness in Information Retrieval Systems: New Challenges in the LLM Era",
+    "authors": "Sunhao Dai; Chen Xu; Shicheng Xu; Liang Pang; Zhenhua Dong; Jun Xu",
+    "year": "2024",
+    "venue": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '24)",
+    "doi": "10.1145/3637528.3671458",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Dai, S., Xu, C., Xu, S., Pang, L., Dong, Z., & Xu, J. (2024). Bias and unfairness in information retrieval systems: New challenges in the LLM era. In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '24) (pp. 1-11). ACM. https://doi.org/10.1145/3637528.3671458"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "literature survey",
+    "study_design": "comprehensive survey with taxonomy and staged categorization",
+    "sample_description": "existing works on bias and unfairness in information retrieval systems integrated with LLMs",
+    "sample_size": "unclear",
+    "sector": "information retrieval (search engines, recommender systems)",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-integrated information retrieval systems including search engines and recommender systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM",
+      "bias_fairness",
+      "mitigation_framework",
+      "survey"
+    ],
+    "exclusion_codes": [
+      "not_conversational_governance",
+      "not_regulated_domain",
+      "IR_focus_not_chatbot_agent"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper is a peer-reviewed KDD survey on bias and unfairness in LLM-integrated information retrieval systems, offering a distribution-mismatch taxonomy and mitigation strategies across data collection, model development, and result evaluation. It is relevant to governance-related fairness and risk themes but does not address conversational governance, chatbots, agents, RAG operational governance, audit/observability, human oversight, or regulated high-stakes domains in the provided text.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only page 1/front matter was provided; full survey scope, inclusion criteria, and conversational or regulated-domain coverage cannot be fully verified."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Clear survey objective and staged analytical framework are evident, but the provided excerpt does not describe literature search strategy, inclusion/exclusion criteria, or number of reviewed studies. Transferability to conversational governance in regulated environments is limited based on available text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The review presents a coherent distribution-mismatch framing and staged bias taxonomy, but available evidence is limited to the abstract and introduction. Relevance to the review's core focus on conversational governance in regulated settings is partial at best."
+  },
+  "coding": {
+    "open_codes": [
+      "bias",
+      "unfairness",
+      "distribution mismatch",
+      "distribution alignment",
+      "mitigation strategies",
+      "data collection",
+      "model development",
+      "result evaluation",
+      "search engines",
+      "recommender systems"
+    ],
+    "axial_codes": [
+      "algorithmic fairness",
+      "LLM integration risks",
+      "technical mitigation"
+    ],
+    "theme": "Bias and fairness challenges in LLM-enabled information retrieval",
+    "subtheme": "Staged taxonomy of bias sources and mitigation via distribution alignment",
+    "concepts": [
+      "distribution mismatch",
+      "distribution alignment",
+      "LLM-generated data",
+      "passive retrieval to proactive generation",
+      "LLMs as results evaluators"
+    ],
+    "model_layers": [
+      "data layer",
+      "model layer",
+      "evaluation layer"
+    ],
+    "rq_alignment": [
+      "bias mitigation",
+      "fairness governance",
+      "LLM risk in retrieval systems"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Integrating LLMs into information retrieval systems creates new bias and unfairness risks that can be unified as distribution mismatch problems and analyzed across data collection, model development, and result evaluation, with corresponding mitigation via distribution alignment.",
+    "contribution": "Provides a comprehensive survey, unifying framework, staged categorization of bias/unfairness issues, review of mitigation strategies, and identification of open problems for LLM-era IR systems.",
+    "limitations": "Based on provided text, the study does not cover conversational systems, human oversight, auditability, compliance, or regulated-domain deployment; full review methods and corpus size are unclear from the excerpt.",
+    "use_in_review": "Use as foundational contextual evidence for bias, fairness, and mitigation framing in LLM-integrated systems, especially retrieval-oriented architectures; not central evidence for conversational governance in regulated environments."
+  },
+  "evidence": [
+    {
+      "claim": "Paper is a comprehensive survey on bias and unfairness in LLM-integrated IR systems.",
+      "excerpt": "we present a comprehensive survey of existing works on emerging and pressing bias and unfairness issues in IR systems when the integration of LLMs",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Focus is information retrieval systems such as search engines and recommender systems, not conversational governance.",
+      "excerpt": "information retrieval (IR) systems, such as search engines and recommender systems, have undergone a significant paradigm shift",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors unify bias and unfairness as distribution mismatch and organize mitigation through distribution alignment.",
+      "excerpt": "We first unify bias and unfairness issues as distribution mismatch problems, providing a groundwork for categorizing various mitigation strategies through distribution alignment",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Three-stage framework covers data collection, model development, and result evaluation.",
+      "excerpt": "specific bias and unfairness issues arising from three critical stages of LLMs integration into IR systems: data collection, model development, and result evaluation",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLM integration redefines IR through new data sources, generative paradigms, and LLM-based evaluation.",
+      "excerpt": "the introduction of LLM-generated data as new IR data sources, the shift from passive retrieval to proactive generation as core paradigms, and adopting LLMs as results evaluators for IR systems",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Bias risks include factual deviation, stereotyping, and amplification of socioeconomic disparities.",
+      "excerpt": "LLMs often retrieve information that deviates from facts and is biased towards LLM-generated content",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Societal harms such as echo chambers and cognitive interference are noted.",
+      "excerpt": "potentially contributing to societal issues like echo chambers [30, 134] and cognitive interference [104, 132]",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No regulated-domain context is evidenced in the provided text.",
+      "excerpt": "search engines and recommender systems",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Peer-reviewed ACM conference publication with DOI.",
+      "excerpt": "In Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '24), August 25–29, 2024, Barcelona, Spain",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors identify open problems and future challenges.",
+      "excerpt": "we identify and highlight some open problems and challenges for future work",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "bibliographic": {
+    "title": "Who Governs the Machine? A Machine Identity Governance Taxonomy (MIGT) for AI Systems Operating Across Enterprise and Geopolitical Boundaries",
+    "authors": "Andrew Kurtz; Klaudia Krawiecka",
+    "year": "2026",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Kurtz, A., & Krawiecka, K. (2026). Who governs the machine? A machine identity governance taxonomy (MIGT) for AI systems operating across enterprise and geopolitical boundaries. arXiv:2604.06148v1."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "taxonomy and framework development; threat modeling; cross-jurisdictional regulatory mapping",
+    "study_design": "conceptual framework paper proposing AI-Identity Risk Taxonomy (AIRT), Machine Identity Governance Taxonomy (MIGT), foreign state actor threat model, and cross-jurisdictional regulatory alignment structure with four-phase implementation roadmap",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "enterprise AI governance, cybersecurity, identity and access management, cross-jurisdictional policy",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "machine identity governance for AI agents, service accounts, API tokens, automated workflows, agentic AI, generative AI, foundation models/GPAI, LLM-agent workflows, enterprise IAM"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "AI_governance",
+      "agentic_AI",
+      "LLM_agents",
+      "regulated_context",
+      "risk_taxonomy",
+      "cross_jurisdictional_compliance"
+    ],
+    "exclusion_codes": [
+      "conversational_governance_not_primary",
+      "machine_identity_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper directly addresses AI governance, agentic AI, LLM agents, risk taxonomies, compliance, and regulated jurisdictions (EU, U.S., China), but its primary contribution is machine identity governance rather than conversational governance, chatbots, or conversational oversight mechanisms central to the review scope.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Verify whether identity-governance framing for agentic/LLM systems is sufficiently aligned with conversational governance inclusion criteria versus foundational cybersecurity/IAM literature."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Conceptual taxonomy/framework paper grounded in documented incidents, regulatory recognition, practitioner prevalence data, and threat intelligence per abstract; no primary empirical sample described in provided text. Limitations section not visible in excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Coherent and clearly articulated governance framework with strong regulatory and enterprise security relevance, but limited direct fit to conversational LLM governance and no empirical validation described in the provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "machine identity governance",
+      "agentic AI",
+      "generative AI vs agentic AI distinction",
+      "AI-Identity Risk Taxonomy (AIRT)",
+      "Machine Identity Governance Taxonomy (MIGT)",
+      "cross-jurisdictional regulatory conflict",
+      "foreign state actor threat model",
+      "enterprise IAM gap",
+      "LLM-agent protocol vulnerabilities",
+      "human oversight gaps in multi-step execution"
+    ],
+    "axial_codes": [
+      "AI governance frameworks",
+      "identity and access management",
+      "regulatory compliance",
+      "geopolitical risk",
+      "agent security"
+    ],
+    "theme": "Machine identity governance for AI systems",
+    "subtheme": "Cross-jurisdictional regulatory alignment for enterprise AI identity programs",
+    "concepts": [
+      "MIGT",
+      "AIRT",
+      "agentic AI",
+      "non-human identity",
+      "EU AI Act",
+      "GPAI",
+      "privilege abuse",
+      "cross-jurisdictional governance"
+    ],
+    "model_layers": [
+      "risk taxonomy",
+      "governance taxonomy",
+      "threat model",
+      "regulatory alignment structure",
+      "implementation roadmap"
+    ],
+    "rq_alignment": [
+      "governance of generative/agentic AI in regulated environments",
+      "risk and compliance for LLM-based agents",
+      "accountability gaps in autonomous AI execution"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Enterprise AI governance has a blind spot around machine identities used by AI agents and automated workflows, requiring an integrated identity-focused taxonomy and cross-jurisdictional governance framework.",
+    "contribution": "Proposes AIRT (37 risk sub-categories across eight domains), MIGT (six governance domains), a foreign state actor threat model, and a cross-jurisdictional regulatory alignment structure for EU, U.S., and Chinese obligations, plus a four-phase implementation roadmap.",
+    "limitations": "Provided excerpt does not include an explicit limitations section; empirical validation and conversational-governance applicability are unclear from supplied text.",
+    "use_in_review": "Use as supporting evidence on governance of agentic/LLM-based AI systems in regulated enterprise contexts, especially identity, access, compliance, and cross-jurisdictional risk—not as central evidence on conversational governance, guardrails, or dialogue-level oversight."
+  },
+  "evidence": [
+    {
+      "claim": "Paper proposes integrated machine identity governance framework for AI systems",
+      "excerpt": "yet no integrated framework exists to govern them",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Four original contributions including AIRT and MIGT",
+      "excerpt": "There are four original contributions to the emerging field of AI identity governance within.",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "AIRT enumerates identity-related AI risks",
+      "excerpt": "it proposes the AI-Identity Risk Taxonomy (AIRT), a comprehensive enumeration of risks arising specifically at the intersection of AI systems and enterprise identity governance, comprising 37 risk sub-categories across eight domains",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "MIGT addresses technical, regulatory, and cross-jurisdictional governance gaps",
+      "excerpt": "it introduces the Machine Identity Governance Taxonomy (MIGT), an integrated governance framework organized across six domains that simultaneously addresses the technical governance gap, the regulatory compliance gap, and the cross-jurisdictional coordination gap",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Cross-jurisdictional regulatory mapping for EU, U.S., and China",
+      "excerpt": "it proposes the cross-jurisdictional regulatory alignment structure mapping enterprise AI identity governance obligations under EU, U.S., and Chinese frameworks simultaneously",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Agentic AI acts autonomously and differs from generative AI",
+      "excerpt": "Agentic AI systems differ from earlier generative AI systems in that they act, not merely respond.",
+      "page": "3",
+      "section": "Glossary of Key Terms",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Tool usage under agent identity creates privilege and exfiltration risk",
+      "excerpt": "each tool invocation represents an authenticated action performed under the agent's identity and within the scope of its provisioned credentials, making tool usage a primary vector for both privilege abuse and exfiltration",
+      "page": "3",
+      "section": "Glossary of Key Terms",
+      "supports": "coding"
+    },
+    {
+      "claim": "Multi-step autonomous execution may proceed without human oversight between steps",
+      "excerpt": "an agentic AI system plans and executes sequences of actions across time, accumulating context, state, and effective access across each step without necessarily returning to human oversight between the",
+      "page": "3",
+      "section": "Glossary of Key Terms",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "EU AI Act is binding risk-based AI regulation with GPAI obligations",
+      "excerpt": "EU AI Act. The European Union's Artificial Intelligence Act, which entered into force on August 1, 2024 and is the world's first comprehensive binding AI regulation.",
+      "page": "5",
+      "section": "Glossary of Key Terms",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "GPAI defined as foundation model under EU AI Act",
+      "excerpt": "GPAI (General-Purpose AI Model). Under the EU AI Act, a foundation model trained on broad data at scale that can perform a wide range of tasks.",
+      "page": "5",
+      "section": "Glossary of Key Terms",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Transition from generative to agentic AI outpaced governance maturation",
+      "excerpt": "from generative AI systems that respond to agentic AI systems that act, plan, delegate, and accumulate access has occurred within a timeframe measured in months rather than the years or decades over which prior technology transitions allowed governance frameworks to mature",
+      "page": "11",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLMs show divergent value patterns across national and cultural contexts",
+      "excerpt": "Empirical research confirms that large language models exhibit measurably divergent value patterns across national and cultural contexts, reflecting the normative environments of their training data and alignment processes.",
+      "page": "16",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Prior generative AI governance taxonomy does not cover identity/access risks",
+      "excerpt": "Their taxonomy focuses on generative AI outputs and capabilities rather than the identity and access governance risks that arise when AI systems are granted enterprise identities and act as autonomous agents.",
+      "page": "23",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM agents inherit LLM vulnerabilities plus agent-specific threats",
+      "excerpt": "AI agents inherit LLM vulnerabilities while introducing agent-specific threats whose impacts extend far beyond those of the underlying model.",
+      "page": "25",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Existing frameworks inadequate for agentic AI identity governance",
+      "excerpt": "All confirm the core argument that existing frameworks are inadequate for agentic AI, but none provides the identity-specific framing, comprehensive risk taxonomy, or cross-jurisdictional regulatory mapping that constitute this paper's primary contributions.",
+      "page": "25",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "China implemented binding generative AI regulations",
+      "excerpt": "the Interim Measures for Generative AI Services (August 2023), making China the first country in the world to implement binding generative AI regulations",
+      "page": "29",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Paper targets policymakers, regulators, and practitioners at AI governance-cybersecurity-geopolitical intersection",
+      "excerpt": "The paper is addressed to policy makers, regulators, and practitioners operating at the intersection of AI governance, cybersecurity, and geopolitical risk.",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Preprint status without peer review indication",
+      "excerpt": "arXiv:2604.06148v1 [cs.CR] 7 Apr 2026",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "bibliographic": {
+    "title": "100 Opportunities for More Inclusive Ocean Research: Cross-Disciplinary Research Questions for Sustainable Ocean Governance and Management",
+    "authors": "Wisz MS, Satterthwaite EV, Fudge M, Fischer M, Polejack A, St. John M, Fletcher S, Rudd MA",
+    "year": "2020",
+    "venue": "Frontiers in Marine Science",
+    "doi": "10.3389/fmars.2020.00576",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Wisz, M. S., Satterthwaite, E. V., Fudge, M., Fischer, M., Polejack, A., St. John, M., Fletcher, S., & Rudd, M. A. (2020). 100 Opportunities for More Inclusive Ocean Research: Cross-Disciplinary Research Questions for Sustainable Ocean Governance and Management. Frontiers in Marine Science, 7, 576. https://doi.org/10.3389/fmars.2020.00576"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "horizon scanning synthesis with supplemental literature text analysis",
+    "study_design": "three-part strategy: review horizon scanning literature, conduct text analysis of ocean science literature (1997-2017), formulate general policy-relevant questions",
+    "sample_description": "89 questions identified from major science and policy horizon scanning exercises, supplemented with 11 additional questions from broad ocean science literature scan",
+    "sample_size": "100 questions",
+    "sector": "marine and ocean science, policy, and governance",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "ocean governance and management research agenda; no AI, LLM, or conversational systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_off_topic_technology",
+      "E2_no_llm_genai",
+      "E3_no_conversational_systems"
+    ],
+    "exclusion_reason": "The article synthesizes cross-disciplinary ocean policy and governance research questions; it does not address LLMs, generative AI, conversational systems, or governance mechanisms for such technologies.",
+    "decision_rationale": "Despite lexical overlap on terms such as governance, policy, law, and interaction, the study concerns sustainable ocean research agendas and marine environmental governance. No evidence in the provided text links the work to conversational AI, chatbots, agents, RAG, guardrails, or LLM deployment in regulated settings.",
+    "decision_confidence": 0.97,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is explicit in title, abstract, methods, and results; exclusion does not depend on ambiguous terminology."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Methodologically appropriate for a horizon-scanning synthesis in marine policy, but not transferable to conversational LLM governance. Limitations section not visible in provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "High internal coherence for ocean governance agenda-setting, but very low relevance to the review scope on conversational governance of LLM-based systems; no qualitative findings about AI governance mechanisms are present."
+  },
+  "coding": {
+    "open_codes": [
+      "ocean governance",
+      "horizon scanning",
+      "cross-disciplinary research questions",
+      "stakeholder engagement",
+      "policy-relevant synthesis",
+      "UN Decade of Ocean Science"
+    ],
+    "axial_codes": [
+      "environmental policy research agenda",
+      "marine sustainability governance",
+      "inclusive transdisciplinary science"
+    ],
+    "theme": "sustainable ocean governance research agenda",
+    "subtheme": "inclusive cross-disciplinary question synthesis",
+    "concepts": [
+      "ocean governance and management",
+      "horizon scanning",
+      "stakeholder interaction",
+      "policy-informed research directions",
+      "transdisciplinary science"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.95
+  },
+  "synthesis": {
+    "main_claim": "The authors synthesized 100 unprioritized, cross-disciplinary research questions intended to inform ocean policy and sustainable ocean governance.",
+    "contribution": "Provides a categorized inventory of ocean policy research questions drawn from horizon scans and supplemental literature review to guide the UN Decade of Ocean Science.",
+    "limitations": "Questions are general and unprioritized; contextual customization by ecosystem, region, and socio-political setting is required; limitations section not evidenced in provided excerpts.",
+    "use_in_review": "Exclude from the conversational LLM governance evidence base; governance and policy terms reflect marine environmental governance, not AI or conversational system governance."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on ocean policy research questions, not AI or LLM systems",
+      "excerpt": "100 general questions that would require a cross-disciplinary approach to inform policy",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study design is horizon scanning synthesis of ocean governance literature",
+      "excerpt": "We used a three-part strategy to identify important ocean policy research questions for inclusion in our synthesis.",
+      "page": "3",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample comprises 100 ocean policy questions from horizon scans plus literature supplementation",
+      "excerpt": "identifying 89 questions with relevance for ocean policy and governance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Results organized into marine governance themes, not AI technology governance",
+      "excerpt": "governance for sustainable oceans, ocean value, and technological and socio-economic innovation",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance framing refers to ocean management and environmental policy",
+      "excerpt": "Governance and management responses to these questions will best be informed by drawing upon a diversity of natural and social sciences",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Stakeholder interaction refers to inclusive ocean research, not conversational AI interaction",
+      "excerpt": "through the interaction with stakeholders and publics/citizens",
+      "page": "14",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Trust discussed in science-policy uptake context for environmental challenges",
+      "excerpt": "help to build mutual confidence and trust between science and policy makers",
+      "page": "9",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Peer-reviewed journal article in Frontiers in Marine Science",
+      "excerpt": "REVIEW published: 06 August 2020 doi: 10.3389/fmars.2020.00576",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Objective is to inform ocean decision making and policy through cross-disciplinary research",
+      "excerpt": "In order to inform decision making and policy, research to address sustainability challenges requires cross-disciplinary approaches",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No LLM, generative AI, or conversational system content appears in provided text",
+      "excerpt": "Keywords: ocean governance and management, interdisciplinary and transdisciplinary science",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

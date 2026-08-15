@@ -1,0 +1,226 @@
+{
+  "bibliographic": {
+    "title": "AI Trust OS — A Continuous Governance Framework for Autonomous AI Observability and Zero-Trust Compliance in Enterprise Environments",
+    "authors": "Eranga Bandara, Asanga Gunaratna, Ross Gore, Abdul Rahman, Ravi Mukkamala, Sachin Shetty, Sachini Rajapakse, Isurunima Kularathna, Peter Foytik, Safdar H. Bouk, Xueping Liang, Amin Hass, Ng Wee Keong, Kasun De Zoysa",
+    "year": "2026",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Bandara, E., Gunaratna, A., Gore, R., Rahman, A., Mukkamala, R., Shetty, S., Rajapakse, S., Kularathna, I., Foytik, P., Bouk, S. H., Liang, X., Hass, A., Keong, N. W., & De Zoysa, K. (2026). AI Trust OS — A continuous governance framework for autonomous AI observability and zero-trust compliance in enterprise environments. arXiv preprint arXiv:2604.04749v1."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "framework and architecture development",
+    "study_design": "conceptual governance framework with layered architecture description; evaluation referenced as governance coverage but details not provided in excerpt",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "enterprise",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models, retrieval-augmented generation pipelines, multi-agent AI workflows, LangSmith, Datadog LLM Observability, zero-trust telemetry boundary, AI Observability Extractor Agent"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GOVERNANCE",
+      "OBSERVABILITY",
+      "COMPLIANCE_AUDIT",
+      "RAG_MULTI_AGENT",
+      "REGULATED_ENTERPRISE"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "O artigo propõe explicitamente um framework de governança contínua para LLMs, RAG e workflows multi-agente em ambientes empresariais, com foco em observabilidade autônoma, compliance zero-trust, auditoria por telemetria e mapeamento regulatório (GDPR, HIPAA, ISO 42001). Embora não trate governança conversacional de forma explícita, cobre de forma central mecanismos operacionais de governança, accountability, descoberta de Shadow AI, logs/tracing e síntese documental assistida por LLM.",
+    "decision_confidence": 0.86,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Metadados extraídos por Python estavam corrompidos no título/autores; apenas trechos parciais do PDF foram fornecidos, incluindo menção truncada à avaliação do framework."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Estudo conceitual/arquitetural sem amostra empírica descrita nos trechos fornecidos. Adequado para contribuição de framework, mas rigor empírico e limitações não são suficientemente transparentes no material disponível. Avaliação mencionada como governance coverage permanece incompleta no excerto."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 5,
+    "overall_confidence": "moderate",
+    "explanation": "O framework é internamente coerente e altamente relevante para governança operacional de LLMs em contextos regulados, mas a confiança global é moderada porque o texto fornecido é parcial, o estudo é preprint não revisado por pares e a avaliação empírica citada não está detalhada nos excertos."
+  },
+  "coding": {
+    "open_codes": [
+      "continuous AI governance",
+      "zero-trust telemetry boundary",
+      "Shadow AI discovery",
+      "automated control assertions",
+      "LLM observability streams",
+      "privacy mapping",
+      "LLM-assisted compliance documentation",
+      "proactive discovery",
+      "telemetry over manual attestation"
+    ],
+    "axial_codes": [
+      "operational governance",
+      "observability and tracing",
+      "audit and compliance automation",
+      "enterprise risk control",
+      "regulated data protection"
+    ],
+    "theme": "Governança contínua e observabilidade de sistemas de IA baseados em LLM em ambientes empresariais regulados",
+    "subtheme": "Arquitetura zero-trust para descoberta, validação e documentação automatizada de compliance",
+    "concepts": [
+      "AI Trust OS",
+      "AI Observability Extractor Agent",
+      "AI System Registry",
+      "control assertions",
+      "trust artifacts",
+      "Records of Processing Activities",
+      "LLM Documentation Synthesis Pipeline"
+    ],
+    "model_layers": [
+      "Layer 1: Zero-Trust Telemetry Boundary",
+      "Layer 2: core governance modules",
+      "Layer 3: predictive intelligence and LLM-generated compliance documentation",
+      "Layer 4: governance outputs to regulators, auditors, and enterprise buyers"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa",
+      "observabilidade",
+      "auditoria",
+      "logs e tracing",
+      "compliance",
+      "RAG",
+      "agentes",
+      "privacidade",
+      "segurança",
+      "contextos regulados"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "AI Trust OS reconceptualiza a governança de IA empresarial como uma camada operacional contínua baseada em telemetria, descobrindo sistemas de IA não documentados e sintetizando artefatos de confiança e compliance sem depender de autoatribuição manual.",
+    "contribution": "Framework arquitetural de quatro camadas que integra descoberta proativa de Shadow AI, validação automatizada de controles via sondas read-only, observabilidade de LLM/RAG/agentes e geração documental de compliance assistida por LLM.",
+    "limitations": "Nos trechos fornecidos, limitações explícitas, desenho completo da avaliação de governance coverage e evidência empírica independente permanecem unclear.",
+    "use_in_review": "Evidência central para a dimensão de governança operacional/técnica de LLMs em ambientes regulados; útil para mapear arquiteturas de observabilidade, auditoria contínua, descoberta de sistemas e automação de compliance, com relevância indireta para governança conversacional via RAG, agentes e interações com features baseadas em IA."
+  },
+  "evidence": [
+    {
+      "claim": "O estudo foca explicitamente em LLMs, RAG e workflows multi-agente em contexto empresarial",
+      "excerpt": "The accelerating adoption of large language models, retrieval-augmented generation pipelines, and multi-agent AI workflows within enterprise environments",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Propõe framework de governança contínua com observabilidade autônoma e compliance zero-trust",
+      "excerpt": "This paper proposes AI Trust OS, a conceptual framework and governance architecture for continuous, autonomous AI observability and zero-trust compliance in enterprise environments.",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Define princípios fundacionais de governança baseada em telemetria e auditoria contínua",
+      "excerpt": "proactive discovery over reactive declaration, telemetry evidence over manual attestation, continuous posture over point-in-time audit, and architecture-backed proof over policy-document trust",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Usa agente de extração que monitora telemetria LLM de LangSmith e Datadog",
+      "excerpt": "An AI Observability Extractor Agent continuously scans LangSmith and Datadog LLM telemetry streams, automatically registering undocumented AI systems",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Trata accountability como problema estrutural de governança empresarial",
+      "excerpt": "Organizations deploying AI systems at scale face a fundamental accountability problem: they cannot govern what they cannot see",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Descreve Shadow AI como proliferação de integrações LLM e pipelines RAG sem revisão formal",
+      "excerpt": "Shadow AI describes the proliferation of LLM integrations, experimental RAG pipelines, and model-backed features deployed by engineering teams without formal security or compliance review",
+      "page": "4",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Inclui pipeline de síntese documental assistida por LLM para narrativas de compliance",
+      "excerpt": "An LLM-assisted documentation synthesis pipeline in which passed control assertions — never raw infrastructure payloads — are transformed into board-grade compliance narratives",
+      "page": "5",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Discute observabilidade de aplicações LLM com tracing, avaliações e logs",
+      "excerpt": "capturing structured telemetry for LLM-based applications — trace records, evaluation results, token usage statistics, latency profiles",
+      "page": "7",
+      "section": "unclear",
+      "supports": "rq_alignment"
+    },
+    {
+      "claim": "Aborda obrigações regulatórias GDPR e HIPAA em cadeias com LLM",
+      "excerpt": "GDPR [31] and HIPAA [32] impose data protection obligations that become substantially more complex in the presence of AI systems.",
+      "page": "9",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Arquitetura organizada em quatro camadas de governança",
+      "excerpt": "Layer 2 houses the core governance modules, including Shadow AI discovery, the AI System Registry, red teaming, and privacy mapping. Layer 3 synthesises machine-collected evidence into predictive intelligence and LLM-generated compliance documentation. Layer 4 exposes continuously maintained governance outputs to regulatory frameworks, auditors, and enterprise buyers.",
+      "page": "11",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Agente inspeciona metadados de governança em traces sem ingerir código-fonte ou prompts",
+      "excerpt": "The agent scans for three governance-significant metadata vectors on every trace record: tracingEnabled, piiScrubbingInLogs, and evalsConfigured.",
+      "page": "12",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Mapeamento de privacidade documenta fluxos de interação com features baseadas em IA",
+      "excerpt": "A single user interaction with an AI-powered feature may traverse an application server, an embedding model, a vector database, a language model inference endpoint, and a logging platform",
+      "page": "13",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Alinha monitoramento contínuo a requisitos de ISO 42001",
+      "excerpt": "introducing a forward-looking governance dimension aligned with the continuous monitoring requirements of ISO 42001 [13]",
+      "page": "14",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Publicação é preprint de 2026 ainda não claramente publicada em venue revisado",
+      "excerpt": "Preprint submitted to Journal Name April 7, 2026 arXiv:2604.04749v1 [cs.AI] 6 Apr 2026",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Menciona avaliação do framework, mas detalhes não constam no excerto fornecido",
+      "excerpt": "The framework is evaluated through its governance coverage,",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "bibliographic": {
+    "title": "Enterprise Generative AI: A Systematic Review of Security Risks and Governance",
+    "authors": "Audrey Rah",
+    "year": "2026",
+    "venue": "Research Square (preprint)",
+    "doi": "10.21203/rs.3.rs-9890887/v1",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Rah, A. (2026). Enterprise Generative AI: A Systematic Review of Security Risks and Governance. Research Square. https://doi.org/10.21203/rs.3.rs-9890887/v1"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic literature review (PRISMA, Kitchenham, Webster and Watson)",
+    "study_design": "systematic literature review with thematic evidence matrix and author-derived synthesis frameworks",
+    "sample_description": "high-quality primary sources spanning peer-reviewed literature, international standards, and authoritative industry disclosures; enterprise AI platform and risk evidence grouped by platform function, risk mechanism, governance coverage, and enterprise control implications",
+    "sample_size": "unclear",
+    "sector": "enterprise/commercial organizations (United States focus)",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "generative AI, commercial LLM APIs, agentic AI frameworks, RAG, enterprise copilot systems, cloud AI platforms, developer productivity AI, open-source enterprise LLM deployments"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "systematic_review",
+      "llm_genai",
+      "governance_accountability",
+      "risk_audit_compliance",
+      "operational_technical_governance"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a systematic literature review explicitly focused on enterprise generative AI security risks and governance, synthesizing LLM/agent/RAG vulnerabilities and cross-mapping governance standards (NIST AI RMF, ISO/IEC 42001, OWASP LLM Top 10, MITRE ATLAS). It directly addresses governance maturity, accountability gaps, auditing, and compliance-oriented controls, aligning strongly with the review scope even though conversational governance is secondary rather than primary.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter, abstract, introduction, and partial methods/results excerpts were provided; full PRISMA flow counts, screening details, and limitations sections were not visible for complete methodological verification."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "The study declares a rigorous multi-framework SLR protocol (PRISMA, Kitchenham, Webster and Watson) and describes a reproducible generic search structure across databases. However, the provided excerpts do not include complete reporting of retrieved/included record counts, exclusion reasons, or explicit study limitations, limiting full CASP/JBI appraisal."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are coherently organized around enterprise platform taxonomy, risk classification, and governance standards cross-mapping, with clear relevance to LLM security and governance. Confidence is moderated because complete sample reporting, limitations, and peer-review status are not established in the supplied text."
+  },
+  "coding": {
+    "open_codes": [
+      "systematic literature review",
+      "enterprise generative AI adoption",
+      "agentic AI vulnerabilities",
+      "prompt injection",
+      "RAG corpus poisoning",
+      "excessive agency",
+      "memory-state auditing gaps",
+      "multi-agent accountability gaps",
+      "governance standards cross-mapping",
+      "zero-trust AI architectures",
+      "enterprise platform taxonomy"
+    ],
+    "axial_codes": [
+      "AI governance frameworks",
+      "cybersecurity risk classification",
+      "enterprise deployment dynamics",
+      "standards compliance mapping",
+      "governance maturity roadmap"
+    ],
+    "theme": "Enterprise Generative AI Security and Governance",
+    "subtheme": "Governance maturity, risk frameworks, and standards coverage gaps",
+    "concepts": [
+      "Composite Adoption Score (CAS)",
+      "Enterprise AI Risk Classification Framework (EARCF)",
+      "Enterprise AI Platform Taxonomy (EAPT)",
+      "Enterprise AI Governance Maturity Model (EAGM)",
+      "Enterprise AI Governance Lifecycle (EAGL)",
+      "NIST AI RMF",
+      "ISO/IEC 42001",
+      "OWASP LLM Top 10",
+      "MITRE ATLAS",
+      "RAG poisoning",
+      "memory auditing",
+      "multi-agent accountability"
+    ],
+    "model_layers": [
+      "governance",
+      "security/risk",
+      "deployment/platform",
+      "standards/compliance",
+      "operational lifecycle"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa",
+      "sistemas conversacionais e agentes",
+      "RAG",
+      "guardrails e controles de risco",
+      "auditoria e observabilidade",
+      "compliance e frameworks regulatórios",
+      "supervisão humana e accountability"
+    ],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "Enterprise generative and agentic AI adoption has outpaced corporate risk management frameworks, introducing acute vulnerabilities (including prompt injection, RAG poisoning, and excessive agency) while dominant governance standards leave gaps in multi-agent accountability and memory-state auditing.",
+    "contribution": "Proposes five synthesis instruments (CAS, EARCF, EAPT, EAGM, EAGL), an enterprise AI platform taxonomy, risk classification, standards cross-mapping, and a governance maturity roadmap toward auditable zero-trust AI architectures.",
+    "limitations": "unclear",
+    "use_in_review": "Use as central evidence for enterprise LLM/GenAI governance frameworks, security risk taxonomy, standards gap analysis, and governance maturity modeling; supplement with conversational-governance-specific studies because customer support is mentioned only as a deployment context."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a systematic literature review on enterprise generative AI security risks and governance",
+      "excerpt": "This study presents a systematic literature review analyzing the multi-tiered landscape of enterprise AI platform taxonomy, adoption dynamics, and cybersecurity risk classification.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Review follows PRISMA, Kitchenham, and Webster Watson standards",
+      "excerpt": "Evaluating an extensive body of retrieved records under a rigorous, multi-framework protocol compliant with PRISMA, Kitchenham, and Webster Watson standards",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Focus includes commercial LLM APIs and agentic AI frameworks",
+      "excerpt": "especially visible across productivity platforms, cloud AI services, commercial large language model (LLM) APIs, developer-assistance tools, and emerging agentic AI frameworks",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Identifies acute LLM/agent vulnerabilities including RAG poisoning",
+      "excerpt": "acute vulnerabilities, including prompt injection, Retrieval-Augmented Generation (RAG) corpus poisoning, and excessive agency",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Governance standards mapped include NIST AI RMF, ISO/IEC 42001, OWASP LLM Top 10, MITRE ATLAS",
+      "excerpt": "cross-mapping the coverage of dominant governance standards, including NIST AI RMF, ISO/IEC 42001, OWASP LLM Top 10, and MITRE ATLAS",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Significant gaps in multi-agent accountability and memory-state auditing",
+      "excerpt": "identifies significant gaps in multi-agent accountability protocols and memory-state auditing",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Proposes five author-derived synthesis instruments",
+      "excerpt": "The review introduces five author-derived synthesis instruments: the Composite Adoption Score (CAS), the Enterprise AI Risk Classification Framework (EARCF), the Enterprise AI Platform Taxonomy (EAPT), the Enterprise AI Governance Maturity Model (EAGM), and the Enterprise AI Governance Lifecycle (EAGL).",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Search strategy combined generative AI, governance, security, risk, and enterprise terms",
+      "excerpt": "(\"Generative AI\" OR \"Large Language Model\" OR \"Foundation Model\" OR \"Enterprise AI\" OR \"Agentic AI\") AND (Security OR Governance OR Risk OR Threat OR Compliance) AND (Enterprise OR Organization OR Corporate OR United States)",
+      "page": "9",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Evidence synthesized via thematic matrix across platform function, risk mechanism, and governance coverage",
+      "excerpt": "Sources were grouped around platform function, risk mechanism, governance coverage, and enterprise control implications.",
+      "page": "12",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Six major enterprise AI platform categories identified, including copilot and agentic systems",
+      "excerpt": "The review identified six major categories of enterprise AI platforms: (1; 4) 1. Commercial Large Language Model Platforms 2. Enterprise Copilot Systems 3. Cloud AI Platforms 4. Agentic AI Frameworks 5. Developer Productivity AI Platforms 6. Open-Source Enterprise LLM Deployments",
+      "page": "18",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance roadmap targets transition to auditable zero-trust AI architectures",
+      "excerpt": "governance maturity roadmap designed to support the transition from ad hoc mitigation practices to auditable, zero-trust AI architectures",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Traditional security controls less effective against autonomous state manipulation and memory-auditing lapses",
+      "excerpt": "traditional security controls mitigate baseline boundary failures, they are less effective against autonomous state manipulation and memory-auditing lapses",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Publication is a 2026 Research Square preprint with declared DOI",
+      "excerpt": "Posted Date: June 3rd, 2026 DOI: https://doi.org/10.21203/rs.3.rs-9890887/v1",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    }
+  ]
+}

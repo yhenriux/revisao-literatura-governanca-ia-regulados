@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "The imperative for regulatory oversight of large language models (or generative AI) in healthcare",
+    "authors": "Bertalan Meskó; Eric J. Topol",
+    "year": "2023",
+    "venue": "npj Digital Medicine",
+    "doi": "10.1038/s41746-023-00873-0",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Meskó, B., & Topol, E. J. (2023). The imperative for regulatory oversight of large language models (or generative AI) in healthcare. npj Digital Medicine, 6, 120. https://doi.org/10.1038/s41746-023-00873-0"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "expert perspective / normative policy commentary",
+    "study_design": "perspective commentary",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "GPT-4, Bard, ChatGPT; LLMs used as chatbots, clinical documentation tools, diagnostic assistants, and other healthcare applications"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_healthcare",
+      "regulatory_oversight",
+      "conversational_chatbot_application",
+      "governance_safety_privacy"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Perspective piece arguing for regulatory oversight of LLMs and generative AI in healthcare, with explicit discussion of conversational chatbots, safety, privacy, bias, and regulator-facing recommendations. Relevant as foundational policy context for governance in regulated healthcare, but not an empirical or operational study of conversational governance mechanisms.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and page 1 excerpt provided; full list of practical regulatory recommendations and depth of oversight mechanisms not visible in supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Normative perspective appropriate to its policy aim, but lacks empirical sampling, data collection, or evaluative methods. Appraisal reflects argument quality and clarity rather than empirical rigor."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is coherent and directly relevant to LLM governance in regulated healthcare, including chatbot use cases, but confidence is moderated because the supplied text is a perspective without empirical validation and the full recommendation set is incomplete in the excerpt."
+  },
+  "coding": {
+    "open_codes": [
+      "regulatory_oversight",
+      "healthcare_llm_applications",
+      "patient_chatbot",
+      "patient_safety",
+      "patient_privacy",
+      "bias_and_fairness",
+      "generative_ai_regulation",
+      "tokenization_gap"
+    ],
+    "axial_codes": [
+      "macro_regulatory_governance",
+      "high_stakes_healthcare_context",
+      "conversational_ai_use_cases",
+      "risk_and_ethics"
+    ],
+    "theme": "Regulatory oversight of LLMs in healthcare",
+    "subtheme": "Policy recommendations and risk framing for regulators",
+    "concepts": [
+      "regulatory oversight",
+      "harm prevention",
+      "patient privacy",
+      "ethical standards",
+      "conversational chatbots",
+      "bias",
+      "fairness",
+      "transparency",
+      "public trust"
+    ],
+    "model_layers": [
+      "policy_regulatory_layer"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa",
+      "sistemas conversacionais/chatbots",
+      "compliance e supervisão regulatória",
+      "contextos regulados (saúde)",
+      "controle de risco e segurança",
+      "privacidade"
+    ],
+    "coding_confidence": 0.8
+  },
+  "synthesis": {
+    "main_claim": "LLMs and generative AI in healthcare require timely regulatory oversight so clinicians and patients can use them without harm, ethical compromise, or privacy loss, while preserving transformative potential.",
+    "contribution": "Frames why LLMs differ from already regulated medical AI, maps healthcare use cases including patient-facing chatbots, and outlines practical expectations for regulators.",
+    "limitations": "Perspective without empirical evaluation; supplied excerpt does not show explicit author-stated study limitations or complete recommendation detail.",
+    "use_in_review": "Use as foundational contextual evidence on macro-level regulatory governance of LLM-based conversational and clinical tools in healthcare; not central evidence for operational conversational governance such as guardrails, tracing, handoff, or post-deployment monitoring."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a peer-reviewed journal perspective on LLM regulatory oversight in healthcare.",
+      "excerpt": "PERSPECTIVE OPEN The imperative for regulatory oversight of large language models (or generative AI) in healthcare",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Specific LLMs and conversational chatbot applications in healthcare are discussed.",
+      "excerpt": "sophisticated large language models (LLMs) such as GPT-4 and Bard",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Chatbots are an explicit healthcare application of LLMs.",
+      "excerpt": "working as a chatbot to answer questions for patients about their specific data and concerns",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors argue for regulatory oversight to prevent harm and protect privacy.",
+      "excerpt": "regulatory oversight should assure medical professionals and patients can use LLMs without causing harm or compromising their data or privacy",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Paper offers practical recommendations for regulators.",
+      "excerpt": "This paper summarizes our practical recommendations for what we can expect from regulators to bring this vision to reality",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulation must address safety, ethics, bias, and privacy in healthcare LLM use.",
+      "excerpt": "ensure safety, maintain ethical standards, pre-empt unfairness and bias, and protect patient privacy",
+      "page": "1",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs differ materially from already regulated AI-based medical technologies.",
+      "excerpt": "LLMs warrant a very cautious approach since these models are trained differently from AI-based medical technologies that are regulated already",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "A regulatory gap exists for NLP tokenization in healthcare.",
+      "excerpt": "Tokenization is a crucial step in natural language processing (NLP) ... Currently, tokenization is not covered by healthcare regulators",
+      "page": "1",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Global debate links conversational chatbots to healthcare and medical practice.",
+      "excerpt": "global debates about the role such conversational chatbots could play in healthcare and the practice of medicine",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study design is conceptual commentary rather than empirical research.",
+      "excerpt": "We argue that regulatory oversight should assure medical professionals and patients can use LLMs without causing harm",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    }
+  ]
+}

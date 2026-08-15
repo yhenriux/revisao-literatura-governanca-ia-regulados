@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Keeping an Eye on AI: A Framework for Effective Human Oversight of AI Systems",
+    "authors": "Susanne Gaube, Markus Langer, Tim Miller, Kevin Baum, Raimund Dachselt, Anna Maria Feit, Ujwal Gadiraju, Harmanpreet Kaur, Mark T. Keane, Richard Landers, Johann Laux, Q. Vera Liao, Brian Lim, Linda Onnasch, Tim Schrills, Liz Sonenberg, Chenhao Tan, Nava Tintarev, Ziang Xiao, Hanwei Zhang",
+    "year": "2026",
+    "venue": "arXiv preprint arXiv:2605.16278",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Gaube, S., Langer, M., Miller, T., Baum, K., Dachselt, R., Feit, A. M., Gadiraju, U., Kaur, H., Keane, M. T., Landers, R., Laux, J., Liao, Q. V., Lim, B., Onnasch, L., Schrills, T., Sonenberg, L., Tan, C., Tintarev, N., Xiao, Z., & Zhang, H. (2026). Keeping an eye on AI: A framework for effective human oversight of AI systems. arXiv preprint arXiv:2605.16278."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "interdisciplinary conceptual framework synthesis from expert seminar",
+    "study_design": "cross-disciplinary framework development based on 2025 Dagstuhl Seminar discussions",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "multi-domain AI deployment including high-risk decision-making contexts",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI systems including foundation models and agentic systems that act autonomously across multiple steps; not limited to conversational interfaces"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "human_oversight",
+      "governance_framework",
+      "high_risk_ai",
+      "foundation_models_mentioned",
+      "regulated_contexts"
+    ],
+    "exclusion_codes": [
+      "not_conversational_specific"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper provides a cross-disciplinary foundational framework for effective human oversight of AI systems, explicitly addressing high-risk domains, foundation models, and agentic systems. It strongly aligns with governance, accountability, risk, and human oversight dimensions of the review scope, but does not specifically target conversational AI, chatbots, RAG, or conversational governance architectures in regulated LLM deployments. Best classified as foundational/contextual rather than central conversational-governance evidence.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated metadata year (2024) conflicts with document date (March 2026; arXiv 9 Apr 2026). Full-text relevance to conversational LLM governance requires human confirmation because oversight is framed generically across AI systems."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Conceptual framework paper without empirical sampling or validation. Method is appropriate for defining oversight architectures and processes, but transparency of seminar-based synthesis is partial. Strong clarity of objectives and structured outputs (definition, architecture, template, open challenges)."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and clearly articulated for human oversight of AI broadly, including foundation models in high-risk settings. Methodological limitations stem from the absence of empirical evaluation and limited detail on how interdisciplinary inputs were systematically integrated. Relevance to the review is moderate: highly useful for oversight/accountability constructs, but only partially aligned with conversational LLM governance in regulated environments."
+  },
+  "coding": {
+    "open_codes": [
+      "human oversight",
+      "oversight architecture",
+      "oversight processes",
+      "foundation models",
+      "agentic systems",
+      "high-risk decision-making",
+      "documentation template",
+      "interdisciplinary synthesis"
+    ],
+    "axial_codes": [
+      "governance",
+      "human-in-the-loop",
+      "accountability",
+      "risk mitigation",
+      "socio-technical oversight"
+    ],
+    "theme": "Human oversight of AI systems",
+    "subtheme": "Oversight architectures, processes, and documentation",
+    "concepts": [
+      "effective human oversight",
+      "oversight architecture",
+      "oversight personnel",
+      "technical factors for overseers",
+      "operational challenges",
+      "socio-technical challenges",
+      "foundation models",
+      "agentic systems"
+    ],
+    "model_layers": [
+      "definition and architecture",
+      "documentation template",
+      "oversight personnel",
+      "technical interfaces and signals",
+      "operational and socio-technical challenges"
+    ],
+    "rq_alignment": [
+      "human oversight",
+      "accountability",
+      "risk management",
+      "regulated high-stakes contexts",
+      "supervision and intervention"
+    ],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "Human oversight of AI lacks a common foundational understanding; this paper proposes a practical interdisciplinary framework with a working definition, oversight architecture and processes, a documentation template, and open research challenges.",
+    "contribution": "Foundational cross-disciplinary framework for designing, implementing, documenting, and evaluating effective human oversight of AI systems, explicitly extending prior human-automation research to contemporary AI including foundation models and agentic systems.",
+    "limitations": "Conceptual synthesis without reported empirical validation; conversational-AI or LLM-deployment specificity is limited; seminar-based provenance with unclear systematic evidence selection.",
+    "use_in_review": "Use as foundational/contextual evidence for human oversight architectures, roles, interfaces, and challenges applicable to governed AI in regulated or high-risk settings; cite cautiously for conversational LLM governance claims unless mapped explicitly by reviewers."
+  },
+  "evidence": [
+    {
+      "claim": "Paper targets high-risk AI decision-making and positions human oversight as a key safeguard.",
+      "excerpt": "The use of Artificial Intelligence (AI) in high-risk, decision-making scenarios presents technical, safety, and normative challenges; problems that may only be ameliorated by human oversight.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors propose a foundational framework with definition, architecture, processes, and documentation template.",
+      "excerpt": "The core contri- butions are: (1) a foundational framework, with a working definition, architecture and processes for effective human oversight of AI systems; (2) an initial template for documenting oversight architec- tures and processes, applied to diverse domains",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Work explicitly includes foundation models and agentic systems as contemporary oversight challenges.",
+      "excerpt": "the scale, complexity, and opacity of today's AI systems—including foundation models and agentic systems that act autonomously across multiple steps—present new challenges",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated or high-stakes domain relevance is stated for healthcare and critical infrastructure.",
+      "excerpt": "In high-risk domains such as healthcare or critical infrastructure, such risks can have life-threatening consequences.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Method derives from cross-disciplinary expert discussions at a Dagstuhl seminar.",
+      "excerpt": "It is the result of cross-disciplinary discussions at the 2025 Dagstuhl Seminar on Human Oversight of AI Systems",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Framework integrates computer science, HCI, philosophy, ethics, psychology, human factors, and law.",
+      "excerpt": "This paper integrates insights from computer science, human-computer interaction, philosophy, ethics, psychology, human factors, and law to develop a common ground for the emerging research field of human oversight of AI.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Technical oversight factors include interfaces, transparency, explainability, uncertainty communication, and risk monitoring.",
+      "excerpt": "providing transparency into the AI system, including metrics related to the risks being monitored, explainability, and uncertainty communication may be prere",
+      "page": "3",
+      "section": "framework",
+      "supports": "coding"
+    },
+    {
+      "claim": "Documentation template includes oversight personnel competencies and system interface/signal design.",
+      "excerpt": "signals: how they communicate relevant information to the human overseers, such as visual alerts, reports etc.",
+      "page": "10",
+      "section": "documentation template",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors identify operational challenges beyond traditional human-automation interaction.",
+      "excerpt": "Effective oversight depends on humans being able to monitor AI systems and appropriately intervene when needed, ac- tivities that pose difficulties that go beyond those encountered in traditional human-automation interaction.",
+      "page": "11",
+      "section": "operational challenges",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Publication is a non-peer-reviewed arXiv preprint dated 2026.",
+      "excerpt": "arXiv:2605.16278v1 [cs.CY] 9 Apr 2026",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

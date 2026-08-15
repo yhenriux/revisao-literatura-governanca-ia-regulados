@@ -1,0 +1,192 @@
+{
+  "bibliographic": {
+    "title": "Large Language Model–Based Chatbots and Agentic AI for Mental Health Counseling: Systematic Review of Methodologies, Evaluation Frameworks, and Ethical Safeguards",
+    "authors": "Ha Na Cho, MS; Jiayuan Wang, BS; Di Hu, MS; Kai Zheng, PhD",
+    "year": "unclear",
+    "venue": "unclear",
+    "doi": "10.2196/80348",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Cho, H. N., Wang, J., Hu, D., & Zheng, K. (unclear). Large language model–based chatbots and agentic AI for mental health counseling: Systematic review of methodologies, evaluation frameworks, and ethical safeguards. unclear. https://doi.org/10.2196/80348"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic literature review following PRISMA 2020 with narrative synthesis and structured quality appraisal",
+    "study_design": "systematic review",
+    "sample_description": "Original development or empirical evaluation studies of LLM-driven mental health counseling chatbots published between January 2020 and May 2025",
+    "sample_size": "20 included studies",
+    "sector": "digital mental health; healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-based chatbots and agentic AI for mental health counseling, including GPT-based and fine-tuned or domain-adapted models such as LLaMa, ChatGLM, and Qwen"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "systematic_review",
+      "llm_chatbots",
+      "conversational_agents",
+      "governance_ethical_safeguards",
+      "regulated_healthcare_context",
+      "mental_health_counseling"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a PRISMA-based systematic review that explicitly synthesizes methodologies, evaluation practices, and ethical or governance frameworks of LLM-based mental health counseling chatbots. It is highly relevant to conversational AI governance in a regulated healthcare domain, but it is secondary evidence synthesizing 20 primary studies rather than reporting original governance implementation or operational controls.",
+    "decision_confidence": 0.86,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted bibliographic metadata appears corrupted for title, authors, venue, and year; confirm publication venue, peer-review status, and publication year from the full PDF front matter."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 5,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 5,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Methods are clearly reported with PRISMA 2020, Covidence screening, multi-database search, predefined eligibility criteria, and a structured traffic-light quality appraisal across design, dataset reporting, evaluation metrics, external validation, and ethics. Available text is truncated before full limitations and complete results sections."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The review uses explicit PRISMA methods and reports coherent findings on governance and safety reporting gaps across 20 included studies in mental health counseling. Confidence is moderate rather than high because only partial full text is available, external validation and ethics reporting are identified as weak across included primary studies, and transferability beyond MH counseling remains limited."
+  },
+  "coding": {
+    "open_codes": [
+      "systematic_review",
+      "prisma_2020",
+      "mental_health_counseling",
+      "llm_chatbots",
+      "agentic_ai",
+      "evaluation_frameworks",
+      "ethical_safeguards",
+      "governance_frameworks",
+      "safety_reporting_gaps",
+      "external_validation_gaps",
+      "deployment_types",
+      "mixed_evaluation_methods"
+    ],
+    "axial_codes": [
+      "conversational_ai_governance",
+      "regulated_healthcare_ai",
+      "evaluation_and_auditability",
+      "risk_and_safety_governance",
+      "evidence_synthesis"
+    ],
+    "theme": "Governance and ethical safeguards in LLM-based mental health counseling chatbots",
+    "subtheme": "Methodological quality, evaluation rigor, and inconsistent safety or governance reporting",
+    "concepts": [
+      "ethical safeguards",
+      "governance frameworks",
+      "evaluation metrics",
+      "external validation",
+      "deployment safety",
+      "clinical readiness",
+      "safety safeguards",
+      "agentic AI"
+    ],
+    "model_layers": [
+      "evaluation_layer",
+      "ethics_governance_layer",
+      "deployment_layer",
+      "monitoring_validation_layer"
+    ],
+    "rq_alignment": [
+      "governance_accountability",
+      "conversational_ai",
+      "llm_genai",
+      "regulated_high_stakes",
+      "risk_audit_compliance",
+      "human_oversight_contestation"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "LLM-based mental health counseling chatbots show promise, but current evidence is limited by heterogeneous designs, minimal external validation, and inconsistent reporting of safety and governance practices.",
+    "contribution": "Synthesizes methodologies, evaluation practices, and ethical or governance frameworks across 20 LLM MH counseling chatbot studies and identifies recurring gaps in ethics, safety safeguards, governance documentation, and real-world clinical validation.",
+    "limitations": "No included primary study reported registered randomized controlled trials or independent clinical validation in real-world care settings; ethics and safety reporting were recurrently incomplete across the included literature.",
+    "use_in_review": "Use as supporting secondary evidence to characterize governance and safety reporting gaps, evaluation practices, and ethical safeguard patterns in regulated mental health conversational AI systems; triangulate with primary governance implementation studies."
+  },
+  "evidence": [
+    {
+      "claim": "The paper is a systematic review focused on LLM chatbots for mental health counseling and governance-related synthesis.",
+      "excerpt": "This systematic review aimed to synthesize the methodologies, evaluation practices, and ethical or governance frameworks of LLM-based chatbots developed for MH counseling",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "PRISMA 2020 and structured screening/data extraction were used.",
+      "excerpt": "Screening and data extraction were conducted in Covidence (Veritas Health Innovation) following PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) 2020 guidelines.",
+      "page": "1",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "The review included 20 eligible studies on LLM-driven MH counseling chatbots.",
+      "excerpt": "Twenty studies met the inclusion criteria.",
+      "page": "1",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study quality appraisal covered ethics among five methodological domains.",
+      "excerpt": "Study quality was appraised using a structured traffic light framework across 5 methodological domains (design, dataset reporting, evaluation metrics, external validation, and ethics)",
+      "page": "1",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Governance and safety reporting gaps were a key finding.",
+      "excerpt": "recurring limitations were observed in external validation and reporting on ethics and safety, including incomplete documentation of safety safeguards and governance practices.",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "The regulated domain is mental health counseling in healthcare.",
+      "excerpt": "Large language model (LLM)–based chatbots have rapidly emerged as tools for digital mental health (MH) counseling.",
+      "page": "1",
+      "section": "background",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Specific LLM technologies were examined in included studies.",
+      "excerpt": "GPT-based models (GPT-2/3/4) were used in 45% (9/20) of studies, while 90% (18/20) used fine-tuned or domain-adaptation models such as LLaMa, ChatGLM, or Qwen.",
+      "page": "1",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Deployment and conversational agent contexts are reported.",
+      "excerpt": "standalone apps were most common (18/20, 90%), and some systems were also implemented as virtual agents (4/20, 20%)",
+      "page": "1",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Risk and harm motivate governance-oriented evaluation.",
+      "excerpt": "These risks motivate the need for systematic evaluation of both methodological rigor and ethical safeguards.",
+      "page": "2",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "Search covered LLM and conversational intervention terms across multiple databases.",
+      "excerpt": "The search queries incorporated LLM-related terms (“large language model” OR “LLM” OR “LLMs”) and MH-specific terms",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    }
+  ]
+}

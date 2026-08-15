@@ -1,0 +1,212 @@
+{
+  "bibliographic": {
+    "title": "Compliance-Scored Best-of-N Guardrail Orchestration for Multimodal Document Generation in Payments Dispute Defense",
+    "authors": "Nataraj Agaram Sundar; Tejas Morabia",
+    "year": "2026",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Sundar, N. A., & Morabia, T. (2026). Compliance-Scored Best-of-N Guardrail Orchestration for Multimodal Document Generation in Payments Dispute Defense. eBay Inc."
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "Technical framework development with aggregate operational scenario evaluation and reviewer-calibrated Responsible-AI quality review",
+    "study_design": "Non-randomized aggregate operational scenario readouts comparing variable cohorts versus controls; compliance-scored best-of-N guardrail orchestration evaluation",
+    "sample_description": "Payments dispute defense document-generation operational cohorts (variable vs control); 770 generated-evidence reviews; 70-case OCR slice",
+    "sample_size": "301/659 vs 536/1548 for overall count win rates; 770 generated-evidence reviews; 70 OCR cases",
+    "sector": "Payments/e-commerce enterprise (eBay Inc.)",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Multimodal LLM document generation with unified guardrail orchestration (PII detection, content moderation, schema constraints, domain rules), best-of-N candidate selection, early exit, and distributed-systems deployment"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_genai",
+      "guardrails",
+      "compliance",
+      "regulated_payments",
+      "human_oversight",
+      "operational_governance",
+      "risk_monitoring"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper provides strong operational evidence on compliance-scored guardrail orchestration, policy enforcement, human oversight, and Responsible-AI review in high-stakes regulated payments document generation. It does not address conversational systems, chatbots, agents, or conversational governance, so it is better classified as supporting rather than central evidence for a review focused on conversational governance.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial PDF text was provided; venue, peer-review status, full methods, and complete limitations require verification."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Objectives and contributions are clearly stated. The evaluation design is explicitly non-randomized at the aggregate scenario level, which limits causal inference despite reported confidence intervals and p-values. Reproducibility is partially documented via request interface, scoring logic, pseudocode, and operational evidence boundaries."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are coherent and operationally detailed for guardrail orchestration in payments dispute document generation, but the non-randomized design and partial text limit confidence. Relevance to the review is moderate because governance, compliance, guardrails, and human oversight are central to the paper, while conversational governance is absent."
+  },
+  "coding": {
+    "open_codes": [
+      "unified guardrail layer",
+      "compliance score",
+      "best-of-N selection",
+      "early exit",
+      "PII detection",
+      "content moderation",
+      "schema validation",
+      "domain rules",
+      "multimodal inputs",
+      "Responsible-AI review",
+      "operational readouts",
+      "human triage",
+      "fragmented legacy gates"
+    ],
+    "axial_codes": [
+      "runtime policy enforcement",
+      "operational LLM safety",
+      "regulated enterprise document generation",
+      "human oversight in production",
+      "observability and monitoring"
+    ],
+    "theme": "Compliance-scored guardrail orchestration for regulated LLM document generation",
+    "subtheme": "Payments dispute defense and structured multimodal outputs",
+    "concepts": [
+      "guardrail orchestration",
+      "compliance scoring",
+      "best-of-N sampling",
+      "policy-bounded generation",
+      "Responsible-AI evidence quality",
+      "human-review routing"
+    ],
+    "model_layers": [
+      "generation",
+      "guardrail scoring heads",
+      "candidate selection",
+      "fallback routing",
+      "telemetry/observability",
+      "human review"
+    ],
+    "rq_alignment": [
+      "guardrails",
+      "compliance",
+      "risk control",
+      "human oversight",
+      "monitoring",
+      "privacy/PII",
+      "regulated financial context",
+      "operational governance"
+    ],
+    "coding_confidence": 0.84
+  },
+  "synthesis": {
+    "main_claim": "A unified, configuration-first guardrail orchestration layer using compliance-scored best-of-N selection improves policy-compliant multimodal document generation in payments dispute defense while reducing fragmented gate latency and operational rework.",
+    "contribution": "Introduces a distributed-systems guardrail framework that consolidates PII detection, moderation, schema checks, and domain rules; uses weighted compliance scoring for candidate selection and early exit; and reports production-style outcomes including 91% compliance within latency constraints plus cohort-level win-rate improvements and reviewer-calibrated Responsible-AI signals.",
+    "limitations": "Evaluation relies on aggregate operational scenario readouts rather than a randomized A/B test; some effect estimates are directionally positive but not statistically significant; transfer to other domains requires recalibration of rule weights, thresholds, risk routing, and human-review policies; Responsible-AI review identifies operational risks requiring human oversight.",
+    "use_in_review": "Use as supporting evidence for operational guardrail orchestration, compliance scoring, policy enforcement, and human oversight in regulated LLM deployments. Do not use as central evidence for conversational governance, chatbot/agent interaction control, or dialogue-specific accountability mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on high-stakes regulated enterprise document generation using LLMs with safety and compliance risks.",
+      "excerpt": "High-stakes enterprise document generation (e.g., financial dispute narratives, compliance notices, audit summaries) demands schema correctness, policy compliance, and low-latency operation at scale.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Paper presents a unified guardrail orchestration layer with compliance-scored best-of-N selection.",
+      "excerpt": "We present a guardrail orchestration layer for text and image inputs that couples multi-candidate generation with an explicit compliance score used for early exit.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Operational readout reports compliance and latency performance.",
+      "excerpt": "The available operational readout reports 5 attempts within 20 s and 91 % compliance.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Evaluation is non-randomized aggregate scenario comparison.",
+      "excerpt": "For payments dispute defense summaries, we analyze aggregate operational scenario readouts rather than a randomized A/B test.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Variable cohorts show higher win rates than controls overall.",
+      "excerpt": "Variable cohorts show higher count win rates than controls overall (301/659 vs. 536/1548; +11.0 pp, 95% CI [6.6, 15.5], p < 0.001)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human oversight and system-level governance are explicitly referenced.",
+      "excerpt": "recent risk frameworks and practitioner taxonomies emphasize prompt injection, insecure output handling, data leakage, and human oversight for LLM applications",
+      "page": "2",
+      "section": "Related Work",
+      "supports": "coding"
+    },
+    {
+      "claim": "Work extends programmable guardrails from conversational applications to structured document generation.",
+      "excerpt": "NeMo Guardrails shows how programmable rails can control conversational LLM applications through interpretable runtime policies [14]. Our work extends this direction to multimodal structured document generation",
+      "page": "2",
+      "section": "Related Work",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Legacy production flow included manual triage and re-prompting after separate guardrail gates.",
+      "excerpt": "an LLM produced a draft, then PII detection and content moderation were applied as separate services; failures triggered manual triage or re-prompting.",
+      "page": "2",
+      "section": "Legacy Baseline",
+      "supports": "coding"
+    },
+    {
+      "claim": "Responsible-AI review identifies risks requiring human oversight.",
+      "excerpt": "The Responsible-AI review decks also identify operational risks requiring human oversight, including title drift in generated evidence, analyzer/OCR failure, cropped text loss, UI bleed, and poor handwritten/blurry-image extraction.",
+      "page": "7",
+      "section": "Results/Limitations",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Transferability requires domain-specific recalibration including human-review policies.",
+      "excerpt": "pattern may transfer to other structured document-generation settings, but rule weights, thresholds, risk routing, and human-review policies must be re-calibrated for each domain.",
+      "page": "7",
+      "section": "Results/Limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors document reproducibility boundaries.",
+      "excerpt": "we document the reproducibility boundary through the request interface, scoring logic, pseudocode, and operational evidence boundary.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Reviewer-calibrated Responsible-AI evidence-quality signals were collected.",
+      "excerpt": "We also report reviewer-calibrated Responsible-AI evidence-quality signals from 770 generated-evidence reviews and a 70-case OCR slice",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    }
+  ]
+}

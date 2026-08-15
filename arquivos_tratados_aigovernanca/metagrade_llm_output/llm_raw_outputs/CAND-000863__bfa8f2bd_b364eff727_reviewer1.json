@@ -1,0 +1,172 @@
+{
+  "bibliographic": {
+    "title": "Head-to-Tail: How Knowledgeable are Large Language Models (LLMs)? A.K.A. Will LLMs Replace Knowledge Graphs?",
+    "authors": "Kai Sun, Yifan Ethan Xu, Hanwen Zha, Yue Liu, Xin Luna Dong",
+    "year": "2023",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Sun, K., Xu, Y. E., Zha, H., Liu, Y., & Dong, X. L. (2023). Head-to-Tail: How knowledgeable are large language models (LLMs)? A.K.A. Will LLMs replace knowledge graphs? arXiv preprint arXiv:2308.10168."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "benchmark construction and automated LLM evaluation",
+    "study_design": "comparative benchmark evaluation using question-answer accuracy metrics across head, torso, and tail entity popularity strata",
+    "sample_description": "18K question-answer pairs in the Head-to-Tail benchmark; evaluation of 16 publicly available LLMs including GPT-4, ChatGPT, and Llama 2",
+    "sample_size": "18000 QA pairs; 16 LLMs",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "factual knowledge assessment of LLMs; comparison with knowledge graphs; hallucination and factuality"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "OUT_OF_SCOPE",
+      "NO_CONVERSATIONAL_GOVERNANCE_FOCUS",
+      "NO_REGULATED_CONTEXT"
+    ],
+    "exclusion_reason": "Empirical benchmark study on LLM factual knowledge and knowledge graph replacement; does not address conversational governance, oversight, compliance, audit, or regulated deployment contexts.",
+    "decision_rationale": "The paper constructs Head-to-Tail, an 18K QA benchmark, and evaluates 16 LLMs on factual knowledge across head/torso/tail entities. Although it mentions hallucinations, factuality, and briefly discusses explainability in a knowledge-graph architecture proposal, it does not study conversational systems governance, human oversight, accountability, monitoring, compliance, or regulated-sector deployment. Python triage hits for chatbot, law, logs, and explainability are weak or misleading relative to review scope.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Scope mismatch is clear from title, abstract, and introduction; no governance or regulated-environment focus evident in supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal based on limited supplied excerpts (mainly page 1 and fragments). Objective and benchmark-oriented method appear clearly stated; ethics, full sampling details, and complete results not visible in provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internally coherent empirical benchmark study with a clear research question, but low relevance to conversational governance in regulated LLM systems based on available text."
+  },
+  "coding": {
+    "open_codes": [
+      "factual_knowledge_benchmark",
+      "head_torso_tail_entities",
+      "hallucination",
+      "factuality",
+      "knowledge_graphs",
+      "automated_evaluation",
+      "unsure_response_option",
+      "dual_neural_knowledge_graphs"
+    ],
+    "axial_codes": [
+      "LLM_capability_assessment",
+      "knowledge_representation"
+    ],
+    "theme": "LLM factual knowledge limitations",
+    "subtheme": "benchmarking knowledge depth versus knowledge graphs",
+    "concepts": [
+      "Head-to-Tail benchmark",
+      "hallucination",
+      "factuality",
+      "knowledge graphs",
+      "explainability in symbolic KG form"
+    ],
+    "model_layers": [
+      "model_knowledge",
+      "evaluation_metrics"
+    ],
+    "rq_alignment": [
+      "foundational_context_only"
+    ],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "Existing LLMs remain far from perfect in grasping factual knowledge, especially for torso-to-tail entities; LLM QA accuracy is used as a proxy for internalized knowledge.",
+    "contribution": "Introduces Head-to-Tail, an 18K QA benchmark with automated metrics evaluating 16 public LLMs, and frames whether LLMs can replace knowledge graphs.",
+    "limitations": "Provided text notes difficulty directly querying embedded LLM knowledge and that hallucination may stem from lack of knowledge or generative dysfunction; fuller limitations not visible in excerpt.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance in regulated LLM systems; at most marginal foundational context on hallucination and factuality risks."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focus is empirical assessment of LLM factual knowledge, not conversational governance",
+      "excerpt": "How knowledgeable are LLMs?",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Benchmark contains 18K QA pairs across head, torso, and tail facts",
+      "excerpt": "we constructed Head- to-Tail, a benchmark that consists of 18K question-answer (QA) pairs regarding head, torso, and tail facts in terms of popularity",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "16 publicly available LLMs were comprehensively evaluated",
+      "excerpt": "Through a comprehensive evaluation of 16 pub- licly available LLMs, we show that existing LLMs are still far from being perfect",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study addresses hallucinations and factuality as motivation",
+      "excerpt": "how to reduce hallucina- tions from LLM responses, how to increase the factuality of LLMs",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs evaluated include ChatGPT, GPT-4, and Llama 2",
+      "excerpt": "Pre-trained large language models (LLMs), such as ChatGPT1, GPT-4 (OpenAI, 2023), and Llama 2 (Touvron et al., 2023b)",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Evaluation proxy uses simple QA and optional unsure responses",
+      "excerpt": "we ask the LLM to gen- erate brief answers and admit \"unsure\" when its confidence is low",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Publication is an arXiv preprint",
+      "excerpt": "arXiv:2308.10168v2 [cs.CL] 3 Apr 2024",
+      "page": "1",
+      "section": "introduction",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Explainability appears only in proposed dual neural KG architecture, not governance framework",
+      "excerpt": "the symbolic form caters to human understanding and explainability, while the neural form benefits machine compre- hension and seamless conversations",
+      "page": "8",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Chatbot term appears only in a bibliography citation, not as study object",
+      "excerpt": "Vicuna: An open- source chatbot impressing gpt-4 with 90%* chatgpt quality",
+      "page": "9",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Law term match corresponds to power-law distribution, not legal regulated domain",
+      "excerpt": "The distribution follows the power law",
+      "page": "3",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "bibliographic": {
+    "title": "Enhancing Trust in LLM-Based AI Automation Agents: New Considerations and Future Challenges",
+    "authors": "Sivan Schwartz, Avi Yaeli, Segev Shlomov",
+    "year": "2023",
+    "venue": "AutoMate'23@IJCAI: The First International Workshop on the Future of No-Code Digital Apprentices; CEUR Workshop Proceedings",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Schwartz, S., Yaeli, A., & Shlomov, S. (2023). Enhancing trust in LLM-based AI automation agents: New considerations and future challenges. In Proceedings of AutoMate'23@IJCAI: The First International Workshop on the Future of No-Code Digital Apprentices. CEUR Workshop Proceedings. arXiv:2308.05391v1."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "literature synthesis and nascent product evaluation",
+    "study_design": "conceptual framework paper analyzing trust dimensions for LLM-based automation agents, with assessment of selected commercial/nascent products",
+    "sample_description": "Existing trust literature and frameworks; several nascent LLM-based automation products (e.g., Microsoft CoPilot, Adept.AI, MultiOn, chatGPT, Watson Orchestrate)",
+    "sample_size": "unclear",
+    "sector": "process automation; no-code digital apprentices; enterprise AI assistants",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-based autonomous AI automation agents (AutoGPT, AgentGPT, LangChain, ChatGPT Plugins, GPT-3, ChatGPT, GPT-4) integrated into no-code automation and digital assistant products"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_agents",
+      "trust_governance",
+      "automation_agents",
+      "human_oversight_themes",
+      "risk_privacy_security"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper directly addresses trust considerations for LLM-based AI automation agents, synthesizing trust components from prior literature and evaluating how nascent products address them. It aligns with governance, accountability, transparency, privacy, security, and human-in-the-loop themes relevant to the review, but focuses on process automation trust rather than conversational governance in explicitly regulated high-stakes domains.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial full text was provided (fragments from pages 1-3 and 8); complete sections on trust categories, product evaluation, and future challenges are referenced but not fully available for appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Clear conceptual objective to analyze trust in LLM-based automation agents and evaluate nascent products, but provided text lacks detail on product selection criteria, evaluation protocol, and explicit study limitations. Non-empirical design limits sampling and data-collection appraisal."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings on trust considerations for LLM automation agents are logically structured and relevant to governance-of-trust themes, but confidence is moderated by incomplete full text, unclear product sampling, and absence of empirical validation in regulated conversational settings."
+  },
+  "coding": {
+    "open_codes": [
+      "trust_in_ai_agents",
+      "llm_automation_agents",
+      "cognitive_trust",
+      "emotional_trust",
+      "transparency",
+      "responsibility",
+      "privacy",
+      "security",
+      "human_in_the_loop",
+      "no_code_automation",
+      "product_evaluation"
+    ],
+    "axial_codes": [
+      "trust_governance",
+      "agent_accountability",
+      "operational_adoption_barriers",
+      "technical_safeguards"
+    ],
+    "theme": "Trust frameworks for LLM-based AI automation agents",
+    "subtheme": "Mapping legacy trust dimensions to autonomous LLM agents and assessing nascent products",
+    "concepts": [
+      "trust",
+      "performance_process_purpose",
+      "cognitive_trust",
+      "emotional_trust",
+      "autonomous_agents",
+      "guardrails",
+      "privacy",
+      "security",
+      "human-in-the-loop"
+    ],
+    "model_layers": [
+      "trust_components",
+      "product_implementation_assessment",
+      "future_research_challenges"
+    ],
+    "rq_alignment": [
+      "governance_accountability",
+      "risk_audit_compliance",
+      "human_oversight_contestation",
+      "llm_genai",
+      "operational_technical_governance"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Rapid advances in LLMs and LLM-based agent frameworks create new trust challenges and opportunities for AI-based process automation agents that differ from prior trust frameworks.",
+    "contribution": "Synthesizes existing trust-in-AI literature, identifies considerations specific to LLM-based automation agents, evaluates how nascent products address these topics, and outlines future research challenges.",
+    "limitations": "Conceptual and product-review design without reported empirical study in regulated domains; incomplete provided text limits verification of evaluation depth, product selection, and stated limitations.",
+    "use_in_review": "Use as supporting evidence for trust, transparency, responsibility, privacy, security, and human-in-the-loop considerations in LLM-based agent governance; complement with studies focused on regulated conversational systems and operational governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on LLM-based AI automation agents and trust challenges",
+      "excerpt": "the rapid advancements in Large Language Models (LLMs) and the emergence of LLM-based AI agent frameworks pose new challenges and opportunities",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors are identifiable from front matter",
+      "excerpt": "Sivan Schwartz*, Avi Yaeli* and Segev Shlomov IBM Research",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Publication venue and year are workshop proceedings at IJCAI 2023",
+      "excerpt": "AutoMate'23@IJCAI: The First International Workshop on the Future of No-Code Digital Apprentices, Aug 21st, 2023, Macao S.A.R.",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study design combines literature analysis and product evaluation",
+      "excerpt": "analyzes the main aspects of trust in AI agents discussed in existing literature, and identifies specific considerations and challenges relevant to this new generation of automation agents. We also evaluate how nascent products in this category address these considerations.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Specific LLM technologies and agent frameworks are in scope",
+      "excerpt": "Large language models (LLMs) based on generative pre-trained transformer architectures such as OpenAI's GPT-3 [4], and more recently ChatGPT [5]'s and GPT-4 [6]",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Autonomous agent frameworks enable complex task execution and tool interaction",
+      "excerpt": "AutoGPT [7], AgentGPT [8], LangChain [9], and ChatGPT Plugins [10], are capable of receiving high-level objectives, decomposing them into sub-tasks, and interacting online with applications, services, APIs, and tools.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Privacy and security are framed as trust-building considerations",
+      "excerpt": "encryption algorithms to protect user-sensitive data and privacy, and security threat mitigation tools.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Trust framework references responsibility and transparency sub-factors",
+      "excerpt": "degree of responsibility with accurate information, reliability considering the user's perception of consistency in completing a given task, predictability, and faith.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Paper distinguishes cognitive and emotional trust",
+      "excerpt": "Trust can be divided into two categories, (1) cognitive trust, and (2) emotional trust.",
+      "page": "3",
+      "section": "2. Trust in AI-based Automation Agents",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Transparency is identified as a trust sub-factor",
+      "excerpt": "These factors affecting trust (both cognitive and emotional) in human-to-human intera",
+      "page": "3",
+      "section": "2. Trust in AI-based Automation Agents",
+      "supports": "coding"
+    },
+    {
+      "claim": "ChatGPT is characterized as a conversational LLM",
+      "excerpt": "ChatGPT is a state-of-the-art conversational artificial intelligence LLM. It enables interactive and natural language conversations by generating coherent responses in various domains.",
+      "page": "8",
+      "section": "ChatGPT - Example",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Nascent commercial products are evaluated",
+      "excerpt": "In Section 3, we evaluate several nascent products and assess the extent to which they consider the topics described above.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Future research challenges are explicitly highlighted",
+      "excerpt": "Finally, we highlight several challenges that the research community should address in this evolving landscape.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

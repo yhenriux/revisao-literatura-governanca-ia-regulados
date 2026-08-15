@@ -1,0 +1,240 @@
+{
+  "bibliographic": {
+    "title": "Retrieval-Augmented Generation (RAG), Generative AI, and Agentic AI Governance: An Integrated Enterprise Governance Prioritization Architecture",
+    "authors": "Audrey Rah; Sven Hahues",
+    "year": "2026",
+    "venue": "Research Square (preprint)",
+    "doi": "10.21203/rs.3.rs-10012178/v1",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Rah, A., & Hahues, S. (2026). Retrieval-Augmented Generation (RAG), Generative AI, and Agentic AI Governance: An Integrated Enterprise Governance Prioritization Architecture. Research Square. https://doi.org/10.21203/rs.3.rs-10012178/v1"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "Design Science Research with exploratory platform-risk analysis, rubric-based dataset scoring, Monte Carlo robustness assessment, framework coverage matrix, and public-document relevance assessment",
+    "study_design": "Proposed integrated governance architecture (EAPT, EART, EAGM, IAGF) connected via Governance Priority Score (GPS), evaluated on a rubric-based dataset of 19 enterprise AI platforms across eight risk subdimensions",
+    "sample_description": "19 enterprise AI platforms scored across eight subdimensions (data access scope, operational autonomy, tool/API integration breadth, external connectivity, governance burden, cybersecurity exposure, adoption and shadow-AI risk, supply-chain integrity); public evidence from U.S. government agencies, universities, healthcare systems, and financial institutions used for relevance assessment",
+    "sample_size": "19",
+    "sector": "Enterprise AI across multiple sectors including government, healthcare, and financial institutions",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Generative AI (GenAI), Retrieval-Augmented Generation (RAG), agentic AI, large language models embedded in productivity suites, cloud platforms, customer-service workflows, and domain-specific enterprise applications"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GenAI",
+      "RAG",
+      "agentic_AI",
+      "AI_governance",
+      "enterprise_governance",
+      "risk_management",
+      "audit_compliance",
+      "regulated_contexts",
+      "framework_architecture",
+      "human_oversight"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly develops an integrated enterprise governance prioritization architecture for GenAI, RAG, and agentic AI, linking platform burden, governance-risk exposure, organizational readiness, agentic runtime-control needs, and executive decision support through GPS. It explicitly addresses audit, cybersecurity, executive oversight, standards (NIST AI RMF, ISO/IEC 42001, EU AI Act, OWASP LLM Top 10), and regulated-sector public evidence, aligning closely with the review scope on governance of LLM-based systems in high-stakes environments.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front matter, abstract, introduction, methods excerpts, and keyword hits were supplied; full-text verification is needed to confirm conversational-AI specificity, human oversight mechanisms, observability/audit operational detail, and complete limitations."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Design-science fit is strong for architecture contribution. Authors explicitly state Monte Carlo/Spearman results reflect internal coding stability and robustness, not external validation. Three-stage literature/source selection is described but full screening protocol detail is incomplete in provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 5,
+    "overall_confidence": "moderate",
+    "explanation": "Framework components (EAPT, EART, EAGM, IAGF, GPS) are coherently integrated and highly relevant to enterprise governance of RAG, GenAI, and agentic AI. Confidence is moderated because evaluation relies on author-coded platform-risk rubrics and public-document relevance assessment without reported external validation, inter-rater reliability, or organizational pilot evidence in the supplied text."
+  },
+  "coding": {
+    "open_codes": [
+      "enterprise AI governance",
+      "governance prioritization",
+      "platform-risk scoring",
+      "agentic runtime control",
+      "governance maturity",
+      "shadow AI risk",
+      "framework integration",
+      "executive decision support",
+      "standards alignment"
+    ],
+    "axial_codes": [
+      "governance architecture",
+      "risk exposure taxonomy",
+      "organizational readiness",
+      "agentic oversight requirements",
+      "operational decision support"
+    ],
+    "theme": "Integrated enterprise governance architecture for GenAI, RAG, and agentic AI",
+    "subtheme": "Governance Priority Score (GPS) linking platform burden, risk gaps, maturity, and agentic controls",
+    "concepts": [
+      "Enterprise AI Platform Taxonomy (EAPT)",
+      "Enterprise AI Risk Taxonomy (EART)",
+      "Enterprise AI Governance Maturity Model (EAGM)",
+      "Integrated Agentic AI Governance Framework (IAGF)",
+      "Governance Priority Score (GPS)",
+      "platform-risk dataset",
+      "framework coverage matrix"
+    ],
+    "model_layers": [
+      "platform taxonomy",
+      "risk taxonomy",
+      "maturity model",
+      "agentic governance framework",
+      "prioritization scoring",
+      "executive decision support"
+    ],
+    "rq_alignment": [
+      "How to prioritize governance controls for LLM-based enterprise systems",
+      "How to integrate RAG and agentic AI oversight into enterprise AI governance",
+      "How to operationalize risk, audit, and compliance for GenAI deployments in regulated contexts"
+    ],
+    "coding_confidence": 0.86
+  },
+  "synthesis": {
+    "main_claim": "Enterprise adoption of GenAI, RAG, and agentic AI outpaces governance adaptation; the authors propose an integrated governance prioritization architecture that operationally connects platform burden, governance-risk gaps, organizational readiness, and agentic runtime-control needs through GPS.",
+    "contribution": "Introduces and integrates EAPT, EART, EAGM, and IAGF within a unified workflow supported by a reproducible 19-platform rubric dataset, Monte Carlo robustness testing, framework coverage matrix, and GPS-based demonstration, drawing on major AI governance and security standards.",
+    "limitations": "Authors characterize the work as a bounded design-science foundation for future validation; scoring robustness is presented as internal coding stability (Spearman's rho = 0.996) rather than external validation; conversational-system governance is referenced indirectly via customer-service workflows and agentic controls rather than as a primary focus.",
+    "use_in_review": "Use as central evidence for enterprise-level governance architectures spanning RAG, GenAI, and agentic AI; for GPS-style prioritization of controls; and for mapping to NIST, ISO/IEC 42001, EU AI Act, OWASP LLM Top 10, and MITRE ATLAS in regulated enterprise contexts."
+  },
+  "evidence": [
+    {
+      "claim": "Article title and focus on RAG, GenAI, and agentic AI governance",
+      "excerpt": "Retrieval-Augmented Generation (RAG), Generative AI, and Agentic AI Governance: An Integrated Enterprise Governance Prioritization Architecture",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Design Science Research methodology",
+      "excerpt": "This paper develops a proposed integrated AI governance prioritization architecture using a design-science research approach",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Integrated architecture components and GPS linkage",
+      "excerpt": "uses the Enterprise AI Platform Taxonomy (EAPT) to estimate platform burden, the Enterprise AI Risk Taxonomy (EART) to organize governance-risk exposure, the Enterprise AI Governance Maturity Model (EAGM) to represent organizational readiness, and the Integrated Agentic AI Governance Framework (IAGF) to identify agentic AI oversight requirements",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "GPS connects burden, risk gaps, readiness, agentic controls, and executive support",
+      "excerpt": "operationally connected through GPS, which links platform burden, governance-risk gaps, organizational readiness, agentic runtime-control needs, and executive decision support",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Alignment with major governance and LLM security standards",
+      "excerpt": "draws upon NIST AI RMF, NIST AI 600-1, ISO/IEC 42001, COBIT, OWASP LLM Top 10, MITRE ATLAS, the EU AI Act",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Sample of 19 enterprise AI platforms with eight risk subdimensions",
+      "excerpt": "A rubric-based analytical dataset covering 19 enterprise AI platforms evaluates each platform across eight subdimensions",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Internal robustness only, not external validation",
+      "excerpt": "these results are interpreted only as internal coding stability and robustness, not external validation",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Regulated-sector public evidence used",
+      "excerpt": "Public evidence from U.S. government agencies, universities, healthcare systems, and financial institutions is used to assess architecture relevance and observability",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs embedded in enterprise workflows including customer service",
+      "excerpt": "Large language models are now embedded in productivity suites, software development environments, cloud platforms, customer-service workflows, research systems, and domain-specific enterprise applications",
+      "page": "3",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "RAG as common enterprise architecture pattern",
+      "excerpt": "Retrieval-Augmented Generation (RAG) has become a common ar",
+      "page": "3",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Agentic AI operational risks including tool use and delegation",
+      "excerpt": "use external tools, modify files, query databases, trigger workflows, or delegate tasks across agents",
+      "page": "6",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "OWASP LLM risks relevant to agentic systems",
+      "excerpt": "OWASP identifies excessive agency, prompt injection, sensitive information disclosure, and supply-chain vulnerabilities as central concerns for LLM applications",
+      "page": "6",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Three-stage literature and source selection",
+      "excerpt": "The literature and source selection process followed three stages",
+      "page": "8",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Bounded foundation awaiting future validation",
+      "excerpt": "The paper contributes a bounded design-science foundation for future inter-rater reliability testing, Delphi expert validation, organizational pilots, psychometric evaluation, and dashboard usability assessment",
+      "page": "2",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Enterprise platform example with interaction history and audit controls",
+      "excerpt": "stores interaction history under tenant commitments, and does not train foundation models on customer data. Purview, tenant controls, encryption, access policies, audit, and enterprise data protection reduce provider-side risk",
+      "page": "19",
+      "section": "limitations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Literature search included LLM, RAG poisoning, and agentic AI risks",
+      "excerpt": "\"large language model\" AND (\"prompt injection\" OR \"RAG poisoning\" OR \"agentic AI\" OR \"multi-agent\")",
+      "page": "35",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No competing interests declared",
+      "excerpt": "The authors declare no competing interests.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

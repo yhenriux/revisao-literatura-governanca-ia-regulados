@@ -1,0 +1,161 @@
+{
+  "bibliographic": {
+    "title": "Transforming Financial And Insurance Ecosystems Through Intelligent Automation, Secure Digital Infrastructure, And Advanced Risk Management Strategies",
+    "authors": "Lahari Pandiri; Srinivasarao Paleti; Pallav Kumar Kaulwar; Murali Malempati; Jeevani Singireddy",
+    "year": "2023",
+    "venue": "Educational Administration: Theory and Practice, 29(4), 4777-4793",
+    "doi": "10.53555/kuey.v29i4.9669",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Pandiri, L., Paleti, S., Kaulwar, P. K., Malempati, M., & Singireddy, J. (2023). Transforming financial and insurance ecosystems through intelligent automation, secure digital infrastructure, and advanced risk management strategies. Educational Administration: Theory and Practice, 29(4), 4777-4793. https://doi.org/10.53555/kuey.v29i4.9669"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "ecosystem perspective; conceptual discussion of digital transformation, risk management, and regtech",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "financial services and insurance",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "intelligent automation, chatbots, robotic process automation, machine learning, natural language conversational artificial intelligence, AI trust models, regtech, digital platforms, trust services, identity blocks"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "not_llm_focused",
+      "not_conversational_governance_focused",
+      "peripheral_chatbot_mention",
+      "broad_sector_overview_without_conversational_system_governance"
+    ],
+    "exclusion_reason": "The article is a broad conceptual overview of digital transformation, intelligent automation, and risk management in financial and insurance ecosystems. It mentions chatbots and natural language conversational artificial intelligence only peripherally and does not center on governance of LLM-based or conversational AI systems.",
+    "decision_rationale": "Although the paper references chatbots, conversational AI, accountability-related terms, and regulated financial/insurance contexts, the provided text shows no specific focus on large language models or on conversational governance mechanisms such as guardrails, observability, human oversight, contestation, or post-deployment monitoring of conversational systems. The work is better classified as sector-level digital transformation and risk strategy than as evidence on conversational governance in LLM systems.",
+    "decision_confidence": 0.86,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Deterministic triage scored the article as a central candidate largely via keyword hits (governance, chatbots, compliance), but full-text review shows only incidental mentions of conversational AI and no LLM-specific or conversational-governance analysis."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 1,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 0,
+    "evidence_support": 1,
+    "transferability": 2,
+    "notes": "Conceptual sector overview without described empirical design, sample, data collection, or systematic analysis in the provided text. Claims about transformation mechanisms and risk strategies are presented discursively rather than through a reported research method."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the review's focus on conversational governance in LLM-based systems, the article offers only peripheral and generic references to chatbots and conversational AI within a broader financial/insurance automation narrative. No substantive conversational-governance findings or LLM-specific mechanisms are evidenced in the supplied text."
+  },
+  "coding": {
+    "open_codes": [
+      "intelligent automation",
+      "chatbots",
+      "robotic process automation",
+      "AI trust models",
+      "regtech",
+      "risk management strategies",
+      "digital platforms",
+      "trust services",
+      "fairness requirements"
+    ],
+    "axial_codes": [
+      "financial insurance digital transformation",
+      "automation enabled customer interaction",
+      "high level AI governance signals",
+      "regulated sector risk and compliance"
+    ],
+    "theme": "Digital transformation and risk management in financial and insurance ecosystems",
+    "subtheme": "Intelligent automation and trust-enabled digital infrastructure",
+    "concepts": [
+      "natural language conversational artificial intelligence",
+      "chatbots",
+      "AI trust models",
+      "regtech portfolio",
+      "predictive analytics in risk management"
+    ],
+    "model_layers": [],
+    "rq_alignment": [
+      "limited alignment: regulated financial/insurance context",
+      "limited alignment: generic AI trust and fairness mentions",
+      "no clear alignment: LLM conversational governance"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Financial and insurance ecosystems can be improved through digital infrastructures, intelligent automation, secure processing, and advanced risk management, with AI-enabled tools contributing to business effectiveness, risk evaluation, and customer interaction.",
+    "contribution": "Provides a high-level ecosystem perspective linking digital platforms, trust services, identity blocks, intelligent automation, regtech, and insurance risk management in financial and insurance markets.",
+    "limitations": "unclear",
+    "use_in_review": "Not recommended as central or supporting evidence for conversational governance in LLM systems; at most marginal contextual background on chatbots and AI trust models in regulated financial/insurance settings."
+  },
+  "evidence": [
+    {
+      "claim": "Article targets financial and insurance ecosystem transformation rather than conversational AI governance.",
+      "excerpt": "the authors seek to understand if financial and insurance ecosystems can be further improved by using digital infrastructures and tools",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Chatbots are mentioned as one embedded AI enhancement, not as the study's central object.",
+      "excerpt": "enable personalized user experiences—such as chatbots and robotic process automation—while being governed and monitored using AI trust models",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Conversational AI appears only as part of a broader automation ladder.",
+      "excerpt": "move up to machine learning, natural language conversational artificial intelligence, and semantic analytics",
+      "page": "3",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Customer interaction via chatbots is discussed operationally, not as a governance framework.",
+      "excerpt": "Intelligent automation tools such as chatbots and robotic process automation can help organizations to effectively and consistently communicate and interact with customers",
+      "page": "3",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated high-stakes sector context is present.",
+      "excerpt": "regulatory risk management, and distinguishability and fairness requirements of consumer-facing and risk-critical applications",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "No LLM-specific technology is evidenced in the provided text.",
+      "excerpt": "the combination of artificial intelligence and robotics—also known as intelligent automation—is delivering a competitive advantage",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research appears conceptual rather than empirical.",
+      "excerpt": "In this paper, we evidence the reality and examine the implications of the integration of advanced analytics, particularly artificial intelligence",
+      "page": "8",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Risk management discussion centers on predictive analytics and machine learning, not conversational system governance.",
+      "excerpt": "Predictive analytics in risk management involves the application of machine learning methods to uncover unknown patterns in data",
+      "page": "7",
+      "section": "methods",
+      "supports": "synthesis"
+    }
+  ]
+}

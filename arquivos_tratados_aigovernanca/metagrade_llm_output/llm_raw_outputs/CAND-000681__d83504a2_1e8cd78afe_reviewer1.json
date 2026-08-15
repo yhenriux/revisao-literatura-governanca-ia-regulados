@@ -1,0 +1,173 @@
+{
+  "bibliographic": {
+    "title": "Unified AI Security Posture Management Framework for Multi-Cloud Large Language Model Deployments",
+    "authors": "Vaishali Mahavratayajula",
+    "year": "2026",
+    "venue": "International Journal of Computational and Experimental Science and Engineering (IJCESEN)",
+    "doi": "10.22399/ijcesen.5279",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Mahavratayajula, V. (2026). Unified AI Security Posture Management Framework for Multi-Cloud Large Language Model Deployments. International Journal of Computational and Experimental Science and Engineering, 12(2), 546-557. https://doi.org/10.22399/ijcesen.5279"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "survey literature review",
+    "study_design": "survey",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "finance, healthcare, government, enterprise multi-cloud",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "multi-cloud LLM deployments; Unified AI Security Posture Management (UAI-SPM); zero-trust architecture; CSPM; DSPM; cloud security compliance; LLM threat detection"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text assessment",
+    "inclusion_codes": [
+      "LLM_DEPLOYMENT",
+      "AI_GOVERNANCE",
+      "SECURITY_COMPLIANCE",
+      "OPERATIONAL_MONITORING",
+      "REGULATED_SECTORS"
+    ],
+    "exclusion_codes": [
+      "LACK_CONVERSATIONAL_AI_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a survey on Unified AI Security Posture Management for multi-cloud LLM deployments, with explicit coverage of governance, compliance, monitoring, and regulated sectors (finance, healthcare, government). It does not address conversational systems, chatbots, agents, or conversational governance mechanisms, so it is better classified as supporting evidence for operational and security governance rather than central evidence for conversational governance.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial introduction/limitations were provided; full survey methods, inclusion criteria, and conversational-relevance sections require manual verification."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Survey objective is clearly stated, but the provided text does not describe systematic search, selection, or appraisal procedures. Strengths include explicit LLM-specific threat surfaces and multi-cloud security framing; weakness for the review scope is absence of conversational AI or human oversight mechanisms."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Claims are coherent and partially supported by cited industry and regulatory trends, but methodological transparency is limited in the excerpt. Relevance to the review is moderate for LLM security governance and compliance, and low for conversational governance specifically."
+  },
+  "coding": {
+    "open_codes": [
+      "unified AI security posture management",
+      "multi-cloud LLM deployment",
+      "zero-trust for generative AI",
+      "continuous monitoring",
+      "transparent governance",
+      "identity and access misconfiguration risk",
+      "prompt injection",
+      "configuration drift",
+      "fragmented CSPM/DSPM tooling"
+    ],
+    "axial_codes": [
+      "operational_technical_governance",
+      "risk_audit_compliance",
+      "regulated_environment_deployment",
+      "infrastructure_security_controls"
+    ],
+    "theme": "AI security posture management for LLM workloads",
+    "subtheme": "multi-cloud security and compliance governance",
+    "concepts": [
+      "UAI-SPM",
+      "CSPM",
+      "DSPM",
+      "zero-trust architecture",
+      "LLM threat detection",
+      "adaptive compliance",
+      "behavioral insights",
+      "continuous discovery"
+    ],
+    "model_layers": [
+      "infrastructure",
+      "security controls",
+      "monitoring and incident response",
+      "compliance certification",
+      "deployment lifecycle"
+    ],
+    "rq_alignment": [
+      "LLM governance in regulated contexts",
+      "security monitoring and auditability",
+      "compliance and risk management for deployed AI systems"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "Enterprises deploying LLMs across multi-cloud environments need integrated Unified AI Security Posture Management frameworks that combine continuous discovery, behavioral insights, adaptive compliance, and zero-trust controls to reduce blind spots and address LLM-specific attack surfaces.",
+    "contribution": "Proposes and surveys a UAI-SPM framing for multi-cloud LLM security, synthesizing industry, regulatory, and technological trends; highlights pervasive attacks, identity/access misconfiguration as major risk, and tradeoffs between autonomy and security.",
+    "limitations": "Provided text does not detail survey methodology, evidence selection, or empirical validation; existing CSPM and general AI governance tools are described as architecturally insufficient for holistic LLM workload monitoring and remediation.",
+    "use_in_review": "Use as supporting evidence on operational and security governance for LLM deployments in regulated sectors; not suitable as central evidence on conversational governance, human oversight, contestation, or chatbot/agent-specific controls."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a survey on UAI-SPM for multi-cloud LLM hosting.",
+      "excerpt": "This survey presents emerging Unified AI Security Posture Management (UAI-SPM) frameworks for hosting LLM applications in multi-cloud environments.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Addresses regulated sectors including finance, healthcare, and government.",
+      "excerpt": "Rapid adoption of artificial intelligence, and in particular LLMs, has changed how enterprises operate in the finance, healthcare, and government sectors.",
+      "page": "1",
+      "section": "1.1 Background and Operational Context",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Emphasizes transparent governance and continuous monitoring across the AI lifecycle.",
+      "excerpt": "Organizations will also have to deal with accelerating regulatory scrutiny around continuous monitoring, transparent governance, and verifiable security controls throughout the AI system lifecycle.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Identifies LLM-specific attack surfaces beyond generic cloud security.",
+      "excerpt": "LLM deployments have unique attack surfaces such as direct model access, prompt injection, training data exfiltration, and leaked model weights, which existing tooling does not fully address.",
+      "page": "2",
+      "section": "limitations",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Existing fragmented tooling lacks holistic LLM monitoring and remediation.",
+      "excerpt": "Tools such as CSPM and general AI governance frameworks partially automate cloud security operations, but due to architectural limitations, they do not offer a holistic solution that combines AI monitoring, compliance testing, and remediation of LLM workloads.",
+      "page": "2",
+      "section": "limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Key finding on pervasive attacks and identity/access misconfiguration risk.",
+      "excerpt": "Key findings indicate that attacks against AI services are pervasive and that the majority of risk exposure stems from identity and access misconfigurations.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Covers zero trust applied to generative AI systems.",
+      "excerpt": "The article describes the tradeoffs between autonomy and security in AI systems, provides a literature review for applying zero trust to generative AI systems",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational AI or chatbot focus is present in the provided text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

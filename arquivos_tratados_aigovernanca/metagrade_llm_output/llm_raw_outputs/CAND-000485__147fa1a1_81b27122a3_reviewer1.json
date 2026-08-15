@@ -1,0 +1,247 @@
+{
+  "bibliographic": {
+    "title": "The Risk-Adjusted Intelligence Dividend: A Quantitative Framework for Measuring AI Return on Investment Integrating ISO 42001 and Regulatory Exposure",
+    "authors": "Hernan Huwyler",
+    "year": "2025",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Huwyler, H. (2025). The risk-adjusted intelligence dividend: A quantitative framework for measuring AI return on investment integrating ISO 42001 and regulatory exposure. arXiv preprint arXiv:2511.21975."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "quantitative financial risk modeling; annual loss expectancy (ALE); Monte Carlo simulation; framework development grounded in standards and cited industry research",
+    "study_design": "conceptual-methodological framework paper without reported primary empirical sample or case study in the provided text",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "cross-industry; references finance, insurance, fraud detection, and general organizational AI investment contexts",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "general artificial intelligence and machine learning systems, automated decision-making, high-risk AI under EU AI Act; no explicit large language model or conversational system focus in provided text"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "AI_GOVERNANCE",
+      "RISK_COMPLIANCE",
+      "REGULATED_CONTEXT",
+      "FRAMEWORK_METHOD"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI",
+      "NO_LLM_SPECIFIC"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper offers a rigorous financial framework for AI governance, compliance, monitoring, and audit aligned with ISO/IEC 42001, EU AI Act, and NIST AI RMF, which is relevant background for regulated AI governance. However, the provided text does not address conversational systems, chatbots, agents, RAG, guardrails, or LLM-specific operational governance, so it is better classified as foundational/contextual rather than central evidence for conversational LLM governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial PDF text was supplied; confirm absence of conversational AI, LLM, agent, or human-handoff content in remaining pages before final PRISMA coding."
+  },
+  "appraisal": {
+    "objective_clarity": 8,
+    "method_fit": 7,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 5,
+    "analysis_rigor": 7,
+    "ethics_reflexivity": 4,
+    "results_clarity": 7,
+    "limitations_transparency": 6,
+    "evidence_support": 6,
+    "transferability": 7,
+    "notes": "Clear methodological objective and fit for financial risk-adjusted AI investment evaluation. No empirical sample, primary data collection, or validation study is evident in the provided excerpts; appraisal of sampling and ethics is therefore limited. Strong alignment with regulatory and governance standards, but weak direct relevance to conversational LLM governance."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and grounded in recognized standards and risk-quantification methods, but the supplied text shows no primary empirical validation and little direct coverage of conversational or LLM-specific governance mechanisms. Confidence is moderate for use as contextual governance background and lower for answering conversational LLM governance questions directly."
+  },
+  "coding": {
+    "open_codes": [
+      "risk-adjusted ROI",
+      "annual loss expectancy",
+      "Monte Carlo simulation",
+      "AI governance structures",
+      "compliance monitoring",
+      "audit documentation",
+      "model drift",
+      "bias-related litigation",
+      "technical debt in ML",
+      "phased validation",
+      "control effectiveness",
+      "reserve requirements",
+      "hallucinated outputs"
+    ],
+    "axial_codes": [
+      "financial governance of AI",
+      "regulatory compliance integration",
+      "quantitative risk assessment",
+      "operational cost of AI maintenance",
+      "standards-based governance mapping"
+    ],
+    "theme": "Financial quantification of AI governance and regulatory risk",
+    "subtheme": "Risk-adjusted return on investment integrating ISO 42001 and regulatory exposure",
+    "concepts": [
+      "Risk Delta",
+      "Annual Loss Expectancy",
+      "ISO/IEC 42001",
+      "EU Artificial Intelligence Act",
+      "NIST AI Risk Management Framework",
+      "total cost of ownership",
+      "evidence-based AI portfolio management"
+    ],
+    "model_layers": [
+      "organizational governance",
+      "financial risk management",
+      "regulatory compliance",
+      "operational lifecycle maintenance"
+    ],
+    "rq_alignment": [
+      "AI governance in regulated environments",
+      "compliance and audit documentation",
+      "risk management and monitoring",
+      "accountability through measurable governance outcomes"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Traditional AI ROI calculations are inadequate because AI changes organizational risk in both directions; the paper proposes a quantitative, risk-adjusted framework that integrates productivity gains with pre- and post-implementation risk deltas, control effectiveness, and compliance costs under frameworks such as ISO/IEC 42001 and the EU AI Act.",
+    "contribution": "Provides a practitioner-oriented financial methodology using ALE and Monte Carlo simulation to support governance structures, phased validation, compliance monitoring, audit-ready documentation, and capital allocation for AI portfolios in regulated settings.",
+    "limitations": "Supplied text does not report empirical validation, case studies, or sample-based testing; does not address conversational AI, LLMs, human handoff, contestation, tracing, or conversational guardrails; relevance to the review's core focus is indirect.",
+    "use_in_review": "Use as foundational/contextual evidence for linking AI governance, compliance, audit, and monitoring requirements to measurable financial and risk metrics in regulated environments; not suitable as central evidence for conversational LLM governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Paper is a 2025 arXiv preprint by Hernan Huwyler on risk-adjusted AI ROI.",
+      "excerpt": "Prof. Hernan Huwyler, MBA CPA November 26, 2025",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Published as arXiv preprint without peer-review status stated.",
+      "excerpt": "arXiv:2511.21975v1 [cs.CY] 26 Nov 2025",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research type is a methodological financial framework, not an empirical study.",
+      "excerpt": "this research presents a comprehensive financial framework for quantifying AI project returns that explicitly integrates changes in organizational risk profiles",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Methods include ALE and Monte Carlo simulation.",
+      "excerpt": "Drawing on established risk quantification methods, including annual loss expectancy calculations and Monte Carlo simulation techniques",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Addresses AI-specific threats including bias, compliance failures, and model drift.",
+      "excerpt": "AI-specific threats including model drift, bias-related litigation, and compliance failures under emerging regulations such as the European Union Artificial Intelligence Act and ISO/IEC 42001",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Provides governance guidance rather than conversational system design.",
+      "excerpt": "specific guidance for establishing governance structures, conducting phased validations, and integrating risk-adjusted metrics into capital allocation decisions",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Keywords explicitly include AI governance and compliance frameworks.",
+      "excerpt": "Keywords: risk-adjusted ROI, artificial intelligence investment, AI governance, quantitative risk assessment, total cost of ownership, annual loss expectancy, compliance frameworks",
+      "page": "2",
+      "section": "keywords",
+      "supports": "coding"
+    },
+    {
+      "claim": "Treats AI as altering organizational risk profile bidirectionally.",
+      "excerpt": "AI implementations as conventional technology projects amenable to standard cost-benefit analysis. This conceptualization ignores the distinctive characteristic of AI systems, namely their capacity to fundamentally alter an organization's risk profile in both directions",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Mentions machine learning technical debt affecting ROI.",
+      "excerpt": "technical debt in machine learning systems can erode projected ROI by 18-29% if left unserviced",
+      "page": "5",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Integrates ISO/IEC 42001 governance activities with measurable outcomes.",
+      "excerpt": "The standard explicitly connects governance activities to measurable outcomes, creating a foundation for integrating compliance requirements with financial evaluation",
+      "page": "6",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Maps to NIST AI RMF Govern, Map, Measure, and Manage functions.",
+      "excerpt": "The National Institute of Standards and Technology Artificial Intelligence Risk Management Framework provides complementary guidance through its four core functions: Govern, Map, Measure, and Manage",
+      "page": "6",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "EU AI Act high-risk systems require documented lifecycle risk management and data governance.",
+      "excerpt": "High-risk AI systems must maintain documented risk management systems covering the complete lifecycle, implement data governance practices ensuring training data quality",
+      "page": "6",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Compliance monitoring and audit documentation are explicit cost drivers.",
+      "excerpt": "Compliance monitoring and audit documentation impose overhead that scales with regulatory scrutiny",
+      "page": "8",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Risk scenarios include hallucinated outputs but not conversational context.",
+      "excerpt": "Model inversion attacks, training data poisoning, algorithmic bias, concept drift, and hallucinated outputs each require annual loss expectancy estimation",
+      "page": "12",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Framework outputs are positioned as audit-suitable documentation.",
+      "excerpt": "The framework's explicit benefit metrics, risk scenario analysis, and ongoing monitoring provisions satisfy these requirements while generating documentation suitable for audit purposes",
+      "page": "13",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "EU AI Act compliance requires documented risk registers and control documentation.",
+      "excerpt": "The framework generates the risk registers, control documentation, and performance records that regulators will examine",
+      "page": "13",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Only weak conversational signal; 'interaction' refers to accounting standards.",
+      "excerpt": "The interaction between capitalization rules and risk-adjusted return calculations merits specific attention",
+      "page": "19",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Author identifies future research needs, indicating limitations.",
+      "excerpt": "Research examining optimal reserve levels for different AI application categories and risk profiles would refine current guidance based on empirical observation",
+      "page": "19",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

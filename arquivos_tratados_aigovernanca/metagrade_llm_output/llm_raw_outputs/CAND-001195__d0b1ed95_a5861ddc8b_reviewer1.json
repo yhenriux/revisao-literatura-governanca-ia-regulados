@@ -1,0 +1,166 @@
+{
+  "bibliographic": {
+    "title": "On bullshit, large language models, and the need to curb your enthusiasm",
+    "authors": "Daniel W. Tigard",
+    "year": "2025",
+    "venue": "AI and Ethics",
+    "doi": "10.1007/s43681-025-00743-3",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Tigard, D. W. (2025). On bullshit, large language models, and the need to curb your enthusiasm. AI and Ethics, 5, 4863–4873. https://doi.org/10.1007/s43681-025-00743-3"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "philosophical conceptual analysis",
+    "study_design": "theoretical guide applying Frankfurt's account of bullshit to LLMs and chatbots",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models, generative AI, and chatbots such as ChatGPT and LaMDA"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GENAI",
+      "CONVERSATIONAL_AI",
+      "CONCEPTUAL_FRAMEWORK"
+    ],
+    "exclusion_codes": [
+      "NO_OPERATIONAL_GOVERNANCE_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed conceptual guide on when and how to call bullshit on ChatGPT and related generative AI systems, using Frankfurt's philosophy rather than presenting governance mechanisms, oversight architectures, audit/logging, compliance frameworks, or empirical evaluation of regulated deployments. It is relevant as foundational context on deception, truth, and critical evaluation of LLM chatbot outputs, with only anecdotal references to legal, educational, and healthcare chatbot failures.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and page 1 were supplied; governance relevance, full argument, methods detail, and limitations cannot be fully adjudicated without the complete text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Appraisal is based only on page 1. The study is non-empirical conceptual work, so sampling and empirical data-collection criteria are not applicable. Rigor, limitations, and ethics reflexivity remain unclear from the excerpt provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "The abstract presents a coherent two-step conceptual guide, but the supplied text is insufficient to judge argument development, evidentiary support, or direct relevance to conversational governance in regulated operational settings."
+  },
+  "coding": {
+    "open_codes": [
+      "bullshit",
+      "truth",
+      "deception",
+      "LLM outputs",
+      "ChatGPT critique",
+      "human-AI interaction"
+    ],
+    "axial_codes": [
+      "epistemic evaluation of generative AI",
+      "philosophical framing of conversational AI risk"
+    ],
+    "theme": "Philosophical evaluation of truth and bullshit in LLM-based conversational systems",
+    "subtheme": "Curbing overgeneralized critiques of chatbots through Frankfurt's account",
+    "concepts": [
+      "Frankfurt bullshit",
+      "large language models",
+      "generative AI",
+      "chatbots",
+      "truth",
+      "human-AI interaction"
+    ],
+    "model_layers": [
+      "user-facing conversational output",
+      "epistemic assessment"
+    ],
+    "rq_alignment": [
+      "partial alignment with risk, accountability, and critical use of conversational AI in high-stakes contexts"
+    ],
+    "coding_confidence": 0.58
+  },
+  "synthesis": {
+    "main_claim": "Before calling bullshit on ChatGPT and related generative AI systems, users should understand how LLMs function and what they produce, and should apply a more careful Frankfurt-based notion of bullshit rather than jumping too quickly to the conclusion that LLMs are bullshitting.",
+    "contribution": "Offers a brief conceptual guide for critically evaluating LLM chatbot outputs and moderating hype-driven accusations of bullshit.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence on epistemic caution, deception, and truth evaluation in LLM chatbots; not as central evidence on conversational governance, operational controls, auditability, or regulated deployment frameworks."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with identifiable bibliographic metadata",
+      "excerpt": "ORIGINAL RESEARCH AI and Ethics (2025) 5:4863–4873 https://doi.org/10.1007/s43681-025-00743-3",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is conceptual rather than empirical",
+      "excerpt": "With this paper, I aim to provide a brief guide on how to call bullshit on ChatGPT and related systems.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Focuses on specific LLM-based conversational systems",
+      "excerpt": "particularly regarding large language models (LLMs), generative AI and chatbots like ChatGPT",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Uses Frankfurt's philosophy as analytical basis",
+      "excerpt": "I appeal to the prominent work of the late Harry Frankfurt and suggest that recent accounts jump too quickly to the conclusion that LLMs are bullshitting.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Mentions high-stakes regulated-context failures only as examples",
+      "excerpt": "recent reports have revealed the folly of a lawyer who relied upon ChatGPT and submitted a brief with fabricated court decisions",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "References healthcare chatbot harm as cautionary example",
+      "excerpt": "a wellness chatbot was shut down after giving users harmful advice about weight loss",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Does not present operational governance, audit, or compliance mechanisms in supplied text",
+      "excerpt": "one must understand the basic nature of LLMs, how they function and what they produce, and one must recognize bullshit.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Objective is clearly stated",
+      "excerpt": "What exactly does it mean to call bullshit on an AI program? When is doing so a good idea, and when might it not be?",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Main synthesized contribution",
+      "excerpt": "I offer a more level-headed approach to calling bullshit, and accordingly, a way of navigating some of the recent critiques of generative AI systems.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

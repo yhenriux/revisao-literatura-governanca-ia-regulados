@@ -1,0 +1,176 @@
+{
+  "bibliographic": {
+    "title": "Systematic literature review on bias mitigation in generative AI",
+    "authors": "Juveria Afreen; Mahsa Mohaghegh; Maryam Doborjeh",
+    "year": "2025",
+    "venue": "AI and Ethics",
+    "doi": "10.1007/s43681-025-00721-9",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Afreen, J., Mohaghegh, M., & Doborjeh, M. (2025). Systematic literature review on bias mitigation in generative AI. AI and Ethics, 5, 4789–4841. https://doi.org/10.1007/s43681-025-00721-9"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic literature review",
+    "study_design": "systematic literature review",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "multiple domains including text, image, audio, video; references to healthcare, transportation, and finance for LLM use",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Generative Artificial Intelligence across text, image, audio, and video modalities; large language models referenced in financial loan assessment and decision-making contexts"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "SLR_on_genai",
+      "bias_fairness_accountability",
+      "llm_mentioned",
+      "regulated_contexts_partial"
+    ],
+    "exclusion_codes": [
+      "not_conversational_governance_focus",
+      "not_operational_governance_primary"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed systematic literature review on bias mitigation in generative AI, explicitly covering GAI/LLMs, fairness, accountability, monitoring, and sensitive-sector applications. However, the provided text centers on bias types, causes, and mitigation across GAI modalities rather than conversational governance, chatbots, guardrails, observability, or human oversight in conversational systems. It is relevant as supporting evidence on fairness/accountability governance in GAI but not as central evidence for conversational governance in regulated LLM systems.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Confirm in full text whether included studies address conversational AI, dialogue systems, or operational governance mechanisms beyond general bias mitigation."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal based on front matter and early pages only. SLR protocol, search strategy, inclusion criteria, and synthesis methods are not visible in the supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The study is clearly framed as a systematic review on GAI bias mitigation with coherent claims on causes and strategies, but supplied text lacks detail on review protocol and synthesis. Relevance to conversational governance in regulated LLM environments is indirect."
+  },
+  "coding": {
+    "open_codes": [
+      "bias mitigation",
+      "generative artificial intelligence",
+      "systematic literature review",
+      "fairness",
+      "accountability",
+      "monitoring",
+      "interdisciplinary collaboration",
+      "sensitive decision-making settings"
+    ],
+    "axial_codes": [
+      "algorithmic bias governance",
+      "mitigation strategies",
+      "cross-modal GAI risks",
+      "ethical development lifecycle"
+    ],
+    "theme": "Bias and fairness governance in generative AI",
+    "subtheme": "Mitigation strategies across text, image, audio, and video modalities",
+    "concepts": [
+      "bias",
+      "fairness",
+      "accountability",
+      "transparency",
+      "monitoring",
+      "ethical considerations",
+      "inclusive datasets",
+      "societal impact"
+    ],
+    "model_layers": [
+      "training data",
+      "model development lifecycle",
+      "deployment monitoring"
+    ],
+    "rq_alignment": [
+      "partial alignment via bias/fairness/accountability in GAI",
+      "weak alignment to conversational governance and operational controls"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "The paper conducts a systematic literature review mapping types, causes, and mitigation strategies for bias in generative AI across multiple modalities, arguing that interdisciplinary collaboration and ongoing monitoring are essential for equitable AI.",
+    "contribution": "Provides a structured review framing of bias in GAI, including technical and non-technical mitigation approaches and emphasis on fairness, accountability, and trustworthy AI.",
+    "limitations": "Supplied excerpts do not report review search strategy, study selection counts, quality appraisal of included studies, or explicit limitations section.",
+    "use_in_review": "Use as supporting evidence on bias/fairness/accountability and monitoring in GAI/LLM contexts; not a primary source for conversational governance mechanisms such as guardrails, tracing, human handoff, or post-deployment operational governance in regulated conversational systems."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article identified as systematic literature review on bias mitigation in generative AI",
+      "excerpt": "Systematic literature review on bias mitigation in generative AI",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study focuses on generative AI bias across multiple modalities",
+      "excerpt": "Various domains such as text, image, audio, video and more significant advancements in Generative Artificial Intelligence (GAI) were evidenced.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Explicit SLR methodology label in keywords/metadata",
+      "excerpt": "Keywords Generative AI · Bias mitigation · Text · Image · Audio · Video · Societal impact · Hallucinations · Misuse systematic literature review",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Addresses accountability and fairness in generative AI ecosystem",
+      "excerpt": "constructing an AI ecosystem that is characterised by inclusivity, fairness, and accountability",
+      "page": "3",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Mentions ongoing monitoring as mitigation mechanism",
+      "excerpt": "Ethical considerations throughout the development lifecycle and ongoing monitoring mechanisms prove pivotal in mitigating biases",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs discussed in regulated/high-stakes decision contexts including finance and healthcare",
+      "excerpt": "bias in large language models (LLMs) within the financial sector, specifically in loan assessments. LLMs have become critical tools in decision-making processes across various industries, including healthcare, transportation, and finance",
+      "page": "3",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "AI use in sensitive settings with significant judgments",
+      "excerpt": "employed in various contexts that involve sensitive settings, where they are tasked with making significant judgements that can have profound impacts on individuals' lives",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Interdisciplinary collaboration emphasized for bias mitigation",
+      "excerpt": "interdisciplinary collaboration, emphasising that a collective effort spanning developers, ethicists, policymakers, and end-users is paramount",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Not specifically framed as conversational governance research",
+      "excerpt": "This exclusive exploration embarks on a comprehensive journey through the nuanced landscape of bias in AI",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

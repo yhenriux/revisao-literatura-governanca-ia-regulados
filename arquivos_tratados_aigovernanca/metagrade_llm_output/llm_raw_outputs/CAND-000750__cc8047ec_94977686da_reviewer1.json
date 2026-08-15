@@ -1,0 +1,174 @@
+{
+  "bibliographic": {
+    "title": "Auto-Debias: Debiasing Masked Language Models with Automated Biased Prompts",
+    "authors": "Yue Guo, Yi Yang, Ahmed Abbasi",
+    "year": "2022",
+    "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics Volume 1: Long Papers",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Guo, Y., Yang, Y., & Abbasi, A. (2022). Auto-Debias: Debiasing masked language models with automated biased prompts. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (pp. 1012-1023). Association for Computational Linguistics."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "automated debiasing of masked language models via prompt probing and fine-tuning",
+    "study_design": "two-stage technical framework: (1) automated search for biased cloze-style prompts using beam search; (2) debiasing via distribution alignment loss fine-tuning",
+    "sample_description": "pretrained masked language models including BERT, RoBERTa, and ALBERT; evaluated on standard bias datasets/metrics and GLUE benchmark",
+    "sample_size": "unclear",
+    "sector": "natural language processing and machine learning research",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "masked language models (BERT, RoBERTa, ALBERT), cloze-style prompts, beam search, distribution alignment loss, GLUE benchmark"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_not_conversational_ai",
+      "E2_not_governance_focus",
+      "E3_pre_llm_technology",
+      "E4_no_regulated_deployment_context"
+    ],
+    "exclusion_reason": "Technical debiasing study on pretrained masked language models; does not address conversational systems, operational governance, oversight, audit, compliance, or regulated deployment of generative/conversational AI.",
+    "decision_rationale": "The paper proposes Auto-Debias to mitigate gender and racial bias in BERT-family masked language models through automated biased-prompt search and distribution alignment loss. It is relevant as foundational background on bias and fairness in language models, but outside the core scope of conversational governance in LLM-based regulated environments. Python triage score 46.0 (grade D) aligns with foundational_contextual classification.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Decision is supported by consistent evidence that the work targets MLM debiasing rather than conversational AI governance."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 1,
+    "notes": "Appraisal based on front matter and partial methods/results text only. Strong clarity on debiasing objective and reported experimental outcomes; limited visibility into full limitations, ethics, and sample reporting in provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internally coherent empirical debiasing method with reported fairness gains, but low relevance to the review's focus on conversational governance, human oversight, auditability, and regulated operational deployment of LLM-based systems."
+  },
+  "coding": {
+    "open_codes": [
+      "bias mitigation",
+      "automated prompt search",
+      "distribution alignment loss",
+      "cloze-style probing",
+      "gender bias",
+      "racial bias",
+      "masked language models"
+    ],
+    "axial_codes": [
+      "fairness and bias in NLP",
+      "model fine-tuning debiasing",
+      "pretrained language model risks"
+    ],
+    "theme": "Bias mitigation in pretrained language models",
+    "subtheme": "Automated identification and reduction of demographic bias without external corpora",
+    "concepts": [
+      "Auto-Debias",
+      "biased prompts",
+      "beam search",
+      "distribution alignment",
+      "demographic-specific words",
+      "stereotype words",
+      "GLUE benchmark"
+    ],
+    "model_layers": [
+      "model training and fine-tuning"
+    ],
+    "rq_alignment": [
+      "bias and fairness as upstream risk factor for language-model-based systems"
+    ],
+    "coding_confidence": 0.86
+  },
+  "synthesis": {
+    "main_claim": "Auto-Debias can automatically search for biased cloze-style prompts and significantly reduce gender and racial bias in pretrained masked language models such as BERT, RoBERTa, and ALBERT without decreasing language understanding performance on GLUE.",
+    "contribution": "Introduces a corpus-free two-stage debiasing framework that probes biases directly in PLMs via discriminative prompts and mitigates them using a distribution alignment loss; releases code, debiased models, and evaluation scripts.",
+    "limitations": "Provided text does not discuss conversational interfaces, governance mechanisms, human oversight, logging, audit trails, compliance, or post-deployment monitoring; technology predates modern large generative/conversational LLM governance concerns.",
+    "use_in_review": "Use as foundational contextual evidence on bias propagation in pretrained language models and technical debiasing approaches; not central or supporting evidence for conversational governance in regulated LLM deployments."
+  },
+  "evidence": [
+    {
+      "claim": "Paper targets bias mitigation in pretrained masked language models, not conversational governance.",
+      "excerpt": "we propose an automatic method to mitigate the biases in pretrained language models",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Models studied are BERT-family masked language models, not modern conversational LLMs.",
+      "excerpt": "reduce biases, including gender and racial bias, in pretrained language models such as BERT, RoBERTa and ALBERT",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Fairness improvement is empirically evaluated without loss of GLUE performance.",
+      "excerpt": "the improvement in fairness does not decrease the language models' understanding abilities, as shown using the GLUE benchmark",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Biases in PLMs can propagate to downstream high-stakes NLP tasks including clinical text classification.",
+      "excerpt": "propagated or even amplified in downstream NLP tasks such as sentiment classification ... clinical text classification",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Core method is a two-stage Auto-Debias framework using biased prompts and distribution alignment.",
+      "excerpt": "In the first stage, our approach searches for the biased prompts ... In the second stage, the language model is fine-tuned by minimizing the disagreement between the distributions",
+      "page": "2",
+      "section": "Figure 1 / framework description",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Fairness criterion is independence of completions from demographic identity choices.",
+      "excerpt": "a fair NLP system should produce scores that are independent to the choice of identities mentioned in the text",
+      "page": "2",
+      "section": "Introduction / framework",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational AI, governance, audit, or oversight mechanisms are described in provided text.",
+      "excerpt": "As NLP models are prevalent in real-world applications, a burgeoning body of literature has investigated human-like biases in NLP models",
+      "page": "2",
+      "section": "Related Works",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Implementation and evaluation artifacts are publicly released.",
+      "excerpt": "We have released the Auto-Debias implementation, debiased models, and evaluation scripts at https://github.com/Irenehere/Auto-Debias",
+      "page": "2",
+      "section": "Results / contribution",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Debiasing uses distribution alignment motivated by demographic independence.",
+      "excerpt": "we debias the language model by a distribution alignment loss, with the motivation that the prompt completion results should be independent to the choice of different demographic-specific words",
+      "page": "3",
+      "section": "Methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Publication is peer-reviewed ACL 2022 conference paper.",
+      "excerpt": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics Volume 1: Long Papers, pages 1012 - 1023 May 22-27, 2022",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "bibliographic"
+    }
+  ]
+}

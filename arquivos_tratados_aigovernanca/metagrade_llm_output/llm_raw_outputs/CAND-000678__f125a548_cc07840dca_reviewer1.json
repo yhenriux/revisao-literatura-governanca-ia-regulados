@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "Electronic Governance Controls for AI-Enabled Agentic Large Language Models in Digital Government (Compliance-by-Design and Evidence-Linked Evaluation)",
+    "authors": "Almaghrabi, M. A.",
+    "year": "2026",
+    "venue": "International Journal of Research and Studies Publishing",
+    "doi": "unclear",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Almaghrabi, M. A. (2026). Electronic governance controls for AI-enabled agentic large language models in digital government (Compliance-by-design and evidence-linked evaluation). International Journal of Research and Studies Publishing, 7(80)."
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "qualitative documentary analysis with triangulation",
+    "study_design": "conceptual framework proposal grounded in documentary analysis, official maturity indicators, flagship platform vignette, and open-data KPI baseline",
+    "sample_description": "policy and governance evidence across digital-government strategies, data-governance and privacy instruments, public-sector AI initiatives, official digital-government maturity indicators, a flagship platform vignette, and a government complaint-escalation KPI series",
+    "sample_size": "unclear",
+    "sector": "digital government / public sector",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-enabled agentic AI systems in digital government under binding regulatory constraints (Saudi Arabia; Vision 2030; SDAIA-led transformation)"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GOVERNANCE",
+      "AGENTIC_AI",
+      "PUBLIC_SECTOR_REGULATED",
+      "COMPLIANCE_AUDITABILITY",
+      "HUMAN_OVERSIGHT"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The provided text strongly addresses governance, accountability, privacy, auditability, compliance-by-design, and human-in-the-loop controls for LLM-enabled agentic systems in regulated public-sector digital government. However, no explicit conversational AI, chatbot, or conversational-system evidence appears in the supplied excerpts, so it is better classified as supporting rather than central evidence for a conversational-governance-focused review. Full-text confirmation is needed because only front matter and partial introduction were supplied.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only pages 1-2 were provided; conversational-AI relevance, methods detail, limitations, and peer-review status require full-text verification."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal is based only on abstract and partial introduction. The study clearly states a framework objective and qualitative documentary analysis with triangulation, but sampling boundaries, analytic procedure, ethics, limitations, and detailed findings are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The abstract presents a coherent governance framework for agentic LLMs in digital government with named controls and evaluation dimensions, but methodological detail, limitations, and conversational-system specificity are insufficient in the provided excerpt to support high confidence."
+  },
+  "coding": {
+    "open_codes": [
+      "electronic governance",
+      "compliance-by-design",
+      "agentic AI",
+      "bounded autonomy",
+      "audit logging",
+      "human-in-the-loop gating",
+      "role-based access control",
+      "evidence-linked evaluation",
+      "public-sector AI deployment",
+      "service augmentation"
+    ],
+    "axial_codes": [
+      "institutional AI governance",
+      "operational control mechanisms",
+      "accountability and auditability",
+      "regulated public-sector modernization"
+    ],
+    "theme": "Governance controls for agentic LLMs in digital government",
+    "subtheme": "Compliance-by-design and auditable public-sector deployment",
+    "concepts": [
+      "allowlisted tools",
+      "controlled state and memory",
+      "verification and feedback loops",
+      "input-process-output evaluation framework",
+      "bounded agency"
+    ],
+    "model_layers": [
+      "policy and governance instruments",
+      "control and enforcement mechanisms",
+      "evaluation and evidence linkage",
+      "human oversight"
+    ],
+    "rq_alignment": [
+      "governance of generative AI in regulated contexts",
+      "auditability and compliance controls",
+      "human oversight and escalation",
+      "risk and accountability in public-sector AI deployment"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Public-sector use of LLM-enabled agentic systems requires an electronic-governance framework that enforces accountability, privacy, and auditability through bounded autonomy and compliance-by-design controls.",
+    "contribution": "Proposes an evaluation-ready input-process-output framework for assessing productivity, decision quality, and auditable compliance, supported by documentary analysis, maturity indicators, a flagship platform vignette, and an open-data KPI baseline.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence on governance, compliance, auditability, and human-in-the-loop controls for agentic LLM systems in regulated digital-government settings; verify full text before treating as central evidence for conversational governance."
+  },
+  "evidence": [
+    {
+      "claim": "Study proposes an electronic-governance framework for governed use of LLM-enabled agentic systems under binding constraints.",
+      "excerpt": "This paper aims to propose an electronic- governance framework that enables governed use of LLM-enabled agentic systems under binding constraints.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Method uses qualitative documentary analysis with triangulation.",
+      "excerpt": "Through qualitative documentary analysis, the study examines policy and governance evidence across digital-government strategies, data-governance and privacy instruments, and public- sector AI initiatives.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Empirical grounding includes maturity indicators, a vignette, and a KPI baseline.",
+      "excerpt": "Empirical grounding is strengthened through triangulation with official digital- government maturity indicators, a flagship platform vignette illustrating operational scalability, and a reproducible open-data key performance indicator (KPI) baseline derived from a government complaint-escalation series.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Core governance controls include audit logging and human-in-the-loop gating.",
+      "excerpt": "bounded autonomy implemented through allowlisted tools, controlled state and memory, verification and feedback loops, role-based access control, audit logging, and human-in-the-loop gating.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated public-sector deployment must satisfy accountability, privacy, and auditability.",
+      "excerpt": "public-sector deployment must satisfy accountability, privacy, and auditability requirements.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study contributes an evaluation-ready input-process-output framework.",
+      "excerpt": "The paper contributes an evaluation-ready input–process–output framework to assess productivity, decision quality, and auditable compliance",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Research problem focuses on reshaping digital-government services under binding regulatory constraints.",
+      "excerpt": "how they can reshape digital-government services under binding regulatory constraints, and which enforceable governance conditions (data governance, privacy controls, and accountability mechanisms) enable safe, scalable modernization.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Agentic AI combines foundation models with planning, tool use, state/memory, and verification loops.",
+      "excerpt": "agentic AI goes beyond just making things by combining foundation models with planning, controlled tool use, state/memory, verification loops, and",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Critical public services justify governance-constrained rather than fully autonomous agency.",
+      "excerpt": "In critical public services, the most justified trajectory is not autonomy but governance-constrained or bounded agency",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No explicit conversational AI or chatbot focus appears in the supplied text.",
+      "excerpt": "Keywords: Electronic Governance; Digital Government; Artificial Intelligence Governance; Large Language Models; Agentic AI; Accountability; Auditability; Compliance",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "bibliographic": {
+    "title": "Generative LLM Powered Conversational AI Application for Personalized Risk Assessment: A Case Study in COVID-19",
+    "authors": "Mohammad Amin Roshani, Xiangyu Zhou, Yao Qiang, Srinivasan Suresh, Steve Hicks, Usha Sethuraman, Dongxiao Zhu",
+    "year": "2024",
+    "venue": "JMIR Preprints (submitted to JMIR AI)",
+    "doi": "10.2196/preprints.67363",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Roshani, M. A., Zhou, X., Qiang, Y., Suresh, S., Hicks, S., Sethuraman, U., & Zhu, D. (2024). Generative LLM powered conversational AI application for personalized risk assessment: A case study in COVID-19. JMIR Preprints. https://doi.org/10.2196/preprints.67363"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative case study with few-shot LLM fine-tuning and performance evaluation",
+    "study_design": "case study with experimental comparison of generative LLMs versus traditional classifiers",
+    "sample_description": "dataset of pediatric patients for COVID-19 severity risk assessment",
+    "sample_size": "393",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "pre-trained generative LLMs (LLaMA2-7b, Flan-T5-xl, T0-3b) integrated into a mobile conversational AI application for real-time clinician-patient COVID-19 severity risk assessment"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_CONVERSATIONAL_AI",
+      "REGULATED_HEALTHCARE",
+      "RISK_ASSESSMENT",
+      "EMPIRICAL_EVALUATION"
+    ],
+    "exclusion_codes": [
+      "INSUFFICIENT_GOVERNANCE_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O texto fornecido descreve um estudo empírico de IA conversacional baseada em LLMs para avaliação de risco de COVID-19 em contexto pediátrico regulado, com métricas de desempenho e análise de interpretabilidade via atenção. Há relevância para LLM conversacional e domínio regulado, mas não há evidência explícita de governança conversacional operacional (guardrails, auditoria, compliance, supervisão humana estruturada, contestação ou monitoramento pós-implantação).",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Avaliação baseada principalmente em front matter e abstract; corpo completo do manuscrito não foi fornecido e o foco em governança conversacional permanece indireto."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Objetivo e desenho comparativo estão claros no abstract; transparência ética, limitações e detalhes de coleta permanecem unclear no excerto fornecido. Interpretabilidade é abordada via atenção do LLM, sem mecanismos de governança operacional."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Confiança moderada para achados de desempenho e uso de IA conversacional com LLMs em saúde; confiança baixa para inferências sobre governança conversacional por ausência de evidência direta no texto fornecido."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM-powered conversational AI",
+      "personalized risk assessment",
+      "COVID-19 severity prediction",
+      "few-shot fine-tuning",
+      "comparative AUC evaluation",
+      "attention-based interpretability",
+      "mobile clinical application",
+      "clinician-patient interaction"
+    ],
+    "axial_codes": [
+      "clinical decision support",
+      "generative AI in healthcare",
+      "model performance benchmarking",
+      "low-data machine learning"
+    ],
+    "theme": "LLM conversational AI for clinical risk assessment",
+    "subtheme": "pediatric COVID-19 severity prediction via mobile interaction",
+    "concepts": [
+      "generative LLMs",
+      "conversational AI",
+      "real-time risk assessment",
+      "interpretability",
+      "no-code clinical interaction"
+    ],
+    "model_layers": [
+      "application layer",
+      "model/inference layer",
+      "limited interpretability layer"
+    ],
+    "rq_alignment": [
+      "conversational AI in regulated healthcare",
+      "risk assessment with LLMs",
+      "partial alignment to accountability via interpretability only"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "LLMs generativos integrados em uma aplicação conversacional superam classificadores tradicionais na avaliação de risco de gravidade de COVID-19, especialmente em cenários com poucos dados rotulados.",
+    "contribution": "Apresenta abordagem de avaliação de risco via IA conversacional com LLMs fine-tuned em poucos exemplos, comparada a modelos tradicionais, com app móvel para interação clínico-paciente em tempo real e análise de importância de features via camadas de atenção.",
+    "limitations": "Evidência fornecida limita-se a trechos iniciais; não há detalhamento de governança, ética, validação clínica prospectiva, supervisão humana estruturada ou mecanismos de auditoria/compliance.",
+    "use_in_review": "Evidência de apoio para mapear implementações de IA conversacional com LLMs em saúde regulada e avaliação de risco; não deve ser tratado como evidência central de governança conversacional sem leitura completa e confirmação de ausência de componentes de governança no texto integral."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo é preprint não revisado por pares",
+      "excerpt": "unpublished, non-peer-reviewed preprint",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Estudo usa LLMs generativos via IA conversacional para avaliação de risco",
+      "excerpt": "novel approach to disease risk assessment using generative LLMs via conversational AI",
+      "page": "3",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Domínio regulado de saúde com foco em COVID-19 pediátrico",
+      "excerpt": "assess COVID-19 severity in real time",
+      "page": "3",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Modelos LLM específicos identificados",
+      "excerpt": "pre-trained generative LLMs, including LLaMA2-7b and Flan-T5-xl",
+      "page": "3",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Amostra de 393 pacientes pediátricos",
+      "excerpt": "dataset of 393 pediatric patients",
+      "page": "3",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Aplicação móvel com interação clínico-paciente",
+      "excerpt": "developing a mobile application that integrates these models to provide real-time, no-code COVID-19 severity risk assessment through clinician-patient interaction",
+      "page": "3",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Comparação experimental com classificadores tradicionais usando AUC",
+      "excerpt": "The LLMs were compared with traditional classifiers across different experimental settings, using Area Under the Curve (AUC) as the primary evaluation metric",
+      "page": "3",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Interpretabilidade via atenção do LLM",
+      "excerpt": "Feature importance derived from LLM attention layers was also analyzed to enhance interpretability",
+      "page": "3",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs superam modelos tradicionais em cenários de poucos dados",
+      "excerpt": "Generative LLMs consistently outperformed traditional machine learning models, particularly in low-data settings",
+      "page": "3",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Resultado zero-shot reportado para T0-3b",
+      "excerpt": "In zero-shot scenarios, the T0-3b model achieved an AUC of 0.75",
+      "page": "3",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "bibliographic": {
+    "title": "AI4People—An Ethical Framework for a Good AI Society: Opportunities, Risks, Principles, and Recommendations",
+    "authors": "Luciano Floridi, Josh Cowls, Monica Beltrametti, Raja Chatila, Patrice Chazerand, Virginia Dignum, Christoph Luetge, Robert Madelin, Ugo Pagallo, Francesca Rossi, Burkhard Schafer, Peggy Valcke, Effy Vayena",
+    "year": "2018",
+    "venue": "Minds and Machines",
+    "doi": "10.1007/s11023-018-9482-5",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Floridi, L., Cowls, J., Beltrametti, M., Chatila, R., Chazerand, P., Dignum, V., Luetge, C., Madelin, R., Pagallo, U., Rossi, F., Schafer, B., Valcke, P., & Vayena, E. (2018). AI4People—An ethical framework for a good AI society: Opportunities, risks, principles, and recommendations. Minds and Machines, 28(4), 689–707. https://doi.org/10.1007/s11023-018-9482-5"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "expert committee deliberation with comparative synthesis of existing AI ethics frameworks and normative policy recommendations",
+    "study_design": "collaborative framework development by the AI4People Scientific Committee, synthesizing opportunities/risks, five ethical principles, and 20 recommendations",
+    "sample_description": "AI4People Scientific Committee comprising 12 experts chaired by Luciano Floridi",
+    "sample_size": "12",
+    "sector": "cross-sector AI policy and digital ethics",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "general artificial intelligence, autonomous and intelligent systems, decision-making AI systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "AI_GOVERNANCE_ETHICS",
+      "ACCOUNTABILITY_EXPLICABILITY",
+      "REGULATED_DOMAIN_REFERENCES",
+      "POLICY_RECOMMENDATIONS"
+    ],
+    "exclusion_codes": [
+      "NO_LLM_SPECIFICITY",
+      "NO_CONVERSATIONAL_AI_SYSTEMS",
+      "PRE_LLM_TEMPORAL_MISMATCH"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a 2018 pre-LLM ethical governance framework for general AI society. It strongly addresses governance, accountability, responsibility, data governance, stakeholder dialogue, and regulated contexts such as healthcare and insurance, but provides no evidence on conversational AI, chatbots, agents, RAG, guardrails, observability, or LLM-specific operational governance. It is best treated as foundational contextual evidence rather than central evidence for conversational governance in LLM systems.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated triage graded the paper as central_candidate largely via broad governance and regulated-domain keyword overlap; manual confirmation is needed because the provided text does not substantiate LLM or conversational-system specificity."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Clear normative objective and structured outputs (principles and 20 recommendations), but the provided excerpts offer limited procedural detail on committee methods, comparative analysis steps, validation, or study limitations. Appropriate as conceptual policy guidance, not as empirical or system-level governance evidence."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and explicitly links principles to policy recommendations, but it is expert-led, pre-LLM, and not focused on conversational systems or operational controls. Confidence is moderate for contextual use in the review and low-to-moderate for direct answers about LLM conversational governance."
+  },
+  "coding": {
+    "open_codes": [
+      "good_ai_society",
+      "ethical_principles",
+      "policy_recommendations",
+      "data_governance",
+      "accountability",
+      "explicability",
+      "human_responsibility",
+      "stakeholder_dialogue",
+      "healthcare_context",
+      "insurance_context",
+      "deployment_evaluation"
+    ],
+    "axial_codes": [
+      "normative_ai_governance",
+      "principles_to_policy_translation",
+      "human_agency_and_control",
+      "regulated_sector_ethics"
+    ],
+    "theme": "Ethical and policy governance of AI",
+    "subtheme": "Foundational principles and recommendations for a Good AI Society",
+    "concepts": [
+      "beneficence",
+      "non-maleficence",
+      "autonomy",
+      "justice",
+      "explicability",
+      "accountability",
+      "data governance",
+      "human responsibility",
+      "stakeholder dialogue"
+    ],
+    "model_layers": [
+      "societal_opportunities_and_risks",
+      "ethical_principles",
+      "policy_recommendations",
+      "stakeholder_governance"
+    ],
+    "rq_alignment": [
+      "governance_accountability",
+      "regulated_high_stakes",
+      "human_oversight_contestation",
+      "risk_audit_compliance"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "AI4People proposes a Good AI Society framework by synthesizing societal opportunities and risks, five ethical principles including explicability/accountability, and 20 concrete recommendations for policymakers and other stakeholders.",
+    "contribution": "Provides a foundational, widely cited bridge from abstract AI ethics principles to actionable policy recommendations, with emphasis on governance, responsibility, data governance, and protection of social support systems in regulated domains.",
+    "limitations": "Predates LLMs and does not address conversational interfaces, chatbots, agents, RAG, guardrails, observability, tracing, or post-deployment operational governance; methodological detail and limitations are not fully evidenced in the provided excerpts.",
+    "use_in_review": "Use as foundational contextual evidence for governance, accountability, explicability, stakeholder dialogue, and regulated-domain ethics; do not use as central evidence for conversational governance in LLM-based systems."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article in Minds and Machines, 2018.",
+      "excerpt": "Floridi, L, Cowls, J, Beltrametti, M, Chatila, R, Chazerand, P, Dignum, V, Luetge, C, Madelin, R, Pagallo, U, Rossi, F, Schafer, B, Valcke, P & Vayena, E 2018, 'AI4People—An ethical framework for a good AI society: Opportunities, risks, principles, and recommendations', Minds and machines, vol. 28, no. 4, pp. 689-707.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is conceptual framework development rather than empirical evaluation of AI systems.",
+      "excerpt": "This article reports the findings of AI4People, an Atomium—EISMD initiative designed to lay the foundations for a “Good AI Society”.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Outputs include five ethical principles and 20 concrete recommendations.",
+      "excerpt": "present a synthesis of five ethical principles that should undergird its development and adoption; and offer 20 concrete recommendations",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Work was produced by a 12-expert scientific committee.",
+      "excerpt": "the collaborative effort by the AI4People Scientific Committee—comprising 12 experts and chaired by Luciano Floridi",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Paper addresses governance and data governance explicitly.",
+      "excerpt": "Keywords Artificial intelligence · AI4People · Data governance · Digital ethics · Governance · Ethics of AI",
+      "page": "2",
+      "section": "keywords",
+      "supports": "coding"
+    },
+    {
+      "claim": "Accountability is part of the proposed explicability principle.",
+      "excerpt": "one more, new principle is needed in addition: explicability, understood as incorporating both intelligibility and accountability.",
+      "page": "9",
+      "section": "4.1 Beneficence",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human responsibility and black-box risk are central concerns.",
+      "excerpt": "Responsibility is therefore essential, in view of what sort of AI we develop, how we use it, and whether we share with everyone its advantages and benefits.",
+      "page": "5",
+      "section": "2.2 What We Can Do",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated domains such as healthcare and insurance are referenced.",
+      "excerpt": "surance and healthcare",
+      "page": "12",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Stakeholder dialogue is recommended for societal assessment of AI.",
+      "excerpt": "supported by ongoing dialogue between all stakeholders (including government, industry, and civil society)",
+      "page": "15",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Paper moves from principles to policy dialogue, not conversational AI systems.",
+      "excerpt": "we strive to move the dialogue forward, constructively, from principles to proposed policies, best practices, and concrete recommendations",
+      "page": "8",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Deployment evaluation against fundamental principles is recommended.",
+      "excerpt": "evaluate initial projects and their deployment with respect to fundamental principles.",
+      "page": "18",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "No LLM, chatbot, agent, RAG, or conversational-system governance is evidenced in the provided text.",
+      "excerpt": "AI is not another utility that needs to be regulated once it is mature. It is a powerful force, a new form of smart agency",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

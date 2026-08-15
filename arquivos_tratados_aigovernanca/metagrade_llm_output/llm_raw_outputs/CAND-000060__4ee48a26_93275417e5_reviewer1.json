@@ -1,0 +1,175 @@
+{
+  "bibliographic": {
+    "title": "Trustworthy Embodied Conversational Agents for Healthcare: A Design Exploration of Embodied Conversational Agents for the periconception period at Erasmus MC",
+    "authors": "Maria Luce Lupetti, Emma Hagens, Willem van der Maden, Régine Steegers, Melek Rousian",
+    "year": "2023",
+    "venue": "Proceedings of the 5th International Conference on Conversational User Interfaces, CUI 2023",
+    "doi": "10.1145/3571884.3597128",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Lupetti, M. L., Hagens, E., Van Der Maden, W., Steegers-Theunissen, R., & Rousian, M. (2023). Trustworthy Embodied Conversational Agents for Healthcare: A Design Exploration of Embodied Conversational Agents for the periconception period at Erasmus MC. In Proceedings of the 5th International Conference on Conversational User Interfaces, CUI 2023 Article 25 Association for Computing Machinery (ACM). https://doi.org/10.1145/3571884.3597128"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "Research through Design; Wizard of Oz study",
+    "study_design": "Comparative prototype evaluation of chatbot and embodied conversational agent with referencing versus non-referencing conversation conditions in a tertiary hospital setting",
+    "sample_description": "Participants tested in a tertiary hospital during periconception and pregnancy support context at Erasmus MC",
+    "sample_size": "25",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Embodied conversational agents, chatbots, conversational user interfaces; background discussion of generative AI and NLP for eHealth ECAs; Wizard of Oz prototypes rather than deployed LLM system"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "conversational_ai",
+      "regulated_healthcare",
+      "trustworthiness_ethics",
+      "empirical_study"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper provides empirical evidence on trustworthy conversational agents in a regulated healthcare setting and discusses generative AI in eHealth, but the central study is a Wizard of Oz design exploration focused on embodiment and conversational style rather than operational governance, audit, oversight, or LLM-specific controls.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial PDF text was supplied; governance-related claims beyond trustworthiness and brief generative-AI background need verification in full text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Clear RtD and WoZ framing with defined prototypes and n=25, but provided excerpts do not detail analysis procedures, ethics approval, or limitations."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings on trustworthiness of ECAs in hospital-based periconception support are coherent and moderately relevant to conversational governance themes, but the study is not LLM-operational and governance mechanisms such as monitoring, audit, or human oversight are not substantively evidenced in the supplied text."
+  },
+  "coding": {
+    "open_codes": [
+      "embodied conversational agents",
+      "chatbot prototypes",
+      "trustworthiness",
+      "conversation style",
+      "referencing versus non-referencing",
+      "periconception healthcare",
+      "wizard of oz",
+      "generative AI background"
+    ],
+    "axial_codes": [
+      "conversational agent design",
+      "patient trust in healthcare AI",
+      "regulated clinical deployment context"
+    ],
+    "theme": "Trustworthiness of conversational agents in healthcare",
+    "subtheme": "Impact of embodiment and conversational style on perceived trust",
+    "concepts": [
+      "trustworthiness",
+      "embodiment",
+      "conversational style",
+      "healthcare support",
+      "generative AI potential"
+    ],
+    "model_layers": [
+      "interaction design",
+      "user trust perception"
+    ],
+    "rq_alignment": [
+      "conversational_ai_in_regulated_domains",
+      "trust_transparency_accountability"
+    ],
+    "coding_confidence": 0.74
+  },
+  "synthesis": {
+    "main_claim": "Limited patients' trust in ECAs may be beneficial for achieving trustworthy use of these agents in the healthcare context.",
+    "contribution": "Empirical design exploration comparing chatbot and ECA prototypes with alternative conversational styles for women during the periconception period and pregnancy in a tertiary hospital.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence on trustworthiness and design factors for conversational agents in regulated healthcare; not as primary evidence for LLM-specific conversational governance, guardrails, audit, or operational oversight."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed conference publication with bibliographic metadata",
+      "excerpt": "Published in: Proceedings of the 5th International Conference on Conversational User Interfaces, CUI 2023",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical Wizard of Oz study with 25 hospital participants",
+      "excerpt": "paper presents the results of a Wizard of Oz study in which two alternative prototypes, a chatbot, and an ECA, were tested in a tertiary hospital by 25 participants",
+      "page": "2",
+      "section": "abstract/results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research through Design investigation in healthcare periconception context",
+      "excerpt": "We conducted a Research through Design investigation of ECAs for supporting women during the periconception period and in pregnancy.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study compares chatbot and ECA with referencing versus non-referencing conditions",
+      "excerpt": "We developed two alternative CAs prototypes, one chatbot, and one ECA, and tested each with two alternative conditions (referencing VS non-referencing conversations)",
+      "page": "3",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated healthcare domain",
+      "excerpt": "Applications of CAs can be found in a wide variety of industries, including but not limited to customer service, entertainment, education, and healthcare",
+      "page": "3",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Focus on trustworthiness of conversational agents",
+      "excerpt": "focusing on the impact of appearance and conversation style on trustworthiness",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Main trust-related finding",
+      "excerpt": "limited patients’ trust in ECAs maybe be beneficial for achieving trustworthy use of these agents in the healthcare context",
+      "page": "2",
+      "section": "abstract/results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Generative AI mentioned as background potential, not as studied LLM system",
+      "excerpt": "Recent advancements in generative AI models (GAI), in fact, are showing great potential for revolutionizing eHealth applications and speeding up CAs development.",
+      "page": "13",
+      "section": "background",
+      "supports": "methodology"
+    },
+    {
+      "claim": "AI and NLP underpin conversational interfaces context",
+      "excerpt": "Current developments in artificial intelligence (AI), especially advancements in natural language processing and voice recognition, have led to a constant increase in the use of conversational user interfaces (CUI)",
+      "page": "3",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Keywords indicate healthcare trustworthiness design focus",
+      "excerpt": "KEYWORDS embodied conversational agents, conversational style, trustworthiness, healthcare, research through design",
+      "page": "2",
+      "section": "keywords",
+      "supports": "coding"
+    }
+  ]
+}

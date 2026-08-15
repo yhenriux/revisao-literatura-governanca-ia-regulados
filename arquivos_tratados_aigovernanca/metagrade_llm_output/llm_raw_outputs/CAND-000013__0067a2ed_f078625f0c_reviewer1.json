@@ -1,0 +1,192 @@
+{
+  "bibliographic": {
+    "title": "Designing with Uncertainty: LLM Interfaces as Transitional Spaces for Democratic Revival",
+    "authors": "Sylvie Delacroix",
+    "year": "2025",
+    "venue": "Minds and Machines",
+    "doi": "10.1007/s11023-025-09736-x",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Delacroix, S. (2025). Designing with Uncertainty: LLM Interfaces as Transitional Spaces for Democratic Revival. Minds and Machines, 35, 41. https://doi.org/10.1007/s11023-025-09736-x"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "theoretical design framework",
+    "study_design": "conceptual argument and design framework proposal",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "democratic governance; public/institutional technology design",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM conversational interfaces; ensemble interfaces; participatory AI; interactive machine learning"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_conversational_interfaces",
+      "AI_governance_conceptual",
+      "participatory_oversight",
+      "uncertainty_contestation"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article explicitly addresses LLMs as conversational infrastructure and proposes a governance-oriented design framework emphasizing uncertainty, contestability, ensemble interfaces, and participatory infrastructure beyond procedural AI governance. It aligns with conversational governance themes but is primarily theoretical and oriented to democratic practice rather than operational governance in specific regulated sectors such as healthcare or finance.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter, abstract, partial introduction, and scattered page excerpts were provided; full-text verification is needed to confirm operational governance claims, methods detail, and regulated-domain applicability."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Conceptual journal article with a clearly stated design framework objective. No empirical sample or data collection is evident in the provided text. Theoretical fit is appropriate for its aims, but operational validation, audit/compliance mechanisms, and regulated-domain implementation detail are not shown in the excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and clearly linked to LLM conversational interfaces and governance, but the provided text offers limited empirical or sector-specific evidence for regulated high-stakes deployment, monitoring, audit, or compliance practices."
+  },
+  "coding": {
+    "open_codes": [
+      "transitional conversational spaces",
+      "epistemic uncertainty",
+      "hermeneutic uncertainty",
+      "ensemble interfaces",
+      "tinkerability",
+      "participatory AI",
+      "interpretive trust",
+      "interactive machine learning",
+      "designer-centric development critique"
+    ],
+    "axial_codes": [
+      "conversational_governance",
+      "democratic_deliberation",
+      "uncertainty_expression",
+      "participatory_infrastructure",
+      "institutional_alignment"
+    ],
+    "theme": "Democratic conversational governance of LLM interfaces through uncertainty-aware design",
+    "subtheme": "Transitional conversational spaces and ensemble interfaces",
+    "concepts": [
+      "transitional conversational spaces",
+      "epistemic uncertainty",
+      "hermeneutic uncertainty",
+      "ensemble interfaces",
+      "tinkerability",
+      "participatory infrastructure",
+      "contestable value judgments"
+    ],
+    "model_layers": [
+      "interface_design",
+      "institutional_governance",
+      "community_participation",
+      "uncertainty_communication"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa",
+      "sistemas conversacionais",
+      "supervisão humana e contestação",
+      "participação substantiva",
+      "governança institucional"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Specialized LLM interfaces can potentially reconstruct transitional conversational spaces for democratic practice by expressing uncertainty, surfacing contestable value judgments through ensemble interfaces, and enabling substantive participatory infrastructure rather than tokenistic participation.",
+    "contribution": "Offers a conceptual design framework distinguishing epistemic and hermeneutic uncertainty and proposing principles such as ensemble interfaces, tinkerability, and community-shaped uncertainty expression for democratic conversational governance of LLMs.",
+    "limitations": "The paper states it does not claim to solve all challenges of democratic participation; implementation would require institutional transformations beyond current procedural AI governance. Empirical evaluation and regulated-sector operational detail are not evident in the provided excerpts.",
+    "use_in_review": "Use as supporting conceptual evidence on conversational governance, uncertainty, contestation, and participatory oversight in LLM interface design; complement with empirical or sector-specific studies for regulated operational governance."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses specifically on large language models in conversational infrastructure.",
+      "excerpt": "The integration of large language models (LLMs) into our conversational infrastructure presents a critical inflection point for democratic practice.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Proposes a design framework for transitional conversational spaces using uncertainty expression.",
+      "excerpt": "I propose a design framework for ‘transitional conversational spaces’ that leverages uncertainty expression not merely to prevent unwarranted epistemic confidence but to create communicative environments conducive to democratic capability development.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Distinguishes epistemic and hermeneutic uncertainty.",
+      "excerpt": "Drawing on theories of democratic deliberation and moral perception, this paper distinguishes between epistemic uncertainty (addressable through additional information) and hermeneutic uncertainty (concerning the inherently contestable nature of interpretation).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Proposes ensemble interfaces to make value judgments visible and contestable.",
+      "excerpt": "The proposed framework emphasizes ‘ensemble interfaces’ that make visible the contingent nature of value judgments by presenting outputs from multiple models trained on different datasets.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Advocates substantive participatory infrastructure including tinkerability.",
+      "excerpt": "The design principles outlined challenge tokenistic participation by advocating for substantive participatory infrastructure with features like ‘tinkerability’—enabling communities to experiment with system configurations—and mechanisms that counter designer-centric development models.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Frames governance as requiring institutional transformation beyond procedural AI governance.",
+      "excerpt": "Implementation would require institutional transformations that align technological development with democratic values beyond current procedural approaches to AI governance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs are experienced as conversational partners shaping interpretive habits.",
+      "excerpt": "It is this conversational experience—and not some inherent attribute (whether it be some putative intelligence, intentionality or otherwise)—that distinguishes LLMs from other cultural technologies.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM conversational dynamics solicit interpretive trust amid opacity.",
+      "excerpt": "Like other machine learning tools, LLMs exhibit this opacity while additionally inviting users into conversational dynamics that implicitly solicit interpretive trust.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Ensemble interfaces aim to expose contestable value-loaded model differences.",
+      "excerpt": "specialized LLM interfaces that present users with outputs from multiple models trained on different datasets or with different parameters.",
+      "page": "12",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Participatory infrastructure would use interactive machine learning with communities in the learning loop.",
+      "excerpt": "Technical implementation of such participatory infrastructure would involve ‘interactive machine learning’ techniques that place communities ‘in the learning loop’ (Amershi et al., 2014).",
+      "page": "14",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Author acknowledges scope limits of the proposed direction.",
+      "excerpt": "This paper does not claim to solve all challenges of democratic participation but rather identifies one valuable design direction that could potentially enhance our collective capacity for exploratory dialogue.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

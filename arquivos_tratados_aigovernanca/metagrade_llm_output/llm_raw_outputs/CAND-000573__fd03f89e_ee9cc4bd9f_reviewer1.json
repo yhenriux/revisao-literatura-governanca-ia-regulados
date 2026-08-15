@@ -1,0 +1,221 @@
+{
+  "bibliographic": {
+    "title": "Human-supervised, large language model-based clinical decision support aligned to national newborn protocols in Kenya: a pragmatic, early-stage evaluation",
+    "authors": "Kuria, T.; Kamau, G.; Makokha, F.; Omondi, P.; Mbugua, G.; Kamau, D.; Mbugua, S.; Gitaka, J.",
+    "year": "2026",
+    "venue": "Frontiers in Digital Health",
+    "doi": "10.3389/fdgth.2026.1832634",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Kuria, T., Kamau, G., Makokha, F., Omondi, P., Mbugua, G., Kamau, D., Mbugua, S., & Gitaka, J. (2026). Human-supervised, large language model-based clinical decision support aligned to national newborn protocols in Kenya: A pragmatic, early-stage evaluation. Frontiers in Digital Health, 8, 1832634. https://doi.org/10.3389/fdgth.2026.1832634"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "DECIDE-AI-guided prospective mixed-methods early-stage evaluation",
+    "study_design": "prospective, mixed-methods, early-stage evaluation embedded in routine workflows at two public health facilities",
+    "sample_description": "50 trained healthcare workers; 550 neonatal cases over 10 months; surveyed HCWs n=33; 118 AI-generated recommendations reviewed by two neonatologists with third adjudicator; 40 complex dosing scenarios",
+    "sample_size": "550 neonatal cases; 50 HCWs trained; 33 surveyed HCWs; 118 recommendations reviewed",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "AIFYA tablet-based CDSS integrating a fine-tuned generative LLM based on GPT-4 architecture with a structured knowledge base derived from Kenya national newborn and paediatric protocols; offline-first architecture; facility-based coaching model"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_CDSS",
+      "HUMAN_SUPERVISION",
+      "REGULATED_HEALTHCARE",
+      "PROTOCOL_ALIGNMENT",
+      "EARLY_STAGE_EVALUATION"
+    ],
+    "exclusion_codes": [
+      "CONVERSATIONAL_AI_NOT_EVIDENT"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study provides empirical evidence on human-supervised, guideline-aligned LLM deployment in regulated newborn healthcare, including expert review, citation concordance, and workflow integration. Provided text describes a clinical decision support system with structured and unstructured clinician input, not a conversational, chatbot, or agentic interface; therefore it supports governance and oversight themes but is not central evidence for conversational governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front-matter and early pages were supplied; conversational interaction model, guardrails, logging, audit, escalation, and full limitations sections are not visible and require full-text verification."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Methods appear appropriate for an early-stage AI evaluation under DECIDE-AI, with blinded expert adjudication and inter-rater reliability reporting. Generalizability beyond Kenyan newborn protocols and two facilities remains unclear from the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are empirically reported and internally coherent for feasibility, accuracy, and adoption outcomes, but the supplied text is incomplete and the study is early-stage, site-limited, and not focused on conversational governance mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "human-supervised CDSS",
+      "GPT-4 fine-tuned LLM",
+      "national protocol alignment",
+      "citation transparency",
+      "expert blinded review",
+      "offline-first deployment",
+      "facility coaching model",
+      "neonatal clinical workflow"
+    ],
+    "axial_codes": [
+      "human oversight",
+      "regulated healthcare deployment",
+      "knowledge-base grounding",
+      "evaluation rigor",
+      "workflow integration"
+    ],
+    "theme": "Human-supervised LLM clinical decision support in regulated healthcare",
+    "subtheme": "Early-stage pragmatic evaluation of protocol-aligned newborn CDSS",
+    "concepts": [
+      "human-in-the-loop",
+      "clinical decision support",
+      "guideline adherence",
+      "citation concordance",
+      "DECIDE-AI",
+      "transparency",
+      "low-resource settings"
+    ],
+    "model_layers": [
+      "protocol knowledge base",
+      "fine-tuned LLM inference layer",
+      "human clinical oversight layer",
+      "implementation and coaching layer"
+    ],
+    "rq_alignment": [
+      "human oversight in regulated LLM systems",
+      "governance through protocol alignment and citation",
+      "operational deployment and monitoring in healthcare",
+      "accuracy and safety evaluation before scale-up"
+    ],
+    "coding_confidence": 0.8
+  },
+  "synthesis": {
+    "main_claim": "A human-supervised, guideline-aligned LLM-based CDSS (AIFYA) can be feasibly implemented in routine newborn care workflows in Kenyan public facilities, with acceptable recommendation accuracy, citation accuracy, and workflow adoption in an early-stage evaluation.",
+    "contribution": "Demonstrates a pragmatic, DECIDE-AI-guided evaluation of an LLM CDSS grounded in national protocols, combining adoption metrics, expert-reviewed recommendation quality, citation verification, and mixed-methods workflow assessment in a regulated clinical setting.",
+    "limitations": "Early-stage evaluation at two facilities; not a controlled effectiveness or safety trial; conversational interaction and broader governance mechanisms such as audit logs, tracing, contestation, and post-deployment monitoring are not evidenced in the supplied text.",
+    "use_in_review": "Use as supporting evidence for human supervision, protocol-grounded LLM deployment, and regulated-healthcare evaluation design; do not treat as primary evidence for conversational governance unless full text confirms dialogue-based interaction."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article in Frontiers in Digital Health with DOI.",
+      "excerpt": "Front. Digit. Health 8:1832634. doi: 10.3389/fdgth.2026.1832634",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses a specific LLM architecture (GPT-4-based fine-tuned model).",
+      "excerpt": "integrates a fine-tuned generative large language model (LLM) based on the GPT-4 architecture",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "System is human-supervised and aligned to national clinical protocols.",
+      "excerpt": "We developed and evaluated AIFYA, a human-supervised, large language model (LLM)-based clinical decision support system (CDSS) aligned with Kenya’s national newborn care protocols.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Evaluation follows DECIDE-AI and is prospective mixed-methods.",
+      "excerpt": "This prospective, mixed-methods, early-stage evaluation, guided by the DECIDE-AI framework",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Regulated healthcare context with public facilities in Kenya.",
+      "excerpt": "embedded AIFYA into routine workflows at two public health facilities (Level 5 and Level 4) in Bungoma County, Kenya",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Transparency and human oversight are core design principles with protocol citations.",
+      "excerpt": "AIFYA’s core design principle is transparency: every recommendation is accompanied by a precise citation to the source protocol, mandating a human-in",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Knowledge-base grounding from national protocols is explicit.",
+      "excerpt": "with a structured knowledge base derived from the 2022 Kenya Consolidated Newborn Clinical Protocols (CNCP) and Basic Paediatric Protocols",
+      "page": "2",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Expert review with adjudication supports methodological rigor.",
+      "excerpt": "evaluated through blinded review of 118 AI-generated recommendations by two neonatologists, with adjudication by a third",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Reported recommendation and citation accuracy outcomes.",
+      "excerpt": "Expert review found 75% of recommendations were correct and 15% partially correct",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Citation accuracy and inter-rater reliability are reported.",
+      "excerpt": "Citation accuracy was 96%",
+      "page": "1",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Inter-rater reliability metric supports analysis rigor.",
+      "excerpt": "strong inter-rater reliability (weighted Cohen’s kappa 0.85; 95% CI 0.79–0.91) between reviewers",
+      "page": "1",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Ethics/consent requirement is stated for included cases.",
+      "excerpt": "included only if informed consent for data use had been secured from the newborn’s parents",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "System inputs are clinical data rather than conversational dialogue.",
+      "excerpt": "Clinicians input both structured and unstructured patient data, including vital signs",
+      "page": "2",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is early-stage and not yet a controlled effectiveness trial.",
+      "excerpt": "These findings support progression to control trials to evaluate clinical effectiveness and safety.",
+      "page": "1",
+      "section": "conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Offline-first deployment and coaching supported implementation.",
+      "excerpt": "Implementation was supported by an offline-first architecture and a facility-based coaching model",
+      "page": "1",
+      "section": "results",
+      "supports": "coding"
+    }
+  ]
+}

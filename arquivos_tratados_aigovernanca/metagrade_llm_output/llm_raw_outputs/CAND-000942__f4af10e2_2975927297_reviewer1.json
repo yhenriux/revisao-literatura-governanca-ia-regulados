@@ -1,0 +1,187 @@
+{
+  "bibliographic": {
+    "title": "Review Chatbot for Health Care and Oncology Applications Using Artificial Intelligence and Machine Learning: Systematic Review",
+    "authors": "Lu Xu; Leslie Sanders; Kay Li; James C L Chow",
+    "year": "2021",
+    "venue": "JMIR Cancer",
+    "doi": "10.2196/27850",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Xu, L., Sanders, L., Li, K., & Chow, J. C. L. (2021). Review chatbot for health care and oncology applications using artificial intelligence and machine learning: Systematic review. JMIR Cancer, 7(4), e27850. https://doi.org/10.2196/27850"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic literature review",
+    "study_design": "systematic review with database search (IEEE Xplore, PubMed, Web of Science, Scopus, OVID) for studies from 2000 to 2020, screening guided by Botlist directory and categorized by diagnosis, treatment, monitoring, support, workflow, and health promotion",
+    "sample_description": "chatbots in health care and oncology applications identified through literature search and Botlist directory",
+    "sample_size": "unclear",
+    "sector": "health care; oncology; cancer therapy",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "chatbots; conversational agents; artificial intelligence; machine learning; deep learning; healthcare applications"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "conversational_ai",
+      "regulated_healthcare",
+      "ethics_regulatory_concerns"
+    ],
+    "exclusion_codes": [
+      "no_llm_focus",
+      "no_conversational_governance_framework"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a 2021 systematic review of chatbots in health care and oncology using AI/ML, covering literature from 2000-2020. It addresses regulated healthcare contexts and mentions ethical, security, technical, and regulatory standards, but the provided text does not address LLM-based systems or conversational governance mechanisms such as guardrails, observability, accountability frameworks, or operational governance. It offers contextual background rather than central evidence for LLM conversational governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted metadata appears corrupted (title/venue mismatch with PDF front matter); full-text eligibility and governance relevance require human verification beyond partial excerpts."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Clear systematic review objective and search strategy are described, but only partial methods/results are available in the provided text; appraisal is limited to visible signals."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The review appears methodologically structured with defined databases and search terms, but available excerpts do not provide full screening, appraisal, or synthesis detail. Relevance to LLM conversational governance is indirect: useful for regulated healthcare chatbot context and concern areas, not for LLM-specific governance mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "healthcare_chatbots",
+      "oncology_applications",
+      "systematic_review",
+      "ethical_concerns",
+      "regulatory_standards",
+      "human_practitioner_integration",
+      "machine_learning_dialog_management"
+    ],
+    "axial_codes": [
+      "conversational_AI_in_regulated_healthcare",
+      "implementation_barriers",
+      "clinical_workflow_support"
+    ],
+    "theme": "chatbot applications and concerns in regulated health care",
+    "subtheme": "oncology and cancer therapy chatbot use cases",
+    "concepts": [
+      "chatbot",
+      "artificial intelligence",
+      "machine learning",
+      "health care",
+      "ethics",
+      "regulatory standards",
+      "patient support",
+      "workflow efficiency"
+    ],
+    "model_layers": [
+      "application_layer",
+      "compliance_ethics_layer"
+    ],
+    "rq_alignment": [
+      "conversational_ai_in_regulated_domains",
+      "human_oversight_in_healthcare",
+      "risk_and_compliance_concerns"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Chatbots using AI/ML show promise for health care and oncology applications, but human elements remain non-replaceable; ethical, security, technical, and regulatory issues explain implementation hesitancy.",
+    "contribution": "Provides a systematic review of recent advances and trends in medical chatbot technology with emphasis on cancer therapy applications and categorized use cases.",
+    "limitations": "The provided text highlights limitations and areas of concern around ethical, moral, security, technical, and regulatory standards and evaluation issues; broader review limitations are unclear from excerpts.",
+    "use_in_review": "Use as foundational/contextual evidence on healthcare chatbots in regulated settings and high-level ethical/regulatory concerns; not primary evidence for LLM-based conversational governance frameworks."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a systematic review of chatbots in health care and oncology using AI/ML",
+      "excerpt": "Review Chatbot for Health Care and Oncology Applications Using Artificial Intelligence and Machine Learning: Systematic Review",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Published in JMIR Cancer 2021 with stated DOI",
+      "excerpt": "(JMIR Cancer 2021;7(4):e27850) doi: 10.2196/27850",
+      "page": "1",
+      "section": "abstract",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Review objective focuses on advances and trends in medical chatbot technology",
+      "excerpt": "This review article aims to report on the recent advances and current trends in chatbot technology in medicine.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Methods include multi-database literature search from 2000 to 2020",
+      "excerpt": "A search of the literature published in the past 20 years was conducted using the IEEE Xplore, PubMed, Web of Science, Scopus, and OVID databases.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Search conducted October to December 2020 with defined key terms",
+      "excerpt": "databases were searched from October to December 2020 for relevant and current studies from 2000 to 2020: IEEE Xplore, PubMed, Web of Science, Scopus, and OVID.",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Screening used Botlist directory and healthcare application categories",
+      "excerpt": "The screening of chatbots was guided by the open-access Botlist directory for health care components and further divided according to the following criteria: diagnosis, treatment, monitoring, support, workflow, and health promotion.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated healthcare/oncology domain focus",
+      "excerpt": "The focus will be on cancer therapy, with in-depth discussions and examples of diagnosis, treatment, monitoring, patient support, workflow efficiency, and health promotion.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Ethical, security, technical, and regulatory concerns are explicit review themes",
+      "excerpt": "this paper will explore the limitations and areas of concern, highlighting ethical, moral, security, technical, and regulatory standards and evaluation issues",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human oversight remains essential; chatbots should work alongside practitioners",
+      "excerpt": "Even after addressing these issues and establishing the safety or efficacy of chatbots, human elements in health care will not be replaceable.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Technology context is AI/ML chatbots, not LLMs",
+      "excerpt": "Machine learning, a subset of artificial intelligence, has been proven particularly applicable in health care, with the ability for complex dialog management and conversational flexibility.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Deep learning mentioned in example chatbot application context",
+      "excerpt": "This was made possible through deep learning algorithms in combination with the increasing availability of databases",
+      "page": "7",
+      "section": "unclear",
+      "supports": "methodology"
+    }
+  ]
+}

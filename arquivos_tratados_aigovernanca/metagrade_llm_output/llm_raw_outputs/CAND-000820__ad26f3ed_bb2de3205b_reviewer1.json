@@ -1,0 +1,151 @@
+{
+  "bibliographic": {
+    "title": "Improving Factual Consistency of News Summarization by Contrastive Preference Optimization",
+    "authors": "Huawen Feng, Yan Fan, Xiong Liu, Ting-En Lin, Zekun Yao, Yuchuan Wu, Fei Huang, Yongbin Li, Qianli Ma",
+    "year": "2023",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Feng, H., Fan, Y., Liu, X., Lin, T.-E., Yao, Z., Wu, Y., Huang, F., Li, Y., & Ma, Q. (2023). Improving factual consistency of news summarization by contrastive preference optimization. arXiv preprint arXiv:2310.19347."
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "Contrastive Preference Optimization with probing-based layer-specific training for abstractive summarization",
+    "study_design": "experimental comparative evaluation of summarization training methods",
+    "sample_description": "news summarization datasets and training/probing sets referenced in experiments; details not fully provided in excerpt",
+    "sample_size": "unclear",
+    "sector": "news/media summarization",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "abstractive news summarization using large language models; hallucination and factual consistency improvement"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "OUT_OF_SCOPE_NO_CONVERSATIONAL_AI",
+      "OUT_OF_SCOPE_NO_GOVERNANCE",
+      "OUT_OF_SCOPE_NO_REGULATED_DOMAIN"
+    ],
+    "exclusion_reason": "Technical NLP paper on improving factual consistency in LLM-based news summarization; does not address conversational systems, governance, accountability, compliance, human oversight, or regulated high-stakes deployment contexts.",
+    "decision_rationale": "The provided text focuses on Contrastive Preference Optimization to reduce hallucinations in abstractive news summarization with LLMs. Although it discusses LLMs, reliability, and hallucinations, it does not study conversational AI, governance mechanisms, auditability, compliance, human supervision, or application in regulated environments relevant to the review scope.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Scope mismatch is clear from title, abstract, and methodology; no borderline governance or conversational content identified in supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal based only on partial front matter and methods/results excerpts. Objective and proposed method are clearly described, but sampling details, ethics, limitations, and full experimental reporting are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The study appears internally coherent for summarization hallucination reduction, but the supplied excerpt provides limited detail on datasets, evaluation breadth, and limitations. Relevance to conversational governance in regulated LLM systems is very low."
+  },
+  "coding": {
+    "open_codes": [
+      "factual_consistency",
+      "hallucination_reduction",
+      "contrastive_preference_optimization",
+      "probing_based_training",
+      "abstractive_summarization",
+      "news_summarization",
+      "preference_optimization"
+    ],
+    "axial_codes": [
+      "model_reliability",
+      "training_method",
+      "text_generation_quality"
+    ],
+    "theme": "LLM summarization reliability",
+    "subtheme": "hallucination mitigation via preference optimization",
+    "concepts": [
+      "hallucination",
+      "factual consistency",
+      "faithful content",
+      "fake content",
+      "preference optimization",
+      "probing-based training",
+      "abstractive summarization"
+    ],
+    "model_layers": [
+      "model_training",
+      "output_quality"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Contrastive Preference Optimization can disentangle LLM propensities to generate faithful versus fake content and significantly improve the reliability of LLM-based news summarization.",
+    "contribution": "Proposes CPO and a probing-based specific training method to improve factual consistency and hallucination perception in summarization models.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central or supporting evidence for conversational governance in regulated LLM systems; at most tangential background on hallucination/reliability in text generation, not governance practice."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on LLM-based news summarization and hallucination/factual inconsistency.",
+      "excerpt": "Despite the recent progress in news summarization made by large language models (LLMs), they often generate summaries that are factually inconsistent with original articles, known as \"hallucinations\" in text generation.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Proposed method is CPO for improving summarization reliability, not governance of conversational systems.",
+      "excerpt": "In this paper, we propose Contrastive Preference Optimization (CPO) to disentangle the LLMs’ propensities to generate faithful and fake content.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Experimental claim is improved reliability of summarization.",
+      "excerpt": "Experimental results show that CPO significantly improves the reliability of summarization based on LLMs.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Application context is abstractive summarization, not conversational or regulated deployment.",
+      "excerpt": "In abstractive summarization, the model is supposed to generate a factually consistent summary with the preference to be faithful to the context.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Methodology is technical training optimization rather than governance or oversight.",
+      "excerpt": "We next describe our Contrastive Preference Optimization (CPO) with probing-based specific training method.",
+      "page": "3",
+      "section": "Methodology",
+      "supports": "coding"
+    },
+    {
+      "claim": "Publication is an arXiv preprint.",
+      "excerpt": "arXiv:2310.19347v4 [cs.CL] 13 Feb 2025",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational AI or governance terms appear in supplied evidence.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

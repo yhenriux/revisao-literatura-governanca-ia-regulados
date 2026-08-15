@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Barriers and facilitators to the implementation and scale up of differentiated service delivery models for HIV treatment in Africa: a scoping review",
+    "authors": "Yihalem Abebe Belay, Mezgebu Yitayal, Asmamaw Atnafu, Fitalew Agimass Taye",
+    "year": "2022",
+    "venue": "BMC Health Services Research",
+    "doi": "10.1186/s12913-022-08825-2",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Belay, Y. A., Yitayal, M., Atnafu, A., & Taye, F. A. (2022). Barriers and facilitators to the implementation and scale up of differentiated service delivery models for HIV treatment in Africa: A scoping review. BMC Health Services Research, 22(1), 1431. https://doi.org/10.1186/s12913-022-08825-2"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "scoping review",
+    "study_design": "scoping review with descriptive analysis",
+    "sample_description": "English-language studies on stable adult people living with HIV on ART and healthcare providers in Africa; children, adolescents, pregnant/lactating women, key populations, and effectiveness/cost studies excluded",
+    "sample_size": "57 articles",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "differentiated service delivery (DSD) models for HIV antiretroviral therapy implementation and scale-up in Africa; no LLM, generative AI, or conversational system technology described"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_technology",
+      "wrong_topic_scope",
+      "no_llm_genai",
+      "no_conversational_ai"
+    ],
+    "exclusion_reason": "The article is a health services scoping review on HIV differentiated service delivery in Africa. It does not address LLMs, generative AI, conversational systems, chatbots, agents, RAG, or AI governance mechanisms. Matched governance and healthcare terms refer to health-system leadership and program implementation, not conversational AI governance.",
+    "decision_rationale": "Despite Python keyword hits for governance, ethics, bias, monitoring, and healthcare, the study object is HIV ART service delivery models in African health systems. There is zero evidence of LLM, generative AI, or conversational AI technology. The review scope (conversational governance in LLM-based regulated systems) is not met; inclusion would constitute topic drift.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is unambiguous from title, abstract, methods, and results; no LLM or conversational AI content present in supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 5,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Methodologically adequate scoping review for its own HIV DSD question. Authors explicitly did not perform quality assessment and note English-only inclusion and possible selection bias. Appraisal reflects the scoping review as reported, not fitness for the LLM conversational governance review scope."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "Within its own domain the review is coherent and adequately reported, but relevance to conversational governance of LLM systems in regulated settings is negligible because the subject is health-program implementation, not AI or conversational technology governance."
+  },
+  "coding": {
+    "open_codes": [
+      "HIV differentiated service delivery",
+      "implementation barriers",
+      "scale-up facilitators",
+      "health-system leadership",
+      "health-system governance",
+      "stigma",
+      "provider adoption",
+      "resource constraints",
+      "monitoring",
+      "health policy"
+    ],
+    "axial_codes": [
+      "healthcare program implementation",
+      "organizational and policy governance",
+      "regulated health context"
+    ],
+    "theme": "Barriers and facilitators to HIV treatment service delivery model implementation in Africa",
+    "subtheme": "Health-system leadership and governance as implementation factor",
+    "concepts": [
+      "differentiated service delivery",
+      "leadership and governance",
+      "implementation science",
+      "scale-up",
+      "health system performance"
+    ],
+    "model_layers": [
+      "policy",
+      "organizational",
+      "operational"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.92
+  },
+  "synthesis": {
+    "main_claim": "Leadership and governance, alongside stigma, resources, provider adoption, and supply-chain factors, act as both barriers and facilitators to implementing and scaling differentiated HIV treatment delivery models across African healthcare settings.",
+    "contribution": "Provides a descriptive map of implementation and scale-up factors for HIV DSD models from 57 studies, with implications for policymakers and program managers in African health systems.",
+    "limitations": "English-language only; possible incomplete retrieval and selection bias; no quality assessment; findings not graded for practice or policy; generalizability constrained to included African HIV DSD contexts.",
+    "use_in_review": "Exclude from evidence synthesis on conversational governance in LLM-based regulated systems. Not usable as central, supporting, or foundational evidence for that scope; at most an illustrative false-positive from keyword screening."
+  },
+  "evidence": [
+    {
+      "claim": "Study is a scoping review on HIV DSD implementation in Africa, not AI or conversational systems",
+      "excerpt": "This scoping review aimed to describe the barriers and facilitators to the implementation and scale up of differentiated service delivery (DSD) models for HIV treatment in Africa.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM, generative AI, or conversational technology in scope",
+      "excerpt": "We included studies reported in the English language focusing on stable adult people living with human immune deficiency virus (HIV) on ART and the healthcare providers in Africa.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance refers to health-system leadership for program scale-up, not AI governance",
+      "excerpt": "Leadership and governance were reported as both a facilitator and a barrier to scaling up the DSD model.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Sample comprises 57 included articles on DSD models",
+      "excerpt": "Fifty-seven articles fulfilled our eligibility criteria.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Analysis was descriptive without quality assessment",
+      "excerpt": "A descriptive analysis was done.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors acknowledge selection bias and lack of quality assessment",
+      "excerpt": "there might be a probability of selection bias as only studies in the English language were included. Fourth, as this was a scoping review, we also did not perform a quality assessment",
+      "page": "20",
+      "section": "Strengths and limitations of the review",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Trust term refers to provider trust in community-based care models",
+      "excerpt": "lack of trust that patients could be successfully managed outside of the traditional model of care was a barrier to successful community adherence club scale up",
+      "page": "17",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Responsibility term refers to facility responsibility for community-based patient care",
+      "excerpt": "Serving patients in community-based models was not seen as the facility's responsibility",
+      "page": "18",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Monitoring discussed in health-system performance context",
+      "excerpt": "innovative monitoring, and capacitating the health system with basic human and material resources are required to facilitate DSD sustainability",
+      "page": "20",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Deployment term refers to nurse champion deployment in clinics",
+      "excerpt": "the deployment of a nurse champion [38], and the influence of early adopter clinics on other clinics providing ART service",
+      "page": "19",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Ethics approval not applicable; no research ethics content on AI governance",
+      "excerpt": "Ethics approval and consent to participate Not applicable.",
+      "page": "21",
+      "section": "Declarations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Conclusion targets health policy and implementation research, not AI systems",
+      "excerpt": "Large-scale studies based on implementation and scale up theories, models, and frameworks focusing on each DSD model in each healthcare setting are needed.",
+      "page": "1",
+      "section": "Conclusions",
+      "supports": "synthesis"
+    }
+  ]
+}

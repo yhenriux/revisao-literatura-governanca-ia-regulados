@@ -1,0 +1,184 @@
+{
+  "bibliographic": {
+    "title": "Use of Artificial Intelligence in Public Health Education for Pandemic Preparedness and Response",
+    "authors": "Souza ECSG, dos Santos Junior AG, Félix AMS, Assunção Borges JP, de Oliveira LB, Carneiro LM, de Sousa AFL",
+    "year": "2026",
+    "venue": "Annals of Global Health",
+    "doi": "10.5334/aogh.5130",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Souza ECSG, dos Santos Junior AG, Félix AMS, Assunção Borges JP, de Oliveira LB, Carneiro LM, & de Sousa AFL. (2026). Use of artificial intelligence in public health education for pandemic preparedness and response. Annals of Global Health, 92(1), 21, 1-19. https://doi.org/10.5334/aogh.5130"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "Joanna Briggs Institute scoping review with PRISMA-ScR",
+    "study_design": "scoping review",
+    "sample_description": "Primary studies, methodological or implementation research, and reviews with explicit educational components on AI-based health education during public health emergencies, published from 2010 onward in English, Portuguese, or Spanish",
+    "sample_size": "41",
+    "sector": "public health education",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Conversational AI (chatbots and large language models), ChatGPT, generative AI in messaging (WhatsApp/SMS), machine learning, natural language processing, algorithmic curation tools, mobile applications, messaging platforms, websites/YouTube, clinical AI systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "scoping_review",
+      "conversational_ai",
+      "large_language_models",
+      "public_health_education",
+      "human_oversight",
+      "governance_gaps"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a scoping review that maps AI-based health education interventions, with conversational AI and LLMs as predominant modalities, and explicitly reports human oversight and governance gaps. It does not centrally develop or evaluate conversational governance frameworks for LLM systems in regulated environments, so it is better classified as supporting rather than central evidence.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted metadata conflicts with the PDF on year (2010 vs 2026), venue (IEEE Xplore vs Annals of Global Health), publication type (conference_paper vs journal review), and author formatting."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Methodologically appropriate scoping review with clear mapping objective and transparent reporting of evidence gaps. Governance content is present but secondary to educational intervention mapping; provided excerpts do not detail operational governance mechanisms such as audit, tracing, contestation, or compliance controls."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The review coherently synthesizes 41 studies on AI-enabled public health education and consistently notes human oversight and governance gaps, but direct evidence on conversational governance in regulated LLM deployments is limited and mostly indirect."
+  },
+  "coding": {
+    "open_codes": [
+      "scoping_review",
+      "public_health_education",
+      "pandemic_preparedness",
+      "conversational_ai",
+      "chatbots",
+      "large_language_models",
+      "chatgpt",
+      "human_oversight",
+      "expert_validation",
+      "governance_gaps",
+      "privacy",
+      "transparency",
+      "bias_control",
+      "misinformation_management",
+      "health_literacy"
+    ],
+    "axial_codes": [
+      "conversational_ai_in_health_education",
+      "human_supervision_requirements",
+      "governance_and_ethics_gaps",
+      "emergency_response_learning"
+    ],
+    "theme": "AI-enabled health education during public health emergencies",
+    "subtheme": "Conversational AI and LLMs with supervision and governance gaps",
+    "concepts": [
+      "human oversight",
+      "expert validation and curation",
+      "governance frameworks",
+      "privacy",
+      "transparency",
+      "bias control",
+      "conversational AI",
+      "large language models"
+    ],
+    "model_layers": [
+      "interaction_layer",
+      "oversight_layer",
+      "policy_governance_layer"
+    ],
+    "rq_alignment": [
+      "conversational_ai_in_regulated_contexts",
+      "human_oversight",
+      "governance_accountability",
+      "risk_and_compliance_gaps"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "AI-enabled educational technologies, especially conversational AI and LLMs, can support scalable health education during public health emergencies, but safe adoption requires human oversight and stronger governance frameworks.",
+    "contribution": "Provides a mapped evidence base of 41 studies on AI modalities, populations, delivery channels, supervision requirements, and outcomes in pandemic-related health education, highlighting conversational AI/LLMs and identifying governance, equity, and measurement gaps.",
+    "limitations": "Identifies gaps in standardized learning measures, cost-effectiveness evaluations, equity analyses, and governance frameworks ensuring privacy, transparency, and bias control; included-study evidence on behavioral outcomes and causal evaluation is often limited.",
+    "use_in_review": "Use as supporting evidence for the prevalence of conversational AI and LLMs in high-stakes health education, the reported necessity of human oversight, and documented governance gaps rather than as primary evidence on conversational governance architectures or regulated-LLM control mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "The study is a scoping review using JBI methodology and PRISMA-ScR.",
+      "excerpt": "This scoping review followed Joanna Briggs Institute methodology and PRISMA-ScR guidelines.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Forty-one studies were included after screening.",
+      "excerpt": "Results: Forty-one studies met the inclusion criteria.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Conversational AI and LLMs are predominant AI modalities in the mapped literature.",
+      "excerpt": "Conversational AI (chatbots and large language models) and algorithmic curation tools using machine learning and natural language processing predominated.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Human oversight is consistently reported as essential for safety and reliability.",
+      "excerpt": "Human oversight (expert validation and curation) was consistently reported as essential for safety and reliability.",
+      "page": "2",
+      "section": "results/conclusions",
+      "supports": "coding"
+    },
+    {
+      "claim": "The review identifies governance gaps related to privacy, transparency, and bias control.",
+      "excerpt": "Major gaps included standardized learning measures, cost-effectiveness evaluations, equity analyses, and governance frameworks ensuring privacy, transparency, and bias control.",
+      "page": "2",
+      "section": "results/conclusions",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Generative and conversational tools such as ChatGPT and triage chatbots were reported as effective for educational access and personalization.",
+      "excerpt": "Generative and conversational tools, such as ChatGPT, Dress-COV, and triage chatbots, demonstrated effectiveness in expanding access to information, personalizing educational interactions, and supporting health literacy processes.",
+      "page": "4",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Included evidence notes LLM bias concerns in ChatGPT educational use.",
+      "excerpt": "Tekinay (2023) [13] Exploratory study ChatGPT as educator Public questions (COVID-19) Accessible and rapid responses Qualitative assessment; LLM biases",
+      "page": "5",
+      "section": "methods/table",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human oversight or expert validation is recommended for some generative messaging interventions.",
+      "excerpt": "Sezgin and Kocaballi (2025) [14] Generative AI in messaging Educational support; assess clarity and relevance of responses WhatsApp/SMS Recommended",
+      "page": "7",
+      "section": "table",
+      "supports": "coding"
+    },
+    {
+      "claim": "Future research should prioritize robust governance frameworks for ethical and safe adoption.",
+      "excerpt": "Future research should prioritize multicenter studies using standardized indicators, economic and equity assessments, and robust governance frameworks to ensure ethical, safe, and inclusive adoption.",
+      "page": "2",
+      "section": "conclusions",
+      "supports": "synthesis"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "bibliographic": {
+    "title": "Trust and Ethics in Chatbots: A Framework for Responsible AI Interactions",
+    "authors": "P. Sowmya; Vasudeva",
+    "year": "2026",
+    "venue": "IEEE Access",
+    "doi": "10.1109/ACCESS.2026.3653763",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Sowmya, P., & Vasudeva. (2026). Trust and ethics in chatbots: A framework for responsible AI interactions. IEEE Access. https://doi.org/10.1109/ACCESS.2026.3653763"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "ethical framework development with experimental chatbot evaluation",
+    "study_design": "framework-based ethical evaluation with comparative performance metrics across chatbot datasets/domains",
+    "sample_description": "university chatbot evaluated on intent-pattern variations; additional comparison with healthcare and customer service chatbots",
+    "sample_size": "unclear",
+    "sector": "education; healthcare; customer service",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "intent-classification chatbots; Ethics by Design for AI (EbD-AI); European Commission Trustworthy AI principles; comparisons with IBM AIF Fairness 360 and Microsoft RAI Toolkit; background discussion of ChatGPT, GPT-4, Bard and LLM ethics audits"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "chatbot",
+      "ethical_governance",
+      "trust_fairness_accountability",
+      "regulated_sectors",
+      "auditability_monitoring",
+      "framework"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses responsible AI governance for chatbots, including oversight, fairness, accountability, privacy, auditability, explainability, and continuous monitoring, with application contexts in education, healthcare, and customer service. Although the reported empirical evaluation centers on intent-pattern chatbot performance rather than explicit LLM deployment governance, the framework and governance mechanisms align closely with the review scope on conversational AI in sensitive settings.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Full text is needed to confirm whether the evaluated university chatbot is LLM-based or traditional NLP/intent-based, and to verify the extent of healthcare/customer-service comparisons beyond abstract claims."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 4,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "The objective and ethical framing are comparatively clear, and reported metric bands are explicit in the abstract. However, the provided text gives limited detail on sampling, data-collection procedures, analysis methods, and study limitations; the LLM-related audit content may partly reflect prior work rather than the authors' own empirical design."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is coherent and relevant to conversational AI governance, but methodological transparency in the supplied excerpts is limited for sampling, analysis, and validation design, reducing confidence in how strongly the empirical results support governance claims."
+  },
+  "coding": {
+    "open_codes": [
+      "ethical behaviour in chatbots",
+      "intent-pattern sensitivity",
+      "user trust",
+      "bias from dataset variation",
+      "human oversight",
+      "technical robustness and safety",
+      "transparency",
+      "fairness",
+      "accountability",
+      "privacy and data governance",
+      "auditability",
+      "explainability",
+      "continuous monitoring",
+      "ethical auditing",
+      "sustainability"
+    ],
+    "axial_codes": [
+      "responsible AI framework",
+      "chatbot performance evaluation",
+      "trust and fairness metrics",
+      "governance and compliance mechanisms",
+      "regulated-sector chatbot deployment"
+    ],
+    "theme": "Responsible governance framework for ethical chatbot interactions",
+    "subtheme": "Dataset-intent robustness, trust, fairness, and auditing in regulated chatbot use",
+    "concepts": [
+      "EbD-AI",
+      "European Commission Trustworthy AI principles",
+      "IBM AIF Fairness 360",
+      "Microsoft RAI Toolkit",
+      "human agency and oversight",
+      "ethical auditing",
+      "continuous monitoring"
+    ],
+    "model_layers": [
+      "principle layer",
+      "evaluation layer",
+      "monitoring and audit layer",
+      "domain application layer"
+    ],
+    "rq_alignment": [
+      "governance of conversational AI",
+      "human oversight and accountability",
+      "fairness bias and explainability",
+      "audit logging and monitoring",
+      "regulated high-stakes contexts"
+    ],
+    "coding_confidence": 0.76
+  },
+  "synthesis": {
+    "main_claim": "Chatbot ethical behaviour should be ensured through a structured responsible-AI framework that evaluates robustness, fairness, privacy/data governance, and societal well-being, while recommending auditability, explainability, validation, monitoring, and ethical auditing under changing datasets.",
+    "contribution": "Proposes an ethics-oriented framework for chatbot interactions and reports comparative ethical-performance metrics for a university chatbot, with additional domain comparisons and benchmarking against established fairness/RAI toolkits.",
+    "limitations": "The supplied text does not clearly specify sample sizes, full experimental protocol, or detailed limitations of the empirical evaluation; the extent of LLM-specific governance evidence in the authors' own study remains unclear.",
+    "use_in_review": "Use as central evidence on ethical governance frameworks, trust/fairness evaluation, and post-deployment monitoring/auditing for chatbots in education, healthcare, and customer-service contexts; triangulate cautiously for LLM-specific operational governance until full-text methods are verified."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal publication in IEEE Access",
+      "excerpt": "The associate editor coordinating the review of this manuscript and approving it for publication was Shadi Alawneh",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study focuses on chatbot ethical behaviour across sensitive sectors",
+      "excerpt": "The increasing deployment of chatbots across sectors such as education, healthcare, and customer service has raised the need for user interactions with the chatbot be safe, fair, responsible and respectful",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Ethical concerns include governance-relevant principles such as oversight, accountability, privacy, and fairness",
+      "excerpt": "Ethical concerns include human agency and oversight, technical robustness and safety, transparency, non-discrimination and fairness, accountability, societal well-being, privacy and data governance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empirical focus examines how intent dataset structure affects chatbot performance on a university chatbot",
+      "excerpt": "The study investigates how changes in the structure, labelling, or balance of intent patterns influence chatbot performance, potentially leading to unequal treatment of users or miscommunication on a university chatbot",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Authors report quantitative ethical-performance metrics",
+      "excerpt": "chatbot is technically robust with a accuracy rate of 98% and a safety score of 87.65%, proves diversity and fairness with a fairness score of 84.5%",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study compares against established fairness/RAI toolkits",
+      "excerpt": "existing frame works IBM AIF Fairness 360 and Microsoft RAI Toolkit is used for comparison with accuracy of 99.5% and 99.12% respectively",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors recommend auditability, explainability, monitoring, and ethical auditing",
+      "excerpt": "Recommendations are proposed for implementing auditability, explainability, and robust validation processes",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Continuous monitoring and ethical auditing are presented as necessary safeguards",
+      "excerpt": "The research underscores the need for continuous monitoring and ethical auditing mechanisms to safeguard against unintended harms and promote responsible AI deployment",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Healthcare and customer service chatbots are used for additional comparison",
+      "excerpt": "To add on value two additional domains healthcare and customer service chatbot are used for comparison",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Paper discusses modern LLM-based chatbot systems in background",
+      "excerpt": "From early rule-based systems like ELIZA [4] to today’s sophisticated AI-driven assistants OpenAI’s ChatGPT and Google’s Bard",
+      "page": "2",
+      "section": "background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors propose Ethics by Design for AI (EbD-AI)",
+      "excerpt": "This paper, proposed Ethics by Design for AI (EbD-AI), a methodical, thorough way of incorporating ethical issues into design and development process of artificial intelligence systems",
+      "page": "3",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Evaluation is organized around European Commission ethical principles including human oversight",
+      "excerpt": "As specified by European Commission, the Seven principles to be followed for ethical AI are [6]: 1) HUMAN OVERSIGHT",
+      "page": "4",
+      "section": "background",
+      "supports": "coding"
+    },
+    {
+      "claim": "Performance bands for evaluation are defined in the methods material",
+      "excerpt": "Thus, Excellent >=90% and Good >=75% are defensible when defined as percentile-based performance bands",
+      "page": "5",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

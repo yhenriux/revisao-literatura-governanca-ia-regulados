@@ -1,0 +1,180 @@
+{
+  "bibliographic": {
+    "title": "Bridging the gap: a practical step-by-step approach to warrant safe implementation of large language models in healthcare",
+    "authors": "Jessica D. Workum, Davy van de Sande, Diederik Gommers, Michel E. van Genderen",
+    "year": "2025",
+    "venue": "Frontiers in Artificial Intelligence",
+    "doi": "10.3389/frai.2025.1504805",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Workum, J. D., van de Sande, D., Gommers, D., & van Genderen, M. E. (2025). Bridging the gap: A practical step-by-step approach to warrant safe implementation of large language models in healthcare. Frontiers in Artificial Intelligence, 8, 1504805. https://doi.org/10.3389/frai.2025.1504805"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "perspective article with normative framework and step-by-step recommendations",
+    "study_design": "unclear",
+    "sample_description": "not applicable; no empirical sample described in provided text",
+    "sample_size": "not applicable",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models for healthcare applications including administrative tasks and clinical decision support; medical domain adaptation via healthcare-specific models or knowledge integration"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_focus",
+      "governance_accountability",
+      "regulated_healthcare",
+      "implementation_framework"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Peer-reviewed perspective explicitly addressing responsible and safe LLM implementation in healthcare, proposing actionable governance recommendations, structured output evaluation (ACUTE), and model governance structure. Strong alignment with LLM governance in regulated healthcare despite no conversational-AI focus in the provided excerpt.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial pages 1-2 were supplied; conversational-AI relevance cannot be confirmed from excerpt, and empirical validation of the proposed framework is not evidenced in the text provided."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Perspective/framework paper without empirical study design; recommendations are clearly articulated but not empirically tested in the provided text. Appropriate for conceptual contribution on safe LLM implementation governance in healthcare."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and highly relevant to regulated healthcare LLM governance, but confidence is moderated because the supplied text is partial, the article is non-empirical, and conversational-system governance is not evidenced."
+  },
+  "coding": {
+    "open_codes": [
+      "safe LLM implementation",
+      "model governance structure",
+      "patient privacy protection",
+      "medical prompt engineering",
+      "clinical decision support distinction",
+      "structured LLM output evaluation",
+      "ACUTE mnemonic",
+      "healthcare-specific model adaptation",
+      "traceability",
+      "responsible AI"
+    ],
+    "axial_codes": [
+      "implementation governance",
+      "risk and safety controls",
+      "evaluation and accountability",
+      "domain adaptation"
+    ],
+    "theme": "Governance framework for safe LLM deployment in healthcare",
+    "subtheme": "Practical step-by-step implementation and response assessment",
+    "concepts": [
+      "ACUTE (Accuracy, Consistency, semantically Unaltered outputs, Traceability, Ethical considerations)",
+      "model governance structure",
+      "CDS vs non-CDS applications",
+      "healthcare-specific language model adaptation"
+    ],
+    "model_layers": [
+      "governance",
+      "evaluation",
+      "privacy and safety",
+      "domain adaptation"
+    ],
+    "rq_alignment": [
+      "LLM governance in regulated environments",
+      "operational governance of generative AI",
+      "risk control and traceability in healthcare AI"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "The authors propose a practical step-by-step approach to support healthcare organizations in responsibly and safely implementing LLMs, including privacy protection, medical prompt engineering, CDS/non-CDS distinction, structured output evaluation, and model governance, plus the ACUTE mnemonic for assessing LLM responses.",
+    "contribution": "Provides actionable implementation guidance and an evaluation mnemonic (ACUTE) aimed at bridging the gap between LLM potential and clear organizational guidelines in healthcare.",
+    "limitations": "Perspective without empirical validation in the provided text; general-purpose LLM limitations for specialized healthcare tasks are acknowledged, but broader study limitations are not fully visible in the excerpt; no conversational-AI or chatbot-specific governance addressed in supplied pages.",
+    "use_in_review": "Use as central conceptual evidence on operational and model governance for LLMs in regulated healthcare, especially for safe implementation pathways, output evaluation, traceability, and ethics; triangulate with conversational-governance studies because conversational systems are not explicitly covered in the excerpt."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a peer-reviewed perspective on safe LLM implementation in healthcare",
+      "excerpt": "TYPE Perspective PUBLISHED 27 January 2025",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors propose a practical step-by-step governance-oriented implementation approach",
+      "excerpt": "we propose a practical step-by-step approach to bridge this gap and support healthcare organizations and providers in warranting the responsible and safe implementation of LLMs into healthcare",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Recommendations include model governance and structured evaluation of outputs",
+      "excerpt": "systematically evaluating LLM outputs using a structured approach, and implementing a solid model governance structure",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "ACUTE framework covers traceability and ethical assessment of responses",
+      "excerpt": "ACUTE mnemonic; a structured approach for assessing LLM responses based on Accuracy, Consistency, semantically Unaltered outputs, Traceability, and Ethical considerations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Healthcare is the regulated application domain",
+      "excerpt": "Large Language Models (LLMs) offer considerable potential to enhance various aspects of healthcare",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study addresses privacy and clinical decision support governance distinctions",
+      "excerpt": "protecting patient privacy, adapting models to healthcare-specific needs",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "CDS vs non-CDS application distinction is part of governance recommendations",
+      "excerpt": "distinguishing between clinical decision support (CDS) and non-CDS applications",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "General-purpose LLMs have performance limitations for specialized healthcare tasks",
+      "excerpt": "General-purpose LLMs still face performance limitations and may not suffice for complex and specialized healthcare tasks without modifications",
+      "page": "2",
+      "section": "limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Domain adaptation may use healthcare-specific models or external medical knowledge access",
+      "excerpt": "by creating a healthcare specific language model or by adapting an existing LLM with medical domain knowledge, either through retraining or by giving it access to a database with specific medical knowledge",
+      "page": "2",
+      "section": "limitations",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational-AI or chatbot focus appears in the provided excerpt",
+      "excerpt": "from aiding with administrative tasks to clinical decision support",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

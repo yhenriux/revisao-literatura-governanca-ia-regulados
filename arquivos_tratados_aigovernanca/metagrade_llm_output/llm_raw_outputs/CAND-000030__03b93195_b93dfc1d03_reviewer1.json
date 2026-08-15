@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "A systematic review of ethical considerations of large language models in healthcare and medicine",
+    "authors": "Muhammad Fareed, Madeeha Fatima, Jamal Uddin, Adeel Ahmed, Muhammad Awais Sattar",
+    "year": "2025",
+    "venue": "Frontiers in Digital Health",
+    "doi": "10.3389/fdgth.2025.1653631",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Fareed, M., Fatima, M., Uddin, J., Ahmed, A., & Sattar, M. A. (2025). A systematic review of ethical considerations of large language models in healthcare and medicine. Frontiers in Digital Health, 7, 1653631. https://doi.org/10.3389/fdgth.2025.1653631"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic review with systematic mapping elements",
+    "study_design": "systematic review of peer-reviewed literature using strict eligibility criteria and established guidelines",
+    "sample_description": "27 peer-reviewed studies published between 2017 and 2025 identified across four major open-access databases",
+    "sample_size": "27",
+    "sector": "healthcare and medicine",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models (LLMs), ChatGPT, GPT family, transformer architecture, deep learning"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_HEALTHCARE",
+      "ETHICS_GOVERNANCE",
+      "REGULATED_DOMAIN_HEALTHCARE",
+      "SYSTEMATIC_REVIEW"
+    ],
+    "exclusion_codes": [
+      "CONVERSATIONAL_GOVERNANCE_NOT_PRIMARY"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed systematic review of ethical considerations of LLMs in clinical healthcare, directly relevant to governance themes such as accountability, transparency, bias, fairness, privacy, and safety. However, the provided text centers on ethical issues and a provisional ethical integration framework rather than conversational governance, chatbots, guardrails, observability, audit logs, or human oversight in conversational systems. It is best treated as supporting evidence for regulated LLM governance rather than central evidence on conversational governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial introduction were provided; full methods, PRISMA flow, and framework details were not visible. Metadata incorrectly labeled the work as preprint despite journal publication and peer review."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Clear review objective and stated use of eligibility criteria, synthesis methods, and guidelines. Sample is modest (n=27) and limited to open-access databases; authors acknowledge the mapping is not exhaustive. Conversational-governance-specific operational controls are not evidenced in the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The review appears methodologically structured for its stated ethical-mapping aim, with coherent synthesis of dominant ethical themes in healthcare LLM literature. Relevance to conversational governance is partial because the available text emphasizes bioethical issues and clinical integration rather than conversational system controls."
+  },
+  "coding": {
+    "open_codes": [
+      "bias_and_fairness",
+      "privacy_protection",
+      "safety_and_reliability",
+      "transparency",
+      "accountability",
+      "clinical_llm_deployment",
+      "gpt_family_dominance",
+      "ethical_integration_framework",
+      "open_access_literature_mapping"
+    ],
+    "axial_codes": [
+      "ethical_governance_of_llms",
+      "regulated_healthcare_context",
+      "systematic_evidence_synthesis"
+    ],
+    "theme": "Ethical governance of large language models in healthcare",
+    "subtheme": "Systematic mapping of dominant ethical concerns and integration guidance",
+    "concepts": [
+      "bias",
+      "fairness",
+      "privacy",
+      "safety",
+      "reliability",
+      "transparency",
+      "accountability",
+      "patient engagement",
+      "clinical workflows",
+      "provisional ethical integration framework"
+    ],
+    "model_layers": [
+      "ethical principles",
+      "clinical workflow integration",
+      "policy and policymaker guidance"
+    ],
+    "rq_alignment": [
+      "governance and accountability in regulated LLM use",
+      "bias fairness privacy and explainability-related risks",
+      "compliance and responsible deployment in healthcare"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Across 27 peer-reviewed studies, bias and fairness are the most frequently discussed ethical concerns for LLMs in healthcare, followed by safety, reliability, transparency, accountability, and privacy, with the GPT family the most examined model group.",
+    "contribution": "Provides a systematic mapping of open-access literature on LLM ethics in healthcare, synthesizes dominant ethical patterns, outlines future research directions, and proposes a provisional ethical integration framework for clinicians, developers, and policymakers.",
+    "limitations": "The synthesis is not exhaustive of all ethical work on LLMs in healthcare, relies on open-access databases, and prior included studies often focus narrowly on specific clinical subdomains.",
+    "use_in_review": "Use as supporting evidence for ethical and governance-related risk themes in regulated healthcare LLM deployment; not sufficient on its own as central evidence for conversational governance mechanisms such as guardrails, observability, tracing, contestation, or human handoff."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article in healthcare LLM ethics",
+      "excerpt": "A systematic review of ethical considerations of large language models in healthcare and medicine",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Systematic review design with 27 included studies",
+      "excerpt": "In this review, we analyzed 27 peer-reviewed studies published between 2017 and 2025 across four major open-access databases",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated healthcare domain",
+      "excerpt": "explicitly examine the ethical aspects of deploying LLMs in clinical settings",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Dominant ethical concerns identified",
+      "excerpt": "bias and fairness (n = 7, 25.9%) are the most frequently discussed concerns, followed by safety, reliability, transparency, accountability, and privacy",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "GPT family predominates among examined models",
+      "excerpt": "the GPT family predominates (n = 14, 51.8%) among examined models",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Provisional governance-oriented framework proposed",
+      "excerpt": "include a provisional ethical integration framework to guide clinicians, developers, and policymakers in the responsible integration of LLMs into clinical workflows",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Review scope limitation acknowledged",
+      "excerpt": "As a systematic mapping of open-access literature, this synthesis identifies dominant ethical patterns, but it is not exhaustive of all ethical work on LLMs in healthcare",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Peer review status",
+      "excerpt": "REVIEWED BY Michaela Th. Mayrhofer, Papillon Pathways e.U., Austria Mahmoud Elbattah, University of the West of England, United Kingdom",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Technology context includes LLMs and ChatGPT",
+      "excerpt": "KEYWORDS artificial intelligence (AI), deep learning, large language models (LLMs), ChatGPT, bioethical issues, bias, fairness, privacy",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Transformer-based LLM technical context",
+      "excerpt": "The recent rise of large language models (LLMs)",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    }
+  ]
+}

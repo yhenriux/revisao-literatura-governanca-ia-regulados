@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "Towards an AI Observatory for the Nuclear Sector: A tool for anticipatory governance",
+    "authors": "Aditi Verma; Elizabeth Williams",
+    "year": "2025",
+    "venue": "STAIGCHI '25, Proceedings of April 26, 2025, ACM",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Verma, A., & Williams, E. (2025). Towards an AI Observatory for the Nuclear Sector: A tool for anticipatory governance. In Proceedings of STAIGCHI '25. ACM."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "Conceptual framework and policy-oriented argument drawing on science and technology studies, public policy, and foresight studies",
+    "study_design": "Position/conceptual paper proposing an anticipatory governance system and global AI observatory",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "Nuclear energy / nuclear sector",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI models embedded in nuclear research and work; generative AI in daily practice; ChatOPG; autonomous reactor operation schemas; maintenance planning"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_review",
+    "inclusion_codes": [
+      "AI_GOVERNANCE",
+      "REGULATED_HIGH_STAKES_DOMAIN",
+      "GENERATIVE_AI_MENTION"
+    ],
+    "exclusion_codes": [
+      "CONVERSATIONAL_GOVERNANCE_NOT_PRIMARY",
+      "NO_LLM_GOVERNANCE_MECHANISMS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper strongly addresses anticipatory AI governance in the highly regulated nuclear sector and notes generative AI adoption risks, but the provided text does not center conversational LLM systems or operational conversational governance mechanisms (guardrails, observability, handoff, contestation) required for central evidence in this review.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Metadata extraction appears corrupted in title field; conversational/LLM governance relevance is partial and depends on sections not fully provided in the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Conceptual ACM short paper (6 pages) arguing for an anticipatory governance system and AI observatory; no empirical sample, data collection, or evaluation of conversational AI governance controls described in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is coherent and sector-relevant for regulated AI governance, but the supplied text offers limited methodological detail and only incidental evidence on generative or conversational AI tools rather than conversational governance in LLM systems."
+  },
+  "coding": {
+    "open_codes": [
+      "anticipatory governance",
+      "AI observatory",
+      "nuclear safety",
+      "nuclear security",
+      "nuclear safeguards",
+      "high-hazard technology",
+      "generative AI adoption",
+      "ChatOPG",
+      "human-automation interaction",
+      "regulatory oversight"
+    ],
+    "axial_codes": [
+      "sector-specific AI governance",
+      "institutional and regulatory oversight",
+      "foresight-based governance design",
+      "generative AI operational risk"
+    ],
+    "theme": "Anticipatory governance infrastructure for AI in the nuclear sector",
+    "subtheme": "Global AI observatory as operationalization mechanism",
+    "concepts": [
+      "anticipatory governance",
+      "AI observatory",
+      "nuclear safeguards",
+      "high-stakes AI embedding"
+    ],
+    "model_layers": [
+      "policy",
+      "institutional",
+      "sectoral",
+      "technical-system interaction"
+    ],
+    "rq_alignment": [
+      "regulated-domain AI governance",
+      "high-stakes safety/security governance",
+      "partial generative AI context"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "AI is rapidly embedding in nuclear sector work, but safety, security, and safeguards consequences are not well understood; an anticipatory system of governance and a global AI observatory are needed to steward safe AI adoption.",
+    "contribution": "Proposes contours of a nuclear-sector AI observatory and anticipatory governance approach grounded in STS, public policy, and foresight, with examples of AI use cases and generative AI adoption in industry and academia.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence for anticipatory and institutional AI governance in regulated high-hazard sectors; cite generative AI adoption examples (e.g., ChatOPG) only peripherally for conversational LLM governance, not as primary mechanistic evidence."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed ACM conference paper by named authors in 2025",
+      "excerpt": "ACM Reference Format: Aditi Verma and Elizabeth Williams. 2025. Towards an AI Observatory for the Nuclear Sector: A tool for anticipatory governance. In Proceedings of April 26, 2025 (STAIGCHI ’25). ACM, New York, NY, USA, 6 pages.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is conceptual and proposes anticipatory governance plus a global AI observatory",
+      "excerpt": "we call for the creation of an anticipatory system of governance for AI in the nuclear sector as well as the creation of a global AI observatory as a means for operationalizing anticipatory governance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated high-stakes nuclear domain with safety, security, and safeguards focus",
+      "excerpt": "Keywords nuclear safety, nuclear security, nuclear safeguards, governance, regulation, AI governance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Generative AI is used in nuclear work but is not well documented or understood",
+      "excerpt": "the increasing use of generative AI by researchers, practitioners, and students in their daily work (such as the analysis of data, writing or summarization of technical reports, etc) in ways that are not well-documented or understood",
+      "page": "2",
+      "section": "discussion",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Industry conversational/generative AI tool example is mentioned but not analyzed as governance object",
+      "excerpt": "ChatOPG (co-developed by Ontario Power Generation and Microsoft — as discussed in [53]) is an example of how such tools are being adopted in the industry",
+      "page": "2",
+      "section": "discussion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Absence of governance for rapidly embedded AI may compromise safety, security, and safeguards",
+      "excerpt": "The rapid embedding of AI in research and work in the nuclear sector has, in the absence of governance, the potential to compromise the safety, security, and safeguard",
+      "page": "2",
+      "section": "discussion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Paper emphasizes system-level interaction rather than conversational control mechanisms",
+      "excerpt": "the potential interaction of AI models with each other and with the human, organizational, institutional, and technical parts of the system have to be anticipated",
+      "page": "2",
+      "section": "discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Existing nuclear safety governance includes extensive oversight by regulators",
+      "excerpt": "extensive oversight and governance by national regulatory agencies as well as, in some cases, self-regulators [40]",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No empirical sample or study population is described in provided text",
+      "excerpt": "The paper explores the contours of the nuclear AI observatory and an anticipatory system of governance by drawing on work in science and technology studies, public policy, and foresight studies",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Main contribution is governance infrastructure proposal for nuclear AI",
+      "excerpt": "we propose to create an anticipatory system of governance for AI in the nuclear sector. This paper outlines our reasoning for proposing this approach to support appropriate use of AI in the nuclear sector",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    }
+  ]
+}

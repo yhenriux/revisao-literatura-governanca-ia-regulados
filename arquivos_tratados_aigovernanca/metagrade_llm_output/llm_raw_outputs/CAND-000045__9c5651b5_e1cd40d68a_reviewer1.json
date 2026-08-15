@@ -1,0 +1,204 @@
+{
+  "bibliographic": {
+    "title": "A Guardrail Framework for Sensitive Financial Information Protection: A Taxonomy-Driven Approach",
+    "authors": "Mehdi Yekrangi; Houssem Chatbri; Claudia Beatrice Chianella; Owen O'Neill",
+    "year": "2026",
+    "venue": "The Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Yekrangi, M., Chatbri, H., Chianella, C. B., & O'Neill, O. (2026). A guardrail framework for sensitive financial information protection: A taxonomy-driven approach. In Proceedings of the Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "taxonomy development grounded in standards; synthetic dataset construction; supervised model training (GARD); benchmark comparison against commercial guardrail APIs",
+    "study_design": "technical framework development with comparative evaluation against OpenAI Moderation API and Microsoft Azure Content Safety (ACS)",
+    "sample_description": "extensive synthetic dataset encompassing diverse categories of sensitive financial information (SFI) derived from a taxonomy of SFI",
+    "sample_size": "unclear",
+    "sector": "financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "guardrails applied to inputs and outputs of GenAI/LLM systems for sensitive financial information protection in financial services"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GENAI",
+      "GUARDRAILS",
+      "AI_GOVERNANCE",
+      "REGULATED_FINANCE",
+      "RISK_COMPLIANCE",
+      "TAXONOMY_FRAMEWORK"
+    ],
+    "exclusion_codes": [
+      "CONVERSATIONAL_NOT_PRIMARY"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper directly addresses LLM/GenAI guardrails, AI governance standards, risk detection, and compliance in financial services, aligning with operational-technical governance and regulated-domain dimensions of the review. However, the provided text does not frame or evaluate conversational systems, chatbots, dialogue, human oversight, accountability mechanisms, observability, or post-deployment conversational governance; it focuses on domain-specific content-safety guardrails for SFI. Therefore it is better classified as supporting evidence for guardrails and regulated GenAI safety than as central evidence on conversational governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front matter was supplied; metadata extraction appears corrupted (title/authors); publication year differs between extracted metadata (2024) and PDF (AAAI-26/2026); full methods, results tables, limitations, and conversational applicability require verification."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 1,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Objectives and evaluation metrics (precision/recall vs commercial guardrails) are clearly stated in the abstract. Taxonomy grounding in financial, information security, and AI governance standards is described. Dataset size, training details, full benchmark protocol, limitations, and ethics are not visible in the excerpt provided, limiting appraisal of sampling adequacy, analysis rigor, and reflexivity."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The study presents a coherent taxonomy-to-dataset-to-model pipeline with benchmark comparison relevant to guardrails in regulated financial GenAI use. Confidence is moderated because only partial text is available, sample size and detailed evaluation protocol are unclear, and the work does not substantively address conversational governance constructs emphasized by the review scope."
+  },
+  "coding": {
+    "open_codes": [
+      "sensitive_financial_information",
+      "domain_specific_guardrails",
+      "taxonomy_of_SFI",
+      "synthetic_SFI_dataset",
+      "GARD_risk_detection_model",
+      "commercial_guardrail_benchmarking",
+      "input_output_filtering",
+      "AI_governance_standards",
+      "financial_compliance",
+      "precision_recall_tradeoff"
+    ],
+    "axial_codes": [
+      "operational_technical_governance",
+      "risk_and_safety_controls",
+      "regulated_financial_context",
+      "knowledge_taxonomy"
+    ],
+    "theme": "Domain-specific guardrails for LLM/GenAI safety in financial services",
+    "subtheme": "Taxonomy-driven sensitive financial information detection",
+    "concepts": [
+      "guardrails",
+      "sensitive financial information",
+      "taxonomy",
+      "GenAI",
+      "large language models",
+      "risk detection",
+      "compliance",
+      "AI governance",
+      "content safety",
+      "financial services"
+    ],
+    "model_layers": [
+      "input_guardrails",
+      "output_guardrails",
+      "policy_alignment",
+      "risk_detection"
+    ],
+    "rq_alignment": [
+      "guardrails_in_regulated_LLM_systems",
+      "risk_management_and_compliance",
+      "domain_specific_AI_safety"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "General-purpose commercial guardrails under-detect domain-specific sensitive financial information in GenAI/LLM inputs and outputs, whereas a taxonomy-grounded approach with a trained GARD model achieves substantially higher recall while supporting financial-sector AI safety and compliance.",
+    "contribution": "Provides (1) a taxonomy of sensitive financial information for GenAI applications grounded in recognized financial, information security, and AI governance standards; (2) a comprehensive synthetic SFI dataset; and (3) a high-recall risk detection model deployable alongside commercial solutions.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence for domain-specific guardrails, taxonomy-driven risk categorization, and benchmarked SFI detection in regulated financial GenAI/LLM deployments; not suitable as primary evidence for conversational governance, human oversight, audit/logging, or dialogue-specific accountability without further full-text verification."
+  },
+  "evidence": [
+    {
+      "claim": "Paper concerns LLM adoption and guardrails in financial GenAI systems",
+      "excerpt": "The increasing adoption of large language models in the financial sector introduces significant challenges related to the handling of sensitive financial information (SFI).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study develops taxonomy, synthetic dataset, and GARD detection model",
+      "excerpt": "we synthesized an extensive dataset encompassing diverse categories of SFI and trained GARD (Generative Adversarial network Risk Detection) model to detect sensitive content in both inputs and outputs of GenAI systems within the financial domain.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Benchmark comparison against commercial guardrail solutions",
+      "excerpt": "Our evaluation compared GARD against commercial guardrail solutions, including the OpenAI Moderation API and Microsoft Azure Content Safety (ACS).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Commercial guardrails had high precision but low recall; GARD recall 0.98",
+      "excerpt": "while commercial solutions maintained high precision, their recall was substantially lower, indicating many risky instances went undetected. In contrast, our model achieved a recall score of 0.98",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Taxonomy grounded in financial, information security, and AI governance standards",
+      "excerpt": "developing a comprehensive taxonomy of SFI, grounded in globally recognized financial, information security, and AI governance standards.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Guardrails defined as mechanisms aligning LLM/GenAI input/output with safety, risk, and policy requirements",
+      "excerpt": "Guardrails are mechanisms or frameworks that ensure LLMs' input/output are aligned with specified safety, risk, and policy requirements.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Real-world financial services use case with domain-specific risk focus",
+      "excerpt": "we ground our study in a real-world use case of financial services and examine how commercial products may fall short in addressing domain-specific risks.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulatory and organizational requirements for sensitive information handling cited",
+      "excerpt": "special handling and protection measures to ensure confidentiality, integrity, and availability in accordance with regulatory and organizational requirements",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Work positioned within OWASP LLM risk framework and SI disclosure gap",
+      "excerpt": "a substantial gap persists in mitigating one of the most significant risk categories—SI disclosure, as identified second in the OWASP risk framework for LLMs",
+      "page": "2",
+      "section": "background",
+      "supports": "coding"
+    },
+    {
+      "claim": "Venue is AAAI-26 conference paper",
+      "excerpt": "The Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)",
+      "page": "1",
+      "section": "discussion",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "No conversational-system focus in provided text",
+      "excerpt": "detect sensitive content in both inputs and outputs of GenAI systems within the financial domain.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Stated contributions include taxonomy, dataset, and deployable detection model",
+      "excerpt": "this work contributes (1) A detailed taxonomy of SFI tailored for GenAI applications, (2) A comprehensive synthetic dataset that encompasses a wide range of sensitive topics relevant to the domain and (3) A high-performance risk detection model",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

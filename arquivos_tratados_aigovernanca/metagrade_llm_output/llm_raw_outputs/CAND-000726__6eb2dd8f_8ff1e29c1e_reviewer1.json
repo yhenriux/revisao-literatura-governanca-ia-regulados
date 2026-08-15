@@ -1,0 +1,188 @@
+{
+  "bibliographic": {
+    "title": "Tactics for Internal Compliance: A Literature Review",
+    "authors": "Ralph Foorthuis",
+    "year": "2012",
+    "venue": "Chapter in doctoral dissertation Project Compliance with Enterprise Architecture, Utrecht University, Center for Organization and Information",
+    "doi": "unclear",
+    "publication_type": "thesis",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Foorthuis, R. M. (2012). Tactics for internal compliance: A literature review. In Project compliance with enterprise architecture (pp. 153–198). Utrecht University, Center for Organization and Information."
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "multidisciplinary structured literature review",
+    "study_design": "structured literature review synthesizing 134 publications into a typology and framework",
+    "sample_description": "134 publications drawn from multidisciplinary literatures including management, law, information systems, philosophy, and organizational sociology",
+    "sample_size": "134",
+    "sector": "organizational compliance across management, business, law, information systems, and related disciplines",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "organizational compliance, enterprise architecture, IT governance frameworks (e.g., COBIT, COSO, OCEG GRC), security policies, and informational privacy; no LLM or conversational AI systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "GOV-ORG",
+      "COMPLIANCE",
+      "REGULATED-CONTEXT"
+    ],
+    "exclusion_codes": [
+      "NO-LLM",
+      "NO-CONV-AI",
+      "PRE-LLM-ORG-COMPLIANCE"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study is a multidisciplinary structured literature review on internal organizational compliance tactics, governance mechanisms, accountability, transparency, and risk in regulated organizational contexts. It offers a typology of 45 compliance tactics and a framework for compliance strategy, which may provide foundational context for governance and compliance in regulated environments. However, the provided text contains no evidence on LLMs, generative AI, conversational systems, chatbots, agents, RAG, or conversational governance; the single 'dialogue' hit refers to regulatory self-regulation through collective dialogue, not conversational AI.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python metadata misidentified title/authors and year; full-text confirms 2012 PhD dissertation chapter by Foorthuis, not a 2010 journal article."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appropriate structured review design for synthesizing organizational compliance tactics. Provided excerpts document sample size and multidisciplinary scope but offer limited detail on search strategy, inclusion criteria, and quality appraisal procedures."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Findings are coherent and adequately supported for organizational internal compliance, but relevance to conversational governance in LLM-based systems is very low because the text addresses pre-LLM organizational compliance tactics without conversational or AI-system governance."
+  },
+  "coding": {
+    "open_codes": [
+      "internal compliance",
+      "compliance tactics",
+      "compliance strategy",
+      "organizational governance",
+      "accountability",
+      "transparency",
+      "risk mitigation",
+      "multidisciplinary literature review"
+    ],
+    "axial_codes": [
+      "organizational compliance management",
+      "governance mechanisms",
+      "regulated organizational behavior",
+      "assessment and audit tactics"
+    ],
+    "theme": "Organizational internal compliance and governance",
+    "subtheme": "Typology and framework of compliance tactics",
+    "concepts": [
+      "compliance tactics",
+      "internal compliance",
+      "governance",
+      "accountability",
+      "responsibility",
+      "transparency",
+      "legitimacy",
+      "ethics",
+      "risk mitigation",
+      "self-regulation",
+      "external audits"
+    ],
+    "model_layers": [
+      "policy",
+      "process",
+      "organizational governance",
+      "assessment and audit"
+    ],
+    "rq_alignment": [
+      "general governance and compliance in regulated contexts",
+      "accountability and transparency mechanisms",
+      "risk and regulatory compliance at organizational level"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "A multidisciplinary structured literature review of 134 publications yields a typology of 45 elementary compliance tactics, fundamental compliance concepts, a positioning framework, and guidance for moving from tactics to richer compliance strategies.",
+    "contribution": "Provides a comprehensive, cross-disciplinary synthesis of internal organizational compliance tactics and a framework for analyzing or developing compliance strategies, including governance mechanisms ranging from top management to localized measures.",
+    "limitations": "Compliance tactics are described in fragmented literatures across disciplines; the provided text does not address AI, LLMs, or conversational systems. Search and appraisal procedures are not fully detailed in the excerpts supplied.",
+    "use_in_review": "Use as foundational contextual evidence for organizational compliance, governance, accountability, transparency, audit/assessment, and regulated-environment concepts; not usable as central or supporting evidence for LLM-based conversational governance."
+  },
+  "evidence": [
+    {
+      "claim": "Structured literature review of 134 publications on internal compliance",
+      "excerpt": "Using a multidisciplinary structured literature review of 134 publications, this study offers three contributions.",
+      "page": "153",
+      "section": "Chapter 8 introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Defines compliance tactic and links to governance mechanisms",
+      "excerpt": "We define a compliance tactic as a measure that can be taken, or a technique or mechanism that can be used, to encourage compliance of relevant organizational actors. Tactics can range from top management’s organization-wide governance mechanisms to lower management localized measures.",
+      "page": "12",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Discusses transparency as compliance goal and assessment tactic",
+      "excerpt": "The term compliance has also been extended to include underlying goals, such as transparency and protecting an organization’s reputation",
+      "page": "9",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "References IT governance and auditing frameworks",
+      "excerpt": "There are also frameworks for general governance (COSO, 1994) and IT governance, such as COBIT (IT Governance Institute, 2000) and SAC (Mair, 2002).",
+      "page": "23",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Addresses accountability and responsibility of regulatees",
+      "excerpt": "Explicitly agreeing with a policy may increase the commitment felt by the regulatees, as they are given responsibility and accountability.",
+      "page": "30",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Links laws and regulations to societal risk and ethical behavior",
+      "excerpt": "Laws and regulations are mostly concerned with mitigating societal risk and encouraging ethical behavior",
+      "page": "154",
+      "section": "8.1 Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Dialogue reference is regulatory self-regulation, not conversational AI",
+      "excerpt": "those actors can define their own standards through collective dialogue.",
+      "page": "30",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM or conversational AI content in provided text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Bibliographic identity as 2012 PhD dissertation chapter",
+      "excerpt": "Foorthuis, R.M. (2012). Tactics for Internal Compliance: A Literature Review. Chapter of ”Project Compliance with Enterprise Architecture”, pp. 153-198, Doctoral dissertation (PhD thesis), Utrecht University",
+      "page": "153",
+      "section": "Front matter",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Multidisciplinary scope includes information systems security and privacy",
+      "excerpt": "information systems (e.g. security policies and informational privacy)",
+      "page": "5",
+      "section": "conclusion",
+      "supports": "methodology"
+    }
+  ]
+}

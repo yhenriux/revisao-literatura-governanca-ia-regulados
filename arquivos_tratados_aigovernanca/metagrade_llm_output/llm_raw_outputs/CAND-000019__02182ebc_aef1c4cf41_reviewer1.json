@@ -1,0 +1,174 @@
+{
+  "bibliographic": {
+    "title": "Ethical Governance of Large Language Models in Health Care: Trust, Responsibility, and Equity in Routine Use",
+    "authors": "Xiongwen Yang; Chuan Xu",
+    "year": "2026",
+    "venue": "Journal of Medical Internet Research",
+    "doi": "10.2196/93470",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Yang, X., & Xu, C. (2026). Ethical governance of large language models in health care: Trust, responsibility, and equity in routine use. Journal of Medical Internet Research, 28, e93470. https://doi.org/10.2196/93470"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "viewpoint; adoption-phase ethics analytic lens; interaction-based ethical risk framework",
+    "study_design": "viewpoint",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "health care",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLMs embedded in routine health care communication, clinical communication, and decision-making support; not specifically conversational agents or chatbots"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GOVERNANCE",
+      "REGULATED_HEALTHCARE",
+      "ACCOUNTABILITY_OVERSIGHT",
+      "ETHICAL_FRAMEWORK"
+    ],
+    "exclusion_codes": [
+      "LIMITED_CONVERSATIONAL_AI_FOCUS",
+      "NO_OPERATIONAL_GOVERNANCE_MECHANISMS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "Viewpoint provides a conceptual framework for ethical governance of LLMs in health care, emphasizing trust, distributed responsibility, equity, contestation, and system-level oversight during routine adoption. Strong alignment with governance and regulated-domain themes, but text provided does not center conversational systems, chatbots, agents, or operational controls such as guardrails, logging, tracing, or audit tooling.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial PDF text was supplied; extracted metadata title was corrupted; full-text sections on methods, limitations, and operational recommendations may alter eligibility and appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Conceptual viewpoint rather than empirical study; sampling and data-collection criteria are not applicable. Appraisal based on visible abstract, introduction fragment, framework mention, and acknowledgments only."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Arguments appear coherent and objectives are explicit, but provided excerpt is incomplete and the paper offers normative framing rather than primary empirical evidence on conversational governance mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "adoption-phase ethics",
+      "trust",
+      "responsibility",
+      "equity",
+      "institutional embedding",
+      "patterns of reliance",
+      "system-level oversight",
+      "accountability structures",
+      "contestation capacity",
+      "role-sensitive implementation",
+      "interaction-based framework"
+    ],
+    "axial_codes": [
+      "ethical risk during routine LLM integration",
+      "governance beyond model evaluation",
+      "distributed responsibility in clinical communication",
+      "equity in interpreting and contesting LLM outputs"
+    ],
+    "theme": "Ethical governance of LLMs in health care during routine adoption",
+    "subtheme": "Trust, responsibility, and equity under institutional embedding",
+    "concepts": [
+      "adoption-phase ethics",
+      "ethical governance",
+      "accountability",
+      "oversight",
+      "contestation",
+      "trust",
+      "equity",
+      "health care communication"
+    ],
+    "model_layers": [
+      "model-level properties",
+      "patterns of reliance",
+      "institutional and system-level governance conditions"
+    ],
+    "rq_alignment": [
+      "governance and accountability",
+      "human oversight and contestation",
+      "regulated high-stakes contexts",
+      "risk and compliance framing"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Ethical risks of LLMs in health care arise through patterns of reliance, institutional embedding, and governance during routine use, requiring continuous system-level oversight beyond technical performance evaluation.",
+    "contribution": "Introduces adoption-phase ethics and an interaction-based framework organizing ethical risk around trust, distributed responsibility, and equity in LLM-enabled health care communication.",
+    "limitations": "Provided text does not detail empirical validation, implementation mechanisms, or limitations section; operational governance tools and conversational-system specifics are not substantively covered in the excerpt.",
+    "use_in_review": "Use as foundational contextual evidence for ethical governance principles in regulated health care LLM adoption; supplement with studies focused on conversational systems, operational controls, and post-deployment monitoring."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a JMIR Viewpoint on ethical governance of LLMs in health care.",
+      "excerpt": "Viewpoint Ethical Governance of Large Language Models in Health Care: Trust, Responsibility, and Equity in Routine Use",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses adoption-phase ethics as its analytic lens.",
+      "excerpt": "Using \"adoption-phase ethics\" as an analytic lens, this paper examines 3 interrelated dimensions of ethical risk.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance requires continuous system-level oversight and accountability structures.",
+      "excerpt": "ethical governance of LLMs in health care requires continuous, system-level oversight that extends beyond model evaluation alone, including clear accountability structures",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Equity concerns include unequal capacity to interpret, contest, and benefit from LLM outputs.",
+      "excerpt": "equity concerns arise from unequal capacities to interpret, contest, and benefit from LLM-generated information",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Responsibility may become distributed and ambiguous in LLM-mediated clinical communication.",
+      "excerpt": "responsibility may become distributed and ambiguous when LLM-mediated information influences clinical communication and decision-making",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors propose an interaction-based framework of ethical risk for routine LLM integration.",
+      "excerpt": "Interaction-based framework of ethical risk in large language model–enabled health care.",
+      "page": "3",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Institutional governance structures shape reliance, accountability, and equitable benefit during routine use.",
+      "excerpt": "institutional governance structures shape reliance, accountability, and equitable capacity to benefit users during routine use",
+      "page": "5",
+      "section": "discussion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors disclose generative AI assistance for language refinement only.",
+      "excerpt": "The authors used a generative artificial intelligence tool (ChatGPT; OpenAI) to assist with language refinement, grammar correction, and consistency of the manuscript.",
+      "page": "5",
+      "section": "acknowledgments",
+      "supports": "appraisal"
+    }
+  ]
+}

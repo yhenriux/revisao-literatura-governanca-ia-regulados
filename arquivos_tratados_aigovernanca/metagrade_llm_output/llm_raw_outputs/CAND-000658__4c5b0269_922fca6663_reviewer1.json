@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "MLOps and LLMOps Engineering for Deployment and Evaluation of AI Models",
+    "authors": "Yushi Han",
+    "year": "2025",
+    "venue": "Master in Interdisciplinary and Innovative Engineering, UPC (Escola d'Enginyeria de Barcelona Est); internship at SAP France",
+    "doi": "unclear",
+    "publication_type": "thesis",
+    "peer_reviewed": "no",
+    "citation_apa": "Han, Y. (2025). MLOps and LLMOps engineering for deployment and evaluation of AI models [Master's thesis, Universitat Politècnica de Catalunya]."
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "MLOps/LLMOps engineering; platform comparison; proof-of-concept evaluation pipeline; LLM-as-a-judge",
+    "study_design": "Internship-based master thesis with two tasks: ML model serving platform evaluation (Azure Databricks vs SAP AI Core) and PoC automated evaluation pipeline for Generative AI outputs",
+    "sample_description": "Enterprise internship project at SAP France (CPIT - Big Data & Machine Learning Foundation team); deployment and evaluation workflows on cloud platforms",
+    "sample_size": "unclear",
+    "sector": "Enterprise software / ERP (SAP)",
+    "regulated_domain": "unclear",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Azure Databricks, SAP AI Core, MLflow 3.x, CI/CD, Architecture Decision Record (ADR)"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "borderline",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLMOps",
+      "LLM_evaluation",
+      "traceability",
+      "MLOps_deployment"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai_focus",
+      "no_regulated_domain_focus",
+      "limited_governance_scope"
+    ],
+    "exclusion_reason": "The document centers on MLOps/LLMOps deployment platform comparison and automated evaluation of Generative AI outputs; provided text does not establish conversational AI systems, conversational governance, or regulated high-stakes domain application.",
+    "decision_rationale": "Although the thesis clearly addresses LLMs, LLMOps, automated evaluation, and mentions governance of ML systems and traceability, the available text does not show focus on conversational systems (chatbots, agents, dialogue) or governance mechanisms specific to regulated conversational AI (oversight, contestation, compliance in regulated sectors). It may offer peripheral support for operational evaluation and traceability but is weakly aligned with the review's conversational governance scope.",
+    "decision_confidence": 0.68,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial excerpts were provided; Ethics section (p. 83) and full Task 2 implementation details were not included, so regulated-domain and governance claims cannot be fully verified."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Clear internship-based technical objectives and methods are described in the abstract and preface. Sampling, limitations, and ethics content are not visible in the provided excerpts; appraisal is therefore partial."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internally coherent technical thesis with explicit MLOps/LLMOps and evaluation pipeline aims, but provided text offers limited evidence on conversational governance or regulated-domain application, reducing relevance and confidence for the target review question."
+  },
+  "coding": {
+    "open_codes": [
+      "MLOps",
+      "LLMOps",
+      "Generative AI evaluation",
+      "LLM-as-a-judge",
+      "Azure Databricks",
+      "SAP AI Core",
+      "MLflow",
+      "CI/CD integration",
+      "Architecture Decision Record",
+      "traceability",
+      "scalability",
+      "reproducibility",
+      "governance of ML systems",
+      "cultural adaptation"
+    ],
+    "axial_codes": [
+      "operational_AI_engineering",
+      "automated_model_evaluation",
+      "enterprise_deployment"
+    ],
+    "theme": "Operational deployment and evaluation of LLM/ML systems in enterprise settings",
+    "subtheme": "LLMOps evaluation pipelines and platform serving comparison",
+    "concepts": [
+      "LLMOps",
+      "LLM-as-a-judge",
+      "traceability",
+      "operational reliability",
+      "standardized evaluation workflows"
+    ],
+    "model_layers": [
+      "deployment/infrastructure",
+      "monitoring/evaluation",
+      "operational workflow"
+    ],
+    "rq_alignment": [
+      "partial alignment to operational/technical governance and post-deployment evaluation"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Combining MLOps and LLMOps practices enables scalable deployment of ML/LLM systems and standardized, traceable automated evaluation of Generative AI outputs in enterprise CI/CD environments.",
+    "contribution": "Provides structured deployment guidance via an ADR from platform comparison and a PoC evaluation pipeline using LLM-as-a-judge with criteria such as correctness, relevance, and cultural adaptation.",
+    "limitations": "Provided excerpts do not describe study limitations, sample details, or ethics analysis; conversational governance and regulated-context applicability are not evidenced.",
+    "use_in_review": "Peripheral supporting/contextual source for LLMOps evaluation, traceability, and enterprise deployment practices; not suitable as central evidence for conversational governance in regulated environments based on available text."
+  },
+  "evidence": [
+    {
+      "claim": "Document is a 2025 master thesis on MLOps/LLMOps deployment and evaluation.",
+      "excerpt": "MASTER THESIS Master in Interdisciplinary and Innovative Engineering MLOPS AND LLMOPS ENGINEERING FOR DEPLOYMENT AND EVALUATION OF AI MODELS",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Author is Yushi Han with academic supervision at UPC.",
+      "excerpt": "Author: Yushi Han Supervisor: Yolanda Vidal Seguí Department EEBE (Escola d'Enginyeria de Barcelona Est, UPC)",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Work was conducted during an internship at SAP France.",
+      "excerpt": "This Master thesis presents the work conducted during my internship at SAP France within the CPIT - Big Data & Machine Learning Foundation team",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "First task compares ML model deployment on Azure Databricks and SAP AI Core.",
+      "excerpt": "The first task aimed at deploying machine learning models on two different serving platforms, Azure Databricks and SAP AI Core, with a detailed analysis of performance metrics, operational reliability, and deployment workflows.",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Second task builds a PoC evaluation pipeline using LLM-as-a-judge.",
+      "excerpt": "The second task addressed the evaluation of Generative AI applications by designing a proof-of-concept evaluation pipeline using the “LLM-as-a-judge” methodology.",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Evaluation pipeline scores LLM outputs on predefined criteria and supports traceability in CI/CD.",
+      "excerpt": "the pipeline enabled automated scoring of large language model outputs against predefined criteria such as correctness, relevance, and cultural adaptation. The solution demonstrated how standardized, reusable evaluation workflows can be integrated into CI/CD environments to ensure traceability, scalability, and reproducibility.",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Thesis highlights governance of ML systems as an organizational challenge.",
+      "excerpt": "Companies must ensure scalability, reliability, and governance of ML systems while also addressing the specific requi",
+      "page": "7",
+      "section": "Preface - Background",
+      "supports": "coding"
+    },
+    {
+      "claim": "Second task motivation includes robust automated evaluation for LLM-based applications.",
+      "excerpt": "The second is the growing demand for robust and automated evaluation pipelines for LLM-based applications, ensuring that results are not only correct but also contextually and culturally relevant.",
+      "page": "7",
+      "section": "Preface - Background",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Thesis includes an Ethics section, but its content is not provided.",
+      "excerpt": "12 Ethics 83",
+      "page": "5",
+      "section": "Table of contents",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational AI or chatbot focus appears in the provided text.",
+      "excerpt": "focusing on MLOps and LLMOps engineering. The project was divided into two main tasks.",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

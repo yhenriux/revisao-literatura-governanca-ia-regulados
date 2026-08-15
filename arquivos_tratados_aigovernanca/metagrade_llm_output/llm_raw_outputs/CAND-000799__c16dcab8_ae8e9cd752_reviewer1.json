@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "Artificial Intelligence and Decision-Making in Oncology: A Review of Ethical, Legal, and Informed Consent Challenges",
+    "authors": "Eliza-Maria Froicu, Ioana Creangă-Murariu, Vlad-Adrian Afrăsânie, Bogdan Gafton, Teodora Alexa-Stratulat, Lucian Miron, Diana Maria Pușcașu, Vladimir Poroch, Gema Bacoanu, Iulian Radu, Mihai-Vasile Marinca",
+    "year": "2025",
+    "venue": "Current Oncology Reports",
+    "doi": "10.1007/s11912-025-01698-8",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Froicu, E.-M., Creangă-Murariu, I., Afrăsânie, V.-A., Gafton, B., Alexa-Stratulat, T., Miron, L., Pușcașu, D. M., Poroch, V., Bacoanu, G., Radu, I., & Marinca, M.-V. (2025). Artificial intelligence and decision-making in oncology: A review of ethical, legal, and informed consent challenges. Current Oncology Reports, 27, 1002–1012. https://doi.org/10.1007/s11912-025-01698-8"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "PRISMA 2020 systematic literature review",
+    "study_design": "Systematic review prospectively registered in PROSPERO (CRD420251046482); searches in PubMed, Embase, and Cochrane CENTRAL (January 2015–May 2025)",
+    "sample_description": "Fifteen included studies on AI-supported oncology therapeutic decision-making with ethical, legal, or informed consent implications; populations included medical oncologists and patients with various types of cancer",
+    "sample_size": "15 included studies",
+    "sector": "Healthcare (oncology)",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Clinical decision support in oncology using AI interventions including generative artificial intelligence/large language models (e.g., ChatGPT), supervised machine learning, explainable AI, and machine learning–based web applications"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "systematic_review",
+      "regulated_healthcare",
+      "governance_ethics_legal",
+      "llm_genai_mentioned",
+      "human_oversight_accountability"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai_focus",
+      "no_operational_conversational_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a PRISMA-registered systematic review on ethical, legal, and informed consent challenges of AI in oncology therapeutic decision-making. It synthesizes governance-relevant concerns such as accountability, transparency, privacy, bias, and human oversight, and includes LLM/ChatGPT studies among broader AI modalities. However, it does not address conversational AI systems, chatbots, agents, RAG, guardrails, observability, or operational conversational governance architectures, so it is better classified as supporting rather than central evidence for the review scope.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python metadata misclassified the venue/publication type as conference_paper; relevance to conversational governance must be confirmed because LLM content appears only within a broader oncology ethics review and no conversational-system terms were detected."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 5,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Methodologically sound oncology-focused systematic review with explicit PRISMA 2020 and PROSPERO registration. Strength for regulated-domain ethical/legal synthesis; limited direct transferability to conversational LLM governance because included technologies and outcomes center on clinical decision support rather than conversational system design or operation."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are coherent and adequately supported for ethical/legal challenges of AI in oncology, including LLM examples. Confidence is moderate rather than high for the target review because conversational governance and operational controls are not primary objects of analysis."
+  },
+  "coding": {
+    "open_codes": [
+      "informed_consent",
+      "algorithmic_transparency",
+      "legal_accountability",
+      "data_privacy",
+      "algorithmic_bias",
+      "human_oversight",
+      "clinical_decision_support",
+      "oncology_ai"
+    ],
+    "axial_codes": [
+      "ethical_legal_governance",
+      "patient_autonomy",
+      "regulated_healthcare_ai",
+      "human_in_the_loop_validation"
+    ],
+    "theme": "Ethical, legal, and consent governance of AI-assisted oncology decision-making",
+    "subtheme": "Accountability and oversight in LLM-supported treatment recommendations",
+    "concepts": [
+      "informed consent",
+      "accountability",
+      "transparency",
+      "privacy",
+      "bias",
+      "human oversight",
+      "medico-legal liability",
+      "clinician validation"
+    ],
+    "model_layers": [
+      "policy_and_ethics",
+      "clinical_workflow_oversight"
+    ],
+    "rq_alignment": [
+      "regulated_high_stakes_healthcare",
+      "governance_accountability",
+      "human_oversight_contestation",
+      "risk_audit_compliance"
+    ],
+    "coding_confidence": 0.8
+  },
+  "synthesis": {
+    "main_claim": "AI can improve oncology therapeutic decision-making, but safe and equitable implementation requires addressing transparency, accountability, privacy, informed consent, bias, and clinician validation, including when generative AI/LLMs are used.",
+    "contribution": "Provides a structured PRISMA synthesis of 15 oncology studies linking AI decision-support benefits to ethical, legal, and consent risks, with explicit discussion of LLM performance limits and the need for human oversight and legal accountability.",
+    "limitations": "Oncology-specific scope; no dedicated analysis of conversational system governance, deployment monitoring, tracing, guardrails, or post-deployment operational controls; LLM evidence is embedded within a broader AI review rather than treated as the primary focus.",
+    "use_in_review": "Use as supporting evidence on governance themes—accountability, consent, privacy, bias, human oversight, and medico-legal risk—in regulated healthcare where LLMs support clinical recommendations; not suitable as central evidence for conversational governance architectures."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal systematic review in oncology with PRISMA 2020 and PROSPERO registration",
+      "excerpt": "This systematic review followed the PRISMA 2020 guidelines and was prospectively registered in the PROSPERO (CRD420251046482) database.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Fifteen studies met inclusion criteria",
+      "excerpt": "Fifteen studies met the inclusion criteria.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Included AI interventions encompass generative AI and large language models",
+      "excerpt": "The AI intervention consisted of generative artificial intelligence such as large language models [6, 14, 16, 18]",
+      "page": "3",
+      "section": "Results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Review highlights accountability, transparency, privacy, and consent gaps",
+      "excerpt": "the review highlighted key concerns, including algorithmic transparency, unclear accountability in AI-guided decisions, data privacy, and gaps in patient understanding of AI’s role in their care.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Recommends informed consent models, bias mitigation, and legal accountability",
+      "excerpt": "Emphasis should be placed on developing robust informed consent models, mitigating algorithmic bias, and establishing clear legal accountability.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "ChatGPT study shows concordance but also safety and oversight concerns",
+      "excerpt": "AI safety in clinical use questioned; potential risks in therapy precision; role of human oversight critical",
+      "page": "4",
+      "section": "Findings/Table 1",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLM recommendations may mislead and liability remains unclear",
+      "excerpt": "Misleading recommendations possible; patient awareness of AI limitations critical; unclear liability if harm occurs",
+      "page": "4",
+      "section": "Findings/Table 1",
+      "supports": "coding"
+    },
+    {
+      "claim": "Clinician validation needed for ChatGPT treatment plans",
+      "excerpt": "Need for clinician validation; ethical use in low-risk contexts only; unclear medico-legal safeguards",
+      "page": "5",
+      "section": "Findings/Table 1",
+      "supports": "coding"
+    },
+    {
+      "claim": "Eligibility required AI in systemic treatment decision-making with ethical/legal/consent focus",
+      "excerpt": "AI-supported oncology therapeutic decision-making studies with ethical, legal, or informed consent implications were eligible.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational AI or chatbot governance focus in provided text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "The Ethical Compass of the Machine: Evaluating Large Language Models for Decision Support in Construction Project Management",
+    "authors": "Somtochukwu Azie; Yiping Meng",
+    "year": "2024",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "unknown",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Azie, S., & Meng, Y. (2024). The Ethical Compass of the Machine: Evaluating Large Language Models for Decision Support in Construction Project Management. Teesside University. [venue and DOI unclear]"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "mixed-methods; quantitative LLM performance testing with EDSAC; qualitative semi-structured expert interviews",
+    "study_design": "mixed-methods evaluation of two LLMs on ethical scenarios plus expert interviews",
+    "sample_description": "two leading LLMs tested on twelve real-world ethical scenarios; twelve industry experts interviewed",
+    "sample_size": "2 LLMs; 12 ethical scenarios; 12 industry experts",
+    "sector": "construction project management",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLMs as decision-support tools for ethical and high-risk project management decisions; natural-language responses mentioned but not framed as conversational systems or chatbots"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_specific",
+      "governance_accountability",
+      "human_oversight",
+      "high_stakes_context",
+      "empirical_evaluation"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study empirically evaluates ethical viability, accountability, explainability, and human-in-the-loop oversight for LLMs in high-stakes construction decision support, aligning with governance and oversight themes. However, the provided text frames LLMs as decision-support systems rather than conversational AI, chatbots, or agentic dialogue systems, so fit with conversational governance is indirect rather than central.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter (pages 1-2) was provided; venue, peer review status, full methods, results tables, and limitations sections are unavailable for complete appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 4,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal is based only on abstract, highlights, and introduction. Mixed-methods design and EDSAC are described at a high level, but detailed sampling, analysis procedures, and limitations are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings on accountability, explainability, and human-in-the-loop oversight are coherent with the stated objective, but evidence adequacy and methodological detail are limited by incomplete text. Relevance to conversational governance is moderate because the work addresses LLM governance in decision support, not conversational systems specifically."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM ethical evaluation",
+      "decision support systems",
+      "human-in-the-loop oversight",
+      "accountability deficits",
+      "explainability gaps",
+      "legal compliance performance",
+      "EDSAC assessment framework",
+      "algorithmic governance",
+      "construction high-stakes decisions"
+    ],
+    "axial_codes": [
+      "governance and accountability",
+      "human oversight",
+      "risk and ethics in regulated-like contexts",
+      "evaluation methodology"
+    ],
+    "theme": "Ethical governance and oversight of LLMs in high-stakes decision support",
+    "subtheme": "Human-in-the-loop requirements and accountability limits of LLMs outside conversational interfaces",
+    "concepts": [
+      "EDSAC",
+      "human-in-the-loop",
+      "accountability",
+      "explainability",
+      "algorithmic governance",
+      "decision support",
+      "ethical reasoning"
+    ],
+    "model_layers": [
+      "oversight",
+      "accountability",
+      "risk control",
+      "evaluation framework"
+    ],
+    "rq_alignment": [
+      "LLM governance in high-stakes environments",
+      "human oversight and accountability",
+      "ethical reliability of generative AI decision support"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "LLMs show adequate performance on structured tasks such as legal compliance in construction ethical scenarios, but perform poorly on contextual nuance, accountability, and transparent reasoning; experts strongly favor human-in-the-loop oversight and treat LLMs as decision-support aids rather than autonomous ethical agents.",
+    "contribution": "Introduces the EDSAC framework as a replicable method to evaluate LLM ethical performance and provides an actionable roadmap for responsible AI governance in construction project management.",
+    "limitations": "Provided text does not report study limitations, model names, full EDSAC criteria, or detailed quantitative results; appraisal therefore remains partial.",
+    "use_in_review": "Use as supporting evidence on LLM governance, accountability, explainability, and human-in-the-loop oversight in high-stakes non-conversational decision-support contexts; not primary evidence for conversational governance mechanisms such as chatbots, dialogue guardrails, or conversational audit/logging."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses mixed-methods with two LLMs, twelve ethical scenarios, and twelve expert interviews",
+      "excerpt": "A mixed-methods research design was employed, involving the quantitative performance testing of two leading LLMs against twelve real-world ethical scenarios using a novel Ethical Decision Support Assessment Checklist (EDSAC), and qualitative analysis of semi-structured interviews with 12 industry experts",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLMs lack accountability and explainability for high-risk decisions",
+      "excerpt": "they exhibit significant deficiencies in handling contextual nuance, ensuring accountability, and providing transparent reasoning",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Strong advocacy for human-in-the-loop oversight",
+      "excerpt": "Stakeholders expressed considerable reservations regarding the autonomous use of AI for ethical judgments, strongly advocating for robust human-in-the-loop oversight",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs are positioned as decision-support aids, not autonomous ethical agents",
+      "excerpt": "emphasising that LLMs are currently best positioned as decision-support aids rather than autonomous ethical agents",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Construction context is high-stakes with public safety and legal liability",
+      "excerpt": "their capacity for sound ethical reasoning in the high-stakes environment of construction—where decisions directly impact public safety and legal liability",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Natural-language responses support decision-support use but not conversational system framing",
+      "excerpt": "Models (LLMs), whose ability to provide real-time, natural-language responses makes them attractive as decision-support systems for project managers",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study introduces EDSAC as evaluation framework",
+      "excerpt": "It introduces the EDSAC framework as a replicable methodology and provides actionable recommendations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Responsible governance roadmap for AI in CPM",
+      "excerpt": "Provides an actionable roadmap for the responsible governance of AI in CPM",
+      "page": "1",
+      "section": "highlights",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Adequate performance in structured legal compliance domains",
+      "excerpt": "while LLMs demonstrate adequate performance in structured domains such as legal compliance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Keywords include Algorithmic Governance",
+      "excerpt": "Keywords Artificial Intelligence; Large Language Models; Construction Project Management; AI Ethics; Decision Support Systems; Algorithmic Governance",
+      "page": "1",
+      "section": "keywords",
+      "supports": "coding"
+    }
+  ]
+}

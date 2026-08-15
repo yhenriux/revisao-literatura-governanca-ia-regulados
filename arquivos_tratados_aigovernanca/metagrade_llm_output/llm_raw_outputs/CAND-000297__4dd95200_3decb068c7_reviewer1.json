@@ -1,0 +1,224 @@
+{
+  "bibliographic": {
+    "title": "Governing Patient-Facing AI-Generated Video in Digital Health: A Risk-and-Ethics Matrix for Deployment, Monitoring, and Change Control",
+    "authors": "Yongzheng Hu; Wei Jiang",
+    "year": "2026",
+    "venue": "Journal of Medical Internet Research",
+    "doi": "10.2196/91940",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Hu, Y., & Jiang, W. (2026). Governing patient-facing AI-generated video in digital health: A risk-and-ethics matrix for deployment, monitoring, and change control. Journal of Medical Internet Research, 28, e91940. https://doi.org/10.2196/91940"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "viewpoint with literature synthesis and theoretical framework development",
+    "study_design": "Viewpoint proposing a risk-and-ethics matrix framework",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "health care / digital health",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "patient-facing high-fidelity AI-generated video (synthetic or substantially AI-mediated video with realistic human likeness, voices, or clinical communication cues); text-to-video explainers; clinician avatars; deepfake-style media in patient portals, telehealth, apps, and social platforms"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "governance_framework",
+      "generative_ai",
+      "regulated_healthcare",
+      "postdeployment_monitoring",
+      "human_oversight",
+      "risk_management"
+    ],
+    "exclusion_codes": [
+      "not_conversational_llm_primary"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed JMIR Viewpoint that proposes an operational, life-cycle governance framework for patient-facing generative AI video in health care, with strong relevance to risk management, ethics, monitoring, human-in-the-loop review, and change control. It does not primarily address conversational LLM systems, chatbots, agents, or RAG; generative AI video governance is the central object, so it is better classified as foundational/contextual rather than central conversational-LLM evidence.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Verify whether brief mentions of chatbots and ChatGPT (manuscript editing only) justify any upgrade to supporting_evidence for conversational governance themes; confirm absence of primary focus on LLM-based dialogue systems."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appropriate as a conceptual Viewpoint with literature synthesis; no empirical sample or systematic review methods are described in the provided text. Framework presentation is clear, but evidentiary basis for matrix thresholds and disposition rules appears primarily argumentative and integrative rather than empirically validated."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and explicitly links governance dispositions to controls and monitoring, but the provided text shows no primary data collection or validation study. Relevance to the review is moderate: strong on operational governance in regulated health care and postdeployment monitoring, weaker on conversational LLM-specific governance."
+  },
+  "coding": {
+    "open_codes": [
+      "operational governance",
+      "life-cycle review",
+      "risk-and-ethics matrix",
+      "residual clinical risk",
+      "ethical alignment score",
+      "deployment dispositions",
+      "postdeployment monitoring",
+      "change control",
+      "human-in-the-loop review",
+      "provenance",
+      "institutional review pathways",
+      "equity monitoring"
+    ],
+    "axial_codes": [
+      "governance by disposition",
+      "clinical harm scenario tiering",
+      "principlist ethics operationalization",
+      "auditable decision-making over system life cycle"
+    ],
+    "theme": "Operational governance of patient-facing generative AI media in digital health",
+    "subtheme": "Risk-and-ethics matrix linking deployment decisions to monitoring and change control",
+    "concepts": [
+      "operational governance",
+      "real-world deployment",
+      "iterative system change",
+      "residual clinical risk",
+      "ethical alignment score",
+      "encourage/permit with oversight/restrict or redesign/prohibit",
+      "dossier-based review",
+      "postdeployment monitoring triggers",
+      "predetermined change control plan"
+    ],
+    "model_layers": [
+      "predeployment review",
+      "minimum controls",
+      "postdeployment monitoring",
+      "incident response",
+      "change management",
+      "provenance and disclosure"
+    ],
+    "rq_alignment": [
+      "governance frameworks in regulated settings",
+      "risk assessment and risk management",
+      "human oversight",
+      "postdeployment monitoring",
+      "auditability and accountability",
+      "compliance with emerging regulatory expectations"
+    ],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "Patient-facing high-fidelity AI-generated video in digital health requires operational, life-cycle governance embedded in institutional review pathways, not only predeployment checks, and this can be supported by a risk-and-ethics matrix that yields actionable deployment dispositions tied to controls and monitoring.",
+    "contribution": "Proposes a risk-and-ethics matrix plotting residual clinical risk against ethical alignment to produce four dispositions (encourage, permit with oversight, restrict or redesign, prohibit), linked to dossier-based review, minimum controls, measurable postdeployment outcomes, provenance, and change control.",
+    "limitations": "Provided text does not report empirical validation, systematic review methods, or quantitative performance of the matrix; governance discussion for China is described as emerging and distributed; conversational AI/LLM deployment is not the primary technology focus.",
+    "use_in_review": "Use as foundational/contextual evidence for operational governance, ethics operationalization, human-in-the-loop review, monitoring triggers, and change control in regulated health-care deployments of generative AI; cite cautiously for conversational LLM governance because the article centers on AI-generated video."
+  },
+  "evidence": [
+    {
+      "claim": "Article type and publication venue support peer-reviewed conceptual contribution.",
+      "excerpt": "Viewpoint Governing Patient-Facing AI-Generated Video in Digital Health",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Core technology is patient-facing generative AI video, not conversational LLM systems.",
+      "excerpt": "patient-facing high-fidelity AI-generated video—synthetic or substantially AI-mediated video that presents realistic human likeness, voices, or clinical communication cues",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Proposes operational life-cycle governance beyond predeployment checks.",
+      "excerpt": "requires governance that is operational, life cycle based, and embedded in existing institutional review pathways rather than limited to predeployment checks alone",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Framework combines residual clinical risk with ethical alignment to yield deployment dispositions.",
+      "excerpt": "risk-and-ethics matrix that combines residual clinical risk (likelihood × severity after mitigations) with an ethical alignment score",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Links governance to postdeployment monitoring and auditable life-cycle decisions.",
+      "excerpt": "postdeployment monitoring triggers—focused on measurable outcomes (eg, comprehension, content-attributable follow-up burden, incidents and complaints, and equity gaps) as well as provenance and change control—to support auditable, revisitable decisions over the system life cycle",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Defines operational governance and iterative system change relevant to governance layers.",
+      "excerpt": "We use “operational governance” to mean the institutional processes through which such systems are reviewed, approved, monitored, and re-evaluated over time.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Matrix figure explicitly targets patient-facing generative artificial intelligence video in health care.",
+      "excerpt": "Risk-and-ethics matrix for patient-facing generative artificial intelligence video in health care.",
+      "page": "5",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Emphasizes postdeployment monitoring, incident response, and change management.",
+      "excerpt": "governance frameworks that emphasize postdeployment monitoring, mechanisms for capturing user input, incident response, and change management as core components of responsible AI use in real-world settings",
+      "page": "7",
+      "section": "abstract",
+      "supports": "rq_alignment"
+    },
+    {
+      "claim": "Includes human-in-the-loop review as a risk mitigation and preserves human oversight.",
+      "excerpt": "scope limitation, constrained generation, and human-in-the-loop review to reduce residual risk",
+      "page": "7",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated governance context is discussed, including distributed rules in China.",
+      "excerpt": "In China, the relevant governance architecture is emerging but remains distributed across health sector, platform, and generative AI rules.",
+      "page": "8",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Method is viewpoint framework development with literature synthesis rather than empirical study.",
+      "excerpt": "YH conducted the literature synthesis, drafted the manuscript, and designed the figures.",
+      "page": "10",
+      "section": "conclusion",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "ChatGPT appears only as an author tool for translation/editing, not as the governed system.",
+      "excerpt": "The authors used ChatGPT (OpenAI) for limited language translation and language editing during manuscript preparation.",
+      "page": "10",
+      "section": "conclusion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "References change control approaches relevant to governed AI system updates.",
+      "excerpt": "specify anticipated model, prompt, or pipeline updates and the evidence required to maintain assurance over time, drawing on the Food and Drug Administration’s predetermined change control plan approach for AI-enabled systems.",
+      "page": "10",
+      "section": "conclusion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Conversational/chatbot relevance in provided text is minimal and not the article focus.",
+      "excerpt": "performance drift (eg, model updates, guide",
+      "page": "2",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

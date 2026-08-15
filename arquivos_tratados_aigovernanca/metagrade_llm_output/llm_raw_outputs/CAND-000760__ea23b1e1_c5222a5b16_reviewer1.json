@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "An example of governance for AI in health services from Aotearoa New Zealand",
+    "authors": "R. Whittaker, R. Dobson, C. K. Jin, R. Style, P. Jayathissa, K. Hiini, K. Ross, K. Kawamura, P. Muir, and the Waitematā AI Governance Group",
+    "year": "2023",
+    "venue": "npj Digital Medicine",
+    "doi": "10.1038/s41746-023-00882-z",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Whittaker, R., Dobson, R., Jin, C. K., Style, R., Jayathissa, P., Hiini, K., Ross, K., Kawamura, K., Muir, P., & the Waitematā AI Governance Group. (2023). An example of governance for AI in health services from Aotearoa New Zealand. npj Digital Medicine, 6, 164. https://doi.org/10.1038/s41746-023-00882-z"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "practice_report_with_framework_development",
+    "study_design": "single_organization_case_report_of_AI_governance_implementation",
+    "sample_description": "Te Whatu Ora Waitematā, a public health service responsible for approximately 650,000 people in Auckland, Aotearoa New Zealand; development and testing of governance processes with real-world AI proposals",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "AI tools, algorithms, and machine learning models in clinical practice; no LLM or conversational system described in provided text"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "AI_GOVERNANCE",
+      "REGULATED_HEALTHCARE",
+      "INSTITUTIONAL_IMPLEMENTATION",
+      "HUMAN_OVERSIGHT",
+      "RISK_MONITORING_PRIVACY"
+    ],
+    "exclusion_codes": [
+      "NO_LLM_SPECIFICITY",
+      "NO_CONVERSATIONAL_AI"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article provides a detailed, empirically grounded account of establishing an AI governance body and framework in a regulated healthcare setting, with domains covering privacy, security, legal review, bias, transparency, and Māori health equity. It is highly relevant to governance and accountability in high-stakes health contexts but does not address LLMs, generative AI, conversational systems, chatbots, agents, RAG, or operational technical controls such as guardrails, tracing, or post-deployment monitoring at the level required for central evidence in a conversational LLM governance review.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Strong governance relevance may warrant elevation to foundational_contextual for regulated-domain governance synthesis, but scope mismatch on LLM and conversational AI requires human adjudication."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 5,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Clear practice-report objective and culturally grounded governance design; single-site organizational case limits generalizability; limitations discussion not evident in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The account is internally coherent and grounded in real implementation, but it is a single health-service case report focused on broad AI/ML governance rather than conversational LLM systems; provided text offers limited detail on limitations and on post-implementation operational monitoring."
+  },
+  "coding": {
+    "open_codes": [
+      "AI_governance_group",
+      "eight_domain_framework",
+      "proposal_checklist",
+      "Te_Tiriti",
+      "Māori_health_equity",
+      "transparency",
+      "bias_mitigation",
+      "clinical_oversight",
+      "privacy_and_security",
+      "real_world_testing",
+      "ongoing_iteration"
+    ],
+    "axial_codes": [
+      "institutional_AI_governance",
+      "regulated_healthcare_implementation",
+      "equity_and_accountability",
+      "risk_and_trust_management"
+    ],
+    "theme": "Institutional AI governance in healthcare",
+    "subtheme": "Culturally grounded governance framework with practical implementation",
+    "concepts": [
+      "Artificial Intelligence Governance Group (AIGG)",
+      "over-arching governance question",
+      "eight governance domains",
+      "Te Tiriti principles",
+      "model transparency",
+      "bias and fairness review"
+    ],
+    "model_layers": [
+      "organizational_governance",
+      "clinical_governance",
+      "data_and_digital_governance",
+      "privacy_and_security",
+      "legal_review",
+      "equity_and_indigenous_health_oversight"
+    ],
+    "rq_alignment": [
+      "governance_and_accountability_in_regulated_contexts",
+      "human_oversight_and_review",
+      "risk_privacy_security_compliance"
+    ],
+    "coding_confidence": 0.84
+  },
+  "synthesis": {
+    "main_claim": "A comprehensive AI governance framework and governance body were established within a New Zealand public health service, integrating Te Tiriti-centered Māori perspectives, multi-domain review, and iterative testing with real-world AI proposals.",
+    "contribution": "Offers a concrete implementation example of an AI governance group, an eight-domain framework, and a proposal checklist spanning development to implementation, emphasizing transparency, equity, bias mitigation, and culturally specific governance in healthcare.",
+    "limitations": "Single organizational case; AI scope is general rather than LLM- or conversational-specific; extent of limitations reporting is unclear from provided text; sample size and outcomes of tested proposals are not specified in the excerpts.",
+    "use_in_review": "Use as supporting evidence for institutional AI governance, regulated healthcare oversight, equity-centered accountability, and checklist-based proposal review; not suitable as central evidence for conversational LLM governance, guardrails, observability, or agentic/RAG controls."
+  },
+  "evidence": [
+    {
+      "claim": "Article reports development and establishment of comprehensive AI governance in a health service",
+      "excerpt": "Here we report on the development and establishment of comprehensive and effective governance over the development and implementation of AI tools within a health service in Aotearoa NZ.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Framework tested with real-world proposals and iteratively refined",
+      "excerpt": "The implementation of the framework in practice includes testing with real-world proposals and ongoing iteration and refinement of our processes.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study setting is a regulated public health service covering about 650,000 people",
+      "excerpt": "Te Whatu Ora Waitematā, a public health service responsible for the health of approximately 650,000 people in a geographical district of Auckland, Aotearoa NZ",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "AIGG uses one overarching question plus eight governance domains",
+      "excerpt": "The newly established Artificial Intelligence Governance Group (AIGG) agreed on one initial over-arching question with further considerations in eight domains (Fig. 1).",
+      "page": "1",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance checklist spans workflow from development to implementation and includes machine learning expertise",
+      "excerpt": "adapting all of the above into a checklist for use by the AIGG when considering new proposals for access to data or clinicians at any stage of the AI development workflow from development to implementation",
+      "page": "5",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Checklist representation includes privacy, security, legal, Māori health, and machine learning expertise",
+      "excerpt": "consumers, clinical governance, data and digital governance, privacy and security, legal, Māori health, Pacific Island health, research, analytics, innovation and improvement (supporting implementation), and external expertise in AI and machine learning.",
+      "page": "5",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Transparency is required to build clinician trust and support safe decisions",
+      "excerpt": "A high level of transparency is required to build trust amongst clinicians ensuring any decisions based upon model outputs are well understood, safe and accurate.",
+      "page": "2",
+      "section": "findings",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Governance addresses equity, fairness, and bias in data or models",
+      "excerpt": "Equity and fairness particularly focus on the likelihood of any bias or discrimination issues that may exist in the data collected or are unintentionally introduced by the model.",
+      "page": "2",
+      "section": "findings",
+      "supports": "coding"
+    },
+    {
+      "claim": "Māori perspectives support Te Tiriti-based accountability and acceptability",
+      "excerpt": "The inclusion of Māori perspectives in the AIGG also encourages Te Tiriti based arrangements, ensuring acceptability and accountability to Māori with a commitment to equitable benefits through a sustained focus on mana (mutual respect).",
+      "page": "2",
+      "section": "findings",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational AI or LLM-specific technology is described in the provided text",
+      "excerpt": "external expertise in AI and machine learning.",
+      "page": "5",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

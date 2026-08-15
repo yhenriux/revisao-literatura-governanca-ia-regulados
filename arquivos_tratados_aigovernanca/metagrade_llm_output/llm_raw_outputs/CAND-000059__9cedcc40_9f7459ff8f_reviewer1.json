@@ -1,0 +1,165 @@
+{
+  "bibliographic": {
+    "title": "Optimizing Large Language Models in Distributed Environments: A Holistic Approach to Efficiency, Ethics, and Governance",
+    "authors": "Mubarak Ahmad; Abdulkadhem A. Abdulkadhem; Umar Islam; Hathal Salamah Alwageed; Hanif Ullah; A. Abdullah",
+    "year": "2025",
+    "venue": "International Journal of Computational Intelligence Systems",
+    "doi": "10.1007/s44196-025-00992-4",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Ahmad, M., Abdulkadhem, A. A., Islam, U., Alwageed, H. S., Ullah, H., & Abdullah, A. (2025). Optimizing large language models in distributed environments: A holistic approach to efficiency, ethics, and governance. International Journal of Computational Intelligence Systems, 18, 293. https://doi.org/10.1007/s44196-025-00992-4"
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "systems engineering framework with empirical benchmarking",
+    "study_design": "proposed three-tier distributed LLM optimization architecture evaluated via cluster benchmarks and dataset validation",
+    "sample_description": "512-GPU A100 cluster; datasets C4, WikiText-103, RealNews, and BookCorpus; comparative benchmarks against DeepSpeed, FairScale, and Megatron-LM",
+    "sample_size": "512 GPUs; dataset count=4; human user satisfaction metric reported at 89.2%",
+    "sector": "multi-sector application references including healthcare, education, finance, and industrial automation",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "distributed LLM training and optimization with topology-aware parallelism, adversarial debiasing, symbolic explainability, and ISO-aligned governance logging"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_not_conversational_ai",
+      "E2_wrong_governance_scope",
+      "E3_training_infrastructure_primary_focus"
+    ],
+    "exclusion_reason": "The study centers on distributed LLM training optimization and lifecycle governance for model infrastructure, not conversational systems, chatbots, agents, RAG, or conversational governance in regulated deployments.",
+    "decision_rationale": "Although the paper explicitly addresses LLMs, ethics, fairness, explainability, audit logging, traceability, and regulation-compliant deployment, the provided text frames governance as a lightweight layer for distributed model lifecycle management rather than governance of conversational interactions. No chatbot, agent, RAG, guardrail, human handoff, contestation, or post-deployment conversational monitoring is described. The sole 'conversation' hit refers to prior scholarly discourse, not conversational AI.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial introduction are available; confirm absence of conversational-system governance in remaining sections before final corpus lock."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal is limited to pages 1-2 and abstract claims. Objectives are clearly stated, but detailed methods, limitations, and full validation protocol are not visible in the supplied excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the review question on conversational governance in regulated LLM systems, relevance is low because the article's governance construct targets distributed training lifecycle controls rather than conversational oversight, accountability, or regulated interaction management."
+  },
+  "coding": {
+    "open_codes": [
+      "distributed_training",
+      "topology_aware_parallelism",
+      "adversarial_debiasing",
+      "symbolic_explainability",
+      "ISO_aligned_governance",
+      "audit_logging",
+      "traceability",
+      "energy_efficiency"
+    ],
+    "axial_codes": [
+      "LLM_infrastructure_optimization",
+      "model_lifecycle_governance",
+      "ethical_fairness_controls",
+      "technical_explainability"
+    ],
+    "theme": "Distributed LLM optimization with embedded ethics and lifecycle governance",
+    "subtheme": "Training-scale efficiency, fairness, and auditability rather than conversational system governance",
+    "concepts": [
+      "three-tier architecture",
+      "governance layer",
+      "policy enforcement",
+      "demographic fairness",
+      "rule-based explanations",
+      "regulation-compliant deployment"
+    ],
+    "model_layers": [
+      "infrastructure_parallelism",
+      "fairness_module",
+      "explainability_engine",
+      "governance_logging_layer"
+    ],
+    "rq_alignment": [
+      "partial_alignment_to_LLM_governance",
+      "no_alignment_to_conversational_governance",
+      "partial_alignment_to_regulated_domain_mentions"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The authors propose a holistic three-tier framework for optimizing LLMs in distributed environments that jointly improves computational efficiency, ethical fairness, and governance through parallelism, adversarial debiasing, symbolic explainability, and ISO-aligned audit controls.",
+    "contribution": "Offers an integrated technical architecture for scalable LLM training with reported efficiency gains, fairness gap reduction, explainability satisfaction, and lifecycle traceability aligned to ISO/IEC 27001 and ISO/IEC 23894.",
+    "limitations": "Supplied text does not establish conversational AI scope, regulated operational settings, or post-deployment conversational oversight; methodological detail and limitations sections are not available in the excerpt.",
+    "use_in_review": "Exclude as central or supporting conversational-governance evidence; may serve only as distant contextual background on generic LLM lifecycle governance if a separate infrastructure-governance synthesis is opened."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on distributed LLM optimization rather than conversational systems.",
+      "excerpt": "optimizing Large Language Models (LLMs) in distributed environments, addressing three critical challenges: computational efficiency, ethical fairness, and governance",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance is framed as lifecycle traceability and audit logging aligned to ISO standards.",
+      "excerpt": "a lightweight governance layer aligned with ISO/IEC 27001 and ISO/IEC 23894 standards ensures traceability, audit logging, and policy enforcement throughout the model lifecycle",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated sectors are mentioned only as application contexts, not as the study setting.",
+      "excerpt": "their applications are seen in healthcare, education, finance, industrial automation, etc.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Specific LLMs are referenced, supporting LLM specificity.",
+      "excerpt": "Recent evolutions of Large Language Models (LLMs) like GPT-3 and GPT-4 have presented major steps ahead",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Empirical performance claims are reported for cluster training efficiency.",
+      "excerpt": "Our implementation reduces training time by 38% and memory usage by 42% on a 512-GPU A100 cluster, without compromising accuracy",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Fairness and explainability are technical model components, not conversational oversight mechanisms.",
+      "excerpt": "we incorporate a real-time adversarial debiasing module that reduces demographic AUC gaps by over 60%",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "The only 'conversation' mention is scholarly discourse, not conversational AI.",
+      "excerpt": "Weidinger et al. [8] extended this conversation by mapping out 21 distinct risk domains",
+      "page": "5",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Objective clarity is high in the abstract framing.",
+      "excerpt": "This paper introduces a holistic and scalable framework for optimizing Large Language Models (LLMs) in distributed environments",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "bibliographic": {
+    "title": "Sobre a eficiência da ética como ferramenta de governança da inteligência artificial",
+    "authors": "Nicholas Kluge Corrêa; Nythamar Fernandes de Oliveira; Diogo Fernando Massmann",
+    "year": "2022",
+    "venue": "Veritas (Porto Alegre) - Revista de Filosofia da PUCRS",
+    "doi": "10.15448/1984-6746.2022.1.42584",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Corrêa, N. K., Oliveira, N. F. de, & Massmann, D. F. (2022). Sobre a eficiência da ética como ferramenta de governança da inteligência artificial. Veritas (Porto Alegre), 67(1), 1-11. https://doi.org/10.15448/1984-6746.2022.1.42584"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "critical conceptual analysis with references to meta-analyses and respondent-based findings",
+    "study_design": "critical analysis of AI ethics governance literature and guidelines; partial respondent-based discussion reported",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "cross-sector public and private AI deployment examples in Brazil",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "autonomous intelligent systems, machine learning, deep learning, reinforcement learning, and chatbots/NLP cited as examples of AI use"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "ai_governance",
+      "ethical_guidelines",
+      "regulated_context_examples",
+      "bioethics_regulation"
+    ],
+    "exclusion_codes": [
+      "no_llm_focus",
+      "no_conversational_governance_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article critically addresses AI governance through ethical guidelines, regulation, and bioethics across public and private contexts, aligning with governance and regulated-domain dimensions. However, it does not center conversational systems, LLMs, or operational conversational governance mechanisms; chatbots appear only as a peripheral deployment example.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted metadata misclassified publication type and title; only partial full text provided; respondent/survey methods referenced on page 8 but not fully described in excerpts."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Clear normative objective and governance focus, but limited transparency in the excerpts about any empirical respondent sample and its analysis."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is coherent for broad AI ethics governance, but methodological details of any survey component are unclear in the provided text, and direct relevance to conversational LLM governance in regulated settings is limited."
+  },
+  "coding": {
+    "open_codes": [
+      "AI ethics",
+      "ethical guidelines",
+      "governance",
+      "bioethics",
+      "regulation",
+      "principled ethics",
+      "public sector AI",
+      "chatbots as example"
+    ],
+    "axial_codes": [
+      "normative governance",
+      "insufficiency of ethics-only governance",
+      "legal translation of ethical principles"
+    ],
+    "theme": "Ethics-based governance of artificial intelligence",
+    "subtheme": "Limits of principled ethical guidelines and need for legal regulation",
+    "concepts": [
+      "governance",
+      "ethical guidelines",
+      "bioethics",
+      "regulation",
+      "transparency",
+      "autonomous intelligent systems"
+    ],
+    "model_layers": [
+      "policy",
+      "normative",
+      "organizational"
+    ],
+    "rq_alignment": [
+      "governance and accountability",
+      "compliance and regulation",
+      "regulated high-stakes contexts"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Governance of AI based on principled ethical guidelines is not sufficient to norm the AI industry and its developers; stronger professional training and legal regulation informed by bioethics are needed.",
+    "contribution": "Provides a critical philosophical analysis of AI ethics as a governance tool and proposes translating ethical contributions into legal terms via bioethics.",
+    "limitations": "Little is known about the effectiveness of ethics-as-governance; the provided excerpts do not substantively address conversational AI, LLMs, or operational governance controls.",
+    "use_in_review": "Use as foundational contextual evidence on ethics-based AI governance, regulation, and bioethics; not as central evidence for conversational LLM governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with identifiable authors and DOI",
+      "excerpt": "Nicholas Kluge Corrêa1 ... Nythamar Fernandes de Oliveira1 ... Diogo Fernando Massmann1",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study objective is critical analysis of AI ethics as governance",
+      "excerpt": "realizar uma análise crítica do atual estado da Ética da IA",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Principled ethical guidelines are argued insufficient for AI industry governance",
+      "excerpt": "essa forma de governança baseada em diretrizes éticas principialista não é suficiente para normatizar a indústria da IA e seus desenvolvedores",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Proposes legal regulation informed by bioethics",
+      "excerpt": "sugerimos que o Direito se beneficie das contribuições recentes da Bioética",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Technology context includes ML/deep learning but not LLMs",
+      "excerpt": "machine learning, deep learning, and reinforcement learning",
+      "page": "2",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Chatbots appear only as a peripheral public-sector/finance example",
+      "excerpt": "o Banco do Brasil utiliza modelos de linguagem natural (chatbots) para atendimento ao consumidor",
+      "page": "2",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated/public authority governance context is referenced",
+      "excerpt": "GOVERNANCE recommendations – Use of Artificial Intelligence by Public Authorities",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Respondent-based material is mentioned but methods are unclear in excerpts",
+      "excerpt": "Um respondente propôs a criação de “jurados de cidadãos”",
+      "page": "8",
+      "section": "limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Dialogue/democratization of AI governance is discussed",
+      "excerpt": "incentivar o diálogo entre a indús­tria tecnológica e aqueles que serão afetados por suas criações",
+      "page": "8",
+      "section": "limitations",
+      "supports": "coding"
+    }
+  ]
+}

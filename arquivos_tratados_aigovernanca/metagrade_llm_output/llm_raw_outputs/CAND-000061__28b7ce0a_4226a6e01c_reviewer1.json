@@ -1,0 +1,216 @@
+{
+  "bibliographic": {
+    "title": "Institutionalised distrust and human oversight of artificial intelligence: towards a democratic design of AI governance under the European Union AI Act",
+    "authors": "Johann Laux",
+    "year": "2024",
+    "venue": "AI & Society",
+    "doi": "10.1007/s00146-023-01777-z",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Laux, J. (2024). Institutionalised distrust and human oversight of artificial intelligence: Towards a democratic design of AI governance under the European Union AI Act. AI & Society, 39, 2853–2866. https://doi.org/10.1007/s00146-023-01777-z"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "normative legal analysis, conceptual taxonomy development, democratic theory application",
+    "study_design": "open forum conceptual article surveying oversight law, proposing a taxonomy of human oversight roles, and formulating normative institutional design principles",
+    "sample_description": "unclear",
+    "sample_size": "not applicable",
+    "sector": "cross-sector AI governance with examples including content moderation and EU regulatory context",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "general AI systems, machine learning content moderation, chatbots as illustrative examples, human-in-the-loop and human-on-the-loop oversight under the EU AI Act"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "governance_accountability",
+      "human_oversight_contestation",
+      "regulated_high_stakes",
+      "risk_audit_compliance"
+    ],
+    "exclusion_codes": [
+      "insufficient_conversational_llm_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article provides a strong conceptual framework on human oversight and democratic AI governance under the EU AI Act, which is relevant to regulated AI governance. However, the provided text treats AI generically rather than LLM-based conversational systems specifically; conversational AI appears only briefly through a chatbot transparency example, so it is better suited as foundational contextual evidence than as central conversational-LLM governance evidence.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial PDF text was supplied; full-text confirmation is needed for the complete taxonomy, six principles, sector examples, and any additional references to conversational systems or deployment-level governance."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Non-empirical conceptual article. Appraisal is based on clarity of aims, fit of normative/legal-conceptual method, and transparency of stated contributions rather than empirical sampling or data collection."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The article presents a coherent normative framework for human oversight and EU AI Act governance, but the supplied evidence is limited and the work is not specific to LLM-based conversational systems, reducing direct relevance to the review's core focus."
+  },
+  "coding": {
+    "open_codes": [
+      "human oversight",
+      "institutionalised distrust",
+      "EU AI Act",
+      "human-in-the-loop",
+      "human-on-the-loop",
+      "oversight taxonomy",
+      "accountability",
+      "trust",
+      "transparency",
+      "content moderation",
+      "chatbots"
+    ],
+    "axial_codes": [
+      "regulatory governance",
+      "human oversight mechanisms",
+      "institutional design",
+      "democratic legitimacy",
+      "risk and safety governance"
+    ],
+    "theme": "Democratic institutional design for human oversight in AI governance",
+    "subtheme": "EU AI Act oversight obligations and fallibility of human overseers",
+    "concepts": [
+      "institutionalised distrust",
+      "constitutive oversight",
+      "corrective oversight",
+      "trustworthiness",
+      "effective oversight",
+      "underdefined developer obligations"
+    ],
+    "model_layers": [
+      "regulatory",
+      "institutional",
+      "human oversight",
+      "deployment transparency"
+    ],
+    "rq_alignment": [
+      "human oversight",
+      "accountability",
+      "regulated AI governance",
+      "risk control",
+      "trust and legitimacy"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Human oversight is a central but fallible mechanism of AI governance; democratic institutional design through institutionalised distrust, a taxonomy of oversight roles, and six normative principles can improve the trustworthiness of oversight under the EU AI Act.",
+    "contribution": "Surveys emerging oversight law with emphasis on the EU AI Act, proposes a taxonomy distinguishing constitutive from corrective human intervention, and formulates six democratic-theory principles to institutionalise distrust in human oversight.",
+    "limitations": "Empirical research cited in the abstract indicates humans may lack competence or face harmful incentives in oversight tasks; the AIA is said to leave oversight obligations for AI developers underdefined and provide limited guidance on effective oversight.",
+    "use_in_review": "Use as foundational contextual evidence on human oversight, accountability, and EU regulatory framing for regulated AI systems; not primary evidence for LLM-specific conversational governance, guardrails, observability, or operational deployment controls."
+  },
+  "evidence": [
+    {
+      "claim": "The article's stated objective is to address ineffective human oversight through legal survey, taxonomy, and democratic institutional principles.",
+      "excerpt": "this article aims to make three contributions. First, it surveys the emerging laws of oversight, most importantly the European Union’s Artificial Intelligence Act",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human oversight is framed as a key governance mechanism for AI.",
+      "excerpt": "Human oversight has become a key mechanism for the governance of artificial intelligence (“AI”).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "The EU AI Act requires AI systems to be effectively overseen by natural persons.",
+      "excerpt": "Article 14 of the European Commission’s AI Act proposal (“AIA”) requires that AI systems are designed and developed such that they can be “effectively overseen by natural persons”",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Oversight may be implemented as human-in-the-loop or human-on-the-loop.",
+      "excerpt": "Humans may be placed “in” or “on” the loop of an AI system, depending on whether they are involved in every decision the system makes or monitor the system’s overall operations",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human oversight is linked to accountability, legitimacy, safety, and fundamental rights.",
+      "excerpt": "human oversight promotes values such as legitimacy, accountability, dignity, as well as human autonomy and agency",
+      "page": "1",
+      "section": "introduction",
+      "supports": "rq_alignment"
+    },
+    {
+      "claim": "The AIA links human involvement to preventing or minimising risks to health, safety or fundamental rights.",
+      "excerpt": "keeping humans involved aims at “preventing or minimising the risks to health, safety or fundamental rights”",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Published AI standards are said not to provide much guidance on implementing effective human oversight.",
+      "excerpt": "So far, the published standards do not provide further information on how to implement effective human oversight of AI.",
+      "page": "4",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Machine learning content moderation is presented as a major use case involving human review.",
+      "excerpt": "Flagging content for further human review is currently a major use case for machine learning",
+      "page": "5",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Chatbots are mentioned only as an example of transparency risk around apparent human involvement.",
+      "excerpt": "Think of chatbots, for example, that mimic the way humans speak, including pauses and tics, to not give away the impression that they are fully automated agents",
+      "page": "10",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Transparency is required about whether human involvement is real or merely apparent.",
+      "excerpt": "First, transparency is required as to whether human involvement is real or merely apparent.",
+      "page": "10",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Humans may be unreliable overseers due to competence limits or harmful incentives.",
+      "excerpt": "humans are not reliable in fulfilling their oversight tasks. They may be lacking in competence or be harmfully incentivised.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "The article proposes a taxonomy of oversight roles based on whether intervention is constitutive or corrective.",
+      "excerpt": "this article presents a novel taxonomy of human oversight roles, differentiated along whether human intervention is constitutive to, or corrective of a decision made or supported by an AI.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Six normative principles institutionalise distrust to mitigate overseer fallibility.",
+      "excerpt": "this article formulates six normative principles which institutionalise distrust in human oversight of AI.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "The AIA is said to leave oversight obligations for AI developers underdefined.",
+      "excerpt": "it does not provide much guidance on how to achieve effective oversight and leaves oversight obligations for AI developers underdefined.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

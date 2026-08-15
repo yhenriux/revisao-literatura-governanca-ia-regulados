@@ -1,0 +1,171 @@
+{
+  "bibliographic": {
+    "title": "Evaluating large language models on medical evidence summarization",
+    "authors": "Liyan Tang; Zhaoyi Sun; Betina Idnay; Jordan G. Nestor; Ali Soroush; Pierre A. Elias; Ziyang Xu; Ying Ding; Greg Durrett; Justin F. Rousseau; Chunhua Weng; Yifan Peng",
+    "year": "2023",
+    "venue": "npj Digital Medicine",
+    "doi": "10.1038/s41746-023-00896-7",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Tang, L., Sun, Z., Idnay, B., Nestor, J. G., Soroush, A., Elias, P. A., Xu, Z., Ding, Y., Durrett, G., Rousseau, J. F., Weng, C., & Peng, Y. (2023). Evaluating large language models on medical evidence summarization. npj Digital Medicine, 6, 158. https://doi.org/10.1038/s41746-023-00896-7"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative LLM evaluation with automatic metrics and human assessment",
+    "study_design": "zero-shot single-document summarization evaluation across six clinical domains using Cochrane Review abstracts",
+    "sample_description": "Cochrane Reviews from the Cochrane Library across six clinical domains (Alzheimer's disease, Kidney disease, Esophageal cancer, Neurological conditions, Skin disorders, Heart failure); domain experts verified reviews",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "GPT-3.5 and ChatGPT zero-shot prompt-based medical evidence summarization; not a conversational system study"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_intervention",
+      "wrong_outcome",
+      "out_of_scope_technology"
+    ],
+    "exclusion_reason": "Study evaluates zero-shot medical evidence summarization with GPT-3.5 and ChatGPT; provided text contains no conversational AI, chatbot, agent, RAG, guardrails, observability, audit, or governance framework for deployed conversational systems.",
+    "decision_rationale": "Although the paper uses specific LLMs in a high-stakes medical domain and reports harm-related summarization risks with human review, its focus is summarization quality appraisal rather than conversational governance, accountability mechanisms, compliance controls, or operational supervision of conversational LLM systems.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage marked borderline_manual due to strong LLM and regulated-domain signals but zero conversational-governance matches; manual adjudication confirms topical mismatch with conversational governance scope."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Methodologically sound empirical LLM evaluation with automatic and human assessment and domain-expert verification, but ethics/reflexivity and governance implications beyond summarization errors are not developed in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings on factual inconsistency, misinformation harm, and trust risks are coherent and adequately supported for summarization evaluation, but relevance to conversational governance in regulated LLM systems is low based on provided excerpts."
+  },
+  "coding": {
+    "open_codes": [
+      "medical_evidence_summarization",
+      "zero_shot_llm_evaluation",
+      "automatic_vs_human_metrics",
+      "factual_inconsistency",
+      "misinformation_harm",
+      "salience_identification_failure",
+      "long_context_error_prone",
+      "risk_of_bias_in_trials",
+      "misinterpretation_errors",
+      "reader_trust_without_verification"
+    ],
+    "axial_codes": [
+      "llm_capability_limitations",
+      "high_stakes_healthcare_nlp",
+      "human_evaluation_quality_assessment",
+      "information_integrity_risk"
+    ],
+    "theme": "LLM reliability limits in regulated medical summarization",
+    "subtheme": "error typology and evaluation mismatch between automatic metrics and human judgment",
+    "concepts": [
+      "medical evidence summarization",
+      "zero-shot prompting",
+      "summary quality dimensions",
+      "error taxonomy",
+      "potential harm due to misinformation"
+    ],
+    "model_layers": [
+      "model_output_quality",
+      "human_evaluation_layer"
+    ],
+    "rq_alignment": [
+      "regulated_high_stakes_context",
+      "risk_and_harm_in_llm_outputs",
+      "human_oversight_via_expert_review"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "GPT-3.5 and ChatGPT can perform zero-shot medical evidence summarization but are susceptible to factual inconsistency, overly convincing or uncertain statements, salience failures, and higher error rates on longer contexts; automatic metrics weakly correlate with human-judged summary quality.",
+    "contribution": "Provides a systematic empirical evaluation framework and error terminology for medical evidence summarization with specific LLMs, combining automatic metrics, human evaluation, and domain-expert verification across six clinical domains.",
+    "limitations": "Provided text does not detail sample counts, full prompt/protocol, or governance/operational controls; scope is summarization appraisal rather than conversational system deployment.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance; may serve only as peripheral contextual citation on LLM misinformation risk and human evaluation needs in regulated healthcare NLP if explicitly scoped outside conversational governance."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses GPT-3.5 and ChatGPT for zero-shot medical evidence summarization in high-stakes clinical domains",
+      "excerpt": "we systematically examine the capabilities and limitations of LLMs, specifically GPT-3.5 and ChatGPT, in performing zero-shot medical evidence summarization across six clinical domains",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical design combines automatic and human evaluations",
+      "excerpt": "We conduct both automatic and human evaluations, covering several dimensions of summary quality.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM outputs may cause harm through misinformation",
+      "excerpt": "LLMs could be susceptible to generating factually inconsistent summaries and making overly convincing or uncertain statements, leading to potential harm due to misinformation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Sample draws from Cochrane Reviews across six clinical domains with expert verification",
+      "excerpt": "We used Cochrane Reviews obtained from the Cochrane Library and focused on six distinct clinical domains—Alzheimer’s disease, Kidney disease, Esophageal cancer, Neurological conditions, Skin disorders, and Heart failure",
+      "page": "1",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Domain experts verified review suitability",
+      "excerpt": "Domain experts verified each review to confirm that they have significant research objectives.",
+      "page": "1",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Automatic metrics poorly align with human quality judgments",
+      "excerpt": "Our study demonstrates that automatic metrics often do not strongly correlate with the quality of summaries.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human-informed error taxonomy includes misinterpretation and trust risk",
+      "excerpt": "auto-generated summaries often contain Misinterpretation errors. These errors can be problematic, as readers might trust the summary’s accuracy without being aware of the potential for falsehoods or distortions.",
+      "page": "3",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Risk of bias appears in summarization input context but not as governance framework",
+      "excerpt": "It also summarizes the impact of the risk of bias on trial design, conduct, and reporting.",
+      "page": "2",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational system or governance mechanism is described in provided text",
+      "excerpt": "Medical evidence summarization refers to the process of extracting and synthesizing key information from a large number of medical research studies and clinical trials into a concise and comprehensive summary.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

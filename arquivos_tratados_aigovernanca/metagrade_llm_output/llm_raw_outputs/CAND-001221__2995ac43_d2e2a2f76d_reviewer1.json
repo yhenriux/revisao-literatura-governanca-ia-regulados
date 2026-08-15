@@ -1,0 +1,163 @@
+{
+  "bibliographic": {
+    "title": "Sample Size Considerations for Fine-Tuning Large Language Models for Named Entity Recognition Tasks: Methodological Study",
+    "authors": "Zoltan P Majdik; S Scott Graham; Jade C Shiva Edward; Sabrina N Rodriguez; Martha S Karnes; Jared T Jensen; Joshua B Barbour; Justin F Rousseau",
+    "year": "2024",
+    "venue": "JMIR AI",
+    "doi": "10.2196/52095",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Majdik, Z. P., Graham, S. S., Edward, J. C. S., Rodriguez, S. N., Karnes, M. S., Jensen, J. T., Barbour, J. B., & Rousseau, J. F. (2024). Sample size considerations for fine-tuning large language models for named entity recognition tasks: Methodological study. JMIR AI, 3, e52095. https://doi.org/10.2196/52095"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "computational experiment with expert annotation, LLM fine-tuning, multiple regression, and threshold regression",
+    "study_design": "methodological study comparing fine-tuned BERT and GPT architectures on NER performance across stratified training subsamples",
+    "sample_description": "490 annotated conflicts-of-interest disclosure statements; 2500 stratified random training subsamples of varying size",
+    "sample_size": "490 annotated documents (200 initial + 290 additional after rater agreement); 2500 training subsamples",
+    "sector": "health informatics, biomedical NLP, health policy",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "fine-tuning BERT-family and GPT-family language models for named entity recognition on disclosure statements; not conversational or agentic systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "no_conversational_ai",
+      "no_governance_focus"
+    ],
+    "exclusion_reason": "The study addresses sample size and entity density for fine-tuning LLMs on NER tasks in biomedical/health-policy text. It does not examine conversational AI, governance, accountability, oversight, compliance, audit, guardrails, or related governance mechanisms in regulated LLM deployments.",
+    "decision_rationale": "Although the paper is LLM-specific and situated in healthcare/health-policy contexts, its focus is methodological performance optimization for NER fine-tuning rather than conversational governance. No evidence in the provided text addresses chatbots, agents, RAG governance, human oversight, contestation, monitoring, or accountability frameworks.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is clear from title, abstract, methods, and results; exclusion does not depend on ambiguous boundary judgments."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Appraisal reflects only the provided excerpt. The study appears methodologically coherent for its stated NER sample-size question, but ethics, limitations, and full reporting cannot be fully assessed from the partial text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the review's conversational-governance scope, relevance is very low despite moderate internal methodological coherence. The available text supports a clear NER fine-tuning methods contribution, not governance evidence."
+  },
+  "coding": {
+    "open_codes": [
+      "fine_tuning",
+      "sample_size",
+      "named_entity_recognition",
+      "entity_density",
+      "conflict_of_interest_disclosures",
+      "biomedical_text",
+      "threshold_regression",
+      "expert_annotation"
+    ],
+    "axial_codes": [
+      "LLM_training_methodology",
+      "health_informatics_NLP",
+      "performance_optimization"
+    ],
+    "theme": "Sample size methodology for LLM fine-tuning on NER tasks",
+    "subtheme": "Entity density and diminishing returns in biomedical disclosure text",
+    "concepts": [
+      "fine-tuning",
+      "named entity recognition",
+      "sample size",
+      "entity density",
+      "diminishing marginal returns",
+      "BERT",
+      "GPT"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Relatively modest sample sizes can be used to fine-tune LLMs for NER on biomedical text, and training data entity density should representatively approximate entity density in production data.",
+    "contribution": "Provides empirical guidance on sample size, entity density, and architecture choice for fine-tuning LLMs to improve NER on conflicts-of-interest disclosure statements in health-policy contexts.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from conversational-governance synthesis. At most peripheral contextual citation if the review separately documents technical LLM training methods in regulated health text, but it does not inform governance, oversight, or conversational system design."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed JMIR AI journal article from 2024",
+      "excerpt": "Training data quality and a JMIR AI 2024 | vol. 3 | e52095 | p. 1 https://ai.jmir.org/2024/1/e52095",
+      "page": "1",
+      "section": "Conclusions",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study objective is NER fine-tuning sample size, not governance",
+      "excerpt": "This study aims to evaluate sample size and sample selection techniques for fine-tuning LLMs to support improved named entity recognition (NER) for a custom data set of conflicts of interest disclosure statements.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated healthcare/health-policy context is present but ancillary",
+      "excerpt": "Large language models (LLMs) have the potential to support promising new applications in health informatics.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empirical methods include annotation, subsampling, fine-tuning, and regression",
+      "excerpt": "From the 490 annotated documents, 2500 stratified random samples in different size ranges were drawn.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Specific LLM architectures were fine-tuned and evaluated",
+      "excerpt": "fine-tune a selection of language models across 2 model architectures (Bidirectional Encoder Representations from Transformers [BERT] and Generative Pre-trained Transformer [GPT]) for improved NER",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Main performance findings reported with F1 and regression fit",
+      "excerpt": "Fine-tuned models ranged in topline NER performance from F1-score=0.79 to F1-score=0.96 across architectures.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Threshold estimates for diminishing returns are reported",
+      "excerpt": "Model thresholds indicate points of diminishing marginal return from increased training data set sample size measured by the number of sentences, with point estimates ranging from 439 sentences for RoBERTa_large to 527 sentences for GPT-2_large.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "ChatGPT is mentioned only as background, not as study object",
+      "excerpt": "the GPT-3.5–powered LLM application ChatGPT performed close to or at the passing threshold of 60% accuracy on the United States Medical Licensing Exam (USMLE)",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No governance, oversight, or conversational-system focus in provided text",
+      "excerpt": "named-entity recognition; large language models; fine-tuning; transfer learning; expert annotation; annotation; sample size",
+      "page": "2",
+      "section": "Keywords",
+      "supports": "eligibility"
+    }
+  ]
+}

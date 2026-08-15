@@ -1,0 +1,168 @@
+{
+  "bibliographic": {
+    "title": "unclear",
+    "authors": "Bulla et al.",
+    "year": "2025",
+    "venue": "International Journal of Retina and Vitreous",
+    "doi": "10.1186/s40942-025-00737-7",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Bulla et al. (2025). International Journal of Retina and Vitreous, 11, 120. https://doi.org/10.1186/s40942-025-00737-7"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative cross-sectional study",
+    "study_design": "cross-sectional, comparative, blinded",
+    "sample_description": "Twenty unedited Portuguese questions about retinal diseases from an online video channel; responses from four named chatbots and fellowship-trained retina specialists; evaluated by two independent retinal experts",
+    "sample_size": "20 questions",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "ChatGPT 4.0, ConsensusGPT, Gemini, and Claude 3 chatbots answering retinal disease patient queries compared with retina specialists"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "OUT_OF_SCOPE_GOVERNANCE",
+      "PERFORMANCE_EVALUATION_ONLY"
+    ],
+    "exclusion_reason": "The study compares readability, accuracy, and comprehensiveness of chatbot versus specialist responses in retinal medicine and does not examine conversational governance, accountability, oversight, guardrails, audit, compliance, or related governance mechanisms.",
+    "decision_rationale": "Although the article involves named LLM chatbots in a regulated healthcare context, its objective and reported methods center on response-quality benchmarking against human experts rather than on governance of conversational AI systems. Governance-related content is limited to brief evaluation items on harm and ethical issues, which is insufficient for the review scope on conversational governance.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated triage marked the record as borderline_manual because governance/accountability signals were weak while LLM and conversational terms were strong."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Methodological appraisal is based only on abstract and partial full-text excerpts provided; the article appears methodologically coherent for a comparative chatbot performance study, but this does not establish relevance to governance research questions."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For synthesis on conversational governance, confidence is low because the available text supports claims about chatbot response quality in ophthalmology, not about governance processes, controls, or accountability structures."
+  },
+  "coding": {
+    "open_codes": [
+      "medical chatbot evaluation",
+      "response accuracy",
+      "response comprehensiveness",
+      "readability assessment",
+      "human versus AI comparison",
+      "Portuguese patient questions",
+      "retinal disease queries"
+    ],
+    "axial_codes": [
+      "LLM chatbots in healthcare",
+      "comparative performance evaluation",
+      "clinical information dissemination"
+    ],
+    "theme": "Comparative quality of LLM chatbot responses in medical ophthalmology",
+    "subtheme": "Retinal disease queries in Portuguese",
+    "concepts": [
+      "large language models",
+      "chatbots",
+      "medical accuracy",
+      "readability",
+      "human specialists",
+      "harm",
+      "ethics"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "AI chatbots can rapidly provide detailed and accurate medical information for retinal disease queries, including in non-English contexts, but some systems require higher reading levels and language simplicity should be optimized.",
+    "contribution": "Provides a blinded comparative assessment of four named chatbots against retina specialists on real unedited Portuguese patient questions using standardized expert ratings and readability metrics.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude as central or supporting governance evidence; at most foundational/contextual background on healthcare chatbot performance if the review separately documents non-governance clinical evaluation literature."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses named LLM chatbots in a medical conversational setting",
+      "excerpt": "four chatbots (ChatGPT 4.0, ConsensusGPT, Gemini, and Claude 3) compared to responses from retina specialists",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research objective is response-quality comparison, not governance",
+      "excerpt": "assess the readability, accuracy, and comprehensiveness of responses to retinal disease queries",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical comparative blinded design with 20 real patient questions",
+      "excerpt": "cross-sectional, comparative, and blinded study, twenty unedited questions about retinal diseases were randomly selected",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated healthcare domain with expert evaluation",
+      "excerpt": "Two independent retinal experts evaluated the responses using standardized Likert scales for accuracy and completeness",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance-related signals are limited to harm and ethics screening items",
+      "excerpt": "whether such a response could be publicly posted without causing harm to the patient or ethical issues",
+      "page": "3",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Chatbot prompting context is clinical answer assistance, not governance control",
+      "excerpt": "The following prompt was inserted before each question: “I am an ophthalmologist, and you will help me answer",
+      "page": "2",
+      "section": "Methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Main reported outcome is comparative quality and readability, not oversight or compliance",
+      "excerpt": "ChatGPT 4.0 and ConsensusGPT achieved superior quality and comprehensiveness ratings compared to human experts and the other chatbots",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Objective is clearly stated",
+      "excerpt": "This study aimed to assess the readability, accuracy, and comprehensiveness of responses to retinal disease queries",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Statistical analysis approach is described",
+      "excerpt": "non-parametric statistical tests, including the Kruskal-Wallis test with Dunn’s pairwise comparisons and chi-squared tests",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Conclusion emphasizes promise for information dissemination, not governance",
+      "excerpt": "Artificial intelligence chatbots demonstrate considerable promise for rapidly disseminating accurate medical information directly to the end-user",
+      "page": "1",
+      "section": "Conclusions",
+      "supports": "eligibility"
+    }
+  ]
+}

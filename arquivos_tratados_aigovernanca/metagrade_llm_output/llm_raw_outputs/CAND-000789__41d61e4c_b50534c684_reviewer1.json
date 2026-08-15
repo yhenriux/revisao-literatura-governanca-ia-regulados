@@ -1,0 +1,186 @@
+{
+  "bibliographic": {
+    "title": "A toolbox for surfacing health equity harms and biases in large language models",
+    "authors": "Stephen R. Pfohl, Heather Cole-Lewis, Rory Sayres, Darlene Neal, Mercy Asiedu, Awa Dieng, Nenad Tomasev, Qazi Mamunur Rashid, Shekoofeh Azizi, Negar Rostamzadeh, Liam G. McCoy, Leo Anthony Celi, Yun Liu, Mike Schaekermann, Alanna Walton, Alicia Parrish, Chirag Nagpal, Preeti Singh, Akeiylah Dewitt, Philip Mansfield, Sushant Prakash, Katherine Heller, Alan Karthikesalingam, Christopher Semturs, Joelle Barral, Greg Corrado, Yossi Matias, Jamila Smith-Loud, Ivor Horn, Karan Singhal",
+    "year": "2024",
+    "venue": "Nature Medicine",
+    "doi": "10.1038/s41591-024-03258-2",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Pfohl, S. R., Cole-Lewis, H., Sayres, R., Neal, D., Asiedu, M., Dieng, A., Tomasev, N., Rashid, Q. M., Azizi, S., Rostamzadeh, N., McCoy, L. G., Celi, L. A., Liu, Y., Schaekermann, M., Walton, A., Parrish, A., Nagpal, C., Singh, P., Dewitt, A., Mansfield, P., Prakash, S., Heller, K., Karthikesalingam, A., Semturs, C., Barral, J., Corrado, G., Matias, Y., Smith-Loud, J., Horn, I., & Singhal, K. (2024). A toolbox for surfacing health equity harms and biases in large language models. Nature Medicine, 30(12), 3590-3600. https://doi.org/10.1038/s41591-024-03258-2"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "Participatory iterative design; multifactorial human assessment framework; adversarial dataset construction; large-scale empirical LLM evaluation",
+    "study_design": "Large-scale empirical case study evaluating Med-PaLM 2 answers to medical questions using human assessment and adversarial datasets",
+    "sample_description": "EquityMedQA, a collection of seven adversarial medical-question datasets; six newly designed for this study; includes manual red teaming, counterfactual queries, and semi-automated LLM augmentation datasets",
+    "sample_size": "4,619 examples across seven datasets",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Med-PaLM 2; long-form LLM-generated answers to medical questions; medical question answering in clinical and consumer health contexts"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text review",
+    "inclusion_codes": [
+      "LLM",
+      "healthcare",
+      "bias_evaluation",
+      "human_assessment",
+      "deployment_risk",
+      "regulated_domain"
+    ],
+    "exclusion_codes": [
+      "conversational_governance_not_primary"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses LLM harm, bias, and equity evaluation in regulated healthcare and proposes a human assessment framework plus adversarial datasets for Med-PaLM 2. It is relevant to governance themes such as bias, harm, human review, and deployment risk, but it does not focus on conversational systems, chatbots, guardrails, observability, audit, or broader conversational governance mechanisms.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial methods text were provided; conversational-governance fit is indirect and should be confirmed against the full article."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 3,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Strong clarity on surfacing equity-related harms and biases in LLM medical answers. Methods appear participatory and empirically grounded, but full methods, results, and analysis details were not available in the supplied excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The study presents a coherent toolbox and large empirical evaluation in healthcare LLMs, with explicit acknowledgment that the approach is not sufficient for holistic deployment assessment. Relevance to conversational governance is partial because the focus is equity/bias evaluation rather than conversational control, oversight architecture, or compliance mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "health equity harms",
+      "bias surfacing",
+      "human assessment framework",
+      "adversarial medical queries",
+      "EquityMedQA",
+      "Med-PaLM 2 evaluation",
+      "participatory review",
+      "deployment limitations"
+    ],
+    "axial_codes": [
+      "LLM evaluation methodology",
+      "equity and bias governance",
+      "human oversight in regulated healthcare",
+      "dataset-driven risk surfacing"
+    ],
+    "theme": "Evaluating and surfacing equity-related harms and biases in medical LLM outputs",
+    "subtheme": "Human assessment frameworks and adversarial datasets for regulated healthcare LLMs",
+    "concepts": [
+      "EquityMedQA",
+      "multifactorial framework",
+      "adversarial queries",
+      "equity-related harms",
+      "human raters",
+      "Med-PaLM 2",
+      "medical question answering"
+    ],
+    "model_layers": [
+      "evaluation layer",
+      "dataset layer",
+      "human review layer",
+      "deployment risk layer"
+    ],
+    "rq_alignment": [
+      "bias governance",
+      "human oversight",
+      "regulated healthcare deployment",
+      "harm and failure detection"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The authors provide a toolbox, human assessment framework, and adversarial dataset collection to surface biases with potential to cause equity-related harms in long-form LLM answers to medical questions, and show through a Med-PaLM 2 case study that this approach can reveal biases missed by narrower evaluations.",
+    "contribution": "Offers EquityMedQA (4,619 examples across seven datasets), a multifactorial human assessment framework grounded in participatory review, and empirical evidence that diverse assessment methodologies and raters with varied backgrounds improve bias detection in healthcare LLMs.",
+    "limitations": "The authors state their approach is not sufficient to holistically assess whether AI deployment promotes equitable health outcomes; supplied text does not provide full quantitative results or complete methodological detail.",
+    "use_in_review": "Use as supporting evidence on bias/harm evaluation, human assessment, and deployment-risk awareness for LLMs in regulated healthcare; not as central evidence for conversational governance mechanisms such as guardrails, observability, audit, or conversational control."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article in Nature Medicine, 2024",
+      "excerpt": "Nature Medicine | Volume 30 | December 2024 | 3590–3600",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study focuses on LLMs for medical question answering in healthcare",
+      "excerpt": "long-form, LLM-generated answers to medical questions and conduct a large-scale empirical case study with the Med-PaLM 2 LLM",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Contributions include a human assessment framework and adversarial datasets",
+      "excerpt": "Our contributions include a multifactorial framework for human assessment of LLM-generated answers for biases and EquityMedQA, a collection of seven datasets enriched for adversarial queries.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Participatory and diverse human review underpins the approach",
+      "excerpt": "Both our human assessment framework and our dataset design process are grounded in an iterative participatory approach and review of Med-PaLM 2 answers.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Deployment equity assessment is explicitly limited",
+      "excerpt": "While our approach is not sufficient to holistically assess whether the deployment of an artificial intelligence (AI) system promotes equitable health outcomes",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "LLM use in healthcare can cause harm and worsen disparities",
+      "excerpt": "However, the use of LLMs also has potential to cause harm and exacerbate health disparities",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "EquityMedQA contains 4,619 examples across seven datasets",
+      "excerpt": "EquityMedQA contains 4,619 examples in total across the seven datasets.",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Dataset construction mixes manual red teaming and LLM-based augmentation",
+      "excerpt": "Failure-Based Red Teaming—LLM (FBRT-LLM) and Counterfactual Context—LLM (CC-LLM) datasets are scalably derived through semi-automated data augmentation with an LLM.",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Empirical study assesses whether the approach surfaces equity-related issues",
+      "excerpt": "We conducted a large-scale empirical study to assess the potential for our approach to surface equity-rela",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No explicit conversational AI or chatbot governance focus in supplied text",
+      "excerpt": "medical question answering",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

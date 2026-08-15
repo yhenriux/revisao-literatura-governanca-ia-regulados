@@ -1,0 +1,194 @@
+{
+  "bibliographic": {
+    "title": "A Trustworthy AI and Data Governance Architecture for Ensuring Integrity and Ethics in Large Language Model Deployments across Enterprise Platforms",
+    "authors": "Minjun Park, Hiroshi Tanaka, Wei Chen, Jaehoon Kim, Ananya Kulkarni",
+    "year": "2024",
+    "venue": "International Journal of Scientific Research in Science, Engineering and Technology",
+    "doi": "10.32628/IJSRSET242437",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Park, M., Tanaka, H., Chen, W., Kim, J., & Kulkarni, A. (2024). A trustworthy AI and data governance architecture for ensuring integrity and ethics in large language model deployments across enterprise platforms. International Journal of Scientific Research in Science, Engineering and Technology, 11(4), 508-521. https://doi.org/10.32628/IJSRSET242437"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "design-science",
+    "study_design": "architecture proposal with enterprise reference scenarios",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "enterprise cross-domain (human resources, finance, customer service, compliance management)",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "enterprise LLM deployments spanning data acquisition, model training, fine-tuning, retrieval augmentation, prompt orchestration, inference monitoring, and post-deployment auditing"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_governance",
+      "enterprise_deployment",
+      "guardrails_oversight",
+      "regulated_compliance_context"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "O artigo propõe uma arquitetura abrangente de governança de IA e dados para implantações de LLM em plataformas empresariais, com controles de integridade, ética, compliance, guardrails, supervisão humana, auditoria e observabilidade. O alinhamento com governança conversacional é parcial: menciona interfaces conversacionais, mas o foco principal é arquitetura de governança empresarial de LLM, não governança conversacional como objeto central.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Texto fornecido cobre sobretudo front matter, abstract e início da introdução (páginas 1-2); corpo metodológico completo, cenários de referência, resultados e limitações não estão disponíveis para adjudicação final."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Avaliação baseada apenas no trecho disponível. O abstract declara metodologia design-science e cenários de referência empresariais, mas detalhes de coleta, análise, validação empírica e limitações não aparecem no texto fornecido."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "A proposta arquitetural é coerente e altamente relevante para governança de LLM em contextos empresariais e regulatórios, mas a confiança metodológica global é moderada porque o texto disponível não permite verificar rigor analítico, validação dos cenários ou transparência de limitações."
+  },
+  "coding": {
+    "open_codes": [
+      "trustworthy_ai",
+      "data_governance_architecture",
+      "enterprise_llm_deployment",
+      "governance_by_design",
+      "policy_driven_guardrails",
+      "lineage_tracking",
+      "explainability_checkpoints",
+      "human_in_the_loop",
+      "post_deployment_auditing",
+      "regulatory_compliance",
+      "conversational_interfaces"
+    ],
+    "axial_codes": [
+      "technical_procedural_controls",
+      "lifecycle_governance",
+      "risk_and_accountability",
+      "observability_and_traceability"
+    ],
+    "theme": "Arquitetura de governança de IA e dados para implantações empresariais de LLM",
+    "subtheme": "Controles de integridade, ética e compliance ao longo do ciclo de vida do LLM",
+    "concepts": [
+      "governance-by-design",
+      "guardrails",
+      "human-in-the-loop oversight",
+      "auditability",
+      "traceability",
+      "retrieval augmentation",
+      "prompt orchestration",
+      "inference monitoring"
+    ],
+    "model_layers": [
+      "data acquisition",
+      "model training",
+      "fine-tuning",
+      "retrieval augmentation",
+      "prompt orchestration",
+      "inference monitoring",
+      "post-deployment auditing"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa",
+      "guardrails",
+      "observabilidade",
+      "auditoria",
+      "compliance",
+      "supervisão humana",
+      "accountability",
+      "RAG",
+      "controle de risco"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Organizações podem operacionalizar práticas éticas e conformes na adoção de LLM por meio de uma arquitetura de governança que incorpora controles técnicos e procedimentais ao longo de todo o ciclo de vida da implantação.",
+    "contribution": "Propõe uma arquitetura integrada de Trustworthy AI and Data Governance alinhada a princípios de gestão de risco (NIST) e expectativas regulatórias (iniciativas de governança de IA da Comissão Europeia), com guardrails, rastreabilidade, explicabilidade, supervisão humana e avaliação contínua de risco.",
+    "limitations": "unclear",
+    "use_in_review": "Evidência de apoio para a dimensão de governança operacional e técnica de LLM em ambientes empresariais com exigências regulatórias; uso secundário para governança conversacional específica, dado o foco arquitetural amplo e menção breve a interfaces conversacionais."
+  },
+  "evidence": [
+    {
+      "claim": "O estudo propõe uma arquitetura de governança para implantações empresariais de LLM",
+      "excerpt": "This paper proposes a comprehensive Trustworthy AI and Data Governance Architecture that embeds integrity, ethics, and compliance controls directly into the lifecycle of enterprise LLM deployments",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Metodologia declarada como design-science com cenários empresariais de referência",
+      "excerpt": "Through a design-science methodology and enterprise reference scenarios, the architecture demonstrates how organizations can operationalize ethical AI practices",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Framework integra guardrails, supervisão humana, explicabilidade e auditoria pós-implantação",
+      "excerpt": "The framework integrates policy-driven guardrails, lineage tracking, explainability checkpoints, human-in-the- loop oversight, and continuous risk evaluation",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Ciclo de vida cobre RAG, orquestração de prompts, monitoramento e auditoria",
+      "excerpt": "spanning data acquisition, model training, fine-tuning, retrieval augmentation, prompt orchestration, inference monitoring, and post-deployment auditing",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Alinhamento com princípios NIST e expectativas regulatórias europeias",
+      "excerpt": "Control layers are aligned with emerging guidance from National Institute of Standards and Technology risk management principles and regulatory expectations established by the European Commission AI governance initiatives",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Menção a interfaces conversacionais em contexto empresarial",
+      "excerpt": "deliver conversational interfaces that augment human productivity across domains such as human resources, finance, customer service, and compliance management",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs alteram perfil de risco com vieses, privacidade e accountability",
+      "excerpt": "LLMs inherit biases present in training data, potentially amplifying inequities in automated decisions or communications. They may inadvertently expose sensitive information through prompt manipulation or data leakage",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Sistemas de IA generativa são construtos sociotécnicos com escolhas de governança humana",
+      "excerpt": "generative AI systems are not merely software components but socio-technical constructs whose behavior reflects both computational design and human governance choices",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Conceito de governance-by-design com controles executáveis",
+      "excerpt": "advances governance-by-design, transforming trust from an abstract principle into enforceable technical and procedural controls",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Peer review e publicação em periódico com data de aceite",
+      "excerpt": "Article History: Accepted : 16 July 2024 Published: 18 Aug 2024",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

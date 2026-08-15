@@ -1,0 +1,150 @@
+{
+  "bibliographic": {
+    "title": "Multimodal Large Language Models in Health Care: Applications, Challenges, and Future Outlook",
+    "authors": "Rawan AlSaad, Alaa Abd-alrazaq, Sabri Boughorbel, Arfan Ahmed, Max-Antoine Renault, Rafat Damseh, Javaid Sheikh",
+    "year": "2024",
+    "venue": "Journal of Medical Internet Research",
+    "doi": "10.2196/59505",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "AlSaad, R., Abd-alrazaq, A., Boughorbel, S., Ahmed, A., Renault, M.-A., Damseh, R., & Sheikh, J. (2024). Multimodal large language models in health care: Applications, challenges, and future outlook. Journal of Medical Internet Research, 26, e59505. https://doi.org/10.2196/59505"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "viewpoint",
+    "study_design": "narrative viewpoint perspective",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "health care",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "multimodal large language models (M-LLMs) in health care"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_HEALTHCARE",
+      "REGULATED_DOMAIN",
+      "GENAI_ETHICAL_CHALLENGES"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_GOVERNANCE_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The provided text identifies a viewpoint on multimodal LLMs in health care covering applications, technical and ethical challenges, and a unifying framework. It does not substantively address conversational governance, chatbots, guardrails, observability, audit, human oversight mechanisms, or related operational governance topics central to the review scope. It may serve as regulated-domain LLM background context rather than central evidence.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only page 1/front matter is provided; later sections on ethical challenges and implementation may contain additional governance-relevant content not visible in the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 4,
+    "notes": "Viewpoint article without empirical sample or described systematic review method in the provided excerpt. Appraisal is limited to visible front matter; suitability as conceptual framing is clearer than as empirical or governance-mechanism evidence."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "Confidence is low for central use because the excerpt focuses on M-LLM healthcare applications and a broad framework, with no explicit treatment of conversational governance, oversight workflows, or compliance mechanisms. Adequacy for the review question is partial at best based on available text."
+  },
+  "coding": {
+    "open_codes": [
+      "multimodal_llm",
+      "healthcare_applications",
+      "ethical_challenges",
+      "clinical_multimodal_data",
+      "unified_framework"
+    ],
+    "axial_codes": [
+      "LLM_IN_REGULATED_HEALTHCARE",
+      "TECHNICAL_ETHICAL_CHALLENGES"
+    ],
+    "theme": "Multimodal LLMs in regulated health care",
+    "subtheme": "Applications, challenges, and future outlook",
+    "concepts": [
+      "M-LLMs",
+      "multimodal clinical data",
+      "technical challenges",
+      "ethical challenges",
+      "health care framework"
+    ],
+    "model_layers": [
+      "application_layer"
+    ],
+    "rq_alignment": [
+      "regulated_healthcare_context",
+      "LLM_applications"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "Multimodal LLMs can enable integrated, multimodal data-driven medical practice, but current models remain largely text-limited and require a comprehensive framework addressing applications, technical and ethical challenges, and future research directions.",
+    "contribution": "Provides a solution-oriented viewpoint and unified framework linking M-LLM foundational principles, healthcare applications, challenges, and future directions to guide research and implementation.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence for regulated healthcare and multimodal LLM landscape; not central evidence for conversational governance mechanisms unless fuller text adds explicit governance, oversight, or compliance content."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a viewpoint on multimodal LLMs in health care.",
+      "excerpt": "Viewpoint Multimodal Large Language Models in Health Care: Applications, Challenges, and Future Outlook",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study addresses multimodal LLMs specifically in a regulated health care domain.",
+      "excerpt": "This paper aims to present a detailed, practical, and solution-oriented perspective on the use of multimodal LLMs (M-LLMs) in the medical field.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Scope includes technical and ethical challenges rather than conversational governance mechanisms.",
+      "excerpt": "Our investigation spanned M-LLM foundational principles, current and potential applications, technical and ethical challenges, and future research directions.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Conversational use is mentioned only as a generic LLM application, not as a governance focus.",
+      "excerpt": "enabling key developments in applications such as automated conversation, text analysis, creative writing, and complex problem-solving",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors propose a comprehensive framework for M-LLMs in health care.",
+      "excerpt": "we aimed to provide a comprehensive framework that links diverse aspects of M-LLMs, offering a unified vision for their future in health care.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No empirical sample or study population is described in the provided text.",
+      "excerpt": "This paper aims to present a detailed, practical, and solution-oriented perspective on the use of multimodal LLMs (M-LLMs) in the medical field.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Peer-reviewed journal publication with DOI is identifiable.",
+      "excerpt": "(J Med Internet Res 2024;26:e59505) doi: 10.2196/59505",
+      "page": "1",
+      "section": "abstract",
+      "supports": "bibliographic"
+    }
+  ]
+}

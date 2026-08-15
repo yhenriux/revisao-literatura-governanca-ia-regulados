@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI",
+    "authors": "Alejandro Barredo Arrieta, Natalia Díaz-Rodríguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbadó, Salvador García, Sergio Gil-López, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera",
+    "year": "2019",
+    "venue": "Preprint submitted to Information Fusion; arXiv:1910.10045v2",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Barredo Arrieta, A., Díaz-Rodríguez, N., Del Ser, J., Bennetot, A., Tabik, S., Barbadó, A., García, S., Gil-López, S., Molina, D., Benjamins, R., Chatila, R., & Herrera, F. (2019). Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI. arXiv preprint arXiv:1910.10045."
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "critical literature analysis with taxonomy development",
+    "study_design": "narrative literature review proposing definitions and dual taxonomies for XAI methods in ML and Deep Learning",
+    "sample_description": "existing literature and contributions in the field of XAI",
+    "sample_size": "unclear",
+    "sector": "general AI and Machine Learning across multiple application sectors",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "Machine Learning, Deep Learning, Deep Neural Networks, explainable AI methods, data fusion"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "foundational_xai_taxonomy",
+      "responsible_ai_concepts",
+      "governance_explainability_accountability"
+    ],
+    "exclusion_codes": [
+      "no_llm_focus",
+      "no_conversational_governance",
+      "pre_llm_technology_context"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper is a 2019 pre-LLM literature review and taxonomy on XAI and Responsible AI covering ML and Deep Learning explainability, accountability, fairness, and transparency. It does not address LLM-based conversational systems, chatbots, agents, or conversational governance in regulated environments, but provides foundational conceptual framing relevant to governance dimensions such as explainability and accountability.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted Python metadata incorrectly parsed author affiliations as title; full-text beyond provided excerpts was not supplied for verification of regulated-domain mentions and review methodology."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Clear objectives and structured taxonomies are described, but provided excerpts do not document systematic search, inclusion criteria, or corpus size. Strong as conceptual synthesis; limited direct applicability to LLM conversational governance without extrapolation."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The review presents a coherent XAI taxonomy and Responsible AI prospect with explicit governance-related concepts, but methodological transparency and sampling are unclear from the supplied text, and topical relevance to LLM conversational governance in regulated settings is indirect."
+  },
+  "coding": {
+    "open_codes": [
+      "XAI definition",
+      "dual taxonomy",
+      "deep learning explainability",
+      "black-box models",
+      "stakeholder transparency",
+      "responsible AI",
+      "data fusion challenges"
+    ],
+    "axial_codes": [
+      "explainability governance",
+      "accountability and fairness",
+      "model interpretability"
+    ],
+    "theme": "Explainable AI foundations toward Responsible AI",
+    "subtheme": "Taxonomies of explainability methods for ML and Deep Learning",
+    "concepts": [
+      "explainability",
+      "interpretability",
+      "transparency",
+      "accountability",
+      "fairness",
+      "privacy",
+      "responsible AI",
+      "deep learning",
+      "machine learning",
+      "user-model interaction"
+    ],
+    "model_layers": [
+      "model-level explainability",
+      "organizational responsible AI implementation"
+    ],
+    "rq_alignment": [
+      "governance_accountability",
+      "explainability",
+      "risk_and_compliance_concepts"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Explainability is a crucial barrier and enabler for practical AI deployment in ML; the authors define explainable ML, propose taxonomies of XAI contributions including a Deep Learning-specific taxonomy, identify remaining XAI challenges, and prospect toward Responsible AI with fairness, explainability, and accountability at its core.",
+    "contribution": "Foundational conceptual synthesis, definitions, and taxonomic organization of XAI literature to support future research and organizational adoption of responsible AI.",
+    "limitations": "Predates LLMs; focuses on ML/DNN explainability rather than conversational systems; review search and selection procedures are not evidenced in the supplied excerpts.",
+    "use_in_review": "Include as foundational contextual evidence for explainability, transparency, accountability, fairness, privacy, and Responsible AI concepts that may inform conversational governance frameworks, but not as central empirical or LLM-specific evidence."
+  },
+  "evidence": [
+    {
+      "claim": "Identifies paper as 2019 English preprint on XAI submitted to Information Fusion.",
+      "excerpt": "Preprint submitted to Information Fusion December 30, 2019 arXiv:1910.10045v2 [cs.AI] 26 Dec 2019",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research type is literature review and taxonomy, not empirical study.",
+      "excerpt": "The overview presented in this article examines the existing literature and contributions already done in the field of XAI",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Technology context is ML and Deep Learning, not LLMs.",
+      "excerpt": "taxonomy of recent contributions related to the explainability of different Machine Learning models, including those aimed at explaining Deep Learning methods",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Addresses governance-related concepts relevant to responsible deployment.",
+      "excerpt": "fairness, model explainability and accountability at its core",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Keywords include transparency, privacy, fairness, accountability, and Responsible AI.",
+      "excerpt": "Interpretability, Comprehensibility, Transparency, Privacy, Fairness, Accountability, Responsible Artificial Intelligence",
+      "page": "1",
+      "section": "keywords",
+      "supports": "coding"
+    },
+    {
+      "claim": "Discusses deployment in critical contexts requiring transparency.",
+      "excerpt": "black-box Machine Learning (ML) models are increasingly being employed to make important predictions in critical contexts, the demand for transparency is increasing",
+      "page": "2",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Proposes dual taxonomies including one dedicated to Deep Learning XAI methods.",
+      "excerpt": "The second taxonomy deals with XAI methods suited for the explanation of Deep Learning models",
+      "page": "4",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Enumerates unresolved XAI challenges and research directions.",
+      "excerpt": "We enumerate a series of challenges of XAI that still remain insufficiently addressed to date",
+      "page": "4",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Interaction references user-model inspection in ML models, not conversational AI governance.",
+      "excerpt": "empowers the interaction between the users and the model",
+      "page": "16",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Links explainability to trust and human management of AI systems.",
+      "excerpt": "enables human users to understand, appropriately trust, and effectively manage the emerging generation of artificially intelligent partners",
+      "page": "6",
+      "section": "unclear",
+      "supports": "synthesis"
+    }
+  ]
+}

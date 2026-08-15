@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "Generative AI in healthcare: an implementation science informed translational path on application, integration and governance",
+    "authors": "Sandeep Reddy",
+    "year": "2024",
+    "venue": "Implementation Science",
+    "doi": "10.1186/s13012-024-01357-9",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Reddy, S. (2024). Generative AI in healthcare: An implementation science informed translational path on application, integration and governance. Implementation Science, 19, 27. https://doi.org/10.1186/s13012-024-01357-9"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "implementation science debate; technology acceptance model (TAM); NASSS model",
+    "study_design": "DEBATE article providing conceptual overview and translational pathway",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "generative AI capable of generating text and images applied to clinical medicine, billing, diagnosis, treatment and research"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "title_abstract_screening",
+    "inclusion_codes": [
+      "genai_healthcare",
+      "governance_integration",
+      "regulated_healthcare",
+      "implementation_science"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article explicitly addresses generative AI application, integration and governance in healthcare using implementation science frameworks, with attention to privacy, security, risk mitigation and ethical/medico-legal concerns. The provided text does not substantiate a primary focus on conversational systems, LLMs, or operational conversational governance mechanisms, so it is better classified as supporting rather than central evidence for the review scope.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and abstract excerpts were supplied; Python triage reported conversational-term hits not visible in the provided text, so full-text verification is needed."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "DEBATE article offering framework-informed argument rather than empirical study; aims and governance considerations are clearly stated, but no primary data, sampling or systematic review method is described in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is coherent and relevant to generative AI governance and integration in regulated healthcare, but the supplied text is conceptual, non-empirical, and does not demonstrate conversational or LLM-specific governance depth."
+  },
+  "coding": {
+    "open_codes": [
+      "generative AI",
+      "healthcare delivery",
+      "implementation science",
+      "translational pathway",
+      "governance",
+      "risk mitigation",
+      "data privacy",
+      "security",
+      "ethical implications",
+      "medico-legal implications",
+      "clinician expertise",
+      "change management",
+      "stakeholder participation"
+    ],
+    "axial_codes": [
+      "responsible adoption",
+      "regulated healthcare integration",
+      "organizational implementation barriers",
+      "trust and transparency"
+    ],
+    "theme": "Implementation-science-informed governance and integration of generative AI in healthcare",
+    "subtheme": "Translational adoption pathway with risk and ethical safeguards",
+    "concepts": [
+      "TAM",
+      "NASSS model",
+      "structured adoption programs",
+      "incremental deployment",
+      "responsible integration"
+    ],
+    "model_layers": [
+      "organizational",
+      "ethical/legal",
+      "clinical workflow"
+    ],
+    "rq_alignment": [
+      "generative AI governance in regulated settings",
+      "risk mitigation and compliance considerations in healthcare AI adoption"
+    ],
+    "coding_confidence": 0.74
+  },
+  "synthesis": {
+    "main_claim": "Generative AI can improve healthcare if introduced through implementation-science-informed, incremental adoption with explicit governance, risk mitigation, privacy/security safeguards and preserved clinician expertise.",
+    "contribution": "Proposes a translational path for healthcare generative AI using TAM and NASSS to anticipate adoption barriers, engage stakeholders and support responsible integration.",
+    "limitations": "Provided text is a conceptual DEBATE piece without empirical evaluation; conversational AI, LLM-specific controls, audit/logging, human oversight/contestation and post-deployment monitoring are not evidenced in the excerpt.",
+    "use_in_review": "Use as supporting evidence on governance and implementation considerations for generative AI in regulated healthcare; consult full text before treating as central evidence for conversational LLM governance."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a 2024 Implementation Science DEBATE on generative AI in healthcare covering application, integration and governance.",
+      "excerpt": "DEBATE Open Access",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Focuses on generative AI governance and integration in healthcare.",
+      "excerpt": "an implementation science informed translational path on application, integration and governance",
+      "page": "1",
+      "section": "title",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated healthcare context with ethical and medico-legal concerns.",
+      "excerpt": "concerns around ethical and medico-legal implications, integration into healthcare service delivery",
+      "page": "1",
+      "section": "abstract background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Addresses privacy and security as key adoption considerations.",
+      "excerpt": "Key considerations include factors such as data privacy, security and the irreplaceable role of clinicians’ expertise.",
+      "page": "1",
+      "section": "abstract methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Uses implementation science frameworks to support responsible integration.",
+      "excerpt": "Frameworks like the technology acceptance model (TAM) and the Non-Adoption, Abandonment, Scale-up, Spread and Sustainability (NASSS) model are considered to promote responsible integration.",
+      "page": "1",
+      "section": "abstract methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Emphasizes risk mitigation and structured adoption rather than technology-only change.",
+      "excerpt": "integration of generative AI necessitates meticulous change management and risk mitigation strategies",
+      "page": "1",
+      "section": "abstract results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Argues for safe, ethical, incremental deployment grounded in implementation science.",
+      "excerpt": "Strategic adoption based on implementation science, incremental deployment and balanced messaging around opportunities versus limitations helps promote safe, ethical generative AI integ",
+      "page": "1",
+      "section": "abstract conclusions",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Generative AI scope includes text generation but not specifically conversational LLM systems in provided text.",
+      "excerpt": "Generative AI, capable of generating new data such as text and images",
+      "page": "1",
+      "section": "abstract background",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Trust and transparent communication about strengths and weaknesses are presented as ongoing requirements.",
+      "excerpt": "ongoing reassessment and transparent communication around their strengths and weaknesses remain vital to restoring trust",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "No human oversight, contestation, audit, logging or conversational-system governance is evidenced in the supplied excerpt.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

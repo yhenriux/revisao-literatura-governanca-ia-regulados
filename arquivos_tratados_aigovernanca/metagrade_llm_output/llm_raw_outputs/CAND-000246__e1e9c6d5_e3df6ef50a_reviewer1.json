@@ -1,0 +1,186 @@
+{
+  "bibliographic": {
+    "title": "Methodological foundations of AI observability for enterprise LLM applications",
+    "authors": "Venkatesh Gundu",
+    "year": "2025",
+    "venue": "International Journal Of Engineering And Computer Science Volume 14 Issue 10",
+    "doi": "10.18535/ijecs/v14i10.5277",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Gundu, V. (2025). Methodological foundations of AI observability for enterprise LLM applications. International Journal of Engineering and Computer Science, 14(10), 27748."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "systems analysis, comparative analysis, conceptual architectural modeling",
+    "study_design": "conceptual framework development",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "enterprise",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "enterprise LLM applications, LLMOps, conversational assistants, document analysis systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "llm_enterprise",
+      "ai_observability",
+      "operational_governance",
+      "responsible_ai",
+      "human_feedback"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article explicitly targets methodological foundations of AI observability for enterprise LLM applications, proposing a multi-level framework across quality/semantics, cost/performance, security/privacy, and responsibility/ethics. It addresses LLM-specific risks (hallucinations, data leaks, cost escalation), couples automated metrics with human feedback, and discusses conversational assistants within enterprise deployment contexts relevant to governance and monitoring.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial full text was provided (pages 1-3 and fragments); peer-review status, complete framework details, methods rigor, and regulated-domain coverage require verification against the full article."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Conceptual/methodological study without empirical sample. Stated methods (systems analysis, comparative analysis, conceptual architectural modeling) fit the framework-building aim, but provided excerpts offer limited procedural detail on literature selection, comparative sources, or validation. Author acknowledges weak coverage of law, medicine, and finance."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are logically coherent and highly relevant to LLM observability and enterprise governance, but confidence is moderated because the work is conceptual, comparative-analysis procedures are not fully documented in the supplied text, and regulated-domain treatment is explicitly weak."
+  },
+  "coding": {
+    "open_codes": [
+      "AI observability",
+      "LLMOps",
+      "hallucination detection",
+      "human feedback mechanisms",
+      "multilayer framework",
+      "MLOps limitations",
+      "anomalous model behavior detection",
+      "conversational assistants"
+    ],
+    "axial_codes": [
+      "operational_technical_governance",
+      "risk_monitoring",
+      "responsible_ai",
+      "human_oversight"
+    ],
+    "theme": "Methodological foundations of AI observability for enterprise LLMs",
+    "subtheme": "Multilevel observability framework spanning technical, economic, security, and ethical dimensions",
+    "concepts": [
+      "observability metrics",
+      "reference architecture",
+      "automated metrics",
+      "human feedback coupling",
+      "stochastic generation risks",
+      "black-box model risks"
+    ],
+    "model_layers": [
+      "quality and semantics",
+      "cost and performance",
+      "security and privacy",
+      "responsibility and ethics"
+    ],
+    "rq_alignment": [
+      "observability",
+      "monitoring",
+      "risk management",
+      "compliance",
+      "human oversight",
+      "accountability",
+      "operational governance",
+      "responsible AI"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Enterprise LLMs require a dedicated AI observability methodology beyond classical MLOps, operationalized through a multi-level framework that integrates automated metrics with human feedback across quality/semantics, cost/performance, security/privacy, and responsibility/ethics.",
+    "contribution": "Proposes a holistic conceptual methodology and reference architecture for designing LLM observability systems in corporate IT environments, systematizing dimensions and addressing LLM-specific risks not covered by traditional monitoring.",
+    "limitations": "Provided text indicates coverage of law, medicine, and finance is weak; full empirical validation, implementation evidence, and detailed comparative-analysis protocol are not evident in the supplied excerpts.",
+    "use_in_review": "Central evidence for the operational/technical governance strand on LLM observability, monitoring, logging/tracing-oriented governance, human feedback integration, and enterprise risk minimization; useful as a foundational framework paper rather than regulated-domain case evidence."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on methodological foundations of AI observability for enterprise LLMs",
+      "excerpt": "The article describes the methodological foundations of AI observability for large language models integrated into enterprise environments.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Proposes a multi-level framework across four observability dimensions",
+      "excerpt": "proposing a multi-level framework that systematizes observability metrics across four dimensions: quality and semantics, cost and performance, security and privacy, responsibility and ethics.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Methods are conceptual rather than empirical",
+      "excerpt": "methods of systems and comparative analysis, as well as conceptual architectural modeling, are employed.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Couples automated metrics with human feedback",
+      "excerpt": "Special emphasis is placed on coupling automated metrics with human feedback mechanisms.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Addresses LLM-specific operational risks",
+      "excerpt": "hallucinations, data leaks, and uncontrolled cost escalation that are not covered by traditional monitoring tools.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Includes conversational AI as an application context",
+      "excerpt": "The spectrum of LLM applications, from intelligent conversational assistants to automated document analysis systems",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Aims to substantiate observability for enterprise LLM lifecycle",
+      "excerpt": "develop and theoretically substantiate the methodological foundations of AI observability, specifically oriented to the life cycle of enterprise LLM applications.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Identifies limitations of traditional MLOps for LLMs",
+      "excerpt": "Identify and analyze the key differences and limitations of traditional MLOps when applied to large language models.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulated domains are only weakly covered",
+      "excerpt": "other domains (law, medicine, finance) is weakly covered.",
+      "page": "3",
+      "section": "Results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Classical ML monitoring metrics are insufficient for generative LLMs",
+      "excerpt": "Conventional monitoring loops relying on single scalar indicators (accuracy, RMSE, etc.) are of limited informativeness for generative systems",
+      "page": "3",
+      "section": "Results",
+      "supports": "synthesis"
+    }
+  ]
+}

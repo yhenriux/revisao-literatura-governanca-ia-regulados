@@ -1,0 +1,172 @@
+{
+  "bibliographic": {
+    "title": "Cosmetic Compliance and the Failure of Negotiated Governance",
+    "authors": "Kimberly D. Krawiec",
+    "year": "2002",
+    "venue": "Washington University Law Quarterly",
+    "doi": "unclear",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Krawiec, K. D. (2002). Cosmetic compliance and the failure of negotiated governance. Washington University Law Quarterly, 81, 487."
+  },
+  "methodology": {
+    "research_type": "theoretical",
+    "method_family": "legal scholarship; doctrinal and conceptual analysis drawing on incomplete contracts literature",
+    "study_design": "conceptual law review article analyzing U.S. liability regimes and governance models across multiple legal domains",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "legal and regulatory analysis across environmental, tort, employment discrimination, corporate, securities, and health care law",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "internal corporate compliance structures, legal liability mitigation, and cooperative regulation models; no AI, LLM, or conversational system technology"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "no_llm_genai",
+      "no_conversational_ai",
+      "wrong_technology_domain"
+    ],
+    "exclusion_reason": "The article analyzes U.S. corporate and regulatory compliance governance through legal scholarship and does not address LLMs, generative AI, conversational systems, chatbots, agents, or related technical governance mechanisms.",
+    "decision_rationale": "Although the text strongly engages governance, compliance, accountability, audit, and regulated domains such as health care and securities law, it is a 2002 legal-theoretical article on internal compliance structures and negotiated governance models. It contains no evidence on LLM-based or conversational AI systems, making it outside the technology scope of the review despite keyword overlap on governance and compliance.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Absence of LLM, generative AI, and conversational technology is explicit from title, abstract, and introduction; exclusion is unambiguous."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 1,
+    "notes": "Appraised only on signals present in supplied excerpts. Strong conceptual clarity and legal-analytic fit within its own domain, but very low transferability to LLM conversational governance because the study is pre-AI and organization-law focused."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The argument is internally coherent and adequately developed for legal governance scholarship, but relevance to conversational governance in LLM systems is very low because the supplied text contains no AI technology context."
+  },
+  "coding": {
+    "open_codes": [
+      "cosmetic compliance",
+      "negotiated governance",
+      "internal compliance structures",
+      "liability mitigation",
+      "window-dressing",
+      "opportunistic behavior",
+      "incomplete contracts"
+    ],
+    "axial_codes": [
+      "regulatory governance",
+      "organizational compliance",
+      "enforcement and implementation failure",
+      "market legitimacy"
+    ],
+    "theme": "Failure modes of cooperative regulatory governance in organizational compliance",
+    "subtheme": "Cosmetic compliance as legitimacy without deterrence",
+    "concepts": [
+      "negotiated governance",
+      "effective internal compliance structures",
+      "under-deterrence",
+      "renegotiation phases of governance",
+      "legal compliance professionals"
+    ],
+    "model_layers": [
+      "legal/regulatory layer",
+      "organizational governance layer",
+      "enforcement/implementation layer"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "U.S. law often reduces enterprise liability for organizations with effective internal compliance structures, but growing evidence suggests such structures may not deter misconduct and may function as cosmetic window-dressing; negotiated governance models underestimate opportunistic behavior during implementation and enforcement.",
+    "contribution": "Provides a legal-theoretical critique of negotiated governance and cosmetic compliance across multiple regulated legal regimes, using incomplete contracts literature to explain governance renegotiation risks.",
+    "limitations": "Supplied excerpts do not describe empirical methods, sample, or systematic data collection; the work is conceptual legal analysis rather than an empirical or technology governance study.",
+    "use_in_review": "Exclude from central or supporting evidence on LLM conversational governance; at most a distant analogical reference for critiques of symbolic compliance and negotiated self-governance, not for technology-specific synthesis."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a 2002 law journal piece by Kimberly D. Krawiec in Washington University Law Quarterly.",
+      "excerpt": "COSMETIC COMPLIANCE AND THE FAILURE OF NEGOTIATED GOVERNANCE KIMBERLY D. KRAWIEC*",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Venue is Washington University Law Quarterly volume 81.",
+      "excerpt": "488 WASHINGTON UNIVERSITY LAW QUARTERLY [VOL. 81:487",
+      "page": "2",
+      "section": "introduction",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Study addresses multiple regulated legal domains but not AI or conversational technology.",
+      "excerpt": "Across a range of legal regimes—including environmental, tort, employment discrimination, corporate, securities, and health care law—",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Core thesis concerns ineffective internal compliance structures and negotiated governance.",
+      "excerpt": "internal compliance structures do not deter prohibited conduct within firms and may largely serve a window-dressing function",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Negotiated governance is the central governance concept.",
+      "excerpt": "what are referred to in this Article as “negotiated governance” models that seek to improve government regulation and/or the litigation process",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Theoretical method draws on incomplete contracts literature.",
+      "excerpt": "Drawing on the incomplete contracts literature, this Article argues",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance risk is framed as opportunism during implementation and enforcement.",
+      "excerpt": "minimize the dangers of opportunistic behavior during the renegotiation phases of governance (that is, the implementation and enforcement phases)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Accountability and audit appear only in corporate legal reform context, not AI observability.",
+      "excerpt": "NYSE Approves Measures to Strengthen Corporate Accountability",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Keyword hit for interaction refers to legal policy interaction, not conversational AI.",
+      "excerpt": "the governance process can be usefully analyzed as a multi-stage reciprocal interaction among policymakers, the regulated group, and important private actors",
+      "page": "36",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM or generative AI content appears in supplied text.",
+      "excerpt": "internal compliance structures",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

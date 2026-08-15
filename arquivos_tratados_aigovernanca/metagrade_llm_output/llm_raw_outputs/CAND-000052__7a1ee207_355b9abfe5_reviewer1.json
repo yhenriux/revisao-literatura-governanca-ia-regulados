@@ -1,0 +1,211 @@
+{
+  "bibliographic": {
+    "title": "Reporting guideline for chatbot health advice studies: the Chatbot Assessment Reporting Tool (CHART) statement",
+    "authors": "The CHART Collaborative",
+    "year": "2025",
+    "venue": "BMJMED",
+    "doi": "10.1136/bmjmed-2025-001632",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "The CHART Collaborative. (2025). Reporting guideline for chatbot health advice studies: the Chatbot Assessment Reporting Tool (CHART) statement. BMJ Medicine, 4. https://doi.org/10.1136/bmjmed-2025-001632"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "reporting guideline development via systematic review, modified asynchronous Delphi consensus, and expert panel consensus meetings",
+    "study_design": "multi-phase guideline development (systematic review, Delphi, consensus meetings, pilot testing)",
+    "sample_description": "531 international stakeholders in Delphi consensus; 48 members in expert panel consensus meetings",
+    "sample_size": "531 (Delphi); 48 (expert panel)",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "generative AI-driven chatbots and large language models used for summarising clinical evidence and providing health advice (chatbot health advice studies)"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "reporting_guideline",
+      "llm_chatbot_health",
+      "regulated_healthcare",
+      "transparency_ethics_reporting"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article develops CHART, a reporting guideline—not an empirical study of conversational governance in deployed LLM systems. It is highly relevant as foundational context for transparent evaluation and reporting of generative-AI chatbot health advice studies, including ethics, disclosures, model identifiers, and harm-related appraisal, but does not directly address operational governance mechanisms such as guardrails, observability, audit logs, human oversight workflows, or post-deployment monitoring.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial methods text were provided; full checklist items, limitations, and development-phase details require full-text verification."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 5,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Appraisal based on abstract and introductory/methods excerpts only. Guideline-development methods (systematic review, Delphi with 531 stakeholders, 48-member expert panel) are clearly described; limitations of CHART itself are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Method development appears coherent and adequately described in the excerpt, but supplied text is incomplete for full critical appraisal. Relevance to conversational governance is indirect: the paper standardises reporting of chatbot health advice studies rather than prescribing governance controls for regulated conversational AI deployment."
+  },
+  "coding": {
+    "open_codes": [
+      "reporting_guideline",
+      "chatbot_health_advice_studies",
+      "generative_ai_chatbots",
+      "llm_healthcare",
+      "delphi_consensus",
+      "transparent_reporting",
+      "ethics_disclosure",
+      "model_identifiers",
+      "prompt_engineering_reporting",
+      "query_strategy_reporting",
+      "patient_harm_risk",
+      "critical_appraisal"
+    ],
+    "axial_codes": [
+      "methodological_standards",
+      "healthcare_ai_evaluation",
+      "accountability_through_transparency"
+    ],
+    "theme": "Standardised reporting for generative-AI chatbot health advice studies",
+    "subtheme": "Transparency, ethics, and methodological disclosure as enablers of appraisal and trust",
+    "concepts": [
+      "CHART statement",
+      "chatbot health advice (CHA) studies",
+      "reporting checklist",
+      "Delphi consensus",
+      "generative AI-driven chatbot",
+      "large language models"
+    ],
+    "model_layers": [
+      "evaluation_and_reporting_layer",
+      "ethics_and_disclosure_layer"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa",
+      "sistemas conversacionais e chatbots",
+      "contextos regulados (saúde)",
+      "transparência e accountability",
+      "ética e segurança"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "CHART is a 12-item reporting guideline developed to promote transparent and comprehensive reporting of studies evaluating generative-AI-driven chatbots that summarise clinical evidence and provide health advice.",
+    "contribution": "Provides a structured checklist and methodological diagram for chatbot health advice studies, developed from a systematic review, Delphi consensus among 531 stakeholders, and expert panel meetings; includes reporting items on model details, prompt engineering, query strategy, performance evaluation, ethics, protocol, and data availability.",
+    "limitations": "Supplied text does not report CHART's own limitations, validation scope beyond pilot testing, or applicability outside healthcare chatbot advice studies; operational governance of deployed conversational systems is not addressed.",
+    "use_in_review": "Use as foundational contextual evidence on reporting standards and transparency expectations for LLM/chatbot health advice research; cite when discussing appraisal frameworks, ethics disclosure, and methodological rigour in regulated healthcare conversational AI studies, not as central evidence on operational conversational governance."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article in BMJMED 2025 with stated DOI.",
+      "excerpt": "The CHART Collaborative. BMJMED 2025;4. doi:10.1136/bmjmed-2025-001632",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study type is methodological reporting guideline development for generative-AI chatbot health advice studies.",
+      "excerpt": "The Chatbot Assessment Reporting Tool (CHART) is a reporting guideline developed to provide reporting recommendations for studies evaluating the performance of generative artificial intelligence (AI)-driven chatbots",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Development combined systematic review, Delphi consensus, and expert panel meetings.",
+      "excerpt": "CHART was developed in several phases after performing a comprehensive systematic review",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Delphi involved 531 international stakeholders.",
+      "excerpt": "revised through an international, multidisciplinary, modified, asynchronous Delphi consensus process of 531 stakeholders",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Expert panel comprised 48 members in consensus meetings.",
+      "excerpt": "three synchronous panel consensus meetings of 48 stakeholders",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "CHART contains 12 items and 39 subitems covering ethics and disclosures.",
+      "excerpt": "CHART includes 12 items and 39 subitems",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Reporting items include ethics, protocol, and data availability.",
+      "excerpt": "disclosures (subitem 12a), funding (subitem 12b), ethics (subitem 12c), protocol (subitem 12d), and data availability (subitem 12e)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Technology context explicitly involves LLMs and generative AI chatbots.",
+      "excerpt": "With the introduction of large language models (LLMs) into mainstream use",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated healthcare domain with risk of patient harm highlighted.",
+      "excerpt": "raise the risk of patient harm, particularly if generative AI-driven models are used for health purposes",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Transparent reporting linked to critical appraisal and trust.",
+      "excerpt": "Complete and standardised reporting facilitates critical appraisal and may help to identify applications with genuine potential to improve healthcare, building trust",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "CHA studies use chat-based interfaces to query generative AI models.",
+      "excerpt": "Investigators typically develop prompts to query generative AI models through a chat based interface",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM defined as subset of generative AI in glossary.",
+      "excerpt": "Large language model (LLM) A type of AI model comprising large neural networks trained over large amounts of text",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Generative-AI chatbot defined as user interaction with an AI model such as an LLM.",
+      "excerpt": "Generative AI-driven chatbot A programme that permits users to interact with an AI model (such as an LLM) designed to respond to user prompts",
+      "page": "2",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Reporting incompleteness is a documented problem in CHA studies.",
+      "excerpt": "the completeness of reporting among these studies has been highly variable",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    }
+  ]
+}

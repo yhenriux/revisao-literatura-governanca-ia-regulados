@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Uncanny Semantics: How AI and Human Authors Use Language Differently in Academic Writing",
+    "authors": "Dennis Wegerhoff",
+    "year": "2026",
+    "venue": "AI-Linguistica",
+    "doi": "10.62408/ai-ling.v5i1.32",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Wegerhoff, D. (2026). Uncanny Semantics: How AI and Human Authors Use Language Differently in Academic Writing. AI-Linguistica, 5(1). https://doi.org/10.62408/ai-ling.v5i1.32"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "corpus linguistics; computational semantics; word embedding analysis",
+    "study_design": "comparative corpus study of human-authored versus LLM-generated academic introductions",
+    "sample_description": "325 introductions from linguistic articles, including human-authored texts and AI-generated texts from six language models prompted in plain and academic modes",
+    "sample_size": "n=325 texts",
+    "sector": "academia; linguistic research writing",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "OpenAI ChatGPT-4o and ChatGPT-4o1, Google Gemini Flash 2.0 and Gemini Flash 2.0 Thinking, DeepSeek V3 and DeepSeek V3-R1; NLTK; spaCy with de_core_news_lg; cosine similarity on lemmas"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_RELATED",
+      "FOUNDATIONAL_CONTEXT"
+    ],
+    "exclusion_codes": [
+      "NOT_CONVERSATIONAL_AI",
+      "NOT_GOVERNANCE",
+      "NOT_REGULATED_DOMAIN",
+      "NOT_RISK_COMPLIANCE"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study provides empirical evidence on semantic and epistemic differences between human and LLM-authored academic texts, but the provided text contains no focus on conversational systems, governance, accountability, audit, compliance, human oversight, or regulated high-stakes deployment contexts required for central inclusion.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Method is clearly described for a comparative corpus analysis using word embeddings and cosine similarity across six named LLMs and human texts. Ethics, limitations, and peer-review status are not evident in the excerpt provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Within its own scope, methods and findings appear coherent and adequately supported by a 325-text corpus, but relevance to conversational governance in regulated LLM systems is very low; only foundational contextual value is supported by the provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "epistemic stance",
+      "pseudo-commitment",
+      "uncanny valley effect",
+      "human-AI authorship distinction",
+      "academic prompt effects",
+      "positive-evaluative overuse"
+    ],
+    "axial_codes": [
+      "LLM output linguistic patterns",
+      "human versus machine academic writing",
+      "semantic analysis of generated text"
+    ],
+    "theme": "Linguistic and epistemic differences between human and LLM-generated academic writing",
+    "subtheme": "Pseudo-commitment and reduced epistemic modulation in LLM academic prose",
+    "concepts": [
+      "pseudo-commitment",
+      "epistemic markers",
+      "uncanny valley effect",
+      "word embeddings",
+      "cosine similarity"
+    ],
+    "model_layers": [
+      "content generation",
+      "linguistic output quality"
+    ],
+    "rq_alignment": [
+      "weak alignment: informs LLM text behavior but not conversational governance, oversight, or regulated-domain controls"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "AI-generated academic texts, especially under academic prompts, overuse positive-evaluative and methodological vocabulary and show weaker epistemic caution than human authors, a pattern described as pseudo-commitment that may explain perceived weirdness in AI academic writing.",
+    "contribution": "Empirical semantic comparison of human and six LLM outputs in a 325-introduction corpus using word embeddings and cosine similarity to characterize epistemic stance differences.",
+    "limitations": "Scope is limited to linguistic article introductions; regulated-domain, governance, and conversational-system implications are not addressed in the provided text; limitations section not visible in excerpt.",
+    "use_in_review": "Foundational contextual evidence on how LLMs produce academically styled but epistemically shallow prose; not central evidence for conversational governance, compliance, or regulated deployment."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses a 325-text corpus comparing human and AI-generated academic introductions.",
+      "excerpt": "a curated corpus of 325 introductions from linguistic articles",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Six specific LLMs from OpenAI, Google, and DeepSeek were used.",
+      "excerpt": "six language models (OpenAI, Google, and DeepSeek; base and advanced)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Named models include ChatGPT-4o, ChatGPT-4o1, Gemini Flash 2.0, Gemini Flash 2.0 Thinking, DeepSeek V3, and DeepSeek V3-R1.",
+      "excerpt": "ChatGPT-4o), Google (Gemini Flash 2.0), and DeepSeek (V3)",
+      "page": "3",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Each model generated two introductions per topic under plain and academic prompts.",
+      "excerpt": "each model was instructed to generate two introductions (TextA and TextB)",
+      "page": "3",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Analysis applied word embeddings and cosine similarity to group lemmas into semantic categories.",
+      "excerpt": "applying word embedding techniques",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "AI texts overuse positive-evaluative and methodological vocabulary under academic prompts.",
+      "excerpt": "overuse positive-evaluative and methodological vocabulary (e.g., central, crucial, analysis, methodology)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human authors use more epistemically cautious and critical language than AI texts.",
+      "excerpt": "human authors employ more epistemically cautious, critical, evaluative, and connective language",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Author proposes pseudo-commitment as an explanatory pattern in AI academic writing.",
+      "excerpt": "reflects a pattern of pseudo-commitment: the models produce syntactically assertive, formally academic prose",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Study is situated in LLM rise and difficulty distinguishing human from AI academic authorship.",
+      "excerpt": "With large language models (LLMs) on the rise, distinguishing between human-authored and AI-generated academic texts has become increasingly challenging",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Academic context concerns authorship and evaluation of professional competence, not regulated-sector governance.",
+      "excerpt": "authorship relates not only to intellectual property but also to the evaluation of professional competence",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational AI, governance, audit, compliance, or oversight mechanisms are discussed in the provided text.",
+      "excerpt": "distinguishing between human-authored and AI-generated academic texts has become increasingly challenging",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Machine learning-based word embeddings were implemented with spaCy and NLTK.",
+      "excerpt": "word embedding can be considered a machine learning method",
+      "page": "5",
+      "section": "Methods",
+      "supports": "appraisal"
+    }
+  ]
+}

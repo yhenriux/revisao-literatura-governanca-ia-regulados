@@ -1,0 +1,177 @@
+{
+  "bibliographic": {
+    "title": "Large Language Models for Chatbot Health Advice Studies: A Systematic Review",
+    "authors": "Bright Huo, MD; Amy Boyle, BSc; Nana Marfo, MD; Wimonchat Tangamornsuksan, PharmD, PhD; Jeremy P. Steen, MSc; Tyler McKechnie, MD; Yung Lee, MD; Julio Mayol, MD; Stavros A. Antoniou, MD; Arun James Thirunavukarasu, MB BChir; Stephanie Sanger, BSc; Karim Ramji, MD; Gordon Guyatt, MD",
+    "year": "2025",
+    "venue": "JAMA Network Open",
+    "doi": "10.1001/jamanetworkopen.2024.57879",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Huo, B., Boyle, A., Marfo, N., Tangamornsuksan, W., Steen, J. P., McKechnie, T., Lee, Y., Mayol, J., Antoniou, S. A., Thirunavukarasu, A. J., Sanger, S., Ramji, K., & Guyatt, G. (2025). Large language models for chatbot health advice studies: A systematic review. JAMA Network Open, 8(2), e2457879. https://doi.org/10.1001/jamanetworkopen.2024.57879"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic review",
+    "study_design": "systematic review with dual screening and data extraction",
+    "sample_description": "Primary peer-reviewed studies evaluating the clinical accuracy of generative AI-driven chatbots providing health advice (chatbot health advice studies)",
+    "sample_size": "137",
+    "sector": "health care",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "generative AI-driven chatbots and large language models for summarizing evidence and providing health advice in clinical contexts"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text review",
+    "inclusion_codes": [
+      "systematic_review",
+      "llm_chatbot_health_advice",
+      "regulated_healthcare",
+      "governance_reporting_gaps"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed systematic review of 137 primary studies on LLM-driven health advice chatbots in health care. It directly addresses chatbots, LLMs, and regulated clinical integration, and reports that fewer than one-third of primary studies addressed ethical, regulatory, and patient safety implications. Its primary focus is reporting variability and CHART development rather than conversational governance mechanisms, so it is best used as supporting evidence on governance-related reporting gaps in the literature.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial introduction were provided; full methods, limitations, and CHART framework details require manual verification. Eligibility for conversational governance synthesis depends on confirming whether governance-related findings are developed beyond abstract-level counts."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 5,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 5,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Methods visible in the excerpt show a structured systematic review with librarian-assisted database search, dual screening, and dual data extraction across 7752 records and 137 included studies. Analysis rigor, limitations, and reflexivity cannot be fully appraised from the provided partial text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The review provides a large, clearly described sample and coherent quantitative synthesis of reporting practices. Relevance to conversational governance is partial because the study centers on reporting quality and CHART rather than operational governance, oversight, or accountability mechanisms. Confidence is moderated by incomplete access to full-text methods and limitations."
+  },
+  "coding": {
+    "open_codes": [
+      "reporting heterogeneity",
+      "closed-source LLM evaluation",
+      "missing LLM version details",
+      "absent prompt engineering description",
+      "subjective performance ground truth",
+      "ethical regulatory safety reporting gaps",
+      "CHART reporting standards"
+    ],
+    "axial_codes": [
+      "LLM chatbot evaluation in health care",
+      "transparency and reproducibility deficits",
+      "governance and safety reporting gaps",
+      "systematic evidence synthesis"
+    ],
+    "theme": "Reporting quality of LLM-driven health advice chatbot studies",
+    "subtheme": "Gaps in ethical, regulatory, and patient safety reporting",
+    "concepts": [
+      "CHART",
+      "closed-source LLMs",
+      "prompt engineering",
+      "clinical integration",
+      "patient safety",
+      "regulatory implications"
+    ],
+    "model_layers": [
+      "evaluation and reporting layer",
+      "clinical deployment context"
+    ],
+    "rq_alignment": [
+      "governance reporting in regulated conversational AI",
+      "transparency and accountability gaps in LLM chatbot studies",
+      "patient safety and regulatory considerations in health care chatbots"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Among 137 chatbot health advice studies, reporting quality is heterogeneous: most evaluated inaccessible closed-source LLMs without sufficient model specification, most omitted prompt engineering description, most used subjective success criteria, and fewer than one-third addressed ethical, regulatory, and patient safety implications of clinical LLM integration.",
+    "contribution": "Provides a large-scale systematic synthesis of how primary studies report LLM chatbot health advice evaluations and links these gaps to development of the Chatbot Assessment Reporting Tool (CHART).",
+    "limitations": "Provided text is limited to front matter and part of the introduction; full review limitations, risk-of-bias assessment details, and complete CHART framework are unclear from the excerpt.",
+    "use_in_review": "Use as supporting evidence to characterize governance-adjacent reporting deficits—especially ethics, regulation, and patient safety—in the health care LLM chatbot literature, and as contextual support for reporting-standard needs rather than as direct evidence of conversational governance implementation."
+  },
+  "evidence": [
+    {
+      "claim": "The study is a systematic review focused on LLM-driven health advice chatbots in health care.",
+      "excerpt": "To perform a systematic review to examine the reporting variability among peer-reviewed studies evaluating the performance of generative artificial intelligence (AI)–driven chatbots for summarizing evidence and providing health advice",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The review included 137 primary chatbot health advice studies after screening 7752 articles.",
+      "excerpt": "A search of MEDLINE via Ovid, Embase via Elsevier, and Web of Science from inception to October 27, 2023, was conducted with the help of a health sciences librarian to yield 7752 articles.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Most included primary studies evaluated closed-source LLMs with insufficient identification and technical description.",
+      "excerpt": "Most studies (136 [99.3%]) evaluated inaccessible, closed-source LLMs and did not provide enough information to identify the version of the LLM under evaluation.",
+      "page": "1",
+      "section": "Findings",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Primary studies largely lacked reporting on prompt engineering and LLM technical characteristics.",
+      "excerpt": "All studies lacked a sufficient description of LLM characteristics, including temperature, token length, fine-tuning availability, layers, and other details. Most studies (136 [99.3%]) did not describe a prompt engineering phase in their study.",
+      "page": "1",
+      "section": "Findings",
+      "supports": "coding"
+    },
+    {
+      "claim": "Fewer than one-third of primary studies addressed ethical, regulatory, and patient safety implications.",
+      "excerpt": "while less than one-third addressed the ethical, regulatory, and patient safety implications of the clinical integration of LLMs",
+      "page": "1",
+      "section": "Findings",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The review aims to inform development of CHART reporting standards.",
+      "excerpt": "to inform the development of the Chatbot Assessment Reporting Tool (CHART)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Dual reviewer screening and extraction were used.",
+      "excerpt": "Two reviewers screened articles by title and abstract followed by full-text review to identify primary studies evaluating the clinical accuracy of generative AI-driven chatbots in providing health advice",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Most primary studies used subjective criteria to define successful chatbot performance.",
+      "excerpt": "Most studies (89 [65.0%]) used subjective means to define the successful performance of the chatbot",
+      "page": "1",
+      "section": "Findings",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs are described as generative systems with NLP capabilities responding to free-text prompts.",
+      "excerpt": "LLMs acquire natural language processing (NLP) capabilities and can generate appropriate text outputs using layperson terminology in response to free-text prompts.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "The regulated health care context is explicit.",
+      "excerpt": "There is much interest in the clinical integration of large language models (LLMs) in health care.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

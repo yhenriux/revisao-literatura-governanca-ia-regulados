@@ -1,0 +1,188 @@
+{
+  "bibliographic": {
+    "title": "Technical, legal, and ethical challenges of generative artificial intelligence: an analysis of the governance of training data and copyrights",
+    "authors": "Marcelo Pasetti; James William Santos; Nicholas Kluge Corrêa; Nythamar de Oliveira; Camila Palhares Barbosa",
+    "year": "2025",
+    "venue": "Discover Artificial Intelligence",
+    "doi": "10.1007/s44163-025-00379-6",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Pasetti, M., Santos, J. W., Corrêa, N. K., de Oliveira, N., & Barbosa, C. P. (2025). Technical, legal, and ethical challenges of generative artificial intelligence: an analysis of the governance of training data and copyrights. Discover Artificial Intelligence, 5, 193. https://doi.org/10.1007/s44163-025-00379-6"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "comparative legal-philosophical analysis",
+    "study_design": "comparative regulatory and doctrinal analysis across jurisdictions",
+    "sample_description": "Regulatory frameworks and legal doctrines in the United States, European Union, Japan, and Brazil",
+    "sample_size": "unclear",
+    "sector": "cross-sector legal and policy analysis",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Generative AI and LLMs discussed primarily in relation to training data, copyright-protected content, and model training; chatbots mentioned only as an example application of LLMs"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "genai_governance",
+      "llm_mentioned",
+      "audit_compliance",
+      "regulated_legal_frameworks",
+      "transparency_accountability"
+    ],
+    "exclusion_codes": [
+      "no_conversational_governance_focus",
+      "training_data_copyright_primary_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article centrally addresses governance of generative AI training data, copyright compliance, transparency, and audit mechanisms across legal jurisdictions. It mentions LLMs and online chatbots only peripherally and does not examine conversational systems, deployment-time guardrails, human oversight, contestability, or post-deployment monitoring. It is relevant as supporting evidence for broader GenAI governance themes but not as central evidence for conversational governance in regulated LLM systems.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted Python title metadata is corrupted; conversational relevance is weak despite high deterministic term scores and requires human confirmation of scope fit."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appropriate for a comparative legal-philosophical article on copyright and training-data governance. Empirical sampling and data-collection procedures are not evidenced in the provided excerpts. Conversational-AI governance is not a stated objective."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The study is internally coherent for copyright and training-data governance of generative AI, but its adequacy and relevance to conversational governance in deployed LLM systems are only partial because the focus is legal doctrine, dataset opacity, and compensation rather than conversational control, oversight, or operational governance."
+  },
+  "coding": {
+    "open_codes": [
+      "training data governance",
+      "copyright compliance",
+      "mandatory transparency",
+      "ethical compensation",
+      "audit mechanisms",
+      "fair use",
+      "text and data mining exceptions",
+      "comparative regulation",
+      "dataset opacity",
+      "legal accountability"
+    ],
+    "axial_codes": [
+      "data governance",
+      "legal and regulatory compliance",
+      "intellectual property rights",
+      "transparency and accountability"
+    ],
+    "theme": "Governance of generative AI training data and copyright",
+    "subtheme": "Comparative legal frameworks for transparency, compensation, and audit",
+    "concepts": [
+      "transparency obligations",
+      "ethical compensation schemes",
+      "robust audit mechanisms",
+      "fair use",
+      "text and data mining",
+      "legal accountability",
+      "epistemic risks",
+      "distributive asymmetries"
+    ],
+    "model_layers": [
+      "training data",
+      "legal-regulatory",
+      "intellectual property"
+    ],
+    "rq_alignment": [
+      "generative AI governance",
+      "compliance and audit",
+      "accountability and transparency",
+      "regulated legal contexts"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Existing copyright and text-and-data-mining mechanisms in major jurisdictions are inadequate to address opacity and legal uncertainty in generative AI training datasets; governance should include mandatory transparency, ethical compensation for rights holders, and robust audit mechanisms.",
+    "contribution": "Provides a comparative legal-philosophical analysis of generative AI training-data governance across the United States, European Union, Japan, and Brazil, linking transparency deficits to legal accountability, epistemic risk, and distributive asymmetry.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence for cross-cutting GenAI governance themes such as transparency, audit, compliance, and accountability in regulated legal contexts; do not treat as central evidence on conversational governance, human oversight, or operational controls in deployed LLM/chatbot systems."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed open-access journal article in Discover Artificial Intelligence (2025).",
+      "excerpt": "Pasetti et al. Discover Artificial Intelligence (2025) 5:193 https://doi.org/10.1007/s44163-025-00379-6",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses comparative legal-philosophical methodology focused on training-data governance and copyright.",
+      "excerpt": "Adopting a comparative legal-philosophical methodology, the study proposes governance solutions centered on mandatory transparency obligations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research addresses generative AI and mentions LLMs as an example.",
+      "excerpt": "One example is the LLM (Large Language Model) model, which is capable of performing a wide variety of tasks",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Chatbots appear only as an incidental application example of LLMs, not as the study focus.",
+      "excerpt": "the performance of a large language model, such as those used in online chatbots, improves as more data is made available for its training",
+      "page": "4",
+      "section": "limitations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance recommendations include transparency, compensation, and audit mechanisms.",
+      "excerpt": "governance solutions centered on mandatory transparency obligations, ethical compensation schemes for rights holders, and robust audit mechanisms",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Transparency is linked to legal accountability and risk.",
+      "excerpt": "the absence of transparency not only compromises legal accountability but also exacerbates epistemic risks and distributive asymmetries",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated legal contexts analyzed include US, EU, Japan, and Brazil.",
+      "excerpt": "By analyzing regulatory frameworks in the United States, European Union, Japan, and Brazil",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Central research questions concern copyright-protected training data and compensation, not conversational system governance.",
+      "excerpt": "How can the use of copyright-protected data be reconciled with the autonomous production of works by generative AI systems?",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "EU AI Act is referenced as part of the comparative regulatory context.",
+      "excerpt": "particularly through the AI Act and the Copyright in the Digital Single Mar",
+      "page": "3",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Objective clarity is high regarding training-data governance as a central debate dimension.",
+      "excerpt": "a central dimension of the debate: the governance of AI training data",
+      "page": "3",
+      "section": "introduction",
+      "supports": "appraisal"
+    }
+  ]
+}

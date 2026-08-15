@@ -1,0 +1,149 @@
+{
+  "bibliographic": {
+    "title": "Demystifying Instruction Mixing for Fine-tuning Large Language Models",
+    "authors": "Renxi Wang, Haonan Li, Minghao Wu, Yuxia Wang, Xudong Han, Chiyu Zhang, Timothy Baldwin",
+    "year": "2023",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Wang, R., Li, H., Wu, M., Wang, Y., Han, X., Zhang, C., & Baldwin, T. (2023). Demystifying Instruction Mixing for Fine-tuning Large Language Models. Preprint."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "experimental comparative fine-tuning and evaluation of instruction dataset mixtures",
+    "study_design": "fine-tuning across eight combinations of three instruction datasets with performance evaluation in NLP, coding, and chat areas",
+    "sample_description": "representative instruction datasets P3 (NLP downstream tasks), CodeAlpaca (code generation), and Alpaca (general-purpose instructions)",
+    "sample_size": "unclear",
+    "sector": "academic research (NLP/ML)",
+    "regulated_domain": "no",
+    "llm_specificity": "generic_genai",
+    "technology_context": "instruction tuning and fine-tuning of large language models across NLP, coding, and general chat instruction types"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "title_abstract_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "off_topic",
+      "no_governance_accountability_focus",
+      "no_regulated_domain_context"
+    ],
+    "exclusion_reason": "The article addresses instruction dataset mixing for LLM fine-tuning and performance trade-offs across NLP, coding, and chat; it does not address conversational governance, accountability, compliance, risk control, human oversight, auditability, or regulated high-stakes deployment contexts.",
+    "decision_rationale": "Although the text references LLMs and chat-like instructions, the focus is technical optimization of instruction mixtures for model capability, not governance of conversational AI systems. Python triage scored 0/3 on governance, regulated domains, and risk/audit dimensions, consistent with exclusion for the review scope.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Abstract and introduction clearly establish a fine-tuning methodology topic without governance or regulated-environment content."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 1,
+    "limitations_transparency": 0,
+    "evidence_support": 1,
+    "transferability": 1,
+    "notes": "Appraisal based only on page 1 (abstract and partial introduction). Methodological detail on analysis, results, limitations, and ethics is not available in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "Within its own scope the stated objective appears coherent, but provided text is insufficient to fully appraise rigor. Relevance to conversational governance in regulated LLM systems is negligible based on available evidence."
+  },
+  "coding": {
+    "open_codes": [
+      "instruction_tuning",
+      "instruction_mixing",
+      "instruction_datasets",
+      "LLM_fine_tuning",
+      "NLP_downstream_tasks",
+      "coding_instructions",
+      "general_chat_instructions",
+      "chat_assistants_performance"
+    ],
+    "axial_codes": [
+      "LLM_training_optimization",
+      "instruction_dataset_composition"
+    ],
+    "theme": "Instruction mixing for LLM fine-tuning",
+    "subtheme": "Trade-offs across NLP, coding, and chat instruction types",
+    "concepts": [
+      "instruction tuning",
+      "instruction mixing",
+      "P3",
+      "CodeAlpaca",
+      "Alpaca",
+      "chat-like instructions"
+    ],
+    "model_layers": [
+      "model_training"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Optimizing the mixing of instruction datasets for LLM fine-tuning is poorly understood; different instruction types benefit specific applications but can negatively impact performance in other areas.",
+    "contribution": "Categorizes instructions into NLP downstream tasks, coding, and general chat; explores eight dataset combinations and evaluates effects on LLM performance across these areas.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central or supporting evidence on conversational governance; at most peripheral contextual background on chat-related instruction tuning, not governance practice."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on instruction mixing for LLM fine-tuning, not governance",
+      "excerpt": "the procedure to optimizing the mixing of instruction datasets for LLM fine-tuning is still poorly understood",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Three instruction types studied: NLP, coding, and general chat",
+      "excerpt": "This study categorizes instructions into three primary types: NLP downstream tasks, cod- ing, and general chat",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Chat instructions improve chat assistant performance but study targets training optimization",
+      "excerpt": "using general-purpose, chat-like in- structions can improve the performance of LLMs as chat assistants",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Experimental design uses eight combinations of three datasets",
+      "excerpt": "We fine-tune models across all eight potential combinations of these in- struction datasets",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Representative datasets: P3, CodeAlpaca, Alpaca",
+      "excerpt": "We first select representative instruction datasets: P3 (Sanh et al., 2022) for NLP down- stream tasks, CodeAlpaca (Chaudhary, 2023) for code generation, and Alpaca (Taori et al., 2023) for general-purpose instructions",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Code and data availability supports transparency",
+      "excerpt": "Code and data are available at: https://github.com/ Reason-Wang/InstructLLM",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No regulated-domain or governance content in provided text",
+      "excerpt": "We explore the effects of instruction tuning on different combinations of datasets on LLM performance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

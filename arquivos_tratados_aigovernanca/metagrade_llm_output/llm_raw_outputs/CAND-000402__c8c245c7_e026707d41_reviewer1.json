@@ -1,0 +1,213 @@
+{
+  "bibliographic": {
+    "title": "A Multilevel Framework for AI Governance",
+    "authors": "Hyesun Choung, Prabu David, John S. Seberger",
+    "year": "2023",
+    "venue": "The Global and Digital Governance Handbook, Routledge, Taylor & Francis Group",
+    "doi": "unclear",
+    "publication_type": "book",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Choung, H., David, P., & Seberger, J. S. (2023). A multilevel framework for AI governance. In The Global and Digital Governance Handbook. Routledge, Taylor & Francis Group."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual framework development and synthesis of governance guidelines and trust literature",
+    "study_design": "theoretical framework paper without empirical data collection",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "cross-sector AI governance spanning government, corporations, and citizens",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "general AI and machine learning systems; ChatGPT cited as a recent NLP example within broader AI literacy discussion"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "AI_governance_framework",
+      "trust_ethics_governance",
+      "multilevel_stakeholder_model",
+      "regulated_contexts_mentioned"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper's primary contribution is a multilevel governance framework for AI involving governments, corporations, and citizens, mediated by trust dimensions. It is highly relevant to AI governance and ethics in regulated contexts, but the provided text does not center conversational systems, LLM operational controls, guardrails, observability, or deployment governance specific to conversational AI in regulated environments. ChatGPT appears only as a brief illustrative example for citizen AI literacy.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated triage graded the item as central_candidate, but full-text evidence indicates a broad AI governance framework with only peripheral LLM/conversational references; adjudication should confirm role as foundational context rather than central evidence."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Conceptual handbook chapter proposing a multilevel governance model grounded in cited international guidelines and trust theory; no empirical sample or validation study is described in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and adequately developed for a conceptual governance contribution, but methodological limitations include absence of empirical testing and limited discussion of enforcement mechanisms. Relevance to the review's conversational-LLM-in-regulated-settings focus is partial because LLM and conversational governance are not the paper's main object of study."
+  },
+  "coding": {
+    "open_codes": [
+      "multilevel governance",
+      "government-corporation-citizen stakeholders",
+      "trust in AI",
+      "competence integrity benevolence",
+      "ethical principles to practice gap",
+      "corporate self-governance",
+      "government regulation",
+      "AI literacy",
+      "human agency",
+      "human-in-the-loop",
+      "algorithmic opacity",
+      "risk mitigation"
+    ],
+    "axial_codes": [
+      "institutional AI governance",
+      "trust-based mediation",
+      "stakeholder interdependence",
+      "ethics and human values",
+      "policy and public acceptance"
+    ],
+    "theme": "Multilevel AI governance framework",
+    "subtheme": "Trust-mediated stakeholder governance",
+    "concepts": [
+      "governance",
+      "trust",
+      "ethics",
+      "human oversight",
+      "human-in-the-loop",
+      "risk",
+      "privacy",
+      "security",
+      "transparency",
+      "accountability"
+    ],
+    "model_layers": [
+      "government level",
+      "corporate level",
+      "citizen level",
+      "trust dimensions: competence",
+      "trust dimensions: integrity",
+      "trust dimensions: benevolence"
+    ],
+    "rq_alignment": [
+      "governance models for trustworthy AI",
+      "relevance and acceptance of AI by stakeholders",
+      "human oversight in AI systems",
+      "regulated and high-stakes AI contexts"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Ethical principles for trustworthy AI require a mediating multilevel governance structure involving governments, corporations, and citizens, analyzed through dimensions of trust to translate principles into practice and inform policy.",
+    "contribution": "Offers a multidimensional, multilevel model linking stakeholder governance levels with trust in AI to support trustworthy AI, corporate self-governance, and public policy.",
+    "limitations": "The provided text notes opaque ML black-box behavior, nascent explainability methods, unclear enforcement of international principles on technology firms, and uncertainty about how prior AI literacy efforts remain relevant amid rapid AI change such as ChatGPT.",
+    "use_in_review": "Use as foundational contextual evidence for structuring governance analysis across institutional levels and trust dimensions; do not treat as central empirical or operational evidence on conversational LLM governance, guardrails, observability, or regulated deployment controls."
+  },
+  "evidence": [
+    {
+      "claim": "Publication metadata identifies handbook chapter and authors",
+      "excerpt": "Cite as: Choung, H., David, P., & Seberger, J.S. (2023). A multilevel framework for AI governance. The Global and Digital Governance Handbook. Routledge, Taylor & Francis Group.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Paper proposes multilevel governance across three stakeholder groups mediated by trust",
+      "excerpt": "we propose a multilevel governance approach that involves three groups of interdependent stakeholders: governments, corporations, and citizens.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Ethical principles alone are insufficient without governance mediation",
+      "excerpt": "without a mediating governance structure, these ethical principles will not translate into practice.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Framework addresses governance, trust, and ethics in AI broadly",
+      "excerpt": "Governance models for ensuring trustworthy AI",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated and high-stakes domains are referenced in introduction",
+      "excerpt": "reading X-rays, screening job applicants, identifying credit card fraud, and enabling law enforcement",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "AI risks include bias, civil liberties, surveillance, and diminished human agency",
+      "excerpt": "the detrimental effects of AI are increasingly apparent, including algorithmic biases and challenges to civil liberties, increased surveillance",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "ML opacity and limited explainability are acknowledged limitations",
+      "excerpt": "AI’s reliance on ML algorithms that have been characterized as a black box, because the inner workings of these algorithms are opaque and not easily explainable",
+      "page": "3",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "International governance principles exist but enforcement implications are unclear",
+      "excerpt": "enforcement or the real-world implications of these policies on technology firms, software developers, and data brokers is not clear.",
+      "page": "4",
+      "section": "international and national governance",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "ChatGPT is mentioned only as an example of rapidly evolving NLP AI requiring literacy",
+      "excerpt": "recently, ChatGPT developed by OpenAI has taken the world by storm because of its natural language processing ability and fluency in writing.",
+      "page": "6",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Citizens may need literacy interventions to evaluate ChatGPT responses",
+      "excerpt": "literacy interventions may be required to train citizens to critically evaluate the quality and veracity of responses.",
+      "page": "6",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human oversight via human-in-the-loop is cited through EU trustworthy AI requirements",
+      "excerpt": "There should be a human oversight mechanism through a “human-in-the-loop” approach.",
+      "page": "9",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Trust dimensions include competence, integrity, and benevolence",
+      "excerpt": "dimensions of trust, such as competence, integrity, and benevolence.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Machine learning may perpetuate human biases despite perceived objectivity",
+      "excerpt": "machine learning algorithms that rely on data that represent human behaviors and practices may be inadvertently perpetuating human biases in AI.",
+      "page": "8",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

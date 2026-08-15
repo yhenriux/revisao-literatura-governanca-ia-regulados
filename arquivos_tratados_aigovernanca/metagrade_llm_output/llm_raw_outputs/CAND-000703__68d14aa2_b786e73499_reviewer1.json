@@ -1,0 +1,175 @@
+{
+  "bibliographic": {
+    "title": "Multi-curve HJM modelling for risk management",
+    "authors": "Chiara Sabelli, Michele Pioppi, Luca Sitzia, Giacomo Bormetti",
+    "year": "2015",
+    "venue": "arXiv (q-fin.RM)",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Sabelli, C., Pioppi, M., Sitzia, L., & Bormetti, G. (2015). Multi-curve HJM modelling for risk management. arXiv preprint arXiv:1411.3977."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "Quantitative finance; Heath-Jarrow-Morton multi-curve modeling; VAR(1) approximation; PCA dimension reduction; bootstrap estimation; out-of-sample back-testing",
+    "study_design": "Model development and empirical validation on Euro area yield curves",
+    "sample_description": "Historical multiple yield curves from the Euro area observed at daily frequency for a finite number of time-to-maturity buckets",
+    "sample_size": "unclear",
+    "sector": "financial",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "Interest rate term-structure modeling for market risk measures (VaR, Expected Shortfall); no AI, LLM, or conversational systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_wrong_topic",
+      "E2_no_llm_genai",
+      "E3_no_conversational_ai",
+      "E4_no_ai_governance"
+    ],
+    "exclusion_reason": "The paper is a quantitative finance preprint on multi-curve HJM interest rate modeling for financial risk management. It does not address LLMs, conversational AI, generative AI governance, guardrails, human oversight, audit/logging of AI systems, or related governance mechanisms in regulated AI contexts.",
+    "decision_rationale": "Despite keyword overlaps from automated screening (risk management, policy, standard, bias, review, framework), the substantive content concerns yield curve forecasting, volatility-correlation structure, and financial risk measures in the Euro area. There is no evidence of conversational systems, large language models, or AI governance/accountability frameworks relevant to the review scope.",
+    "decision_confidence": 0.97,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is unambiguous from title, abstract, and full-text excerpts; false-positive governance terms refer to statistical bias, monetary policy, and standard model formulation."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Methodological quality appears adequate for quantitative finance risk modeling, but the study is outside the review domain. Appraisal reflects only signals present in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "For the systematic review on conversational governance of LLMs in regulated settings, relevance is very low. The paper coherently addresses financial yield-curve risk modeling but provides no usable evidence on AI governance, conversational systems, or LLM-specific controls."
+  },
+  "coding": {
+    "open_codes": [
+      "multi-curve HJM modeling",
+      "yield curve forecasting",
+      "VAR(1) dynamics",
+      "PCA dimension reduction",
+      "market risk premia",
+      "VaR and Expected Shortfall",
+      "Euro area interest rates",
+      "bootstrap parameter estimation",
+      "out-of-sample back-testing",
+      "ECB monetary policy effects"
+    ],
+    "axial_codes": [
+      "financial risk management",
+      "quantitative modeling",
+      "interest rate term structures"
+    ],
+    "theme": "Quantitative financial risk modeling",
+    "subtheme": "Multi-curve interest rate dynamics and forecasting",
+    "concepts": [
+      "HJM framework",
+      "Vector Autoregressive process",
+      "Principal Component Analysis",
+      "volatility-correlation structure",
+      "confidence intervals for yields"
+    ],
+    "model_layers": [
+      "stochastic finance model layer",
+      "empirical estimation layer",
+      "forecasting/back-testing layer"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.95
+  },
+  "synthesis": {
+    "main_claim": "A discrete HJM-based multi-curve modeling framework, approximated by VAR(1) and simplified with PCA, can capture historical term-structure volatility and support feasible estimation of volatility-correlation structure and market risk premia for financial risk management forecasting.",
+    "contribution": "Provides a feasible discrete-time multi-curve HJM approach with demonstrated out-of-sample forecasting ability on Euro area curves for risk management applications such as VaR and Expected Shortfall.",
+    "limitations": "Model inadequacies appear for more extreme coverage probabilities and longer horizons, especially shortest EONIA maturities; Brownian-shock dynamics struggle to reproduce discrete ECB policy shifts.",
+    "use_in_review": "Exclude. May serve only as an illustrative false-positive example of keyword-based screening confusion between financial risk management and AI governance risk."
+  },
+  "evidence": [
+    {
+      "claim": "Paper topic is financial yield-curve risk modeling, not AI or conversational governance",
+      "excerpt": "We present a HJM approach to the projection of multiple yield curves developed to capture the volatility content of historical term structures for risk management purposes.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Financial risk management context with VaR and Expected Shortfall, not AI governance",
+      "excerpt": "expected exposures of portfolios made of such instruments and in turn risk measures like VaR and Expected Shortfall are tightly related to the future distributions of underlying interest rates",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM or conversational AI technology context",
+      "excerpt": "we show how to approximate the HJM continuous time description of the multi-curve dynamics by a Vector Autoregressive process of order one",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Automated 'bias' hit refers to statistical estimation bias, not AI fairness bias",
+      "excerpt": "Conditionally on the non existence of a significant bias between the historical estimate and the bootstrap mean",
+      "page": "19",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Automated 'policy' hits refer to ECB monetary policy, not AI/compliance policy",
+      "excerpt": "the monetary policy of the European Central Bank (ECB) largely determines curve dynamics",
+      "page": "5",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study applies model to Euro area curves with out-of-sample testing",
+      "excerpt": "Applying the constant volatility version of our model on a sample of curves from the Euro area, we demonstrate its forecasting ability through an out-of-sample test.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Authors and institutional affiliations support bibliographic metadata",
+      "excerpt": "Chiara Sabellia, Michele Pioppib, Luca Sitziab and Giacomo Bormettia,c",
+      "page": "1",
+      "section": "FRONT MATTER",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Publication is an arXiv preprint from 2015",
+      "excerpt": "arXiv:1411.3977v3 [q-fin.RM] 8 Oct 2015",
+      "page": "1",
+      "section": "FRONT MATTER",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Model limitations are acknowledged for extreme horizons and short maturities",
+      "excerpt": "Some inadequacies of the approach arise for more extreme coverage probabilities and longer horizons, especially for the shortest times-to-maturity of the EONIA curve.",
+      "page": "5",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Rigorous estimation validation via bootstrap and Monte Carlo is described",
+      "excerpt": "We have extensively tested the estimation procedure presented above on synthetic time series computed via Monte Carlo.",
+      "page": "19",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

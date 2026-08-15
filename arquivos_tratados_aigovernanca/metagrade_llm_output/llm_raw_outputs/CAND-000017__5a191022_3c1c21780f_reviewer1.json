@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "AI Safety Landscape for Large Language Models: Taxonomy, State-of-the-art, and Future Directions",
+    "authors": "Chen Chen; Xueluan Gong; Ziyao Liu; Weifeng Jiang; Si Qi Goh; Kwok-Yan Lam",
+    "year": "2026",
+    "venue": "arXiv preprint arXiv:2408.12935v4 [cs.AI]",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Chen, C., Gong, X., Liu, Z., Jiang, W., Goh, S. Q., & Lam, K.-Y. (2026). AI safety landscape for large language models: Taxonomy, state-of-the-art, and future directions. arXiv preprint arXiv:2408.12935v4."
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "comprehensive survey and architectural framework",
+    "study_design": "narrative literature survey with taxonomy/framework development",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "cross-sector (examples include healthcare and autonomous transport)",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models, foundation models, generative AI, agent-based AI systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_focus",
+      "AI_safety_governance",
+      "taxonomy_framework",
+      "responsible_trustworthy_AI"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper is a comprehensive AI safety survey for LLMs proposing a three-layer architectural framework (Trustworthy AI, Responsible AI, Ecosystemic Safe AI). It strongly addresses LLM governance, risk, accountability, transparency, and deployment safety, but the provided text does not center conversational systems, chatbots, or conversational governance mechanisms. It is best used as foundational contextual mapping rather than central conversational-governance evidence.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial excerpts were supplied; full survey methodology, inclusion criteria, and conversational-AI coverage cannot be verified from the excerpt alone."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Clear stated aim and framework structure in abstract/introduction. Survey search strategy, corpus selection, and appraisal of included studies are not evidenced in the provided text. Preprint status; peer review not indicated."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The three-perspective framework is clearly articulated and internally coherent for LLM AI safety. Relevance to conversational governance in regulated environments is partial: governance and risk themes are present, but conversational deployment, oversight, contestation, and domain-specific operational controls are not evidenced as primary focus in the supplied excerpts."
+  },
+  "coding": {
+    "open_codes": [
+      "AI safety landscape",
+      "architectural framework",
+      "Trustworthy AI",
+      "Responsible AI",
+      "Ecosystemic Safe AI",
+      "foundation model supply chain risk",
+      "generative AI misuse",
+      "deployment safety"
+    ],
+    "axial_codes": [
+      "governance architecture",
+      "risk propagation across AI ecosystem",
+      "mitigation strategies",
+      "state-of-the-art mapping"
+    ],
+    "theme": "LLM AI safety governance framework",
+    "subtheme": "three-layer architectural safety taxonomy",
+    "concepts": [
+      "Trustworthy AI",
+      "Responsible AI",
+      "Ecosystemic Safe AI",
+      "foundation models",
+      "AI technology supply chain",
+      "collective failure",
+      "content authenticity",
+      "misuse resistance"
+    ],
+    "model_layers": [
+      "Trustworthy AI",
+      "Responsible AI",
+      "Ecosystemic Safe AI"
+    ],
+    "rq_alignment": [
+      "governance_accountability",
+      "risk_audit_compliance",
+      "llm_genai",
+      "regulated_high_stakes"
+    ],
+    "coding_confidence": 0.75
+  },
+  "synthesis": {
+    "main_claim": "The authors propose a novel architectural framework for AI safety in LLMs organized around three perspectives—Trustworthy AI, Responsible AI, and Ecosystemic Safe AI—and provide a comprehensive review of research, challenges, mitigation strategies, and future directions.",
+    "contribution": "Offers a taxonomy/state-of-the-art map of LLM AI safety that integrates functional robustness, responsible governance principles, and ecosystem-level safety concerns such as supply-chain propagation of failures and misuse of generative systems.",
+    "limitations": "Provided excerpts do not describe survey methodology, corpus boundaries, or study-quality appraisal; conversational-AI-specific governance mechanisms are not established as a primary contribution in the supplied text.",
+    "use_in_review": "Use as foundational contextual evidence to structure the review's governance and safety dimensions for LLMs, especially Trustworthy/Responsible/Ecosystemic layers, risk propagation, and deployment-oriented safety controls; not as primary evidence for conversational governance mechanisms in regulated settings."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses specifically on LLMs and AI safety.",
+      "excerpt": "AI safety is an emerging field of critical importance for the secure adoption and deployment of AI systems. With the recent advancements in large language models (LLMs)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Proposes a three-perspective architectural framework.",
+      "excerpt": "we propose a novel architectural framework for understanding and analyzing AI safety in the context of LLMs, defining its characteristics through three key perspectives: Trustworthy AI, Responsible AI, and Ecosystemic Safe AI",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Work is positioned as a comprehensive survey/review.",
+      "excerpt": "We provide a comprehensive review of current research and advancements in AI safety from these perspectives",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Covers governance-related concerns relevant to responsible AI.",
+      "excerpt": "ethical, legal, and governance challenges, including risks of unintended discrimination that may result in unfair outcomes, as well as concerns related to robustness, privacy and security, explainability, transparency, and algorithmic fairness",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Highlights ecosystem-level failure propagation and large-scale societal harm.",
+      "excerpt": "The failure of AI systems at one organization, or AI risks undertaken by one organization, can propagate down the AI technology supply chain, affect the entire AI ecosystem, and potentially lead to collective failures and cause large-scale harm to society",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Discusses generative AI misuse and content-risk examples.",
+      "excerpt": "Foundation models may risk generating undesirable content and may potentially be misused for harmful causes",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Framework layers are explicitly named and contrasted with prior surveys.",
+      "excerpt": "T = Trustworthy AI (functional robustness, reliability, security); R = Responsible AI (fairness, transparency, accountability, privacy); E = Ecosystemic Safe AI (content authenticity and provenance, misuse resistance)",
+      "page": "4",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Mentions agent-based AI as part of complex AI systems context.",
+      "excerpt": "complex systems that integrate various AI modules, such as traditional machine learning, LLMs, and Agent-based AI",
+      "page": "9",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated/high-stakes domains are referenced but not studied empirically in excerpt.",
+      "excerpt": "from personalized medical diagnosis to autonomous transport",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Publication is an arXiv preprint dated May 2026.",
+      "excerpt": "arXiv:2408.12935v4 [cs.AI] 13 May 2026",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

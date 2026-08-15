@@ -1,0 +1,188 @@
+{
+  "bibliographic": {
+    "title": "CodeHelp: Using Large Language Models with Guardrails for Scalable Support in Programming Classes",
+    "authors": "Mark Liffiton; Brad Sheese; Jaromir Savelka; Paul Denny",
+    "year": "2023",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Liffiton, M., Sheese, B., Savelka, J., & Denny, P. (2023). CodeHelp: Using large language models with guardrails for scalable support in programming classes. arXiv preprint arXiv:2308.06921."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "design_and_deployment_evaluation",
+    "study_design": "single_course_field_deployment_with_usage_and_perception_analysis",
+    "sample_description": "First-year computer and data science course; student interactions collected over 12 weeks",
+    "sample_size": "52 students",
+    "sector": "higher_education_computing",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-powered on-demand programming assistance tool (CodeHelp) with guardrails, prompting pipeline, and instructor-facing observability features"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "borderline",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_CONVERSATIONAL_SYSTEM",
+      "GUARDRAILS_PRESENT",
+      "EDUCATION_CONTEXT",
+      "EMPIRICAL_DEPLOYMENT"
+    ],
+    "exclusion_codes": [
+      "LIMITED_GOVERNANCE_ACCOUNTABILITY_FOCUS",
+      "NO_REGULATED_COMPLIANCE_FRAMEWORK"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article clearly addresses an LLM-based interactive support system with explicit guardrails and instructor review/observability in an educational deployment, which is partially aligned with conversational operational governance. However, the provided text emphasizes scalable student support and pedagogical guardrails rather than governance, accountability, audit/compliance, contestation, or regulated high-stakes controls central to the review scope.",
+    "decision_confidence": 0.68,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Borderline fit: strong LLM, conversational assistance, and guardrails signals, but no explicit governance/accountability/compliance framing in the supplied text; full-text sections on instructor oversight, logging, and limitations were not provided."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal is based only on front matter and partial excerpts. Deployment parameters (52 students, 12 weeks) are clear, but detailed methods, analysis procedures, ethics approval, and limitations are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "The study appears internally coherent for evaluating an educational LLM support tool, but supplied evidence is insufficient to judge analysis rigor, ethics, and limitations. Relevance to conversational governance in regulated environments is indirect, mainly via guardrails and instructor oversight."
+  },
+  "coding": {
+    "open_codes": [
+      "guardrails",
+      "prompting_pipeline",
+      "student_over_reliance_mitigation",
+      "instructor_observability",
+      "programming_tutoring",
+      "on_demand_llm_support",
+      "educational_deployment"
+    ],
+    "axial_codes": [
+      "technical_output_constraints",
+      "human_supervision_by_instructor",
+      "scalable_conversational_assistance"
+    ],
+    "theme": "Guardrailed LLM assistance for programming education",
+    "subtheme": "Instructor-visible conversational support with solution-avoidance controls",
+    "concepts": [
+      "guardrails",
+      "prompting strategies",
+      "instructor observe/summarise/review",
+      "solution non-disclosure",
+      "usage patterns",
+      "student perceptions"
+    ],
+    "model_layers": [
+      "application_interface",
+      "llm_completion_workflow",
+      "prompting_guardrails",
+      "instructor_oversight"
+    ],
+    "rq_alignment": [
+      "operational_technical_governance",
+      "human_oversight_contestation",
+      "conversational_ai"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "CodeHelp is an LLM-powered tool with guardrails that provides scalable on-demand programming help without directly revealing solutions, and a 12-week deployment with 52 students suggests positive student reception and instructor usability.",
+    "contribution": "Offers a concrete design for guardrailed LLM educational support, including prompting strategies and instructor-facing features to observe and review student interactions.",
+    "limitations": "Supplied text does not provide full methodological detail, ethics information, or explicit governance/compliance mechanisms; single-course sample limits generalizability.",
+    "use_in_review": "Potentially useful as borderline/supporting evidence on guardrails and instructor oversight in LLM conversational tutoring, but weak direct evidence for governance, accountability, audit, or regulated compliance."
+  },
+  "evidence": [
+    {
+      "claim": "Identifies CodeHelp as an LLM tool with guardrails for programming support",
+      "excerpt": "we introduce CodeHelp, a novel LLM-powered tool designed with guardrails to provide on-demand assistance to programming students without directly revealing solutions",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Reports empirical deployment in a first-year course with 52 students over 12 weeks",
+      "excerpt": "we deployed it in a first-year computer and data science course with 52 students and collected student interactions over a 12-week period",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study objective includes examining usage patterns and perceptions",
+      "excerpt": "We examine students’ usage patterns and perceptions of the tool, and we report reflections from the course instructor",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Guardrails are designed to mitigate over-reliance by avoiding direct solutions",
+      "excerpt": "A key contribution of CodeHelp is its use of robust “guardrails” that are specifically designed to not reveal solutions directly while helping students resolve their issues",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Tool includes instructor features to observe, summarise, and review student interactions",
+      "excerpt": "useful features for instructors, including the ability to observe, summarise, and review how their stude",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Uses prompting strategies to guide students without producing answers directly",
+      "excerpt": "elaborate on the LLM prompting strategies that we use to generate outputs that guide students towards a solution without producing answers directly",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Positions work as evaluation of an always-available LLM-powered teaching assistant",
+      "excerpt": "this work represents the first evalua- tion of an always-available LLM-powered teaching assistant",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Publication is an arXiv 2023 preprint",
+      "excerpt": "arXiv:2308.06921v1 [cs.CY] 14 Aug 2023",
+      "page": "1",
+      "section": "introduction",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Conversational assistance is on-demand and real-time for programming students",
+      "excerpt": "an LLM-powered tool for generating real-time help for programming and computer sci- ence students",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Workflow includes LLM completion steps",
+      "excerpt": "CodeHelp’s response workflow. Steps using a large language model completion are tagged LLM.",
+      "page": "5",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No explicit governance, accountability, compliance, or audit framework is stated in supplied text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

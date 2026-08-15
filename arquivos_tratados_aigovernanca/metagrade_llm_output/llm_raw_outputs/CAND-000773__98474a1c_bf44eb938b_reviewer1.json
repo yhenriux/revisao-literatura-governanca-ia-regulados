@@ -1,0 +1,197 @@
+{
+  "bibliographic": {
+    "title": "Reliable, Adaptable, and Attributable Language Models with Retrieval",
+    "authors": "Akari Asai; Zexuan Zhong; Danqi Chen; Pang Wei Koh; Luke Zettlemoyer; Hannaneh Hajishirzi; Wen-tau Yih",
+    "year": "2023",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Asai, A., Zhong, Z., Chen, D., Koh, P. W., Zettlemoyer, L., Hajishirzi, H., & Yih, W. (2023). Reliable, adaptable, and attributable language models with retrieval [Preprint]."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "position paper with narrative review of prior empirical literature and roadmap proposal",
+    "study_design": "conceptual position paper advocating retrieval-augmented LMs over parametric LMs, reviewing prior findings and outlining a development roadmap",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "retrieval-augmented language models (RAG), parametric large language models (GPT-4, GPT-3, ChatGPT), datastores, retrievers, NLP applications including question answering and machine translation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "RAG",
+      "LLM",
+      "attribution",
+      "verifiability",
+      "technical_architecture"
+    ],
+    "exclusion_codes": [
+      "no_conversational_governance",
+      "no_regulated_domain",
+      "no_compliance_oversight_framework"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "Position paper focused on retrieval-augmented LMs for reliability, adaptability, and attribution rather than conversational governance, human oversight, compliance, or regulated-domain deployment. Relevant as foundational technical context for RAG and attributable outputs, but does not directly address governança conversacional in high-stakes regulated environments.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage scored borderline_manual (60.67/100, grade C); paper overlaps on RAG/LLM/attribution but lacks governance, accountability, and regulated-context evidence."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Clear position-paper objective and structured roadmap, but no primary empirical study, no systematic review protocol, and no regulated or conversational governance context described in provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internally coherent conceptual argument with cited prior work, but limited adequacy and relevance for a review on conversational governance in regulated LLM systems because the text addresses RAG architecture and LM weaknesses, not oversight, compliance, or sector-specific governance."
+  },
+  "coding": {
+    "open_codes": [
+      "retrieval_augmented_generation",
+      "hallucination_reduction",
+      "attribution",
+      "verifiability",
+      "data_opt_out",
+      "infrastructure_scaling",
+      "retriever_lm_interaction"
+    ],
+    "axial_codes": [
+      "knowledge_grounding",
+      "technical_reliability",
+      "model_architecture"
+    ],
+    "theme": "Retrieval-augmented language models",
+    "subtheme": "Reliability, adaptability, and attribution via retrieval",
+    "concepts": [
+      "parametric LMs",
+      "retrieval-augmented LMs",
+      "RAG",
+      "hallucinations",
+      "verifiability",
+      "attributable outputs",
+      "data opt-in/opt-out",
+      "retriever-LM interaction"
+    ],
+    "model_layers": [
+      "retrieval layer",
+      "datastore",
+      "inference-time augmentation",
+      "LM parameters"
+    ],
+    "rq_alignment": [
+      "partial alignment with knowledge/technical grounding and attribution mechanisms; no direct alignment with conversational governance, human oversight, audit, or regulated compliance"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Retrieval-augmented LMs should replace parametric LMs as the next generation of language models because incorporating large-scale datastores at inference can make models more reliable, adaptable, and attributable.",
+    "contribution": "Advocates a roadmap for general-purpose retrieval-augmented LMs covering datastore/retriever redesign, improved retriever-LM interaction pipelines, and infrastructure investment; synthesizes prior evidence that RAG reduces factual errors, improves attribution, and supports adaptivity and data opt-out.",
+    "limitations": "Current retrieval-augmented LMs struggle beyond knowledge-intensive tasks, have limited retriever-LM interaction, and lack scaling infrastructure; merely scaling parametric models has been insufficient to overcome fundamental weaknesses.",
+    "use_in_review": "Use as foundational contextual evidence for RAG as a technical mechanism supporting reliability and attribution in LLM systems; not suitable as central evidence for conversational governance, human oversight, compliance, or regulated-domain deployment."
+  },
+  "evidence": [
+    {
+      "claim": "Publication is a preprint position paper, not a peer-reviewed empirical study.",
+      "excerpt": "Preprint. Work in progress.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Paper advocates retrieval-augmented LMs for reliability, adaptability, and attribution.",
+      "excerpt": "we advocate for retrieval-augmented LMs to replace parametric LMs as the next generation of LMs",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Identified weaknesses of parametric LMs include factual errors, verification difficulty, and data opt-out concerns.",
+      "excerpt": "W1: the prevalence of factual errors",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Paper references specific large language models including GPT-4 and ChatGPT.",
+      "excerpt": "Large language models (LMs) such as GPT-4",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "RAG is defined as integrating retrieval on top of existing parametric LMs such as GPT-3.",
+      "excerpt": "integrate retrieval on top of existing powerful parametric LMs (e.g., GPT-3",
+      "page": "3",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "RAG has been integrated into real-world LLM search systems.",
+      "excerpt": "RAG has been integrated into real-world applica- tions such as LLM search systems",
+      "page": "3",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Retrieval-augmented LMs can provide better attributions compared to parametric LMs.",
+      "excerpt": "Better attributions",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Paper discusses limited interaction between retrieval and LM components as an obstacle.",
+      "excerpt": "have limited interaction between re- trieval and LM components",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Roadmap proposes improved retriever-LM interaction and infrastructure investment.",
+      "excerpt": "exploration of pipelines with improved retriever-LM interaction",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No regulated-domain context (health, finance, legal, public sector) is present in provided text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Paper reviews prior empirical findings on effectiveness of retrieval-augmented LMs rather than conducting new primary data collection.",
+      "excerpt": "We now review some empirical findings from prior studies",
+      "page": "3",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Privacy-related concern appears via difficulty of opting out certain sequences.",
+      "excerpt": "W3: difficulty of opting out certain sequences with concerns",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    }
+  ]
+}

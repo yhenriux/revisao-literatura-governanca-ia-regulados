@@ -1,0 +1,168 @@
+{
+  "bibliographic": {
+    "title": "Expert perspectives on the ecosystem of medical AI oversight in the GenAI era",
+    "authors": "Stephen Gilbert; Tinglong Dai",
+    "year": "2026",
+    "venue": "npj Digital Medicine (News & Views)",
+    "doi": "10.1038/s41746-026-02785-1",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Gilbert, S., & Dai, T. (2026). Expert perspectives on the ecosystem of medical AI oversight in the GenAI era. npj Digital Medicine. https://doi.org/10.1038/s41746-026-02785-1"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "expert interview / editorial perspective",
+    "study_design": "edited expert interview (third article in a three-part interview series)",
+    "sample_description": "Single expert interview with Dr Shantanu Nundy, advisor in the FDA Commissioner's Office on AI governance and digital health policy",
+    "sample_size": "1",
+    "sector": "healthcare / medical AI regulation",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "generative AI (GenAI) and large language model (LLM)-enabled medical devices; wellness and LLM-enabled health technologies; AI tools in electronic health records and clinical practice"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_GenAI",
+      "AI_governance",
+      "regulated_health",
+      "multi_stakeholder_oversight",
+      "FDA_policy_context"
+    ],
+    "exclusion_codes": [
+      "limited_conversational_ai_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The text directly addresses AI governance and oversight of GenAI/LLM-enabled medical devices in a regulated health context, with multi-actor responsibility split across government, health systems, and clinicians. It does not substantively address conversational AI systems, chatbots, dialogue governance, or operational controls such as guardrails, logging, or human contestation; the only dialogue reference concerns FDA engagement channels for innovators.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Conversational-AI relevance is weak (single non-technical use of 'dialogue'); confirm whether governance-of-LLM-medical-devices without conversational focus meets review inclusion criteria."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "News & Views expert-interview format provides clear policy-oriented perspectives but rests on a single informant, edited narrative, and no formal qualitative or empirical analysis. Useful for governance framing, not for conversational-system implementation evidence."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The interview narrative is internally coherent and clearly scoped to medical AI oversight in the GenAI era, but evidence adequacy is limited by a single expert source, absence of systematic data collection, and no direct treatment of conversational governance mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "multi_actor_oversight",
+      "FDA_minimum_standard_floor",
+      "deployment_monitoring_by_health_systems",
+      "system_level_regulation",
+      "clinician_responsibility",
+      "algorithmic_audit_proposals",
+      "early_FDA_engagement"
+    ],
+    "axial_codes": [
+      "distributed_AI_governance",
+      "regulated_medical_LLM_oversight",
+      "post_authorization_operational_responsibility"
+    ],
+    "theme": "Ecosystem governance for LLM-enabled medical AI",
+    "subtheme": "Shared oversight between regulators, health systems, and clinicians",
+    "concepts": [
+      "AI governance",
+      "oversight",
+      "LLM-enabled medical devices",
+      "generative AI",
+      "FDA regulation",
+      "health systems",
+      "clinician responsibility",
+      "system-level regulation"
+    ],
+    "model_layers": [
+      "policy_regulatory_layer",
+      "organizational_deployment_layer",
+      "clinical_practice_layer"
+    ],
+    "rq_alignment": [
+      "multi_stakeholder_governance",
+      "regulated_LLM_context",
+      "human_oversight_in_health"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Oversight of GenAI and LLM-enabled medical devices exceeds any single regulator's remit and requires coordinated governance among government agencies, health systems, and practicing clinicians, with FDA authorization setting a safety/effectiveness floor rather than deployment and monitoring decisions.",
+    "contribution": "Provides expert regulatory perspective on how AI governance responsibilities are distributed across FDA, health systems, clinicians, payers, and potentially additional oversight bodies in the GenAI medical-device context.",
+    "limitations": "Single expert interview; personal views not official FDA policy; US health-regulatory focus; no empirical evaluation; minimal coverage of conversational AI or operational governance mechanisms.",
+    "use_in_review": "Use as supporting evidence for distributed governance and regulated-health oversight of LLM-enabled systems; not suitable as central evidence for conversational governance architecture or operational controls."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on GenAI/LLM medical-device oversight and multi-actor governance",
+      "excerpt": "we explore how the oversight of generative AI (GenAI) and large language model (LLM)-enabled medical devices extends beyond the remit of any single regulator, requiring coordination among government agencies, health systems, and practicing clinicians",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses expert interview methodology with one FDA advisor",
+      "excerpt": "We had a wide-ranging discussion with Dr Shantanu Nundy in early February 2026, in which we discussed the latest developments and practical challenges to the regulation of wellness and LLM-enabled health technologies",
+      "page": "1",
+      "section": "discussion",
+      "supports": "methodology"
+    },
+    {
+      "claim": "AI governance responsibilities are split across government and clinical practice",
+      "excerpt": "how the responsibilities for AI governance are split between government and its agencies, and the practice of medicine, spanning the health systems and medical practitioners who work within them, directly using AI tools in the treatment of their patients",
+      "page": "1",
+      "section": "discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "FDA sets minimum standard; deployment and monitoring sit elsewhere",
+      "excerpt": "FDA has a crucial role, but I think of device authorization or approval as providing the floor, not the ceiling. FDA can say that a product has met a minimum standard of safety and effectiveness. But decisions about whether to deploy it, how to deploy it, how to monitor it in practice, and how to optimize its use sit with health systems, clinicians, payers, and potentially additional oversight bodies",
+      "page": "1",
+      "section": "discussion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "System-level regulation and algorithmic audit are discussed",
+      "excerpt": "the in-progress US Algorithm Accountability Act (AAA)3, which is in various different iterations through Congress, and has included proposals for algorithmic audit and oversight of AI in hospitals",
+      "page": "1",
+      "section": "discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Views are personal and not official FDA policy",
+      "excerpt": "Because he is a contractor, not a federal employee, the views expressed here are his own and should not be interpreted as official FDA policy",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Dialogue reference concerns FDA engagement, not conversational AI",
+      "excerpt": "the FDA's scientists and reviewers welcome early engagement, and the agency offers multiple formal and informal channels for dialogue",
+      "page": "2",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated health domain is explicit",
+      "excerpt": "regulation of wellness and LLM-enabled health technologies",
+      "page": "1",
+      "section": "discussion",
+      "supports": "methodology"
+    }
+  ]
+}

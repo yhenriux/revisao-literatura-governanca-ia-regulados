@@ -1,0 +1,162 @@
+{
+  "bibliographic": {
+    "title": "ChatGPT in medicine: an overview of its applications, advantages, limitations, future prospects, and ethical considerations",
+    "authors": "Tirth Dave, Sai Anirudh Athaluri, Satyam Singh",
+    "year": "2023",
+    "venue": "Frontiers in Artificial Intelligence",
+    "doi": "10.3389/frai.2023.1169595",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Dave, T., Athaluri, S. A., & Singh, S. (2023). ChatGPT in medicine: An overview of its applications, advantages, limitations, future prospects, and ethical considerations. Frontiers in Artificial Intelligence, 6, 1169595. https://doi.org/10.3389/frai.2023.1169595"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "mini narrative review",
+    "study_design": "mini review overview",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "ChatGPT (GPT family language model), virtual assistants, natural language processing in medical and healthcare domains"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "conversational_ai",
+      "regulated_healthcare",
+      "ethics_governance_mentions"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Mini review focused on ChatGPT applications, limitations, and ethical considerations in medicine. Relevant as supporting evidence for regulated healthcare use of conversational LLMs and transparency/legal concerns, but provided text does not substantiate operational conversational governance mechanisms (guardrails, audit, oversight workflows).",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter (page 1) was supplied; full-text review needed to verify depth of governance, oversight, monitoring, and compliance content beyond ethical overview."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 1,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 2,
+    "results_clarity": 1,
+    "limitations_transparency": 2,
+    "evidence_support": 1,
+    "transferability": 2,
+    "notes": "Peer-reviewed mini review with clear stated scope in abstract. No search strategy, inclusion criteria, or systematic synthesis method is visible in the provided excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "Abstract and introduction coherently frame ChatGPT medical applications and ethical/legal risks, but governance-operational content is thin in the supplied text and review methodology is not described."
+  },
+  "coding": {
+    "open_codes": [
+      "ChatGPT",
+      "healthcare applications",
+      "virtual assistants",
+      "ethical considerations",
+      "legal concerns",
+      "transparency",
+      "medico-legal complications",
+      "copyright infringement"
+    ],
+    "axial_codes": [
+      "LLM deployment in regulated healthcare",
+      "ethics and legal risk framing",
+      "patient-facing conversational assistance"
+    ],
+    "theme": "Generative LLM use in medicine",
+    "subtheme": "Ethical and legal considerations of ChatGPT in healthcare",
+    "concepts": [
+      "transparency",
+      "accountability",
+      "medico-legal risk",
+      "virtual assistants",
+      "AI-generated content"
+    ],
+    "model_layers": [
+      "application layer",
+      "unclear"
+    ],
+    "rq_alignment": [
+      "regulated healthcare context",
+      "ethics and transparency in LLM use",
+      "limited operational governance evidence"
+    ],
+    "coding_confidence": 0.65
+  },
+  "synthesis": {
+    "main_claim": "ChatGPT offers broad potential medical and healthcare applications, including virtual assistants for patients, but its use raises ethical and legal concerns such as copyright infringement, medico-legal complications, and the need for transparency in AI-generated content.",
+    "contribution": "Provides a peer-reviewed overview of ChatGPT applications, advantages, limitations, future prospects, and ethical considerations specifically in medicine and healthcare.",
+    "limitations": "Supplied text is limited to page 1; no review methodology, governance framework, or operational controls are evidenced. Claims about detailed ethical analysis are asserted but not demonstrated in the excerpt.",
+    "use_in_review": "Use as supporting contextual evidence on ChatGPT in regulated healthcare and high-level ethical/legal transparency concerns; not suitable as central evidence for conversational governance mechanisms without full-text confirmation."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a peer-reviewed mini review in Frontiers in Artificial Intelligence (2023).",
+      "excerpt": "TYPE Mini Review PUBLISHED 04 May 2023 DOI 10.3389/frai.2023.1169595",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study focuses specifically on ChatGPT in healthcare/medicine.",
+      "excerpt": "This paper presents an analysis of the advantages, limitations, ethical considerations, future prospects, and practical applications of ChatGPT and artificial intelligence (AI) in the healthcare and medical domains.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "ChatGPT is characterized as a specific large publicly available GPT language model.",
+      "excerpt": "ChatGPT is an advanced language model that uses deep learning techniques to produce human-like responses to natural language inputs.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Includes conversational/patient-facing assistant application context.",
+      "excerpt": "The development of virtual assistants to aid patients in managing their health is another important application of ChatGPT in medicine.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Raises ethical and legal concerns relevant to governance discourse.",
+      "excerpt": "the use of ChatGPT and other AI tools in medical writing also poses ethical and legal concerns.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Mentions transparency as an ethical requirement.",
+      "excerpt": "These include possible infringement of copyright laws, medico-legal complications, and the need for transparency in AI-generated content.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Acknowledges limitations and ethical considerations as core outputs.",
+      "excerpt": "However, these applications come with several limitations and ethical considerations which are presented in detail along with future prospects in medicine and healthcare.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No systematic review methodology is evidenced in the provided text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

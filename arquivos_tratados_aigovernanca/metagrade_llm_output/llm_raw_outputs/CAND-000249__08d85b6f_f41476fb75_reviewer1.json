@@ -1,0 +1,197 @@
+{
+  "bibliographic": {
+    "title": "Observability for LLM apps: what to log, privacy-safe telemetry, KPIs",
+    "authors": "Prasad Maderamitla; Subba Rao Katragadda",
+    "year": "2026",
+    "venue": "Frontiers in Computer Science and Artificial Intelligence",
+    "doi": "10.32996/fcsai",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Maderamitla, P., & Katragadda, S. R. (2026). Observability for LLM apps: what to log, privacy-safe telemetry, KPIs. Frontiers in Computer Science and Artificial Intelligence. https://doi.org/10.32996/fcsai"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual framework development drawing on software observability and MLOps best practices",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "enterprise software",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM applications with conversational interfaces, intelligent assistants, decision-support systems, tool invocation, retrieval systems, and orchestration pipelines; observability via logs, metrics, traces, and privacy-safe telemetry"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_APPLICATIONS",
+      "OBSERVABILITY_LOGGING_TRACING",
+      "AI_SYSTEM_GOVERNANCE",
+      "PRIVACY_SAFE_TELEMETRY",
+      "OPERATIONAL_KPIS",
+      "REGULATED_CONTENT_CONTEXT"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses observability, auditable logging, privacy-preserving telemetry, and operational KPIs for LLM applications, explicitly linking these practices to governance risks, safety compliance, and enterprise deployment. It proposes a model-agnostic observability framework with interaction, execution, performance, and safety layers, which aligns closely with the review focus on operational/technical governance, monitoring, auditability, privacy, and compliance in LLM-based systems.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter/page 1 text was provided; full methods, KPI definitions, framework validation, limitations, and regulated-domain treatment require manual verification. Metadata also shows inconsistent DOI values (10.32996/fcsai vs 10.32996/jcsts.2026.5.4.2)."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Based on available text, the study is a conceptual framework paper rather than an empirical evaluation. Objectives are clearly stated, and privacy-by-design considerations are articulated, but no empirical sample, data collection protocol, analytical procedure, or limitations section is visible in the excerpt provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The abstract and introduction present a coherent governance-relevant observability framework for LLM apps, but confidence is limited because only page 1 was supplied, no empirical validation is described, and adequacy of the proposed KPI set and privacy controls cannot be fully assessed from the excerpt."
+  },
+  "coding": {
+    "open_codes": [
+      "observability",
+      "logs_metrics_traces",
+      "privacy_safe_telemetry",
+      "metadata_centric_logging",
+      "selective_redaction",
+      "controlled_access",
+      "operational_KPIs",
+      "governance_risks",
+      "safety_compliance",
+      "enterprise_deployment",
+      "conversational_interfaces",
+      "regulated_content"
+    ],
+    "axial_codes": [
+      "operational_technical_governance",
+      "auditability_and_monitoring",
+      "privacy_and_security_controls",
+      "LLM_application_reliability"
+    ],
+    "theme": "Model-agnostic observability and governance-oriented telemetry for LLM applications",
+    "subtheme": "Privacy-preserving logging and operational KPI design for enterprise LLM systems",
+    "concepts": [
+      "auditable data selection",
+      "privacy-preserving telemetry construction",
+      "operational KPI definition",
+      "interaction layer",
+      "execution layer",
+      "performance layer",
+      "safety layer",
+      "semantic correctness",
+      "behavioral consistency",
+      "privacy by design"
+    ],
+    "model_layers": [
+      "interaction layer",
+      "execution layer",
+      "performance layer",
+      "safety layer"
+    ],
+    "rq_alignment": [
+      "observability",
+      "logging",
+      "tracing",
+      "monitoring",
+      "audit",
+      "privacy",
+      "compliance",
+      "governance",
+      "risk control",
+      "post-deployment operational governance"
+    ],
+    "coding_confidence": 0.84
+  },
+  "synthesis": {
+    "main_claim": "Traditional software observability is inadequate for LLM applications because probabilistic behavior, prompt dependency, and complex orchestration make semantic correctness, behavioral consistency, and governance risks hard to monitor; the authors propose a conceptual, model-agnostic observability framework covering auditable data selection, privacy-preserving telemetry, and LLM-specific operational KPIs.",
+    "contribution": "Provides a structured framework for what to log in LLM apps, how to build privacy-safe telemetry, and which operational KPIs to track across interaction, execution, performance, and safety layers to support fault detection, cost management, reliability, and enterprise implementation.",
+    "limitations": "unclear",
+    "use_in_review": "Use as central evidence for the operational governance strand on observability, logging, telemetry, auditability, privacy-safe monitoring, and KPI-based oversight of LLM applications in regulated or enterprise contexts; pair with empirical implementation studies because this source appears conceptual in the material provided."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses specifically on LLM applications and enterprise conversational use cases.",
+      "excerpt": "Large Language Model (LLM) applications increasingly form an integral part of enterprise software architecture, enabling conversational interfaces, intelligent assistant applications, and autonomous decision-support systems.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Traditional observability is insufficient for governance and semantic monitoring of LLMs.",
+      "excerpt": "The traditional approach to observability, relying on logs, metrics, and traces, is found to be inadequate to measure semantic correctness, behavioral consistency, and governance risks associated with LLM applications.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Study proposes a conceptual observability framework from three viewpoints.",
+      "excerpt": "This study explores the concept of observability in large language model (LLM) applications from three different viewpoints: auditable data selection, privacy-preserving telemetry construction, and meaningful operational key performance indicator (KPI) definition.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Framework is model-agnostic and organized into four layers.",
+      "excerpt": "the study proposes a conceptual framework for model-agnostic observability in LLMs that covers the interaction layer, execution layer, performance layer, and safety layer.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Privacy-by-design telemetry practices are central.",
+      "excerpt": "the study focuses on the application of privacy by design, including metadata-centric logging, selective redaction, and controlled access to telemetry data.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Operational KPIs include reliability, efficiency, output quality, and safety compliance.",
+      "excerpt": "this paper introduces a well- defined set of operational key performance indicators (KPIs) specific to large language model (LLM) applications, including reliability, performance efficiency, measures of output quality, and safety compliance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Keywords explicitly tie the work to AI system governance.",
+      "excerpt": "KEYWORDS Large Language Models (LLMs), Observability, Privacy-Safe Telemetry, Operational Key Performance Indicators (KPIs), AI System Governance",
+      "page": "1",
+      "section": "keywords",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM apps may handle regulated or sensitive content, raising governance concerns.",
+      "excerpt": "Large Language Model (LLM) applications often need to manage user data, confidential information, and regulated content. This raises significant concerns",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research type is framework-oriented rather than empirical in the provided text.",
+      "excerpt": "Following the best practices of software observability and MLOps, the study proposes a conceptual framework for model-agnostic observability in LLMs",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Peer-reviewed journal publication in 2026.",
+      "excerpt": "ACCEPTED: 01 February 2026 PUBLISHED: 14 February 2026",
+      "page": "1",
+      "section": "article information",
+      "supports": "appraisal"
+    }
+  ]
+}

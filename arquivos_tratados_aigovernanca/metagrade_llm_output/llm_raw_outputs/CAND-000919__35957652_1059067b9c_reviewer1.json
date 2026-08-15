@@ -1,0 +1,228 @@
+{
+  "bibliographic": {
+    "title": "Consumers and Artificial Intelligence: An Experiential Perspective",
+    "authors": "Stefano Puntoni; Rebecca Walker Reczek; Markus Giesler; Simona Botti",
+    "year": "2018",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Puntoni, S., Walker Reczek, R., Giesler, M., & Botti, S. (2018). Consumers and artificial intelligence: An experiential perspective. [Venue unclear]."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual framework integrating sociological and psychological scholarship",
+    "study_design": "theoretical framework paper identifying four consumer experience types with illustrative examples",
+    "sample_description": "no empirical sample; uses illustrative consumer anecdotes and secondary examples",
+    "sample_size": "unclear",
+    "sector": "consumer marketing and technology marketing",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "consumer-facing AI including wearables, recommender systems, smart household products, voice-activated virtual assistants, chatbots, and social AI interactions"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "conceptual_framework",
+      "conversational_ai_social_experience",
+      "accountability_bias_privacy_themes"
+    ],
+    "exclusion_codes": [
+      "not_llm_specific",
+      "not_regulated_governance_focus",
+      "pre_llm_technology_context"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper offers a pre-LLM conceptual framework for consumer interactions with AI, including chatbots and voice assistants, and discusses policy, privacy, discrimination, and trust. It does not address LLM-based conversational systems or operational governance mechanisms in regulated high-stakes deployments, so it is better treated as foundational contextual evidence than central evidence for the review.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python metadata mis-extracted the title; venue and peer-review status are unclear from the excerpt, and keyword overlap may overstate fit to LLM conversational governance in regulated settings."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Strong conceptual clarity and fit for a framework paper, but limited empirical sampling, transparent data collection, and direct operational governance evidence."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and adequately developed for consumer AI experiences, but methodological limitations are notable because claims rely on illustrative examples rather than systematic evidence, and relevance to LLM conversational governance in regulated environments is only partial."
+  },
+  "coding": {
+    "open_codes": [
+      "consumer experience",
+      "voice assistants",
+      "chatbots",
+      "social interaction with AI",
+      "privacy invasion",
+      "discrimination",
+      "alienation",
+      "policy avenues",
+      "trust",
+      "anthropomorphism"
+    ],
+    "axial_codes": [
+      "social conversational AI experiences",
+      "consumer costs of AI deployment",
+      "bias and accountability in automated interactions",
+      "managerial and policy responses"
+    ],
+    "theme": "Experiential costs and benefits of consumer-facing AI",
+    "subtheme": "Social experiences with chatbots and voice assistants",
+    "concepts": [
+      "data-capture",
+      "classification",
+      "delegation",
+      "social experience",
+      "reactance",
+      "alienation",
+      "anthropomorphic cues"
+    ],
+    "model_layers": [
+      "experience typology",
+      "consumer-firm interaction",
+      "policy and managerial implications",
+      "future research agenda"
+    ],
+    "rq_alignment": [
+      "conversational_ai_consumer_interaction",
+      "accountability_bias_transparency_trust",
+      "regulated_context_examples_healthcare_education"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Consumer interactions with AI create experiential value and costs across four types of experiences—data-capture, classification, delegation, and social—and organizations should address social and individual challenges rather than treating AI only as a neutral efficiency tool.",
+    "contribution": "Provides a parsimonious experiential framework for understanding chatbots, voice assistants, and other consumer AI interactions, linking them to policy and managerial responses around privacy, discrimination, replacement, and alienation.",
+    "limitations": "Conceptual agenda-setting paper without systematic empirical testing; additional consumer experiences remain uncharted; technology context predates LLMs and does not specify operational governance controls.",
+    "use_in_review": "Use as foundational contextual background on social conversational AI experiences, consumer trust/accountability concerns, and high-level policy implications; not as primary evidence on LLM conversational governance, guardrails, observability, audit, or compliance in regulated deployments."
+  },
+  "evidence": [
+    {
+      "claim": "Correct bibliographic title and authors",
+      "excerpt": "Consumers and Artificial Intelligence: An Experiential Perspective STEFANO PUNTONI REBECCA WALKER RECZEK MARKUS GIESLER SIMONA BOTTI",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Paper is tied to a 2018 MSI Scholars conference opportunity",
+      "excerpt": "The authors thank Carl Mela and the Marketing Science Institute for organizing the 2018 MSI Scholars conference that provided the opportunity to work together on this project",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research is conceptual and aims to bridge technical and social perspectives",
+      "excerpt": "this approach does not consider the social and individual challenges that can occur when AI is deployed. This research aims to bridge these two perspectives",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Framework identifies four consumer experience types",
+      "excerpt": "we identify four types of consumer experiences with AI: (1) data-capture, (2) classification, (3) delegation, and (4) social.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Discusses policy and managerial avenues",
+      "excerpt": "This approach allows us to discuss policy and managerial avenues to address the ways in which consumers may fail to experience value",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Includes voice-activated virtual assistants as a consumer AI context",
+      "excerpt": "convenience with voice-activated virtual assistants.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Keywords include privacy and discrimination",
+      "excerpt": "Keywords: artificial intelligence, AI, customer experience, technology marketing, Internet of Things, privacy, discrimination, replacement, alienation",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Examples span health monitoring and voice assistants",
+      "excerpt": "health monitoring with wearable devices, advice with recommender systems, peace of mind with smart household products, and convenience with voice-activated virtual assistants.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Social experience includes known AI voice assistants and organizational chatbots",
+      "excerpt": "when consumers know at the outset that the interaction partner is an AI, such as when using a voice assistant like Apple’s Siri, and when they interact with an AI representing an organization without necessarily knowing initially that it is non-human, such as when receiving customer service from an automated chatbot.",
+      "page": "31",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Anthropomorphic cues affect trust and perceived risk in virtual assistant interactions",
+      "excerpt": "anthropomorphic cues increase trust towards self-driving cars (Waytz, Heafner, and Epley 2014) and reduce perceived risk when consumers are in a position of power (Kim and McGill 2011), as when they interact with a virtual assistant.",
+      "page": "32",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Failed chatbot service can alienate consumers",
+      "excerpt": "The first type can occur with any failed automated customer service, as exemplified in this exchange between a customer and chatbot UX Bear",
+      "page": "34",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Chatbots can reproduce societal discrimination, exemplified by Tay",
+      "excerpt": "chatbots programmed without considering how existing discrimination in society may affect their operation, such as when Tay, a Twitter bot by Microsoft, began offering white supremacist answers to users soon after its launch",
+      "page": "35",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Personal virtual assistants can reflect sexist cultural narratives",
+      "excerpt": "The cultural narratives of oppression and discrimination underlying this example are even more apparent in the context of personal virtual assistants.",
+      "page": "35",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Framework applies to personal virtual assistants among other contexts",
+      "excerpt": "Our framework offers a parsimonious template to conceptualize how consumers navigate the disparate consumption contexts powered by AI, including social media, online shopping, and personal virtual assistants.",
+      "page": "41",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Conclusion positions chatbots among consumer-facing AI heralded as social good",
+      "excerpt": "Consumer-facing AI products and services such as college application software, chatbots, and knowledge aggregators have been heralded as forces for good",
+      "page": "44",
+      "section": "conclusion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Privacy failure in conversational device use illustrates data-capture reactance",
+      "excerpt": "When one of her Alexas recorded a private conversation and sent it to a random number in her address book, Danielle said “I felt invaded,”",
+      "page": "9",
+      "section": "unclear",
+      "supports": "coding"
+    }
+  ]
+}

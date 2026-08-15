@@ -1,0 +1,201 @@
+{
+  "bibliographic": {
+    "title": "Generative AI as interactional infrastructure for meaning-centered care in later life",
+    "authors": "Bing Chen and An-Yue Jin",
+    "year": "2026",
+    "venue": "Frontiers in Psychiatry",
+    "doi": "10.3389/fpsyt.2026.1883962",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Chen, B., & Jin, A.-Y. (2026). Generative AI as interactional infrastructure for meaning-centered care in later life. Frontiers in Psychiatry, 17, 1883962. https://doi.org/10.3389/fpsyt.2026.1883962"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "perspective article with conceptual framework synthesis",
+    "study_design": "theoretical perspective proposing Sensing-Narrating-Connecting-Governing framework",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "mental health and public mental health for older adults",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "GenAI and LLMs as conversational, multimodal digital mental health applications including chatbots, triage, clinical decision support, and AI-augmented psychological interventions in hospital and community care settings"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "conversational_ai",
+      "governance_accountability",
+      "human_oversight",
+      "regulated_healthcare",
+      "conceptual_framework"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Perspective article directly addressing GenAI/LLMs as conversational mental health infrastructure, explicit human-supervised bounded deployment, and a Governing layer with safeguards for privacy, hallucination, dependency, crisis escalation, and cultural adaptation in a regulated healthcare context for older adults.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front-matter and early sections were provided; full framework operationalization, governance mechanisms, and limitations sections may extend beyond supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Deliberately conceptual perspective, not empirical study. Authors state they do not assume current LLMs are ready to conduct psychotherapy. Framework draws on meaning-centered psychotherapy, dignity therapy, life review, gerotranscendence theory, care ethics, and implementation science. Appropriate for theoretical contribution but weak on operational governance implementation detail in supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 5,
+    "overall_confidence": "moderate",
+    "explanation": "Internally coherent conceptual framework with clear governance and human-supervision claims, but no empirical validation, deployment case, or detailed audit/monitoring protocols in the supplied text; confidence moderated by conceptual-only design."
+  },
+  "coding": {
+    "open_codes": [
+      "interactional infrastructure",
+      "meaning-centered care",
+      "human-supervised deployment",
+      "crisis escalation safeguards",
+      "privacy safeguards",
+      "hallucination risk",
+      "dependency risk",
+      "relational augmentation",
+      "life-review conversations",
+      "bounded deployment"
+    ],
+    "axial_codes": [
+      "governance safeguards",
+      "human oversight and escalation",
+      "conversational GenAI in mental health",
+      "regulated healthcare context",
+      "non-replacement principle"
+    ],
+    "theme": "Governance-oriented conceptual framing of conversational GenAI in regulated mental health for older adults",
+    "subtheme": "Sensing-Narrating-Connecting-Governing framework for meaning-centered care",
+    "concepts": [
+      "Sensing-Narrating-Connecting-Governing framework",
+      "interactional infrastructure",
+      "relational augmentation",
+      "existential well-being",
+      "therapeutic alliance",
+      "cultural adaptation"
+    ],
+    "model_layers": [
+      "Sensing",
+      "Narrating",
+      "Connecting",
+      "Governing"
+    ],
+    "rq_alignment": [
+      "governance of generative conversational AI",
+      "human supervision and escalation",
+      "risk and safety safeguards",
+      "regulated mental health deployment",
+      "accountability and bounded use"
+    ],
+    "coding_confidence": 0.84
+  },
+  "synthesis": {
+    "main_claim": "GenAI/LLMs should function as bounded, human-supervised interactional infrastructure for meaning-centered care in later life rather than as autonomous substitutes for clinicians, caregivers, or human presence.",
+    "contribution": "Proposes a Sensing-Narrating-Connecting-Governing framework that shifts evaluation from model performance toward existential well-being, dignity, continuity of self, therapeutic alliance, equity, workflow integration, and explicit safeguards.",
+    "limitations": "Conceptual rather than technological-determinist argument; authors do not assume current LLMs are ready to conduct psychotherapy or that multimodal sensing can infer meaning without human interpretation; supplied text does not provide empirical implementation or audit/tracing detail.",
+    "use_in_review": "Central conceptual evidence for governance-oriented conversational GenAI in regulated mental health, especially human supervision, escalation boundaries, and safeguard categories; useful for framework mapping but not for operational governance mechanisms or post-deployment monitoring practices."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a peer-reviewed journal perspective on GenAI and LLMs in mental health.",
+      "excerpt": "Generative artificial intelligence (GenAI) and large language models are rapidly entering mental health research and service delivery",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study type is conceptual perspective, not empirical evaluation.",
+      "excerpt": "This perspective argues that GenAI should not be conceptualized as an autonomous substitute for clinicians, nurses, social workers, or family caregivers.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Authors propose a four-layer governance-inclusive framework.",
+      "excerpt": "we propose a Sensing-Narrating-Connecting-Governing framework.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Framework includes explicit operational safeguards relevant to conversational AI governance.",
+      "excerpt": "operate under explicit safeguards for privacy, hallucination, dependency, crisis escalation, and cultural adaptation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Deployment must be bounded and human-supervised.",
+      "excerpt": "GenAI may contribute to public mental health only when deployed as a bounded, human-supervised, culturally responsive layer of relational augmentation rather than as a replacement for human presence.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Technology context includes conversational LLM applications.",
+      "excerpt": "GenAI can produce conversational responses, summarize complex narratives, generate psychoeducational content, and integrate text, speech, image, and behavioral signals into interactive applications.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Mental health chatbots and conversational systems are within scope.",
+      "excerpt": "this has stimulated interest in chatbots, digital triage, clinical decision support, simulated patients, risk monitoring, and AI-augmented psychological interventions.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated healthcare context is present via hospital affiliations and public mental health framing.",
+      "excerpt": "1Third Affiliated Hospital of Wenzhou Medical University, Wenzhou, China, 2Wenzhou Central Hospital, Wenzhou, China",
+      "page": "1",
+      "section": "front matter",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Authors reject autonomous psychotherapy use of current LLMs.",
+      "excerpt": "We do not assume that current LLMs are ready to conduct psychotherapy, nor that multimodal sensing can infer meaning without human interpretation.",
+      "page": "2",
+      "section": "limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Consumer-facing chatbot design is considered insufficient for regulated mental health use.",
+      "excerpt": "it also demands stronger boundaries than ordinary consumer-facing chatbot design.",
+      "page": "2",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "Meaning-centered care cannot be reduced to empathic chatbot questioning alone.",
+      "excerpt": "It is tempting to imagine that an empathic chatbot could deliver meaning-centered care simply by asking reflective questions. This would be a mistake.",
+      "page": "3",
+      "section": "Why meaning-centered care cannot be reduced to chatbot support",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Evaluation criteria extend beyond model performance to relational and ethical outcomes.",
+      "excerpt": "The proposed framework shifts evaluation from model performance alone toward existential well-being, dignity, continuity of self, therapeutic alliance, equity, and workflow integration.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

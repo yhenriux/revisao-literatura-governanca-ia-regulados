@@ -1,0 +1,166 @@
+{
+  "bibliographic": {
+    "title": "Whistleblowing in financial practice: a review of processes and impacts",
+    "authors": "Najla Al-Thani and Steven Wright",
+    "year": "2026",
+    "venue": "Frontiers in Sociology",
+    "doi": "10.3389/fsoc.2026.1725253",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Al-Thani, N., & Wright, S. (2026). Whistleblowing in financial practice: a review of processes and impacts. Frontiers in Sociology, 11, 1725253. https://doi.org/10.3389/fsoc.2026.1725253"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "theory-informed narrative synthesis within integrative review design",
+    "study_design": "integrative review with five-theory analytic framework (moral judgement, power dependence, expectancy, institutional, and network governance)",
+    "sample_description": "publications from 2000 to 2025 selected using relevance-based selection",
+    "sample_size": "unclear",
+    "sector": "financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "whistleblowing processes, outcomes, and cross-national policy effectiveness in financial services; brief mention of blockchain and generative AI as prospective reporting channels"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "llm_not_central",
+      "conversational_ai_not_addressed"
+    ],
+    "exclusion_reason": "The article is a critical integrative review of whistleblowing processes and impacts in financial services. Generative AI appears only as a brief prospective mention for identifying and reporting wrongdoing, not as the object of conversational or LLM governance analysis.",
+    "decision_rationale": "Although the text addresses governance, accountability, compliance, oversight, and regulated financial contexts, the central research object is whistleblowing behavior and protection policy, not governance of conversational or LLM-based systems. Keyword overlap with the review scope does not constitute substantive evidence on conversational AI governance.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "The mismatch between the article's central topic and the review scope is clear from the abstract, objectives, and the limited generative AI mention."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Appraisal reflects the whistleblowing review itself. Relevance-based selection from 2000 to 2025 is described, but the provided text does not report search strategy detail, inclusion counts, or PRISMA-style flow. Limitations are not visible in the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The study appears internally coherent as an integrative whistleblowing review, but its relevance to conversational governance in LLM-based regulated systems is very low because LLM content is peripheral and conversational systems are not addressed."
+  },
+  "coding": {
+    "open_codes": [
+      "whistleblowing",
+      "financial services",
+      "regulatory compliance",
+      "organizational culture",
+      "whistleblower protection",
+      "retaliation risk",
+      "cross-jurisdictional policy",
+      "network governance",
+      "institutional barriers",
+      "Basel operational risk"
+    ],
+    "axial_codes": [
+      "organizational accountability",
+      "regulatory enforcement",
+      "policy protection regimes",
+      "financial misconduct reporting"
+    ],
+    "theme": "Whistleblowing processes and outcomes in financial practice",
+    "subtheme": "Cross-national protection, enforcement, and organizational-cultural determinants of disclosure",
+    "concepts": [
+      "multi-theoretical model",
+      "moral judgement",
+      "power dependence",
+      "expectancy theory",
+      "institutional theory",
+      "network governance",
+      "Sarbanes-Oxley",
+      "Dodd-Frank",
+      "EU directive"
+    ],
+    "model_layers": [
+      "individual moral characteristics",
+      "organizational power dynamics",
+      "institutional barriers",
+      "regulatory networks"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.9
+  },
+  "synthesis": {
+    "main_claim": "Whistleblower outcomes in financial services are shaped by negotiations among individual moral characteristics, organizational power dynamics, institutional barriers, and regulatory networks, with stronger protection under regimes such as Sarbanes-Oxley, Dodd-Frank, and the EU directive.",
+    "contribution": "Provides a multi-level conceptual framework integrating five theoretical lenses to explain whistleblowing processes, outcomes, and cross-national policy effectiveness in financial services.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central or supporting evidence on conversational governance in LLM systems; at most peripheral contextual background on accountability and compliance in regulated finance, not on LLM deployment governance."
+  },
+  "evidence": [
+    {
+      "claim": "Central topic is whistleblowing in financial practice, not LLM or conversational system governance.",
+      "excerpt": "This critical review provides an integrative summary of the literature to develop a multi-theoretical model describing whistleblowing processes, outcomes, and cross-national policy effectiveness within financial services.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses an integrative review with theory-informed narrative synthesis.",
+      "excerpt": "The review employs a theory-informed narrative synthesis within an integrative review design, analyzing publications from 2000 to 2025 using relevance-based selection",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Analytic framework combines five theories into a multi-level conceptual framework.",
+      "excerpt": "a five-theory analytic framework (moral judgement, power dependence, expectancy, institutional, and network governance). Evidence was synthesized within each theoretical lens and then integrated to construct a multi-level conceptual framework.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Regulated financial context is central.",
+      "excerpt": "The financial services sector is widely recognized as carrying significant fraud risk",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance and accountability terms refer to whistleblowing and public-interest disclosure, not AI governance.",
+      "excerpt": "Insofar as whistleblowing ensures accountability and promotes the public interest regarding the activities of government",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Generative AI is only briefly mentioned as a prospective whistleblowing aid, not studied as a governed conversational system.",
+      "excerpt": "Moreover, it has been suggested that generative AI could help employees identify wrongdoing and report it (Dimitrios, 2019).",
+      "page": "14",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors' own generative AI use was limited to manuscript preparation, not the study subject.",
+      "excerpt": "Generative AI statement The author(s) declared that generative AI was used in the creation of this manuscript. Language editing and clarity.",
+      "page": "15",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational AI, chatbot, agent, RAG, or LLM governance mechanisms are addressed in the provided text.",
+      "excerpt": "KEYWORDS financial accountability, fraud deterrence, organizational culture, regulatory compliance, whistleblower protection, whistleblowing",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

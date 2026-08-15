@@ -1,0 +1,205 @@
+{
+  "bibliographic": {
+    "title": "AI as a constituted system: accountability lessons from an LLM experiment",
+    "authors": "Kelsie Nabben",
+    "year": "2024",
+    "venue": "Data & Policy",
+    "doi": "10.1017/dap.2024.58",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Nabben, K. (2024). AI as a constituted system: accountability lessons from an LLM experiment. Data & Policy, 6, e57. https://doi.org/10.1017/dap.2024.58"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "participatory ethnography; single-case organizational study",
+    "study_design": "ethnographic case study of LLM design, deployment, and governance at BlockScience",
+    "sample_description": "BlockScience, an engineering services firm; BlockScience team members as primary stakeholders; outputs not used for public materials or client projects at this project stage",
+    "sample_size": "unclear",
+    "sector": "engineering services; private organization",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "integration of a pre-trained LLM with an organization's knowledge management system via a chat interface (KMS-GPT)"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GENAI",
+      "GOVERNANCE_ACCOUNTABILITY",
+      "CONVERSATIONAL_INTERFACE",
+      "EMPIRICAL_ORGANIZATIONAL_GOVERNANCE",
+      "RISK_PRIVACY_COMPLIANCE"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The study empirically examines governance and accountability for a deployed LLM integrated with a knowledge management system through a chat interface, using ethnographic methods in an organizational setting. It directly addresses how LLMs can be governed, held accountable, and managed around privacy and misbehaviour risks through policies, responsibility lines, and feedback loops.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial methods text were provided; full findings, limitations, and technical governance details require verification."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Clear research question and ethnographic design fit the governance focus, but evidence is from a single bounded organizational case with an insider researcher role. Appraisal of analysis rigor and limitations is constrained by incomplete full text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are coherent and highly relevant to organizational LLM governance and accountability, but confidence is moderated by single-case ethnographic scope, insider researcher position, and incomplete access to full results and limitations sections."
+  },
+  "coding": {
+    "open_codes": [
+      "AI as a constituted system",
+      "ethnography",
+      "accountability",
+      "governance",
+      "chat interface",
+      "knowledge management system",
+      "institutional boundaries",
+      "policy creation",
+      "lines of responsibility",
+      "localized feedback loops",
+      "data privacy",
+      "AI misbehaviour",
+      "transparency",
+      "safe and ethical use"
+    ],
+    "axial_codes": [
+      "organizational AI governance",
+      "LLM accountability mechanisms",
+      "socio-technical-institutional constitution of AI",
+      "knowledge-management LLM deployment"
+    ],
+    "theme": "Organizational governance and accountability of deployed LLMs",
+    "subtheme": "Institutional constitution of accountable LLM systems via policy, responsibility, and feedback",
+    "concepts": [
+      "AI as a constituted system",
+      "normative accountability",
+      "mechanistic accountability",
+      "localized customised LLMs",
+      "context mapping",
+      "deployable governable interoperable KMS"
+    ],
+    "model_layers": [
+      "institutional",
+      "technical",
+      "social",
+      "policy",
+      "organizational"
+    ],
+    "rq_alignment": [
+      "governance of generative AI",
+      "accountability",
+      "conversational systems",
+      "human oversight and stakeholder negotiation",
+      "privacy and risk navigation",
+      "operational governance of deployed LLMs"
+    ],
+    "coding_confidence": 0.84
+  },
+  "synthesis": {
+    "main_claim": "LLMs can be effectively governed and held accountable to stakeholder interests within bounded organizational contexts when clear institutional boundaries, policy-guided operation, defined responsibility lines, and localized feedback loops are established.",
+    "contribution": "Provides an empirical ethnographic case study and the 'AI as a constituted system' lens for understanding how social, technical, and institutional factors jointly shape LLM governance and accountability in practice.",
+    "limitations": "unclear",
+    "use_in_review": "Use as central evidence on organizational governance of LLMs, especially accountability mechanisms, policy embedding, chat-based KMS integration, privacy safeguards, and context-bounded rather than universal AI deployment models."
+  },
+  "evidence": [
+    {
+      "claim": "Study integrates a pre-trained LLM with an organizational knowledge management system via a chat interface.",
+      "excerpt": "investigating the integration of a pre-trained large language model (LLM) with an organisation’s knowledge management system via a chat interface",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research uses ethnographic methods to study LLM governance and accountability in an organizational case.",
+      "excerpt": "Through an ethnographic approach, this article details the iterative processes of negotiation, decision- making, and reflection among organisational stakeholders",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Core research question focuses on LLM accountability to users.",
+      "excerpt": "how can large language models (LLMs) be made more accountable to their users?",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Case study site is BlockScience deploying KMS-GPT.",
+      "excerpt": "case study at BlockScience, an engineering services firm",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Technical context is KMS integrated into an LLM-powered chat interface.",
+      "excerpt": "integration and devel- opment of the internal knowledge management system (KMS) into a chat interface powered by an LLM, referred to as “KMS-general-purpose technology (GPT).”",
+      "page": "2",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance values include privacy, transparency, and safe ethical LLM use.",
+      "excerpt": "Safe and ethical use of LLMs - Data privacy of training data, outputs, and no input or use of sensitive or confidential information. - Transparency",
+      "page": "2",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Findings support accountable LLM governance through policy, responsibility, and feedback loops.",
+      "excerpt": "Effective constitution and use can be attributed to distinct policy creation processes to guide AI’s operation, clear lines of responsibility, and localised feedback loops to ensure accountability for actions taken.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Study argues for localized, customized LLMs rather than universal scaling.",
+      "excerpt": "AI is not universally scaled but consists of localised, customised LLMs tailored to stakeholder interests.",
+      "page": "1",
+      "section": "findings",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Researcher has insider role at the studied organization.",
+      "excerpt": "case study at BlockScience, an engineering services firm (where I also do contract work)",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Framework emphasizes social, technical, and institutional governance factors.",
+      "excerpt": "The research adopts the concept of “AI as a constituted system” to emphasise the social, technical, and institutional factors that contribute to AI’s governance and accountability.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Privacy and AI misbehaviour risks are explicitly navigated in governance.",
+      "excerpt": "navigating the risks related to data privacy and AI misbehaviour",
+      "page": "1",
+      "section": "findings",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Peer review indicators are present in publication metadata.",
+      "excerpt": "Received: 20 October 2023; Revised: 18 April 2024; Accepted: 15 May 2024",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

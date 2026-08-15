@@ -1,0 +1,184 @@
+{
+  "bibliographic": {
+    "title": "Towards AI Accountability Infrastructure: Gaps and Opportunities in AI Audit Tooling",
+    "authors": "Victor Ojewale; Ryan Steed; Briana Vecchione; Abeba Birhane; Inioluwa Deborah Raji",
+    "year": "2024",
+    "venue": "arXiv preprint arXiv:2402.17861",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Ojewale, V., Steed, R., Vecchione, B., Birhane, A., & Raji, I. D. (2024). Towards AI accountability infrastructure: Gaps and opportunities in AI audit tooling. arXiv preprint arXiv:2402.17861."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "qualitative interviews and landscape analysis with taxonomy development",
+    "study_design": "mixed methods: semi-structured interviews with AI audit practitioners plus curated dataset and taxonomy of AI audit tools",
+    "sample_description": "35 AI audit practitioners across 24 organizations employing internal and external AI auditors; dataset of 435 tools designed or used for AI auditing",
+    "sample_size": "35 practitioners; 435 tools",
+    "sector": "AI audit practitioners across internal and external auditing organizations",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI audit tooling ecosystem spanning automated decision systems, recommendation systems, large machine learning base models, and generative AI products"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "audit_tooling",
+      "accountability_infrastructure",
+      "ai_governance",
+      "risk_assessment"
+    ],
+    "exclusion_codes": [
+      "conversational_ai_not_central"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study directly addresses AI audit tooling, accountability infrastructure, and practitioner needs for evaluating deployed AI systems, aligning with governance, audit, risk, and compliance dimensions of the review. However, it does not centrally focus on conversational AI, LLM-based dialogue systems, or conversational governance mechanisms in regulated deployments; generative AI and LLMs appear within a broad AI scope rather than as the primary technology context.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted bibliographic metadata appears corrupted and year/venue require verification against the full PDF; relevance to conversational LLM governance is indirect and should be confirmed at full-text level."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Clear empirical design combining practitioner interviews with a large tool landscape analysis and taxonomy. Provided excerpts offer limited visibility into interview analysis procedures, ethics reporting, and study limitations."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are coherently grounded in interviews with 35 practitioners and analysis of 435 audit tools, but the supplied text gives limited detail on analysis rigor and limitations. Relevance to the review is moderate because accountability and audit tooling are pertinent, yet conversational governance in regulated LLM systems is not the paper's central focus."
+  },
+  "coding": {
+    "open_codes": [
+      "AI audit tools",
+      "accountability infrastructure",
+      "tool-practitioner gap",
+      "evaluation vs accountability",
+      "harms discovery",
+      "advocacy"
+    ],
+    "axial_codes": [
+      "audit and compliance",
+      "AI governance",
+      "tool ecosystem mapping",
+      "practitioner needs"
+    ],
+    "theme": "Gaps in AI audit tooling for accountability",
+    "subtheme": "Landscape of audit tools versus practitioner needs",
+    "concepts": [
+      "AI audits",
+      "audit tooling",
+      "accountability",
+      "evaluation",
+      "taxonomy",
+      "independent assessment",
+      "policy enforcement"
+    ],
+    "model_layers": [
+      "governance",
+      "audit",
+      "risk management",
+      "compliance"
+    ],
+    "rq_alignment": [
+      "audit",
+      "observability",
+      "accountability",
+      "risk control",
+      "compliance",
+      "AI governance"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Current AI audit tools are plentiful for standards-setting and evaluation but insufficient for full practitioner accountability needs; the field should expand beyond evaluation toward comprehensive AI accountability infrastructure.",
+    "contribution": "Empirically compares needs of 35 AI audit practitioners with a curated dataset of 435 audit tools and proposes a taxonomy of the audit tool landscape, identifying gaps from harms discovery to advocacy.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence on audit tooling, accountability infrastructure, and gaps between evaluation-focused tools and practitioner needs; useful background for governance, risk, and compliance themes, but not as central evidence on conversational LLM governance."
+  },
+  "evidence": [
+    {
+      "claim": "Study combines interviews with practitioners and a large tool landscape analysis.",
+      "excerpt": "Drawing on interviews with 35 AI audit practitioners and a landscape analysis of 435 tools",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "AI scope explicitly includes generative AI and large machine learning base models.",
+      "excerpt": "including automated decision systems (ADS), algorithmic recommendation systems, large machine learning base models, generative AI products and more",
+      "page": "3",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Researchers developed a taxonomy of the audit tool landscape.",
+      "excerpt": "we curated a dataset of 435 tools designed or used for AI auditing and developed a taxonomy of the audit tool landscape based on our findings",
+      "page": "3",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample comprises practitioners from organizations using internal and external AI auditors.",
+      "excerpt": "35 auditors across 24 organizations employing internal and external AI auditors",
+      "page": "3",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Main finding is that tools fall short on accountability and do not meet full practitioner needs.",
+      "excerpt": "they often fall short in supporting accountability",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Recommendation is to move beyond evaluation toward comprehensive accountability infrastructure.",
+      "excerpt": "recommend that the field move beyond tools for just evaluation and towards more comprehensive infrastructure for AI accountability",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Audit ecosystem maturity lags behind finance and healthcare and audits can be inconsistent.",
+      "excerpt": "the maturity of the audit ecosystem in the technology sector lags far behind other industries such as finance and healthcare",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Practitioners struggle to know how to audit machine learning in organizations.",
+      "excerpt": "really, really struggle to understand, ‘What should we even do when it comes to auditing or evaluating the use of machine learning in our organizations?’",
+      "page": "7",
+      "section": "Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Publication is an arXiv preprint, not a peer-reviewed venue in the provided text.",
+      "excerpt": "arXiv:2402.17861v3 [cs.CY] 27 Feb 2025",
+      "page": "1",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Findings have been cited in policy reports on AI accountability.",
+      "excerpt": "these findings were cited several times in the U.S. National Telecommunication and Information Administration (NTIA) “Artificial Intelligence Accountability Policy Report”",
+      "page": "13",
+      "section": "Findings",
+      "supports": "appraisal"
+    }
+  ]
+}

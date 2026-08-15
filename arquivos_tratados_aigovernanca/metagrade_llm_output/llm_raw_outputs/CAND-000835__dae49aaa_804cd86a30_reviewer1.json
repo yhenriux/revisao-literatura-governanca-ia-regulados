@@ -1,0 +1,198 @@
+{
+  "bibliographic": {
+    "title": "Considering the possibilities and pitfalls of Generative Pre-trained Transformer 3 (GPT-3) in healthcare delivery",
+    "authors": "Diane M. Korngiebel; Sean D. Mooney",
+    "year": "2021",
+    "venue": "npj Digital Medicine",
+    "doi": "10.1038/s41746-021-00464-x",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Korngiebel, D. M., & Mooney, S. D. (2021). Considering the possibilities and pitfalls of Generative Pre-trained Transformer 3 (GPT-3) in healthcare delivery. npj Digital Medicine, 4, 93. https://doi.org/10.1038/s41746-021-00464-x"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "expert_commentary",
+    "study_design": "COMMENT OPEN perspective article",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "GPT-3; Natural Language Processing; eHealth; conversational text generation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "healthcare",
+      "gpt3",
+      "conversational_ai",
+      "risk_harm",
+      "bias_ethics",
+      "human_oversight"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Commentary article focused on opportunities and cautions for deploying GPT-3 and similar NLP applications in healthcare-related conversational contexts. Highly relevant to regulated-domain LLM risks and human oversight, but not an empirical or operational study of conversational governance mechanisms such as guardrails, audit, tracing, or compliance frameworks.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial full text was supplied (predominantly page 1); commentary classification and governance-relevance should be confirmed against the complete article."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Perspective commentary appropriately frames healthcare deployment risks for GPT-3 but provides no empirical sampling, data collection, or operational governance evaluation. Arguments are supported mainly by cited prior work and illustrative examples rather than original study data."
+  },
+  "cerqual": {
+    "methodological_limitations": 4,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The article coherently links GPT-3 conversational use in healthcare to harm, bias, and human-replacement limits, but as a brief commentary it offers limited depth on operational governance and no primary evidence base for implementation controls."
+  },
+  "coding": {
+    "open_codes": [
+      "healthcare_gpt3_deployment",
+      "conversational_limitations",
+      "patient_harm_risk",
+      "model_bias",
+      "human_provider_oversight",
+      "risk_feasibility_roi_assessment"
+    ],
+    "axial_codes": [
+      "regulated_domain_risk",
+      "human_in_the_loop",
+      "ethical_safety_concerns",
+      "deployment_caution"
+    ],
+    "theme": "Risks and limits of conversational GPT-3 in regulated healthcare",
+    "subtheme": "Human oversight and harm prevention in eHealth NLP",
+    "concepts": [
+      "GPT-3",
+      "Turing Test",
+      "autoregressive language model",
+      "few-shot learning",
+      "Implicit Association Test",
+      "mental health support failure",
+      "bias in web-trained models",
+      "extremism priming",
+      "risk-feasibility-return on investment"
+    ],
+    "model_layers": [
+      "model_behavior",
+      "safety_risk",
+      "human_oversight",
+      "ethical_governance"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa em contextos regulados",
+      "sistemas conversacionais em saúde",
+      "controle de risco e supervisão humana",
+      "vieses e accountability"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "GPT-3 and similar generative NLP applications may enter healthcare and eHealth contexts, but they should not replace human clinical conversations; their deployment requires careful assessment of harm, bias, feasibility, and stakeholder risk.",
+    "contribution": "Provides an early regulated-domain framing of GPT-3 conversational pitfalls, including suicide-support failure in mental health simulation, demographic and religious bias, extremism priming, and a risk-based prioritization lens for healthcare applications.",
+    "limitations": "Commentary format without original empirical evaluation; partial supplied text prevents verification of any additional recommendations beyond page 1; does not address operational governance tooling such as guardrails, logging, tracing, audit, or formal compliance mechanisms.",
+    "use_in_review": "Use as foundational contextual evidence on healthcare conversational LLM risks, human oversight limits, and bias-related accountability concerns; not as central operational evidence on conversational governance implementation."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a commentary on GPT-3 possibilities and pitfalls in healthcare delivery",
+      "excerpt": "COMMENT OPEN Considering the possibilities and pitfalls of Generative Pre- trained Transformer 3 (GPT-3) in healthcare delivery",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Published in peer-reviewed npj Digital Medicine in 2021",
+      "excerpt": "npj Digital Medicine (2021) 4:93 ; https://doi.org/10.1038/s41746-021-00464-x",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "GPT-3 could be deployed in healthcare contexts historically based on human-to-human interaction",
+      "excerpt": "they could be deployed in healthcare-related contexts that have historically comprised human-to-human interaction",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Generative conversational AI will not replace human clinical conversation in the foreseeable future",
+      "excerpt": "AI that generates text and conversations, such as GPT-3, will not replace a conversation with another human being for the foreseeable future in clinical settings",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "GPT-3 cannot interact with patients instead of healthcare providers or support personnel",
+      "excerpt": "it cannot interact with patients in lieu of healthcare providers or healthcare support personnel",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Simulated mental health use case showed harmful conversational failure",
+      "excerpt": "testing the use of GTP-3 for mental health support using a simulated patient; the model supported the patient’s suggestion of suicide",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "GPT-3 cannot dynamically adjust conversation for tone or body language",
+      "excerpt": "cannot dynamically adjust a conversation or interaction for tone or body language",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "GPT-3 exhibits demographic and religious bias patterns",
+      "excerpt": "GPT-3 showed associations between gender and certain jobs; often the default was male. Negative sentiments were associated with Black race and positive with Asian race. Islam was more often associated with terrorism-related words than were other religions",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "GPT-3 can be primed for harmful extremist text generation",
+      "excerpt": "GPT-3 is easy to prime for harmful text generation promoting extremism and terrorist activities, including Nazism and QAnon",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Healthcare NLP applications should assess risk, feasibility, and return on investment",
+      "excerpt": "evaluation of AI health and healthcare applications that produce natural language should assess their risk, feasibility, and return on investment—including prioritizing improved patient care",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Lower-risk GPT-3 applications should be prioritized before higher-risk ones",
+      "excerpt": "Realistic applications of GPT-3 must start in areas of high value, high feasibility, and low risk for all stakeholders, including (at a minimum) patients, clinicians, administrators, and payers",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No empirical sample or study design is described in the supplied text",
+      "excerpt": "In this article, we brieﬂy introduce some opportunities and cautions that would accompany advanced Natural Language Processing applications deployed in eHealth",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "bibliographic": {
+    "title": "Rapid review on GenAI in nursing education",
+    "authors": "Laura Hinsche, Martina Hasseler, Tim Tischendorf, Tom Schaal",
+    "year": "2026",
+    "venue": "Frontiers in Health Services",
+    "doi": "10.3389/frhs.2025.1725425",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Hinsche, L., Hasseler, M., Tischendorf, T., & Schaal, T. (2026). Rapid review on GenAI in nursing education. Frontiers in Health Services, 5, 1725425. https://doi.org/10.3389/frhs.2025.1725425"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "rapid review with PRISMA-guided literature search and thematic synthesis",
+    "study_design": "rapid review / rapid overview",
+    "sample_description": "Publications identified between 2019 and 2025 via searches in PubMed, Embase, CINAHL and Scopus using terms including generative AI, ChatGPT and nursing; 1,059 references reduced to 315 after duplicate removal; 140 full texts analysed for this overview",
+    "sample_size": "140 full texts analysed",
+    "sector": "nursing education / healthcare education",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "generative AI and ChatGPT applied to nursing education, including virtual tutors, simulation training, exam preparation and teaching process support"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text analysis included in rapid review synthesis",
+    "inclusion_codes": [
+      "genai_llm",
+      "nursing_education",
+      "regulated_healthcare_context",
+      "ethical_governance_themes",
+      "human_oversight"
+    ],
+    "exclusion_codes": [
+      "no_operational_conversational_governance",
+      "no_guardrails_audit_tracing_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed rapid review on GenAI/ChatGPT in nursing education within a regulated healthcare education context. It addresses ethical implications, bias, data protection, plagiarism and human oversight, which are relevant to governance themes, but the provided text does not focus on conversational system governance mechanisms such as guardrails, observability, audit logs, tracing, RAG governance or operational post-deployment monitoring of LLM-based conversational systems.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front matter and methods excerpts are available; the authors state 140 full texts were split across two publications, so the complete methods, limitations and governance-related findings may extend beyond the supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "PRISMA-guided screening and multi-database search are reported, with five thematic categories identified. Detailed appraisal items such as full quality assessment of included studies, complete search strategies, limitations of the rapid review and operational governance analysis are not visible in the provided excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The synthesis coherently links GenAI in nursing education to ethical risks and human oversight, but the supplied text offers limited detail on review quality appraisal, data extraction rigor and governance-specific mechanisms for conversational LLM systems."
+  },
+  "coding": {
+    "open_codes": [
+      "human oversight",
+      "ethical implications",
+      "data bias",
+      "plagiarism",
+      "data protection",
+      "curriculum adaptation",
+      "digital competence",
+      "virtual tutors",
+      "exam preparation",
+      "scholarly integrity"
+    ],
+    "axial_codes": [
+      "ethical governance of GenAI in education",
+      "teacher and curriculum readiness",
+      "dual potential and risk of GenAI"
+    ],
+    "theme": "Responsible integration of GenAI in regulated nursing education",
+    "subtheme": "Ethical safeguards and human oversight in educational use of ChatGPT",
+    "concepts": [
+      "generative AI",
+      "ChatGPT",
+      "nursing education",
+      "human oversight",
+      "bias",
+      "privacy",
+      "transparency",
+      "teaching guidelines"
+    ],
+    "model_layers": [
+      "policy_and_ethics",
+      "human_supervision",
+      "education_practice"
+    ],
+    "rq_alignment": [
+      "ethical_governance",
+      "human_oversight",
+      "regulated_healthcare_education",
+      "risk_and_bias"
+    ],
+    "coding_confidence": 0.74
+  },
+  "synthesis": {
+    "main_claim": "GenAI, especially ChatGPT, has promising educational potential in nursing education, but responsible use requires ethical reflection, curriculum adaptation, teacher digital competence and human oversight to mitigate risks such as knowledge distortion, bias, plagiarism and educational inequalities.",
+    "contribution": "Provides a PRISMA-guided rapid review synthesizing literature on GenAI in nursing education across five thematic areas, highlighting implementation possibilities alongside ethical considerations in a regulated healthcare education setting.",
+    "limitations": "The provided text does not report full review limitations, quality appraisal of included studies, or detailed operational governance controls for conversational LLM deployments; it also indicates findings were divided across two publications.",
+    "use_in_review": "Use as supporting evidence on ethical governance, human oversight, bias and privacy concerns when GenAI/ChatGPT is applied in regulated nursing education; not suitable as central evidence on conversational governance architecture, guardrails, observability or audit/tracing of LLM systems."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed rapid review on GenAI in nursing education published in Frontiers in Health Services.",
+      "excerpt": "Rapid review on GenAI in nursing education",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses PRISMA-guided screening and multi-database literature search focused on generative AI and ChatGPT in nursing.",
+      "excerpt": "Relevant publications were identified between 2019 and 2025 as part of a comprehensive literature search in the specialist databases PubMed, Embase, CINAHL and Scopus.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "140 full texts were analysed in this rapid overview.",
+      "excerpt": "After removing duplicates and screening (PRISMA-guided), 140 full texts were analysed and divided into two publications.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Five thematic areas were identified, including ethical considerations.",
+      "excerpt": "five thematic areas were identified, which were divided into the categories of nursing education, competence development and nursing skills, implementation possibilities, examination quality and ethical considerations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human oversight is identified as an ethical requirement.",
+      "excerpt": "it also requires critical consideration of ethical issues such as plagiarism, data bias and the need for human oversight.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "ChatGPT is explicitly discussed as the representative GenAI technology.",
+      "excerpt": "The use of generative AI, as represented by ChatGPT, holds promising potential for nursing education.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Educators are urged to establish guidelines for responsible ChatGPT implementation.",
+      "excerpt": "Educators are urged to proactively utilize ChatGPT and establish guidelines for its responsible implementation in classrooms.",
+      "page": "2",
+      "section": "background",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Search strategy included LLM and chatbot-related terms.",
+      "excerpt": "LLM(tiab) OR large language model*(tiab) OR advanced language model*(tiab)",
+      "page": "3",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Inclusion focused on generative intelligence in professional nursing and nursing qualifications.",
+      "excerpt": "Inclusion criteria for this review were focused on the application of generative intelligence in professional nursing and the enhancement of nursing qualifications through AI.",
+      "page": "3",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Machine learning and deep learning applications were excluded.",
+      "excerpt": "Exclusion criteria included machine learning, deep learning, and applications of AI in specific disease contexts.",
+      "page": "3",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Data protection challenges are expected in educational healthcare processes.",
+      "excerpt": "key ethical and data protection challenges are to be expected",
+      "page": "2",
+      "section": "background",
+      "supports": "coding"
+    }
+  ]
+}

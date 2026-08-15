@@ -1,0 +1,241 @@
+{
+  "bibliographic": {
+    "title": "Assessing the User Experience of an LLM-Based Conversational Assistant in Diabetes Mellitus Care",
+    "authors": "Vasco Furtado, Jorge Araujo, Elizabeth S. Furtado, Rafael Bomfim, Vitória Silva, Nickolas Mororó, Lucas Vasconcelos, Cecília Carvalho, Marcos Severo, Juliana Torres, Juliana Oliveira, Antonio Bruno Freitas",
+    "year": "2025",
+    "venue": "Journal of Healthcare Informatics Research",
+    "doi": "10.1007/s41666-025-00217-5",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Furtado, V., Araujo, J., Furtado, E. S., Bomfim, R., Silva, V., Mororó, N., Vasconcelos, L., Carvalho, C., Severo, M., Torres, J., Oliveira, J., & Freitas, A. B. (2025). Assessing the user experience of an LLM-based conversational assistant in diabetes mellitus care. Journal of Healthcare Informatics Research, 10, 116–153. https://doi.org/10.1007/s41666-025-00217-5"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "longitudinal user experience evaluation",
+    "study_design": "3-month longitudinal study comparing personalized vs non-personalized LLM assistant interactions",
+    "sample_description": "Patients with type 2 diabetes mellitus using MarIA via a messaging platform",
+    "sample_size": "35",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "GPT-3.5-powered virtual assistant (MarIA) with multi-agent architecture, prompt engineering, and messaging-platform delivery for diabetes self-care"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_conversational_assistant",
+      "regulated_healthcare_context",
+      "empirical_evaluation",
+      "safety_assessment"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article empirically evaluates a GPT-3.5 multi-agent conversational assistant in diabetes care and reports engagement outcomes plus safety concerns, making it relevant to conversational AI in regulated healthcare. However, the primary contribution in the provided text is UX, personalization, and engagement rather than a governance, accountability, compliance, or oversight framework, so it is better classified as supporting evidence than central governance evidence.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial excerpts were provided; full methods, ethics, governance mechanisms, and limitation sections were not fully visible for complete methodological appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Clear empirical objective and longitudinal design are evident, with quantified engagement findings and explicit safety concerns. Detailed procedures for data collection, ethical approval, statistical analysis, and operational governance controls are not fully available in the supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings on engagement and safety are coherent and relevant to LLM conversational assistants in healthcare, but the supplied text provides limited detail on governance mechanisms, auditability, human oversight, and full analytic methods, reducing confidence for governance-focused synthesis."
+  },
+  "coding": {
+    "open_codes": [
+      "GPT-3.5 virtual assistant",
+      "multi-agent architecture",
+      "personalized dialogue",
+      "longitudinal engagement",
+      "embedded safety layer",
+      "patient profiling",
+      "prompt engineering",
+      "inappropriate health recommendations"
+    ],
+    "axial_codes": [
+      "conversational AI in chronic care",
+      "personalization and engagement",
+      "operational safety controls"
+    ],
+    "theme": "User experience and safety of an LLM-based conversational assistant in diabetes care",
+    "subtheme": "Personalization-driven engagement with safety-layer needs in regulated healthcare",
+    "concepts": [
+      "MarIA",
+      "multi-agent architecture",
+      "embedded safety layer",
+      "comprehensive patient profiling",
+      "personalized interactions",
+      "proactive conversation"
+    ],
+    "model_layers": [
+      "dialogue/personalization layer",
+      "multi-agent orchestration layer",
+      "safety detection layer"
+    ],
+    "rq_alignment": [
+      "LLM conversational systems in regulated healthcare",
+      "safety and risk control in generative conversational assistants",
+      "operational governance through profiling and safety layers"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "A GPT-3.5-based multi-agent conversational assistant for type 2 diabetes care increased engagement and message depth through personalization, while safety review showed a need for embedded detection of potentially unsuitable recommendations.",
+    "contribution": "Provides empirical longitudinal evidence on LLM assistant engagement in healthcare and identifies safety-layer requirements tied to patient profiling and recommendation appropriateness.",
+    "limitations": "Supplied text emphasizes UX outcomes and high-level safety concerns; it does not fully document governance processes such as human oversight, audit logs, compliance controls, or post-deployment monitoring frameworks.",
+    "use_in_review": "Use as supporting empirical evidence on conversational LLM deployment in regulated healthcare, especially for engagement-personalization tradeoffs and the need for embedded safety controls before or after recommendation delivery."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with DOI and acceptance dates",
+      "excerpt": "Received: 7 October 2024 / Revised: 18 August 2025 / Accepted: 26 September 2025",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study uses GPT-3.5 and a 35-participant 3-month longitudinal design",
+      "excerpt": "MarIA, a GPT-3.5-powered virtual assistant integrated into a messaging platform",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample size is 35 participants over 3 months",
+      "excerpt": "In a 3-month longitudinal study involving 35 participants",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Personalization increased engagement by 26%",
+      "excerpt": "personalized interactions increased engagement by 26%",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "More conversational interaction increased user message length more than fourfold",
+      "excerpt": "message length more than quadrupled",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Safety was explicitly assessed and some recommendations could be clinically inappropriate",
+      "excerpt": "some general health suggestions—though accurate in isolation—could be inappropriate for users with specific clinical constraints",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors argue for an embedded safety layer before or after delivery",
+      "excerpt": "embedded safety layer capable of detecting potentially unsuitable recommendations before or even after delivery",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Article presents design, implementation, and evaluation of an LLM conversational assistant",
+      "excerpt": "This article presents the design, implementation, and evaluation of MarIA",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Multi-agent architecture supports dialogue adaptability and proactive behavior",
+      "excerpt": "MarIA employs a multi-agent architecture that enables varying dialogue styles and degrees of personalization",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLM conversational assistants are positioned as context-aware support for chronic disease prevention",
+      "excerpt": "LLM-based conversational assistants can offer personalized, nuanced support by engaging in dynamic, context-aware conversations",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "MarIA is introduced as a GPT-3.5-based assistant in a longitudinal diabetes experiment",
+      "excerpt": "This article introduces MarIA, a GPT-3.5-based conversational assistant used in a longitudinal experiment with patients with type 2 diabetes mellitus (DM)",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Main contribution includes a multi-agent conversational LLM architecture",
+      "excerpt": "A multi-agent architecture for a conversational LLM-based assistant that answers the user, collects data from interactions, and proactively promotes conversation",
+      "page": "2",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Prompts are used to promote personalized, safe, and empathetic interactions",
+      "excerpt": "Definition of prompts to design and configure the agents, which are able to frame the assistant identity and promote personalized, safe, and empathe",
+      "page": "2",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Personalized interactions increased engagement by 26% versus non-personalized interactions",
+      "excerpt": "Personalized interactions increase user engagement by 26% compared to non-personalized interactions",
+      "page": "3",
+      "section": "limitations",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "A more conversational assistant increased user message length more than four times",
+      "excerpt": "A more conversational assistant boosts interactions, increasing the length of user messages by more than four times",
+      "page": "3",
+      "section": "limitations",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "MarIA differs from classical chatbots through flexible, context-aware LLM dialogue",
+      "excerpt": "Capable of open-ended, dynamic conversations; adapts to user phrasing and dialogue shifts",
+      "page": "4",
+      "section": "limitations",
+      "supports": "methodology"
+    },
+    {
+      "claim": "MarIA uses modular multi-agent roles based on context or user state",
+      "excerpt": "MarIA uses a modular, multi-agent architecture, allowing different agent roles to engage based on context or user state",
+      "page": "4",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors state user safety was a key research focus due to autonomous recommendation generation",
+      "excerpt": "a key focus of our research was ensuring the safety of all interactions, given the autonomy that MarIA demonstrates in generating recommendations tailored to individual users",
+      "page": "19",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study context is healthcare use of a large language model assistant",
+      "excerpt": "the innovative use of a personal assistant based on a large language model in healthcare",
+      "page": "19",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "bibliographic": {
+    "title": "AI-enabled clinical decision support in breast cancer care: a blinded multicenter benchmarking study comparing medically specialized with a general-purpose system",
+    "authors": "Jonas Freudenberg, Johannes Knitza, Niklas Gremke, Niklas Amann, Thomas M. Deutsch, Nikolas Tauber, Kerstin Muras, Zoe S. Oftring, Tobias Engler, Alexander Englisch, Stefan Lukac, Adriano Fabi, André S. Alves, Kristin Reinhardt, Markus Wallwiener, Moritz Kuhlmann, Jonathan Bamberger, Uwe Wagner, Sebastian Kuhn, Sebastian Griewing",
+    "year": "2026",
+    "venue": "Journal of Medical Systems",
+    "doi": "10.1007/s10916-026-02434-w",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Freudenberg, J., Knitza, J., Gremke, N., Amann, N., Deutsch, T. M., Tauber, N., Muras, K., Oftring, Z. S., Engler, T., Englisch, A., Lukac, S., Fabi, A., Alves, A. S., Reinhardt, K., Wallwiener, M., Kuhlmann, M., Bamberger, J., Wagner, U., Kuhn, S., & Griewing, S. (2026). AI-enabled clinical decision support in breast cancer care: A blinded multicenter benchmarking study comparing medically specialized with a general-purpose system. Journal of Medical Systems, 50(107). https://doi.org/10.1007/s10916-026-02434-w"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "blinded multicenter benchmarking study",
+    "study_design": "comparative performance evaluation with blinded expert rating and ranking",
+    "sample_description": "20 standardized breast cancer patient cases evaluated by blinded board-certified breast cancer specialists from seven university breast cancer centers",
+    "sample_size": "20 cases; number of raters unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "ChatGPT-5 Thinking compared with two medically specialized retrieval-augmented clinical decision-support systems (Prof. Valmed and OpenEvidence)"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "borderline",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_CLINICAL",
+      "REGULATED_HEALTH",
+      "RAG_SYSTEMS",
+      "EXPERT_OVERSIGHT"
+    ],
+    "exclusion_codes": [
+      "NOT_CONVERSATIONAL_GOVERNANCE",
+      "PRIMARY_FOCUS_BENCHMARKING"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study is a rigorous blinded multicenter benchmark of LLM-based clinical decision support in a regulated medical-device context and mentions compliance, regulatory clearance, RAG, and expert oversight. However, the provided text centers on comparative treatment-plan quality and performance rankings, not on conversational governance mechanisms such as guardrails, observability, auditability, contestation, handoff, or post-deployment operational governance of conversational systems.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated triage marked central_candidate, but the available text suggests limited direct relevance to conversational governance; full-text review is needed to confirm whether governance, oversight, or compliance mechanisms are substantively analyzed beyond performance benchmarking."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 5,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Methods are clearly described for a benchmarking question in breast cancer care. Blinding, multicenter expert rating, and statistical comparisons are reported. Ethics approval, consent, and detailed rater/sample counts are not visible in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The abstract and introduction provide a coherent, adequately reported empirical comparison with clear performance findings. Confidence is moderate rather than high for synthesis on conversational governance because the supplied text does not substantively address governance architecture, monitoring, audit, or contestability of conversational LLM systems."
+  },
+  "coding": {
+    "open_codes": [
+      "clinical_decision_support",
+      "LLM_benchmarking",
+      "medical_device_regulation",
+      "RAG_systems",
+      "expert_oversight",
+      "guideline_adherence",
+      "safety_evaluation"
+    ],
+    "axial_codes": [
+      "regulated_healthcare_AI",
+      "performance_comparison",
+      "human_expert_evaluation"
+    ],
+    "theme": "Comparative performance of regulated and general-purpose LLM clinical decision-support systems",
+    "subtheme": "Breast cancer treatment planning benchmark",
+    "concepts": [
+      "regulatory clearance",
+      "domain specialization",
+      "retrieval-augmented generation",
+      "blinded expert rating",
+      "clinical safety",
+      "guideline adherence",
+      "expert oversight"
+    ],
+    "model_layers": [
+      "application_layer",
+      "human_oversight_layer"
+    ],
+    "rq_alignment": [
+      "regulated_LLM_deployment",
+      "human_oversight",
+      "RAG_in_clinical_AI"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "In a blinded multicenter evaluation using 20 standardized breast cancer cases, ChatGPT-5 Thinking outperformed two medically specialized, retrieval-augmented systems across safety, guideline adherence, medical adequacy, completeness, overall quality, and logical coherence.",
+    "contribution": "Provides empirical evidence that regulatory clearance and medical specialization do not necessarily yield superior breast cancer treatment recommendations compared with a general-purpose LLM, and suggests specialized systems should be used supportively under expert oversight pending further optimization and real-world validation.",
+    "limitations": "Provided excerpts do not detail study limitations, ethics procedures, or governance mechanisms; generalizability beyond breast cancer benchmarking is unclear from the supplied text.",
+    "use_in_review": "Use as borderline or supporting evidence on regulated clinical LLM deployment, RAG-based medical devices, and expert oversight, but not as central evidence on conversational governance frameworks or operational controls."
+  },
+  "evidence": [
+    {
+      "claim": "Study compares medically specialized RAG systems with a general-purpose LLM in regulated clinical decision support",
+      "excerpt": "Two medically specialized (Prof. Valmed and OpenEvidence) and one general-purpose system (ChatGPT-5 Thinking) were prompted to generate treatment plans",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated medical-device context is explicit",
+      "excerpt": "Medically specialized AI systems that have obtained regulatory clearance as medical devices can be deployed for patient-specific clinical decision support under defined compliance requirements.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Primary outcome is comparative clinical performance, not governance design",
+      "excerpt": "Outputs were rated and ranked by blinded, board-certified breast cancer specialists from seven university breast cancer centers for safety, guideline adherence, medical adequacy, completeness, overall quality, and logical coherence.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "General-purpose LLM outperformed specialized RAG systems",
+      "excerpt": "a general-purpose LLM outperformed two medically specialized, retrieval-augmented systems in generating breast cancer treatment plans across all assessed categories.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human expert oversight is recommended for specialized systems",
+      "excerpt": "medically specialized systems may be best used as supportive tools under expert oversight",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Prof. Valmed is a RAG system with EU class IIb medical device certification",
+      "excerpt": "Prof. Valmed ... a subscription-based, retrieval-augmented generation (RAG) clinical decision-support system, is the first LLM-based solution in the European Union to achieve certification as a class IIb medical device",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study design is blinded and multicenter",
+      "excerpt": "This blinded, multicenter study compared the performance of two medically specialized AI systems with a general-purpose model in breast cancer care.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Statistical analysis methods are reported",
+      "excerpt": "Statistical analyses comprised descriptive statistics, inter-rater reliability assessment, non-parametric performance comparisons of rating and ranking outcomes, and correlation analyses.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Sample consists of 20 standardized cases",
+      "excerpt": "were prompted to generate treatment plans for 20 standardized breast cancer patient cases",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational governance mechanisms are described in the provided text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

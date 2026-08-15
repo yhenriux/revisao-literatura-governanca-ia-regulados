@@ -1,0 +1,148 @@
+{
+  "bibliographic": {
+    "title": "Tracing English interference in AI-generated German: An analysis of word order and syntactic fronting",
+    "authors": "Valentinelli, Paolo",
+    "year": "2026",
+    "venue": "AI-Linguistica",
+    "doi": "10.62408/ai-ling.v5i1.36",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Valentinelli, P. (2026). Tracing English interference in AI-generated German: An analysis of word order and syntactic fronting. AI-Linguistica, 5(1). https://doi.org/10.62408/ai-ling.v5i1.36"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "corpus-based comparative linguistic analysis",
+    "study_design": "comparative analysis of AI-generated German newspaper-style texts versus a purpose-built corpus of human-authored journalistic texts",
+    "sample_description": "outputs of four distinct LLMs and a corpus of real German journalistic texts",
+    "sample_size": "unclear",
+    "sector": "linguistics; journalism language",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "four distinct LLMs generating German texts mimicking human-authored newspaper articles; ChatGPT referenced as contextual milestone"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "no_conversational_governance_focus",
+      "no_regulated_domain_context"
+    ],
+    "exclusion_reason": "The study addresses German syntactic patterns in AI-generated journalistic text and cross-linguistic interference from English-dominant LLM training data; it does not address conversational governance, conversational systems, accountability mechanisms, compliance, oversight, or regulated high-stakes deployment contexts.",
+    "decision_rationale": "Provided text shows an empirical linguistics study comparing word order and pre-field occupation in LLM outputs against a human German journalism corpus. Although LLMs and ChatGPT are discussed, there is no evidence of chatbots/conversational agents as governed systems, guardrails, observability, audit, human oversight, risk control, or regulated-sector application. Topic mismatch with the review scope outweighs automated keyword matches.",
+    "decision_confidence": 0.93,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Abstract and introduction clearly establish a linguistic syntax study without governance or regulated-environment content; exclusion is unambiguous despite high automated triage score."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal reflects only the supplied front matter. The objective and comparative linguistic design are clearly stated, but corpus construction details, exact LLM identities, sample sizes, analytic procedures, limitations, and ethics are not visible in the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Within its own linguistic scope, the abstract presents a coherent empirical aim and identified phenomena, but the excerpt provides insufficient methodological detail for strong confidence. For the target review on conversational governance in regulated LLM systems, relevance is very low because governance, conversational deployment, and regulated contexts are absent."
+  },
+  "coding": {
+    "open_codes": [
+      "cross-linguistic interference",
+      "English-dominant training data",
+      "German syntax",
+      "word order",
+      "syntactic fronting",
+      "AI-generated journalism",
+      "corpus comparison",
+      "multilingual underrepresentation"
+    ],
+    "axial_codes": [
+      "LLM output quality",
+      "linguistic bias from training data",
+      "non-English language generation"
+    ],
+    "theme": "Linguistic effects of English predominance in LLM training on German text generation",
+    "subtheme": "Syntactic word order and pre-field patterns in AI-generated German newspaper language",
+    "concepts": [
+      "SVO preference",
+      "reduced syntactic variability",
+      "English linear progression",
+      "low-resource language treatment"
+    ],
+    "model_layers": [
+      "model/training data"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "LLM-generated German newspaper-style texts show English-influenced syntactic patterns, including SVO preference, reduced variability, and constructions mirroring English linear progression rather than native German bracketing.",
+    "contribution": "Empirical linguistic evidence on how English-skewed LLM training may shape non-English syntactic output in journalistic German, supporting calls for more equitable multilingual representation in NLP development.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central and supporting evidence pools. Not usable for synthesis on conversational governance, accountability, compliance, or regulated deployment. At most, it is a distant contextual citation on multilingual LLM bias if a language-fairness subsection is added, but it is outside the review's primary scope."
+  },
+  "evidence": [
+    {
+      "claim": "Article is peer reviewed.",
+      "excerpt": "I would like to express my sincere gratitude to the two anonymous referees for their time and detailed feedback.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study empirically compares LLM outputs with human German journalism corpus on syntax.",
+      "excerpt": "This study analyses two linguistic traits of AI-generated texts which mimic human-authored German newspaper articles and compares them with a purpose-built corpus of real journalistic texts.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Four LLMs were analyzed using quantitative and qualitative methods.",
+      "excerpt": "Through quantitative and qualitative analyses of the outputs of four distinct LLMs, three key phenomena in AI’s German outputs were identified",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Main findings concern German word order and syntactic fronting, not governance.",
+      "excerpt": "three key phenomena in AI’s German outputs were identified: (i) a marked preference for SVO word order; (ii) reduced syntactic variability compared to human-authored texts; and (iii) the emergence of stylistically marked constructions which mirror English linear progression rather than native German sentence bracketing.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "English predominance in LLM training data is central explanatory context.",
+      "excerpt": "According to Brown et al. (2020), approximately 93% of the data used to train GPT-3, a foundational model by OpenAI, is in English.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "No regulated-domain or governance deployment context is presented in the supplied text.",
+      "excerpt": "The study emphasises the linguistic implications of LLM architectures and calls attention to the urgent need for more equitable representation of world languages in natural language processing development.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "ChatGPT is referenced as an NLP milestone, not as a governed conversational system.",
+      "excerpt": "The release of ChatGPT by OpenAI in late 2022 marked a pivotal moment in the field of natural language processing.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

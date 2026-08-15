@@ -1,0 +1,20 @@
+# Arquivos temporários do Microsoft Office/LibreOffice
+.~lock.*#
+~$*
+
+# Credenciais e configuração local
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

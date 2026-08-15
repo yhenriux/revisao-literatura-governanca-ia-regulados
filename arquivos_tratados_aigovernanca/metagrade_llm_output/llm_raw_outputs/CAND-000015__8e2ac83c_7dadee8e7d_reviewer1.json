@@ -1,0 +1,226 @@
+{
+  "bibliographic": {
+    "title": "Designing meaningful human oversight in AI",
+    "authors": "Liming Zhu; Qinghua Lu; Ming Ding; Sung Une Lee; Chen Wang",
+    "year": "2026",
+    "venue": "AI and Ethics",
+    "doi": "10.1007/s43681-026-01147-7",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Zhu, L., Lu, Q., Ding, M., Lee, S. U., & Wang, C. (2026). Designing meaningful human oversight in AI. AI and Ethics, 6, 286. https://doi.org/10.1007/s43681-026-01147-7"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "framework development with known-uses analysis complemented by targeted literature review",
+    "study_design": "analytical generalisation from publicly documented AI system cases",
+    "sample_description": "publicly documented known uses of AI systems and targeted academic literature",
+    "sample_size": "unclear",
+    "sector": "multiple (academic peer review, grant evaluation, regulatory compliance documentation)",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "agentic and generative AI systems including LLMs, retrieval-augmented LLMs, chatbots, and conformance-checking tools in high-risk and compliance-oriented settings"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "human_oversight",
+      "accountability",
+      "governance_mechanisms",
+      "llm_systems",
+      "regulated_high_stakes",
+      "audit_traceability"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly proposes a human oversight design framework for AI and agentic systems, specifies accountability attachment points, catalogs oversight mechanisms (structured rationales, confidence signals, circuit breakers, appeal bundles), and documents LLM-based known uses with human review, override, monitoring, and audit trails in compliance-relevant contexts.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 3,
+    "results_clarity": 5,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Strong conceptual clarity and explicit methodology for analytical generalisation, but the known-uses sample scope and selection criteria are not fully quantified in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and highly relevant to governance, oversight, and accountability in LLM-enabled systems, but confidence is moderated because the provided text does not specify the full breadth or selection protocol of the known-uses cases."
+  },
+  "coding": {
+    "open_codes": [
+      "layered agency",
+      "operative agency",
+      "evaluative agency",
+      "external reasoning faithfulness",
+      "solve-verify asymmetry",
+      "oversight mechanisms catalogue",
+      "design patterns",
+      "appeal bundles",
+      "circuit breakers",
+      "audit trails",
+      "human override",
+      "interactive chatbot explanations"
+    ],
+    "axial_codes": [
+      "human oversight design",
+      "accountability and agency",
+      "verification-oriented governance",
+      "regulated and high-risk AI deployment"
+    ],
+    "theme": "Designing meaningful human oversight in AI-enabled decision systems",
+    "subtheme": "Layered agency and external-reasoning oversight mechanisms for LLM and agentic systems",
+    "concepts": [
+      "meaningful human oversight",
+      "operative agency",
+      "evaluative agency",
+      "external reasoning faithfulness",
+      "solve-verify asymmetry",
+      "structured rationales",
+      "reasoning traces",
+      "confidence signals",
+      "policy attribution",
+      "circuit breakers",
+      "appeal bundles",
+      "guardrails",
+      "audit trails",
+      "human-in-the-loop"
+    ],
+    "model_layers": [
+      "task execution (AI operative agency)",
+      "verification and steering (human evaluative agency)",
+      "system architecture and interaction contracts",
+      "oversight signals and governance artifacts",
+      "evaluation criteria for joint agency"
+    ],
+    "rq_alignment": [
+      "governance and accountability in LLM systems",
+      "human oversight and intervention",
+      "auditability and traceability",
+      "compliance and high-stakes deployment",
+      "contestation and appeal mechanisms",
+      "operational governance patterns"
+    ],
+    "coding_confidence": 0.9
+  },
+  "synthesis": {
+    "main_claim": "Meaningful human oversight should preserve layered agency by retaining AI operative agency while strengthening human evaluative agency through externally verifiable outputs, solve-verify asymmetry, and implementable oversight mechanisms rather than demanding internal mechanistic transparency.",
+    "contribution": "Provides a layered agency framework, reframes explainability around external reasoning faithfulness, catalogs oversight mechanisms, and offers four end-to-end design patterns plus evaluation criteria, illustrated with LLM known uses involving human review, override, monitoring, and audit trails.",
+    "limitations": "The provided text notes that oversight effectiveness depends on rationale, provenance, and alert quality; verification burden can remain high in borderline cases; and open-ended systems such as chatbots are easy to deploy but difficult to verify for safety, fairness, and legal compliance.",
+    "use_in_review": "Use as central conceptual and design evidence for human oversight, accountability, contestation, auditability, and governance mechanisms applicable to LLM-based and conversational systems in regulated or high-stakes settings; complement with studies focused more narrowly on conversational governance operations."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article in AI and Ethics (2026)",
+      "excerpt": "AI and Ethics (2026) 6:286 https://doi.org/10.1007/s43681-026-01147-7",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Paper defines oversight as structured human capacity to understand, evaluate, intervene, and preserve accountability",
+      "excerpt": "By oversight we mean the structured capacity of humans within a socio-technical system to understand, evaluate, and where necessary intervene in or override the outputs of a computational system",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Study uses known-uses analysis plus targeted literature review for analytical generalisation",
+      "excerpt": "The goal of this study is analytical generalisation: deriving, from these real-world cases, the recurring mechanisms and interaction patterns that inform the proposed human oversight framework. We employed an analysis of known uses as the primary approach.",
+      "page": "6",
+      "section": "methodology",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Framework distinguishes operative and evaluative agency and reframes explainability externally",
+      "excerpt": "This paper proposes a design framework that treats agency as layered: AI operative agency in task execution, and human evaluative agency in verification, steering, and substitution.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Paper catalogs oversight mechanisms including appeal bundles and circuit breakers",
+      "excerpt": "it provides a structured catalogue of oversight mechanisms (e.g., structured rationales, reasoning traces, confidence signals, policy attribution, circuit breakers, appeal bundles)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Chatbots are used as an example where verification for safety, fairness, and compliance is complex",
+      "excerpt": "Building an AI chatbot endpoint for open-ended text tasks requires relatively little design effort. Yet verifying that such a system will be safe, factual, fair, and legally compliant across domains is far more challenging",
+      "page": "5",
+      "section": "limitations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM known use includes human expert review, monitoring, and accountability",
+      "excerpt": "All LLM-generated content is thoroughly reviewed by human experts, with comprehensive monitoring and evaluation in place to ensure quality and accountability.",
+      "page": "13",
+      "section": "known uses",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLM grant-review system includes human override and audit trails",
+      "excerpt": "Human reviewers verify, adjust, or override AI recommendations to ensure decisions are based on expert judgment.",
+      "page": "13",
+      "section": "known uses",
+      "supports": "coding"
+    },
+    {
+      "claim": "Oversight mechanisms include interactive chatbot explanations and full logging for auditing",
+      "excerpt": "Oversight mechanisms include interactive chatbot explanations, clear alignment with program criteria, and full logging of evaluations for auditing and governance.",
+      "page": "13",
+      "section": "known uses",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulatory compliance LLM use case maps documents to regulatory criteria",
+      "excerpt": "ValidMind's LLM-powered Document Checker evaluates model documentation for compliance with regulatory standards such as model risk management policies and AI governance frameworks.",
+      "page": "14",
+      "section": "known uses",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Detailed audit trails support transparency and traceability",
+      "excerpt": "Detailed audit trails record every evaluation step to ensure transparency and traceability.",
+      "page": "13",
+      "section": "known uses",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulations provide limited actionable guidance on concrete AI-human interaction mechanisms",
+      "excerpt": "While these regulations and standards articulate oversight at a high level, they provide limited actionable guidance on the concrete mechanisms and interaction contracts at the AI-human interface.",
+      "page": "2",
+      "section": "related work",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Oversight quality depends on rationale, provenance, and alert signals",
+      "excerpt": "The effectiveness of oversight relies on the quality of generated rationales, provenance data, and alerts; poor or noisy signals can mislead reviewers.",
+      "page": "13",
+      "section": "known uses",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "RAG-based LLM system matches proposals to rubrics with human verification",
+      "excerpt": "The system uses retrieval-augmented LLMs to match proposals with explicit program rubrics, generate initial scores, and produce comprehensive proposal summaries.",
+      "page": "13",
+      "section": "known uses",
+      "supports": "coding"
+    }
+  ]
+}

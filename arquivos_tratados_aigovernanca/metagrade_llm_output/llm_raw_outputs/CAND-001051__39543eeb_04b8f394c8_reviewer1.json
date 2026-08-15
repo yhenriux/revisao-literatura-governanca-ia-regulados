@@ -1,0 +1,161 @@
+{
+  "bibliographic": {
+    "title": "Large language models in portuguese for healthcare: a systematic review",
+    "authors": "Andre Massahiro Shimaoka, Antonio Carlos da Silva Junior, José Marcio Duarte, Thiago Bulhões da Silva Costa, Ivan Torres Pisa, Luciano Rodrigo Lopes, Paulo Bandiera-Paiva",
+    "year": "2026",
+    "venue": "Research on Biomedical Engineering",
+    "doi": "10.1007/s42600-026-00465-3",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Shimaoka, A. M., da Silva Junior, A. C., Duarte, J. M., da Silva Costa, T. B., Pisa, I. T., Lopes, L. R., & Bandiera-Paiva, P. (2026). Large language models in portuguese for healthcare: A systematic review. Research on Biomedical Engineering, 42, 13. https://doi.org/10.1007/s42600-026-00465-3"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic literature review",
+    "study_design": "Systematic Literature Review (SLR) with search, screening based on inclusion/exclusion criteria, quality assessment, data extraction, and analysis",
+    "sample_description": "Primary studies reporting LLMs pre-trained in Portuguese applied to healthcare, focusing on contextual embeddings",
+    "sample_size": "32 models identified",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Portuguese pre-trained LLMs (e.g., BERTimbau, mBERT, BioBERTpt); adaptation via fine-tuning, domain-adaptive pre-training, training from scratch, and zero-shot learning; NLP tasks including classification, NER, QA, text generation, summarization, de-identification, and conversational agents"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_HEALTHCARE",
+      "REGULATED_DOMAIN",
+      "SYSTEMATIC_REVIEW",
+      "CONVERSATIONAL_AGENT_MENTION"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_GOVERNANCE_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a systematic review of Portuguese healthcare LLMs with clear regulated-domain relevance and brief mention of conversational agents as an application type. However, the provided text does not address conversational governance, accountability, guardrails, human oversight, audit, compliance, or related governance mechanisms as a primary focus.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial page 2 were supplied; full-text verification is needed to confirm whether governance, privacy, or conversational-system controls are discussed beyond the abstract-level privacy gap."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal is based on abstract and limited front matter only. The SLR objective and protocol are clearly stated, but detailed search strategy, quality appraisal criteria, and synthesis methods are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings about Portuguese healthcare LLM applications are internally coherent and methodologically plausible for an SLR, but relevance to conversational governance in regulated LLM systems is limited in the provided text because governance mechanisms are not substantively addressed."
+  },
+  "coding": {
+    "open_codes": [
+      "portuguese_healthcare_llms",
+      "contextual_embeddings",
+      "fine_tuning",
+      "clinical_datasets",
+      "conversational_agents",
+      "data_privacy_gap",
+      "reproducibility_gap"
+    ],
+    "axial_codes": [
+      "llm_application_mapping",
+      "regulated_healthcare_nlp",
+      "technical_adaptation_strategies"
+    ],
+    "theme": "State of Portuguese LLMs in healthcare",
+    "subtheme": "Application types and research gaps",
+    "concepts": [
+      "systematic literature review",
+      "large language models",
+      "healthcare NLP",
+      "conversational agents",
+      "data privacy",
+      "fine-tuning",
+      "de-identification"
+    ],
+    "model_layers": [],
+    "rq_alignment": [
+      "regulated_llm_context",
+      "peripheral_conversational_application"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "A systematic review of Portuguese pre-trained LLMs in healthcare identified 32 models, prevalent adaptation strategies, diverse datasets, and multiple NLP applications including conversational agents, while highlighting gaps in reproducibility, field coverage, data sharing, and overlooked data privacy.",
+    "contribution": "Provides a structured map of Portuguese healthcare LLM models, training/adaptation approaches, datasets, domains, and NLP tasks in a regulated healthcare setting.",
+    "limitations": "Supplied text does not evidence governance of conversational systems; conversational agents are listed among tasks without governance analysis; appraisal is constrained to abstract/front matter.",
+    "use_in_review": "Use as supporting evidence for the landscape of LLM and conversational-agent applications in regulated healthcare, especially Portuguese-language contexts; not suitable as central evidence on conversational governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a systematic review of Portuguese LLMs for healthcare",
+      "excerpt": "Our Systematic Literature Review (SLR) followed standard protocols: search, screening based on inclusion/exclusion criteria, quality assessment, data extraction, and analysis.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study identifies 32 Portuguese healthcare LLM models",
+      "excerpt": "We identified 32 models, mostly based on BERTimbau, mBERT, and BioBERTpt.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Conversational agents are among reported LLM applications",
+      "excerpt": "de-identification, and conversational agents.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Healthcare is the regulated application domain",
+      "excerpt": "This study addresses Large Language Models (LLMs) pre-trained in Portuguese for healthcare applications",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Data privacy is identified as an overlooked issue",
+      "excerpt": "(6) overlooked data privacy.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Primary research question concerns healthcare use of Portuguese-trained LLMs",
+      "excerpt": "How are Portuguese-trained LLM being used in the healthcare domain?",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Reproducibility limitations are explicitly noted",
+      "excerpt": "(2) insufficient fine-tuning details, hindering reproducibility;",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational governance focus is evident in supplied text",
+      "excerpt": "accomplishing classification tasks, followed by named entity recognition (NER), topic modeling, question answering, text generation, summarization, de-identification, and conversational agents.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

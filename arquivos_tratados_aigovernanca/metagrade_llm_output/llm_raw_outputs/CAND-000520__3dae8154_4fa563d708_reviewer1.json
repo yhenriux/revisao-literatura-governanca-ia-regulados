@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "Artificial intelligence and its 'slow violence' to human rights",
+    "authors": "Sue Anne Teo",
+    "year": "2024",
+    "venue": "AI and Ethics",
+    "doi": "10.1007/s43681-024-00547-x",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Teo, S. A. (2024). Artificial intelligence and its 'slow violence' to human rights. AI and Ethics, 5, 2265–2280. https://doi.org/10.1007/s43681-024-00547-x"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "theoretical argument; normative legal-ethical analysis",
+    "study_design": "conceptual essay applying slow violence framework to AI and human rights at three levels",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "human rights; AI ethics; public policy",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI broadly defined via OECD definition; generative AI, ChatGPT, DALL-E, and large language models cited as examples within a broader AI harms and human rights argument"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "human_rights_accountability",
+      "ai_governance_ethics",
+      "generative_ai_mentioned",
+      "contestation_remedy_themes"
+    ],
+    "exclusion_codes": [
+      "no_conversational_systems_focus",
+      "no_operational_llm_governance",
+      "no_regulated_domain_case_study",
+      "no_empirical_conversational_ai"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is original conceptual research arguing that AI causes gradual, attritional harms to the human rights framework, with generative AI and LLMs mentioned only illustratively. It discusses accountability, contestation, opacity, and deployment in sectors such as healthcare and public administration, but does not examine conversational governance, chatbots, agents, RAG, guardrails, observability, audit, or compliance mechanisms in regulated LLM systems. It is better suited as foundational contextual evidence on human rights accountability than as central evidence for conversational governance in regulated LLM environments.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage scored the article as central_candidate (97.33/A), likely due to broad keyword overlap (accountability, observability, tracing, generative AI). Manual adjudication is needed because observability appears in the violence-definition sense, not technical system observability, and the article lacks conversational-AI or operational governance focus."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Strong clarity and fit for a conceptual normative argument, but no empirical sampling, data collection protocol, or operational governance evaluation. Evidence is argumentative and citation-based rather than systematically reviewed or empirically tested."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is internally coherent and adequately developed for a theoretical contribution on AI and human rights, but methodological limitations are substantial for evidence synthesis on conversational LLM governance because the study does not analyze regulated conversational systems or operational controls. Relevance to the review's core focus is limited to foundational accountability and harm framing."
+  },
+  "coding": {
+    "open_codes": [
+      "slow violence",
+      "human rights framework",
+      "accountability gap",
+      "algorithmic opacity",
+      "contestation and remedy",
+      "human dignity",
+      "generative AI harms",
+      "systemic stereotyping"
+    ],
+    "axial_codes": [
+      "normative foundations of rights",
+      "individual empowerment undermined",
+      "gradual systemic harm",
+      "post-AI accountability model"
+    ],
+    "theme": "AI harms to human rights through slow violence",
+    "subtheme": "foundational challenges to accountability and normative justifications of rights",
+    "concepts": [
+      "slow violence",
+      "human rights accountability",
+      "algorithmic opacity",
+      "right to contest",
+      "human dignity",
+      "generative AI"
+    ],
+    "model_layers": [
+      "normative",
+      "legal",
+      "societal"
+    ],
+    "rq_alignment": [
+      "accountability",
+      "human oversight and contestation",
+      "risk and harm framing",
+      "regulated-sector mentions"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "AI introduces gradual, attritional harms to the human rights framework that undermine individual empowerment, accountability, and the normative foundations of discrete rights and human dignity.",
+    "contribution": "Offers a three-level slow-violence framework for understanding deeper AI harms beyond discrete rights violations and outlines critical perspectives for human rights accountability in the age of AI.",
+    "limitations": "Conceptual scope is broad AI rather than conversational or LLM-specific governance; no empirical cases, regulated-domain implementation analysis, or operational governance mechanisms are presented in the supplied text.",
+    "use_in_review": "Use as foundational contextual evidence on accountability, contestation, opacity, and human-rights-based governance framing; do not treat as central evidence on conversational governance, guardrails, observability, audit, or compliance in regulated LLM deployments."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article by Sue Anne Teo in AI and Ethics, 2024.",
+      "excerpt": "Artificial intelligence and its ‘slow violence’ to human rights Sue Anne Teo",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research type is conceptual normative analysis, not empirical study.",
+      "excerpt": "this article argues that the harms introduced by artificial intelligence (AI) to the human rights",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Article applies slow violence framework at three levels including individual accountability.",
+      "excerpt": "the individual as the subject of interest and protection within the human rights framework, is increasingly unable to understand nor seek accountability for harms arising from the deployment of AI systems",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Generative AI and ChatGPT are mentioned as examples, not as the primary technology studied.",
+      "excerpt": "Even the much hyped generative AI, of which OpenAI’s ChatGPT was said to be the fastest consumer application to reach 100 million users",
+      "page": "2",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLMs are referenced within a broader AGI vision, not as conversational systems under governance study.",
+      "excerpt": "Large language models are but a springboard to the self-professed vision towards the creation of artificial general intelligence",
+      "page": "10",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Text supports contestation and remedy themes relevant to governance.accountability coding.",
+      "excerpt": "The opacity of the workings of the algorithmic model and the paucity of information that accompanies it impacts the individual’s right to contest a decision or seek for remedies.",
+      "page": "4",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated/high-stakes sectors are mentioned only illustratively.",
+      "excerpt": "increasing deployment of ‘algorithmic decision making’ or decision support systems within public administration [16, 17], including within critical sectors such as healthcare, educat",
+      "page": "2",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Article proposes a new model of human rights accountability in the age of AI.",
+      "excerpt": "It then considers and offers the outline to critical perspectives that can inform a new model of human rights accountability in the age of AI.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No conversational AI, chatbot, agent, RAG, guardrail, or operational observability focus appears in supplied text.",
+      "excerpt": "Keywords Human rights · Artificial intelligence · Slow violence · Normative foundations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Observability hit in triage refers to perceptibility of violence, not technical system observability.",
+      "excerpt": "Observability, perceptibility and intentionality are elements that commonly feature on accounts of violence.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

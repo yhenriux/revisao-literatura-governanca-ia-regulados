@@ -1,0 +1,188 @@
+{
+  "bibliographic": {
+    "title": "SHARP: Social Harm Analysis via Risk Profiles for Measuring Inequities in Large Language Models",
+    "authors": "Alok Abhishek; Tushar Bandopadhyay; Lisa Erickson",
+    "year": "2026",
+    "venue": "arXiv preprint",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Abhishek, A., Bandopadhyay, T., & Erickson, L. (2026). SHARP: Social Harm Analysis via Risk Profiles for Measuring Inequities in Large Language Models. arXiv preprint arXiv:2601.21."
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "methodological framework with empirical LLM evaluation",
+    "study_design": "framework development and application to eleven frontier LLMs on a fixed prompt corpus",
+    "sample_description": "eleven frontier LLMs evaluated on n = 901 socially sensitive prompts",
+    "sample_size": "11 models; 901 prompts",
+    "sector": "healthcare, finance, hiring, welfare allocation, criminal justice",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "multidimensional social harm evaluation of LLMs and LLM-powered agents using risk profiles, LLM-as-a-judge scoring, and tail-sensitive distributional statistics"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GOVERNANCE",
+      "RISK_ASSESSMENT",
+      "REGULATED_CONTEXT",
+      "EVALUATION_FRAMEWORK"
+    ],
+    "exclusion_codes": [
+      "WEAK_CONVERSATIONAL_GOVERNANCE_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper directly addresses responsible evaluation and governance of LLMs in high-stakes domains through a multidimensional risk-profiling framework, but the provided text does not establish operational conversational governance mechanisms such as chatbot supervision, guardrails, observability, audit logs, handoff, or contestation workflows.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front matter and selected pages were supplied; conversational-governance fit is weak from available text and full methods/results sections are needed to confirm scope boundaries."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Clear methodological objective and architecture are described, including prompt-level harm decomposition and empirical application to eleven models. Available excerpts limit assessment of full protocol transparency, judge validation, reproducibility, and complete limitation discussion."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and empirically applied, but its relevance to conversational governance in regulated deployments is indirect because the text emphasizes evaluation measurement rather than runtime governance, oversight, or compliance controls."
+  },
+  "coding": {
+    "open_codes": [
+      "tail risk profiling",
+      "multidimensional social harm",
+      "scalar benchmark critique",
+      "LLM-as-a-judge evaluation",
+      "high-stakes deployment risk",
+      "bias-fairness-ethics-epistemic decomposition"
+    ],
+    "axial_codes": [
+      "LLM risk governance",
+      "responsible AI evaluation",
+      "algorithmic accountability measurement",
+      "regulated high-stakes AI"
+    ],
+    "theme": "Multidimensional risk profiling for responsible LLM evaluation and governance",
+    "subtheme": "Tail-sensitive social harm measurement beyond mean-centered benchmarks",
+    "concepts": [
+      "SHARP",
+      "risk profiles",
+      "CVaR95",
+      "cumulative log-risk",
+      "bias",
+      "fairness",
+      "ethics",
+      "epistemic reliability",
+      "union-of-failures aggregation"
+    ],
+    "model_layers": [
+      "evaluation layer",
+      "risk measurement layer"
+    ],
+    "rq_alignment": [
+      "LLM governance in regulated contexts",
+      "risk assessment and auditing",
+      "bias and fairness accountability"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "SHARP models social harm in LLMs as a multivariate, distribution-aware risk object and shows that models with similar average risk can differ substantially in tail exposure across bias, fairness, ethics, and epistemic dimensions.",
+    "contribution": "Introduces a methodological framework for multidimensional, tail-sensitive evaluation of social harm in frontier LLMs, supporting more responsible governance-oriented assessment than scalar benchmarks.",
+    "limitations": "Provided text is incomplete; governance implications are described as indirect; the work does not appear to address conversational-system operational controls; heuristic risk aggregation assumptions and judge-based scoring limitations are noted but not fully appraised from the excerpt.",
+    "use_in_review": "Use as supporting evidence on evaluation-centric LLM governance, tail-risk measurement, and accountability in regulated high-stakes domains; not as central evidence on conversational governance architecture or operational compliance controls."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on LLMs in high-stakes regulated-like domains.",
+      "excerpt": "Large language models (LLMs) are increasingly deployed in high-stakes domains, where rare but severe failures can result in irreversible harm.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors propose SHARP as a multidimensional social harm evaluation framework.",
+      "excerpt": "This paper introduces Social Harm Analysis via Risk Profiles (SHARP), a framework for multidimensional, distribution-aware evaluation of social harm.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Empirical study evaluates eleven frontier LLMs on 901 socially sensitive prompts.",
+      "excerpt": "Application of SHARP to eleven frontier LLMs, evaluated on a fixed corpus of n = 901 socially sensitive prompts",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Work links responsible governance to tail-sensitive multidimensional evaluation.",
+      "excerpt": "These findings indicate that responsible evaluation and governance of LLMs require moving beyond scalar averages toward multidimensional, tail-sensitive risk profiling.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Study mentions LLM-powered agents but not conversational governance controls.",
+      "excerpt": "Large language models (LLMs) and LLM-powered agents have moved from experimental artifacts to integral components of decision-making systems with material societal impact.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated or institutional domains are explicitly referenced.",
+      "excerpt": "They are increasingly deployed in high-stakes domains such as healthcare, finance, hiring, welfare allocation, and criminal justice",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Harm is decomposed across bias, fairness, ethics, and epistemic reliability.",
+      "excerpt": "SHARP models harm as a multivariate random variable and integrates explicit decomposition into bias, fairness, ethics, and epistemic reliability",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Method uses LLM-as-a-judge protocol at prompt level.",
+      "excerpt": "At the prompt level, model responses are embedded into a four-dimensional harm space using a multi-judge LLM-as-a-judge protocol",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Primary metric emphasizes worst-case tail behavior via CVaR95.",
+      "excerpt": "The framework further employs risk-sensitive distributional statistics, with Conditional Value at Risk (CVaR95) as a primary metric, to characterize worst-case model behavior.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors state societal implications are indirect and mediated through measurement/governance practices.",
+      "excerpt": "Its societal implications are primarily indirect, mediated through improved measurement and governance practices rather than direct deployment or decision-making.",
+      "page": "10",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Publication is a non-peer-reviewed preprint.",
+      "excerpt": "Preprint. arXiv:2601.21",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

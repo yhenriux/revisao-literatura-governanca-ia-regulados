@@ -1,0 +1,173 @@
+{
+  "bibliographic": {
+    "title": "Machine Learning based Enterprise Financial Audit Framework and High Risk Identification",
+    "authors": "Tingyu Yuan, Xi Zhang, Xuanjing Chen",
+    "year": "unclear",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "unknown",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Yuan, T., Zhang, X., & Chen, X. (unclear). Machine Learning based Enterprise Financial Audit Framework and High Risk Identification. unclear."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative machine learning model evaluation",
+    "study_design": "comparative algorithm benchmarking with hierarchical K-fold cross-validation and classification metrics (F1-score, accuracy, recall)",
+    "sample_description": "Dataset from the Big Four accounting firms (EY, PwC, Deloitte, KPMG) spanning 2020 to 2025, including audit project counts, high-risk cases, detected frauds, compliance breaches, employee workload, client satisfaction, and AI auxiliary role indicators",
+    "sample_size": "unclear",
+    "sector": "enterprise financial auditing / accounting",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "Support Vector Machine (SVM), Random Forest (RF), and K-Nearest Neighbors (KNN) for high-risk identification, fraud detection, and compliance anomaly detection in enterprise financial audit"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_scope_no_llm",
+      "E_scope_no_conversational_ai",
+      "E_scope_no_conversational_governance"
+    ],
+    "exclusion_reason": "Study addresses classical machine learning for enterprise financial audit risk prediction; provided text contains no large language models, generative AI, conversational systems, chatbots, agents, RAG, or conversational governance mechanisms.",
+    "decision_rationale": "Although the paper covers regulated financial auditing, compliance, risk assessment, and corporate governance themes, it operationalizes governance through ML-based audit automation and risk prediction rather than conversational AI governance. The review scope requires LLM-based conversational systems and associated governance; this mismatch is explicit in the abstract and introduction.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Exclusion is clear from provided text: only SVM, RF, and KNN are discussed; no conversational or LLM governance content appears."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Appraisal based on abstract and partial full text only. Study appears methodologically coherent for ML audit risk classification, but dataset size, provenance validation, and ethics are not detailed in the excerpt provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internal coherence of the ML audit framework is reasonably described, but relevance to conversational governance in LLM systems is very low based on the supplied text."
+  },
+  "coding": {
+    "open_codes": [
+      "enterprise financial audit",
+      "high-risk identification",
+      "machine learning classification",
+      "regulatory compliance",
+      "fraud detection",
+      "audit automation",
+      "corporate governance",
+      "real-time monitoring"
+    ],
+    "axial_codes": [
+      "regulated_financial_audit",
+      "classical_ml_risk_prediction",
+      "compliance_and_fraud_monitoring"
+    ],
+    "theme": "Machine learning for enterprise financial audit and high-risk identification",
+    "subtheme": "Comparative evaluation of SVM, Random Forest, and KNN on Big Four audit data",
+    "concepts": [
+      "risk assessment",
+      "compliance violations",
+      "feature importance",
+      "audit efficiency",
+      "operational transparency"
+    ],
+    "model_layers": [
+      "data_features",
+      "ml_algorithms",
+      "risk_prediction_output",
+      "audit_recommendations"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Random Forest outperforms SVM and KNN for enterprise financial audit high-risk identification, achieving an F1-score of 0.9012, especially in fraud and compliance anomaly detection.",
+    "contribution": "Proposes an AI-driven financial audit framework using classical machine learning to improve audit efficiency, accuracy, and risk management in regulated enterprise environments.",
+    "limitations": "Provided excerpt does not fully report study limitations, dataset size, or external validity constraints; future work mentions deep learning integration but details are incomplete in supplied text.",
+    "use_in_review": "Exclude from central evidence on conversational governance in LLM systems; at most peripheral contextual background for regulated financial audit automation using pre-LLM machine learning."
+  },
+  "evidence": [
+    {
+      "claim": "Paper title and authorship",
+      "excerpt": "Machine Learning based Enterprise Financial Audit Framework and High Risk Identification Tingyu Yuan 1,4, Xi Zhang2,5, Xuanjing Chen3,6",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Uses classical ML, not LLMs",
+      "excerpt": "three machine learning algorithms—Support Vector Machine (SVM), Random Forest (RF), and K-Nearest Neighbors (KNN)—are compared",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated financial audit and compliance context",
+      "excerpt": "financial auditing has become essential for ensuring regulatory compliance and preventing systemic financial risks",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empirical dataset from Big Four firms",
+      "excerpt": "Using a dataset from the Big Four accounting firms (EY, PwC, Deloitte, KPMG) spanning 2020 to 2025",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Main performance finding",
+      "excerpt": "Random Forest demonstrates the highest performance with an F1-score of 0.9012, especially excelling in detecting fraud and compliance anomalies",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Governance framed as audit quality and corporate governance, not conversational governance",
+      "excerpt": "building data-driven frameworks for risk identification and early warning, thereby enhancing audit quality and corporate governance",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational AI content in supplied text",
+      "excerpt": "Keywords: Enterprise financial audit, machine learning, random forest, SVM，KNN",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Methodological evaluation approach",
+      "excerpt": "Through hierarchical K-fold cross- validation and evaluation via F1-score, accuracy, and recall",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Operational transparency and compliance monitoring emphasis",
+      "excerpt": "enterprise financial auditing serves not only as a pillar of regulatory compliance but also as a critical tool for ensuring operational transparency",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Recommended implementation direction",
+      "excerpt": "enterprise audit systems adopt Random Forest as a core model, extend data features through feature engineering, and implement real-time monitoring",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

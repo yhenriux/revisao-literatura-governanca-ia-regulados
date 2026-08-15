@@ -1,0 +1,157 @@
+{
+  "bibliographic": {
+    "title": "How ChatGPT Changed the Media's Narratives on AI: A Semi-automated Narrative Analysis Through Frame Semantics",
+    "authors": "Igor Ryazanov, Carl Öhman, Johanna Björklund",
+    "year": "2024",
+    "venue": "Minds and Machines",
+    "doi": "10.1007/s11023-024-09705-w",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Ryazanov, I., Öhman, C., & Björklund, J. (2024). How ChatGPT changed the media's narratives on AI: A semi-automated narrative analysis through frame semantics. Minds and Machines. https://doi.org/10.1007/s11023-024-09705-w"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "mixed-method frame semantics-based narrative analysis; semi-automated media discourse analysis",
+    "study_design": "longitudinal comparative analysis of news articles six months before and six months after ChatGPT launch (November 30, 2022)",
+    "sample_description": "5846 news articles mentioning AI from 18 most visited open-access English-language news publishers; more than 49,000 sentences; twelve-month period centred around ChatGPT launch",
+    "sample_size": "5846 articles; >49000 sentences",
+    "sector": "media and journalism discourse analysis",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "OpenAI ChatGPT launch as focal event; analysis of popular media narratives on AI and LLMs"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "TOPIC_MISMATCH",
+      "NOT_CONVERSATIONAL_GOVERNANCE",
+      "NOT_REGULATED_DEPLOYMENT_CONTEXT"
+    ],
+    "exclusion_reason": "The study analyzes how media narratives about AI changed before and after ChatGPT launch using frame semantics on news articles; it does not examine governance, oversight, compliance, auditability, or operational control of conversational LLM systems in regulated high-stakes environments.",
+    "decision_rationale": "Although the article is empirically rigorous and centrally features ChatGPT/LLMs, its object of study is public media framing rather than conversational AI governance in regulated settings. Keyword overlap with governance, risk, and regulated domains reflects discourse content in news articles, not implementation or governance of regulated conversational systems.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 5,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Appraisal reflects methodological quality for the article's own research question on media narratives, not fit to the review scope on conversational governance in regulated LLM deployments."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Evidence adequacy and coherence appear strong for media narrative analysis, but relevance to conversational AI governance in regulated environments is very low based on the provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "media_narrative_analysis",
+      "frame_semantics",
+      "pre_post_chatgpt_comparison",
+      "risk_framing_in_media",
+      "anthropomorphic_language_in_reporting"
+    ],
+    "axial_codes": [
+      "public_discourse_on_ai",
+      "chatgpt_launch_effects",
+      "media_attention_shift"
+    ],
+    "theme": "Media narratives on AI and LLMs after ChatGPT",
+    "subtheme": "Shift toward risk, experts, and political leaders in post-ChatGPT discourse",
+    "concepts": [
+      "narrative analysis",
+      "frame semantics",
+      "ChatGPT",
+      "LLM",
+      "media attention",
+      "risk framing",
+      "anthropomorphism",
+      "regulation discourse"
+    ],
+    "model_layers": [],
+    "rq_alignment": [
+      "public perception of AI",
+      "media influence on regulation discourse"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "After ChatGPT launch, media attention on AI rose sharply and discourse became more centred on experts and political leaders, with AI more closely associated with dangers and risks and qualitative shifts in perceived threats and anthropomorphic qualities.",
+    "contribution": "Introduces a large curated post-ChatGPT media dataset and a semi-automated frame semantics methodology to compare AI narratives before and after ChatGPT launch across widely visited anglophone news sites.",
+    "limitations": "Provided text notes prior literature trade-offs between sample size and depth, excessive focus on US/UK quality outlets in earlier work, and that most prior studies pre-dated ChatGPT; broader study limitations beyond excerpt are unclear.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance in regulated LLM systems; at most peripheral contextual background on how media discourse framed AI risks after ChatGPT."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on media narrative change around ChatGPT, not governance of deployed conversational systems",
+      "excerpt": "the goal of the present study is to explore how narratives around AI differ before and after the launch of ChatGPT",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical mixed-method design using frame semantics on a large news corpus",
+      "excerpt": "We perform a mixed-method frame semantics-based analysis on a dataset of more than 49,000 sentences collected from 5846 news articles that mention AI",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample spans six months before and after ChatGPT launch from 18 anglophone news sites",
+      "excerpt": "we draw on a large curated dataset of 5846 articles covering six months before and six months after November 30, 2022 (i.e. the launch date)",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Post-ChatGPT media discourse linked to increased attention and risk framing",
+      "excerpt": "During this period, discourse has become increasingly centred around experts and political leaders, and AI has become more closely associated with dangers and risks",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Study explicitly targets ChatGPT/LLM media context rather than operational AI governance",
+      "excerpt": "the majority of studies were conducted before the launch of OpenAI's ChatGPT and the subsequent explosion in interest in AI and large language models (LLMs)",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Media coverage may influence regulation indirectly, but governance mechanisms are not studied",
+      "excerpt": "This intensive coverage has arguably become an important force in shaping the public's perception of AI, which may ultimately affect both the direction and scope of research, technology adoption and subsequent regulation",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Data collection used AI, ChatGPT, and Machine Learning keyword searches across news sites",
+      "excerpt": "AI, ChatGPT and Machine Learning3—were used for each of the 18 sites, amounting to 54 searches",
+      "page": "5",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Media language about conversation with AI is analyzed as framing, not as conversational system governance",
+      "excerpt": "such as when an AI system is said to 'understand' something or that someone is 'having a conversation' with the AI",
+      "page": "3",
+      "section": "Literature review",
+      "supports": "eligibility"
+    }
+  ]
+}

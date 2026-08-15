@@ -1,0 +1,181 @@
+{
+  "bibliographic": {
+    "title": "AI and Human Reasoning: Qualitative Research in the Age of Large Language Models",
+    "authors": "Muneera Bano; Didar Zowghi; Jon Whittle",
+    "year": "2023",
+    "venue": "The AI Ethics Journal, Volume 3, Issue 1, Fall 2023",
+    "doi": "10.47289/AIEJ20240122",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Bano, M., Zowghi, D., & Whittle, J. (2023). AI and Human Reasoning: Qualitative Research in the Age of Large Language Models. The AI Ethics Journal, 3(1). https://doi.org/10.47289/AIEJ20240122"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative experiment",
+    "study_design": "exploratory comparative experiment comparing human analysts and multiple LLMs on classification and reasoning tasks",
+    "sample_description": "Alexa app reviews classified by two human analysts against Schwartz's human values; same reviews classified by Bard, ChatGPT 3.5, and GPT-4 with reasoning",
+    "sample_size": "unclear",
+    "sector": "qualitative research methodology; voice assistant user reviews",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Google Bard, OpenAI ChatGPT 3.5, GPT-4 applied to Alexa app review text classification against Schwartz human values framework"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "borderline",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_SPECIFIC",
+      "HUMAN_OVERSIGHT_COLLABORATION",
+      "GENAI_ETHICS"
+    ],
+    "exclusion_codes": [
+      "NOT_CONVERSATIONAL_GOVERNANCE",
+      "NOT_REGULATED_DEPLOYMENT_CONTEXT",
+      "RESEARCH_METHODOLOGY_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study is an exploratory empirical comparison of human versus LLM comprehension and classification in qualitative research using Alexa app reviews, not an analysis of conversational governance, guardrails, audit, compliance, or operational oversight in regulated LLM deployments. It offers borderline relevance via human-LLM collaboration, reasoning comparison, and ethics-related concerns about reliability and transparency, but does not address governance mechanisms for conversational systems in high-stakes regulated environments.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage scored the article as central_candidate, but the provided text centers on qualitative research methodology rather than conversational governance in regulated settings; full-text verification is needed for sample size, analysis detail, and any deployment or governance implications beyond research use."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Abstract and introduction clearly state an exploratory comparison objective and experimental design, but the excerpt does not report sample size, detailed analysis procedures, or explicit limitations. Appraisal is based only on provided pages 1-2 and 11 fragments."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "Findings on human-LLM agreement and reasoning are internally coherent for a qualitative-research experiment, but adequacy and transferability to conversational governance in regulated LLM systems are limited because the study does not examine governance controls, operational oversight, or regulated-sector deployment."
+  },
+  "coding": {
+    "open_codes": [
+      "human-LLM comparison",
+      "classification agreement",
+      "reasoning provision",
+      "Schwartz human values",
+      "Alexa app reviews",
+      "qualitative research",
+      "bias and transparency concerns",
+      "text generation opacity"
+    ],
+    "axial_codes": [
+      "human oversight in AI-assisted analysis",
+      "reliability of AI-derived interpretations",
+      "ethics of generative AI use"
+    ],
+    "theme": "Human-LLM collaboration and interpretive alignment in research workflows",
+    "subtheme": "Comparative classification and reasoning between human analysts and specific LLMs",
+    "concepts": [
+      "human-LLM collaboration",
+      "interpretive disagreement",
+      "AI reasoning",
+      "human values classification",
+      "transparency",
+      "interpretability",
+      "bias amplification"
+    ],
+    "model_layers": [
+      "model behavior and reasoning",
+      "human analyst comparison layer"
+    ],
+    "rq_alignment": [
+      "human oversight and contestation (partial)",
+      "LLM specificity (direct)",
+      "governance and accountability (tangential ethics only)"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "Humans and LLMs (Bard, ChatGPT 3.5, GPT-4) show varied agreement when classifying Alexa app reviews against Schwartz's human values, with more disagreements than agreements overall, though ChatGPT aligns more closely with some human perspectives; the authors argue for synergistic human-LLM collaboration in qualitative research.",
+    "contribution": "Provides empirical evidence on divergence between human and LLM classifications and reasonings in a qualitative coding task, supporting continuous human evaluation of LLM roles rather than replacement.",
+    "limitations": "Sample size, full analytic protocol, and study limitations are not available in the provided excerpt; regulated-domain or operational governance implications are not addressed.",
+    "use_in_review": "Use as borderline or supporting contextual evidence on human-LLM interpretive alignment, reasoning transparency, and collaboration in AI-assisted analysis; not suitable as central evidence for conversational governance architectures, guardrails, audit, or compliance in regulated deployments."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses specific LLMs in an empirical comparison with humans",
+      "excerpt": "compare the comprehension capabilities of humans and LLMs, specifically Google’s Bard and OpenAI’s ChatGPT 3.5 and GPT-4",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Experimental design involves Alexa app reviews and human baseline classification",
+      "excerpt": "We conducted an experiment with a sample of Alexa app reviews, initially classified by two human analysts against Schwartz’s human values.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLMs asked to classify and provide reasoning, then compared to humans",
+      "excerpt": "Bard, ChatGPT 3.5 and GPT-4 were then asked to classify these reviews and provide the reasoning behind each classification. We compared the results of LLMs with human classifications and reasonings.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Results show limited agreement between AI models and human analysts",
+      "excerpt": "The results revealed varied levels of agreement between AI models and human analysts concerning their interpretation of Schwartz’s human values.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors recommend synergistic human-LLM collaboration",
+      "excerpt": "Our results highlight the potential for effective human-LLM collaboration, suggesting a synergistic rather than competitive relationship.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs can engage in conversations and mimic human-like text generation",
+      "excerpt": "allowing them to generate human-like text to answer questions, write essays, summarise text, and even engage in conversations",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Text discusses bias, transparency, and interpretability concerns of LLMs",
+      "excerpt": "the text generation process of LLMs remains fundamentally opaque, raising questions about transparency and interpretability.",
+      "page": "11",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Ethical guidelines for LLM use should be context-dependent with diverse stakeholders",
+      "excerpt": "the selection of ethical guidelines governing LLMs use should be context- dependent and reflective of the values and perspectives of a diverse range of stakeholders",
+      "page": "11",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Peer-reviewed journal publication with 2023 acceptance",
+      "excerpt": "Received 22 June 2023 Accepted 31 October 2023 Published 13 December 2023",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Article is not focused on regulated-sector conversational system governance",
+      "excerpt": "This research is exploratory and aims to compare the comprehension capabilities of humans and LLMs",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

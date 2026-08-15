@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "Critical dialogical accountability: From accounting-based accountability to accountability-based accounting",
+    "authors": "Jesse Dillard; Eija Vinnari",
+    "year": "2019",
+    "venue": "Critical Perspectives on Accounting",
+    "doi": "10.1016/j.cpa.2018.10.003",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Dillard, J., & Vinnari, E. (2019). Critical dialogical accountability: From accounting-based accountability to accountability-based accounting. Critical Perspectives on Accounting, 62, 16-38. https://doi.org/10.1016/j.cpa.2018.10.003"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "critical theoretical framework development in social and environmental accounting (SEA)",
+    "study_design": "conceptual-theoretical article proposing a normative and descriptive accountability framework",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "social and environmental accounting; public and private sector institutions",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "accounting and disclosure systems; mentions Enterprise Resource Planning software platforms; no LLM, generative AI, or conversational AI systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "governance_accountability",
+      "human_oversight_contestation",
+      "foundational_theory"
+    ],
+    "exclusion_codes": [
+      "no_llm_technology",
+      "no_conversational_ai_system",
+      "pre_llm_domain_mismatch"
+    ],
+    "exclusion_reason": "The article is a theoretical accounting paper on institutional accountability. It does not address LLMs, generative AI, chatbots, agents, RAG, or technical conversational systems; uses dialogue/conversation only in institutional accountability discourse.",
+    "decision_rationale": "Strong conceptual contribution on accountability, governance, dialogue, contestation, and pluralism in institutional settings, but zero evidence in the provided text of LLM-based or conversational AI systems in regulated environments. Relevant only as foundational contextual theory for accountability constructs, not as central or supporting evidence for the review scope.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage marked central_candidate due to governance and dialogue keyword matches, but LLM dimension scored 0/3; manual adjudication needed to confirm whether foundational accountability theory should be retained in the corpus."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 1,
+    "notes": "Appraisal reflects quality as a conceptual SEA article based on provided excerpts. Transferability to LLM conversational governance in regulated settings is very low because the technology context is accounting systems, not AI."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internally coherent and adequately developed for accounting accountability theory, but methodological and substantive relevance to LLM conversational governance is very limited in the supplied text."
+  },
+  "coding": {
+    "open_codes": [
+      "critical dialogical accountability",
+      "accounting-based accountability",
+      "accountability-based accounting",
+      "agonistic dialogue",
+      "pluralism",
+      "power asymmetry",
+      "responsibility networks",
+      "stakeholder contestation"
+    ],
+    "axial_codes": [
+      "institutional governance",
+      "democratic accountability discourse",
+      "disclosure limits",
+      "legitimacy and negotiation"
+    ],
+    "theme": "Critical dialogical accountability in pluralistic institutions",
+    "subtheme": "From accounting-based to accountability-based accounting",
+    "concepts": [
+      "critical dialogic accountability",
+      "accounting-based accountability",
+      "accountability-based accounting",
+      "critical dialogic discourse",
+      "responsibility networks",
+      "agonistic dialogue"
+    ],
+    "model_layers": [
+      "institutional governance",
+      "accountability relationships",
+      "disclosure and reporting systems"
+    ],
+    "rq_alignment": [
+      "accountability",
+      "governance",
+      "human contestation and justification",
+      "regulated institutional contexts"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Institutional accountability should be reconceptualized through critical dialogical accountability, designing accounting systems around accountability requirements of diverse constituencies rather than extending traditional financial accounting disclosure.",
+    "contribution": "Offers a descriptive and normative definition of accountability recognizing power, pluralism, and dialogue, and proposes accountability-based accounting as an alternative to accounting-based accountability.",
+    "limitations": "Provided text does not empirically evaluate implementations, does not address AI or conversational technologies, and applicability to LLM governance remains indirect and unclear.",
+    "use_in_review": "Retain only as foundational contextual theory for accountability, dialogue, contestation, and governance constructs; exclude from central or supporting evidence on LLM conversational governance."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with identifiable bibliographic metadata",
+      "excerpt": "published in Critical Perspectives on Accounting, 2019, 62, 16-38",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM, generative AI, or conversational AI system in scope",
+      "excerpt": "Keywords: agonistics; accountability; sustainability; pluralism; governance; critical dialogic accountability",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Conceptual theoretical research type",
+      "excerpt": "We propose critical dialogic accountability as a way to conceptualize accountability systems",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Dialogue refers to institutional accountability discourse, not conversational AI",
+      "excerpt": "engage in a back-and-forth conversation; and furthermore, it instantiates a non-arbitrary encounter",
+      "page": "14",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Contestation and democratic dialogue are core to accountability governance",
+      "excerpt": "continual and irresolvable contested context rendering accountability always, already a continually conflicting domain",
+      "page": "15",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance through legitimate dialogue and negotiation among constituencies",
+      "excerpt": "Processes need to be in place that ensure legitimate dialogue, negotiation and compromise",
+      "page": "30",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated or institutional public/private sector context, not a specific high-stakes AI domain",
+      "excerpt": "The term accountability has taken on a dominate role within both the public and private sector",
+      "page": "3",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Technology mention is ERP/accounting platforms, not LLM systems",
+      "excerpt": "feasibility has been greatly enhanced by the development and implementation of various software platforms such as Enterprise Resource Planning systems",
+      "page": "33",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Clear objective on accountability limits of disclosure-based approaches",
+      "excerpt": "Accountability is limited by what is disclosed, and what is disclosed is limited by the extant accounting system",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Main synthesis claim on accountability-based accounting",
+      "excerpt": "accounting systems be designed to address specific requirements of alternative accountability systems (accountability-based accounting)",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

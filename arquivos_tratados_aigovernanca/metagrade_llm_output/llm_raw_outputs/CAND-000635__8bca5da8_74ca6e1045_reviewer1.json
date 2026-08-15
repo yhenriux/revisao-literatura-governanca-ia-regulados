@@ -1,0 +1,194 @@
+{
+  "bibliographic": {
+    "title": "Use of large language models for providing automated feedback in medical imaging education: a systematic review",
+    "authors": "Mustafa Mohammed Al-Mashhadani, Faika Ajaz, Shaista Salman Guraya, Farah Ennab",
+    "year": "2026",
+    "venue": "Frontiers in Medicine",
+    "doi": "10.3389/fmed.2026.1803921",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Al-Mashhadani, M. M., Ajaz, F., Guraya, S. S., & Ennab, F. (2026). Use of large language models for providing automated feedback in medical imaging education: A systematic review. Frontiers in Medicine, 13, 1803921. https://doi.org/10.3389/fmed.2026.1803921"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic review (PRISMA 2020)",
+    "study_design": "systematic review with descriptive synthesis and quality appraisal using ROBINS-I and GRADE",
+    "sample_description": "Seven included primary studies examining automated LLM feedback for medical imaging education of radiology residents, with one study also including fellows",
+    "sample_size": "7 included studies from 1,003 identified records",
+    "sector": "healthcare; medical education; radiology/medical imaging",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-generated automated feedback for trainees in medical imaging education, including fine-tuned and general-purpose LLMs"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM",
+      "healthcare",
+      "human_oversight",
+      "hybrid_human_AI",
+      "medical_education"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a registered PRISMA systematic review focused on LLM automated feedback in medical imaging education within healthcare, and it explicitly emphasizes human expert oversight and hybrid human-AI feedback. However, the provided text contains no evidence of conversational systems, chatbots, agents, RAG, guardrails, audit/logging, or broader operational governance mechanisms central to the review scope.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage marked central_candidate, but conversational_ai evidence is absent in the supplied text; adjudication is needed on whether human-oversight themes in non-conversational educational feedback are sufficient for central inclusion."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": "unclear",
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal is based only on front-matter text provided. Methods appear appropriate for a systematic review (PRISMA 2020, PROSPERO registration, named databases, ROBINS-I and GRADE), but full search strategy, screening procedures, and appraisal results are not visible in the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The review reports a small included corpus (7 studies) and characterizes the evidence as preliminary and limited. Findings on hybrid human-AI feedback and essential human oversight are coherent in the provided text, but adequacy and relevance to conversational governance in regulated LLM systems are limited because the focus is educational automated feedback rather than conversational AI governance."
+  },
+  "coding": {
+    "open_codes": [
+      "automated feedback",
+      "hybrid human-AI feedback",
+      "human expert oversight",
+      "medical imaging education",
+      "fine-tuned LLMs",
+      "general-purpose LLMs",
+      "learner satisfaction",
+      "preliminary evidence"
+    ],
+    "axial_codes": [
+      "human-in-the-loop oversight",
+      "hybrid deployment model",
+      "LLM use in regulated healthcare education",
+      "performance vs expert consensus"
+    ],
+    "theme": "Human oversight and hybrid human-AI use of LLMs in regulated medical education",
+    "subtheme": "Automated feedback for radiology trainees with retained expert supervision",
+    "concepts": [
+      "automated feedback",
+      "human oversight",
+      "hybrid human-AI feedback model",
+      "expert-human consensus",
+      "educational effectiveness"
+    ],
+    "model_layers": [
+      "human oversight",
+      "hybrid human-AI collaboration"
+    ],
+    "rq_alignment": [
+      "human_oversight_contestation",
+      "regulated_high_stakes",
+      "llm_genai"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "LLMs may serve as supportive tools for automated feedback in medical imaging education alongside human feedback, with reported gains in accuracy, efficiency, and learner satisfaction, but current evidence remains preliminary.",
+    "contribution": "Synthesizes seven primary studies on LLM automated feedback for radiology trainees and highlights preference for hybrid human-AI feedback plus the essential role of human expert oversight.",
+    "limitations": "Published evidence is preliminary and limited; larger multicenter studies with standardized methods are needed before widespread adoption; current evidence supports technical feasibility more than definitive educational effectiveness.",
+    "use_in_review": "Use as supporting evidence on human oversight and hybrid human-AI deployment of LLMs in regulated healthcare education; not suitable as central evidence for conversational governance, guardrails, auditability, or operational technical governance."
+  },
+  "evidence": [
+    {
+      "claim": "The study is a systematic review conducted under PRISMA 2020.",
+      "excerpt": "We conducted this systematic review in accordance with the PRISMA 2020 guidelines.",
+      "page": "1",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Search covered PubMed, Scopus, and Embase through January 2026.",
+      "excerpt": "A comprehensive search of the PubMed, Scopus, and Embase databases was conducted, covering studies published through January 2026.",
+      "page": "1",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Eligibility focused on LLMs generating automated feedback for medical imaging trainees.",
+      "excerpt": "Studies were eligible if they examined the use of LLMs to generate automated feedback for medical trainees within medical imaging education.",
+      "page": "1",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Seven studies were included from 1,003 records.",
+      "excerpt": "Of 1,003 identified records, 7 met the inclusion criteria.",
+      "page": "1",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Trainees preferred a hybrid human-AI feedback model.",
+      "excerpt": "learners expressing satisfaction with the LLM feedback and preferring a hybrid human-AI feedback model.",
+      "page": "1",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human expert oversight is described as essential.",
+      "excerpt": "Our systematic review emphasizes that human expert oversight remains essential",
+      "page": "1",
+      "section": "conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Evidence is preliminary and not yet definitive for educational effectiveness.",
+      "excerpt": "the current evidence supports preliminary technical feasibility, but not yet definitive educational effectiveness.",
+      "page": "1",
+      "section": "conclusion",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Quality appraisal used ROBINS-I and GRADE.",
+      "excerpt": "quality appraisal assessed using ROBINS-I and GRADE.",
+      "page": "1",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "The review was prospectively registered in PROSPERO.",
+      "excerpt": "Systematic review registration: https://www.crd.york.ac.uk/PROSPERO/view/ CRD420251081394, Identifier CRD420251081394",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational AI context is evidenced in the supplied text.",
+      "excerpt": "automated feedback in medical imaging education",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The regulated healthcare context is explicit.",
+      "excerpt": "applications in medical education, and their ability to provide automated feedback may enhance medical imaging education for trainees.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Fine-tuned models showed stronger performance than general-purpose LLMs with variable expert agreement.",
+      "excerpt": "fine-tuned models generally showed stronger performance than general-purpose LLMs and demonstrated variable agreement with expert-human consensus.",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    }
+  ]
+}

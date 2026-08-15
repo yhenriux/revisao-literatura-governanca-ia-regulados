@@ -1,0 +1,219 @@
+{
+  "bibliographic": {
+    "title": "Formalising Human-in-the-Loop: Computational Reductions, Failure Modes, and Legal–Moral Responsibility",
+    "authors": "Maurice Chiodo; Dennis Müller; Paul Siewert; Jean-Luc Wetherall; Zoya Yasmine; John Burden",
+    "year": "2025",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Chiodo, M., Müller, D., Siewert, P., Wetherall, J.-L., Yasmine, Z., & Burden, J. (2025). Formalising human-in-the-loop: Computational reductions, failure modes, and legal–moral responsibility. arXiv preprint arXiv:2505.10426."
+  },
+  "methodology": {
+    "research_type": "theoretical",
+    "method_family": "Computability-theoretic formalisation using oracle machines and reductions; taxonomy development; legal-regulatory analysis; supplementary ethics consultations and literature comparison",
+    "study_design": "Conceptual formal framework with three HITL setup types (trivial monitoring, endpoint action, involved interaction) analysed for safety outcomes, failure modes, and legal-moral responsibility",
+    "sample_description": "Ethics consultations with different startups conducted between 2020 and 2022; literature comparison to substantiate taxonomy",
+    "sample_size": "unclear",
+    "sector": "AI systems and automated decision-making systems (ADMS)",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Human-in-the-loop (HITL) setups for AI/ADMS formalised via oracle machines; LLM-human creative collaboration cited as example of involved interaction (Turing reduction)"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "human_oversight_hitl",
+      "accountability_responsibility",
+      "legal_regulatory_framework",
+      "failure_modes_risk",
+      "llm_illustrative_example",
+      "explainability_tradeoff"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper provides a rigorous formalisation and taxonomy of human-in-the-loop setups, failure modes, and legal-moral responsibility directly relevant to governance and oversight in regulated AI contexts. LLMs appear as an illustrative example of involved human-AI interaction rather than as the primary technology under study; conversational governance is addressed indirectly through formal interaction types and accountability analysis.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted bibliographic metadata appears corrupted (title field conflated with author affiliations); confirm year, venue, and peer-review status from full PDF front matter."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Strong conceptual and formal contribution with clear objectives; limited transparency on ethics consultations (sample size and methods unclear). Authors disclose use of Gemini Pro for literature search and grammar assistance. Appropriate for theoretical appraisal rather than empirical sampling criteria."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "Arguments are internally coherent and formally developed with direct relevance to human oversight, accountability, and regulatory gaps. Confidence is moderate rather than high because empirical substantiation is limited to unspecified startup ethics consultations and LLM/conversational specificity remains illustrative."
+  },
+  "coding": {
+    "open_codes": [
+      "human_in_the_loop",
+      "oracle_machine_formalisation",
+      "computational_reductions",
+      "trivial_monitoring",
+      "endpoint_action",
+      "involved_interaction",
+      "failure_mode_taxonomy",
+      "legal_moral_responsibility",
+      "explainability_responsibility_tradeoff",
+      "GDPR_Article_22",
+      "EU_AI_Act_Article_14",
+      "human_scapegoating",
+      "LLM_collaborative_ping_pong"
+    ],
+    "axial_codes": [
+      "oversight_architecture",
+      "accountability_attribution",
+      "regulatory_compliance_gaps",
+      "technical_safety_limits",
+      "interpretability_explainability"
+    ],
+    "theme": "Formal governance of human-in-the-loop AI oversight",
+    "subtheme": "Computational classification of HITL setups and legal accountability",
+    "concepts": [
+      "oracle machines",
+      "Turing reductions",
+      "many-one reductions",
+      "total functions",
+      "involved interaction",
+      "black-box unmasking",
+      "regulatory simplistic view of HITL"
+    ],
+    "model_layers": [
+      "technical_design",
+      "legal_regulatory",
+      "ethical_moral",
+      "operational_failure_modes"
+    ],
+    "rq_alignment": [
+      "human_oversight_and_supervision",
+      "accountability_and_responsibility",
+      "risk_and_failure_modes",
+      "explainability_in_regulated_contexts",
+      "compliance_with_EU_UK_frameworks"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The effectiveness of human-in-the-loop for AI safety and regulatory accountability depends critically on how HITL is technically designed; different reduction-based setups produce vastly different safety and legal outcomes, and increased explainability can hinder clear responsibility attribution.",
+    "contribution": "Introduces a computability-theoretic formalisation of HITL as trivial monitoring, endpoint action, and involved interaction; presents a failure-mode taxonomy; identifies omissions in UK and EU legal frameworks; proposes six suggestions for effective HITL use.",
+    "limitations": "HITL is not a panacea for ADMS safety; identifying true setup types in practice is technically and legally difficult; existing law treats HITL simplistically and may not achieve desired ethical, legal, and sociotechnical outcomes.",
+    "use_in_review": "Use as supporting theoretical evidence for classifying human oversight patterns in LLM-based conversational systems, analysing accountability trade-offs, mapping failure modes, and critiquing regulatory assumptions about HITL in high-stakes domains."
+  },
+  "evidence": [
+    {
+      "claim": "Paper title and authorship",
+      "excerpt": "FORMALISING HUMAN-IN-THE-LOOP: COMPUTATIONAL REDUCTIONS, FAILURE MODES, AND LEGAL–MORAL RESPONSIBILITY Maurice Chiodo",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Preprint venue and year",
+      "excerpt": "arXiv:2505.10426v2 [cs.CY] 25 Sep 2025",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research type is theoretical formalisation of HITL",
+      "excerpt": "We use the notion of oracle machines and reductions from computability theory to formalise different Human-in-the-loop (HITL) setups for AI systems",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "HITL linked to safety and accountability in regulated AI",
+      "excerpt": "Human-in-the-loop (HITL)—the practice of embedding human oversight into a computational machine, such as an Automated Decision Making System (ADMS) or AI system—is frequently invoked as a safeguard to ensure AI safety and accountability",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulatory frameworks referenced",
+      "excerpt": "Existing legal frameworks, such as Article 22 of GDPR (2016) and Article 14 of EU AI Act (2024) only consider HITL under a simplistic view",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Explainability-responsibility trade-off",
+      "excerpt": "setups with increased human interpretability and explainability hinder clear attribution of responsibility, and vice versa",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLM as example of involved interaction",
+      "excerpt": "a ‘creative’ collaboration with a Large Language Model (LLM) where the human prompts the LLM to produce an initial response (or ask a question) which the human uses to determine the next detail they give the LLM, and so on",
+      "page": "4",
+      "section": "Section 2",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Involved interaction defined as unbounded human-machine queries",
+      "excerpt": "If the oracle machine is set up to ask more than one, and potentially unbounded, real queries ... we denote this as a human involved in the loop, abbreviated to involved interaction",
+      "page": "3",
+      "section": "Section 2",
+      "supports": "coding"
+    },
+    {
+      "claim": "Involved interaction increases explainability via chained smaller black boxes",
+      "excerpt": "in an involved interaction setup we argue that these smaller black boxes increase explainability of what went into determining the final output",
+      "page": "4",
+      "section": "Section 2",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Failure modes and taxonomy presented",
+      "excerpt": "We present a taxonomy to categorise HITL failure modes, highlighting the practical limitations of HITL setups",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "HITL not a panacea",
+      "excerpt": "Ultimately, HITL is no panacea to the problem of ADMS safety",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Empirical supplement via ethics consultations",
+      "excerpt": "series of ethics consultations with different startups. These consultations were conducted between 2020 and 2022",
+      "page": "10",
+      "section": "Results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Authors used LLM tools in writing process",
+      "excerpt": "We have used Gemini Pro 2.5 Deep Research to help with literature search, and Gemini Pro to help with grammar and formulation in selected places",
+      "page": "10",
+      "section": "Statement on use of large language models",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Practical difficulty identifying HITL setup types",
+      "excerpt": "identifying such setups, from the technical, legal, and moral perspectives above, is another challenge altogether",
+      "page": "5",
+      "section": "Section 2.3",
+      "supports": "appraisal"
+    }
+  ]
+}

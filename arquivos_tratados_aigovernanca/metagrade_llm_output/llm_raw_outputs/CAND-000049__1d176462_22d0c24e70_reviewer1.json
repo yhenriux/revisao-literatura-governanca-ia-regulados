@@ -1,0 +1,163 @@
+{
+  "bibliographic": {
+    "title": "AI - Powered Medical Chatbot for Symptom Check",
+    "authors": "Poorvika M U, Poorvika H R, Pranav K P, Praful D N, Tasmiya Anjum H N",
+    "year": "2026",
+    "venue": "E3S Web of Conferences 692, 03010 (2026) ISPES 2025",
+    "doi": "10.1051/e3sconf/202669203010",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Poorvika M. U., Poorvika H. R., Pranav K. P., Praful D. N., & Tasmiya Anjum H. N. (2026). AI - Powered Medical Chatbot for Symptom Check. E3S Web of Conferences, 692, 03010. https://doi.org/10.1051/e3sconf/202669203010"
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "NLP preprocessing and classical machine learning classification",
+    "study_design": "system design and development with experimental performance evaluation",
+    "sample_description": "Dataset containing over 130 symptoms and more than 40 diseases used to train prediction models",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "NLP tokenization, stemming, Bag-of-Words vectorization; Decision Tree Classifier; K-Nearest Neighbors; Artificial Neural Network; Flask backend; MySQL database"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_technology_not_llm",
+      "E_no_governance_focus",
+      "E_wrong_intervention_focus"
+    ],
+    "exclusion_reason": "The study describes a traditional NLP and classical machine learning medical chatbot for symptom checking and disease prediction, without use of large language models and without addressing conversational governance, accountability, compliance, audit, human oversight, or related governance mechanisms.",
+    "decision_rationale": "Although the paper presents a healthcare conversational chatbot in a high-stakes domain, the provided text shows classical ML/NLP methods rather than LLM-based systems and does not discuss governance, guardrails, observability, supervision, contestability, or regulatory compliance. It focuses on system implementation and prediction accuracy.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Technology stack and absence of governance content are explicit in the abstract and introduction."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal is based only on pages 1-2 provided. The paper reports a clear technical objective and 94.2% accuracy, but ethics, limitations, evaluation protocol details, and governance considerations are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "Provided text supports a coherent technical description of a symptom-checking chatbot, but methodological details are incomplete in the excerpt and the work is not relevant to LLM-based conversational governance in regulated settings."
+  },
+  "coding": {
+    "open_codes": [
+      "medical chatbot",
+      "symptom checker",
+      "disease prediction",
+      "NLP preprocessing",
+      "classical machine learning",
+      "Flask backend",
+      "MySQL interaction storage",
+      "doctor referral",
+      "medicine recommendation"
+    ],
+    "axial_codes": [
+      "conversational health support",
+      "predictive symptom-disease mapping",
+      "technical system implementation"
+    ],
+    "theme": "Healthcare conversational symptom-checking system",
+    "subtheme": "Classical ML/NLP medical chatbot implementation",
+    "concepts": [
+      "tokenization",
+      "stemming",
+      "Bag-of-Words vectorization",
+      "Decision Tree Classifier",
+      "K-Nearest Neighbors",
+      "Artificial Neural Network",
+      "precautionary measures",
+      "location-based doctor recommendations"
+    ],
+    "model_layers": [
+      "application layer",
+      "NLP preprocessing",
+      "ML inference",
+      "data persistence"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "An AI-powered medical chatbot using NLP preprocessing and classical machine learning can act as a symptom checker and initial healthcare advisor with reported 94.2% prediction accuracy.",
+    "contribution": "Describes an integrated healthcare chatbot platform combining symptom checking, disease prediction, precautionary advice, medicine suggestions, doctor mapping, and stored interaction history.",
+    "limitations": "Provided excerpt does not report study limitations, ethical review, clinical validation, regulatory compliance, or governance mechanisms; evaluation details beyond accuracy are unclear.",
+    "use_in_review": "Exclude from central evidence on LLM conversational governance; at most marginal contextual background on non-LLM medical chatbots if the review separately maps pre-LLM conversational health systems."
+  },
+  "evidence": [
+    {
+      "claim": "The system is a medical chatbot for symptom checking in healthcare.",
+      "excerpt": "an AI- powered medical chatbot that acts as an intelligent symptom checker and initial healthcare advisor",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The technology uses classical ML/NLP rather than LLMs.",
+      "excerpt": "It employs a Decision Tree Classifier and K-Nearest Neighbors (KNN) model trained on a dataset containing over 130 symptoms and more than 40 diseases",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The paper reports experimental accuracy performance.",
+      "excerpt": "Experimental results demonstrate a 94.2% accuracy with minimal overfitting",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "User interactions are stored in a database for history tracking.",
+      "excerpt": "All interactions are securely stored in a MySQL database, allowing users to track their medical history over time",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "The chatbot reduces rather than governs human involvement.",
+      "excerpt": "reduce the need for human intervention, and give timely guidance that supports early diagnosis and preventive care",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Trust is mentioned only in relation to dataset-driven responses, not governance design.",
+      "excerpt": "chatbots can deliver accurate and relevant responses that increase trust and accessibility",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The system also uses ANN and location-based KNN in the described architecture.",
+      "excerpt": "Disease prediction is performed using an Artificial Neural Network (ANN), while K-Nearest Neighbors (KNN) is utilized to recommend nearby doctors",
+      "page": "2",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Literature survey references transformer-based medical dialogue work, but the proposed system remains classical ML/NLP.",
+      "excerpt": "deep learning and transformer-based approaches for medical dialogue",
+      "page": "2",
+      "section": "Literature Survey",
+      "supports": "synthesis"
+    }
+  ]
+}

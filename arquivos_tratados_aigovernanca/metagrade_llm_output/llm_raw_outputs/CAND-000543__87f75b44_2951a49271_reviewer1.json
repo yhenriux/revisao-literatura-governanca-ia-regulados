@@ -1,0 +1,197 @@
+{
+  "bibliographic": {
+    "title": "Human-in-the-Loop Governance for LLM-Generated Code: An Engineering Control, Accountability, and Verification Model in AI-Augmented Software Development",
+    "authors": "Ihor Taldenko",
+    "year": "2026",
+    "venue": "European Journal of Science and Modern Technologies",
+    "doi": "10.59324/ejsmt.2026.2(3).12",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Taldenko, I. (2026). Human-in-the-Loop Governance for LLM-Generated Code: An Engineering Control, Accountability, and Verification Model in AI-Augmented Software Development. European Journal of Science and Modern Technologies, 2(3), 140-149. https://doi.org/10.59324/ejsmt.2026.2(3).12"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "systematic literature review with framework synthesis",
+    "study_design": "systematic review of 20 peer-reviewed and industry-authoritative sources combined with proposal of a five-phase Engineering Control and Verification Model (ECVM)",
+    "sample_description": "20 peer-reviewed and industry-authoritative sources identified via searches of IEEE Xplore, ACM Digital Library, arXiv, and Microsoft Research publication repository",
+    "sample_size": "20",
+    "sector": "commercial software development / AI-augmented software engineering",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-based code generation tools (e.g., GitHub Copilot, GPT-4, Code Llama) in AI-augmented software development workflows"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GOVERNANCE",
+      "HUMAN_OVERSIGHT",
+      "ACCOUNTABILITY_FRAMEWORK"
+    ],
+    "exclusion_codes": [
+      "NOT_CONVERSATIONAL_AI",
+      "WRONG_APPLICATION_DOMAIN",
+      "NOT_REGULATED_CONTEXT"
+    ],
+    "exclusion_reason": "O estudo trata governança human-in-the-loop para geração de código por LLMs em desenvolvimento de software comercial, não sistemas conversacionais, chatbots, agentes ou RAG; o contexto regulado de alto risco do escopo da revisão não é o foco do artigo.",
+    "decision_rationale": "O artigo oferece contribuição relevante sobre governança HITL, accountability e verificação em LLM-generated code, mas o escopo da revisão prioriza governança conversacional em ambientes regulados. A triagem determinística registrou score 0/3 em conversational_ai e o texto confirma foco em code generation, code review, static analysis e ECVM para equipes de engenharia de software, sem evidência de interfaces conversacionais ou domínios regulados como saúde ou financeiro.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "A exclusão decorre de desalinhamento claro de domínio tecnológico (geração de código vs. IA conversacional), suportado por múltiplos trechos do abstract e introdução."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Objetivo e desenho geral são explícitos no abstract e na introdução, incluindo revisão sistemática de 20 fontes e proposta do ECVM. Critérios de busca e exclusão parcialmente descritos na página 2. Limitações do próprio estudo, ética e detalhamento analítico completo não aparecem no trecho fornecido."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "moderate",
+    "explanation": "O texto apresenta objetivo, método de revisão e proposta de modelo de forma coerente, mas a evidência disponível é parcial (essencialmente páginas 1-2). A relevância para a revisão sobre governança conversacional em contextos regulados é baixa porque o foco é governança de código gerado por LLM em desenvolvimento de software comercial."
+  },
+  "coding": {
+    "open_codes": [
+      "human-in-the-loop governance",
+      "engineering accountability",
+      "automated verification gates",
+      "structured review protocols",
+      "LLM-generated code failure modes",
+      "security verification",
+      "developer productivity tradeoff",
+      "five-phase ECVM"
+    ],
+    "axial_codes": [
+      "governance structures",
+      "quality assurance",
+      "human oversight",
+      "security risk control",
+      "software engineering workflow integration"
+    ],
+    "theme": "Governança human-in-the-loop para geração de código por LLMs",
+    "subtheme": "Modelo de controle, accountability e verificação em desenvolvimento de software aumentado por IA",
+    "concepts": [
+      "Engineering Control and Verification Model (ECVM)",
+      "human-in-the-loop (HITL)",
+      "engineering accountability",
+      "automated verification gates",
+      "code review",
+      "static analysis",
+      "security vulnerability"
+    ],
+    "model_layers": [
+      "five-phase ECVM lifecycle model"
+    ],
+    "rq_alignment": [
+      "human oversight",
+      "accountability",
+      "verification and quality assurance",
+      "security risk mitigation"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Estruturas de governança human-in-the-loop podem fechar a lacuna entre velocidade de produção de código por LLMs e garantia de qualidade, combinando accountability de engenharia, gates de verificação automatizada e protocolos estruturados de revisão.",
+    "contribution": "Síntese de modos de falha de código gerado por LLM e proposta do modelo original de cinco fases ECVM, atribuindo responsabilidade explícita a toolchains automatizadas e engenheiros humanos em cada estágio do ciclo de vida.",
+    "limitations": "unclear",
+    "use_in_review": "Excluir como evidência central ou de apoio para governança conversacional; pode servir apenas como referência contextual distante sobre padrões HITL, accountability e verificação em workflows com LLMs fora do domínio conversacional."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo publicado em periódico com revisão por pares",
+      "excerpt": "Received: 03.05.2026 Revised: 25.05.2026 Accepted: 27.05.2026 Published: 28.05.2026",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Foco em governança de código gerado por LLM, não em sistemas conversacionais",
+      "excerpt": "The rapid adoption of large language model (LLM) based code generation tools in commercial software development",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Método inclui revisão sistemática de 20 fontes",
+      "excerpt": "Drawing on a systematic review of 20 peer-reviewed and industry-authoritative sources",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Proposta do modelo ECVM de cinco fases",
+      "excerpt": "proposes an original five-phase Engineering Control and Verification Model (ECVM)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human-in-the-loop e accountability são eixos centrais",
+      "excerpt": "human-in-the-loop (HITL) governance structures can address that gap by embedding engineering accountability",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Evidência empírica secundária sobre produtividade versus defeitos de segurança",
+      "excerpt": "developers complete repetitive coding tasks up to 55 % faster with AI assistance, yet acceptance of AI suggestions without review correlates with measurable increases in security defects",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Contexto tecnológico específico com modelos nomeados",
+      "excerpt": "built on models such as GPT-4 and Code Llama",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Critérios e bases de busca da revisão sistemática parcialmente descritos",
+      "excerpt": "Sources were identified through searches of IEEE Xplore, ACM Digital Library, arXiv",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Termos de busca incluem large language models e human-in-the-loop",
+      "excerpt": "Search terms included combinations of: large language models, code generation, software quality, human-in-the-loop",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Problema central é governança de engenharia, não ambientes regulados setoriais",
+      "excerpt": "implemented by software engineering teams operating in commercial development environments",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Riscos de segurança em código gerado por LLM sem orientação explícita",
+      "excerpt": "40 % contained at least one OWASP Top 10 vulnerability when the model operated without explicit security guidance",
+      "page": "2",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Lacuna entre pesquisa de capacidade de modelos e governança de engenharia",
+      "excerpt": "This gap between model capability research and engineering governance practice represents the scientific problem this paper addresses",
+      "page": "2",
+      "section": "unclear",
+      "supports": "synthesis"
+    }
+  ]
+}

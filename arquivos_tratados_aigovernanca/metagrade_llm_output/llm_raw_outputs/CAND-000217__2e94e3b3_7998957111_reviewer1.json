@@ -1,0 +1,166 @@
+{
+  "bibliographic": {
+    "title": "Expanding the Duty to Rescue to Climate Migration",
+    "authors": "David N. Hoffman, Anne Zimmerman, Camille Castelyn, Srajana Kaikini",
+    "year": "2022",
+    "venue": "Voices in Bioethics, Vol. 8",
+    "doi": "unclear",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Hoffman, D. N., Zimmerman, A., Castelyn, C., & Kaikini, S. (2022). Expanding the duty to rescue to climate migration. Voices in Bioethics, 8."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "normative ethical analysis",
+    "study_design": "conceptual argument",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "bioethics, climate migration, humanitarian ethics",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "none; no LLM, generative AI, conversational systems, or related technical governance discussed"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_wrong_population_intervention",
+      "E_no_llm_conversational_ai",
+      "E_no_governance_of_ai_systems"
+    ],
+    "exclusion_reason": "Article is a normative bioethics paper on expanding the moral duty to rescue to climate migration. It does not study, propose, or evaluate LLMs, conversational AI, chatbots, agents, RAG, guardrails, observability, audit, or governance of generative AI systems in regulated settings. Keyword overlaps (ethics, accountability, dialogue, governance in citations) are contextual and not substantive to the review scope.",
+    "decision_rationale": "Despite Python triage scoring governance and regulated-domain terms, the full text addresses climate displacement ethics, moral obligations of rescuers, and humanitarian preparation—not conversational or generative AI governance. No technology implementation, system design, oversight mechanisms, or compliance frameworks for AI appear in the provided text.",
+    "decision_confidence": 0.97,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is unambiguous from title, abstract, introduction, and conclusion; no LLM or conversational-system content present."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "For its own bioethics aim, the paper states a clear normative question and develops ethical arguments with historical examples (e.g., Hurricane Katrina, COVID-19). It is not empirical; sampling and data-collection criteria are not applicable. Limitations of expanding duty to rescue are discussed (practical constraints, labeling vulnerability, over-preparation). Transferability to conversational LLM governance is not supported by the text."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "Within bioethics the argument is internally coherent, but methodological limitations for empirical synthesis are high because the work is purely conceptual. Adequacy for answering questions about AI system governance is absent. Relevance to conversational governance in LLM-based regulated systems is effectively zero based on provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "duty_to_rescue",
+      "climate_migration",
+      "moral_obligation",
+      "ethical_duty_to_prepare",
+      "vulnerable_populations",
+      "humanitarian_ethics"
+    ],
+    "axial_codes": [
+      "normative_ethics",
+      "climate_displacement",
+      "global_moral_obligations"
+    ],
+    "theme": "Climate migration and expanded moral duty to rescue",
+    "subtheme": "Ethical preparation and integration obligations for displaced populations",
+    "concepts": [
+      "duty to rescue",
+      "climate migration",
+      "ethical duty to prepare",
+      "accountability reframed as rescue duty",
+      "dialogue with migrant voices"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.95
+  },
+  "synthesis": {
+    "main_claim": "The ethical duty to rescue should be expanded and reframed—potentially as a duty to prepare—to address basic needs of people displaced by climate events, with differentiated obligations among actors.",
+    "contribution": "Offers a normative ethical framework for who owes what to climate migrants, including geographic expansion of rescue duties, accountability of high-impact actors, and preparation for housing, education, food, and employment.",
+    "limitations": "Practical limits of rescue duties, risk of labeling migrants as vulnerable, difficulty assigning causal blame for migration, and tension between doing nothing versus over-preparation.",
+    "use_in_review": "Exclude from central and supporting evidence pools. At most foundational_contextual only for broad ethics/accountability vocabulary, but it provides no analyzable evidence on conversational AI or LLM governance in regulated environments."
+  },
+  "evidence": [
+    {
+      "claim": "Article topic is climate migration ethics, not AI or conversational systems",
+      "excerpt": "This paper analyzes the idea of expanding a duty to rescue to climate migration.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Duty to rescue is framed as moral ethics, not legal or technical system governance",
+      "excerpt": "A duty to rescue is a moral rather than legal duty and imposes on a bystander to take an active role in preventing serious harm to someone else.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM, generative AI, or conversational technology context appears in provided text",
+      "excerpt": "Climate migration creates a special setting for a duty to rescue.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Accountability term refers to climate migration causation, not AI accountability",
+      "excerpt": "A movement toward greater accountability can be reframed as a greater duty to rescue, a duty to engage in the extraordinary.",
+      "page": "4",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Dialogue term refers to migrant voices in policy discourse, not conversational AI",
+      "excerpt": "Expanding a dialogue that includes the voices of people who have recently migrated whether due to violence, poverty, or climate, could properly frame the extent of the duty.",
+      "page": "6",
+      "section": "conclusion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance keyword match is from bibliography citation, not article subject",
+      "excerpt": "Equitable Research Partnerships. SpringerBriefs in Research and Innovation Governance.",
+      "page": "7",
+      "section": "references",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research type is conceptual normative ethics",
+      "excerpt": "This paper reevaluates the ethical framing of the duty to rescue and, while it is arguably a stretch, applies it to climate migration.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Main synthesis claim about expanded rescue duty",
+      "excerpt": "The ethical duty to rescue should be expanded to better match those in need of relocation with a welcome environment and the resources needed to achieve success and fully integrate socially and culturally.",
+      "page": "6",
+      "section": "conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Practical limitations acknowledged",
+      "excerpt": "Ethics arguments will certainly range from \"do nothing\", which may fail people, to \"do everything\", which could waste taxpayer money in futile over-preparation while failing to actually help.",
+      "page": "6",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Regulated-domain mentions (education, health) are migration resettlement needs, not regulated AI contexts",
+      "excerpt": "People will need help finding housing, education, access to food, and employment.",
+      "page": "6",
+      "section": "conclusion",
+      "supports": "eligibility"
+    }
+  ]
+}

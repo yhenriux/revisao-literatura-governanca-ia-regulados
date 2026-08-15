@@ -1,0 +1,198 @@
+{
+  "bibliographic": {
+    "title": "Don't blame me: How Intelligent Support Affects Moral Responsibility in Human Oversight",
+    "authors": "Cedric Faas, Richard Uth, Sarah Sterz, Markus Langer, Anna Maria Feit",
+    "year": "2026",
+    "venue": "Proceedings of the ACM Intelligent User Interfaces",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Faas, C., Uth, R., Sterz, S., Langer, M., & Feit, A. M. (2026). Don't blame me: How intelligent support affects moral responsibility in human oversight. In Proceedings of the ACM Conference on Intelligent User Interfaces."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "between-subjects experimental study",
+    "study_design": "simulated oversight experiment with four between-subject conditions varying the number of intervention options (six, four, two, or one)",
+    "sample_description": "participants who monitored an autonomous drone facing ten critical situations in a simulated oversight task",
+    "sample_size": "N=274",
+    "sector": "unclear",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "AI decision support system that constrains overseer intervention choices during simulated autonomous drone monitoring in safety-critical scenarios"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "human_oversight",
+      "moral_responsibility",
+      "high_stakes_oversight",
+      "regulatory_alignment"
+    ],
+    "exclusion_codes": [
+      "not_llm_specific",
+      "not_conversational_ai"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study provides empirical evidence on how intelligent decision support that restricts intervention options affects perceived moral responsibility in human oversight of autonomous AI in safety-critical settings, with partial regulatory relevance (EU AI Act). However, the evaluated system is generic AI decision support in a drone simulation, not an LLM-based or conversational system; generative AI appears only in author acknowledgments for grammar checking.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python metadata misidentified title/authors; scope fit for LLM conversational governance review requires human confirmation because governance themes are strong but technology context is non-conversational and non-LLM."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Clear experimental objective and adequate sample size are evident. Provided text offers limited detail on statistical analysis procedures and ethics procedures. Findings are clearly stated for the primary responsibility outcome, with acknowledged design trade-offs between safety restriction and meaningful human choice."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Moderate confidence for claims about perceived moral responsibility under choice-restricting oversight support in simulated high-stakes settings. Relevance to the review's LLM conversational governance focus is limited because the study concerns non-conversational AI decision support in a drone oversight simulation."
+  },
+  "coding": {
+    "open_codes": [
+      "choice_restriction",
+      "perceived_moral_responsibility",
+      "oversight_effectiveness",
+      "moral_agency_attribution",
+      "epistemic_causal_conditions",
+      "safety_critical_oversight",
+      "EU_AI_Act_human_involvement"
+    ],
+    "axial_codes": [
+      "human_oversight_design",
+      "accountability_distribution",
+      "high_stakes_AI_governance"
+    ],
+    "theme": "Human oversight and moral responsibility under intelligent decision support",
+    "subtheme": "Effects of restricting overseer intervention options",
+    "concepts": [
+      "human oversight",
+      "moral responsibility",
+      "moral agency",
+      "decision support",
+      "risk mitigation",
+      "high-stakes decision-making",
+      "oversight architectures",
+      "epistemic condition",
+      "causal condition"
+    ],
+    "model_layers": [
+      "oversight_architecture",
+      "user_interface_design",
+      "regulatory_compliance"
+    ],
+    "rq_alignment": [
+      "human_oversight",
+      "accountability",
+      "regulated_high_stakes_context",
+      "risk_mitigation"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "When intelligent support restricts overseers to a single intervention option, overseers feel less morally responsible after a crash, while perceived responsibility of the AI and its developer does not change across restriction conditions.",
+    "contribution": "Offers empirical evidence and design guidance for oversight architectures: avoid attributing moral agency to AI, clarify distributed moral responsibility, and preserve epistemic and causal conditions needed for genuine human responsibility when preventing ethically undesirable outcomes.",
+    "limitations": "Performance improvements were detected only when no meaningful choice remained, raising whether human oversight should be required when safety-oriented interaction design undermines responsibility without meaningful human benefit; simulated setting may limit external validity.",
+    "use_in_review": "Use as supporting evidence on human oversight, moral responsibility, and oversight UI/architecture design in regulated high-stakes AI contexts; not usable as central evidence on conversational LLM governance, guardrails, RAG, observability, or operational technical governance."
+  },
+  "evidence": [
+    {
+      "claim": "Study investigates how choice-restricting decision support affects overseer moral responsibility when support errs",
+      "excerpt": "The goal of our study was to investigate how a decision support system that restricted available interventions would affect overseer's perceived moral responsibility, in particular in cases where the support errs.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical between-subjects oversight experiment with N=274",
+      "excerpt": "In a simulated oversight experiment, participants (N=274) monitored an autonomous drone that faced ten critical situations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Single-option restriction reduces overseer perceived moral responsibility after crash",
+      "excerpt": "participants, who were restricted to choosing from a single action, felt less morally responsible if a crash occurred",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Responsibility attributions to AI and developer unchanged across conditions",
+      "excerpt": "participants' judgments about the responsibility of other stakeholders (the AI; the developer of the AI) did not change between conditions",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Oversight architectures should support epistemic and causal conditions for moral responsibility",
+      "excerpt": "they should prevent users from attributing moral agency to AI, help them understand how moral responsibility is distributed",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human oversight required in safety-critical tasks to mitigate risk and ensure responsibility",
+      "excerpt": "In such safety-critical tasks, human oversight of the system is required to mitigate risk by ensuring responsibility and preserving human judgment",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Moral responsibility linked to epistemic and causal conditions for overseers",
+      "excerpt": "to be morally responsible, overseers must satisfy both an epistemic condition (understanding why the drone crashes and how it could have been prevented) and a causal condition",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "High-stakes context motivates safety restrictions on overseer choice",
+      "excerpt": "However, in high-stakes scenarios, improving cognitive factors might not be enough.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Choice limitation may align with emerging regulatory requirements such as EU AI Act",
+      "excerpt": "it might align with emerging regulatory requirements, such as those in the EU AI Act, that mandate human involvement for high-ri",
+      "page": "4",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human oversight may be questionable when design removes meaningful choice without benefit",
+      "excerpt": "This raises the question of whether human oversight should be required when safety-oriented interaction designs undermine overseers' responsibility without meaningfully benefiting from human involvement.",
+      "page": "5",
+      "section": "limitations",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Generative AI used only for grammar/spelling in manuscript preparation, not studied system",
+      "excerpt": "During the preparation of this work, the authors used Chat-GPT and Grammarly in order to: Grammar and spelling check.",
+      "page": "5",
+      "section": "limitations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Technology is AI decision support constraining intervention options, not conversational LLM system",
+      "excerpt": "An AI system constrained participants' choices to either six, four, two, or only one option (between-subject study).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

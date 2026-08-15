@@ -1,0 +1,166 @@
+{
+  "bibliographic": {
+    "title": "Modelo de maturidade em gerenciamento de riscos em projetos",
+    "authors": "Daniel Marssiére Birchal; João Márcio Abijaodi; Paulo Henrique Abreu; Ricardo Magno Santos Antunes; Rogério do Carmo Peixoto",
+    "year": "2007",
+    "venue": "Fundação Getúlio Vargas - Programa FGV Management MBA em Gerência de Projetos",
+    "doi": "unclear",
+    "publication_type": "thesis",
+    "peer_reviewed": "no",
+    "citation_apa": "Birchal, D. M., Abijaodi, J. M., Abreu, P. H., Antunes, R. M. S., & Peixoto, R. C. (2007). Modelo de maturidade em gerenciamento de riscos em projetos [Trabalho de conclusão de curso, MBA em Gerência de Projetos]. Fundação Getúlio Vargas."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "desenvolvimento de modelo de maturidade em gerenciamento de riscos em projetos com base em modelos existentes (CMMI, OPM3, PMMM, entre outros)",
+    "study_design": "trabalho de conclusão de curso propondo o MMGP e descrevendo fundamentos, conceitos e avaliação de maturidade",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "gerenciamento de projetos organizacional",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "modelos de maturidade em gerenciamento de projetos e riscos (MMGP, CMMI, OPM3, PMBOK, SCAMPI); sem sistemas conversacionais ou LLMs"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "title_abstract_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_wrong_technology",
+      "E2_wrong_topic",
+      "E3_pre_llm_not_applicable"
+    ],
+    "exclusion_reason": "Trabalho de 2007 sobre modelo de maturidade em gerenciamento de riscos em projetos; não aborda LLMs, IA generativa, sistemas conversacionais, governança conversacional ou contextos tecnológicos equivalentes ao escopo da revisão.",
+    "decision_rationale": "O resumo e o corpo disponível tratam de cultura, processos e procedimentos de gerência de riscos em projetos e da proposta do MMGP para mensurar capacidade organizacional. Não há menção a LLMs, chatbots, agentes, RAG, guardrails ou governança de sistemas conversacionais. Os termos de risco, auditoria, monitoramento e contextos regulados aparecem no domínio de gerenciamento de projetos, não no domínio-alvo da revisão.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Exclusão clara por desalinhamento temático e tecnológico com o escopo da revisão; ausência total de termos LLM/conversacional na triagem determinística."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Avaliação limitada ao material fornecido (principalmente front matter, resumo e trechos dispersos). O objetivo do MMGP está claro, mas não há evidência suficiente no excerto sobre amostra empírica, coleta de dados primários ou limitações explícitas."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "Para a pergunta da revisão sobre governança conversacional em sistemas baseados em LLMs, a adequação e relevância são muito baixas. O documento é coerente internamente como proposta de modelo de maturidade em riscos de projetos, mas não oferece evidência aplicável ao escopo regulado de IA conversacional."
+  },
+  "coding": {
+    "open_codes": [
+      "gerenciamento de riscos em projetos",
+      "modelo de maturidade",
+      "MMGP",
+      "questionário de avaliação",
+      "melhores práticas",
+      "CMMI",
+      "OPM3"
+    ],
+    "axial_codes": [
+      "gestão de risco organizacional",
+      "avaliação de maturidade de processos",
+      "modelos de referência em projetos"
+    ],
+    "theme": "maturidade organizacional em gerenciamento de riscos de projetos",
+    "subtheme": "modelo MMGP e comparação com frameworks de maturidade",
+    "concepts": [
+      "risco",
+      "incerteza",
+      "maturidade",
+      "questionário MMGP",
+      "políticas e procedimentos",
+      "monitoramento de processos"
+    ],
+    "model_layers": [
+      "cultura organizacional",
+      "processos de gerenciamento de riscos",
+      "níveis de maturidade",
+      "avaliação por questionário"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "O trabalho propõe o Modelo de Maturidade em Gerenciamento de Riscos em Projetos (MMGP) para mensurar a capacidade e habilidade de organizações gerenciarem riscos em projetos dentro de uma metodologia de gerência de riscos praticada.",
+    "contribution": "Contribuição metodológica em gerenciamento de projetos: framework de maturidade para riscos em projetos, com avaliação via questionário MMGP, fundamentado em modelos existentes como CMMI e OPM3.",
+    "limitations": "unclear",
+    "use_in_review": "Não recomendado para síntese central da revisão; pode servir apenas como referência contextual distante sobre gestão de risco e maturidade de processos, sem ligação com governança conversacional ou LLMs."
+  },
+  "evidence": [
+    {
+      "claim": "Documento é trabalho de conclusão de MBA em gerência de projetos de 2007",
+      "excerpt": "Trabalho apresentado ao curso MBA em Gerência de Projetos, Pós-Graduação lato sensu, da Fundação Getulio Vargas",
+      "page": "2",
+      "section": "folha de rosto",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Objetivo central é modelo de maturidade em gerenciamento de riscos em projetos",
+      "excerpt": "O “Modelo de maturidade em gerenciamento de riscos em projetos”, proposto neste trabalho, objetiva mensurar a capacidade e habilidade de organizações gerenciarem os riscos envolvidos em projetos",
+      "page": "7",
+      "section": "resumo",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Definição de risco no contexto de projetos, não de IA conversacional",
+      "excerpt": "Risco é definido como incerteza onde uma, ou várias, causa(s) composta por probabilidade de ocorrência pode gerar determinado impacto ou conseqüência",
+      "page": "7",
+      "section": "resumo",
+      "supports": "coding"
+    },
+    {
+      "claim": "Avaliação de maturidade via questionário MMGP",
+      "excerpt": "Através do questionário MMGP será obtido tanto o valor global da maturidade quanto o perfil de aderência aos diversos níveis.",
+      "page": "57",
+      "section": "2.2.3.4 Avaliação da maturidade",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Menção a alto risco refere-se a desafios organizacionais em projetos",
+      "excerpt": "A organização tem alta confiança em seus profissionais e aceita desafios de alto risco.",
+      "page": "57",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Referência a saúde aparece em competências de gerenciamento de projetos",
+      "excerpt": "33- segurança, saúde e meio ambiente (icb 40)",
+      "page": "28",
+      "section": "2.1.6 Gerenciamento de riscos",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Monitoramento e revisão de processos em modelos de maturidade",
+      "excerpt": "é monitorado, controlado, revisado; e é avaliada quanto à aderência a descrição do processo.",
+      "page": "38",
+      "section": "Capacidade Nível 2: Gerenciado",
+      "supports": "coding"
+    },
+    {
+      "claim": "Uso de método de avaliação SCAMPI no contexto CMMI",
+      "excerpt": "O método de avaliação utilizado Standard CMMI Assessment Method for Process Improvement (SCAMPI)",
+      "page": "45",
+      "section": "Avaliações do CMMI",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Ausência de LLM, IA generativa ou sistemas conversacionais no material fornecido",
+      "excerpt": "Palavras-chave: projetos; riscos; gerenciamento de riscos em projetos; modelo de maturidade.",
+      "page": "7",
+      "section": "resumo",
+      "supports": "eligibility"
+    }
+  ]
+}

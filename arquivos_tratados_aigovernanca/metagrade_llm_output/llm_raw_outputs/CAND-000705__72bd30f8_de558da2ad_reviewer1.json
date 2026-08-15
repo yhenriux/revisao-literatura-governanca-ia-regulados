@@ -1,0 +1,153 @@
+{
+  "bibliographic": {
+    "title": "Library Information System Audit Senayan Library Management System (SLiMS) Using ISO 9126",
+    "authors": "Petrus Dwi Ananto Pamungkas",
+    "year": "2018",
+    "venue": "Proceeding of the Second International Conference on Business and Communication (ICBC 2018)",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Pamungkas, P. D. A. (2018). Library information system audit Senayan Library Management System (SLiMS) using ISO 9126. In Proceeding of the Second International Conference on Business and Communication (ICBC 2018) (pp. 255–256)."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "descriptive quantitative survey",
+    "study_design": "cross-sectional questionnaire-based quality audit",
+    "sample_description": "University librarians in charge at Indonesian higher education libraries using SLiMS",
+    "sample_size": "10",
+    "sector": "higher education libraries",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "open-source library management information system (SLiMS) audited with ISO 9126 via Google Forms questionnaires"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_technology",
+      "wrong_topic",
+      "no_llm_genai",
+      "no_conversational_ai",
+      "no_conversational_governance"
+    ],
+    "exclusion_reason": "Study audits traditional library management software (SLiMS) quality using ISO 9126 questionnaires; no LLMs, generative AI, conversational systems, agents, RAG, or governance of conversational AI in regulated contexts.",
+    "decision_rationale": "Although the paper mentions education, law, standards, and information system audit, its focus is software quality assessment of a PHP/MySQL library management system. It does not address conversational AI, LLM-based systems, generative AI governance, guardrails, observability of AI outputs, human oversight of AI, or comparable governance mechanisms required by the review scope.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is explicit in title, abstract, and methodology; exclusion does not depend on ambiguous keyword overlap."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Internally coherent descriptive survey for ISO 9126 software quality audit of SLiMS, but small convenience sample (n=10) and limited discussion of limitations; not appraised for inclusion in LLM conversational governance synthesis."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "Findings are coherent for library IS quality assessment but have very low relevance to conversational governance of LLM systems; small sample and narrow context further limit usefulness for the target review."
+  },
+  "coding": {
+    "open_codes": [
+      "information_system_audit",
+      "ISO_9126_quality_assessment",
+      "library_management_software",
+      "questionnaire_survey",
+      "higher_education_libraries"
+    ],
+    "axial_codes": [
+      "software_quality_evaluation",
+      "traditional_information_systems",
+      "education_sector_IT"
+    ],
+    "theme": "legacy information system quality audit",
+    "subtheme": "university library management system evaluation",
+    "concepts": [
+      "ISO 9126",
+      "SLiMS",
+      "information system audit",
+      "descriptive quantitative method",
+      "Google Forms questionnaire"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.92
+  },
+  "synthesis": {
+    "main_claim": "SLiMS meets ISO 9126 quality criteria at a VERY GOOD level for managing university libraries, based on questionnaires completed by librarians at ten Indonesian universities.",
+    "contribution": "Provides an ISO 9126-based audit framework applied to the open-source SLiMS library management system in Indonesian higher education settings.",
+    "limitations": "Small voluntary sample of ten institutions; descriptive quantitative design without broader validation; no discussion of AI, conversational interfaces, or generative system governance.",
+    "use_in_review": "exclude; peripheral at best as generic IS audit precedent, not evidence on conversational or LLM governance in regulated environments."
+  },
+  "evidence": [
+    {
+      "claim": "Article concerns library IS audit of SLiMS using ISO 9126, not LLM or conversational AI.",
+      "excerpt": "The implementation of the SLiMS information system audit in several university libraries refers to the ISO 9126 standard",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical design is descriptive quantitative questionnaire survey.",
+      "excerpt": "The research was conducted by using descriptive quantitative method.",
+      "page": "6",
+      "section": "Research Methodology",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample comprises ten university librarians who completed questionnaires.",
+      "excerpt": "only ten universities librarians in charge who are willing to fill out the questionnaires",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Technology context is traditional library management software, not generative or conversational AI.",
+      "excerpt": "Senayan Library Management System (SLiMS) is a library management system software with open source licensed under GPL v3",
+      "page": "3",
+      "section": "Basic Concept of SLiMS",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated education context is background for libraries, not AI governance in regulated domains.",
+      "excerpt": "the library serves to support the National Education System as regulated by Law Number 20 Year 2003 on National Education System",
+      "page": "3",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Main finding is software quality rating VERY GOOD.",
+      "excerpt": "SLiMS included in the category VERY GOOD for use in the management of libraries in college",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Audit definition concerns conventional information system asset and integrity evaluation.",
+      "excerpt": "An information system audit is the process of collecting and evaluating facts to determine whether an information system protects assets, has data integrity",
+      "page": "3",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "No LLM, chatbot, agent, RAG, or conversational governance content appears in provided text.",
+      "excerpt": "Keywords: library, Senayan Library Management System (SLiMS), audit information system, ISO 9126.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

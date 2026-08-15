@@ -1,0 +1,198 @@
+{
+  "bibliographic": {
+    "title": "Why ML Models Fail to Reach Production",
+    "authors": "Otávio Luís Pinheiro Oliveira",
+    "year": "2026",
+    "venue": "unclear",
+    "doi": "10.66104/wbexse86",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Oliveira, O. L. P. (2026). Why ML models fail to reach production. DOI: 10.66104/wbexse86"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "narrative bibliographic review",
+    "study_design": "narrative review with documented database search strategy and grey literature from industry organizations",
+    "sample_description": "Peer-reviewed literature and technical documentation from recognized industry organizations, identified via predefined query strings across three academic databases (2018-2025)",
+    "sample_size": "unclear",
+    "sector": "cross-sector with illustrated cases in technology-adjacent organizations, large enterprises, and regulated financial sector",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "MLOps, ML model lifecycle, deployment monitoring, tooling ecosystem; LLMOps subsection covering LLM pipelines, RAG, guardrails, and prompt management"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text",
+    "inclusion_codes": [
+      "MLOPS_OPERATIONAL_GOVERNANCE",
+      "LLM_DEPLOYMENT_MONITORING",
+      "REGULATED_SECTOR_ILLUSTRATION"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is primarily a narrative bibliographic review on barriers to ML productionization and MLOps practices. It offers partial relevance through data governance failures, monitoring, deployment discipline, regulated financial sector cases, and a future-oriented LLMOps subsection mentioning RAG, guardrails, and human evaluation. However, it does not centrally address conversational governance, chatbots, agents, accountability/handoff/contestation in conversational systems, or regulated LLM conversational deployments. LLM content is confined mainly to section 10.1 and is operational rather than governance-of-conversation focused.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Deterministic triage graded this as central_candidate (93.33) largely via broad keyword hits; manual adjudication is needed because conversational-AI relevance is weak (1/3) and LLM/guardrails/RAG content appears peripheral to the review's conversational governance scope."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Strengths include a clearly stated objective, explicit search strings, date bounds, and candid methodological caution about widely cited deployment-failure statistics. Limits include narrative rather than systematic review design, unclear final corpus size, no reported screening or quality appraisal of included sources, and no ethics/reflexivity discussion in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are internally coherent for MLOps deployment barriers and operational practices, but the review method is narrative with incomplete reporting of inclusion counts and appraisal. Relevance to conversational LLM governance in regulated settings is partial and mostly indirect."
+  },
+  "coding": {
+    "open_codes": [
+      "ML deployment barriers",
+      "data quality and governance failures",
+      "model monitoring",
+      "reproducibility",
+      "MLOps culture",
+      "LLMOps",
+      "RAG pipelines",
+      "guardrails",
+      "prompt management",
+      "human evaluation for LLM outputs"
+    ],
+    "axial_codes": [
+      "operational technical governance",
+      "production lifecycle management",
+      "organizational alignment",
+      "post-deployment monitoring"
+    ],
+    "theme": "Operationalization and governance of ML/LLM systems in production",
+    "subtheme": "From classical MLOps to LLMOps for language models",
+    "concepts": [
+      "MLOps",
+      "technical debt",
+      "data drift",
+      "experiment tracking",
+      "LLMOps",
+      "Retrieval-Augmented Generation",
+      "guardrails",
+      "RLHF",
+      "model monitoring"
+    ],
+    "model_layers": [
+      "deployment",
+      "monitoring",
+      "governance",
+      "infrastructure",
+      "evaluation"
+    ],
+    "rq_alignment": [
+      "indirect support for operational governance, monitoring, and guardrails in LLM systems",
+      "limited alignment with conversational governance, human oversight/handoff, auditability, and regulated conversational AI"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "The primary determinant of ML success in production is not algorithmic sophistication, but organizational and engineering discipline around deployment, monitoring, and continuous improvement; MLOps addresses recurring barriers such as misalignment, data governance failures, weak testing, inadequate infrastructure, neglected monitoring, and organizational resistance.",
+    "contribution": "Maps seven deployment barriers, describes the ML production lifecycle and tooling ecosystem, and outlines incremental MLOps adoption strategies, with a forward-looking LLMOps discussion on prompt/RAG/guardrail operations for LLMs.",
+    "limitations": "Widely cited production-failure rates are survey-based and not validated longitudinally; the review is narrative rather than systematically reported; LLM/conversational governance content is brief and future-oriented.",
+    "use_in_review": "Use as supporting evidence for operational/technical governance of LLM deployment (monitoring, guardrails, RAG operations, human evaluation) and as contextual background on why governance and engineering discipline matter in regulated production settings; not suitable as central evidence on conversational governance."
+  },
+  "evidence": [
+    {
+      "claim": "Article type is a narrative bibliographic review using peer-reviewed literature and industry documentation.",
+      "excerpt": "Through a narrative bibliographic review drawing on peer- reviewed literature and technical documentation from recognized industry organizations",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Search strategy and query strings are documented.",
+      "excerpt": "Searches were conducted between January and February 2025. The following query strings were applied across the three academic databases",
+      "page": "3",
+      "section": "2.1 Search Strategy",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Search included LLMOps and large language model operations terms.",
+      "excerpt": "-\"LLMOps\" OR \"large language model operations\"",
+      "page": "3",
+      "section": "2.1 Search Strategy",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Seven primary barriers to ML deployment are mapped, including data governance and neglected monitoring.",
+      "excerpt": "maps seven primary barriers to ML deployment: misalignment between data science and engineering teams, data quality and governance failures, lack of reproducibility, absence of robust testing, inadequate infrastructure, neglected monitoring, and organizational resistance",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulated financial sector is used as a real-world illustration.",
+      "excerpt": "Real- world cases, including Spotify's large-scale ML platform and lessons from the regulated financial sector",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Main finding emphasizes deployment/monitoring discipline over algorithmic sophistication.",
+      "excerpt": "The findings suggest that the primary determinant of ML success in production is not algorithmic sophistication, but the organizational and engineering discipline surrounding model deployment, monitoring, and continuous improvement.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Author cautions that common deployment-failure statistics are methodologically weak.",
+      "excerpt": "these estimates derive from surveys conducted predominantly in technology-adjacent organizations and large enterprises with established ML programs — populations that are not representative",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "LLMs require specialized operational pipelines including RAG and guardrails.",
+      "excerpt": "LLMs, which demand specialized pipelines for prompt management, Retrieval-Augmented Generation (RAG), and the evaluation of open-ended outputs",
+      "page": "28",
+      "section": "10.1 LLMOps: The Evolution Toward Language Models",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLM evaluation may require human evaluation and RLHF.",
+      "excerpt": "requiring combinations of automated metrics, human evaluation, and techniques such as Reinforcement Learning from Human Feedback (RLHF)",
+      "page": "28",
+      "section": "10.1 LLMOps: The Evolution Toward Language Models",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMOps iteration emphasizes prompts, retrieval configurations, and guardrails rather than training foundation models.",
+      "excerpt": "they begin with a pre-trained model and iterate primarily on prompts, retrieval configurations, and guardrails",
+      "page": "28",
+      "section": "10.1 LLMOps: The Evolution Toward Language Models",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Prompt versioning is essential for reproducibility and debugging in LLM operations.",
+      "excerpt": "a subtle change in input text can dramatically alter model behavior, making version tracking essential for reproducibility and debugging",
+      "page": "28",
+      "section": "10.1 LLMOps: The Evolution Toward Language Models",
+      "supports": "coding"
+    },
+    {
+      "claim": "Peer review acceptance is indicated in front matter.",
+      "excerpt": "Received: 01/02/2026 - Accepted: 05/03/2026",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

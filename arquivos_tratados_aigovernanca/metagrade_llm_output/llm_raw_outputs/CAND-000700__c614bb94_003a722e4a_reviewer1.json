@@ -1,0 +1,173 @@
+{
+  "bibliographic": {
+    "title": "STREAMLINING COMPLIANCE AND RISK MANAGEMENT WITH REGTECH SOLUTIONS",
+    "authors": "Chintamani Bagwe",
+    "year": "2024",
+    "venue": "International Journal of Computer Science & Information Technology (IJCSIT)",
+    "doi": "10.5121/ijcsit.2024.16302",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Bagwe, C. (2024). Streamlining compliance and risk management with RegTech solutions. International Journal of Computer Science & Information Technology, 16(3), 17."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "unclear",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "RegTech platforms using artificial intelligence, machine learning, data analytics, cloud computing, and blockchain for compliance automation, real-time transaction monitoring, risk management, and regulatory reporting in financial institutions"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "REGULATED_FINANCIAL_SERVICES",
+      "COMPLIANCE_RISK_MANAGEMENT",
+      "GENERIC_AI_ML"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI",
+      "NO_LLM",
+      "NO_CONVERSATIONAL_GOVERNANCE",
+      "NO_EMPIRICAL_STUDY"
+    ],
+    "exclusion_reason": "O artigo aborda RegTech com IA/ML genéricos para compliance e gestão de risco em serviços financeiros, sem foco em LLMs, sistemas conversacionais, chatbots, agentes, RAG, guardrails ou governança conversacional.",
+    "decision_rationale": "O texto fornecido posiciona RegTech como uso de tecnologias como IA e ML para conformidade regulatória e gestão de risco em instituições financeiras. Há alinhamento parcial com contexto regulado, compliance e risco, mas não há menção a modelos de linguagem de grande escala, interfaces conversacionais, supervisão humana em diálogo, auditoria de interações ou mecanismos de governança conversacional exigidos pelo escopo da revisão.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Ausência de termos e conceitos conversacionais/LLM no texto fornecido é explícita e consistente entre triagem e leitura integral parcial."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 1,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 0,
+    "evidence_support": 1,
+    "transferability": 2,
+    "notes": "Trabalho conceitual e descritivo sobre RegTech; não descreve desenho empírico, amostra, coleta de dados, análise sistemática ou limitações metodológicas no trecho fornecido. Afirmações baseadas em narrativa e citações secundárias, sem evidência primária apresentada."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Confiança baixa para uso como evidência central na revisão sobre governança conversacional em LLMs. O texto é coerente como visão geral de RegTech em serviços financeiros, mas possui limitações metodológicas evidentes e relevância apenas contextual para compliance/risco regulatório sem componente conversacional ou LLM."
+  },
+  "coding": {
+    "open_codes": [
+      "RegTech",
+      "compliance automation",
+      "risk management",
+      "financial services",
+      "artificial intelligence",
+      "machine learning",
+      "real-time monitoring",
+      "regulatory reporting",
+      "audit processes",
+      "transparency"
+    ],
+    "axial_codes": [
+      "regulatory compliance technology",
+      "automated risk detection",
+      "financial regulation context"
+    ],
+    "theme": "RegTech para compliance e gestão de risco em serviços financeiros",
+    "subtheme": "Automação regulatória com IA/ML genéricos",
+    "concepts": [
+      "RegTech",
+      "compliance automation",
+      "risk management",
+      "transaction monitoring",
+      "regulatory reporting",
+      "audit streamlining",
+      "transparency",
+      "oversight"
+    ],
+    "model_layers": [
+      "regulatory context",
+      "technology enablers",
+      "compliance operations",
+      "risk monitoring"
+    ],
+    "rq_alignment": [
+      "contexto regulado em serviços financeiros",
+      "compliance e gestão de risco",
+      "uso genérico de IA em ambientes regulados"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Soluções RegTech baseadas em IA, ML e análise de dados podem automatizar compliance, monitorar transações em tempo real, reduzir erros manuais e melhorar a gestão de risco em instituições financeiras altamente reguladas.",
+    "contribution": "Oferece uma introdução descritiva aos benefícios de RegTech para equilibrar conformidade regulatória e eficiência operacional no setor financeiro.",
+    "limitations": "unclear",
+    "use_in_review": "Evidência contextual de apoio para mapear compliance, risco e tecnologias regulatórias em finanças; não deve ser usado como evidência central sobre governança conversacional, LLMs, supervisão humana em diálogo, observabilidade de interações ou controles específicos de sistemas conversacionais."
+  },
+  "evidence": [
+    {
+      "claim": "O artigo trata de RegTech para compliance e gestão de risco em serviços financeiros.",
+      "excerpt": "RegTech is a rapidly rising financial services sector focused on using cutting-edge technology to improve the process of regulatory compliance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "As tecnologias citadas incluem IA e ML, mas não LLMs ou sistemas conversacionais.",
+      "excerpt": "It implements several technological solutions in its framework, such as artificial intelligence (AI), machine learning (ML), data analysis, cloud computing, and blockchain",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "O foco operacional é automação de compliance e monitoramento de transações.",
+      "excerpt": "Modern RegTech platforms use unique algorithms and machine- learning models to identify authentic activities by tracking transactions and spotting irregularities in real-time.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Há ênfase em transparência como valor regulatório no setor financeiro.",
+      "excerpt": "it strives to set the industry standards by which all employees abide by safeguarding the consumer’s well- being and safeguarding transparency.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "RegTech também é associado a relatórios regulatórios e auditoria.",
+      "excerpt": "RegTech simplifies this process as it automates data extraction, analysis, and reporting.",
+      "page": "7",
+      "section": "6.4 Efficient Regulatory Reporting",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "O trabalho é descritivo e não apresenta desenho de estudo empírico no texto fornecido.",
+      "excerpt": "This paper will deepen the understanding of regulatory compliance, introduce RegTech, and examine the benefits of using these solutions to achieve compliance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Não há menção a governança conversacional, chatbots, agentes ou LLMs.",
+      "excerpt": "KEYWORDS Regulatory Technology, Compliance Automation, Risk Management, Financial Services, Artificial Intelligence, Data Analytics",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "A conclusão reforça uso de ML e IA para conformidade, sem componente conversacional.",
+      "excerpt": "RegTech solutions introduce a new approach to ensuring compliance by implementing machine learning and artificial intelligence to comply easily with regulations.",
+      "page": "4",
+      "section": "conclusion",
+      "supports": "synthesis"
+    }
+  ]
+}

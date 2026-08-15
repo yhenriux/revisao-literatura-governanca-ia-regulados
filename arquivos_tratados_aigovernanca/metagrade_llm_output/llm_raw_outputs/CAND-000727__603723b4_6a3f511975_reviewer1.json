@@ -1,0 +1,177 @@
+{
+  "bibliographic": {
+    "title": "NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications with Programmable Rails",
+    "authors": "Traian Rebedea, Razvan Dinu, Makesh Sreedhar, Christopher Parisien, Jonathan Cohen",
+    "year": "2023",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Rebedea, T., Dinu, R., Sreedhar, M., Parisien, C., & Cohen, J. (2023). NeMo Guardrails: A toolkit for controllable and safe LLM applications with programmable rails. arXiv preprint arXiv:2310.10501."
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "toolkit development with initial performance evaluation",
+    "study_design": "technical framework paper with illustrative evaluation",
+    "sample_description": "Evaluation uses 20 false-premise questions to test hallucination rail deflection behavior with text-davinci-003",
+    "sample_size": "20 questions",
+    "sector": "unclear",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "NeMo Guardrails open-source toolkit; programmable runtime guardrails via Colang; proxy runtime engine between user and LLM; input/output moderation rails; dialogue management"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_conversational_systems",
+      "programmable_guardrails",
+      "runtime_safety_controls",
+      "moderation_rails"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper directly addresses programmable guardrails for LLM-based conversational systems, including moderation, safety, and controllable dialogue paths. It is technically central to operational governance mechanisms but is primarily a toolkit contribution with initial results rather than a governance or regulated-domain study.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage marked borderline_manual; metadata year conflicts with arXiv date; governance/accountability terms were not matched automatically despite strong guardrail relevance."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Clear technical objective and fit for a toolkit paper. Provided excerpts show limited evaluation detail (e.g., 20-question hallucination test) and do not document broader empirical validation, ethics review, or explicit limitations section."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The contribution is coherent and highly relevant to runtime guardrails in conversational LLM systems, but available evidence indicates only initial, narrow evaluation and incomplete transparency on limitations and broader governance implications."
+  },
+  "coding": {
+    "open_codes": [
+      "programmable_guardrails",
+      "runtime_proxy_engine",
+      "dialogue_management",
+      "input_moderation",
+      "output_moderation",
+      "jailbreak_detection",
+      "hallucination_rail",
+      "colang_modeling_language",
+      "human_imposed_constraints"
+    ],
+    "axial_codes": [
+      "operational_technical_governance",
+      "conversational_safety_control",
+      "runtime_policy_enforcement"
+    ],
+    "theme": "Programmable runtime guardrails for controllable and safe LLM conversational applications",
+    "subtheme": "Moderation and safety rails independent of underlying LLM",
+    "concepts": [
+      "guardrails",
+      "rails",
+      "moderation",
+      "jailbreak rail",
+      "hallucination rail",
+      "dialogue path control",
+      "interpretability",
+      "Colang"
+    ],
+    "model_layers": [
+      "runtime_control_layer",
+      "input_moderation_layer",
+      "output_moderation_layer",
+      "dialogue_manager"
+    ],
+    "rq_alignment": [
+      "guardrails",
+      "operational_technical_governance",
+      "risk_control",
+      "conversational_ai_safety",
+      "human_imposed_constraints"
+    ],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "NeMo Guardrails enables developers to add user-defined, interpretable, programmable guardrails at runtime to LLM-based conversational systems, complementing embedded alignment-based controls.",
+    "contribution": "Introduces an open-source toolkit with a programmable runtime engine and Colang modeling language; supports multiple LLMs; implements moderation, safety, and dialogue-control rails with initial positive results.",
+    "limitations": "Only initial results are reported in the provided text; evaluation detail is limited (e.g., 20 false-premise questions for hallucination rail); broader regulated-domain deployment, auditability, and governance processes are not evidenced in the excerpts.",
+    "use_in_review": "Use as supporting technical evidence on programmable guardrails, moderation pipelines, and runtime controllability for conversational LLM governance."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on LLM-based conversational systems with programmable guardrails",
+      "excerpt": "easily adding programmable guardrails to LLM-based conversational systems",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Runtime guardrails are user-defined, LLM-independent, and interpretable",
+      "excerpt": "these are user-defined, independent of the underlying LLM, and interpretable",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Guardrails enforce human-imposed constraints in customer-facing conversational deployments",
+      "excerpt": "Guardrails (or rails) provide a mechanism for controlling the output of an LLM to respect some human-imposed constraints",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Toolkit uses a programmable runtime engine acting as a proxy between user and LLM",
+      "excerpt": "our toolkit uses a programmable runtime engine that acts like a proxy between the user and the LLM",
+      "page": "2",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Moderation includes input jailbreak detection and output legal/ethical/harm checks before returning responses",
+      "excerpt": "Output moderation aims to detect whether the LLM responses are legal, ethical, and not harmful prior to being returned to the user",
+      "page": "5",
+      "section": "3.3.3 Moderation Rails",
+      "supports": "coding"
+    },
+    {
+      "claim": "Moderation operates as a pipeline around the dialogue system",
+      "excerpt": "the user message first passing through input moderation before reaching the dialogue system",
+      "page": "5",
+      "section": "3.3.3 Moderation Rails",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Hallucination rail evaluation uses 20 false-premise questions",
+      "excerpt": "we compile a list of 20 questions based on a false premise (questions that do not have a right answer)",
+      "page": "6",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Publication is an arXiv preprint dated October 2023",
+      "excerpt": "arXiv:2310.10501v1 [cs.CL] 16 Oct 2023",
+      "page": "1",
+      "section": "front matter",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Steerability and trustworthiness are framed as key for production LLM deployment",
+      "excerpt": "Steerability and trustworthiness are key factors for deploying Large Language Models (LLMs) in production",
+      "page": "1",
+      "section": "introduction",
+      "supports": "rq_alignment"
+    }
+  ]
+}

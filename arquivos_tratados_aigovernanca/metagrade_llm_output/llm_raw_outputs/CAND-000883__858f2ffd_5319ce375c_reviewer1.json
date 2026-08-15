@@ -1,0 +1,167 @@
+{
+  "bibliographic": {
+    "title": "The Capability of ChatGPT in Predicting and Explaining Common Drug-Drug Interactions",
+    "authors": "Ayesha Juhi, Neha Pipil, Soumya Santra, Shaikat Mondal, Joshil Kumar Behera, Himel Mondal",
+    "year": "2023",
+    "venue": "Cureus",
+    "doi": "10.7759/cureus.36272",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Juhi, A., Pipil, N., Santra, S., Mondal, S., Behera, J. K., & Mondal, H. (2023). The capability of ChatGPT in predicting and explaining common drug-drug interactions. Cureus, 15(3), e36272. https://doi.org/10.7759/cureus.36272"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "conversational LLM evaluation with expert consensus validation",
+    "study_design": "two-stage prompt evaluation of predefined drug-drug interaction pairs",
+    "sample_description": "40 drug-drug interaction pairs prepared from previously published literature",
+    "sample_size": "40",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "ChatGPT queried conversationally with two sequential patient-style questions per drug pair; outputs reviewed by two pharmacologists"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "SCOPE_MISMATCH",
+      "NO_GOVERNANCE_FOCUS"
+    ],
+    "exclusion_reason": "The study evaluates ChatGPT clinical accuracy for drug-drug interaction prediction and explanation in healthcare, but the provided text does not address conversational AI governance, guardrails, observability, audit, compliance, accountability frameworks, or operational risk controls required by the review scope.",
+    "decision_rationale": "Although the article uses a conversational interaction with a specific LLM in a regulated healthcare context and includes expert human review of outputs, its primary contribution is clinical effectiveness and readability of ChatGPT responses for DDI information, not governance of conversational LLM systems.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "The abstract and introduction clearly center on DDI prediction accuracy rather than governance mechanisms; exclusion is unlikely to change with additional text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Appraisal is based only on the provided front matter. The objective and two-stage questioning protocol are clearly described, but ethics approval, ChatGPT version, and fuller limitations are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the stated clinical evaluation objective, methods appear internally coherent, but relevance to conversational governance in regulated LLM systems is very low because governance constructs are absent from the provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "ChatGPT DDI prediction",
+      "two-stage patient-style questioning",
+      "pharmacologist consensus review",
+      "reading ease assessment",
+      "patient education use case"
+    ],
+    "axial_codes": [
+      "LLM healthcare application",
+      "expert human verification of model outputs",
+      "regulated clinical information seeking"
+    ],
+    "theme": "Clinical accuracy evaluation of conversational LLM responses",
+    "subtheme": "Drug-drug interaction prediction and explanation",
+    "concepts": [
+      "conversational querying",
+      "expert adjudication of LLM outputs",
+      "incomplete clinical guidance",
+      "high reading grade level"
+    ],
+    "model_layers": [
+      "human oversight"
+    ],
+    "rq_alignment": [
+      "peripheral regulated-domain LLM use only; no direct alignment with governance, compliance, audit, or operational control research questions"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "ChatGPT is partially effective for predicting and explaining common drug-drug interactions, but may provide incomplete guidance and responses requiring education levels well above a hypothetical 6th-grade benchmark.",
+    "contribution": "Provides an empirical conversational evaluation protocol for ChatGPT on 40 literature-derived DDI pairs with pharmacologist consensus checking and readability analysis.",
+    "limitations": "Based on the provided text, key limitations include incomplete guidance in many responses, high reading grade levels for patients, a small fixed set of 40 DDI pairs, and no discussion of governance, safety controls, or deployment safeguards.",
+    "use_in_review": "Exclude from central or supporting governance evidence; at most foundational contextual citation for conversational LLM use in healthcare without governance framing."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on ChatGPT effectiveness for DDI prediction, not governance.",
+      "excerpt": "The objective is to investigate the effectiveness of ChatGPT, a large language model, in predicting and explaining common DDIs.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Uses conversational two-stage questioning with ChatGPT.",
+      "excerpt": "This list was used to converse with ChatGPT with a two-stage question.",
+      "page": "1",
+      "section": "Abstract Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human expert review validates model outputs.",
+      "excerpt": "The responses were checked by two pharmacologists and the consensus output was categorized as \"correct\" and \"incorrect.\"",
+      "page": "1",
+      "section": "Abstract Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Healthcare regulated context with patient safety implications.",
+      "excerpt": "Drug-drug interactions (DDIs) can have serious consequences for patient health and well-being.",
+      "page": "1",
+      "section": "Abstract Background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "ChatGPT described as conversational LLM technology.",
+      "excerpt": "ChatGPT is a large language model that has been shown to perform well on a variety of NLP tasks, including text classification and question answering.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Main finding is partial clinical effectiveness, not governance adequacy.",
+      "excerpt": "ChatGPT is a partially effective tool for predicting and explaining DDIs.",
+      "page": "1",
+      "section": "Abstract Conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Responses may be incomplete for patient use.",
+      "excerpt": "However, on several occasions, it may provide incomplete guidance.",
+      "page": "1",
+      "section": "Abstract Conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Peer-reviewed journal article in Cureus.",
+      "excerpt": "Review began 03/13/2023 Review ended 03/14/2023 Published 03/17/2023",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Sample comprises 40 DDI pairs from prior literature.",
+      "excerpt": "A total of 40 DDIs lists were prepared from previously published literature.",
+      "page": "1",
+      "section": "Abstract Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No governance, compliance, audit, or guardrail mechanisms are reported in the provided text.",
+      "excerpt": "Further improvement is required for potential usage by patients for getting ideas about DDI.",
+      "page": "1",
+      "section": "Abstract Conclusion",
+      "supports": "eligibility"
+    }
+  ]
+}

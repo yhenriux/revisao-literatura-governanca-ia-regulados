@@ -1,0 +1,155 @@
+{
+  "bibliographic": {
+    "title": "ENVIRONMENTAL, SOCIAL, AND GOVERNANCE (ESG) PRACTICE AND FIRM PERFORMANCE: AN INTERNATIONAL EVIDENCE",
+    "authors": "Imlak SHAIKH",
+    "year": "2022",
+    "venue": "Journal of Business Economics and Management",
+    "doi": "10.3846/jbem.2022.16202",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Shaikh, I. (2022). Environmental, social, and governance (ESG) practice and firm performance: An international evidence. Journal of Business Economics and Management, 23(2), 218–237. https://doi.org/10.3846/jbem.2022.16202"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "quantitative panel regression analysis",
+    "study_design": "international cross-industry empirical study using Bloomberg ESG scores and financial performance regressions",
+    "sample_description": "Nearly 510 firms across 17 countries for 2010–2018",
+    "sample_size": "510",
+    "sector": "cross-industry firms across emerging and developed countries",
+    "regulated_domain": "no",
+    "llm_specificity": "not_applicable",
+    "technology_context": "Bloomberg ESG scores, annual reports, CSR and GRI disclosures, ROA, ROE, and Tobin's-Q"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "no_llm_genai",
+      "no_conversational_ai",
+      "corporate_esg_not_ai_governance"
+    ],
+    "exclusion_reason": "The article studies corporate sustainability reporting (ESG scores, CSR/GRI disclosures) and firm financial performance; it does not address LLMs, generative AI, conversational systems, or governance of AI in regulated settings.",
+    "decision_rationale": "Although the text repeatedly uses governance, compliance, risk, and industry terms, governance refers to corporate ESG reporting and investor sustainability metrics, not conversational or AI system governance. No LLM, chatbot, agent, RAG, guardrails, observability, human oversight of AI, or regulated AI deployment context appears in the supplied text. Keyword overlap from automated screening is a false positive.",
+    "decision_confidence": 0.97,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Methodological signals are adequate for an ESG–firm performance econometric study, but the article is outside the review scope because it does not study conversational or LLM-based systems."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "For the target review on conversational governance in LLM systems, relevance is very low despite a reasonably described empirical ESG finance study."
+  },
+  "coding": {
+    "open_codes": [
+      "ESG disclosure",
+      "sustainability reporting",
+      "firm financial performance",
+      "GRI compliance",
+      "Bloomberg ESG score",
+      "regression analysis"
+    ],
+    "axial_codes": [
+      "corporate sustainability finance",
+      "non-financial voluntary disclosure",
+      "cross-country firm panel"
+    ],
+    "theme": "Corporate ESG reporting and financial performance",
+    "subtheme": "International empirical analysis of ESG scores and accounting/market outcomes",
+    "concepts": [
+      "ESG score",
+      "GRI compliance",
+      "CSR reporting",
+      "ROA",
+      "ROE",
+      "Tobin's-Q",
+      "sustainability disclosure"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.95
+  },
+  "synthesis": {
+    "main_claim": "Higher or differentiated ESG disclosure and GRI compliance are associated with differences in firm accounting performance and market valuations across countries and industries.",
+    "contribution": "Provides quantitative international evidence linking Bloomberg ESG scores and GRI-related disclosures to ROA, ROE, and Tobin's-Q for about 510 firms from 2010 to 2018.",
+    "limitations": "Supplied excerpts do not detail study limitations; environmental and social dimensions show mixed or adverse associations in the abstract.",
+    "use_in_review": "Exclude from central or supporting evidence because it does not examine conversational AI, LLMs, or AI governance mechanisms in regulated operational systems."
+  },
+  "evidence": [
+    {
+      "claim": "Article topic is corporate ESG reporting and firm performance, not AI or conversational systems.",
+      "excerpt": "The study’s research problem is to examine the effects of non-market transnational sustainability strategy on firm performance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Sample is firms with Bloomberg ESG scores, not AI or conversational systems.",
+      "excerpt": "The study presents an analysis of nearly 510 firm’s ESG scores across 17 countries for 2010–2018.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance in this article means corporate ESG governance reporting, not AI governance.",
+      "excerpt": "governance positively affects operational efficiency",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Technology context is sustainability disclosure metrics and financial performance proxies.",
+      "excerpt": "GRI and non-GRI companies differ significantly in their accounting performance (ROA and ROE) and market valuations (Tobin’s-Q).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Empirical method uses regression with GRI interaction terms.",
+      "excerpt": "The regression model has been expressed with GRI, as an interaction term",
+      "page": "14",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No LLM, generative AI, or conversational system content appears in supplied text.",
+      "excerpt": "ESG score is a quantitative measure developed and disseminated by Bloomberg, covering about 120 Environmental, Social, and Governance aspects.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Automated interaction-term match is statistical econometrics, not conversational interaction.",
+      "excerpt": "jit X jit GRI – is the interaction term in relation to ESG parameters and GRI compliance.",
+      "page": "14",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Data sources are annual reports and CSR/GRI documents.",
+      "excerpt": "The disclosures are made available through the annual report and Corporate Social Responsibility (CSR) and Global Reporting Initiatives (GRI) report.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    }
+  ]
+}

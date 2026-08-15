@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "Human-Centered Evaluation of an LLM-Based Process Modeling Copilot: A Mixed-Methods Study with Domain Experts",
+    "authors": "Chantale Lauer; Peter Pfeiffer; Nijat Mehdiyev",
+    "year": "2026",
+    "venue": "Proceedings of conference on Human Factors in Computing Systems (CHI26)",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Lauer, C., Pfeiffer, P., & Mehdiyev, N. (2026). Human-Centered Evaluation of an LLM-Based Process Modeling Copilot: A Mixed-Methods Study with Domain Experts. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '26). ACM."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "mixed-methods; focus groups; standardized questionnaires",
+    "study_design": "mixed-methods evaluation of an LLM-powered BPMN copilot with domain experts",
+    "sample_description": "five process modeling experts",
+    "sample_size": "5",
+    "sector": "business process management; conceptual/process modeling",
+    "regulated_domain": "no",
+    "llm_specificity": "generic_genai",
+    "technology_context": "LLM-powered BPMN copilot (KICoPro); conversational process modeling system transforming textual process descriptions into BPMN models"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "conversational_llm_copilot",
+      "human_centered_evaluation",
+      "trust_usability_assessment",
+      "domain_expert_study"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The study directly evaluates a conversational LLM-based BPMN copilot and reports expert perceptions of trust, usability, and reliability, which aligns partially with human oversight and accountability themes in conversational AI. However, the available text focuses on BPM/process modeling HCI evaluation rather than governance mechanisms, compliance, audit, or regulated high-stakes contexts, so it is better classified as supporting rather than central evidence for governed conversational LLM systems in regulated environments.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial introduction are provided; full methods, ethics, limitations, and complete findings sections are unavailable for complete appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Objectives and research questions are clearly stated and the mixed-methods design appears appropriate for perceived usability and trust. The expert sample is very small (n=5), limiting sampling adequacy and transferability. Appraisal of analysis rigor, ethics, and limitations is constrained because only partial text is available."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings on trust-usability tension are coherent and numerically reported, but confidence is moderated by the very small expert sample, incomplete full-text access, and limited direct coverage of governance, compliance, or regulated-domain deployment concerns."
+  },
+  "coding": {
+    "open_codes": [
+      "trust deficit",
+      "acceptable usability",
+      "reliability concern",
+      "output quality issues",
+      "prompting difficulties",
+      "need for clarifying questions",
+      "enterprise quality assurance use case",
+      "human-centered evaluation"
+    ],
+    "axial_codes": [
+      "human-LLM interaction evaluation",
+      "perceived trust in conversational copilots",
+      "usability-quality tradeoff",
+      "expert review of LLM outputs"
+    ],
+    "theme": "Human-centered evaluation of conversational LLM copilots",
+    "subtheme": "Trust-usability tension in LLM-assisted process modeling",
+    "concepts": [
+      "trust",
+      "usability",
+      "reliability",
+      "accountability",
+      "oversight",
+      "transparency",
+      "BPMN copilot",
+      "focus groups",
+      "CUQ",
+      "conversational process modeling"
+    ],
+    "model_layers": [
+      "interaction layer",
+      "human perception and oversight layer",
+      "output quality layer"
+    ],
+    "rq_alignment": [
+      "human oversight",
+      "trust and accountability in conversational AI",
+      "operational evaluation of LLM agents"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "An LLM-based BPMN modeling copilot can achieve acceptable perceived usability among process modeling experts while still earning notably lower trust, with reliability identified as the most critical concern.",
+    "contribution": "Provides empirical, human-centered evidence that automated quality benchmarking alone is insufficient for evaluating LLM modeling agents, and identifies practical usage scenarios from domain experts.",
+    "limitations": "Very small sample of five experts; reported output-quality issues, prompting difficulties, and need for more in-depth clarifying questions from the LLM; full study limitations cannot be fully assessed from the excerpt provided.",
+    "use_in_review": "Use as supporting evidence on trust, usability, reliability, and human-centered evaluation of conversational LLM copilots. Limited utility as central evidence for governance, compliance, audit, or regulated-domain conversational AI unless additional sections substantively address those topics."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses LLMs in a conversational BPMN copilot context",
+      "excerpt": "Recent systems such as ProMoAI [13], BPMN Chatbot [11], and Camunda BPMN Copilot [6] illustrate the potential of conversational process modeling.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research design is mixed-methods with five process modeling experts",
+      "excerpt": "We conducted a mixed-methods evaluation of our proposed solution, an LLM-powered BPMN copilot, with five process modeling experts using focus groups and standardized questionnaires.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study measures trust, usability, and task-specific performance",
+      "excerpt": "focus group study with process modeling experts, complemented by standardized questionnaires measuring trust, usability, and task-specific performance.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Clear research questions on usability, output quality, and usage scenarios",
+      "excerpt": "RQ1: How do process modeling experts perceive the usability and design of an LLM-based modeling copilot?",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Findings show usability-trust tension with quantitative scores",
+      "excerpt": "acceptable perceived usability (mean CUQ score: 67.2/100) and notably lower trust (mean score: 48.8%)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Reliability is the most critical concern for experts",
+      "excerpt": "with reliability rated as the most critical concern (M=1.8/5)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Experts identified output quality and interaction issues",
+      "excerpt": "we identified output-quality issues, prompting difficulties, and a need for the LLM to ask more in-depth clarifying questions about the process.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors argue for human-centered evaluation beyond automated benchmarking",
+      "excerpt": "We demonstrate the necessity of human-centered evaluation complementing automated benchmarking for LLM modeling agents.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Prior work emphasizes quality metrics over user experience or trust",
+      "excerpt": "the evaluation is mainly based on quality metrics rather than user experience or trust.",
+      "page": "2",
+      "section": "Related Work",
+      "supports": "coding"
+    },
+    {
+      "claim": "No regulated-domain context is evidenced in the provided text",
+      "excerpt": "Integrating Large Language Models (LLMs) into business process management tools promises to democratize Business Process Model and Notation (BPMN) modeling for non-experts.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

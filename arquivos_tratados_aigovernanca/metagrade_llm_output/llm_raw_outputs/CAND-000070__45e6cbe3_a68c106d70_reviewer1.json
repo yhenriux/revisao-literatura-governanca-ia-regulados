@@ -1,0 +1,158 @@
+{
+  "bibliographic": {
+    "title": "Inteligência artificial na gestão pública brasileira: desafios e oportunidades para a eficiência governamental",
+    "authors": "Eduardo Silva Vasconcelos; Fernando Augusto dos Santos",
+    "year": "2024",
+    "venue": "Revista Observatorio de La Economia Latinoamericana",
+    "doi": "10.55905/oelv22n6-020",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Vasconcelos, E. S., & Santos, F. A. (2024). Inteligência artificial na gestão pública brasileira: desafios e oportunidades para a eficiência governamental. Revista Observatorio de La Economia Latinoamericana, 22(6), 1-21. https://doi.org/10.55905/oelv22n6-020"
+  },
+  "methodology": {
+    "research_type": "unclear",
+    "method_family": "unclear",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "administração pública / gestão governamental",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "Inteligência Artificial genérica aplicada à gestão pública brasileira, com ênfase em barreiras éticas, legais e tecnológicas"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_wrong_technology",
+      "E2_wrong_population_or_setting"
+    ],
+    "exclusion_reason": "O estudo trata de IA genérica na gestão pública brasileira, sem foco em sistemas conversacionais, LLMs, chatbots, agentes ou governança conversacional.",
+    "decision_rationale": "Embora o artigo aborde governança, ética, transparência, conformidade e setor público regulado, o escopo tecnológico permanece em IA ampla na administração pública. A única menção a assistentes virtuais aparece como exemplo internacional periférico em saúde, sem análise de governança conversacional ou de sistemas baseados em LLM.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Evidência textual suficiente nas páginas fornecidas para confirmar ausência de foco em LLM e governança conversacional."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 1,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 1,
+    "transferability": 2,
+    "notes": "A avaliação metodológica é limitada porque o extrato fornecido cobre sobretudo front matter, resumo e trechos pontuais; não há descrição explícita de desenho amostral, coleta ou análise no material disponibilizado."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "O texto sustenta coerentemente uma discussão sobre IA na gestão pública e barreiras ético-legais, mas a adequação e relevância para governança conversacional em sistemas baseados em LLM são baixas porque esses objetos não constituem foco do estudo."
+  },
+  "coding": {
+    "open_codes": [
+      "IA na gestão pública",
+      "barreiras éticas e legais",
+      "eficiência governamental",
+      "transparência",
+      "responsabilidade governamental",
+      "quadro legal e políticas éticas"
+    ],
+    "axial_codes": [
+      "governança pública de IA",
+      "contexto regulado setor público",
+      "adoção tecnológica sem foco conversacional"
+    ],
+    "theme": "Governança e adoção de IA na administração pública brasileira",
+    "subtheme": "Barreiras éticas, legais e tecnológicas para eficiência governamental",
+    "concepts": [
+      "governança",
+      "transparência",
+      "accountability",
+      "conformidade",
+      "políticas públicas",
+      "administração pública"
+    ],
+    "model_layers": [
+      "policy_governance",
+      "organizational_governance"
+    ],
+    "rq_alignment": [
+      "regulated_public_sector_context",
+      "generic_ai_governance"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "A integração da IA na gestão pública brasileira pode melhorar eficiência, transparência e inovação, mas exige infraestrutura, dados de qualidade, capacitação, quadro legal robusto e mecanismos de governança para uso responsável.",
+    "contribution": "Oferece enquadramento contextual sobre oportunidades e desafios da IA no setor público brasileiro, incluindo governança, ética e conformidade, sem abordar arquiteturas ou práticas de governança conversacional.",
+    "limitations": "No material fornecido, não há detalhamento metodológico nem evidência de foco em LLMs, chatbots, RAG, observabilidade operacional de sistemas conversacionais ou mecanismos de supervisão/contestação em interfaces conversacionais.",
+    "use_in_review": "Não usar como evidência central; no máximo referência contextual sobre governança de IA no setor público brasileiro, se a revisão admitir literatura adjacente não conversacional."
+  },
+  "evidence": [
+    {
+      "claim": "O artigo foca IA na gestão pública brasileira, não LLMs ou sistemas conversacionais.",
+      "excerpt": "Inteligência artificial na gestão pública brasileira: desafios e oportunidades para a eficiência governamental",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "O estudo enfatiza barreiras éticas, legais e tecnológicas e mecanismos de governança para uso responsável da IA.",
+      "excerpt": "é crucial estabelecer regulamentações claras e mecanismos de governança para superar esses desafios",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "O objetivo geral investiga IA como ferramenta para eficiência da gestão pública, sem menção a LLM ou governança conversacional.",
+      "excerpt": "Investigar o potencial da Inteligência Artificial como ferramenta para otimizar a eficácia e eficiência da gestão pública no Brasil",
+      "page": "4",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Assistentes virtuais aparecem apenas como exemplo internacional periférico em saúde.",
+      "excerpt": "assistentes virtuais baseados em IA têm sido implementados para gerenciar consultas e otimizar o fluxo de pacientes em hospitais",
+      "page": "7",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "O contexto regulado de setor público está presente no enquadramento do estudo.",
+      "excerpt": "A integração da Inteligência Artificial (IA) na gestão pública representa uma revolução potencial na maneira como os serviços governamentais são entregues no Brasil",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Transparência e responsabilidade governamental são resultados esperados da adoção responsável da IA.",
+      "excerpt": "fortalecendo a transparência e a responsabilidade governamental",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "A publicação é artigo de periódico revisado por pares com aceite em 2024.",
+      "excerpt": "Acceptance for publication: 05/17/2024",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "O desenho metodológico não está descrito no material fornecido.",
+      "excerpt": "Através de uma investigação detalhada, identificamos que",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

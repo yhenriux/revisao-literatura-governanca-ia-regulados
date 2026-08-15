@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "Large language models for clinical artificial intelligence in healthcare: a systematic review",
+    "authors": "Rawan Ghnemat; Amro Saleh",
+    "year": "2026",
+    "venue": "Discover Artificial Intelligence",
+    "doi": "10.1007/s44163-025-00784-x",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Ghnemat, R., & Saleh, A. (2026). Large language models for clinical artificial intelligence in healthcare: A systematic review. Discover Artificial Intelligence, 6, 156. https://doi.org/10.1007/s44163-025-00784-x"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic literature review",
+    "study_design": "systematic review with full-text screening",
+    "sample_description": "246 records identified between January 2020 and September 2025; 90 studies included after full-text screening",
+    "sample_size": "246 records identified; 90 studies included",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Large Language Models (LLMs), Multimodal LLMs (MLLMs), generative AI, transformer-based architectures, prompting, Retrieval-Augmented Generation (RAG), multi-agent (agentic) workflows, NLP"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening_pending",
+    "inclusion_codes": [
+      "LLM_GENAI",
+      "HEALTHCARE_REGULATED",
+      "SYSTEMATIC_REVIEW",
+      "GOVERNANCE_ETHICS_COMPLIANCE",
+      "RAG_MULTI_AGENT"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed systematic review of LLMs and MLLMs in healthcare that explicitly addresses ethical governance frameworks, deployment, RAG, multi-agent workflows, hallucinations, bias, privacy, and regulatory compliance. It aligns with regulated-domain LLM governance themes but the available text does not establish conversational AI or conversational governance as a primary focus; it appears broader clinical LLM synthesis rather than central evidence on conversational governance.",
+    "decision_confidence": 0.68,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter/page 1 was provided; full-text sections on governance, deployment, RAG, and conversational or agentic workflows were not available for verification."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal is based only on page 1 (title, abstract, keywords). The review reports clear scope and inclusion counts, but search strategy, quality appraisal of included studies, and synthesis methods are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The abstract presents a coherent systematic review with defined record counts and healthcare focus, but methodological detail and conversational-governance specificity are insufficient in the provided excerpt to support high confidence."
+  },
+  "coding": {
+    "open_codes": [
+      "clinical LLM systematic review",
+      "multimodal LLM integration",
+      "healthcare deployment",
+      "ethical governance frameworks",
+      "regulatory compliance guidance",
+      "RAG in medicine",
+      "multi-agent workflows",
+      "hallucination bias privacy risks"
+    ],
+    "axial_codes": [
+      "LLM clinical applications",
+      "technical evaluation and deployment",
+      "governance and policy",
+      "risk and safety"
+    ],
+    "theme": "Systematic synthesis of LLMs and MLLMs for clinical artificial intelligence in healthcare",
+    "subtheme": "Governance, deployment, and risk considerations for generative AI in medicine",
+    "concepts": [
+      "ethical governance frameworks",
+      "Retrieval-Augmented Generation (RAG)",
+      "Multi-Agent (agentic) workflows",
+      "model hallucinations",
+      "bias",
+      "privacy risks",
+      "regulatory compliance",
+      "domain-specific fine-tuning"
+    ],
+    "model_layers": [
+      "technical foundations",
+      "deployment in medical workflows",
+      "policy and compliance"
+    ],
+    "rq_alignment": [
+      "LLMs in regulated healthcare",
+      "governance and compliance",
+      "RAG and agentic workflows",
+      "risk mitigation (hallucinations, bias, privacy)"
+    ],
+    "coding_confidence": 0.62
+  },
+  "synthesis": {
+    "main_claim": "This systematic review synthesizes 90 included studies (from 246 records, January 2020–September 2025) on the clinical role of LLMs and MLLMs in healthcare, covering technical foundations, construction, evaluation, deployment, multimodal integration, RAG, multi-agent workflows, and governance-related risks and recommendations.",
+    "contribution": "Provides a consolidated, evidence-based overview of GenAI/LLM advances in medicine with emphasis on multimodal integration, ethical governance frameworks, prompting/RAG/multi-agent methods, and actionable guidance for clinicians, developers, and policymakers on safe integration and regulatory compliance.",
+    "limitations": "Supplied text does not describe full review methods, quality assessment of included studies, or detailed findings/limitations sections; conversational governance is not explicitly framed as the primary object of study.",
+    "use_in_review": "Use as supporting evidence for healthcare-regulated LLM deployment, governance frameworks, RAG/agentic workflows, and compliance-oriented recommendations; not as central primary evidence for conversational governance unless later sections explicitly address chatbots, dialogue systems, or conversational oversight."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed systematic review in healthcare focusing on LLMs and MLLMs",
+      "excerpt": "Large language models for clinical artificial intelligence in healthcare a systematic review",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors are Rawan Ghnemat and Amro Saleh",
+      "excerpt": "Rawan Ghnemat1* and Amro Saleh1",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Systematic review sample and screening counts are reported",
+      "excerpt": "246 records identified between January 2020 and September 2025, of which 90 studies were included after full-text screening",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study addresses deployment, RAG, and multi-agent workflows",
+      "excerpt": "advances in Prompting, Retrieval-Augmented Generation (RAG), and Multi-Agent (agentic) workflows",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Ethical governance and regulatory compliance are explicit contributions",
+      "excerpt": "ethical governance frameworks",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulatory compliance guidance for policymakers is stated",
+      "excerpt": "actionable guidelines for clinicians, developers, and policymakers to improve regulatory compliance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Risk themes include hallucinations, bias, and privacy",
+      "excerpt": "challenges such as hallucinations, bias, and privacy risks",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Specific foundation models are referenced",
+      "excerpt": "Foundation models like OpenAI’s GPT, Google Gemini, and LLAMA",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Deployment in medical workflows is within scope",
+      "excerpt": "examine their construction, evaluation, and deployment in medical workflows",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Keywords include regulatory compliance and NLP",
+      "excerpt": "Regulatory compliance, Natural language processing (NLP)",
+      "page": "1",
+      "section": "keywords",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "bibliographic": {
+    "title": "Is Self-knowledge and Action Consistent or Not: Investigating Large Language Model's Personality",
+    "authors": "Yiming Ai, Zhiwei He, Ziyin Zhang, Wenhong Zhu, Hongkun Hao, Kai Yu, Lingjun Chen, Rui Wang",
+    "year": "2024",
+    "venue": "Proceedings of the 41st International Conference on Machine Learning",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Ai, Y., He, Z., Zhang, Z., Zhu, W., Hao, H., Yu, K., Chen, L., & Wang, R. (2024). Is Self-knowledge and Action Consistent or Not: Investigating Large Language Model's Personality. In Proceedings of the 41st International Conference on Machine Learning (PMLR 235)."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "psychometric personality questionnaire assessment and comparison of LLM outputs to human response patterns",
+    "study_design": "unclear",
+    "sample_description": "LLM outputs examined against observed human response patterns; empirical testing of personality knowledge and behavioral inclinations mentioned but details unclear",
+    "sample_size": "unclear",
+    "sector": "academic research",
+    "regulated_domain": "no",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Large Language Models assessed via conventional personality questionnaires and real-world behavioral tendencies"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "title-abstract and full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E3_topic_mismatch",
+      "E4_no_conversational_system",
+      "E5_no_governance_mechanisms"
+    ],
+    "exclusion_reason": "The study evaluates LLM personality validity and alignment between self-knowledge and action using psychometric questionnaires; it does not address conversational AI systems, governance mechanisms, oversight, compliance, auditability, or deployment in regulated high-stakes environments.",
+    "decision_rationale": "Although the paper concerns LLMs and briefly mentions safety and responsibility, its core focus is anthropomorphic personality assessment and the disjunction between stated traits and demonstrated behavior. The provided text contains no evidence on conversational governance, chatbots/agents, guardrails, observability, human oversight, contestation, or regulated-domain operational controls. Python triage flagged it as supporting_candidate, but full-text scope is misaligned with the review's governance focus.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 1,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal is based only on front matter (pages 1-2 fragment). Objective is clearly stated, but methods, sample, analysis, results, limitations, and ethics are not sufficiently described in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The abstract and introduction are internally coherent about studying self-knowledge versus action in LLMs, but the excerpt provides insufficient methodological detail for strong appraisal. Relevance to conversational governance in regulated settings is very low based on available text."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM personality",
+      "self-knowledge",
+      "action",
+      "personality questionnaires",
+      "human response patterns",
+      "safety mention",
+      "responsibility mention"
+    ],
+    "axial_codes": [
+      "LLM behavioral evaluation",
+      "psychometric assessment",
+      "personality-behavior alignment"
+    ],
+    "theme": "Validity of LLM personality measurement",
+    "subtheme": "Disjunction between LLM self-knowledge and demonstrated action",
+    "concepts": [
+      "self-knowledge",
+      "action",
+      "personality traits",
+      "personality questionnaires",
+      "anthropomorphic personality performance"
+    ],
+    "model_layers": [
+      "model behavior"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Conventional personality questionnaires may not reliably capture genuine LLM personality inclinations, and LLMs may show a disjunction between personality traits they claim to possess and tendencies demonstrated in real-world scenarios.",
+    "contribution": "Introduces and operationalizes the distinction between self-knowledge and action for LLMs, motivating empirical examination of alignment between questionnaire-based personality claims and behavioral tendencies.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance; at most peripheral foundational context on LLM trait-behavior inconsistency with indirect implications for safety and responsibility."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on LLM personality validity rather than conversational governance",
+      "excerpt": "assess the congruence between the personality traits LLMs claim to possess and their demonstrated tendencies in real-world scenarios",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research is empirical",
+      "excerpt": "We empirically test vari",
+      "page": "2",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Paper targets LLMs specifically",
+      "excerpt": "human-like personality traits of Large Language Models (LLMs)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Safety and responsibility are mentioned only as motivation, not as governance framework",
+      "excerpt": "Measuring and verifying the ability of LLMs to synthesize personality brings hope for the safety, responsibility, and coordination of LLM efforts",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Mismatch between claimed traits and behavior is framed as an adverse outcome",
+      "excerpt": "a discordance between an LLM's asserted self-knowledge and its action can result in noteworthy adverse outcomes",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Assessment method uses personality questionnaires",
+      "excerpt": "A common method for assessment involves having LLMs answer personality questionnaires",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational system or governance mechanism is described in provided text",
+      "excerpt": "evaluating the anthropomorphic personality performance of LLMs has become a shared interest across fields such as artificial intelligence(AI) studies, social sciences",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Publication is an ICML 2024 conference proceeding",
+      "excerpt": "Proceedings of the 41 st International Conference on Machine Learning, Vienna, Austria. PMLR 235, 2024.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Institutional affiliation includes School of Education but regulated education is not the study domain",
+      "excerpt": "3School of Education, Shanghai Jiao Tong University, Shanghai, China.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "methodology"
+    }
+  ]
+}

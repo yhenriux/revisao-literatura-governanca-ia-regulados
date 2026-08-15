@@ -1,0 +1,158 @@
+{
+  "bibliographic": {
+    "title": "Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking",
+    "authors": "Katelyn Xiaoying Mei; Nic Weber",
+    "year": "2025",
+    "venue": "2025 ACM Workshop on Human-AI Interaction for Augmented Reasoning (AIREASONING-2025-01); arXiv:2504.14689v1",
+    "doi": "10.1145/nnnnnnn.nnnnnnn",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Mei, K. X., & Weber, N. (2025). Designing AI systems that augment human performed vs. demonstrated critical thinking. arXiv preprint arXiv:2504.14689."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "position paper; conceptual distinction and design implications",
+    "study_design": "conceptual framework paper without empirical data collection",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "education; human-computer interaction",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Generative AI and LLM-based systems including ChatGPT, GitHub Copilot, and conversational AI mentioned as examples"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "off_topic_governance",
+      "off_topic_regulated_context",
+      "insufficient_conversational_governance_focus"
+    ],
+    "exclusion_reason": "Position paper on critical thinking augmentation design; does not address conversational governance, accountability, compliance, audit, observability, human oversight mechanisms, or regulated high-stakes deployment contexts central to the review scope.",
+    "decision_rationale": "The article clearly engages GenAI/LLMs and briefly references conversational AI, but its core contribution is a conceptual distinction between performed and demonstrated critical thinking for HCI design and evaluation. No governance, risk control, compliance, supervision, contestability, logging, guardrails, or regulated-domain operational concerns are discussed in the provided text.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal adapted to a short conceptual position paper without primary empirical sampling or data collection; strengths lie in definitional clarity and design implications, not in governance or regulated-systems evidence."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The argument is internally coherent for HCI/critical-thinking design, but the provided text offers no governance mechanisms, regulated-environment analysis, or conversational-system operational controls needed for this review."
+  },
+  "coding": {
+    "open_codes": [
+      "performed_critical_thinking",
+      "demonstrated_critical_thinking",
+      "intelligence_augmentation",
+      "output_driven_ai_design",
+      "overreliance_on_ai",
+      "conversational_ai_as_example"
+    ],
+    "axial_codes": [
+      "human_cognitive_augmentation",
+      "ai_design_objectives",
+      "evaluation_conflation"
+    ],
+    "theme": "Human cognitive augmentation versus output optimization in GenAI systems",
+    "subtheme": "Performed vs demonstrated critical thinking distinction",
+    "concepts": [
+      "performed critical thinking",
+      "demonstrated critical thinking",
+      "critical thinking",
+      "generative AI",
+      "large language models",
+      "conversational AI",
+      "intelligence augmentation"
+    ],
+    "model_layers": [
+      "conceptual definitions",
+      "evaluation implications",
+      "design objectives"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Generative AI evaluation and system design often conflate demonstrated critical thinking (with AI assistance) with performed critical thinking (without AI), leading to output-driven designs that may not augment human cognitive capabilities.",
+    "contribution": "Proposes and explains the performed versus demonstrated critical thinking distinction and discusses implications for research and AI system design aimed at augmenting human critical thinking.",
+    "limitations": "Provided text is limited largely to introduction and partial framework sections; no governance, compliance, or regulated-deployment analysis is presented.",
+    "use_in_review": "Exclude from central conversational governance evidence; at most peripheral contextual reference for human capability augmentation debates, not for governance mechanisms in regulated LLM conversational systems."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a position paper proposing a conceptual distinction about critical thinking in the GenAI era.",
+      "excerpt": "this position paper proposes the distinction between demonstrated and performed critical thinking in the era of generative AI",
+      "page": "1",
+      "section": "front matter",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study uses GenAI/LLM technology context with named systems.",
+      "excerpt": "Generative AI (GenAI) powered by large language models (LLMs) has boosted productivity in tasks such as writing, coding, information analysis, and decision-making.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Conversational AI appears only as an illustrative example, not as the study focus.",
+      "excerpt": "current conversational AI systems can explain complex concepts to individuals, enabling more efficient and rapid comprehension",
+      "page": "4",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Education is referenced for definitional grounding, not as a regulated deployment context.",
+      "excerpt": "Based on definitions of critical thinking across psychology and education",
+      "page": "1",
+      "section": "front matter",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Core design concern is augmentation of human cognitive capability rather than governance or compliance.",
+      "excerpt": "the design of AI systems is often output-driven yet overlooks its impact on human cognitive capabilities",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Defines performed versus demonstrated critical thinking.",
+      "excerpt": "performed critical thinking as cognitive process undertaken by humans independent of AI assistance. In contrast, demonstrated critical thinking refers to either the process or product of critical thinking that occurs through the assistance of or collaboration with generative AI systems",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "No governance, accountability, audit, or compliance content appears in supplied text.",
+      "excerpt": "discusses the implication of this distinction in research and development of AI systems that aim to augment human critical thinking",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Workshop preprint with placeholder DOI; peer review status not established in text.",
+      "excerpt": "This paper was presented at the 2025 ACM Workshop on Human-AI Interaction for Augmented Reasoning (AIREASONING-2025-01). This is the authors' version for arXiv.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    }
+  ]
+}

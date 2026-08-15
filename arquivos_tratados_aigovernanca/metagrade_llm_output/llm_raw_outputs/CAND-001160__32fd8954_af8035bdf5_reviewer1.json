@@ -1,0 +1,194 @@
+{
+  "bibliographic": {
+    "title": "SARA: Leveraging LLM Agents and Jurisprudential Ontologies for Automated Legal Reasoning",
+    "authors": "Francisco C J Bonfim; Sara Pessoa Silva; Alicia S Neves; Henrique Santos; João A Monteiro Neto; Jorge L B Araujo; Rilder S Pires; Ricardo Alexandre Da Silva Costa; Vasco Furtado; Vladia Pinheiro",
+    "year": "2024",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Bonfim, F. C. J., Silva, S. P., Neves, A. S., Santos, H., Neto, J. A. M., Araujo, J. L. B., Pires, R. S., Costa, R. A. D. S., Furtado, V., & Pinheiro, V. (2024). SARA: Leveraging LLM Agents and Jurisprudential Ontologies for Automated Legal Reasoning. unclear."
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "system development and deployment evaluation with knowledge graph integration",
+    "study_design": "LLM-agent platform architecture with modular pipeline and real-world court deployment",
+    "sample_description": "Court of Justice of Ceará (TJCE), Brazil; regional Brazilian court deployment",
+    "sample_size": "unclear",
+    "sector": "judiciary",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "LLM agents, Jurisprudential Knowledge Graph (Jur-KG), OCR, legal ontology (LegalRelation, LegalGrounds, LegalClaims), competence questions for output assessment"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GENAI",
+      "REGULATED_LEGAL",
+      "GOVERNANCE_ACCOUNTABILITY",
+      "DEPLOYMENT_EVIDENCE"
+    ],
+    "exclusion_codes": [
+      "CONVERSATIONAL_WEAK"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The provided text strongly supports inclusion on LLM deployment in a regulated judicial setting with explicit governance signals (traceable reasoning, explainability, compliance, bias and privacy concerns). However, no explicit conversational, chatbot, or dialogue governance mechanism is evidenced in the excerpts; the focus is automated legal reasoning and decision drafting via LLM agents rather than conversational governance.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Conversational governance fit is weak in the supplied text; full text needed to verify whether SARA includes interactive/conversational interfaces, human oversight workflows, contestation, or operational monitoring beyond abstract claims."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal based only on front matter and partial architecture description. Deployment metrics, evaluation protocol, and limitations are referenced but not detailed in the supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "Findings appear internally coherent and relevant to LLM governance in regulated legal contexts, but methodological detail on sampling, measurement, and limitations is insufficient in the provided text to support high confidence."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM agents",
+      "jurisprudential knowledge graph",
+      "traceable reasoning",
+      "explainability",
+      "compliance with CNJ guidelines",
+      "algorithmic bias concerns",
+      "hallucination risk",
+      "privacy concerns",
+      "legal ontology",
+      "competence questions",
+      "court deployment"
+    ],
+    "axial_codes": [
+      "technical governance via KG grounding",
+      "regulated-domain AI deployment",
+      "accountability and transparency mechanisms",
+      "risk awareness in judiciary AI"
+    ],
+    "theme": "LLM governance through ontology-grounded legal reasoning in judicial deployment",
+    "subtheme": "Traceability, explainability, and regulatory compliance in court AI systems",
+    "concepts": [
+      "Generative AI",
+      "Large Language Models",
+      "LLM agents",
+      "Jurisprudential Knowledge Graph",
+      "Legal Case Ontology",
+      "CNJ Resolution No. 332/2020",
+      "traceable reasoning",
+      "explainability",
+      "compliance",
+      "algorithmic bias",
+      "hallucinations",
+      "privacy"
+    ],
+    "model_layers": [
+      "knowledge retrieval",
+      "reasoning generation",
+      "document extraction",
+      "evidence linkage",
+      "governance assessment via competence questions"
+    ],
+    "rq_alignment": [
+      "LLM governance in regulated environments",
+      "accountability and explainability",
+      "compliance and ethical guidelines",
+      "knowledge governance via ontologies",
+      "deployment and operational impact"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "SARA is an LLM-powered legal reasoning platform deployed in a regional Brazilian court that integrates LLM agents with a jurisprudential knowledge graph to support traceable, explainable judicial decision drafting while reporting measurable efficiency and quality gains and compliance with CNJ ethical guidelines.",
+    "contribution": "Empirical deployment evidence combining LLM agents with domain-specific legal ontologies and knowledge graphs for grounded, assessable legal reasoning in a real court setting.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence for governance mechanisms (traceability, explainability, compliance, bias/privacy risk framing) and regulated judicial deployment of LLM agents; not primary evidence for conversational governance unless full text confirms interactive dialogue controls."
+  },
+  "evidence": [
+    {
+      "claim": "Paper centers on LLM agents for legal reasoning in a deployed court system",
+      "excerpt": "This paper introduces SARA, an LLM-powered legal reasoning platform deployed in a regional Brazilian court",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "System uses Generative AI and Large Language Models",
+      "excerpt": "a Generative AI system powered by Large Language Models (LLMs) and deployed in the Court of Justice of Ceará, Brazil",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance includes traceable reasoning and assessment of AI outputs",
+      "excerpt": "SARA supports traceable reasoning and addresses competence questions to assess coverage, coherence, and justification of AI-generated outputs",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Deployment reports explainability and compliance gains",
+      "excerpt": "Deployment results indicate measurable improvements in processing time, consistency, and explainability, while ensuring compliance with ethical and legal guidelines established by Brazil’s National Council of Justice",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulatory and ethical governance context is explicit",
+      "excerpt": "CNJ Resolution No. 332/2020 established ethical guidelines for AI in the judiciary, underscoring the need for transparency, grounded reasoning, and protection of fundamental rights",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Risk concerns include bias, hallucinations, and privacy",
+      "excerpt": "its adoption in courts also raises concerns regarding algorithmic bias, data quality, hallucinations, privacy, and the verifiability of AI-generated outputs",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Technical pipeline uses LLM modules for extraction and evidence analysis",
+      "excerpt": "Module 2, the textual content of documents such as the initial petition, defenses, and replies is analyzed by the LLM to extract and structure the claims and requests of the parties",
+      "page": "3",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Knowledge graph integration supports legally grounded retrieval",
+      "excerpt": "Module 4 handles the integration with the Jurisprudential Knowledge Graph (Jur-KG), enabling the retrieval of legally and co",
+      "page": "3",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "No explicit conversational or chatbot governance mechanism appears in supplied text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Publication appears to be a conference paper with AAAI copyright notice",
+      "excerpt": "Copyright © 2026, Association for the Advancement of Artificial Intelligence (www.aaai.org). All rights reserved.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "bibliographic"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "The flaws of policies requiring human oversight of government algorithms",
+    "authors": "Ben Green",
+    "year": "2022",
+    "venue": "Computer Law & Security Review",
+    "doi": "10.1016/j.clsr.2022.105681",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Green, B. (2022). The flaws of policies requiring human oversight of government algorithms. Computer Law & Security Review, 45, 105681. https://doi.org/10.1016/j.clsr.2022.105681"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "policy document analysis",
+    "study_design": "survey and critical analysis of 41 policies prescribing human oversight of government algorithms",
+    "sample_description": "41 policies that prescribe human oversight of government algorithms",
+    "sample_size": "41",
+    "sector": "public sector / government",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "government automated decision-making algorithms and AI regulation; not conversational systems or LLMs"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "governance_accountability",
+      "human_oversight",
+      "regulated_public_sector",
+      "ai_regulation"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai",
+      "no_llm_specificity"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article provides a rigorous policy analysis of human oversight, accountability, and algorithmic governance in government contexts, which aligns with governance and regulated-domain themes of the review. However, it does not address conversational AI, chatbots, agents, RAG, or LLM-based systems, limiting its centrality to a review focused on conversational governance in LLM systems.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Borderline fit: strong governance and human-oversight relevance but no conversational or LLM-specific technology context; manual adjudication needed to confirm supporting versus foundational classification."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 5,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Clear conceptual policy critique with defined sample of 41 policies and a two-stage institutional oversight proposal. Ethics reflexivity and explicit study limitations are not prominent in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are coherent and adequately supported for government algorithm oversight policy, but relevance to conversational LLM governance is indirect because the study targets generic government algorithms and human oversight policies rather than conversational or LLM systems."
+  },
+  "coding": {
+    "open_codes": [
+      "human oversight",
+      "human in the loop",
+      "institutional oversight",
+      "algorithmic accountability",
+      "policy critique",
+      "false sense of security",
+      "democratic review",
+      "government algorithms"
+    ],
+    "axial_codes": [
+      "governance mechanisms",
+      "oversight limitations",
+      "accountability gaps",
+      "regulated public sector AI"
+    ],
+    "theme": "Critique of human oversight as a governance mechanism for government algorithms",
+    "subtheme": "Institutional oversight as alternative to human-in-the-loop policies",
+    "concepts": [
+      "human oversight",
+      "institutional oversight",
+      "algorithmic accountability",
+      "human-algorithm interactions",
+      "AI regulation"
+    ],
+    "model_layers": [
+      "policy layer",
+      "institutional governance layer",
+      "democratic approval layer"
+    ],
+    "rq_alignment": [
+      "human oversight",
+      "accountability",
+      "governance",
+      "regulated contexts",
+      "risk mitigation"
+    ],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "Policies requiring human oversight of government algorithms suffer from two flaws: people are often unable to perform effective oversight, and such policies legitimize faulty algorithms while enabling vendors and agencies to avoid accountability.",
+    "contribution": "Proposes shifting from human oversight to institutional oversight, requiring agencies to empirically justify algorithm adoption and oversight mechanisms and obtain democratic review before deployment.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence on limitations of human-in-the-loop governance and accountability risks in regulated government AI contexts; not usable as central evidence on conversational or LLM-specific governance."
+  },
+  "evidence": [
+    {
+      "claim": "Study surveys 41 policies on human oversight of government algorithms",
+      "excerpt": "In this article, I survey 41 policies that prescribe human oversight of government algorithms",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Human oversight policies may fail to protect and can reduce accountability",
+      "excerpt": "human oversight policies provide a false sense of security in adopting algorithms and enable vendors and agencies to shirk accountability for algorithmic harms",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Author proposes institutional oversight with two stages",
+      "excerpt": "I propose a shift from human oversight to institutional oversight as the central mechanism for regulating government algorithms",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Institutional approach requires justification and democratic approval",
+      "excerpt": "agencies must justify that it is appropriate to incorporate an algorithm into decision-making and that any proposed forms of human oversight are supported by empirical evidence",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Article addresses AI regulation and human oversight in policy context",
+      "excerpt": "Keywords: Human oversight Human in the loop Algorithmic governance Automated decision-making Artificial intelligence AI regulation",
+      "page": "1",
+      "section": "article info",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "European AI Act treats human oversight as risk mitigation for AI",
+      "excerpt": "human oversight (along with other mechanisms) is \"strictly necessary to mitigate the risks to fundamental rights and safety posed by AI\"",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Trustworthy AI frameworks emphasize meaningful human oversight",
+      "excerpt": "AI lists \"human agency and oversight\" as the first of \"seven key requirements for Trustworthy AI\"",
+      "page": "6",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Study discusses machine learning in government decision contexts",
+      "excerpt": "it may be appropriate for governments to adopt machine learning algorithms for pure prediction problems, but not for decisions that involve balancing predictions with other factors",
+      "page": "13",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample includes major AI governance policy documents",
+      "excerpt": "European Commission Proposal for a Regulation laying down harmonised rules on artificial intelligence (Artificial Intelligence Act) 2021",
+      "page": "18",
+      "section": "discussion",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational AI or LLM-specific system context is present",
+      "excerpt": "automated decision-making systems, often described as algorithms, to make or inform consequential decisions",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

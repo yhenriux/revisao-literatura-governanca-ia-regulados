@@ -1,0 +1,162 @@
+{
+  "bibliographic": {
+    "title": "A Stochastic Processes Toolkit for Risk Management",
+    "authors": "Damiano Brigo, Antonio Dalessandro, Matthias Neugebauer, Fares Triki",
+    "year": "2008",
+    "venue": "Journal of Risk Management for Financial Institutions",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "yes",
+    "citation_apa": "Brigo, D., Dalessandro, A., Neugebauer, M., & Triki, F. (2008). A stochastic processes toolkit for risk management. Journal of Risk Management for Financial Institutions."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "stochastic processes modeling and quantitative risk management tutorial",
+    "study_design": "tutorial survey report with illustrative financial time-series examples",
+    "sample_description": "Historical financial time series used illustratively, including FTSE100 index log returns",
+    "sample_size": "unclear",
+    "sector": "financial risk management and rating practice",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "stochastic processes, maximum likelihood estimation, Monte Carlo simulation, GARCH, jump diffusion, mean-reverting models"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_wrong_technology",
+      "E2_no_llm_genai",
+      "E3_no_conversational_ai",
+      "E4_no_conversational_governance"
+    ],
+    "exclusion_reason": "The article is a pre-LLM quantitative finance tutorial on stochastic process modeling for risk factors. It does not address LLMs, generative AI, conversational systems, agents, RAG, guardrails, observability, human oversight, or conversational governance.",
+    "decision_rationale": "Although the paper concerns risk management in financial institutions, its focus is statistical modeling of asset risk factors via stochastic processes, calibration, and simulation. Python screening hits for terms such as bias, standard, law, and question reflect statistical and mathematical usage, not AI governance. There is no evidence of conversational AI or LLM-based systems.",
+    "decision_confidence": 0.97,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Technology and topic mismatch are explicit in title, abstract, and introduction; exclusion is unambiguous."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 5,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Methodologically coherent as a quantitative finance tutorial, but not transferable to conversational governance of LLM systems. Python keyword matches are false positives from statistical terminology."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 1,
+    "overall_confidence": "high",
+    "explanation": "Confidence is high that the study is outside review scope. Within its own domain it is coherent and adequate, but it has very low relevance to conversational governance in regulated LLM environments."
+  },
+  "coding": {
+    "open_codes": [
+      "risk factor time series",
+      "stochastic processes",
+      "maximum likelihood estimation",
+      "fat tails",
+      "mean reversion",
+      "Monte Carlo simulation",
+      "financial rating practice",
+      "portfolio scenario simulation"
+    ],
+    "axial_codes": [
+      "quantitative risk management",
+      "financial institutions",
+      "statistical modeling",
+      "pre-LLM technical methods"
+    ],
+    "theme": "quantitative risk modeling with stochastic processes",
+    "subtheme": "risk factor calibration and simulation in finance",
+    "concepts": [
+      "geometric Brownian motion",
+      "GARCH",
+      "jump diffusion",
+      "Vasicek model",
+      "CIR model",
+      "confidence intervals",
+      "QQ-plots"
+    ],
+    "model_layers": [
+      "risk factor statistical models",
+      "parameter estimation",
+      "simulation layer"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.96
+  },
+  "synthesis": {
+    "main_claim": "A tutorial introducing implementable stochastic process models to capture essential statistical features of financial risk-factor time series, especially fat tails and mean reversion, and to support calibration, simulation, and downstream risk measurement.",
+    "contribution": "Provides orientation for choosing and estimating stochastic process models and using them as building blocks in quantitative risk management before portfolio simulation.",
+    "limitations": "Not exhaustive; focuses on single time series; multivariate dependence modeling deferred to future work; quantitative analysis must be integrated with judgemental analysis and stresses.",
+    "use_in_review": "Exclude from central and supporting evidence. May serve only as distant foundational context for classical financial risk modeling, not for conversational governance of LLM systems."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a risk management tutorial on stochastic processes, not an LLM or conversational AI study.",
+      "excerpt": "This tutorial aims to introduce a number of different stochastic processes that can help in grasping the essential features of risk factors",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study operates in financial risk management and rating practice.",
+      "excerpt": "In risk management and in the rating practice it is desirable to grasp the essential statistical features of a time series representing a risk factor",
+      "page": "3",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Core methods are stochastic process modeling, estimation, and simulation.",
+      "excerpt": "Once the process has been calibrated, typically through maximum likelihood estimation, one may simulate the risk factor and build future scenarios",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Python match for bias refers to statistical estimator bias, not AI bias governance.",
+      "excerpt": "Note that the estimator for the variance is biased, since E(ˆv) = v(n −1)/n.",
+      "page": "9",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Python matches for standard and law reflect mathematical statistics, not regulatory standards.",
+      "excerpt": "Here W is a standard Brownian motion, a special diffusion process",
+      "page": "5",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Peer review and journal acceptance are indicated.",
+      "excerpt": "Updated version accepted for publication in the Journal of Risk Management for Financial Institutions.",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Scope limitation acknowledges incomplete coverage and future multivariate work.",
+      "excerpt": "this first survey report focuses on single time series. Correlation or more generally dependence across risk factors, leading to multivariate processes modeling, will be addressed in future work.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No conversational governance, oversight, audit, or LLM deployment mechanisms are discussed.",
+      "excerpt": "The broad qualitative features addressed here are fat tails and mean reversion.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

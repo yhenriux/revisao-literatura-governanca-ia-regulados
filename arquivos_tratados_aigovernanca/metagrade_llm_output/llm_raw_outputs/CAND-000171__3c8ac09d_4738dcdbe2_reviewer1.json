@@ -1,0 +1,206 @@
+{
+  "bibliographic": {
+    "title": "Privacy-by-Design Framework for Large Language Model Chatbots in Urology",
+    "authors": "Eun Joung Kim; JungYoon Kim",
+    "year": "2025",
+    "venue": "International Neurourology Journal (Journal of Korean Continence Society)",
+    "doi": "10.5213/inj.2550274.137",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Kim, E. J., & Kim, J. (2025). Privacy-by-Design Framework for Large Language Model Chatbots in Urology. International Neurourology Journal. https://doi.org/10.5213/inj.2550274.137"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "narrative_or_systematic_review_with_conceptual_governance_framework",
+    "study_design": "review_article",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare_urology",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM chatbots; foundation models; GPT-4; on-site algorithmic deidentification; federated learning with differential privacy and secure aggregation; secure retrieval-augmented generation with source citation and audit logging; on-premise inference"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_chatbots",
+      "conversational_AI",
+      "governance_framework",
+      "privacy_security",
+      "regulated_healthcare",
+      "RAG_audit_logging"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed review that directly proposes a privacy-by-design technical and governance framework for safe clinical deployment of LLM chatbots in urology, integrating deidentification, federated learning, secure RAG, audit logging, explainability, and regulatory compliance in a sensitive regulated healthcare domain.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial introduction/objectives text were provided; full review methods, search strategy, included studies, and limitations sections were not available for complete appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Appraisal based on limited excerpt. The review states fourfold objectives including a systematic overview, but detailed review protocol, inclusion criteria, and synthesis methods are not visible in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 5,
+    "overall_confidence": "moderate",
+    "explanation": "The framework description is internally coherent and highly relevant to governed LLM chatbot deployment in regulated healthcare, but confidence is moderated because only partial text was supplied and explicit systematic review methodology details were not evidenced."
+  },
+  "coding": {
+    "open_codes": [
+      "privacy_by_design",
+      "LLM_medical_chatbots",
+      "on_site_deidentification",
+      "federated_learning",
+      "differential_privacy",
+      "secure_aggregation",
+      "secure_RAG",
+      "source_citation",
+      "audit_logging",
+      "data_sovereignty",
+      "explainability",
+      "accountability",
+      "regulatory_compliance",
+      "PHI_protection",
+      "hallucination_risk",
+      "bias_risk"
+    ],
+    "axial_codes": [
+      "technical_operational_governance",
+      "privacy_and_security_controls",
+      "clinical_deployment_safeguards",
+      "regulated_domain_healthcare"
+    ],
+    "theme": "Privacy-by-design governance for LLM chatbots in regulated clinical settings",
+    "subtheme": "Urological deployment as test bed for auditable explainable LLM pipelines",
+    "concepts": [
+      "privacy-by-design framework",
+      "secure retrieval-augmented generation",
+      "audit logging",
+      "federated explainable auditable pipeline",
+      "governance and accountability standards"
+    ],
+    "model_layers": [
+      "data_layer_deidentification",
+      "training_layer_federated_learning",
+      "inference_layer_on_premise",
+      "retrieval_layer_secure_RAG",
+      "governance_layer_audit_traceability_compliance"
+    ],
+    "rq_alignment": [
+      "governance_of_generative_AI",
+      "conversational_systems_in_regulated_contexts",
+      "RAG_with_auditability",
+      "privacy_security_compliance",
+      "accountability_and_explainability"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The review proposes a privacy-by-design-based technical and governance framework for safe clinical deployment of LLM chatbots in urology, combining on-site deidentification, federated learning with differential privacy, and secure RAG with source citation and audit logging to create a federated, explainable, and auditable pipeline that preserves data sovereignty and supports regulatory compliance.",
+    "contribution": "Provides an integrated technical-governance architecture for LLM urological chatbots addressing PHI sensitivity, traceability, auditability, explainability, and accountability, positioning urology as a test bed for broader clinical adoption.",
+    "limitations": "Provided text notes structural challenges including PHI privacy/security risks, training data extraction, membership inference attacks, hallucinations, bias, and insufficient source attribution and explainability; full author-stated study limitations are unclear from excerpt.",
+    "use_in_review": "Use as central evidence for technical-operational conversational governance of LLMs in regulated healthcare, especially privacy-by-design deployment patterns, secure RAG, audit logging, federated learning, and compliance-oriented accountability controls."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a review proposing a privacy-by-design governance framework for LLM chatbots in urology",
+      "excerpt": "This review presents a privacy-by-design–based technical and governance framework for the safe clinical deployment of large language model (LLM) chatbots in urology.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Framework integrates deidentification, federated learning, secure RAG, citation, and audit logging",
+      "excerpt": "the proposed approach integrates on-site algorithmic deidentification, federated learning with differential privacy and secure aggregation, and secure retrieval-augmented generation with source citation and audit logging.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Pipeline emphasizes explainability, auditability, governance, and regulatory compliance",
+      "excerpt": "Collectively, these components establish a federated, explainable, and auditable pipeline that preserves data sovereignty while improving clinical reliability and regulatory compliance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Urology is framed as a regulated high-sensitivity healthcare test bed",
+      "excerpt": "Given the high sensitivity of urological data involving urinary, sexual, and reproductive health",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM conversational systems and specific LLM references are central",
+      "excerpt": "Consequently, LLM-based conversational systems hold significant potential to bridge information gaps and improve patient education and accessibility.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Specific LLM example cited in clinical decision-support context",
+      "excerpt": "Generative pre-trained transformer 4 (GPT-4) has demonstrated high diagnostic accuracy in clinical decision-support tasks",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Privacy and security are foremost concerns due to PHI in urological records",
+      "excerpt": "Urological medical records inherently contain dense layers of personal health information (PHI), making data privacy and security the foremost concern",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Risks include hallucinations, bias, and insufficient explainability/attribution",
+      "excerpt": "persistent hallucinations and bias [10], and insufficient source attribution and explain",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Review objectives include systematic overview and secure deployment foundations",
+      "excerpt": "The objectives of this review are fourfold. First, it provides a systematic overview of the clinical and educational evidence supporting the effectiveness and utility of LLM-based urological chatbots.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Deidentification linked to traceability and auditability",
+      "excerpt": "deidentification to ensure factuality, traceability, and auditability [6, 18].",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Accountability and governance standards are explicit adoption goals",
+      "excerpt": "Urology thus serves as a critical test bed for validating the safety, governance, and accountability standards required for broader adoption of LLM-based medical chatbots across clinical domains.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Peer-reviewed journal publication with revision",
+      "excerpt": "Submitted: September 18, 2025 / Accepted after revision: November 6, 2025",
+      "page": "1",
+      "section": "front_matter",
+      "supports": "appraisal"
+    }
+  ]
+}

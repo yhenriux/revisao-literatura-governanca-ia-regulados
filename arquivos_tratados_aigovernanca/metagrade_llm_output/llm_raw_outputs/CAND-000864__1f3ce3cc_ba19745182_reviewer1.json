@@ -1,0 +1,191 @@
+{
+  "bibliographic": {
+    "title": "SILO Language Models: Isolating Legal Risk in a Nonparametric Datastore",
+    "authors": "Sewon Min, Suchin Gururangan, Eric Wallace, Weijia Shi, Hannaneh Hajishirzi, Noah A. Smith, Luke Zettlemoyer",
+    "year": "2023",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Min, S., Gururangan, S., Wallace, E., Shi, W., Hajishirzi, H., Smith, N. A., & Zettlemoyer, L. (2023). SILO language models: Isolating legal risk in a nonparametric datastore [Preprint]."
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "experimental language model architecture evaluation with curated corpus construction",
+    "study_design": "comparative experimental study of parametric LM plus inference-time nonparametric datastore versus parametric-only training",
+    "sample_description": "Parametric LM trained on OPEN LICENSE CORPUS (OLC), 228B tokens of public domain and permissively licensed text; augmented at inference with a nonparametric datastore that may include high-risk data; compared against models trained on the Pile and evaluated across domain categories including code, legal, conversation, books, science, news, and web",
+    "sample_size": "228B tokens (OLC); domain token counts reported in corpus tables",
+    "sector": "machine learning / natural language processing",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "SILO architecture separating low-risk parametric training from high-risk inference-time retrieval via nonparametric datastore; evaluates kNN-LM and RIC-LM approaches; references LLaMA in figure example"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_assessment",
+    "inclusion_codes": [
+      "LLM_legal_data_governance",
+      "compliance_GDPR_fair_use",
+      "data_attribution_opt_out",
+      "inference_time_retrieval"
+    ],
+    "exclusion_codes": [
+      "not_conversational_system",
+      "not_deployment_governance",
+      "not_human_oversight_or_guardrails"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper directly addresses legal risk, compliance, data attribution, and opt-out for language models, which aligns partially with generative-AI governance in regulated contexts. However, it focuses on pretraining/inference architecture and corpus licensing rather than conversational systems, chatbot governance, human oversight, guardrails, observability, or regulated deployment of conversational AI.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Venue and peer-review status are unclear from the provided text; relevance to conversational governance is indirect and requires human confirmation against review inclusion criteria."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Strong clarity on legal-risk mitigation objective and transparent corpus licensing description. Experimental claims are supported for performance-risk tradeoffs, but the excerpt does not fully detail evaluation protocols, statistical testing, or reproducibility artifacts. Fairness limitations are acknowledged. Transferability to conversational governance in regulated operational settings is limited because the study targets model training/inference design rather than deployed conversational control mechanisms."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The provided text presents a coherent technical approach with empirical results and explicit legal/compliance motivation. Methodological detail appears adequate for architecture and corpus claims but incomplete for full appraisal of evaluation rigor. Relevance to the review's conversational governance focus is moderate because legal/data-use governance is addressed, while conversational oversight, auditability in dialogue, and sector-specific regulated deployment are not central."
+  },
+  "coding": {
+    "open_codes": [
+      "legal_risk_mitigation",
+      "parametric_nonparametric_separation",
+      "open_license_corpus",
+      "inference_time_datastore",
+      "data_attribution",
+      "creator_opt_out",
+      "GDPR_compliance",
+      "fair_use",
+      "fairness_tradeoff",
+      "retrieval_augmented_LM"
+    ],
+    "axial_codes": [
+      "LLM_data_governance",
+      "legal_and_regulatory_compliance",
+      "risk_performance_tradeoff",
+      "nonparametric_retrieval_architecture"
+    ],
+    "theme": "Isolating legal and data-use risk in language models through inference-time nonparametric datastores",
+    "subtheme": "Compliance-oriented model design with attribution and opt-out affordances",
+    "concepts": [
+      "SILO",
+      "OPEN LICENSE CORPUS",
+      "kNN-LM",
+      "RIC-LM",
+      "parametric LM",
+      "nonparametric datastore",
+      "fair use",
+      "GDPR",
+      "data attribution",
+      "opt-out"
+    ],
+    "model_layers": [
+      "training_data_curation",
+      "parametric_model",
+      "inference_time_retrieval",
+      "compliance_controls"
+    ],
+    "rq_alignment": [
+      "generative_AI_governance",
+      "legal_compliance",
+      "privacy_and_data_rights",
+      "risk_mitigation"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "High-quality language models can mitigate legal risk by training parametric components only on low-risk permissively licensed data while using high-risk data exclusively through an updatable inference-time nonparametric datastore that supports attribution and opt-out.",
+    "contribution": "Introduces SILO and the OPEN LICENSE CORPUS (228B tokens), demonstrates improved out-of-domain performance when retrieval is available, and frames the approach as supporting compliance with data-use regulations such as fair use and GDPR.",
+    "limitations": "Public-domain-heavy training may worsen fairness issues such as toxicity and racial bias; legal-risk mitigation does not fully resolve attribution ambiguity in machine learning; conversational governance, deployment monitoring, and human oversight are not studied.",
+    "use_in_review": "Use as supporting evidence on legal/compliance-oriented LLM data governance, attribution, and opt-out mechanisms; not as central evidence for conversational governance, guardrails, audit logs, or regulated conversational deployment practices."
+  },
+  "evidence": [
+    {
+      "claim": "Paper presents SILO to manage legal risk-performance tradeoff using low-risk parametric training plus inference-time datastore",
+      "excerpt": "We present SILO, a new language model that manages this risk-performance tradeoff during inference.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Study targets large language models under legal scrutiny for copyrighted training data",
+      "excerpt": "Large language models (LMs) are under widespread legal scrutiny, in large part because they are trained on copyrighted content",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Nonparametric datastore enables opt-out and sentence-level attribution for compliance",
+      "excerpt": "The datastore allows use of high-risk data without training on it, supports sentence-level data attribution, and enables data producers to opt out from the model by removing content from the store.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Approach is framed as fostering compliance with fair use and GDPR",
+      "excerpt": "These capabilities can foster compliance with data-use regulations such as the fair use doctrine in the United States and the GDPR in the European Union.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical result shows retrieval closes most performance gap versus high-risk training corpus",
+      "excerpt": "access to the datastore greatly improves out of domain performance, closing 90% of the performance gap with an LM trained on the Pile",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "GDPR obligations include transparency and individual data rights relevant to training-data governance",
+      "excerpt": "The obligations include (1) obtaining consent from users before processing their data, (2) providing transparency about data processing, (3) ensuring data security, and (4) allowing individuals to access, correct, and erase their data.",
+      "page": "3",
+      "section": "discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Conversation appears only as a corpus domain, not as a conversational system under governance study",
+      "excerpt": "sw by Conversation: We source conversational text under permissive software licenses from the HackerNews (MIT license) and the Ubuntu IRC (Apache license) subsets of the Pile",
+      "page": "5",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors acknowledge fairness harms may worsen despite legal-risk mitigation",
+      "excerpt": "while SILO mitigates copyright and privacy risks, it may exacerbate certain fairness issues, like toxicity towards marginalized groups and racial biases",
+      "page": "14",
+      "section": "limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Technical methods include kNN-LM and RIC-LM retrieval approaches evaluated experimentally",
+      "excerpt": "Each approach constructs a datastore from the raw text data offline, and then uses it on-the-fly at inference time.",
+      "page": "7",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Conclusion reiterates legal-risk isolation via permissive parametric training and unrestricted inference datastore",
+      "excerpt": "We introduce SILO, a language model that mitigates legal risk by learning parameters only on low- risk, permissively-licensed data (OPEN LICENSE CORPUS), and using an unrestricted nonparametric datastore during inference.",
+      "page": "15",
+      "section": "conclusion",
+      "supports": "synthesis"
+    }
+  ]
+}

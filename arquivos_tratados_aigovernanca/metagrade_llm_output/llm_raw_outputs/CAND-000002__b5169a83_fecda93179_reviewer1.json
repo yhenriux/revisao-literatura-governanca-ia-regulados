@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Accountable Artificial Intelligence: Holding Algorithms to Account",
+    "authors": "Madalina Busuioc",
+    "year": "2021",
+    "venue": "Public Administration Review",
+    "doi": "10.1111/puar.13293",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Busuioc, M. (2021). Accountable artificial intelligence: Holding algorithms to account. Public Administration Review, 81(5), 825–836. https://doi.org/10.1111/puar.13293"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual framework and critical reflection",
+    "study_design": "conceptually guided mapping and systemic diagnosis of accountability challenges",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "public administration / public sector",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "AI, machine learning, deep learning, neural networks, NLP, and algorithmic decision-making systems in public services"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "governance_accountability",
+      "regulated_public_sector",
+      "human_oversight",
+      "risk_oversight"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai",
+      "no_llm_specificity"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article provides a public administration perspective on algorithmic accountability, oversight, transparency, interpretability, and mixed human-algorithm decision-making in high-stakes public sector contexts. It does not address conversational AI, chatbots, agents, RAG, or LLM-based systems as its focus; NLP and deep learning appear only as illustrative examples of broader algorithmic risks.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted metadata misidentified the title as the Creative Commons license text and listed year 2019, while the provided text indicates Vol. 81, Iss. 5 (September/October 2021) and © 2020."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Non-empirical conceptual article. Strengths include a clear accountability framework applied to public sector algorithmic systems and explicit policy recommendations. Provided excerpt is partial; limitations section not fully visible in supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is conceptually coherent and directly relevant to governance and accountability in regulated public administration, but relevance to conversational LLM governance is indirect. Confidence is moderated by absence of empirical validation and incomplete full-text coverage in the supplied excerpts."
+  },
+  "coding": {
+    "open_codes": [
+      "algorithmic accountability",
+      "public sector decision-making",
+      "black-box algorithms",
+      "interpretable models",
+      "explainable AI",
+      "mixed decision-making",
+      "human-algorithm interaction",
+      "oversight",
+      "bias",
+      "high-stakes decisions"
+    ],
+    "axial_codes": [
+      "governance_and_accountability",
+      "human_oversight",
+      "transparency_and_explainability",
+      "regulated_public_sector_context",
+      "algorithmic_risk"
+    ],
+    "theme": "Algorithmic accountability in public administration",
+    "subtheme": "Transparency, oversight, and interpretability requirements for public sector AI",
+    "concepts": [
+      "accountability",
+      "account-giving",
+      "black-box models",
+      "interpretable models",
+      "mixed algorithmic decision-making",
+      "human decision-maker interaction",
+      "oversight",
+      "explainable AI"
+    ],
+    "model_layers": [
+      "policy",
+      "organizational oversight",
+      "technical model choice",
+      "human-algorithm interaction"
+    ],
+    "rq_alignment": [
+      "governance_accountability",
+      "human_oversight",
+      "regulated_contexts",
+      "risk_control"
+    ],
+    "coding_confidence": 0.84
+  },
+  "synthesis": {
+    "main_claim": "AI algorithmic systems in public sector high-stakes decision-making create distinct accountability challenges that require safeguarding through transparency, oversight, and preference for interpretable models over black-box alternatives.",
+    "contribution": "Maps accountability implications of AI in public administration, links technical discussions on black-box algorithms, explainable AI, and interpretable models to public accountability requirements, and offers policy recommendations for securing algorithmic accountability.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence for accountability, oversight, transparency, and human-algorithm interaction frameworks in regulated public sector settings; not usable as direct evidence on conversational governance or LLM-specific operational controls."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on accountability challenges of AI in public sector decision-making",
+      "excerpt": "What accountability challenges do AI algorithmic systems bring with them, and how can we safeguard accountability in algorithmic decision-making?",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses a public administration conceptual framework rather than empirical methods",
+      "excerpt": "Drawing on a decidedly public administration perspective, and given the current challenges that have thus far become manifest in the field, we critically reflect on and map out in a conceptually guided manner the implications of these systems",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated high-stakes public sector domains are explicitly in scope",
+      "excerpt": "As AI algorithms have permeated high-stakes aspects of our public existence—from hiring and education decisions to the governmental use of enforcement powers (policing) or liberty-restricting decisions (bail and sentencing)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Technology context is generic AI/ML/deep learning, not LLMs or conversational systems",
+      "excerpt": "Tremendous technological advances brought on by data, computation, and the growing power of machine pattern recognition—relying on a range of methods referred to as \"deep learning\" or \"neural networks\"",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "NLP is cited only as an example of bias, not as a conversational governance object",
+      "excerpt": "natural language processing (NLP) algorithms for textual analysis can display recurrent gender biases",
+      "page": "1",
+      "section": "limitations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Policy recommendation favors interpretable models over black-box/deep learning in public sector",
+      "excerpt": "the importance of giving preference to transparent, interpretable models in the public sector over black-box alternatives (whether in a proprietary or in a technical sense, i.e., deep learning models)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Mixed systems require examining both algorithmic output and human-algorithm interaction",
+      "excerpt": "we necessarily speak of two levels: the AI algorithmic output, recommendation, or decision ... and the subsequent interaction between the algorithmic output and the human decision-maker",
+      "page": "4",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Accountability requires unpacking algorithmic processes and human-algorithm interaction",
+      "excerpt": "to be open to meaningful interrogation, explanation, and justification requires unpacking both algorithmic processes and the human–algorithm interaction",
+      "page": "4",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Oversight and account-giving duties are central governance concerns",
+      "excerpt": "This will become critical to administrators’ ability to maintain oversight of system functioning as well as to their ability to discharge their account-giving duties to citizens for algorithmic decision-making",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Peer-reviewed journal article identity confirmed",
+      "excerpt": "Public Administration Review, Vol. 81, Iss. 5, pp. 825–836. © 2020 The Authors.",
+      "page": "1",
+      "section": "limitations",
+      "supports": "appraisal"
+    }
+  ]
+}

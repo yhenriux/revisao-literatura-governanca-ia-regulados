@@ -1,0 +1,194 @@
+{
+  "bibliographic": {
+    "title": "Chatbots: Security, privacy, data protection, and social aspects",
+    "authors": "Martin Hasal; Jana Nowaková; Khalifa Ahmed Saghair; Hussam Abdulla; Václav Snášel; Lidia Ogiela",
+    "year": "2021",
+    "venue": "Concurrency and Computation: Practice and Experience",
+    "doi": "10.1002/cpe.6426",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Hasal, M., Nowaková, J., Saghair, K. A., Abdulla, H., Snášel, V., & Ogiela, L. (2021). Chatbots: Security, privacy, data protection, and social aspects. Concurrency and Computation: Practice and Experience. https://doi.org/10.1002/cpe.6426"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "comprehensive narrative study",
+    "study_design": "comprehensive study of security aspects in chatbot communication",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "shopping, banking, healthcare, meal delivery, automotive, social/messaging platforms",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "rule-based and ML/NLP chatbots, voice assistants, RNN/Seq2Seq deep learning, AIML, conversational AI"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "conversational_ai",
+      "security_privacy_governance",
+      "regulated_contexts",
+      "human_handoff"
+    ],
+    "exclusion_codes": [
+      "not_llm_specific"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O artigo oferece estudo abrangente de segurança, privacidade, proteção de dados e aspectos sociais de chatbots com ML/NLP, incluindo GDPR, setores regulados e handoff humano, mas o texto fornecido não aborda governança conversacional específica de LLMs nem frameworks operacionais de governança pós-LLM; é evidência de apoio para dimensões de risco, privacidade e compliance em sistemas conversacionais.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Confirmar se o corpo completo contém frameworks de governança, auditoria ou accountability além de segurança/privacidade, e verificar ausência de menção a LLMs."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Objetivo claro de estudo abrangente de aspectos de segurança em chatbots. O trecho fornecido não descreve protocolo sistemático de busca/seleção nem limitações explícitas. Foco tecnológico em NLP/ML/RNN/Seq2Seq pré-LLM."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Coerência razoável entre objetivo de segurança/privacidade em chatbots e discussão de riscos, GDPR e práticas de proteção. Relevância moderada para governança conversacional em LLMs: cobre sistemas conversacionais e compliance de dados, mas sem especificidade LLM nem mecanismos de governança operacional contemporâneos."
+  },
+  "coding": {
+    "open_codes": [
+      "chatbot_security",
+      "data_protection",
+      "GDPR",
+      "personal_data_in_conversations",
+      "human_operator_handoff",
+      "ML_learning_from_conversation",
+      "messaging_platform_terms",
+      "voice_assistants",
+      "deep_learning_seq2seq"
+    ],
+    "axial_codes": [
+      "privacy_and_security_governance",
+      "regulatory_compliance",
+      "conversational_data_risk",
+      "human_oversight_escalation"
+    ],
+    "theme": "Security, privacy and data protection in conversational systems",
+    "subtheme": "Regulatory and social risks of ML-enabled chatbots",
+    "concepts": [
+      "security",
+      "privacy",
+      "data protection",
+      "GDPR",
+      "accountability",
+      "transparency",
+      "human handoff",
+      "machine learning",
+      "natural language processing"
+    ],
+    "model_layers": [
+      "data_layer",
+      "interaction_layer",
+      "compliance_layer",
+      "human_oversight_layer"
+    ],
+    "rq_alignment": [
+      "risk_audit_compliance",
+      "conversational_ai",
+      "regulated_high_stakes",
+      "human_oversight_contestation"
+    ],
+    "coding_confidence": 0.75
+  },
+  "synthesis": {
+    "main_claim": "Chatbots baseados em NLP/ML ampliam riscos de segurança e privacidade nas conversas; o artigo mapeia ameaças, práticas de mitigação e condições de uso de dados pessoais, propondo padrões para proteção do usuário.",
+    "contribution": "Síntese abrangente de aspectos de segurança, privacidade, proteção de dados e dimensões sociais da comunicação usuário-chatbot, com referência a GDPR e setores como bancário e saúde.",
+    "limitations": "Tecnologias discutidas são pré-LLM (RNN, Seq2Seq, NLP clássico); metodologia de revisão não detalhada no texto fornecido; governança conversacional operacional (auditoria, observabilidade, guardrails) não evidenciada.",
+    "use_in_review": "Evidência de apoio para fundamentar riscos de privacidade/segurança, compliance regulatório e supervisão humana em sistemas conversacionais; contextualizar lacunas pré-LLM em relação à governança de LLMs."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo é estudo abrangente de segurança, privacidade e proteção de dados em chatbots",
+      "excerpt": "The paper aims to present a comprehensive study of security aspects in communication with chatbots.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Chatbots modernos usam ML/NLP e aprendem de conversas com dados pessoais",
+      "excerpt": "Modern chatbots are no longer rule-based models, but they employ modern natural language and machine learning techniques. Such techniques learn from a conversation, which can contain personal information.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Há handoff para operadores humanos quando o chatbot excede seu conhecimento",
+      "excerpt": "If, at any point, the conversation crosses its current knowledge, it deflects the conversation or passes it to human operators.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Contextos regulados e setoriais incluem bancário e saúde",
+      "excerpt": "People use chatbots for assistance in shopping, bank communication, meal delivery, healthcare, cars, and many other actions.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Palavras-chave incluem GDPR, segurança e proteção de dados",
+      "excerpt": "KEYWORDS chat, chatbots, data protection, GDPR, security, virtual assistants",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empresas rotulam chatbots com ML como Conversational AI",
+      "excerpt": "Some companies instead of Chatbot use the name 'Conversational AI' or 'AI chatbots' to highlight that their chatbot is powered by machine learning and information retrieval techniques.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Assistentes de voz usam NLP, recuperação de informação e ML",
+      "excerpt": "The primary goal of these companies is to develop voice assistants based on natural language processing (NLP), information retrieval techniques, and machine learning (ML) methods.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Chatbots de deep learning usam Seq2Seq/RNN, não LLMs",
+      "excerpt": "Most of the AI chatbots are based on a Deep Learning leverage sequence to sequence (Seq2Seq) model.",
+      "page": "3",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Exemplo de verificação humana de dados antes de incorporação em base de conhecimento",
+      "excerpt": "the new data are sent to the human manager for verification, and only accepted data are involved in KB.",
+      "page": "3",
+      "section": "discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Artigo propõe padrões para proteção do usuário",
+      "excerpt": "propose some standards to protect the user.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Publicação revisada por pares em periódico",
+      "excerpt": "Received: 15 January 2021 Revised: 30 March 2021 Accepted: 10 May 2021",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

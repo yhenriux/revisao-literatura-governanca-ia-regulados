@@ -1,0 +1,210 @@
+{
+  "bibliographic": {
+    "title": "TRiSM for Agentic AI: A Review of Trust, Risk, and Security Management in LLM-based Agentic Multi-Agent Systems",
+    "authors": "Shaina Raza; Ranjan Sapkota; Manoj Karkee; Christos Emmanouilidis",
+    "year": "2025",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Raza, S., Sapkota, R., Karkee, M., & Emmanouilidis, C. (2025). TRiSM for Agentic AI: A Review of Trust, Risk, and Security Management in LLM-based Agentic Multi-Agent Systems. arXiv preprint arXiv:2506.04133v5."
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "structured literature review",
+    "study_design": "narrative and structured review adapting the AI TRiSM framework to LLM-based Agentic Multi-Agent Systems (AMAS), with bibliometric trend analysis and framework extension",
+    "sample_description": "Literature on agentic AI identified from arXiv and Semantic Scholar; trend data also drawn from the Stanford AI Index Report 2025",
+    "sample_size": "2,300+ papers (Jan 2023-Apr 2025) explicitly mentioning agentic AI",
+    "sector": "enterprise and societal domains",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-based Agentic Multi-Agent Systems (AMAS) with planning, tool use, persistent memory, multi-agent coordination, and user interaction"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_assessment",
+    "inclusion_codes": [
+      "LLM_AGENTIC_SYSTEMS",
+      "AI_GOVERNANCE_FRAMEWORK",
+      "TRUST_RISK_SECURITY_MANAGEMENT",
+      "HUMAN_IN_THE_LOOP",
+      "REGULATORY_COMPLIANCE_CONTEXT"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a 2025 preprint review focused on TRiSM for LLM-based agentic multi-agent systems, directly addressing AI governance, trust, risk, security, explainability, accountability, privacy, audit logging, and human-in-the-loop. It is highly relevant to governance of LLM-based systems in regulated contexts, but the provided text emphasizes agentic multi-agent architecture and TRiSM pillars rather than conversational governance, chatbots, or dialogue-specific oversight mechanisms. It is therefore best treated as supporting rather than central evidence for a review on conversational governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and scattered excerpts were provided; full review methodology, search strategy, inclusion criteria, and sections on conversational interaction, observability, and regulated-domain case evidence require manual verification before final classification."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "The objective and proposed outputs are clearly stated: adapt TRiSM for AMAS, propose a risk taxonomy, and introduce CSS and TUE metrics. Bibliometric scope is quantified (2,300+ papers), but the provided excerpts do not show a full systematic search protocol, screening workflow, or explicit limitations section. Appraisal is therefore conservative and based only on visible signals."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The review presents a coherent TRiSM adaptation for agentic LLM systems and clearly links governance obligations to deployment challenges. Relevance to LLM governance, risk, security, and accountability is strong. Confidence is moderated because the supplied text does not fully document review methods, sampling rigor, or study limitations."
+  },
+  "coding": {
+    "open_codes": [
+      "agentic_multi_agent_systems",
+      "trism_framework",
+      "ai_governance",
+      "risk_taxonomy",
+      "explainability",
+      "modelops",
+      "application_security",
+      "model_privacy",
+      "lifecycle_governance",
+      "human_in_the_loop",
+      "audit_logging",
+      "regulatory_compliance",
+      "component_synergy_score",
+      "tool_utilization_efficacy"
+    ],
+    "axial_codes": [
+      "trust_risk_security_management",
+      "responsible_agentic_ai_deployment",
+      "governance_and_accountability_mechanisms",
+      "operational_measurement_of_agent_coordination"
+    ],
+    "theme": "Trust, risk, and security governance for LLM-based agentic multi-agent systems",
+    "subtheme": "Adaptation of TRiSM pillars to agentic architectures, with risk taxonomy and coordination metrics",
+    "concepts": [
+      "Agentic AI",
+      "Agentic Multi-Agent Systems",
+      "TRiSM",
+      "Explainability",
+      "ModelOps",
+      "Security",
+      "Privacy",
+      "Lifecycle Governance",
+      "Human-in-the-Loop",
+      "Accountability",
+      "Adversarial Robustness"
+    ],
+    "model_layers": [
+      "policy_and_regulatory_layer",
+      "governance_framework_layer",
+      "risk_and_security_layer",
+      "explainability_and_transparency_layer",
+      "operational_modelops_layer",
+      "multi_agent_coordination_layer"
+    ],
+    "rq_alignment": [
+      "governance of generative AI and LLM-based systems",
+      "risk management and security controls",
+      "accountability and trustworthy operation",
+      "human oversight in autonomous agent systems",
+      "compliance in regulated AI deployment"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "LLM-based agentic multi-agent systems require an adapted TRiSM framework spanning explainability, ModelOps, security, privacy, and lifecycle governance, supported by a dedicated risk taxonomy and measurable coordination metrics.",
+    "contribution": "Extends AI TRiSM to Agentic Multi-Agent Systems, proposes a risk taxonomy for agentic threats, introduces Component Synergy Score and Tool Utilization Efficacy metrics, and outlines a research roadmap for responsible agentic AI deployment.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence for governance frameworks, risk taxonomies, security/privacy controls, audit logging, human-in-the-loop oversight, and regulatory alignment in LLM-based agentic systems; not as primary evidence for conversational-governance-specific mechanisms unless later sections explicitly address dialogue oversight."
+  },
+  "evidence": [
+    {
+      "claim": "The study is a review of TRiSM in LLM-based agentic multi-agent systems.",
+      "excerpt": "This review presents a structured analysis of Trust, Risk, and Security Management (TRiSM) in the context of LLM-based Agentic Multi-Agent Systems (AMAS).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The work adapts TRiSM around explainability, ModelOps, security, privacy, and lifecycle governance.",
+      "excerpt": "We then adapt and extend the AI TRiSM framework for Agentic AI, structured around key pillars: Explainability, ModelOps, Security, Privacy and their Lifecycle Governance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "The review targets safety, transparency, and accountability in agentic AI operation.",
+      "excerpt": "highlighting key directions to align emerging systems with TRiSM principles-ensuring safety, transparency, and accountability in their operation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human-in-the-loop is an explicit keyword and governance theme.",
+      "excerpt": "Keywords: Agentic AI, LLM-based Multi-Agent Systems, TRiSM, AI Governance, Explainability, ModelOps, Application Security, Model Privacy, AI Agents, Trustworthy AI, Risk Management, AI Safety, Privacy-Preserving AI, Adversarial Robustness, Human-in-the-Loop",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "The article situates AI governance within regulatory obligation, including the EU AI Act.",
+      "excerpt": "AI governance has moved from aspiration to obligation. The EU Artificial Intelligence Act [1] entered into force on 1 August 2024",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The review defines AMAS as LLM-based coordinating agent systems interacting with tools, users, and other agents.",
+      "excerpt": "In this paper, we refer to such LLM-based, coordinating agent systems as Agentic Multi-Agent Systems (AMAS). These systems orchestrate multiple specialized agents to address complex tasks, coordinate functions and roles, and adapt workflows through interactions with tools, users, and other agen",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Bibliometric sampling scope is quantified using arXiv and Semantic Scholar.",
+      "excerpt": "arXiv & Semantic Scholar databases 2,300+ papers (Jan 2023-Apr 2025) explicitly mentioning \"agentic AI\"",
+      "page": "2",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "The review proposes a risk taxonomy and two operational metrics.",
+      "excerpt": "A risk taxonomy is proposed to capture the unique threats and vulnerabilities of Agentic AI",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "CSS and TUE are proposed to measure coordination and tool use.",
+      "excerpt": "we propose two metrics: the Component Synergy Score (CSS), which captures inter-agent enablement, and the Tool Utilization Efficacy (TUE), which evaluates whether tools are invoked correctly and efficiently.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Security and privacy controls include encryption, adversarial robustness, and regulatory compliance.",
+      "excerpt": "approaches to enhancing security and privacy through encryption, adversarial robustness, and regulatory compliance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Audit logging is presented as an accountability mechanism in shared agent/tool data contexts.",
+      "excerpt": "storage and retrieval require strong access control, encryption, and audit logging to reduce leakage and support accountability [57].",
+      "page": "10",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Publication is an arXiv preprint dated December 2025.",
+      "excerpt": "arXiv:2506.04133v5 [cs.AI] 18 Dec 2025",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

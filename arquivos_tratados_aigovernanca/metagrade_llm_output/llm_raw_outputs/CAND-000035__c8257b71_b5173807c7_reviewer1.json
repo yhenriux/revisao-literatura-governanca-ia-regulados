@@ -1,0 +1,169 @@
+{
+  "bibliographic": {
+    "title": "Large Language Model Company Policies and Policy Implications in Software Organizations",
+    "authors": "Ranim Khojah; Mazen Mohamad; Linda Erlenhov; Francisco Gomes de Oliveira Neto; Philipp Leitner",
+    "year": "2025",
+    "venue": "IEEE Software",
+    "doi": "10.1109/MS.2025.3622039",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Khojah, R., Mohamad, M., Erlenhov, L., Gomes de Oliveira Neto, F., & Leitner, P. (2025). Large Language Model Company Policies and Policy Implications in Software Organizations. IEEE Software. https://doi.org/10.1109/MS.2025.3622039"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "qualitative interviews",
+    "study_design": "interview study with management practitioners from software organizations about LLM policies",
+    "sample_description": "practitioners in management roles from 11 software organizations across four countries in Europe and Asia",
+    "sample_size": "11 companies",
+    "sector": "software development organizations",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language model chatbots integrated into software development workflows via chat-based interfaces and external APIs"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_CHATBOT",
+      "GOVERNANCE_POLICY",
+      "ACCOUNTABILITY_RISK",
+      "ORGANIZATIONAL_ADOPTION"
+    ],
+    "exclusion_codes": [
+      "WEAK_REGULATED_DOMAIN_FIT"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses governance of LLM chatbots through organizational company policies, accountability, security, privacy, legal risk, and trust in software organizations. However, the provided text focuses on software engineering organizational policy rather than conversational governance in explicitly regulated high-stakes domains such as health, finance, or public sector, limiting fit as central evidence for the review scope.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and introductory pages were provided; full methodology, findings, policy taxonomy, and limitations sections are not available in the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 1,
+    "results_clarity": 1,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Objective and study design are clearly stated in the introduction, with 11 organizations across four countries. Appraisal of analysis rigor, ethics, results, and limitations is constrained because only pages 1-2 were supplied and the referenced 'Data Collection and Methodology' section is not included."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The study appears coherent and adequately scoped for examining how software organizations create LLM policies, but methodological detail, findings, and limitations are not visible in the excerpt. Relevance to the review is moderate because governance themes are present, yet the regulated-domain and end-user conversational governance focus is only partial."
+  },
+  "coding": {
+    "open_codes": [
+      "company policies",
+      "LLM chatbot adoption",
+      "bottom-up grassroots adoption",
+      "accountability of generated content",
+      "security and privacy risks",
+      "chat-based interface familiarity",
+      "policy constraints on LLM use",
+      "legal liability"
+    ],
+    "axial_codes": [
+      "organizational governance",
+      "risk mitigation through policy",
+      "developer-facing LLM integration",
+      "trust and compliance concerns"
+    ],
+    "theme": "Organizational policy governance for LLM chatbot adoption",
+    "subtheme": "Factors influencing company policy creation for safe chatbot integration in software development",
+    "concepts": [
+      "policies",
+      "accountability",
+      "trust",
+      "security",
+      "privacy",
+      "legal repercussions",
+      "chatbots",
+      "large language models"
+    ],
+    "model_layers": [
+      "organizational governance",
+      "policy layer",
+      "human oversight via management roles"
+    ],
+    "rq_alignment": [
+      "governance mechanisms for LLM chatbots",
+      "risk and compliance in LLM adoption",
+      "accountability and trust in conversational LLM interfaces"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "Adopting large language model chatbots in software organizations creates risks related to accountability, security, privacy, legal liability, and trust, making clear organizational policies urgent and necessary; the authors examine how 11 companies create these policies and what factors influence them.",
+    "contribution": "Empirical qualitative evidence on how software organizations formulate and implement LLM company policies to safely integrate chatbots into development workflows.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence on organizational governance and policy-based control of LLM chatbot use, especially regarding accountability, privacy, security, and legal risk; not sufficient as central evidence for regulated-domain conversational governance without full-text confirmation of broader applicability."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on LLM chatbot governance through company policies in software organizations",
+      "excerpt": "The risks associated with adopting large language model chatbots in software organizations highlight the need for clear policies.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical sample comprises 11 software organizations interviewed about LLM policy",
+      "excerpt": "we interviewed practitioners in management roles from 11 software organizations across four countries in Europe and Asia about their LLM policy",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM integration raises accountability and reliability concerns",
+      "excerpt": "Integrating LLMs into software development raises challenges related to the quality and ownership of generated content, which complicates accountability and can affect product reliability.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Chat-based LLM interfaces amplify security, privacy, and trust risks",
+      "excerpt": "developers use chat-based interfaces, which may create a false sense of humanlike familiarity that obscures security and privacy concerns, ultimately impacting trust.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Organizations respond to LLM risks with rejection or policy constraints",
+      "excerpt": "These concerns lead companies to either reject LLM adoption in development or implement policies to constrain LLM use.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Legal and data-transmission risks are associated with LLM use via APIs",
+      "excerpt": "interactions with LLMs (e.g., through external application programming interfaces) may expose organizations to liability if developers unintentionally transmit sensitive data, resulting in legal repercussions.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Methodology section exists but was not included in the provided excerpt",
+      "excerpt": "see \"Data Collection and Methodology\"",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Adoption of LLMs in organizations is often bottom-up through developer experimentation with chatbots",
+      "excerpt": "the push toward LLMs has been bottom up rather than top down, in the form of a grassroots movement of developers experimenting with LLMs and chatbots",
+      "page": "2",
+      "section": "Why LLM Policies Are Needed",
+      "supports": "synthesis"
+    }
+  ]
+}

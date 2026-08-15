@@ -1,0 +1,203 @@
+{
+  "bibliographic": {
+    "title": "On the Quest for Effectiveness in Human Oversight: Interdisciplinary Perspectives",
+    "authors": "Sarah Sterz; Kevin Baum; Sebastian Biewer; Holger Hermanns; Anne Lauber-Rönsberg; Philip Meinel; Markus Langer",
+    "year": "2024",
+    "venue": "ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT '24)",
+    "doi": "10.1145/3630106.3659051",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Sterz, S., Baum, K., Biewer, S., Hermanns, H., Lauber-Rönsberg, A., Meinel, P., & Langer, M. (2024). On the quest for effectiveness in human oversight: Interdisciplinary perspectives. In Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (FAccT '24), June 3–6, 2024, Rio de Janeiro, Brazil. ACM. https://doi.org/10.1145/3630106.3659051"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "interdisciplinary conceptual synthesis and regulatory analysis",
+    "study_design": "theoretical framework development with analysis of EU AI Act Article 14",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "high-risk AI applications; regulatory policy",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "high-risk AI systems; EU AI Act human oversight provisions; technical design features including interface/interaction design and runtime monitoring"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "human_oversight",
+      "governance_accountability",
+      "regulated_high_stakes",
+      "risk_mitigation",
+      "regulatory_compliance"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper provides a structured interdisciplinary framework for effective human oversight and analyzes EU AI Act Article 14, directly relevant to governance and accountability in regulated high-risk AI. It does not specifically address LLMs or conversational systems in the provided text, so it is better classified as supporting rather than central evidence for a review focused on conversational governance in LLM-based systems.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python metadata incorrectly extracted title/authors; confirm whether full text discusses conversational AI, LLMs, or deployment contexts beyond the excerpt provided."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Conceptual interdisciplinary paper with clear normative framework and regulatory application; no empirical sample or data collection described in provided excerpts. Peer review acknowledged. Full-text limitations section not visible in supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and clearly articulated, with moderate relevance to conversational LLM governance because it addresses human oversight generically in high-risk AI rather than conversational or LLM-specific systems. Adequacy is moderate given the conceptual nature and limited visibility of full argumentative support in the excerpt."
+  },
+  "coding": {
+    "open_codes": [
+      "human oversight",
+      "effectiveness conditions",
+      "risk mitigation",
+      "causal power",
+      "epistemic access",
+      "self-control",
+      "fitting intentions",
+      "moral responsibility",
+      "facilitators and inhibitors",
+      "technical design features",
+      "EU AI Act Article 14"
+    ],
+    "axial_codes": [
+      "human-in-the-loop governance",
+      "regulatory compliance",
+      "accountability",
+      "technical system design",
+      "oversight person factors",
+      "environmental circumstances"
+    ],
+    "theme": "Conditions and enablers of effective human oversight in high-risk AI",
+    "subtheme": "Alignment between conceptual oversight effectiveness and EU AI Act requirements",
+    "concepts": [
+      "effective human oversight",
+      "meaningful human oversight",
+      "intervention options",
+      "runtime monitoring",
+      "interface and interaction design"
+    ],
+    "model_layers": [
+      "oversight person",
+      "technical design of the system",
+      "individual factors of oversight persons",
+      "environmental circumstances",
+      "regulatory framework"
+    ],
+    "rq_alignment": [
+      "human oversight",
+      "accountability",
+      "risk management",
+      "compliance",
+      "supervisão humana",
+      "mitigação de risco"
+    ],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "Effective human oversight of high-risk AI requires the oversight person to have sufficient causal power, suitable epistemic access, self-control, and fitting intentions; this is argued to be equivalent to being morally responsible with fitting intentions, with the main objective of oversight being risk mitigation.",
+    "contribution": "Proposes an interdisciplinary understanding of effective human oversight integrating psychological, legal, philosophical, and technical perspectives; identifies facilitators and inhibitors across technical design, individual, and environmental domains; and scrutinizes EU AI Act Article 14 as an exemplary regulatory framework.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting conceptual and regulatory evidence on what makes human oversight effective in high-risk AI, including design factors such as intervention options, interface/interaction design, and runtime monitoring. Inform governance discussions on oversight, accountability, and compliance even where LLM or conversational specificity is not explicit."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on effective human oversight as safeguard for high-risk AI",
+      "excerpt": "Human oversight is currently discussed as a potential safeguard to counter some of the negative aspects of high-risk AI applications.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Main objective of human oversight is risk mitigation",
+      "excerpt": "Based on the claim that the main objective of human oversight is risk mitigation, we propose a viable understanding of effectiveness in human oversight",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Four conditions for effective human oversight",
+      "excerpt": "for human oversight to be effective, the oversight person has to have (a) sufficient causal power with regard to the system and its effects, (b) suitable epistemic access to relevant aspects of the situation, (c) self-control, and (d) fitting intentions for their role.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Effectiveness linked to moral responsibility",
+      "excerpt": "an oversight person is effective if and only if they are morally responsible and have fitting intentions.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Interdisciplinary method combining psychology, law, philosophy, and technical domains",
+      "excerpt": "This paper investigates effective human oversight by synthesizing insights from psychological, legal, philosophical, and technical domains.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Facilitators and inhibitors discussed across three domains",
+      "excerpt": "We discuss factors in three domains, namely, the technical design of the system, individual factors of oversight persons, and the environmental circumstances in which they operate.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "EU AI Act Article 14 analyzed as regulatory exemplar",
+      "excerpt": "this paper scrutinizes the upcoming AI Act of the European Union – in particular Article 14 on Human Oversight – as an exemplary regulatory framework",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Technical design includes interface/interaction and monitoring",
+      "excerpt": "This list could also include aspects such as interface and interaction design [60], runtime monitoring systems [8], fault tolerance [44], or automated anomaly detection systems [57].",
+      "page": "6",
+      "section": "4.1 Technical design features",
+      "supports": "coding"
+    },
+    {
+      "claim": "Intervention options needed for causal power",
+      "excerpt": "Intervention options. For an oversight person to have causal power over the system, there must be options that allow the oversight person to in",
+      "page": "6",
+      "section": "4.1 Technical design features",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Peer-reviewed conference publication",
+      "excerpt": "Also, we want to thank three anonymous reviewers for their valuable feedback.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Keywords indicate governance and high-risk AI focus",
+      "excerpt": "KEYWORDS Human Oversight, AI Act, High-Risk AI, Law, Psychology",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No explicit LLM or conversational system focus in provided text",
+      "excerpt": "Philosophical/theoretical foundations of artificial intelligence",
+      "page": "1",
+      "section": "CCS CONCEPTS",
+      "supports": "eligibility"
+    }
+  ]
+}

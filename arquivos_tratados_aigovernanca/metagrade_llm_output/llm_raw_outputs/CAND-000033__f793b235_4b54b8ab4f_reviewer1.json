@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "From COBIT to ISO 42001: Evaluating Cybersecurity Frameworks for Opportunities, Risks, and Regulatory Compliance in Commercializing Large Language Models",
+    "authors": "Timothy R. McIntosh, Teo Susnjak, Tong Liu, Paul Watters, Raza Nowrozy, Malka N. Halgamuge",
+    "year": "unclear",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "McIntosh, T. R., Susnjak, T., Liu, T., Watters, P., Nowrozy, R., & Halgamuge, M. N. (unclear). From COBIT to ISO 42001: Evaluating cybersecurity frameworks for opportunities, risks, and regulatory compliance in commercializing large language models. unclear."
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "qualitative content analysis with expert validation and comparative gap analysis",
+    "study_design": "comparative evaluation of four cybersecurity GRC frameworks using qualitative content analysis, expert validation, and human-LLM assisted analysis",
+    "sample_description": "Four cybersecurity Governance, Risk and Compliance frameworks (NIST CSF 2.0, COBIT 2019, ISO 27001:2022, ISO 42001:2023); analysis pipeline integrated OpenAI ChatGPT-4 and Anthropic Claude AI with human experts",
+    "sample_size": "4 frameworks; number of human experts unclear",
+    "sector": "diverse organizational sectors",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Large Language Models, cybersecurity GRC frameworks, NLP-assisted qualitative analysis, EU AI Act alignment assessment"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GOVERNANCE",
+      "RISK_COMPLIANCE",
+      "REGULATORY_ALIGNMENT",
+      "HUMAN_OVERSIGHT"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study directly addresses AI governance, LLM risk oversight, regulatory compliance, and human-expert-in-the-loop validation across major GRC frameworks, but the provided text contains no evidence of conversational systems, chatbots, agents, or conversational governance mechanisms.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial methodology text were provided; conversational relevance is absent in supplied excerpts and full-text sections on methods, results, and limitations were not available."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Appraisal based on abstract and limited methodology excerpt only. Objective and comparative design are clearly stated; iterative human-LLM consensus and cross-validation are described on page 6, but ethics, limitations, and full analytical procedures are not evidenced in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are internally coherent and methodologically plausible for framework comparison, but supplied text is incomplete and the work does not address conversational governance, reducing direct relevance to the review's central focus."
+  },
+  "coding": {
+    "open_codes": [
+      "GRC framework integration readiness",
+      "LLM risk oversight gaps",
+      "comparative gap analysis",
+      "human-expert-in-the-loop validation",
+      "EU AI Act alignment",
+      "continuous framework evolution"
+    ],
+    "axial_codes": [
+      "AI governance",
+      "risk management",
+      "regulatory compliance",
+      "human oversight in analysis"
+    ],
+    "theme": "Evaluation of cybersecurity GRC frameworks for secure and compliant LLM integration",
+    "subtheme": "Framework gap analysis and human-LLM assisted validation",
+    "concepts": [
+      "NIST CSF 2.0",
+      "COBIT 2019",
+      "ISO 27001:2022",
+      "ISO 42001:2023",
+      "EU AI Act",
+      "human-expert-in-the-loop",
+      "ChatGPT-4",
+      "Claude AI"
+    ],
+    "model_layers": [
+      "governance",
+      "risk",
+      "compliance",
+      "oversight"
+    ],
+    "rq_alignment": [
+      "AI governance for LLMs",
+      "risk and regulatory compliance in regulated contexts",
+      "human oversight in validation processes"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Four predominant cybersecurity GRC frameworks show potential for LLM integration but inadequacies in LLM risk oversight; ISO 42001:2023 provides the most comprehensive facilitation for LLM opportunities, while COBIT 2019 aligns most closely with the EU AI Act, and all frameworks require enhancement for multifaceted LLM risks.",
+    "contribution": "Comparative gap analysis of NIST CSF 2.0, COBIT 2019, ISO 27001:2022, and ISO 42001:2023 for LLM commercialization opportunities, risks, and regulatory compliance, using qualitative content analysis with human and LLM validation.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence for AI governance, GRC framework mapping, LLM risk oversight gaps, regulatory compliance alignment, and human-expert-in-the-loop validation; not suitable as central evidence for conversational governance because no conversational AI context is evidenced in the supplied text."
+  },
+  "evidence": [
+    {
+      "claim": "Study evaluates four GRC frameworks for LLM adoption using qualitative content analysis and expert validation",
+      "excerpt": "for the opportunities, risks, and regulatory compliance when adopting Large Language Models (LLMs), using qualitative content analysis and expert validation",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Analysis combined LLMs and human experts in the loop",
+      "excerpt": "Our analysis, with both LLMs and human experts in the loop, uncovered potential for LLM integration together with inadequacies in LLM risk oversight of those frameworks",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "ISO 42001:2023 is most comprehensive for LLM opportunities; COBIT 2019 aligns most with EU AI Act",
+      "excerpt": "ISO 42001:2023, specifically designed for Artificial Intelligence (AI) management systems, provided most comprehensive facilitation for LLM opportunities, whereas COBIT 2019 aligned most closely with the impending European Union AI Act",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "All frameworks need enhancement for LLM risks",
+      "excerpt": "all evaluated frameworks would benefit from enhancements to more effectively and more comprehensively address the multifaceted risks associated with LLMs",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human-expert-in-the-loop validation proposed as crucial",
+      "excerpt": "We propose integrating human-expert-in-the-loop validation processes as crucial for enhancing cybersecurity frameworks to support secure and compliant LLM integration",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Specific LLMs used in analysis pipeline",
+      "excerpt": "we integrated OpenAI's ChatGPT-4 and Anthropic's Claude AI into our analysis pipeline",
+      "page": "6",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Iterative human-LLM consensus with cross-validation described",
+      "excerpt": "Our iterative process of human-LLM consensus served to balance the depth of human judgment with the breadth of the NLP analysis by LLM",
+      "page": "6",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Frameworks serve diverse organizational sectors",
+      "excerpt": "Cybersecurity frameworks, such as the National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF), Control Objectives for Information and Related Technology (COBIT), and International Organization for Standardization (ISO) 27001 and 42001, are indispensable templates for diverse organizational sectors",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational AI or chatbot focus in supplied text",
+      "excerpt": "Keywords: cybersecurity frameworks, large language models, risk management, AI governance, NIST CSF, COBIT, ISO 27001, ISO 42001",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulatory compliance is an explicit study focus",
+      "excerpt": "Evaluating Cybersecurity Frameworks for Opportunities, Risks, and Regulatory Compliance in Commercializing Large Language Models",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    }
+  ]
+}

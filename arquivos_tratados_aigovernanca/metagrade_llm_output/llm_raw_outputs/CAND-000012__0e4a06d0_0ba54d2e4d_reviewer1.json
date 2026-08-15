@@ -1,0 +1,197 @@
+{
+  "bibliographic": {
+    "title": "So what if ChatGPT wrote it? Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
+    "authors": "Yogesh K. Dwivedi, Nir Kshetri, Laurie Hughes, Emma Louise Slade, Anand Jeyaraj, Arpan Kumar Kar, Abdullah M. Baabdullah, Alex Koohang, Vishnupriya Raghavan, Manju Ahuja, Hanaa Albanna, Mousa Ahmad Albashrawi, Adil S. Al-Busaidi, Janarthanan Balakrishnan, Yves Barlette, Sriparna Basu, Indranil Bose, Laurence Brooks, Dimitrios Buhalis, Lemuria Carter, Soumyadeb Chowdhury, Tom Crick, Scott W. Cunningham, Gareth H. Davies, Robert M. Davison, Rahul Dé, Denis Dennehy, Yanqing Duan, Rameshwar Dubey, Rohita Dwivedi, John S. Edwards, Carlos Flavián, Robin Gauld, Varun Grover, Mei-Chih Hu, Marijn Janssen, Paul Jones, Iris Junglas, Sangeeta Khorana, Sascha Kraus, Kai R. Larsen, Paul Latreille, Sven Laumer, F. Tegwen Malik, Abbas Mardani, Marcello Mariani, Sunil Mithas, Emmanuel Mogaji, Jeretta Horn Nord, Siobhan O'Connor, Fevzi Okumus, Margherita Pagani, Neeraj Pandey, Savvas Papagiannidis, Ilias O. Pappas, Nishith Pathak, Jan Pries-Heje, Ramakrishnan Raman, Nripendra P. Rana, Sven-Volker Rehm, Samuel Ribeiro-Navarrete, Alexander Richter, Frantz Rowe, Suprateek Sarker, Bernd Carsten Stahl, Manoj Kumar Tiwari, Wil van der Aalst, Viswanath Venkatesh, Giampaolo Viglia, Michael Wade, Paul Walton, Jochen Wirtz, Ryan Wright",
+    "year": "2023",
+    "venue": "International Journal of Information Management",
+    "doi": "10.1016/j.ijinfomgt.2023.102642",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Dwivedi, Y. K., Kshetri, N., Hughes, L., Slade, E. L., Jeyaraj, A., Kar, A. K., Baabdullah, A. M., Koohang, A., Raghavan, V., Ahuja, M., Albanna, H., Albashrawi, M. A., Al-Busaidi, A. S., Balakrishnan, J., Barlette, Y., Basu, S., Bose, I., Brooks, L., Buhalis, D., Carter, L., Chowdhury, S., Crick, T., Cunningham, S. W., Davies, G. H., Davison, R. M., Dé, R., Dennehy, D., Duan, Y., Dubey, R., Dwivedi, R., Edwards, J. S., Flavián, C., Gauld, R., Grover, V., Hu, M.-C., Janssen, M., Jones, P., Junglas, I., Khorana, S., Kraus, S., Larsen, K. R., Latreille, P., Laumer, S., Malik, F. T., Mardani, A., Mariani, M., Mithas, S., Mogaji, E., Nord, J. H., O'Connor, S., Okumus, F., Pagani, M., Pandey, N., Papagiannidis, S., Pappas, I. O., Pathak, N., Pries-Heje, J., Raman, R., Rana, N. P., Rehm, S.-V., Ribeiro-Navarrete, S., Richter, A., Rowe, F., Sarker, S., Stahl, B. C., Tiwari, M. K., van der Aalst, W., Venkatesh, V., Viglia, G., Wade, M., Walton, P., Wirtz, J., & Wright, R. (2023). So what if ChatGPT wrote it? Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy. International Journal of Information Management, 71, 102642. https://doi.org/10.1016/j.ijinfomgt.2023.102642"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "editorial opinion paper with multidisciplinary expert contributions",
+    "study_design": "opinion paper compiling 43 expert contributions",
+    "sample_description": "43 contributions from experts in fields such as computer science, marketing, information systems, education, policy, hospitality and tourism, management, publishing, and nursing",
+    "sample_size": "43",
+    "sector": "education, business, society, policy, hospitality and tourism, management, publishing, nursing",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "generative conversational AI, ChatGPT, large language models, conversational agents"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "generative_conversational_ai",
+      "governance_ethics_policy",
+      "multidisciplinary_expert_perspectives"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed editorial opinion paper focused on generative conversational AI including ChatGPT and LLMs, with explicit coverage of ethics, transparency, bias, legal issues, and human-generative AI combinations. It is relevant to governance themes but provides subjective expert viewpoints rather than empirical or operational governance evidence for regulated deployments, so it is best treated as foundational contextual material.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and abstract excerpts were provided; full 43-contribution structure and governance-specific sections were not available for complete appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 2,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 4,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "The paper explicitly identifies itself as a subjective editorial opinion piece and aims to offer initial guidance rather than test governance mechanisms. Contributor selection and synthesis procedures are not described in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 4,
+    "overall_confidence": "low",
+    "explanation": "Relevance to generative conversational AI governance themes is high, but confidence in substantive claims is low because the study is an opinion compilation without reported systematic methods, empirical data, or operational governance implementation details in the provided excerpts."
+  },
+  "coding": {
+    "open_codes": [
+      "editorial_opinion",
+      "expert_commentary",
+      "generative_ai_opportunities",
+      "ethical_legal_challenges",
+      "transparency",
+      "bias",
+      "human_ai_combination",
+      "research_agenda"
+    ],
+    "axial_codes": [
+      "governance_and_ethics",
+      "policy_implications",
+      "organizational_and_societal_impact",
+      "future_research_needs"
+    ],
+    "theme": "Multidisciplinary implications of generative conversational AI",
+    "subtheme": "Ethics, transparency, and human-AI governance considerations",
+    "concepts": [
+      "generative conversational AI",
+      "ChatGPT",
+      "large language models",
+      "transparency",
+      "ethics",
+      "bias",
+      "human-generative AI combination",
+      "ethical and legal issues",
+      "accuracy assessment"
+    ],
+    "model_layers": [
+      "policy",
+      "organizational",
+      "ethical",
+      "societal"
+    ],
+    "rq_alignment": [
+      "governance_accountability",
+      "human_oversight_contestation",
+      "risk_audit_compliance",
+      "regulated_high_stakes_contexts"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Generative conversational AI tools such as ChatGPT present wide-ranging opportunities along with ethical and legal challenges across education, business, and society, and multidisciplinary expert perspectives can provide initial guidance on implications for research, practice, and policy.",
+    "contribution": "Aggregates 43 expert viewpoints to frame opportunities, challenges, and research avenues around knowledge, transparency, ethics, digital transformation, and teaching and research, including bias, human-generative AI task allocation, accuracy assessment, and legal-ethical issues.",
+    "limitations": "Subjective editorial opinion piece without reported systematic review or empirical validation; governance mechanisms such as guardrails, observability, audit logs, or regulated operational controls are not evidenced in the provided text.",
+    "use_in_review": "Use as foundational contextual evidence to map early multidisciplinary concerns and research gaps on generative conversational AI governance, not as central empirical evidence for operational governance in regulated LLM deployments."
+  },
+  "evidence": [
+    {
+      "claim": "Publication is an editorial opinion paper on generative conversational AI including ChatGPT.",
+      "excerpt": "Opinion Paper: \"So what if ChatGPT wrote it?\" Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The paper is explicitly subjective and aims to provide initial guidance.",
+      "excerpt": "This editorial opinion paper provides a subjective viewpoint on the potential impact of generative AI technologies such as ChatGPT",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Technology focus includes ChatGPT, generative AI, conversational agents, and large language models.",
+      "excerpt": "Keywords: Conversational agent Generative artificial intelligence Generative AI ChatGPT Large language models",
+      "page": "2",
+      "section": "article info",
+      "supports": "coding"
+    },
+    {
+      "claim": "The paper addresses ethical and legal challenges of generative text tools.",
+      "excerpt": "The technology presents opportunities as well as, often ethical and legal, challenges",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "The study compiles 43 expert contributions across multiple domains.",
+      "excerpt": "this article brings together 43 contributions from experts in fields such as computer science, marketing, information systems, education, policy, hospitality and tourism, management, publishing, and nursing",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Domains addressed include education, business, and society.",
+      "excerpt": "potential impact of generative AI technologies such as ChatGPT in the domains of education, business, and society",
+      "page": "1",
+      "section": "front matter",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Thematic areas include knowledge, transparency, and ethics.",
+      "excerpt": "matic areas: knowledge, transparency, and ethics; digital transformation of organisations and societies; and teaching, learning, and scholarly research",
+      "page": "3",
+      "section": "limitations",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Future research includes examining biases and optimal human-generative AI combinations.",
+      "excerpt": "examining biases of generative AI attributable to training datasets and processes",
+      "page": "3",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "Future research includes determining optimal combinations of human and generative AI.",
+      "excerpt": "determining optimal combinations of human and generative AI for various tasks",
+      "page": "3",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "Future research includes ethical and legal issues across contexts.",
+      "excerpt": "uncovering the ethical and legal issues in using generative AI across different contexts",
+      "page": "3",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "The authors acknowledge the subjective editorial nature of the piece.",
+      "excerpt": "given its nature as an editorial opinion piece, this",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Peer-reviewed journal publication with DOI.",
+      "excerpt": "International Journal of Information Management 71 (2023) 102642",
+      "page": "1",
+      "section": "front matter",
+      "supports": "bibliographic"
+    }
+  ]
+}

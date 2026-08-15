@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Large Language Models in Healthcare Management: Implementation Evidence, Governance Architecture, and Strategic Pathways",
+    "authors": "Ran Zhang, Saibing Wang",
+    "year": "2026",
+    "venue": "Academic Journal of Management and Social Sciences",
+    "doi": "unclear",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Zhang, R., & Wang, S. (2026). Large language models in healthcare management: Implementation evidence, governance architecture, and strategic pathways. Academic Journal of Management and Social Sciences, 14(3), 129."
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "literature review",
+    "study_design": "review synthesizing implementation evidence across five LLM domains in healthcare management",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare management",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLMs for healthcare management across model adaptation, knowledge retrieval and question answering, document intelligence, operations and decision support, and governance and safety"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_HEALTHCARE",
+      "GOVERNANCE_SAFETY",
+      "REGULATED_DOMAIN",
+      "HUMAN_OVERSIGHT"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a healthcare-focused LLM implementation review with an explicit governance-and-safety domain, institutional accountability, human oversight, auditable logs, and regulated-context risks. Provided text does not establish conversational governance as the central object of study; relevance to the review is primarily through broader LLM governance architecture in a regulated healthcare setting.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and page 1 are available; review search strategy, inclusion criteria, and methods section are not shown, and bibliographic metadata extraction appears corrupted."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 1,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 0,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 0,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Objectives and scope are clearly stated in the abstract and introduction, but the provided excerpt does not include search protocol, screening procedures, quality appraisal, or limitations. Appraisal of review rigor remains largely indeterminate from available text."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The governance framing is coherent and relevant to regulated LLM deployment, but confidence in methodological adequacy is limited because methods, corpus size, and synthesis procedures are not evidenced in the supplied pages."
+  },
+  "coding": {
+    "open_codes": [
+      "implementation_science",
+      "sociotechnical_systems",
+      "healthcare_management",
+      "governance_architecture",
+      "human_oversight",
+      "auditable_logs",
+      "retrieval_grounding",
+      "staged_rollout",
+      "quality_monitoring",
+      "institutional_accountability"
+    ],
+    "axial_codes": [
+      "LLM_GOVERNANCE",
+      "REGULATED_HEALTHCARE",
+      "OPERATIONAL_DEPLOYMENT",
+      "RISK_CONTAINMENT"
+    ],
+    "theme": "Governance architecture for LLM implementation in healthcare management",
+    "subtheme": "Sociotechnical controls linking technical safeguards to management outcomes",
+    "concepts": [
+      "workflow design",
+      "policy alignment",
+      "institutional accountability",
+      "role-bounded human oversight",
+      "auditable interaction logs",
+      "retrieval grounding",
+      "implementation maturity pathway",
+      "cross-functional governance capability"
+    ],
+    "model_layers": [
+      "technical_controls",
+      "workflow_design",
+      "policy_alignment",
+      "human_oversight",
+      "monitoring_and_audit",
+      "organizational_outcomes"
+    ],
+    "rq_alignment": [
+      "governance_of_generative_ai",
+      "human_oversight",
+      "audit_logs_traceability",
+      "risk_and_compliance",
+      "regulated_healthcare_context",
+      "knowledge_retrieval_and_QA"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Organizational value from healthcare LLM adoption depends more on workflow design, policy alignment, and institutional accountability than on raw model capability, and robust deployments require sociotechnical controls such as retrieval grounding, human oversight, auditable logs, staged rollout, and continuous monitoring.",
+    "contribution": "Synthesizes healthcare management LLM implementation evidence across five domains and proposes an implementation maturity pathway linking technical controls to management outcomes.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence on governance architecture, oversight, auditability, and regulated healthcare LLM implementation patterns; not as primary evidence specifically focused on conversational governance systems."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a review focused on LLM implementation in healthcare management including governance and safety.",
+      "excerpt": "This review focuses on five implementation domains: model foundations and adaptation, knowledge retrieval and question answering, document intelligence, operations and decision support, and governance and safety.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study addresses regulated healthcare context with governance and accountability concerns.",
+      "excerpt": "regulatory complexity, and intensified expectations for timeliness and transparency in organizational decision-making.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLMs are the specific technology under review.",
+      "excerpt": "Large language models (LLMs) are rapidly shifting from exploratory tools to production infrastructure in healthcare management.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance-relevant controls include human oversight and auditable interaction logs.",
+      "excerpt": "retrieval grounding, role- bounded human oversight, auditable interaction logs, staged rollout, and continuous quality monitoring.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Reported risks include privacy, automation bias, and governance lag.",
+      "excerpt": "reported risks encompass hallucination, uneven reliability across contexts, privacy leakage, automation bias, and governance lag.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Review scope includes how LLM outputs are constrained, validated, escalated, and audited in workflows.",
+      "excerpt": "focusing on organizationally relevant mechanisms: how LLM outputs are constrained, validated, escalated, and audited inside real workflows.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Conversational dimension is secondary to broader operational and management tooling.",
+      "excerpt": "These pressures have expanded interest in LLMs from conversational novelty to operational tooling capable of supporting communication-heavy managerial work",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research questions explicitly include governance architecture for safety, legitimacy, and trust.",
+      "excerpt": "what governance architecture is required to maintain safety, legitimacy, and public trust during scaling",
+      "page": "1",
+      "section": "introduction",
+      "supports": "rq_alignment"
+    },
+    {
+      "claim": "Objective clarity is high in the stated review aims.",
+      "excerpt": "Our scope includes how model adaptation patterns are most credible; (2) under what conditions retrieval and question-answering pipelines produce trustworthy operational knowledge",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Methods, sample, and review protocol are not evidenced in the provided text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

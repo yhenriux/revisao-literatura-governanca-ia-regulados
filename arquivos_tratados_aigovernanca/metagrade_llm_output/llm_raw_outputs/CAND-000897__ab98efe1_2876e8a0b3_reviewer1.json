@@ -1,0 +1,168 @@
+{
+  "bibliographic": {
+    "title": "The Global Integrated World Ocean Assessment: Linking Observations to Science and Policy Across Multiple Scales",
+    "authors": "Karen Evans, Sanae Chiba, Maria J. Bebianno, Carlos Garcia-Soto, Henn Ojaveer, Chul Park, Renison Ruwa, Alan J. Simcock, C. T. Vu, Tymon Zielinski",
+    "year": "2019",
+    "venue": "Frontiers in Marine Science",
+    "doi": "10.3389/fmars.2019.00298",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Evans, K., Chiba, S., Bebianno, M. J., Garcia-Soto, C., Ojaveer, H., Park, C., Ruwa, R., Simcock, A. J., Vu, C. T., & Zielinski, T. (2019). The Global Integrated World Ocean Assessment: Linking Observations to Science and Policy Across Multiple Scales. Frontiers in Marine Science, 6, 298. https://doi.org/10.3389/fmars.2019.00298"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "integrated environmental assessment and science-policy knowledge brokering",
+    "study_design": "community white paper reviewing the UN Regular Process for Global Reporting and Assessment of the State of the Marine Environment (World Ocean Assessment)",
+    "sample_description": "Ocean observation community, managers, policy makers, and regional stakeholders contributing to the World Ocean Assessment process",
+    "sample_size": "unclear",
+    "sector": "marine science and environmental policy",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "ocean observation and monitoring systems, modeling frameworks, citizen science, sustained observation systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_technology",
+      "wrong_topic",
+      "no_llm_genai",
+      "no_conversational_governance"
+    ],
+    "exclusion_reason": "The article discusses global marine environment assessment and linking ocean observations to science and policy; it does not address LLMs, generative AI, conversational systems, or conversational governance.",
+    "decision_rationale": "Deterministic triage matched terms such as dialogue, trust, policy, government, education, monitoring, and deployment, but the provided text shows these refer to stakeholder dialogue, marine policy, capacity building, and observation-system deployment in ocean assessment—not to governance of LLM-based conversational systems. No evidence of chatbots, agents, RAG, guardrails, audit/logging for AI, human oversight of AI outputs, or regulated-domain conversational AI.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is explicit in title and abstract; keyword overlap with review scope is contextual rather than technological."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "As a policy-oriented review/white paper on ocean assessment, objectives and policy linkages are reasonably clear, but empirical sampling, data collection, and analysis methods are not described in the provided excerpts. Appraisal is secondary because the study is out of scope for the review question."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "For the review question on conversational governance of LLM systems in regulated settings, relevance is effectively absent. Provided text supports a coherent account of marine science-policy assessment but offers no findings applicable to conversational AI governance."
+  },
+  "coding": {
+    "open_codes": [
+      "ocean_policy_interface",
+      "integrated_marine_assessment",
+      "stakeholder_dialogue",
+      "observation_monitoring",
+      "capacity_building",
+      "science_policy_brokering"
+    ],
+    "axial_codes": [
+      "environmental_governance",
+      "policy_knowledge_brokering",
+      "multi_stakeholder_engagement"
+    ],
+    "theme": "marine science-policy assessment",
+    "subtheme": "World Ocean Assessment process and stakeholder engagement",
+    "concepts": [
+      "Regular Process",
+      "World Ocean Assessment",
+      "ocean observations",
+      "stakeholder dialogue",
+      "science-policy interface",
+      "Sustainable Development Goals"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.9
+  },
+  "synthesis": {
+    "main_claim": "The World Ocean Assessment links ocean observation and research to management and policy needs across local, regional, and global scales through integrated assessment and knowledge brokering.",
+    "contribution": "Describes how the UN Regular Process uses observations, regional workshops, stakeholder dialogue, and capacity building to assess marine environmental state and trends and inform policy makers.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central or supporting evidence; at most marginal contextual reference for generic science-policy governance, not conversational or LLM governance."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a review on marine environment assessment, not AI or conversational systems.",
+      "excerpt": "REVIEW published: 06 June 2019",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Core focus is ocean observation linked to science and policy.",
+      "excerpt": "Linking Observations to Science and Policy Across Multiple Scales",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM or generative AI technology is discussed in provided text.",
+      "excerpt": "utilization of ocean observation and monitoring outputs and research",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Dialogue refers to stakeholder engagement in marine assessment, not conversational AI.",
+      "excerpt": "a stakeholder dialogue and a peer review process",
+      "page": "3",
+      "section": "main text",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Policy and government references concern marine initiatives and agencies.",
+      "excerpt": "government led initiatives such as the European Commission programs and projects Sea for Society",
+      "page": "5",
+      "section": "main text",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Trust appears in context of long-term marine partnerships, not AI accountability.",
+      "excerpt": "sustained partnerships, built on mutual commitment, trust and investment",
+      "page": "5",
+      "section": "main text",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Deployment refers to observation systems, not AI system deployment.",
+      "excerpt": "future development and deployment of sustained observation systems",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Monitoring refers to marine environmental observation.",
+      "excerpt": "ocean observation and monitoring outputs and research",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study design is a community white paper on assessment developments.",
+      "excerpt": "This community white paper discusses developments in linking ocean observations and science with policy",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Main synthesis claim about science-policy linkage.",
+      "excerpt": "knowledge brokering of ocean observations and associated research to provide key information that can be utilized and applied to address management and policy needs",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

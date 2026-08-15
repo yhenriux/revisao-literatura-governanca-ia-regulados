@@ -1,0 +1,207 @@
+{
+  "bibliographic": {
+    "title": "Evidence-based AI: from trailblazer to trustblazer?",
+    "authors": "Thomas Luechtefeld; Thomas Hartung",
+    "year": "2026",
+    "venue": "Frontiers in Artificial Intelligence",
+    "doi": "10.3389/frai.2026.1818128",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Luechtefeld, T., & Hartung, T. (2026). Evidence-based AI: from trailblazer to trustblazer? Frontiers in Artificial Intelligence, 9, 1818128. https://doi.org/10.3389/frai.2026.1818128"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "perspective framework proposal",
+    "study_design": "perspective article proposing Evidence-based Agent Stack",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "regulatory science, toxicology, biomedicine",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "agentic AI, large language models, retrieval-augmented generation, multi-step scientific workflows"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "governance_accountability",
+      "regulated_high_stakes",
+      "risk_audit_compliance",
+      "operational_technical_governance",
+      "foundational_value"
+    ],
+    "exclusion_codes": [
+      "conversational_ai_absent"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "Perspective peer-reviewed article on trustworthy agentic AI and LLM governance in high-stakes regulatory science and toxicology, with strong alignment to accountability, traceability, audit, and RAG. No evidence in the provided text addresses conversational AI, chatbots, or dialogue-system governance, so it is better classified as foundational/contextual rather than central conversational-governance evidence.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage scored conversational_ai 0/3; manual confirmation needed that full text lacks conversational-system governance content and to verify framework details beyond provided excerpts."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Appropriate as a conceptual perspective proposing an operational framework; not an empirical study. Strong clarity on trust, provenance, and regulatory alignment, but no primary data collection or conversational-AI evaluation."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Internally coherent framework for evidence-based agentic AI in regulated domains, but provided text is perspective-only, lacks conversational-AI focus, and offers limited direct evidence on conversational governance mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "agentic AI",
+      "evidence-based medicine",
+      "evidence-based toxicology",
+      "systematic review workflows",
+      "risk of bias appraisal",
+      "provenance and versioning",
+      "retrieval-augmented generation",
+      "regulatory science",
+      "traceability",
+      "uncertainty communication",
+      "auditability",
+      "e-validation"
+    ],
+    "axial_codes": [
+      "AI governance in regulated science",
+      "trustworthy agentic workflows",
+      "evidence infrastructure for LLMs"
+    ],
+    "theme": "Evidence-based governance framework for trustworthy agentic AI",
+    "subtheme": "Protocolized agent roles with mandatory provenance in regulatory and toxicology contexts",
+    "concepts": [
+      "Evidence-based Agent Stack",
+      "trustblazing",
+      "context-of-use validity",
+      "chain of custody",
+      "automation traps",
+      "TREAT",
+      "e-validation"
+    ],
+    "model_layers": [
+      "question framing",
+      "retrieval",
+      "screening",
+      "extraction",
+      "risk-of-bias appraisal",
+      "synthesis",
+      "uncertainty assessment",
+      "evidence-to-decision translation"
+    ],
+    "rq_alignment": [
+      "governance_accountability",
+      "risk_audit_compliance",
+      "regulated_high_stakes",
+      "operational_technical_governance"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Agentic AI in high-stakes regulatory science and toxicology requires evidence-based workflows with traceability, reproducibility, provenance, and explicit uncertainty communication rather than fluent text generation alone.",
+    "contribution": "Proposes an Evidence-based Agent Stack that decomposes end-to-end tasks into protocolized roles with mandatory provenance and versioning, anchored in systematic review practice, risk-of-bias frameworks, and emerging regulatory principles.",
+    "limitations": "Perspective without primary empirical evaluation; provided excerpts emphasize incomplete reporting in LLM-assisted methods and risks of overfitting, prompt engineering masquerading as validation, and automation traps when evaluation does not scale with capability.",
+    "use_in_review": "Use as foundational/contextual evidence for governance of LLM-based agentic workflows in regulated domains, especially traceability, auditability, RAG grounding, and accountability; not as central evidence on conversational governance."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a peer-reviewed perspective in Frontiers in Artificial Intelligence.",
+      "excerpt": "TYPE Perspective PUBLISHED 03 June 2026",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Focuses on agentic AI and LLMs in high-stakes regulated domains.",
+      "excerpt": "Yet in high-stakes domains such as regulatory science and toxicology, fluent outputs are not sufficient",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Proposes Evidence-based Agent Stack with protocolized roles and provenance.",
+      "excerpt": "We propose an Evidence-based Agent Stack that decomposes end-to-end tasks into protocolized roles",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Emphasizes accountability, auditable outputs, and decision alignment.",
+      "excerpt": "systems whose outputs are auditable, updateable, and aligned with decision accountability",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Discusses LLM hallucinations and limits of fluency as truth proxy.",
+      "excerpt": "Large language models are trained to produce likely continuations of text, not to guarantee factuality",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "References governance instruments including NIST AI RMF and GenAI Profile.",
+      "excerpt": "the NIST AI RMF frames trustworthiness as a lifecycle property",
+      "page": "2",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Cites agentic AI with RAG examples in biomedicine and pharmacovigilance.",
+      "excerpt": "TxAgent integrates multi-step reasoning with real-time knowledge grounding",
+      "page": "3",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "States LLM persuasive untestable narratives are operationally dangerous in hazard and policy decisions.",
+      "excerpt": "an LLM that produces persuasive, untestable narratives is operationally dangerous",
+      "page": "5",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Requires explicit labeling of inference and auditable chain of custody.",
+      "excerpt": "inferred content must be labeled as inference rather than presented as extracted evidence",
+      "page": "6",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Notes incomplete reporting in LLM-assisted evidence-synthesis methods.",
+      "excerpt": "a tendency toward incomplete reporting in LLM papers (dataset splitting, prompt development, model choice, validation metrics)",
+      "page": "6",
+      "section": "limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Warns that automation can degrade standards when evaluation lags capability.",
+      "excerpt": "Automation can degrade scientific standards when evaluation and reporting do not keep pace with rapidly expanding capability",
+      "page": "9",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational AI, chatbot, or dialogue-system governance content in provided text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

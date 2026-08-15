@@ -1,0 +1,166 @@
+{
+  "bibliographic": {
+    "title": "Editorial governance under pressure: Wikipedia's revert dynamics during the 2024 US election",
+    "authors": "Giuliano Formisano, Emmie Hine, Prathm Juneja, Joel Laitila, Claudio Novelli, Ethan Chiu, Elizabeth Dejanikus, Madeline Levin, Tyler Schroder, Andrew West, Luciano Floridi",
+    "year": "2026",
+    "venue": "Humanities and Social Sciences Communications",
+    "doi": "10.1057/s41599-026-06810-2",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Formisano, G., Hine, E., Juneja, P., Laitila, J., Novelli, C., Chiu, E., Dejanikus, E., Levin, M., Schroder, T., West, A., & Floridi, L. (2026). Editorial governance under pressure: Wikipedia's revert dynamics during the 2024 US election. Humanities and Social Sciences Communications. https://doi.org/10.1057/s41599-026-06810-2"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "quantitative revert risk prediction, change point detection, qualitative manual annotation",
+    "study_design": "observational analysis of Wikipedia editing and revert dynamics during the 2024 US presidential election cycle",
+    "sample_description": "editing dynamics on US politicians' Wikipedia pages during the 2024 presidential election cycle; manual annotation of edits",
+    "sample_size": "over 1,700 edits",
+    "sector": "online encyclopedia / information platform / US politics",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Wikipedia volunteer editorial platform with machine-learning-based revert risk prediction; LLMs mentioned as downstream consumers of Wikipedia training content, not as the governed conversational system under study"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_wrong_technology_context",
+      "E2_not_conversational_ai",
+      "E3_not_llm_system_governance"
+    ],
+    "exclusion_reason": "The study empirically examines Wikipedia volunteer editorial governance and revert dynamics during the 2024 US election; it does not study conversational AI, LLM-based chatbots/agents, RAG, guardrails, or governance of deployed generative/conversational systems in regulated environments.",
+    "decision_rationale": "Although the text references LLMs as training-data consumers of Wikipedia and discusses editorial governance, misinformation, and revert mechanisms, the empirical object is community editing on Wikipedia pages during a political cycle. The review scope requires governance of conversational LLM systems; this paper addresses upstream encyclopedia editorial governance rather than conversational AI governance.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Scope mismatch is explicit in the abstract and introduction: the study analyzes Wikipedia editing dynamics and reversion mechanisms, not conversational LLM deployment governance."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Appraisal based on abstract and partial methods text from an article-in-press manuscript. Study appears methodologically coherent for its own Wikipedia governance questions, but transferability to conversational LLM governance in regulated settings is limited."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the review's focus on conversational governance in LLM-based systems, relevance is low because the empirical analysis centers on Wikipedia volunteer moderation and revert dynamics. Coherence and adequacy appear reasonable for the stated Wikipedia research questions, but confidence in use for the target synthesis is low."
+  },
+  "coding": {
+    "open_codes": [
+      "editorial governance",
+      "revert dynamics",
+      "revert risk",
+      "volunteer moderation",
+      "misinformation",
+      "biased language",
+      "political pressure",
+      "change point detection"
+    ],
+    "axial_codes": [
+      "human community governance",
+      "content integrity control",
+      "event-driven editing escalation"
+    ],
+    "theme": "Editorial governance under political pressure on Wikipedia",
+    "subtheme": "Revert mechanisms and problematic edit persistence during the 2024 US election",
+    "concepts": [
+      "editorial governance",
+      "community governance",
+      "revert risk",
+      "misinformation",
+      "biased language",
+      "machine learning vandalism detection"
+    ],
+    "model_layers": [
+      "content integrity layer",
+      "community moderation layer",
+      "risk scoring layer"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Wikipedia's volunteer-driven editorial governance responds to political pressure during the 2024 US election with significantly increased edit volume and revert risk, swift reversion of high-risk edits, and longer persistence of lower-risk problematic content often characterized by biased language rather than overt factual misinformation.",
+    "contribution": "Provides empirical evidence on how Wikipedia editing activity, revert patterns, and governance mechanisms change during major political events, combining revert risk prediction, change point detection, and manual annotation of over 1,700 edits.",
+    "limitations": "Article in press; overt misinformation was rare in the annotated sample (approximately 1%); lower-risk problematic content can persist; findings are specific to Wikipedia politician pages during one election cycle and do not generalize to conversational LLM system governance.",
+    "use_in_review": "Exclude from central and supporting evidence on conversational LLM governance. May serve only as distant contextual background on upstream knowledge-base integrity that can affect LLM training data, not as evidence on governance of conversational AI systems."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on Wikipedia editorial governance during the 2024 US election, not conversational LLM systems.",
+      "excerpt": "Yet few studies have examined how Wikipedia's volunteer-driven editorial governance responds to pressure during politically sensitive periods.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical methods include revert risk prediction, change point detection, and manual annotation of over 1,700 edits.",
+      "excerpt": "Using a combination of quantitative methods—including revert risk prediction and change point detection—and qualitative manual annotation of over 1,700 edits",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLMs are referenced as contextual consumers of Wikipedia content, not as the governed system.",
+      "excerpt": "its importance has grown even further in the past two years with the rise of large language models (LLMs), which rely heavily on Wikipedia as a primary source of training.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance mechanisms studied are Wikipedia reversion and community editing controls.",
+      "excerpt": "we analyse how editorial activity, revert patterns, and governance mechanisms respond to major political events.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "High-risk edits are reverted swiftly, but lower-risk problematic content can persist.",
+      "excerpt": "Wikipedia's reversion mechanisms respond swiftly to high-risk edits, but lower-risk problematic content can persist for extended periods.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Problematic edits were more often biased language than factual inaccuracies.",
+      "excerpt": "the cases identified were disproportionately characterised by biased language rather than factual inaccuracies",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Machine learning is used to predict revert likelihood, not to govern conversational AI.",
+      "excerpt": "we also employ a novel multilingual vandalism detection system (Trokhymovych et al. 2023) that leverages machine learning to predict the likelihood that an edit will be reverted.",
+      "page": "7",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Generative AI is discussed as a misinformation concern but Wikipedia policy treats edits equally regardless of origin.",
+      "excerpt": "Wikipedia recommends against using generative AI to write articles because of the potential for fabrication and copyright infringement",
+      "page": "3",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Peer-review status is not fully confirmed in the provided text beyond accepted article-in-press status.",
+      "excerpt": "We are providing an unedited version of this manuscript to give early access to its findings.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

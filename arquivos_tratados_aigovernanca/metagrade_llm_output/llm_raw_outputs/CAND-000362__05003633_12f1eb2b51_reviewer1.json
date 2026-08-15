@@ -1,0 +1,214 @@
+{
+  "bibliographic": {
+    "title": "The AI Health Arms Race: A Critical Perspective on Big Tech and the Widening Global Health Equity Gap",
+    "authors": "Mohamed Mustaf Ahmed; Zhinya Kawa Othman",
+    "year": "2026",
+    "venue": "Journal of Multidisciplinary Healthcare",
+    "doi": "10.2147/JMDH.S610208",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Ahmed, M. M., & Othman, Z. K. (2026). The AI health arms race: A critical perspective on Big Tech and the widening global health equity gap. Journal of Multidisciplinary Healthcare. https://doi.org/10.2147/JMDH.S610208"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "commentary",
+    "study_design": "critical commentary",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Consumer AI health platforms integrating EHR, wearable data, and conversational AI (ChatGPT Health, Claude for Healthcare, Copilot Health, Med-Gemini, Apple Health+)"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_HEALTH",
+      "CONVERSATIONAL_AI",
+      "GOVERNANCE_POLICY",
+      "REGULATED_HEALTHCARE",
+      "HUMAN_OVERSIGHT"
+    ],
+    "exclusion_codes": [
+      "NON_EMPIRICAL_COMMENTARY"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed commentary that critically analyzes emerging AI-mediated consumer health platforms with conversational AI, LLMs, data governance, regulatory gaps, clinical safety, and human oversight in healthcare. It aligns with the review scope on governance in regulated LLM conversational systems, but it does not present original empirical methods, operational governance architecture, or primary evaluation of conversational governance mechanisms; it is better suited as contextual and policy-oriented background evidence.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted bibliographic metadata appears corrupted in the title field; confirm full-text completeness, commentary classification, and whether later sections add empirical or implementation detail beyond the provided excerpts."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appropriate as a critical policy commentary, but weak for empirical appraisal: no described sample, data collection protocol, or evaluative study design. Strength lies in framing equity, regulation, and oversight risks for LLM-based health conversational systems."
+  },
+  "cerqual": {
+    "methodological_limitations": 4,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is coherent and highly relevant to regulated healthcare LLM chatbots, governance, and oversight, but the commentary format provides limited direct evidence on operational conversational governance mechanisms; adequacy for answering implementation-focused review questions is therefore limited."
+  },
+  "coding": {
+    "open_codes": [
+      "global_health_equity",
+      "ai_health_arms_race",
+      "big_tech_platform_competition",
+      "conversational_health_ai",
+      "ehr_integration",
+      "wearable_data_integration",
+      "privacy_isolated_health_spaces",
+      "data_colonialism",
+      "regulatory_vacuum",
+      "clinical_safety_risk",
+      "llm_hallucinations",
+      "human_oversight",
+      "multilingual_gap",
+      "lmic_barriers",
+      "policy_recommendations"
+    ],
+    "axial_codes": [
+      "macro_governance",
+      "health_regulation",
+      "clinical_risk_management",
+      "data_sovereignty",
+      "equity_centered_governance",
+      "post_deployment_societal_risk"
+    ],
+    "theme": "Equity-centered governance of LLM-based conversational health platforms",
+    "subtheme": "Global regulatory and safety gaps in Big Tech consumer health AI",
+    "concepts": [
+      "conversational AI",
+      "large language models",
+      "AI governance",
+      "health equity",
+      "human oversight",
+      "clinical safety",
+      "data governance",
+      "regulatory vacuum",
+      "HIPAA-ready tools",
+      "hallucinations",
+      "data colonialism",
+      "privacy-isolated environments"
+    ],
+    "model_layers": [
+      "policy_governance",
+      "risk_and_safety",
+      "human_oversight",
+      "privacy_security",
+      "deployment_context"
+    ],
+    "rq_alignment": [
+      "governance in regulated conversational LLM systems",
+      "human oversight for medical LLM outputs",
+      "compliance and regulatory gaps in healthcare AI",
+      "risk monitoring and clinical safety concerns"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The rapid 2025–2026 launch of major AI health platforms using conversational AI and LLMs may widen global health inequities unless equity-centered international and national governance, clinical safety safeguards, multilingual adaptation, and infrastructure investment are deliberately implemented.",
+    "contribution": "Provides a critical, policy-oriented landscape review of consumer AI health chatbot platforms, linking LLM clinical risks, regulatory vacuums, data sovereignty concerns, and human oversight needs to global health equity.",
+    "limitations": "Commentary without reported empirical sampling, methods, or operational governance evaluation; provided excerpts do not clearly state study limitations or detailed implementation evidence.",
+    "use_in_review": "Use as foundational contextual evidence for governance, regulation, oversight, and risk framing in regulated healthcare conversational LLM deployments; not as central primary evidence for operational conversational governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a commentary, not an empirical study.",
+      "excerpt": "C O M M E N TA RY The AI Health Arms Race: A Critical Perspective on Big Tech and the Widening Global Health Equity Gap",
+      "page": "1",
+      "section": "front matter",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Focuses on conversational AI health platforms launched by major technology firms.",
+      "excerpt": "integrating electronic health records, wearable device data, and conversational AI in privacy-isolated environments",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Names specific LLM-based health platforms relevant to conversational AI.",
+      "excerpt": "ChatGPT Health, Claude for Healthcare, Copilot Health, Med-Gemini, and Apple Health+",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Discusses governance as a central concern.",
+      "excerpt": "Without deliberate equity-centered governance, the AI health arms race risks widening, rather than narrowing, the global health divide.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Operates in regulated healthcare context with compliance references.",
+      "excerpt": "Claude for Healthcare, offering Health Insurance Portability and Accountability Act (HIPAA)-ready tools for providers, payers, and patients",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Platforms share architectural features including privacy commitments for foundation models.",
+      "excerpt": "privacy-isolated health spaces, and commitments that health data will not be used to train foundation models",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Raises clinical safety and regulatory governance risks for LLMs.",
+      "excerpt": "the simultaneous launch of these platforms raises critical questions about global health equity, data governance, clinical safety",
+      "page": "2",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Identifies LLM hallucinations as a fundamental safety concern requiring human oversight.",
+      "excerpt": "large language models (LLMs) risk producing plausible yet incorrect medical statements, requiring robust human oversight.",
+      "page": "3",
+      "section": "findings",
+      "supports": "coding"
+    },
+    {
+      "claim": "Highlights a regulatory vacuum affecting clinical safety and data sovereignty.",
+      "excerpt": "Clinical Safety, Data Sovereignty, and the Regulatory Vacuum",
+      "page": "3",
+      "section": "findings",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Proposes governance-oriented policy recommendations.",
+      "excerpt": "We propose policy recommenda­tions spanning international governance, national regulatory development, mandatory multilingual content, pre-market clinical safety evaluations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No empirical sample or study population is described in the provided text.",
+      "excerpt": "This commentary critically examines the emerging AI health chatbot landscape through the lens of global health equity",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Relevance to low- and middle-income country governance barriers.",
+      "excerpt": "limited infrastructure, insufficient multilingual support beyond dominant global languages, and minimal cultural adaptation for low- and middle-income countries",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    }
+  ]
+}

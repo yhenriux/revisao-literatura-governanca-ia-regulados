@@ -1,0 +1,153 @@
+{
+  "bibliographic": {
+    "title": "Imitation and Large Language Models",
+    "authors": "Éloïse Boisseau",
+    "year": "2024",
+    "venue": "Minds and Machines",
+    "doi": "10.1007/s11023-024-09698-6",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Boisseau, É. (2024). Imitation and large language models. Minds and Machines, 34(4), 42. https://doi.org/10.1007/s11023-024-09698-6"
+  },
+  "methodology": {
+    "research_type": "theoretical",
+    "method_family": "philosophical conceptual analysis",
+    "study_design": "conceptual/theoretical essay",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Transformer-based large language models and conversational systems such as ChatGPT, BERT, LaMDA, Claude, Chinchilla, and PaLM"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_GOVERNANCE_FOCUS",
+      "NO_REGULATED_CONTEXT",
+      "CONCEPTUAL_PHILOSOPHY_ONLY"
+    ],
+    "exclusion_reason": "The provided text is a peer-reviewed conceptual/theoretical paper on imitation and machine understanding in LLMs. It references conversational systems and ethical concerns only in passing, but does not address conversational governance, accountability, compliance, audit, human oversight, risk control, or regulated deployment contexts.",
+    "decision_rationale": "Although the article clearly concerns LLMs and mentions conversational systems, its stated focus is philosophical analysis of imitation and machine understanding rather than governance of conversational AI in regulated environments. The available excerpts contain no operational, normative, or regulatory governance framework, making it outside the core scope of the review despite borderline automated screening.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated triage marked the record as borderline_manual; manual adjudication is needed to confirm exclusion versus retaining it only as peripheral philosophical context."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal is based only on front matter and pages 1-4. The study appears appropriately designed as conceptual philosophy of AI, but the excerpt does not show empirical sampling, data collection procedures, or explicit limitations sections. Relevance to a governance-focused review is low."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The available text supports a coherent conceptual argument about imitation and machine understanding in LLMs, but only a partial manuscript is provided and the work does not substantively address conversational governance or regulated contexts, limiting its usefulness as review evidence."
+  },
+  "coding": {
+    "open_codes": [
+      "imitation",
+      "machine understanding",
+      "imitative behaviour",
+      "status of imitation",
+      "imitation manufacturing",
+      "conversational systems",
+      "ethical concerns"
+    ],
+    "axial_codes": [
+      "philosophy of AI",
+      "LLM capabilities debate",
+      "conversational AI context"
+    ],
+    "theme": "Conceptual analysis of imitation and understanding in LLMs",
+    "subtheme": "Philosophical reframing of conversational LLM behaviour",
+    "concepts": [
+      "imitation",
+      "machine understanding",
+      "large language models",
+      "conversational systems",
+      "imitation manufacturing"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "The paper argues that common senses of 'imitation' do not adequately apply to LLMs and proposes 'imitation manufacturing' as a better description, ultimately supporting a radical negative answer to whether machines understand.",
+    "contribution": "Offers a conceptual framework distinguishing imitative behaviour and the status of imitation, with application to debates about understanding in LLMs and conversational systems.",
+    "limitations": "unclear",
+    "use_in_review": "Not recommended as central or supporting evidence for conversational governance in regulated LLM systems; at most peripheral foundational context for debates on machine understanding in conversational AI."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article accepted after peer review.",
+      "excerpt": "This version of the article has been accepted for publication, after peer review",
+      "page": "2",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study is theoretical and focuses on imitation and machine understanding in LLMs.",
+      "excerpt": "the cognitive capacities of large language models (LLMs)",
+      "page": "3",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Paper discusses conversational systems as an implementation context for LLMs.",
+      "excerpt": "After illustrating and discussing how this concept is being used in various ways in the context of conversational systems",
+      "page": "3",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Main conceptual contribution is the notion of imitation manufacturing.",
+      "excerpt": "I introduce an appropriate description that I call ‘imitation manufacturing’",
+      "page": "3",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Article references ethical concerns surrounding LLMs but not governance mechanisms.",
+      "excerpt": "evaluating the capabilities and ethical concerns surrounding a category of systems now widely known as ‘large language models’ (LLMs)",
+      "page": "4",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Technology context includes named conversational LLM systems.",
+      "excerpt": "highly effective conversational systems, the most notable of which being ChatGPT, BERT, LaMDA, Claude, Chinchilla, PaLM, etc.",
+      "page": "4",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "No regulated-domain or compliance-oriented deployment context is presented in the available text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research type is argumentative conceptual analysis rather than empirical governance study.",
+      "excerpt": "I then highlight and untangle some conceptual difficulties with these two senses and conclude that neither of these applies to LLMs",
+      "page": "3",
+      "section": "abstract",
+      "supports": "methodology"
+    }
+  ]
+}

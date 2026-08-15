@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "Leveraging chatbots for enhanced decision-making: a comprehensive literature review",
+    "authors": "Phiwe M. Simelane; Javeed Kittur",
+    "year": "2026",
+    "venue": "Frontiers in Artificial Intelligence",
+    "doi": "10.3389/frai.2026.1748544",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Simelane, P. M., & Kittur, J. (2026). Leveraging chatbots for enhanced decision-making: a comprehensive literature review. Frontiers in Artificial Intelligence, 9, 1748544. https://doi.org/10.3389/frai.2026.1748544"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic literature review",
+    "study_design": "systematic literature review",
+    "sample_description": "Thirty-six articles from seven databases reviewed and categorized into six themes",
+    "sample_size": "36",
+    "sector": "education; healthcare; finance; engineering; business",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-based chatbots including ChatGPT, GPT-3, and Google Bard used for decision-making and decision support"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_chatbots",
+      "systematic_review",
+      "conversational_agents",
+      "regulated_sectors_partial",
+      "ethics_theme"
+    ],
+    "exclusion_codes": [
+      "no_conversational_governance_focus",
+      "no_guardrails_audit_observability",
+      "no_operational_governance_mechanisms"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed systematic literature review of LLM-based chatbots in decision-making across multiple sectors, with an explicit ethical-considerations theme and human-vs-AI comparison. However, the provided text centers on decision-making quality and user perceptions, not on conversational governance mechanisms such as guardrails, observability, audit, compliance controls, or structured human oversight frameworks required for central evidence in this review scope.",
+    "decision_confidence": 0.68,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front-matter and partial introduction text were supplied; full search strategy, screening protocol, quality appraisal, and limitations sections were not available. Extracted year metadata (2023) conflicts with publication citation (2026)."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Appraisal based only on abstract, keywords, and introductory sections visible in the supplied excerpt. The SLR objective and six-theme framework are clearly stated, but detailed search terms, inclusion/exclusion criteria, quality assessment, and study limitations are not evidenced in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "Findings are internally coherent around chatbot-supported decision-making themes, but adequacy and methodological confidence are limited because only partial text was available. Relevance to conversational governance in regulated environments is indirect: ethics and sectoral use are mentioned, but governance, audit, and operational control mechanisms are not evidenced."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM-based chatbots",
+      "decision-making",
+      "systematic literature review",
+      "ethical considerations",
+      "human vs AI decision-making",
+      "output inconsistency",
+      "personalized recommendations",
+      "sensitive information"
+    ],
+    "axial_codes": [
+      "conversational AI for decision support",
+      "cross-sector LLM adoption",
+      "ethics and risk in chatbot decisions"
+    ],
+    "theme": "LLM chatbot-supported decision-making",
+    "subtheme": "Benefits, challenges, and ethics across application domains",
+    "concepts": [
+      "personalized recommendations",
+      "inconsistency in output",
+      "ethical concerns about sensitive information",
+      "ChatGPT decision-making",
+      "human vs AI decision-making"
+    ],
+    "model_layers": [
+      "application layer",
+      "decision support layer",
+      "ethics layer"
+    ],
+    "rq_alignment": [
+      "LLM conversational systems",
+      "regulated domain applications",
+      "ethics and trust"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "LLM-based chatbots such as ChatGPT are increasingly studied as tools for decision-making across sectors, offering personalized recommendations while raising concerns about inconsistent outputs, ethics around sensitive information, and comparison with human decision-making.",
+    "contribution": "Provides a systematic map of chatbot decision-making literature organized into six themes: benefits, challenges, ethical considerations, algorithms/tools, human vs AI decision-making, and applications across fields.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting secondary evidence for background on LLM chatbot deployment and ethical concerns in regulated-adjacent sectors; not suitable as central evidence for conversational governance mechanisms because governance, audit, observability, and compliance controls are not addressed in the supplied text."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a systematic literature review on chatbots and decision-making",
+      "excerpt": "This paper presents a systematic literature review of current literature discussing chatbots and decision-making processes",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Sample comprises 36 articles from seven databases",
+      "excerpt": "Thirty-six articles from seven databases were reviewed in this paper",
+      "page": "1",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Studies LLM-based chatbots including ChatGPT",
+      "excerpt": "Chatbots using large language models such as ChatGPT, Google Bard, etc., have become increasingly popular",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Ethical considerations are an explicit review theme",
+      "excerpt": "categorized into six themes: benefits of using chatbot for decision-making, challenges of chatbot-supported decision-making, ethical considerations of using chatbot-supported decision-making",
+      "page": "1",
+      "section": "Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Identifies ethical concerns about sensitive information in decisions",
+      "excerpt": "ethical concerns about chatbots using sensitive information to make decisions",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Covers regulated-adjacent sectors including healthcare, education, and finance",
+      "excerpt": "widespread integration across education, healthcare, finance, engineering, and business contexts",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Includes human vs AI decision-making as a core theme",
+      "excerpt": "human vs. AI decision-making",
+      "page": "1",
+      "section": "Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Peer-reviewed journal publication",
+      "excerpt": "REVIEWED BY Janika Leoste, Tallinn University, Estonia S. Prasanth",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Reports inconsistency in chatbot output as a key finding",
+      "excerpt": "issues with inconsistency in output",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "ChatGPT decision-making is the most studied topic in the reviewed literature",
+      "excerpt": "ChatGPT's decision-making is the most studied",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    }
+  ]
+}

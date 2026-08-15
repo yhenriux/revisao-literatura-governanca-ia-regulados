@@ -1,0 +1,200 @@
+{
+  "bibliographic": {
+    "title": "Research Challenges with developing and deploying AI models and applications in industrial systems",
+    "authors": "Sudhi Sinha; Young M. Lee",
+    "year": "2024",
+    "venue": "Discover Artificial Intelligence",
+    "doi": "10.1007/s44163-024-00151-2",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Sinha, S., & Lee, Y. M. (2024). Research challenges with developing and deploying AI models and applications in industrial systems. Discover Artificial Intelligence, 4, 55. https://doi.org/10.1007/s44163-024-00151-2"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "practitioner case-study discussion with strategic recommendations",
+    "study_design": "conceptual analysis supported by selected real-world case studies",
+    "sample_description": "Case studies selected based on relevance and availability of firsthand experience of developing and deploying real-world AI applications",
+    "sample_size": "unclear",
+    "sector": "industrial systems / manufacturing and related industrial domains",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Traditional AI (ML/DL) in industrial settings is the primary focus; generative AI and LLMs are discussed peripherally for emerging use cases such as documentation, customer technical support, and equipment troubleshooting"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "AI_DEPLOYMENT_CHALLENGES",
+      "GOVERNANCE_ETHICS_COMPLIANCE",
+      "INDUSTRIAL_AI_CONTEXT",
+      "PERIPHERAL_LLM_GENAI"
+    ],
+    "exclusion_codes": [
+      "NOT_CONVERSATIONAL_GOVERNANCE_FOCUS",
+      "NOT_LLM_CENTRIC",
+      "LIMITED_REGULATED_CONVERSATIONAL_CONTEXT"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article addresses ethical considerations, regulatory compliance, and deployment challenges for AI in industrial environments, which aligns partially with governance and regulated-context concerns. However, the stated focus is traditional industrial AI rather than generative AI or LLMs, and conversational systems appear only marginally via customer support and virtual agents. It is therefore better suited as supporting rather than central evidence for conversational governance of LLM-based systems in regulated settings.",
+    "decision_confidence": 0.74,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "LLM and conversational relevance are secondary in the text, while Python triage scored the paper highly; human verification is needed on full-text sections covering governance, compliance, and any conversational deployment guidance."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Clear practitioner-oriented objective and recommendations, but the provided text shows limited methodological detail on case selection, analysis procedure, and limitations. Evidence appears experiential and illustrative rather than systematically synthesized."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "Findings on ethics, compliance, and deployment are coherent for industrial AI broadly, but methodological transparency and systematic sampling are limited in the supplied text. Relevance to conversational governance of LLMs in regulated environments is indirect because the paper explicitly prioritizes traditional industrial AI over generative AI/LLM adoption."
+  },
+  "coding": {
+    "open_codes": [
+      "industrial_ai_deployment",
+      "ethical_ai",
+      "regulatory_compliance",
+      "traditional_ai_focus",
+      "peripheral_generative_ai",
+      "customer_support_automation",
+      "workforce_training",
+      "safe_ai"
+    ],
+    "axial_codes": [
+      "AI_GOVERNANCE_CHALLENGES",
+      "DEPLOYMENT_AND_OPERATIONS",
+      "REGULATORY_ETHICAL_CONSTRAINTS",
+      "EMERGING_GENAI_LLM_ADOPTION"
+    ],
+    "theme": "Challenges and recommendations for responsible development and deployment of AI in industrial systems",
+    "subtheme": "Peripheral emergence of generative AI and LLMs in industrial applications",
+    "concepts": [
+      "ethical considerations",
+      "regulatory compliance",
+      "deployment challenges",
+      "generative AI",
+      "large language models",
+      "customer technical support",
+      "continuous education",
+      "safe AI"
+    ],
+    "model_layers": [
+      "policy_compliance",
+      "operations_deployment",
+      "human_capacity_building"
+    ],
+    "rq_alignment": [
+      "governance_accountability",
+      "risk_audit_compliance",
+      "regulated_high_stakes",
+      "operational_technical_governance"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Developing and deploying AI in industrial systems involves technical, ethical, and regulatory challenges, and organizations need comprehensive guidelines to deploy AI accurately and responsibly while maximizing benefits and minimizing risks.",
+    "contribution": "Provides a practitioner-oriented framing of industrial AI deployment hurdles and strategic recommendations emphasizing ethics, regulatory compliance, workforce education, and safe adoption; notes emerging but not yet widely adopted generative AI/LLM use cases in industry.",
+    "limitations": "Based on the provided text, the paper does not center on conversational LLM systems or regulated conversational governance mechanisms; generative AI/LLM discussion is secondary and adoption in industrial AI is described as limited.",
+    "use_in_review": "Use as supporting evidence on industrial AI deployment governance, ethics, compliance, and workforce oversight; cite cautiously for LLM-specific or conversational-governance claims because the paper explicitly focuses on traditional industrial AI."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article in Discover Artificial Intelligence (2024).",
+      "excerpt": "Discover Artificial Intelligence (2024) 4:55 | https://doi.org/10.1007/s44163-024-00151-2",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors are Sudhi Sinha and Young M. Lee.",
+      "excerpt": "Sudhi Sinha1 · Young M. Lee2",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Paper examines challenges in developing and deploying AI in industrial settings and emphasizes ethics and regulatory compliance.",
+      "excerpt": "This paper examines the diverse hurdles faced during developing and deploying AI applications in the industrial domain.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Ethical considerations and regulatory compliance are presented as necessary to overcome deployment obstacles.",
+      "excerpt": "underscoring the necessity of ethical considerations and regulatory compliance to effectively overcome these obstacles",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Case studies were selected from firsthand deployment experience.",
+      "excerpt": "Case studies were selected based on their relevance and availability of firsthand experience of developing and deploying real-world AI applications.",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Generative AI and LLMs are mentioned but not yet widely adopted in industrial AI applications.",
+      "excerpt": "While generative AI has shown significant potential in creative fields and other domains, it has not yet been widely adopted in industrial AI applications.",
+      "page": "2",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The paper explicitly focuses on traditional AI within industrial settings rather than generative AI/LLMs.",
+      "excerpt": "Therefore, this paper will focus on discussing the applications and challenges of traditional AI within industrial settings",
+      "page": "2",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs are associated with industrial use cases including customer technical support.",
+      "excerpt": "These models are streamlining complex processes such as automated documentation, customer technical support, and equipment troubleshooting",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Virtual agents for customer services are mentioned as an industrial AI application area.",
+      "excerpt": "virtual agents for customer services",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Healthcare is referenced as a sector impacted by AI's universality.",
+      "excerpt": "rejuvenating sectors, from manufacturing to healthcare",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Continuous education is recommended for stakeholders as generative AI and LLMs emerge.",
+      "excerpt": "This is particularly crucial with the emergence of new AI such as Generative AI and Large Language Models (LLMs).",
+      "page": "12",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Guidelines aim to maximize benefits while minimizing potential risks in industrial environments.",
+      "excerpt": "We provide guidelines aimed at maximizing AI’s benefits in industrial environments while minimizing potential risks.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "LUCE: A BLOCKCHAIN-BASED DATA SHARING PLATFORM FOR MONITORING DATA LICENSE ACCOUNTABILITY AND COMPLIANCE",
+    "authors": "Visara Urovi; Vikas Jaiman; Arno Angerer; Michel Dumontier",
+    "year": "2022",
+    "venue": "arXiv preprint",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Urovi, V., Jaiman, V., Angerer, A., & Dumontier, M. (2022). LUCE: A blockchain-based data sharing platform for monitoring data license accountability and compliance. arXiv preprint arXiv:2202.11646."
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "system architecture design with implementation and scalability evaluation",
+    "study_design": "technical platform development and real-time scalability experimentation",
+    "sample_description": "simulated growing number of users accessing and reusing different datasets in a real-time environment",
+    "sample_size": "unclear",
+    "sector": "scientific research data sharing",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "blockchain, smart contracts, distributed ledgers, GDPR-oriented data license monitoring"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_technology",
+      "not_conversational_ai",
+      "not_llm_genai"
+    ],
+    "exclusion_reason": "The study addresses blockchain-based data sharing accountability and license compliance, not conversational AI, LLMs, chatbots, agents, or generative AI governance.",
+    "decision_rationale": "Although the paper strongly addresses accountability, transparency, compliance, monitoring, traceability, and regulatory requirements (including GDPR), the provided text contains no evidence of large language models, generative AI, conversational systems, or conversational governance. Matches for interaction refer to smart-contract and data-sharing protocols, not human-machine dialogue or conversational oversight.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Clear technology mismatch with review scope; exclusion is supported by zero LLM evidence and absence of conversational AI focus in the supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal reflects methodological quality within blockchain data-sharing research only. Transferability to LLM conversational governance is very limited based on provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The study is internally coherent for decentralized data-sharing accountability, but its relevance to conversational governance in LLM-based regulated systems is very low because the technology and application domain differ fundamentally from the review scope."
+  },
+  "coding": {
+    "open_codes": [
+      "blockchain data sharing",
+      "license accountability",
+      "compliance monitoring",
+      "dynamic consent",
+      "smart contract agreements",
+      "dataset traceability",
+      "GDPR rights handling"
+    ],
+    "axial_codes": [
+      "data governance infrastructure",
+      "regulatory compliance mechanisms",
+      "post-sharing monitoring"
+    ],
+    "theme": "Decentralized accountability for regulated data sharing",
+    "subtheme": "Blockchain-enabled license compliance and transparency",
+    "concepts": [
+      "accountability",
+      "transparency",
+      "compliance",
+      "traceability",
+      "dynamic consent",
+      "data reuse",
+      "smart contracts",
+      "GDPR"
+    ],
+    "model_layers": [
+      "infrastructure/platform",
+      "policy/compliance",
+      "monitoring/audit"
+    ],
+    "rq_alignment": [
+      "regulated compliance mechanisms",
+      "accountability and traceability",
+      "post-deployment monitoring"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "LUCE is a decentralized blockchain-based platform that traces shared datasets and provides transparency, accountability, and legal compliance mechanisms for data reuse after third-party handoff.",
+    "contribution": "Defines a generic model and implementation for decentralized data-sharing accountability and compliance, incorporating dynamic consent and legal compliance mechanisms, with scalability testing in a real-time multi-user setting.",
+    "limitations": "Provided excerpts do not clearly document study limitations; sample size and generalizability beyond blockchain data-sharing contexts are unclear.",
+    "use_in_review": "Exclude as central or supporting evidence for LLM conversational governance; may serve only as distant contextual background on accountability/compliance infrastructure unrelated to conversational AI."
+  },
+  "evidence": [
+    {
+      "claim": "Paper is a 2022 arXiv preprint on blockchain data sharing accountability.",
+      "excerpt": "LUCE: A BLOCKCHAIN-BASED DATA SHARING PLATFORM FOR MONITORING DATA LICENSE ACCOUNTABILITY AND COMPLIANCE A PREPRINT",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors are Visara Urovi, Vikas Jaiman, Arno Angerer, and Michel Dumontier.",
+      "excerpt": "Visara Urovi Institute of Data Science Maastricht University",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM or generative AI technology is addressed in the provided text.",
+      "excerpt": "Keywords Blockchain · Data sharing · Distributed ledgers · Data reuse · Dataset tracking · GDPR",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Core objective is monitoring accountability and compliance after data sharing.",
+      "excerpt": "LUCE is designed to provide full transparency on what happens to the data after they are shared with third parties.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Study proposes architecture, implementation, and scalability testing.",
+      "excerpt": "We test the scalability of the platform in a real- time environment where a growing number of users access and reuse different datasets.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Interaction refers to data-sharing protocol steps, not conversational AI.",
+      "excerpt": "The following interaction is used to monitor compliance with the data: 1. Access token",
+      "page": "7",
+      "section": "3.5.2 Monitoring compliance with the dataset's license",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated-domain relevance is partial and centered on data protection law.",
+      "excerpt": "incorporates dynamic consent and legal compliance mechanisms",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Accountability and transparency are explicit contributions.",
+      "excerpt": "the definition of a generic model and an implementation for decentralized data sharing accountability and compliance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "GDPR rights handling is modeled via interaction steps.",
+      "excerpt": "the interaction steps can be described as follows: 1. Request rectify/erase",
+      "page": "9",
+      "section": "GDPR compliance",
+      "supports": "coding"
+    },
+    {
+      "claim": "Methodological evaluation reports scalability findings.",
+      "excerpt": "Overall the results show that the smart contract model of LUCE introduces low computational cost",
+      "page": "11",
+      "section": "evaluation",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Peer review status is not indicated; document is labeled preprint.",
+      "excerpt": "A PREPRINT",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

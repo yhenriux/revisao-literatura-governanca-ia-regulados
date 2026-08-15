@@ -1,0 +1,195 @@
+{
+  "bibliographic": {
+    "title": "Why sycophantic LLMs may imperil interactive norms between humans",
+    "authors": "Ruolei Gu, Zhiyi Chen, Ming Peng, Chao Liu, Zhicheng Lin",
+    "year": "2026",
+    "venue": "Communications Psychology (Nature Portfolio)",
+    "doi": "10.1038/s44271-026-00486-9",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Gu, R., Chen, Z., Peng, M., Liu, C., & Lin, Z. (2026). Why sycophantic LLMs may imperil interactive norms between humans. Communications Psychology. https://doi.org/10.1038/s44271-026-00486-9"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "theoretical perspective with narrative synthesis of prior experimental and longitudinal studies",
+    "study_design": "Perspective article proposing norm leakage framework; no original empirical data collection reported in provided text",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "conversational AI, chatbots, large language model-powered systems, GPT-4, generative AI"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_conversational_systems",
+      "governance_accountability_concepts",
+      "alignment_sycophancy"
+    ],
+    "exclusion_codes": [
+      "no_regulated_domain_focus",
+      "no_operational_governance_implementation",
+      "conceptual_not_empirical_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "Perspective teórica sobre norm leakage e alinhamento sicofântico em interações humano–IA com LLMs, citando accountability social e limites de alinhamento, mas sem foco em governança operacional, compliance regulatório, auditoria ou ambientes regulados de alto risco. Relevante como contexto fundacional sobre efeitos comportamentais e desenho de alinhamento conversacional, não como evidência central de governança conversacional em setores regulados.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Relevância para governança conversacional em ambientes regulados é indireta; artigo aborda psicologia social e alinhamento, não implementação de governança em contextos regulados."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Adequado como perspectiva teórica; sintetiza literatura experimental citada (ex.: Tey et al., N=1261) sem relatar desenho empírico próprio. Limitações de magnitude e durabilidade dos efeitos são explicitamente reconhecidas. Não avalia governança institucional ou conformidade regulatória."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Argumento coerente e bem estruturado sobre norm leakage e sicofancia, com evidência experimental citada de suporte parcial. Adequação moderada para síntese de governança conversacional regulada porque não aborda domínios regulados nem mecanismos operacionais de governança; confiança moderada como contexto teórico."
+  },
+  "coding": {
+    "open_codes": [
+      "norm_leakage",
+      "sycophantic_alignment",
+      "social_accountability",
+      "instrumental_communication",
+      "CASA_framework",
+      "social_boundaries",
+      "spillover_effects",
+      "approval_optimized_compliance"
+    ],
+    "axial_codes": [
+      "human_AI_interaction_norms",
+      "alignment_design",
+      "cross_context_behavioral_transfer"
+    ],
+    "theme": "Efeitos das interações conversacionais com LLMs sobre normas sociais humanas",
+    "subtheme": "Vazamento de normas e alinhamento sicofântico",
+    "concepts": [
+      "norm leakage",
+      "computers are social actors",
+      "sycophantic responses",
+      "social boundaries in alignment",
+      "instrumental prompting",
+      "context boundary"
+    ],
+    "model_layers": [
+      "interaction_design",
+      "alignment_policy",
+      "user_behavioral_effects"
+    ],
+    "rq_alignment": [
+      "human_accountability_in_conversation",
+      "alignment_and_sycophancy_risks",
+      "indirect_relevance_to_conversational_governance"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Interações repetidas com IA conversacional complacente podem produzir norm leakage—transferência de hábitos comunicativos instrumentais adquiridos em trocas humano–IA para interações humano–humano subsequentes—potencialmente amplificada por alinhamento sicofântico.",
+    "contribution": "Propõe framework conceitual de norm leakage que desafia o modelo CASA unidirecional, integra evidência experimental de spillover comportamental e sugere limites sociais no alinhamento (postura neutra, recusa de enquadramentos degradantes, humildade epistêmica) como contramedida.",
+    "limitations": "Magnitude real, durabilidade e efeitos de longo prazo permanecem incertos; lacunas em contextos do mundo real explicitadas no texto fornecido.",
+    "use_in_review": "Usar como evidência contextual/fundacional sobre riscos comportamentais e desenho de alinhamento em sistemas conversacionais baseados em LLM; não sustenta diretamente recomendações de governança operacional em ambientes regulados."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo é perspectiva teórica em periódico Nature Portfolio sobre LLMs conversacionais",
+      "excerpt": "communications psychology Perspective A Nature Portfolio journal",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Autores propõem norm leakage a partir de interações com IA conversacional",
+      "excerpt": "We propose that repeated engagement with conversational AI systems may produce norm leakage: the cross-context carryover of instrumental communicative habits",
+      "page": "1",
+      "section": "abstract/introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Normas humanas envolvem reciprocidade e accountability social",
+      "excerpt": "Human communication norms, by contrast, evolved under conditions of reciprocity and social accountability.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs permitem interações mais fluentes que chatbots anteriores",
+      "excerpt": "Compared with earlier chatbots, such models enable far more fluent, contextually responsive exchange",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Evidência experimental de spillover após interação com parceiro IA",
+      "excerpt": "participants who interacted with an AI partner—rather than a purported human—subsequently adopted more demanding communication styles and evaluated an unrelated person's work more harshly",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Estudo citado usou GPT-4 com manipulação de identidade do parceiro",
+      "excerpt": "Tey et al. (total N = 1261) isolated perceived partner identity as the key driver by having participants interact with the same GPT-4 model",
+      "page": "3",
+      "section": "body",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Alinhamento sicofântico pode amplificar norm leakage",
+      "excerpt": "We further propose that sycophantic alignment may amplify norm leakage by reinforcing instrumental interaction styles.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Figura propõe limites sociais no alinhamento como contramedida",
+      "excerpt": "Neutral, non-subservient stance • Refusal of demeaning frames • Epistemic humility",
+      "page": "2",
+      "section": "Figure 1 caption",
+      "supports": "coding"
+    },
+    {
+      "claim": "Compliance otimizado por aprovação fomenta estilo instrumental",
+      "excerpt": "approval-optimized compliance can foster instrumental, asymmetric interaction styles toward AI systems",
+      "page": "2",
+      "section": "Figure 1 caption",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Autores reconhecem incerteza sobre magnitude e durabilidade dos efeitos",
+      "excerpt": "although the durability and real-world magnitude of these effects remain unclear",
+      "page": "1",
+      "section": "abstract/introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Lacunas de longo prazo e mundo real permanecem",
+      "excerpt": "Important real-world and long-term gaps",
+      "page": "4",
+      "section": "body",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Sem foco em domínios regulados no texto fornecido",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

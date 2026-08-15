@@ -1,0 +1,168 @@
+{
+  "bibliographic": {
+    "title": "The Nuclear Analogy in AI Governance Research",
+    "authors": "Sophia Hatz",
+    "year": "2025",
+    "venue": "Handbook on the Global Governance of Artificial Intelligence, Edward Elgar Publishing",
+    "doi": "unclear",
+    "publication_type": "book",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Hatz, S. (in press). The Nuclear Analogy in AI Governance Research. In M. Furendal & M. Lundgren (Eds.), Handbook on the Global Governance of Artificial Intelligence. Edward Elgar Publishing."
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic review",
+    "study_design": "systematic review of scholarly works using keyword-based search across nuclear governance and artificial intelligence domains",
+    "sample_description": "43 scholarly works which explicitly draw on the nuclear domain to derive lessons for AI governance",
+    "sample_size": "43",
+    "sector": "AI governance policy and international security discourse",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Broad AI governance framed through nuclear technology analogies; references to frontier/foundation models and next-generation AI models without focus on conversational systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "AI_GOVERNANCE",
+      "SYSTEMATIC_REVIEW",
+      "REGULATED_CONTEXT_PARTIAL",
+      "GENAI_REFERENCE"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI",
+      "NO_OPERATIONAL_GOVERNANCE",
+      "NO_REGULATED_SECTOR_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The chapter is a systematic review of 43 works on nuclear analogies in AI governance, offering macro-level policy and institutional lessons. The provided text contains no discussion of conversational AI, chatbots, agents, RAG, guardrails, observability, human oversight in deployed conversational systems, or sector-specific regulated deployments. It is relevant as foundational contextual evidence for global AI governance framing but not as central evidence for conversational governance of LLM-based systems in regulated environments.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial methodology excerpts were supplied; full chapter may contain additional regulated-domain or deployment-governance content not visible in the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Clear systematic-review objective and sample size (n=43) are reported. Search strings are partially described. Analysis is organized into four problem areas, but full screening, appraisal, and synthesis procedures are not visible in the provided excerpt. Transferability to conversational LLM governance in regulated settings is limited based on available text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "moderate",
+    "explanation": "The study appears methodologically coherent as a focused systematic review of nuclear-analogy literature in AI governance, with a defined corpus of 43 works and a clear analytic structure. However, relevance to the review scope on conversational governance of LLM systems in regulated environments is low in the provided text, and full methodological detail is incomplete in the excerpt."
+  },
+  "coding": {
+    "open_codes": [
+      "nuclear_analogy",
+      "historatic_precedent",
+      "systematic_review",
+      "international_institutions",
+      "domestic_safety_regulation",
+      "dual_use_technology",
+      "frontier_ai",
+      "policy_imagination"
+    ],
+    "axial_codes": [
+      "macro_ai_governance",
+      "international_security_governance",
+      "historical_analogy_as_policy_tool",
+      "transformative_technology_governance"
+    ],
+    "theme": "Nuclear governance analogies applied to AI policy and institutions",
+    "subtheme": "Lessons from nuclear precedents for global AI governance",
+    "concepts": [
+      "analogical reasoning",
+      "IAEA-style oversight",
+      "international agreements",
+      "frontier AI",
+      "foundation models",
+      "public safety risk",
+      "unsuccessful governance approaches"
+    ],
+    "model_layers": [
+      "policy_layer",
+      "institutional_layer",
+      "international_security_layer"
+    ],
+    "rq_alignment": [
+      "indirect_support_for_macro_governance_framing"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "The nuclear analogy is prominent in AI governance discourse; reviewing 43 scholarly works shows nuclear precedents are applied across early technology governance, international security, international institutions, and domestic safety regulation, and can inform policy even when domains differ.",
+    "contribution": "Clarifies how nuclear-inspired proposals function conceptually by providing frameworks, cautionary lessons, and expanded policy imagination for global AI governance.",
+    "limitations": "Nuclear-inspired AI proposals are often criticized because technological domains differ substantially; the provided excerpt does not detail the review's full methodological limitations.",
+    "use_in_review": "Use as foundational contextual evidence for macro-level AI governance, international oversight models, and high-stakes safety framing. Do not use as primary evidence on conversational governance, operational controls, or regulated-sector deployment of LLM conversational systems."
+  },
+  "evidence": [
+    {
+      "claim": "Study is a systematic review of 43 scholarly works on nuclear analogies in AI governance",
+      "excerpt": "This chapter reviews 43 scholarly works which explicitly draw on the nuclear domain to derive lessons for AI governance.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Four analytic problem areas structure the review findings",
+      "excerpt": "We identify four problem areas where researchers apply nuclear precedents: (1) early development and governance of transformative technologies; (2) international security risks and strategy; (3) international institutions and agreements; and (4) domestic safety regulation.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Search combined nuclear-domain and AI keywords",
+      "excerpt": "Our search strings included keywords referencing the nuclear domain—such “nuclear technology”; “nuclear governance”; “arms control”; “IAEA”; “CERN”; “atoms for peace”; “nonproliferation”–and “artificial intelligence”.",
+      "page": "3",
+      "section": "Results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Frontier/foundation models are referenced as high-risk AI context but not as conversational systems",
+      "excerpt": "The term “Frontier AI” refers to highly capable foundation models, which could have dangerous capabilities sufficient to pose severe risk to public safety",
+      "page": "7",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational AI content appears in the provided text",
+      "excerpt": "Key words: Artificial Intelligence, nuclear governance, emerging technology, international security, systematic review, historical analogy",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance contribution is conceptual and policy-oriented rather than operational",
+      "excerpt": "Valuable functions include providing conceptual frameworks for analyzing strategic dynamics, offering cautionary lessons about unsuccessful governance approaches, and expanding policy imagination by legitimizing radical proposals.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated or high-stakes context appears only at broad public-safety and domestic regulation level",
+      "excerpt": "next-generation AI models could possess capabilities sufficiently dangerous to jeopardize public safety",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "International oversight mechanisms from nuclear governance are discussed as AI policy precedents",
+      "excerpt": "many policy frameworks proposed for AI governance explicitly adapt mechanisms originally developed for nuclear technology, such as an international oversight body similar to the International Atomic Energy Agency (IAEA)",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "synthesis"
+    }
+  ]
+}

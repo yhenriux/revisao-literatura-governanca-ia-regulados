@@ -1,0 +1,176 @@
+{
+  "bibliographic": {
+    "title": "The Use of Chatbots in Oncological Care: A Narrative Review",
+    "authors": "Alexander Wang, Zhiyu Qian, Logan Briggs, Alexander P Cole, Leonardo O Reis, Quoc-Dien Trinh",
+    "year": "2023",
+    "venue": "International Journal of General Medicine",
+    "doi": "10.2147/IJGM.S408208",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Wang, A., Qian, Z., Briggs, L., Cole, A. P., Reis, L. O., & Trinh, Q.-D. (2023). The use of chatbots in oncological care: A narrative review. International Journal of General Medicine. https://doi.org/10.2147/IJGM.S408208"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "narrative_review",
+    "study_design": "PubMed literature search with narrative synthesis",
+    "sample_description": "Studies investigating chatbot use in any aspect of oncological care (prevention, patient education, treatment, surveillance)",
+    "sample_size": "21 included studies from 196 initial records",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "Chatbots and conversational agents using natural language processing, machine learning, and broader artificial intelligence; includes voice-based platforms such as Siri and Watson; no large language models explicitly discussed"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "conversational_ai",
+      "regulated_healthcare",
+      "chatbot_oncology"
+    ],
+    "exclusion_codes": [
+      "no_llm_focus",
+      "no_conversational_governance_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "Narrative review clearly addresses chatbots and conversational agents in oncological care within a regulated healthcare domain, but the provided text focuses on applications, satisfaction, efficacy, and implementation limitations rather than conversational governance, accountability, guardrails, audit, or LLM-specific systems.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Confirm whether later sections discuss bias, transparency, compliance, human oversight, or LLM-based chatbots beyond the excerpts supplied; triage flagged governance terms not visible in provided text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Search strategy and inclusion criteria are stated, but as a narrative review with PubMed-only retrieval through April 2022, synthesis rigor and governance-related appraisal are limited in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The review coherently summarizes oncological chatbot applications and outcomes, but its relevance to conversational governance and LLM-based systems is indirect; narrative design and single-database scope limit confidence for governance-focused synthesis."
+  },
+  "coding": {
+    "open_codes": [
+      "oncology_chatbots",
+      "patient_satisfaction",
+      "cancer_screening_prevention",
+      "treatment_monitoring",
+      "user_testing_limitations",
+      "nlp_ml_chatbots"
+    ],
+    "axial_codes": [
+      "clinical_application",
+      "patient_centered_communication",
+      "implementation_barriers"
+    ],
+    "theme": "Clinical deployment of chatbots in oncological care",
+    "subtheme": "Applications, satisfaction, and pre-implementation limitations",
+    "concepts": [
+      "conversational_agent",
+      "natural_language_processing",
+      "machine_learning",
+      "patient_education",
+      "risk_stratification",
+      "iterative_improvement"
+    ],
+    "model_layers": [
+      "application_layer",
+      "user_interaction_layer"
+    ],
+    "rq_alignment": [
+      "regulated_domain_chatbot_use",
+      "conversational_systems_in_healthcare"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Chatbots in oncological care show high user satisfaction and frequent efficacy in improving communication and access to cancer-related information, but widespread implementation is limited by the need for extensive user-testing and iterative improvement.",
+    "contribution": "Provides a domain-specific map of oncological chatbot applications across prevention, education, treatment, and surveillance, synthesizing 21 included studies.",
+    "limitations": "Narrative review scope; PubMed-only search through April 2022; limited discussion of governance, safety, compliance, or LLM architectures in the provided text.",
+    "use_in_review": "Use as foundational contextual evidence for regulated healthcare chatbot applications and implementation barriers; not central evidence for conversational governance frameworks or LLM-specific governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Study is a narrative review of chatbots in oncological care",
+      "excerpt": "The Use of Chatbots in Oncological Care: A Narrative Review",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "PubMed search identified 21 included studies",
+      "excerpt": "The initial search yielded 196 records, 21 of which met inclusion criteria.",
+      "page": "1",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Inclusion focused on chatbot use across oncological care phases",
+      "excerpt": "Inclusion criteria were chatbot use in any aspect of oncological care—prevention, patient education, treatment, and surveillance.",
+      "page": "1",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Chatbots are defined via NLP-based conversational simulation",
+      "excerpt": "Chatbots are defined as computer programs that process and simulate human conversation by artificially replicating patterns of human interaction through natural language processing.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Technology context includes AI and machine learning, not LLMs",
+      "excerpt": "With advances in artificial intelligence and machine learning technology, increasing efforts have been made to use chatbots to automate specific aspects of oncological care.",
+      "page": "7",
+      "section": "discussion",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated healthcare domain is oncology/cancer care",
+      "excerpt": "We aimed to assess the current applications, limitations, and challenges in the literature on chatbots employed in oncological care.",
+      "page": "1",
+      "section": "background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Reported applications include screening, prevention, monitoring, and management",
+      "excerpt": "The most reported chatbot applications were cancer screening, prevention, risk stratification, treatment, monitoring, and management.",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "High satisfaction and efficacy reported in included studies",
+      "excerpt": "Good patient satisfaction was reported among 14 of 21 chatbots.",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Implementation limited by user-testing and iterative improvement needs",
+      "excerpt": "Currently, chatbots are primarily limited by the need for extensive user-testing and iterative improvement before widespread implementation.",
+      "page": "1",
+      "section": "conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Mixed chatbot performance example with low satisfaction",
+      "excerpt": "the chatbot only had an average satisfaction rating of 54%, adherence was low, and no improvement was seen in knowledge of lung cancer symptom management.",
+      "page": "7",
+      "section": "discussion",
+      "supports": "appraisal"
+    }
+  ]
+}

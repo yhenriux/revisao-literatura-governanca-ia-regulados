@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "An agentic AI framework for ingestion and standardization of single-cell RNA-seq data analysis",
+    "authors": "Nima Nouri, Ronen Artzi, Virginia Savova",
+    "year": "2026",
+    "venue": "npj Artificial Intelligence",
+    "doi": "10.1038/s44387-025-00064-0",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Nouri, N., Artzi, R., & Savova, V. (2026). An agentic AI framework for ingestion and standardization of single-cell RNA-seq data analysis. npj Artificial Intelligence. https://doi.org/10.1038/s44387-025-00064-0"
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "agentic system design and pipeline development",
+    "study_design": "two-component framework development (CellAtria agent plus CellExpress pipeline) with architectural description",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "biomedical research, pharmaceutical single-cell RNA sequencing",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "dialogue-driven chatbot interface, graph-based multi-actor agentic AI, LLM-mediated tool orchestration, document-to-analysis automation for scRNA-seq data reuse"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM-mediated agentic system",
+      "conversational chatbot interface",
+      "biomedical institutional workflow context",
+      "human oversight mentioned for LLM risk mitigation"
+    ],
+    "exclusion_codes": [
+      "governance_not_primary_focus",
+      "no_explicit_governance_framework"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article clearly presents an LLM-based agentic system with a chatbot interface for biomedical data workflows and references institutional, enterprise, and clinical or highly regulated contexts. However, the provided text centers on automating scRNA-seq ingestion and analysis rather than on conversational governance, accountability, auditability, compliance, or oversight mechanisms as an explicit research object. It is relevant as supporting technical evidence, not as central governance evidence.",
+    "decision_confidence": 0.68,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Full text should be checked for additional governance, oversight, monitoring, traceability, or compliance content beyond the workflow-automation focus visible in the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal is limited to the excerpt provided. The objective and system architecture are clearly described, but no empirical evaluation sample, user study, or governance-specific validation is visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The description of the CellAtria architecture is internally coherent and technically detailed, but the excerpt offers limited evidence on evaluation rigor, governance mechanisms, or applicability to regulated conversational-AI governance beyond biomedical workflow automation."
+  },
+  "coding": {
+    "open_codes": [
+      "agentic AI",
+      "chatbot interface",
+      "LLM tool orchestration",
+      "document-to-analysis automation",
+      "pre-vetted analytical tools",
+      "single-cell RNA-seq pipeline",
+      "institutional workflow integration",
+      "LLM hallucination risk",
+      "human oversight"
+    ],
+    "axial_codes": [
+      "conversational orchestration",
+      "technical workflow automation",
+      "biomedical regulated-adjacent context",
+      "risk-aware LLM deployment"
+    ],
+    "theme": "Agentic LLM-mediated conversational automation for biomedical data workflows",
+    "subtheme": "Tool-centric orchestration with limited explicit governance framing",
+    "concepts": [
+      "CellAtria",
+      "CellExpress",
+      "graph-based multi-actor architecture",
+      "LLM-mediated interface",
+      "dialogue-driven automation"
+    ],
+    "model_layers": [
+      "interaction layer",
+      "orchestration layer",
+      "tool execution layer",
+      "analysis pipeline layer"
+    ],
+    "rq_alignment": [
+      "LLM-based conversational systems",
+      "operational deployment in institutional biomedical settings",
+      "human oversight as risk mitigation"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "CellAtria is an agentic AI framework that uses an LLM and chatbot interface to orchestrate standardized ingestion and analysis of publicly available single-cell RNA-seq data through pre-validated tools.",
+    "contribution": "Provides a concrete technical architecture for dialogue-driven, LLM-mediated automation in biomedical research workflows, shifting the LLM role from raw code generation to orchestration of robust analytical tools.",
+    "limitations": "The supplied text emphasizes workflow automation and scientific reproducibility more than conversational governance; governance, audit, compliance, and post-deployment monitoring are not developed as primary contributions in the excerpt.",
+    "use_in_review": "Use as supporting evidence on agentic LLM chatbot systems in biomedical or institutional contexts, especially tool-centric orchestration and mentions of oversight in high-risk LLM use; not suitable as central evidence on conversational governance frameworks."
+  },
+  "evidence": [
+    {
+      "claim": "Article presents an LLM-based agentic system with a chatbot interface for dialogue-driven automation.",
+      "excerpt": "CellAtria ... enables dialogue-driven, document-to-analysis automation through a chatbot interface.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The system integrates a large language model with tool-execution capabilities in a multi-actor architecture.",
+      "excerpt": "Built on a graph-based, multi-actor architecture, CellAtria integrates a large language model (LLM) with tool-execution capabilities",
+      "page": "1",
+      "section": "front matter",
+      "supports": "coding"
+    },
+    {
+      "claim": "Primary application domain is biomedical single-cell RNA sequencing workflow automation.",
+      "excerpt": "CellAtria provides computational skill-agnostic and time-efficient access to standardized single-cell data ingestion and analysis.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Workflow integration occurs in institutional and enterprise research environments.",
+      "excerpt": "integrating published studies into institutional and enterprise-level analysis workflows remains a slow and resource-intensive process",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors position agentic AI as coupling LLMs with domain-specific computational toolchains.",
+      "excerpt": "Agentic artificial intelligence (AI) systems ... offer a structured approach to automating complex biomedical workflows by coupling large language models (LLMs) with domain-specific computational toolchains",
+      "page": "1",
+      "section": "front matter",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLM code-generation risks motivate extensive human oversight in clinical or highly regulated settings.",
+      "excerpt": "Any of these issues can lead to scientifically unsound analyses without extensive human oversight",
+      "page": "2",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Architectural choice limits LLM role to orchestrating pre-vetted tools for rigor and reproducibility.",
+      "excerpt": "an LLM-mediated tool-centric paradigm that balances flexibility with the imperative for scientific rigor and reproducibility",
+      "page": "2",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLM mediates task dispatch across document parsing, metadata structuring, dataset retrieval, and analysis execution.",
+      "excerpt": "CellAtria employs a large language model (LLM) to mediate task dispatch across a graph-based, multi-actor execution framework",
+      "page": "2",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Users interact through a language model that orchestrates pre-validated analytical tools.",
+      "excerpt": "researchers interact with a language model that orchestrates pre-validated analytical tools",
+      "page": "2",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Peer-reviewed journal publication with identifiable authorship and DOI.",
+      "excerpt": "npj artificial intelligence Article https://doi.org/10.1038/s44387-025-00064-0 Nima Nouri , Ronen Artzi & Virginia Savova",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Stakeholder experience with artificial intelligence in healthcare: a bibliometric study of satisfaction, trust, acceptance, and patient engagement",
+    "authors": "Li, X., Jing, C., Gong, Z., Zhang, J., & Zhang, S.",
+    "year": "2026",
+    "venue": "Frontiers in Digital Health",
+    "doi": "10.3389/fdgth.2026.1842497",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Li, X., Jing, C., Gong, Z., Zhang, J., & Zhang, S. (2026). Stakeholder experience with artificial intelligence in healthcare: A bibliometric study of satisfaction, trust, acceptance, and patient engagement. Frontiers in Digital Health, 8, 1842497. https://doi.org/10.3389/fdgth.2026.1842497"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "bibliometric analysis",
+    "study_design": "bibliometric literature mapping using Web of Science and Scopus exports analyzed with VOSviewer, CiteSpace, bibliometrix, and Excel",
+    "sample_description": "English-language articles, reviews, and conference papers on healthcare stakeholder experience with AI-related technologies and satisfaction/acceptance-related concepts published 2010-2025",
+    "sample_size": "1794",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "maps literature mentioning AI broadly, including machine learning, NLP, chatbots, ChatGPT, large language models, clinical decision support, and robotics; identifies LLM-mediated clinical communication as an emerging frontier"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening and characterization",
+    "inclusion_codes": [
+      "regulated_healthcare_context",
+      "mentions_llm_chatbot_conversational_ai",
+      "mentions_trust_explainability_ethics_accountability",
+      "bibliometric_field_mapping"
+    ],
+    "exclusion_codes": [
+      "not_conversational_governance_study",
+      "not_llm_system_implementation_or_governance_framework",
+      "secondary_bibliometric_mapping_only"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a bibliometric mapping of stakeholder-experience literature in healthcare AI, not an empirical or conceptual study of conversational governance, guardrails, oversight, audit, or operational controls for LLM-based systems. It is relevant as contextual evidence because it quantifies rising attention to ChatGPT, large language models, chatbots, explainability, ethics, accountability, privacy, and regulation within the healthcare AI literature, and identifies LLM-mediated clinical communication as a research frontier.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated screening graded this as a central candidate, but the provided text shows a bibliometric landscape study rather than direct evidence on conversational governance mechanisms in regulated LLM deployments."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Methods and inclusion criteria are clearly described for a bibliometric review, with a large corpus and standard tools. The excerpt provides limited detail on limitations, ethics, or validation of coding choices. Findings describe literature trends rather than testing governance interventions or conversational system controls."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The study coherently maps publication trends and keyword shifts toward human-centered healthcare AI topics, including LLMs and trust. Its direct relevance to conversational governance in regulated LLM systems is indirect because it analyzes bibliographic co-occurrence rather than governance practices, oversight workflows, or compliance mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "bibliometric mapping",
+      "stakeholder satisfaction",
+      "trust in healthcare AI",
+      "patient acceptance",
+      "keyword evolution",
+      "LLM diffusion after 2022",
+      "ethical and regulatory attention",
+      "conversational AI strand"
+    ],
+    "axial_codes": [
+      "human-centered healthcare AI",
+      "literature landscape analysis",
+      "emerging LLM communication frontier"
+    ],
+    "theme": "Stakeholder experience and trust in healthcare AI literature",
+    "subtheme": "Bibliometric shift toward LLMs, chatbots, explainability, and ethics",
+    "concepts": [
+      "patient satisfaction",
+      "trust",
+      "acceptance",
+      "patient engagement",
+      "explainable AI",
+      "ethics",
+      "accountability",
+      "privacy",
+      "regulation",
+      "ChatGPT",
+      "large language models",
+      "chatbot",
+      "clinical communication",
+      "safe deployment"
+    ],
+    "model_layers": [
+      "literature/ecosystem layer",
+      "stakeholder experience layer",
+      "technology adoption layer"
+    ],
+    "rq_alignment": [
+      "contextual mapping of regulated healthcare AI literature touching conversational AI and governance-related terms",
+      "identification of research frontiers rather than operational governance evidence"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Healthcare AI research has shifted from technical and surgical applications toward human-centered stakeholder experience, with rapid post-2022 growth linked to ChatGPT and large language models and parallel increases in ethics, regulation, explainability, accountability, and trust-related publications.",
+    "contribution": "Provides a large-scale bibliometric map of 1,794 publications showing keyword and co-citation shifts toward patient satisfaction, trust, ChatGPT, large language models, explainable AI, ethics, and nursing adaptation, and identifies three frontiers including large-language-model-mediated clinical communication.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence to characterize the healthcare literature landscape around stakeholder trust, acceptance, LLMs, chatbots, explainability, and regulatory/ethical themes; do not treat as central empirical or framework evidence on conversational governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article in Frontiers in Digital Health with identifiable authors and DOI.",
+      "excerpt": "Li X, Jing C, Gong Z, Zhang J and Zhang S (2026) Stakeholder experience with artiﬁcial intelligence in healthcare: a bibliometric study of satisfaction, trust, acceptance, and patient engagement. Front. Digit. Health 8:1842497.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study design is bibliometric review of healthcare stakeholder experience with AI.",
+      "excerpt": "This study therefore analyzed satisfaction as one component of a broader stakeholder-experience framework that also includes trust, attitude, perception, acceptance, willingness, resistance, and usability.",
+      "page": "1",
+      "section": "background",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample comprises 1,794 publications from WoS and Scopus after screening.",
+      "excerpt": "After duplicate removal and eligibility screening, 1,794 publications were included.",
+      "page": "1",
+      "section": "methods/results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Search strategy explicitly included LLM, ChatGPT, and chatbot terms.",
+      "excerpt": "artiﬁcial intelligence-related technologies (for example, artiﬁcial intelligence, machine learning, deep learning, natural language processing, large language model, ChatGPT, chatbot, clinical decision support, robotics)",
+      "page": "3",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Results show field shift toward LLMs, ChatGPT, explainable AI, and ethics.",
+      "excerpt": "Keyword and co-citation analyses showed a shift from early work on robotic surgery and clinical decision support toward human- centered topics, including patient satisfaction, trust, attitude, ChatGPT, large language models, explainable AI, ethics, and nursing workforce adaptation.",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Identifies LLM-mediated clinical communication as a research frontier.",
+      "excerpt": "Three interconnected frontiers were identiﬁed: large-language-model- mediated clinical communication, explainability and trust in patient-AI- professional relationships",
+      "page": "1",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Post-2022 LLM diffusion created patient-facing and clinician-facing interaction scenarios.",
+      "excerpt": "the post-2022 diffusion of ChatGPT and other large language models created new patient-facing and clinician- facing interaction scenarios, including symptom explanation, medical education, documentation support, and conversational decision support.",
+      "page": "4",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Literature corpus shows rising ethics, regulation, accountability, and privacy attention.",
+      "excerpt": "records containing ethics-, regulation-, XAI-, trust- , privacy-, consent-, fairness-, or accountability-related terms increased from 111 of 347 records (32.0%) to 248 of 605 records (41.0%).",
+      "page": "5",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Purple cluster around ChatGPT and large language models represents conversational AI strand.",
+      "excerpt": "The purple cluster, around ChatGPT and large language models, captures the newest conversational AI strand",
+      "page": "7",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study does not evaluate conversational governance mechanisms such as guardrails, audit, or human oversight.",
+      "excerpt": "the field has moved beyond evaluating whether AI works technically and has begun to ask how different users experience, accept, and trust AI in clinical settings.",
+      "page": "7",
+      "section": "results",
+      "supports": "eligibility"
+    }
+  ]
+}

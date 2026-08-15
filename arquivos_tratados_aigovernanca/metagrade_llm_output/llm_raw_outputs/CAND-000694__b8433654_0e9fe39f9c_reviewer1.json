@@ -1,0 +1,174 @@
+{
+  "bibliographic": {
+    "title": "Enhancing Efficiency of Pension Schemes through Effective Risk Governance: A Kenyan Perspective",
+    "authors": "Sylvester Willys Namagwa",
+    "year": "2025",
+    "venue": "Journal of Financial Risk Management",
+    "doi": "10.4236/jfrm.2025.143017",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Namagwa, S. W. (2025). Enhancing efficiency of pension schemes through effective risk governance: A Kenyan perspective. Journal of Financial Risk Management, 14(3), 304–324. https://doi.org/10.4236/jfrm.2025.143017"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "quantitative panel data analysis with mediation testing",
+    "study_design": "panel data study examining mediating effect of risk management",
+    "sample_description": "896 observations from 128 pension schemes in Kenya over 2015–2021",
+    "sample_size": "896 observations; 128 schemes",
+    "sector": "pension funds / retirement benefits / financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "corporate governance and financial risk management in pension schemes; no LLM, generative AI, or conversational systems mentioned"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_no_llm_genai",
+      "E2_no_conversational_ai",
+      "E3_off_topic_domain"
+    ],
+    "exclusion_reason": "The study examines corporate governance, risk management mediation, and efficiency of Kenyan pension schemes using panel data. The provided text contains no LLMs, generative AI, conversational systems, chatbots, agents, RAG, or AI governance mechanisms relevant to the review scope.",
+    "decision_rationale": "Although the paper addresses governance, risk management, and compliance in a regulated financial domain (pensions), it is entirely about board-level corporate governance and pension scheme efficiency. It does not study conversational AI, LLM-based systems, or generative AI governance. Generic governance and risk terminology in a pre-AI financial context does not meet inclusion criteria for a systematic review on conversational governance in LLM systems.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Absence of LLM, generative AI, and conversational system content is unambiguous in the provided abstract and introduction excerpts."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal based on limited front-matter text only. Methodological detail on estimation, variables, and robustness checks is not available in the provided excerpts. Study appears internally coherent for its stated pension governance question but is off-topic for the LLM conversational governance review."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "For the target review on LLM conversational governance, relevance is effectively nil. Limited excerpt prevents full methodological assessment; available text shows a clear empirical objective and defined sample but insufficient detail on analysis procedures."
+  },
+  "coding": {
+    "open_codes": [
+      "corporate governance",
+      "risk management mediation",
+      "pension scheme efficiency",
+      "board of trustees",
+      "employee representatives",
+      "regulated financial sector",
+      "panel data",
+      "Kenya"
+    ],
+    "axial_codes": [
+      "organizational governance",
+      "financial risk governance",
+      "pension fund performance"
+    ],
+    "theme": "Corporate and risk governance in pension schemes",
+    "subtheme": "Mediation of risk management between governance structures and scheme efficiency",
+    "concepts": [
+      "corporate governance",
+      "risk management",
+      "mediation effect",
+      "pension efficiency",
+      "board of trustees",
+      "compliance",
+      "actuarial fairness"
+    ],
+    "model_layers": [
+      "board governance layer",
+      "risk management layer",
+      "organizational performance layer"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.9
+  },
+  "synthesis": {
+    "main_claim": "Risk management significantly mediates the relationship between employee representatives on the board of trustees (as a component of corporate governance) and the efficiency of pension schemes in Kenya.",
+    "contribution": "Empirical evidence that strong risk management practices enable governance structures—particularly employee board representation—to contribute to improved pension scheme efficiency and sustainability.",
+    "limitations": "Provided text notes potential sampling bias against firms of different dispositions; broader methodological limitations not fully visible in excerpts.",
+    "use_in_review": "Exclude from evidence synthesis. Not usable for claims about LLM, conversational AI, or generative AI governance. At most, distant analogical context for governance-in-regulated-finance, which is outside the defined review scope."
+  },
+  "evidence": [
+    {
+      "claim": "No LLM or conversational AI content in the study",
+      "excerpt": "Keywords Risk Management, Corporate Governance, Efficiency of Firms, Retirement Benefits, Pension Schemes, Board of Trustees",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study objective is pension governance and risk mediation, not AI systems",
+      "excerpt": "The study investigates the intervening effect of risk management on the relationship between corporate governance and the efficiency of pension schemes in Kenya.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical panel data design with defined sample",
+      "excerpt": "The study employs panel data consisting of 896 observations from 128 schemes in a sample period from 2015 to 2021.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Main empirical finding on mediation",
+      "excerpt": "risk management significantly mediates the relationship between employee representatives on the board of trustees, as a component of corporate governance, and the efficiency of pension schemes",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Risk management framed as governance safeguard, not AI guardrails",
+      "excerpt": "Risk management, therefore, serves as a critical safeguard that enables governance structures to function more effectively",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated financial domain context",
+      "excerpt": "pension schemes invariably face a dilemma on where and how to manage their savings to sustainably achieve the highest level of efficiency in a risk-return trade-off",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Corporate governance focus on boards and trustees",
+      "excerpt": "Corporate governance has a risk management toolkit that helps boards to weave an optimal trade-off between the cost of risk control and the likely losses from risk crystallization",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Compliance mentioned in financial governance sense",
+      "excerpt": "risk management is not just a compliance exercise, but a vital component of good governance that directly contributes to the success and sustainability of pension schemes",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Author acknowledges sampling bias limitation",
+      "excerpt": "the study to sampling bias against firms of different dispositions",
+      "page": "4",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Peer-reviewed journal publication",
+      "excerpt": "Received: August 20, 2025 Accepted: September 20, 2025 Published: September 23, 2025",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

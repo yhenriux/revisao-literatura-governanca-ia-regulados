@@ -1,0 +1,162 @@
+{
+  "bibliographic": {
+    "title": "DLT Compliance Reporting",
+    "authors": "Henrik Axelsen; Johannes Rude Jensen; Omri Ross",
+    "year": "unclear",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "report",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Axelsen, H., Jensen, J. R., & Ross, O. (unclear). DLT Compliance Reporting [Research in progress]. University of Copenhagen / eToroX Labs."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "Design Science Research (DSR)",
+    "study_design": "Design, development, and evaluation of a DLT artefact for automated collection and enrichment of transactional compliance data, conducted with industry and regulatory representatives",
+    "sample_description": "Group of representatives from industry and regulatory authorities",
+    "sample_size": "unclear",
+    "sector": "financial services; banking; regulatory compliance reporting",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "Distributed ledger technology (DLT) for ITS risk compliance reporting automation via a pull-model; not LLM, conversational AI, chatbots, agents, or RAG"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_technology",
+      "no_llm_genai",
+      "no_conversational_ai",
+      "out_of_scope_population"
+    ],
+    "exclusion_reason": "The study addresses DLT-based compliance reporting automation in banking, not governance of conversational or LLM-based systems.",
+    "decision_rationale": "Although the paper strongly addresses regulated financial compliance, governance, accountability, transparency, privacy, and supervisory review, its technology focus is distributed ledger technology for regulatory reporting workflows. The provided text contains no mention of large language models, generative AI, conversational systems, chatbots, agents, RAG, guardrails, observability of AI outputs, or related conversational governance mechanisms central to the review scope.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Short research-in-progress paper using DSR with preliminary artefact requirements and propositions. Governance/accountability themes are present but tied to DLT reporting architecture, not conversational AI governance. Evaluation detail, sample size, and limitations are thin in the excerpt provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internally coherent for DLT compliance reporting, but methodological detail is limited and relevance to conversational LLM governance in regulated settings is very low based on the provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "DLT_compliance_reporting",
+      "pull_model_supervision",
+      "ITS_risk_reporting",
+      "artefact_governance_requirements",
+      "delegated_accountability",
+      "GDPR_privacy_compliance",
+      "supervisory_transparency",
+      "design_science_research"
+    ],
+    "axial_codes": [
+      "regulated_financial_compliance",
+      "distributed_ledger_governance",
+      "automated_regulatory_reporting"
+    ],
+    "theme": "DLT-enabled regulatory compliance reporting",
+    "subtheme": "Governance and accountability in permissioned DLT reporting artefacts",
+    "concepts": [
+      "pull-model",
+      "embedded supervision",
+      "role-based access",
+      "smart contract logic",
+      "single source of truth",
+      "supervisory review and evaluation"
+    ],
+    "model_layers": [
+      "data_interoperability",
+      "security_privacy",
+      "decision_rights_delegation",
+      "accountability_pull_vs_push",
+      "incentivization"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "DLT may automate key compliance reporting processes through a pull-model that lets regulators access near real-time aggregated exposure data, supported by artefact governance requirements for privacy, delegation, and accountability.",
+    "contribution": "Offers practical DSR insights, six grouped artefact requirements, and four propositions on how DLT can change compliance reporting precision, cost, and supervision in heavily regulated banking contexts.",
+    "limitations": "Marked as research in progress; preliminary findings; further trials and work required; limited evaluation detail in the provided text.",
+    "use_in_review": "Exclude from central or supporting evidence on conversational LLM governance; at most marginal contextual background on regulated financial compliance reporting if a broader compliance-governance lens is used."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on DLT, not LLMs or conversational AI",
+      "excerpt": "The IS discourse on the potential of distributed ledger technology (DLT) in the financial services has grown at a tremendous pace",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Uses DSR with industry and regulatory stakeholders",
+      "excerpt": "Working with a group of representatives from industry and regulatory authorities, we employ the design science research methodology (DSR)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Highly regulated banking compliance reporting context",
+      "excerpt": "banks are amongst the most heavily regulated organizations and subject to strict compliance reporting requirements",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Artefact governance requirements include accountability and privacy",
+      "excerpt": "The system must ensure compliance with data privacy regulation such as GDPR",
+      "page": "6",
+      "section": "Requirements",
+      "supports": "coding"
+    },
+    {
+      "claim": "Accountability framed as data pull for supervisory review",
+      "excerpt": "The system must allow the public authorities to pull the required information directly via the reporting agents for real-time analysis, supervisory review and evaluation",
+      "page": "6",
+      "section": "Requirements",
+      "supports": "coding"
+    },
+    {
+      "claim": "Transparency proposition for supervision",
+      "excerpt": "The increased level of transparency enables more effective and focused supervision and more precise and faster data sharing across the regulated entities",
+      "page": "9",
+      "section": "Findings",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Governance models expected to optimize control activities",
+      "excerpt": "control activities as such will be optimized via new governance models",
+      "page": "10",
+      "section": "Conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No conversational or LLM technology discussed in provided text",
+      "excerpt": "enabling the automated collection and enrichment of transactional data",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

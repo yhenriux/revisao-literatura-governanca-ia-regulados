@@ -1,0 +1,177 @@
+{
+  "bibliographic": {
+    "title": "The Role Of Audit Committees In Strengthening Governance And Risk Management In Banks: Evidence From Nepal",
+    "authors": "Rajan Bikram Thapa, Alok Kumar, Surender Kumar Gupta, Ram Chandra Bhandari",
+    "year": "2025",
+    "venue": "International Journal of Environmental Sciences",
+    "doi": "unclear",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Thapa, R. B., Kumar, A., Gupta, S. K., & Bhandari, R. C. (2025). The role of audit committees in strengthening governance and risk management in banks: Evidence from Nepal. International Journal of Environmental Sciences, 11(7s), 960–961."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "quantitative secondary data analysis with confirmatory factor analysis and multiple regression",
+    "study_design": "cross-sectional empirical study using secondary data from bank annual reports and central bank directives",
+    "sample_description": "Nepalese banks; data drawn from annual reports and directives issued by Nepal Rastra Bank",
+    "sample_size": "unclear",
+    "sector": "banking",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "corporate governance audit committees in banking institutions; no LLM, generative AI, or conversational systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_TECH_NO_LLM",
+      "E_TECH_NO_CONVERSATIONAL_AI",
+      "E_SCOPE_WRONG_GOVERNANCE_DOMAIN"
+    ],
+    "exclusion_reason": "The study examines corporate governance and risk management via banking audit committees using secondary financial/regulatory data; it does not address LLMs, generative AI, conversational systems, chatbots, agents, RAG, or conversational governance.",
+    "decision_rationale": "Although the article scores on generic governance, banking, compliance, audit, and risk terms, the review scope requires governance of LLM-based conversational systems in regulated settings. The provided text contains zero references to LLMs, generative AI, conversational interfaces, or AI system oversight mechanisms. Governance here refers to board-level audit committee oversight of financial reporting and institutional risk, not AI or conversational governance.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Exclusion is unambiguous from title, abstract, and introduction: topic is audit committees in Nepalese banking with no AI or conversational technology content."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 0,
+    "results_clarity": 1,
+    "limitations_transparency": 0,
+    "evidence_support": 1,
+    "transferability": 1,
+    "notes": "Appraisal based only on page 1 abstract and introduction. Methods (CFA, multiple regression) are stated but full sampling frame, model specification, results, and limitations are not present in the excerpt. Ethics not discussed in provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "Within-scope relevance for conversational LLM governance is absent. Methodological detail in the excerpt is partial; only abstract-level claims about positive relationships are available without full results or limitations."
+  },
+  "coding": {
+    "open_codes": [
+      "audit committee oversight",
+      "corporate governance",
+      "risk management",
+      "regulatory compliance",
+      "banking sector",
+      "board oversight",
+      "internal control",
+      "financial reporting",
+      "operational risk",
+      "emerging markets"
+    ],
+    "axial_codes": [
+      "institutional financial governance",
+      "risk oversight structures",
+      "regulated banking compliance"
+    ],
+    "theme": "Corporate governance and risk management through audit committees in banking",
+    "subtheme": "Board-level audit oversight in Nepalese banks",
+    "concepts": [
+      "audit committee",
+      "corporate governance",
+      "risk governance",
+      "regulatory compliance",
+      "internal control",
+      "board oversight",
+      "accountability",
+      "risk assessment"
+    ],
+    "model_layers": [
+      "organizational governance layer",
+      "regulatory compliance layer",
+      "risk management layer"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "Audit committees positively influence governance and risk management practices in Nepalese banks, with proactive risk assessment by the committee contributing to effective risk governance.",
+    "contribution": "Adds empirical evidence on audit committee effectiveness in South Asian banking using CFA and regression on secondary regulatory and annual report data.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central and supporting evidence pools. May serve only as distant contextual background on generic governance/audit/compliance in regulated banking if a separate non-AI governance boundary discussion is needed, but it does not inform conversational LLM governance."
+  },
+  "evidence": [
+    {
+      "claim": "Article title and focus are audit committees in banking governance, not AI or conversational systems",
+      "excerpt": "The Role Of Audit Committees In Strengthening Governance And Risk Management In Banks: Evidence From Nepal",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses secondary banking data and quantitative methods, not LLM or conversational AI",
+      "excerpt": "The research utilizes secondary data from annual reports and directives issued by Nepal Rastra Bank. Through the application of Confirmatory Factor Analysis and multiple regression models",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance scope is corporate/financial institutional governance in banks",
+      "excerpt": "Corporate governance and risk management are both critical for the effectiveness and sustainability of banking and financial institutions.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Audit committees oversee financial reporting, compliance, and risk mechanisms",
+      "excerpt": "They are responsible for overseeing financial reporting, ensuring regulatory compliance, and monitoring risk management mechanisms.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Positive relationship claimed between audit committee role and risk management factors",
+      "excerpt": "the study reveals a positive relationship between the role of the Audit Committee and key risk management factors",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Proactive risk assessment by committee linked to risk governance",
+      "excerpt": "A proactive approach to risk assessment by the committee emerges as a significant contributor to effective risk governance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulated banking domain with compliance emphasis",
+      "excerpt": "Keywords: Audit Committee; Corporate Governance; Risk Management; Internal Control; Board Oversight; Nepalese Banking Sector; Regulatory Compliance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Human challenge authority referenced in governance standards context, not AI contestation",
+      "excerpt": "The Basel committee of banking supervision (BCBS) urged banks to give Audit Committees the authority to challenge decisions [2].",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Accountability emphasized for audit committee strengthening",
+      "excerpt": "Strengthening the independence, accountability, and technical capability of audit committees is necessary to improve institutional resilience",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "No LLM, generative AI, chatbot, agent, or conversational system terms appear in provided text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "bibliographic": {
+    "title": "ChatGPT and Generative AI in IT processes Applied Project Final Report",
+    "authors": "Chuan Ma",
+    "year": "2023",
+    "venue": "New York University, School of Professional Studies, Division of Programs in Business",
+    "doi": "unclear",
+    "publication_type": "report",
+    "peer_reviewed": "no",
+    "citation_apa": "Ma, C. (2023). ChatGPT and Generative AI in IT processes: Applied project final report. New York University, School of Professional Studies."
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "applied project with literature review and qualitative semi-structured interviews",
+    "study_design": "qualitative applied project combining literature review, case descriptions, technical discussion, and semi-structured user interviews",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "IT industry",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "ChatGPT and generative AI applied to IT process automation, efficiency improvement, and enterprise adoption"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GENAI",
+      "IT_SECTOR"
+    ],
+    "exclusion_codes": [
+      "TOPIC_MISMATCH",
+      "NOT_CONVERSATIONAL_GOVERNANCE",
+      "NOT_REGULATED_CONTEXT"
+    ],
+    "exclusion_reason": "The document is an applied master's project on using ChatGPT to improve IT process efficiency; available text does not address conversational governance, conversational systems, oversight/accountability mechanisms, audit/logging/tracing, or regulated high-stakes deployment contexts central to the review scope.",
+    "decision_rationale": "Although the report explicitly focuses on generative AI and ChatGPT and briefly mentions safety, legal, and moral risks plus adoption steps such as data preparation and model selection, its stated aim is IT process improvement rather than governance of conversational LLM systems in regulated environments. Methodology is qualitative applied research with interviews, but the topic and evidence provided do not substantively cover conversational AI governance, compliance controls, human oversight, or regulated-domain implementation.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial PDF text is available; later sections on risks, recommendations, and interview findings may contain additional governance-related content not visible in the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 1,
+    "limitations_transparency": 1,
+    "evidence_support": 1,
+    "transferability": 1,
+    "notes": "Clear applied-project objective and stated qualitative interview design, but participant details, analysis procedures, findings, and limitations are not present in the supplied text; appraisal is therefore partial."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the review question on conversational governance in regulated LLM systems, the available evidence is thin and only weakly aligned; the study appears coherent as an IT adoption report but offers limited substantiated material on governance mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "IT process automation",
+      "ChatGPT adoption",
+      "generative AI efficiency",
+      "enterprise adoption recommendations",
+      "safety legal moral risks",
+      "data preparation",
+      "model selection",
+      "semi-structured interviews"
+    ],
+    "axial_codes": [
+      "operational efficiency",
+      "technology adoption",
+      "high-level risk awareness"
+    ],
+    "theme": "Generative AI adoption for IT process improvement",
+    "subtheme": "Enterprise adoption risks and recommendations",
+    "concepts": [
+      "ChatGPT",
+      "generative AI",
+      "IT processes",
+      "process automation",
+      "adoption risks",
+      "data preparation",
+      "model selection"
+    ],
+    "model_layers": [
+      "application layer",
+      "organizational adoption"
+    ],
+    "rq_alignment": [
+      "weak alignment to conversational governance",
+      "weak alignment to regulated environments"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Generative AI, represented by ChatGPT, can help IT organizations automate time-consuming tasks and improve process efficiency, but adoption should account for safety, legal, moral, and employment risks through proper data preparation and model selection.",
+    "contribution": "Provides an applied industry-oriented synthesis of generative AI prospects in IT, including literature review, potential cases, technical description, user interviews, risks, and adoption recommendations.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance in regulated LLM systems; at most marginal contextual background on generic GenAI adoption risks in IT if later full-text review finds no governance-specific content."
+  },
+  "evidence": [
+    {
+      "claim": "Document is a 2023 NYU applied project final report by Chuan Ma on ChatGPT and generative AI in IT processes.",
+      "excerpt": "ChatGPT and Generative AI in IT processes Applied Project Final Report By Chuan Ma Spring 2023",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study combines literature review, cases, technical description, user interviews, risks, and adoption recommendations for generative AI in IT.",
+      "excerpt": "mainly including industry background, literature review, potential cases, technical descriptions, user interviews, potential risks and recommendations for adoption",
+      "page": "2",
+      "section": "Executive Summary",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research question focuses on using ChatGPT to improve IT processes, not conversational governance.",
+      "excerpt": "The research question is how to use generative AI, specifically ChatGPT, to improve IT processes.",
+      "page": "4",
+      "section": "1.2 Research question",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Methodology includes qualitative semi-structured interviews.",
+      "excerpt": "3.1 Qualitative research ... 3.2 Semi-structured interview",
+      "page": "3",
+      "section": "Table of Contents / Methodology",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Report mentions safety, legal, and moral risks but only at a generic adoption level.",
+      "excerpt": "Risks to safety, legal, moral and job losses cannot be ignored.",
+      "page": "2",
+      "section": "Executive Summary",
+      "supports": "coding"
+    },
+    {
+      "claim": "Recommendations concern data preparation and model selection rather than conversational governance controls.",
+      "excerpt": "enterprises should consider following reasonable steps when applying generative AI to ensure proper data preparation and model selection.",
+      "page": "2",
+      "section": "Executive Summary",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Sector context is IT operations and process efficiency.",
+      "excerpt": "active use of generative AI represented by ChatGPT can automatically perform unnecessary tasks that are unnecessary time-consuming and energy-consuming",
+      "page": "2",
+      "section": "Executive Summary",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Technology context explicitly centers ChatGPT as the representative generative AI tool.",
+      "excerpt": "active use of generative AI represented by ChatGPT",
+      "page": "2",
+      "section": "Executive Summary",
+      "supports": "methodology"
+    }
+  ]
+}

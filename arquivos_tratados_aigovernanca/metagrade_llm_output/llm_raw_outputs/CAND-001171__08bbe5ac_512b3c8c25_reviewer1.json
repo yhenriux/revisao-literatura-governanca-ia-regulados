@@ -1,0 +1,188 @@
+{
+  "bibliographic": {
+    "title": "Find the Gap: AI, Responsible Agency and Vulnerability",
+    "authors": "Shannon Vallor; Tillmann Vierkant",
+    "year": "2024",
+    "venue": "Minds and Machines",
+    "doi": "10.1007/s11023-024-09674-0",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Vallor, S., & Vierkant, T. (2024). Find the Gap: AI, Responsible Agency and Vulnerability. Minds and Machines, 34, Article 20. https://doi.org/10.1007/s11023-024-09674-0"
+  },
+  "methodology": {
+    "research_type": "theoretical",
+    "method_family": "philosophical analysis",
+    "study_design": "conceptual theoretical argument",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "autonomous systems (AI/AS), machine learning, deep learning, generative AI language models such as ChatGPT"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "governance_accountability",
+      "regulated_context_illustrative",
+      "genai_mentioned"
+    ],
+    "exclusion_codes": [
+      "conversational_systems_not_primary",
+      "operational_governance_not_addressed"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed philosophical analysis of responsibility gaps, trust, and governance in AI/AS. It mentions generative AI and ChatGPT and uses regulated-context illustrations (e.g., medical evaluation), but its primary focus is moral responsibility and the vulnerability gap rather than governance of conversational LLM systems in regulated operational environments.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python flagged central_candidate due to governance and dialogue terms, but dialogue in the text refers to moral responsibility practices, not conversational AI governance; human adjudication needed on scope fit."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 3,
+    "results_clarity": 5,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Strong conceptual clarity and argumentative rigor for a theoretical philosophy paper; no empirical sample, data collection, or operational governance methods are reported in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is internally coherent and well supported by philosophical and cognitive-science literature in the excerpts provided, but its direct relevance to conversational LLM governance in regulated deployments is partial and mostly foundational."
+  },
+  "coding": {
+    "open_codes": [
+      "responsibility gap",
+      "vulnerability gap",
+      "moral responsibility",
+      "autonomous systems",
+      "trust",
+      "governance",
+      "reactive attitudes",
+      "agency cultivation",
+      "generative AI",
+      "confabulation",
+      "human supervision",
+      "medical evaluator example"
+    ],
+    "axial_codes": [
+      "accountability",
+      "philosophical reframing",
+      "human-AI relational asymmetry",
+      "sociotechnical systems"
+    ],
+    "theme": "Moral responsibility and vulnerability in AI/autonomous systems governance",
+    "subtheme": "Limits of epistemic/control accounts of the responsibility gap",
+    "concepts": [
+      "responsibility gap",
+      "vulnerability gap",
+      "instrumentalist views of responsibility",
+      "reactive attitudes",
+      "agency cultivation",
+      "technological answerability",
+      "problem of many hands"
+    ],
+    "model_layers": [
+      "normative governance layer",
+      "human agency layer",
+      "sociotechnical system layer"
+    ],
+    "rq_alignment": [
+      "accountability",
+      "trust",
+      "governance of AI/AS",
+      "human oversight",
+      "regulated high-stakes illustrations"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "The traditional responsibility gap framing centered on epistemic opacity and attenuated control is insufficient for AI/AS; a more significant gap arises from relational asymmetry of vulnerability between human agents and sociotechnical systems, which undermines responsibility dialogue and trustworthy governance.",
+    "contribution": "Reframes AI/AS responsibility challenges using revised instrumentalist accounts of moral responsibility from cognitive science and philosophy, and proposes attention to the vulnerability gap for trustworthy system design and governance.",
+    "limitations": "Conceptual scope; generative AI and ChatGPT appear as illustrative analogies rather than as the primary object of study; no operational framework for conversational system governance, compliance controls, audit, or post-deployment monitoring is developed in the provided text.",
+    "use_in_review": "Use as foundational contextual evidence on accountability, trust, vulnerability, and governance of autonomous/generative AI systems; not as central evidence on conversational governance mechanisms in regulated LLM deployments."
+  },
+  "evidence": [
+    {
+      "claim": "Article addresses governance and trust challenges in AI/AS through the responsibility gap.",
+      "excerpt": "The responsibility gap, commonly described as a core challenge for the effective governance of, and trust in, AI and autonomous systems (AI/AS)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors define autonomous systems as software, machines, and people acting with little or no human supervision.",
+      "excerpt": "a system involving software applications, machines, and people, that is able to take actions with little or no human supervision.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Advanced AS powered by machine learning still require extensive human support.",
+      "excerpt": "Even today's most advanced AS, powered by large, adaptive and highly complex machine learning models, typically require extensive human support to sustain system functioning.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Generative AI language models such as ChatGPT are discussed as exhibiting confabulation when challenged.",
+      "excerpt": "we see similar phenomena in the latest class of AS built on generative AI language models, such as ChatGPT, which not only routinely confabulate falsehoods about the world, but often confabulate when challenged to explain their own mistakes and errors.",
+      "page": "8",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Deep learning opacity contributes to unpredictability of autonomous system behavior.",
+      "excerpt": "This can be due to the 'intrinsic opacity' of large deep learning models, the stochastic character of their outputs, their complex interactions with the environment and other systems",
+      "page": "4",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Dialogue in the text refers to moral responsibility exchange, not conversational AI systems.",
+      "excerpt": "the process of demanding, giving, and receiving answers can be rightly considered a paradigm of a moral responsibility exchange",
+      "page": "14",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors identify invulnerability and moral inertness of AS as a significant responsibility gap.",
+      "excerpt": "It is this invulnerability and moral inertness that we see as the more significant responsibility gap with AS.",
+      "page": "14",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulated high-stakes context appears via medical evaluation example.",
+      "excerpt": "For the medical evaluator in the second case will be merely one of a team of professionals, including software engineers, data scientists and machine learning researchers, tasked with evaluating the system's overall performance",
+      "page": "16",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Paper argues lessons from revised moral responsibility views can inform AI/AS development and governance.",
+      "excerpt": "we can learn important lessons for AI/AS development and governance from how philosophers have recently revised the traditional concept of moral responsibility",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Conclusion emphasizes vulnerability gap for trustworthy AI/AS and responsible human agency.",
+      "excerpt": "attention to this vulnerability gap must inform and enable future attempts to construct trustworthy AI/AS systems and preserve the conditions for responsible human agency.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "bibliographic": {
+    "title": "A Unified Framework of Five Principles for AI in Society",
+    "authors": "Luciano Floridi, Josh Cowls",
+    "year": "2019",
+    "venue": "Harvard Data Science Review",
+    "doi": "10.1162/99608f92.8cd550d1",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Floridi, L., & Cowls, J. (2019). A unified framework of five principles for AI in society. Harvard Data Science Review, 1(1). https://doi.org/10.1162/99608f92.8cd550d1"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "comparative document analysis of ethical AI principle sets",
+    "study_design": "fine-grained comparative analysis of high-profile ethical principles for AI to assess convergence or divergence",
+    "sample_description": "several of the highest-profile sets of ethical principles for AI, including Asilomar AI Principles, Montreal Declaration for Responsible AI, IEEE Ethical Principles, European Commission EGE Statement, UK House of Lords AIUK report, and Partnership on AI Tenets",
+    "sample_size": "unclear",
+    "sector": "society-wide AI ethics and policy",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "general artificial intelligence and machine learning as interactive, autonomous, and often self-learning agency"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text eligibility and thematic mapping",
+    "inclusion_codes": [
+      "governance_accountability",
+      "ethical_principles_framework",
+      "regulated_contexts_implications",
+      "foundational_normative_lens"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai",
+      "no_llm_specificity",
+      "no_operational_technical_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article offers a high-value foundational ethics and accountability framework for AI in society, including explicability as intelligibility plus accountability, but the provided text contains no conversational systems, chatbots, agents, RAG, guardrails, observability, or LLM-specific governance mechanisms relevant to the review's central focus.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 3,
+    "results_clarity": 5,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Strong conceptual comparative study with clearly stated objective and results; sampling is purposive rather than systematic; limitations are acknowledged but not deeply elaborated in the provided excerpts; high transferability for normative AI governance, low transferability to conversational LLM operational governance."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and adequately supported for generic AI ethics, but methodological limitations include reliance on selected high-profile principle documents and absence of empirical or system-level governance evidence; relevance to conversational LLM governance in regulated environments is indirect and limited."
+  },
+  "coding": {
+    "open_codes": [
+      "principle proliferation",
+      "convergence of AI ethics documents",
+      "bioethics adaptation",
+      "explicability",
+      "accountability",
+      "intelligibility",
+      "laws rules and standards"
+    ],
+    "axial_codes": [
+      "normative AI governance",
+      "accountability and responsibility",
+      "ethical framework synthesis",
+      "policy and standards implications"
+    ],
+    "theme": "Unified ethical principles for AI in society",
+    "subtheme": "Explicability as intelligibility and accountability",
+    "concepts": [
+      "beneficence",
+      "non-maleficence",
+      "autonomy",
+      "justice",
+      "explicability",
+      "accountability",
+      "intelligibility",
+      "fairness",
+      "responsible AI"
+    ],
+    "model_layers": [
+      "normative",
+      "policy"
+    ],
+    "rq_alignment": [
+      "governance and accountability background",
+      "regulated contexts implications",
+      "explicability and responsibility"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "High-profile AI ethics principle sets largely converge on four bioethical principles plus a distinct need for explicability, yielding a unified framework of five core principles for ethical AI.",
+    "contribution": "Proposes a unified five-principle ethical framework and argues that explicability should combine intelligibility ('how does it work?') with accountability ('who is responsible for the way it works?'), with implications for laws, rules, technical standards, and best practices.",
+    "limitations": "Conceptual comparative analysis of selected principle documents; no treatment of conversational AI, LLMs, or operational controls such as guardrails, logging, tracing, human handoff, or post-deployment monitoring.",
+    "use_in_review": "Use as foundational contextual evidence to ground governance, accountability, and explicability concepts in the review's normative framing, not as central evidence on conversational LLM governance in regulated deployments."
+  },
+  "evidence": [
+    {
+      "claim": "Authors and publication venue are identifiable from front matter.",
+      "excerpt": "A Unified Framework of Five Principles for AI in Society Luciano Floridi, Josh Cowls",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses comparative analysis of multiple high-profile AI ethics principle sets.",
+      "excerpt": "we report the results of a fine-grained analysis of several of the highest-profile sets of ethical principles for AI",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Core finding is convergence on five ethical principles including explicability.",
+      "excerpt": "We then identify an overarching framework consisting of five core principles for ethical AI.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Explicability links intelligibility and accountability.",
+      "excerpt": "explicability, understood as incorporating both the epistemological sense of intelligibility (as an answer to the question 'how does it work?') and in the ethical sense of accountability (as an answer to the question: 'who is responsible for the way it works?')",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors assess implications for regulation and standards in varied contexts.",
+      "excerpt": "assess the implications of this ethical framework for future efforts to create laws, rules, technical standards, and best practices for ethical AI in a wide range of contexts",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Technology context is generic AI and machine learning, not LLMs or conversational systems.",
+      "excerpt": "AI is defined on the basis of engineered outcomes and actions",
+      "page": "4",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample includes major responsible-AI and policy documents such as Asilomar and Montreal Declaration.",
+      "excerpt": "The Asilomar AI Principles",
+      "page": "5",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample also includes IEEE, EGE, and UK House of Lords AI ethics sources.",
+      "excerpt": "The Ethical Principles offered in the Statement on Artificial Intelligence, Robotics and 'Autonomous' Systems, published by the European Commission's European Group on Ethics in Science and New Technologies",
+      "page": "5",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Framework influenced major regulatory ethics guidelines.",
+      "excerpt": "largely adopted by the Ethics Guidelines for Trustworthy AI published by the European Commission's High-Level Expert Group on Artificial Intelligence",
+      "page": "10",
+      "section": "conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors explicitly note limitations of the framework.",
+      "excerpt": "In the ensuing discussion, we note the limitations and assess the implications of this ethical framework",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational AI terms appear in the provided evidence.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

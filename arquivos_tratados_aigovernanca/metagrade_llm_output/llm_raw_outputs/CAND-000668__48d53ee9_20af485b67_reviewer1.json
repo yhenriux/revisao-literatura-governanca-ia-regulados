@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Governance risks of AI reasoning in urban infrastructure through Delphi audit of human and large language model judgment",
+    "authors": "Alence Poudel; Carla Barrios; Paola De La Torre; Huy Ton; Trevor Surface; Varenya Mehta; Samanata Silwal",
+    "year": "2026",
+    "venue": "Discover Cities",
+    "doi": "10.1007/s44327-026-00268-2",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Poudel, A., Barrios, C., De La Torre, P., Ton, H., Surface, T., Mehta, V., & Silwal, S. (2026). Governance risks of AI reasoning in urban infrastructure through Delphi audit of human and large language model judgment. Discover Cities, 3, Article 81. https://doi.org/10.1007/s44327-026-00268-2"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "Delphi expert elicitation combined with comparative sociotechnical audit of commercial LLMs",
+    "study_design": "Delphi-derived rubric benchmark compared against reasoning outputs from six commercial LLMs across infrastructure decision scenarios",
+    "sample_description": "Twenty infrastructure professionals contributed to Delphi rubric development; six commercial LLMs were evaluated against expert judgment",
+    "sample_size": "20 infrastructure professionals; 6 commercial LLMs",
+    "sector": "urban infrastructure; municipal public administration; smart cities",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLMs evaluated as decision-support tools for smart city operations, infrastructure decision-making, policy drafting, asset planning, regulatory interpretation, and scenario analysis in public institutions"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GOVERNANCE",
+      "REGULATED_PUBLIC_SECTOR",
+      "AI_AUDITING",
+      "ACCOUNTABILITY",
+      "RISK_ASSESSMENT",
+      "HUMAN_EXPERT_BENCHMARK"
+    ],
+    "exclusion_codes": [
+      "WEAK_CONVERSATIONAL_AI_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses governance, accountability, regulatory compliance, and sociotechnical auditing of commercial LLMs in public-sector urban infrastructure, which aligns with regulated-context LLM governance concerns. However, the provided text frames LLMs primarily as decision-support and reasoning tools rather than conversational systems, chatbots, agents, or RAG pipelines, so it is better classified as supporting rather than central evidence for conversational governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Conversational-AI relevance is weak in the supplied excerpts; confirm whether later sections describe chatbot, agent, or interactive dialogue deployments before final coding."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "The abstract and introduction clearly state aims, Delphi rubric construction, and quantitative audit findings, but ethics, limitations, and full procedural detail are not visible in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are internally coherent and empirically specific to LLM governance risks in public infrastructure, but relevance to conversational governance is only indirect and several methodological details remain unclear from the excerpted text."
+  },
+  "coding": {
+    "open_codes": [
+      "Delphi rubric",
+      "sociotechnical audit",
+      "expert benchmarking",
+      "hallucinated citations",
+      "regulatory misinterpretation",
+      "institutional risk",
+      "public-sector AI adoption",
+      "human-AI trust calibration"
+    ],
+    "axial_codes": [
+      "LLM governance",
+      "accountability",
+      "audit and evaluation",
+      "regulated public administration",
+      "decision-support risk"
+    ],
+    "theme": "Governance and audit of LLM reasoning in regulated urban public-sector contexts",
+    "subtheme": "Expert-derived benchmarking of commercial LLM judgment against infrastructure professionals",
+    "concepts": [
+      "accountability",
+      "regulatory compliance",
+      "institutional integrity",
+      "public trust",
+      "responsible AI",
+      "AI auditing",
+      "contextual judgment",
+      "factual grounding"
+    ],
+    "model_layers": [
+      "governance",
+      "risk assessment",
+      "human oversight",
+      "institutional compliance"
+    ],
+    "rq_alignment": [
+      "governance and accountability",
+      "audit and compliance",
+      "regulated high-stakes contexts",
+      "human oversight and contestation",
+      "risk control"
+    ],
+    "coding_confidence": 0.74
+  },
+  "synthesis": {
+    "main_claim": "Commercial LLMs used for urban infrastructure decision support can appear structurally competent while exhibiting weak factual grounding, fabricated citations, regulatory misinterpretation, and declining alignment with expert judgment as scenario complexity increases.",
+    "contribution": "Operationalizes expert reasoning through a Delphi-derived rubric to benchmark six commercial LLMs, providing an empirical sociotechnical audit framework for evaluating AI reasoning risks in public infrastructure governance.",
+    "limitations": "Provided text does not expose full study limitations, ethics discussion, scenario design, or complete audit protocol; conversational-system deployment is not established.",
+    "use_in_review": "Use as supporting evidence on LLM governance, auditing, accountability, and compliance risk in regulated public-sector decision support; do not treat as primary evidence on conversational AI architecture, guardrails, observability, or dialogue-system governance unless later sections confirm that scope."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on governance risks of LLM reasoning in urban infrastructure via Delphi audit",
+      "excerpt": "Governance risks of AI reasoning in urban infrastructure through Delphi audit of human and large language model judgment",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is empirical and compares six commercial LLMs to expert judgment",
+      "excerpt": "This study presents a sociotechnical audit of six commercial LLMs by comparing their reasoning with a Delphi-derived rubric constructed from the responses of twenty infrastructure professionals.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated public-sector context is explicit",
+      "excerpt": "While these tools promise efficiency, their use in public institutions raises concerns about accountability, reliability, and institutional risk.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Delphi rubric emphasized compliance and public safety criteria",
+      "excerpt": "producing a rubric that emphasized public safety, regulatory compliance, contextual judgment, financial stewardship, and system reliability.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empirical audit found fabricated citations and weak reasoning quality",
+      "excerpt": "Across all models, 51.3% of cited sources were unverifiable or fabricated, and LLM self- reported confidence was negatively correlated with actual reasoning quality (r = -0.23)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "LLM alignment with experts degrades with scenario complexity",
+      "excerpt": "Decision alignment with expert judgment degraded as scenario complexity increased, with strong agreement on operational triage but near-complete divergence on strategic capital allocation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Governance risks include regulatory misinterpretation",
+      "excerpt": "Many responses misinterpreted regulatory requirements or relied on shallow justification.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs are positioned as municipal decision-support tools, not clearly as conversational systems",
+      "excerpt": "Municipal governments are exploring these systems to assist with policy drafting, asset planning, regulatory interpretation, and scenario analysis",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM risks include weakened accountability and opaque reasoning",
+      "excerpt": "Hallucinated citations, misinter­ pretation of regulatory requirements, and opaque reasoning processes can undermine transparency and weaken accountability in public decision making.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human-AI interaction is discussed only as background on trust calibration",
+      "excerpt": "Studies of human-AI interaction show that users struggle to calibrate trust appropri­ ately.",
+      "page": "5",
+      "section": "discussion",
+      "supports": "eligibility"
+    }
+  ]
+}

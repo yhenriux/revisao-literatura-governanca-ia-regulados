@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "The Unified Control Framework: Establishing a Common Foundation for Enterprise AI Governance, Risk Management and Regulatory Compliance",
+    "authors": "Ian W. Eisenberg, Lucía Gamboa, Eli Sherman",
+    "year": "2025",
+    "venue": "arXiv preprint (arXiv:2503.05937v1 [cs.CY])",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Eisenberg, I. W., Gamboa, L., & Sherman, E. (2025). The Unified Control Framework: Establishing a Common Foundation for Enterprise AI Governance, Risk Management and Regulatory Compliance. arXiv preprint arXiv:2503.05937."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "framework development with regulatory mapping validation",
+    "study_design": "conceptual framework proposal comprising risk taxonomy, policy requirements, and controls; validated by mapping to the Colorado AI Act",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "enterprise AI",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "enterprise AI systems; references large language models and generative AI; methodology used Claude NLP for risk clustering refined by expert review"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "AI_governance_framework",
+      "regulatory_compliance_mapping",
+      "enterprise_risk_management",
+      "genai_llm_context"
+    ],
+    "exclusion_codes": [
+      "not_conversational_ai_primary_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper proposes the Unified Control Framework for enterprise AI governance, risk management, and regulatory compliance. It references LLMs and generative AI and includes Human-AI Interaction as one risk type, but the provided text centers on a general governance framework rather than conversational systems, chatbots, agents, or conversational governance mechanisms.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Conversational relevance is indirect (Human-AI Interaction risk category and LLM mentions only); full text should be checked for operational controls applicable to conversational LLM systems."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Clear framework objective and components are described. Validation is presented as mapping to the Colorado AI Act rather than empirical evaluation. Methodological steps mention Claude-assisted NLP clustering and expert review, but sampling and limitations are not evident in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and offers concrete governance components, but the supplied text provides limited detail on empirical validation, limitations, and direct relevance to conversational LLM governance."
+  },
+  "coding": {
+    "open_codes": [
+      "fragmented governance landscape",
+      "unified controls",
+      "risk taxonomy",
+      "policy requirements",
+      "regulatory mapping",
+      "automation foundation",
+      "human-ai interaction risk"
+    ],
+    "axial_codes": [
+      "enterprise AI governance",
+      "risk management integration",
+      "regulatory compliance",
+      "control harmonization"
+    ],
+    "theme": "Enterprise AI governance frameworks",
+    "subtheme": "Unified control framework for risk and compliance",
+    "concepts": [
+      "Unified Control Framework",
+      "risk taxonomy",
+      "policy requirements",
+      "42 controls",
+      "MECE principle",
+      "Colorado AI Act mapping",
+      "Human-AI Interaction"
+    ],
+    "model_layers": [
+      "risk taxonomy layer",
+      "policy requirements layer",
+      "controls layer",
+      "regulatory compliance layer"
+    ],
+    "rq_alignment": [
+      "AI governance in regulated contexts",
+      "risk management and compliance integration",
+      "partial alignment to conversational LLM governance"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The Unified Control Framework integrates enterprise AI risk management and regulatory compliance through a unified risk taxonomy, structured policy requirements, and 42 controls that can be mapped across regulations such as the Colorado AI Act.",
+    "contribution": "Offers a parsimonious cross-regulatory governance foundation intended to reduce duplication, improve coverage, and support automation for responsible enterprise AI governance.",
+    "limitations": "Provided text does not substantively address conversational AI systems as the primary object of governance; validation evidence is limited to regulatory mapping; limitations and peer-review status are unclear from the excerpts.",
+    "use_in_review": "Use as foundational contextual evidence for enterprise AI governance, risk taxonomies, and regulatory control mapping; cite cautiously for conversational governance unless fuller text shows direct applicability to LLM-based conversational systems."
+  },
+  "evidence": [
+    {
+      "claim": "Authors and publication context",
+      "excerpt": "Ian W. Eisenberg1, Luc´ıa Gamboa1, and Eli Sherman1 1Credo AI March 11, 2025",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Preprint venue",
+      "excerpt": "arXiv:2503.05937v1 [cs.CY] 7 Mar 2025",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Framework objective",
+      "excerpt": "We propose the Unified Con- trol Framework (UCF): a comprehensive governance approach that integrates risk management and regulatory compliance through a unified set of controls.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Three UCF components",
+      "excerpt": "The UCF consists of three key components: (1) a comprehensive risk taxonomy synthesizing organizational and societal risks, (2) structured policy requirements derived from regulations, and (3) a parsimonious set of 42 controls",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulatory validation approach",
+      "excerpt": "We validate the UCF by mapping it to the Colorado AI Act, demonstrating how our approach enables efficient, adaptable governance that scales across regulations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM and generative AI context",
+      "excerpt": "accelerated by advances in large language models and generative AI (Perrault and Clark, 2024), has created an urgent need for effective enterprise AI governance",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated domain references",
+      "excerpt": "Recent legislation across the globe, such as the EU AI Act (European Union, 2024), Colorado SB 24-205 (Assembly, 2024), and the South Korean AI Basics Act",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Human-AI Interaction included as risk type",
+      "excerpt": "Human-AI Interaction 5",
+      "page": "5",
+      "section": "Table 1",
+      "supports": "coding"
+    },
+    {
+      "claim": "Method used Claude NLP with expert review",
+      "excerpt": "we developed a novel methodology leveraging Claude’s natural language processing ca- pabilities. First, we used Claude to analyze the semantic relationships between risk descriptions",
+      "page": "11",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Controls serve multiple governance purposes",
+      "excerpt": "highlighting how individual controls often serve multiple governance purposes.",
+      "page": "10",
+      "section": "unclear",
+      "supports": "synthesis"
+    }
+  ]
+}

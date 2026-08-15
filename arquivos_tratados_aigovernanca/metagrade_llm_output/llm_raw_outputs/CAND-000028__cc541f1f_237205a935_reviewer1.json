@@ -1,0 +1,193 @@
+{
+  "bibliographic": {
+    "title": "Personal Health Large Language Models and the Negotiation of Medical Authority in Clinical Care: Opportunities, Risks, and Governance",
+    "authors": "Wenyi Xie; Jialin Liu; Siru Liu",
+    "year": "2026",
+    "venue": "Journal of Medical Internet Research",
+    "doi": "10.2196/91727",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Xie, W., Liu, J., & Liu, S. (2026). Personal health large language models and the negotiation of medical authority in clinical care: Opportunities, risks, and governance. Journal of Medical Internet Research, 28, e91727. https://doi.org/10.2196/91727"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "viewpoint",
+    "study_design": "conceptual viewpoint with proposed governance framework",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "health care",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Patient-facing or consumer-facing large language model (LLM)-based conversational systems (PH-LLMs) that synthesize user-entered information, patient-generated health data, wearable data, and selected personal health records into personalized, longitudinal, action-oriented health narratives"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM",
+      "conversational_ai",
+      "clinical_governance",
+      "accountability",
+      "regulated_healthcare",
+      "human_oversight"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Viewpoint article explicitly addressing patient-facing PH-LLMs as conversational systems in clinical care, proposing a 3-layer clinical governance framework covering provenance, clinical arbitration, escalation, accountability, privacy, and risk in a regulated health context.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Conceptual viewpoint without empirical sample or primary data collection; argument and framework are clearly stated but feasibility, safety impact, and acceptability are deferred to future empirical work."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 5,
+    "overall_confidence": "moderate",
+    "explanation": "Highly relevant and internally coherent governance framework for PH-LLMs in clinical care, but confidence is moderated because the article is non-empirical and does not validate the proposed framework."
+  },
+  "coding": {
+    "open_codes": [
+      "PH-LLMs",
+      "patient-facing conversational AI",
+      "triadic negotiated authority",
+      "clinical governance framework",
+      "authority conflict",
+      "diffusion of accountability",
+      "escalation triggers",
+      "evidence and provenance",
+      "clinical arbitration",
+      "AI literacy"
+    ],
+    "axial_codes": [
+      "governance_of_conversational_llms",
+      "medical_authority_negotiation",
+      "risk_and_accountability",
+      "workflow_integration",
+      "regulated_healthcare"
+    ],
+    "theme": "Clinical governance of patient-facing large language models in care encounters",
+    "subtheme": "Three-layer framework for patient-brought PH-LLM narratives",
+    "concepts": [
+      "personal health large language models",
+      "triadic model of negotiated authority",
+      "evidence and provenance",
+      "clinical arbitration and workflow integration",
+      "competence and accountability",
+      "risk-stratified intake",
+      "escalation triggers",
+      "vendor accountability"
+    ],
+    "model_layers": [
+      "evidence and provenance",
+      "clinical arbitration and workflow integration",
+      "competence and accountability"
+    ],
+    "rq_alignment": [
+      "governance",
+      "accountability",
+      "human oversight",
+      "risk management",
+      "compliance",
+      "privacy",
+      "bias",
+      "escalation",
+      "regulated healthcare",
+      "conversational AI"
+    ],
+    "coding_confidence": 0.9
+  },
+  "synthesis": {
+    "main_claim": "PH-LLMs may shift clinician-patient care from a dyadic to a triadic model of negotiated authority and require a 3-layer clinical governance framework to safely integrate patient-brought algorithmic narratives into routine care.",
+    "contribution": "Proposes a structured 3-layer clinical governance framework (evidence and provenance; clinical arbitration and workflow integration; competence and accountability) for managing risks, privacy, escalation, equity, and accountability when patients bring PH-LLM outputs into clinical encounters.",
+    "limitations": "No empirical evaluation of framework feasibility, documentation burden, equity effects, clinical safety impact, or acceptability; viewpoint relies on conceptual analysis rather than validated implementation evidence.",
+    "use_in_review": "Central conceptual and framework evidence for governance of conversational LLMs in regulated clinical settings, especially patient-initiated PH-LLMs outside institutional oversight."
+  },
+  "evidence": [
+    {
+      "claim": "Article defines PH-LLMs as patient-facing conversational LLM systems relevant to the review scope.",
+      "excerpt": "Personal health large language models (PH-LLMs) are patient-facing conversational systems that synthesize user-entered information, patient-generated health data, wearable data, and selected personal health records",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "PH-LLMs operate outside institutional oversight before professional review.",
+      "excerpt": "they often originate outside institutional oversight and may be selected, used, or trusted by patients before professional review",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Article addresses governance risks including accountability diffusion and privacy.",
+      "excerpt": "privacy and data-governance concerns, diffusion of accountability when harm results from advice produced outside clinical governance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors propose a 3-layer clinical governance framework.",
+      "excerpt": "we propose a 3-layer clinical governance framework for patient-brought PH-LLM narratives",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "First governance layer covers provenance, uncertainty, and privacy-relevant data use.",
+      "excerpt": "The first layer, evidence and provenance, makes AI-generated narratives epistemically legible by clarifying platform identity, data sources, temporal anchoring, uncertainty, and privacy-relevant data-use and retention conditions",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Second governance layer includes risk-stratified intake, documentation, and escalation triggers.",
+      "excerpt": "The second layer, clinical arbitration and workflow integration, uses risk-stratified intake, proportionate documentation, escalation triggers, and equity- preserving workflows to embed PH-LLM outputs into routine care",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Third governance layer defines competence, institutional responsibilities, and vendor accountability.",
+      "excerpt": "The third layer, competence and accountability, defines the communication competencies, AI literacy supports, institutional responsibilities, vendor accountability, and risk-proportionate verification duties needed for triadic care",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Article frames shift toward triadic negotiated authority in clinical care.",
+      "excerpt": "a shift from the traditional dyadic clinician-patient relationship toward a triadic model of negotiated authority, in which clinicians may increasingly need to mediate among clinical evidence, patient values, and algorithmic narratives",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors acknowledge need for future empirical validation.",
+      "excerpt": "Future empirical work should evaluate its feasibility, documentation burden, equity effects, clinical safety impact, and acceptability among patients, clinicians, and health systems",
+      "page": "1",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Keywords confirm focus on clinical governance and accountability in health LLM context.",
+      "excerpt": "Keywords: personal health large language models; clinician-patient relationship; artificial intelligence; medical authority; clinical governance; shared decision-making; patient-generated health data; digital health; accountability",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

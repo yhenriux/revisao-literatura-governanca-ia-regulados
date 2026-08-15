@@ -1,0 +1,196 @@
+{
+  "bibliographic": {
+    "title": "AI and ethics: Investigating the first policy responses of higher education institutions to the challenge of generative AI",
+    "authors": "Attila Dabis; Csaba Csáki",
+    "year": "2024",
+    "venue": "Humanities and Social Sciences Communications",
+    "doi": "10.1057/s41599-024-03526-z",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Dabis, A., & Csáki, C. (2024). AI and ethics: Investigating the first policy responses of higher education institutions to the challenge of generative AI. Humanities and Social Sciences Communications, 11, 1006. https://doi.org/10.1057/s41599-024-03526-z"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "content analysis; document analysis of institutional policies and international guidance documents",
+    "study_design": "Qualitative content analysis of five international documents (UN, EU, OECD) combined with compilation and analysis of publicly available university policy documents and guidelines",
+    "sample_description": "30 leading universities ranked among the top 500 in the Shanghai Ranking list from May to July 2023 that had publicly available policy documents or guidelines addressing generative AI ethical dimensions",
+    "sample_size": "30 universities; 5 international documents",
+    "sector": "higher education",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Generative AI tools, ChatGPT as conversational LLM platform, large language models used in academic teaching and assessment"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "genai_llm_context",
+      "governance_accountability",
+      "human_oversight",
+      "regulated_education_context",
+      "policy_institutional_response"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article empirically analyzes first university policy responses to generative AI and explicitly addresses governance-related ethical dimensions such as accountability, human oversight, and transparency in higher education. It references ChatGPT/LLMs and conversational use, but its focus is institutional academic policy rather than operational or technical governance of conversational LLM systems (e.g., guardrails, observability, audit logs, deployment controls). It is relevant as supporting evidence on governance principles and human responsibility in a regulated education context, not as central evidence on conversational governance architecture.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial PDF text was supplied (mainly pages 1-2 and isolated snippets); full methods, complete sample coding, and detailed results require manual verification."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal is limited to signals present in the provided excerpts. The abstract clearly states objectives, timeframe (May-July 2023), sample (30 universities), and analytic approach (content analysis), but detailed coding procedures, inter-rater reliability, and full results are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings appear coherent with the stated top-down/bottom-up policy framing and ethical dimensions, but confidence is moderated because only partial text was available and the study is a early snapshot of top-ranked universities rather than a technical governance evaluation of conversational systems."
+  },
+  "coding": {
+    "open_codes": [
+      "institutional policy response",
+      "academic integrity",
+      "human moral responsibility",
+      "preventive assessment measures",
+      "syllabus transparency",
+      "dialogue-based sanctioning",
+      "instructor flexibility"
+    ],
+    "axial_codes": [
+      "organizational governance",
+      "ethical principles for generative AI",
+      "higher education policy adaptation"
+    ],
+    "theme": "Institutional governance responses to generative AI in higher education",
+    "subtheme": "Early university policies on accountability, oversight, and transparency",
+    "concepts": [
+      "accountability",
+      "human oversight",
+      "transparency",
+      "inclusiveness",
+      "responsibility",
+      "generative AI",
+      "large language models",
+      "ChatGPT"
+    ],
+    "model_layers": [
+      "policy layer",
+      "organizational governance",
+      "human oversight",
+      "ethical compliance"
+    ],
+    "rq_alignment": [
+      "governance of generative AI",
+      "human oversight and accountability",
+      "transparency in regulated education",
+      "institutional risk response to LLM adoption"
+    ],
+    "coding_confidence": 0.76
+  },
+  "synthesis": {
+    "main_claim": "Higher education institutions' first responses to generative AI emphasize that student work must reflect individual knowledge, humans retain moral and legal responsibility for AI-related wrongdoing, oversight combines preventive assessment changes with soft dialogue-based sanctions, and transparency is promoted through clear communication of AI use in course syllabi.",
+    "contribution": "Provides an empirical, time-bounded snapshot of how leading universities translated international ethical guidance into institutional policies and guidelines after the arrival of ChatGPT/LLMs.",
+    "limitations": "Study covers only universities among the top 500 with publicly available responses during May-July 2023; supplied text does not expose full analytic detail; focus is academic policy rather than system-level conversational governance mechanisms.",
+    "use_in_review": "Use as supporting evidence on governance principles, human oversight, accountability, and transparency in regulated higher education settings when discussing institutional responses to LLM-based generative AI; not suitable as central evidence for operational conversational governance, technical guardrails, observability, or post-deployment monitoring of LLM systems."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses content analysis of international documents and empirical compilation from 30 top universities",
+      "excerpt": "Drawing on five key international documents from the UN, EU, and OECD, the study used content analysis to identify key ethical dimensions related to the use of generative AI in academia",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample comprises 30 leading universities with public policy responses from May to July 2023",
+      "excerpt": "Empirical evidence was compiled from 30 leading universities ranked among the top 500 in the Shanghai Ranking list from May to July 2023",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Article addresses ethical challenges of generative AI in higher education and first global university responses",
+      "excerpt": "This article addresses the ethical challenges posed by generative artificial intelligence (AI) tools in higher education and explores the first responses of universities to these challenges globally.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Key ethical dimensions include accountability, human oversight, transparency, and inclusiveness",
+      "excerpt": "identify key ethical dimensions related to the use of generative AI in academia, such as accountability, human oversight, transparency, or inclusiveness.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Humans retain moral and legal responsibility for AI-related wrongdoing",
+      "excerpt": "human individuals retaining moral and legal responsibility for AI-related wrongdoings.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human oversight response combines preventive measures and dialogue-based sanctioning",
+      "excerpt": "Regarding human oversight, the typical response identified by the study involves a blend of preventive measures (e.g., course assessment modifications) and soft, dialogue-based sanctioning procedures.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Transparency practice includes clear communication of AI use in course syllabi",
+      "excerpt": "The challenge of transparency induced the good practice of clear communication of AI use in course syllabi in the first university responses examined by this study.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "ChatGPT is framed as a conversational platform based on an LLM",
+      "excerpt": "the arrival of ChatGPT, the conversational platform based on a large language model (LLM) in late November 2022",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research asks what expectations and guidelines first policies introduced for informed, transparent, responsible and ethical GAI use",
+      "excerpt": "what expectations and guidelines the first policies introduced into existing academic structures to ensure the informed, transparent, responsible and ethical use of the new tools of generative AI (henceforth GAI) by students and teachers.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Generative AI platforms/chatbots are described as hard to hold accountable for inaccurate responses",
+      "excerpt": "so generative AI platforms can hardly be held accountable for the inaccuracy of their responses3 or how the physical user who inserted a prompt will make use of the output. Indeed, the AI chatbot is now considered to be a potentially disruptive technology in higher education",
+      "page": "2",
+      "section": "conclusion",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLM-enabled text generation changed student performance evaluation concerns in higher education",
+      "excerpt": "the arrival of application-ready LLMs – most notably ChatGPT has changed the game when it comes to grammatically correct large-scale and content-specific text generation.",
+      "page": "10",
+      "section": "discussion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Paper explicitly lists limitations and future research directions",
+      "excerpt": "The paper closes with drawing key conclusions as well as listing limitations and ideas for future research.",
+      "page": "2",
+      "section": "limitations",
+      "supports": "appraisal"
+    }
+  ]
+}

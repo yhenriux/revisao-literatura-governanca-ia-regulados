@@ -1,0 +1,200 @@
+{
+  "bibliographic": {
+    "title": "Minimal Oversight: Uncertainty-Aware Governance for Delegated AI Systems",
+    "authors": "Carlos R. B. Azevedo",
+    "year": "2026",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Azevedo, C. R. B. (2026). Minimal oversight: Uncertainty-aware governance for delegated AI systems. arXiv preprint arXiv:2606.15563."
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "theoretical variational framework with information-theoretic channel modeling, formal proofs, synthetic simulation, and semi-real reconstructed workflow",
+    "study_design": "conceptual-theoretical framework (Minimum Sufficient Oversight Principle) validated through synthetic simulations and one semi-real reconstructed workflow",
+    "sample_description": "synthetic simulations and a semi-real reconstructed workflow; no human participants or field deployment sample described in provided text",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "unclear",
+    "llm_specificity": "generic_genai",
+    "technology_context": "delegated AI systems with specialized models, evaluators, tools, and supervisory controllers; discussion applications include multi-agent teams and LLM-as-judge evaluation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_assessment",
+    "inclusion_codes": [
+      "governance_oversight",
+      "human_intervention",
+      "delegated_ai_systems",
+      "trust_calibration",
+      "llm_related_application"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The provided text strongly addresses uncertainty-aware governance, oversight allocation, trust calibration, and human intervention in delegated AI systems, with secondary LLM-as-judge discussion. It does not present conversational AI, chatbots, or regulated-domain deployment as the primary study object in the supplied excerpts, so it is better suited as foundational governance theory than as central conversational-governance evidence.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Confirm whether later sections add regulated-domain cases or conversational-system evaluations beyond the excerpts provided; verify sector and regulated-domain claims."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Clear theoretical objective and formal derivations are evident. Empirical support in the provided text is limited to synthetic simulations and a semi-real reconstructed workflow, with no participant sample or regulated-environment evaluation described. AI assistance in manuscript preparation is disclosed."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and directly relevant to governance of delegated AI, including LLM-as-judge settings, but confidence is moderated because the supplied text does not establish conversational-system or regulated-domain evidence, and empirical validation appears simulation-based."
+  },
+  "coding": {
+    "open_codes": [
+      "minimum_sufficient_oversight",
+      "uncertainty_aware_governance",
+      "delegated_decision_structures",
+      "trust_calibration",
+      "human_intervention_timing",
+      "masking_pathology",
+      "review_capacity_budget",
+      "water_filling_allocation",
+      "llm_as_judge"
+    ],
+    "axial_codes": [
+      "governance_principles",
+      "human_oversight",
+      "delegation_architecture",
+      "performance_monitoring",
+      "autonomy_planning"
+    ],
+    "theme": "Uncertainty-aware governance for delegated AI systems",
+    "subtheme": "Minimum Sufficient Oversight Principle and review-capacity allocation",
+    "concepts": [
+      "MSO",
+      "governed delegation channel",
+      "masking index M*",
+      "operational quality ceiling Cop",
+      "autonomy time T*_auto",
+      "delegation centrality DC(v)"
+    ],
+    "model_layers": [
+      "policy_layer",
+      "supervisory_control_layer",
+      "evaluation_corrector_layer",
+      "task_space_allocation_layer"
+    ],
+    "rq_alignment": [
+      "how much autonomy to grant",
+      "when human intervention becomes necessary",
+      "how trust should be calibrated from evidence",
+      "how oversight should be allocated under budget constraints"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "The Minimum Sufficient Oversight Principle (MSO) provides a computable, uncertainty-aware framework for allocating governed delegation and determining when human intervention is required in multi-component delegated AI systems.",
+    "contribution": "Offers a formal variational principle, capacity theorems, scaling laws, diagnostics such as masking, and design prescriptions supported by synthetic simulations and a semi-real reconstructed workflow; positions LLM-as-judge and multi-agent harnesses as delegation cases.",
+    "limitations": "Provided text emphasizes theory and simulation rather than conversational-system or regulated-domain field evidence; limitations section not included in supplied excerpts.",
+    "use_in_review": "Use as foundational contextual evidence on governance, oversight budgeting, trust calibration, and intervention timing for delegated LLM/agent architectures; not as primary evidence on conversational governance in regulated settings."
+  },
+  "evidence": [
+    {
+      "claim": "Paper proposes MSO as a formal governance principle for delegated AI systems.",
+      "excerpt": "We propose the Minimum Sufficient Oversight Principle (MSO), a variational principle for principled autonomy delegation: minimize governance burden on the Fisher information manifold subject to a delivery constraint.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Central problem includes when human intervention becomes necessary.",
+      "excerpt": "how much autonomy to grant, which evidence should calibrate trust, what performance ceiling a delegated AI system can sustain, and when human intervention becomes necessary.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Masking is framed as an AI-governance pathology.",
+      "excerpt": "masking appears as a structural AI-governance pathology: corrected performance can hide the competence signal needed to calibrate trust.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empirical support includes synthetic simulations and a semi-real reconstructed workflow.",
+      "excerpt": "Synthetic simulations and a semi-real reconstructed workflow support design prescriptions including upstream-first correction, sensitivity-based intervention, and explicit feasibility checks before autonomy is expanded.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study object is delegated AI architectures, not conversational systems specifically.",
+      "excerpt": "Modern AI systems increasingly rely on delegated decision structures: one model proposes an answer, another evaluates it, tools supply evidence, and a supervising policy decides what may proceed.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Framework aims to make oversight allocation computable.",
+      "excerpt": "Given an agent’s demonstrated competence, the difficulty structure of the task space, and a limited governance budget, the theory should tell us four things: how oversight should be allocated, what performance ceiling the delegated system can actually achieve, how workflow complexity degrades that ceiling, and how long the system can operate before intervention is required.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLM-as-judge is discussed as a delegated corrector application.",
+      "excerpt": "The practice of using one LLM to evaluate another’s output (Zheng et al., 2023) is a delegation with an autonomous corrector.",
+      "page": "19",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM judge biases are mapped to governance diagnostics in MSO.",
+      "excerpt": "Recent work has documented systematic biases in LLM judges: position bias, verbosity bias, and self-enhancement bias. In the MSO framework, these biases manifest as a non-uniform catch rate c(x) across the scope",
+      "page": "19",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Multi-agent LLM harnesses are cited as an application context.",
+      "excerpt": "engineering similarly emphasizes practical constraints in portable, composable multi-agent teams (Agostino and D’Souza, 2026); MSO supplies a quantitative governance objective for such harnesses.",
+      "page": "19",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance guidance distinguishes raw competence from delivered quality.",
+      "excerpt": "measure what the delegate can do before correction, measure what the system delivers after correction, and do not confuse the two.",
+      "page": "25",
+      "section": "conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Manuscript preparation used LLM assistance and is disclosed.",
+      "excerpt": "This manuscript was written and revised with assistance from large language models and AI-assisted coding tools, including Claude Code and Codex",
+      "page": "25",
+      "section": "conclusion",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Publication is an arXiv preprint from 2026.",
+      "excerpt": "arXiv:2606.15563v1 [cs.AI] 4 Jun 2026",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    }
+  ]
+}

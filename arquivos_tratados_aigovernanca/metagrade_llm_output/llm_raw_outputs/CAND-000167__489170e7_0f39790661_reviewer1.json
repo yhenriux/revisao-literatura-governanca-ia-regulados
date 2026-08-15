@@ -1,0 +1,206 @@
+{
+  "bibliographic": {
+    "title": "Cybersecurity and Privacy Risks of Generative AI Mental-Health Chatbots: A Systematic Review and Regulatory Framework",
+    "authors": "Suhila Sawesi, Hemalatha Sabbineni, Rajashekhar Reddy Shagamreddy, Budur Rashrash",
+    "year": "2026",
+    "venue": "Journal of Multidisciplinary Healthcare",
+    "doi": "10.2147/JMDH.S581251",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Sawesi, S., Sabbineni, H., Shagamreddy, R. R., & Rashrash, B. (2026). Cybersecurity and privacy risks of generative AI mental-health chatbots: A systematic review and regulatory framework. Journal of Multidisciplinary Healthcare. https://doi.org/10.2147/JMDH.S581251"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "PRISMA-guided systematic review",
+    "study_design": "systematic review with regulatory framework mapping",
+    "sample_description": "33 included studies identified from PubMed, APA PsycNet, and Google Scholar; two reviewers independently extracted data on application domains, deployment settings, risk categories, attack surfaces, data sensitivity, and reported or recommended controls",
+    "sample_size": "33 studies",
+    "sector": "mental health care / healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-based generative AI mental-health chatbots and conversational agents used for psychoeducation, emotional support, screening, crisis-related interactions, therapy, safety evaluation, and psychoeducation on consumer-facing and other deployment platforms"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "included_after_full_text_screening",
+    "inclusion_codes": [
+      "systematic_review",
+      "llm_generative_ai",
+      "conversational_chatbots",
+      "mental_health_regulated_domain",
+      "cybersecurity_privacy_risks",
+      "regulatory_framework_mapping",
+      "governance_safeguards_alignment",
+      "risk_management"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a PRISMA-guided systematic review explicitly focused on LLM/generative AI mental-health chatbots, maps cybersecurity and privacy risks to SaMD and healthcare governance standards, and synthesizes deployment patterns, multi-layered risks, and safeguard alignment in a regulated high-stakes domain.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Provided text is limited to front matter and abstract-level content; full methods, quality appraisal criteria, regulatory framework details, and limitations sections were not supplied for complete adjudication."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Appraisal based only on supplied excerpt. Clear PRISMA framing and dual-reviewer extraction are reported, but search strategy detail, risk-of-bias tools, full regulatory framework construction, and study limitations are not visible in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The synthesis is coherent and highly relevant to governed conversational LLM use in regulated mental healthcare, but confidence is moderated because only front-matter text was available and the included literature itself appears weak on formal adversarial testing and structured threat modeling."
+  },
+  "coding": {
+    "open_codes": [
+      "mental_health_chatbots",
+      "cybersecurity_risks",
+      "privacy_risks",
+      "LLM_deployment_patterns",
+      "crisis_response_failures",
+      "sensitive_data_exposure",
+      "limited_transparency",
+      "consumer_facing_deployment",
+      "adversarial_testing_gap",
+      "regulatory_alignment"
+    ],
+    "axial_codes": [
+      "conversational_AI_in_healthcare",
+      "multi_layered_risk_governance",
+      "regulatory_compliance_mapping",
+      "post_deployment_safety_monitoring"
+    ],
+    "theme": "Cybersecurity, privacy, and regulatory governance of generative AI mental-health chatbots",
+    "subtheme": "Mapping LLM-specific risks and safeguards to healthcare regulatory frameworks",
+    "concepts": [
+      "Software as a Medical Device (SaMD)",
+      "HIPAA",
+      "ISO 14971",
+      "NIST AI Risk Management Framework",
+      "attack surface",
+      "human crisis interactions",
+      "general-purpose LLMs",
+      "single-layer security evaluation inadequacy"
+    ],
+    "model_layers": [
+      "application_layer",
+      "deployment_platform_layer",
+      "regulatory_compliance_layer",
+      "cybersecurity_controls_layer",
+      "privacy_preservation_layer",
+      "clinical_safety_layer"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa em sistemas conversacionais",
+      "controle de risco e compliance em contextos regulados",
+      "privacidade e segurança",
+      "monitoramento e avaliação de riscos pós-implantação",
+      "alinhamento com frameworks regulatórios de saúde"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Current governance frameworks have not fully adapted to generative conversational AI in mental health, and single-layer security evaluation is inadequate because the therapeutic interface functions as a primary attack surface.",
+    "contribution": "First structured synthesis explicitly mapping LLM-specific cybersecurity and privacy risks to SaMD regulatory frameworks, characterizing deployment patterns across 33 studies and evaluating alignment of reported safeguards with healthcare governance standards including FDA SaMD guidance, HIPAA, ISO 14971, and the NIST AI Risk Management Framework.",
+    "limitations": "unclear",
+    "use_in_review": "Use as central evidence for regulated conversational LLM governance in mental healthcare, especially on cybersecurity/privacy risk taxonomy, deployment patterns, inadequacy of single-layer safeguards, and alignment gaps with established healthcare regulatory frameworks."
+  },
+  "evidence": [
+    {
+      "claim": "Study is a PRISMA-guided systematic review of generative AI mental-health chatbots",
+      "excerpt": "A PRISMA-guided systematic review was conducted using PubMed, APA PsycNet, and Google Scholar.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Explicit focus on LLM-specific cybersecurity and privacy risks mapped to SaMD regulatory frameworks",
+      "excerpt": "this is the first structured synthesis explicitly mapping LLM-specific cybersecurity and privacy risks to Software as a Medical Device (SaMD) regulatory frameworks",
+      "page": "1",
+      "section": "Purpose",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Included sample comprises 33 studies",
+      "excerpt": "After screening eligible records against predefined inclusion criteria, 33 studies were included.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Dual independent data extraction on governance-relevant dimensions",
+      "excerpt": "Two reviewers independently extracted data on application domains, deployment settings, risk categories, attack surfaces, data sensitivity, and reported or recommended controls.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Most included systems use general-purpose LLMs and consumer-facing deployment",
+      "excerpt": "Most systems relied on general-purpose LLMs (21/33, 63.6%) and were deployed via consumer-facing platforms (16/33, 48.5%).",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Key risks include unsafe outputs, crisis-response failures, privacy exposure, and limited transparency",
+      "excerpt": "Key risks included harmful or unsafe outputs, failures in crisis response, exposure of sensitive personal information, and limited transparency.",
+      "page": "1",
+      "section": "Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Most primary studies lack rigorous cybersecurity evaluation",
+      "excerpt": "78.8% of studies (26/33) were rated high risk for cybersecurity evaluation rigor, indicating that formal adversarial testing and structured threat modeling remain rare.",
+      "page": "1",
+      "section": "Results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Governance frameworks are insufficiently adapted and multi-layer controls are needed",
+      "excerpt": "Current governance frameworks have not fully adapted to generative conversational AI in mental health contexts.",
+      "page": "1",
+      "section": "Conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Single-layer security evaluation is inadequate",
+      "excerpt": "single-layer security evaluation (assessing only software validation or content safety in isolation) is inadequate.",
+      "page": "1",
+      "section": "Conclusion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Recommended alignment with major regulated healthcare governance standards",
+      "excerpt": "explicit alignment with FDA SaMD guidance, HIPAA, ISO 14971, and the NIST AI Risk Management Framework.",
+      "page": "1",
+      "section": "Conclusion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM-based conversational agents are used in high-stakes mental health workflows",
+      "excerpt": "In mental health contexts, LLM- based conversational agents are increasingly applied to psychoeducation, supportive dialogue, screening, summarization of counseling content, and crisis-related interactions",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Generative AI chatbots differ from rule-based systems and introduce new safety, privacy, and cybersecurity challenges",
+      "excerpt": "Unlike earlier rule-based chatbots, generative AI systems produce open-ended responses that adapt dynamically to user input, enabling flexible interactions while introducing new and underexplored challenges related to safety, privacy, and cybersecurity.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    }
+  ]
+}

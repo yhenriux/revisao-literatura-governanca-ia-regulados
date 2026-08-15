@@ -1,0 +1,187 @@
+{
+  "bibliographic": {
+    "title": "An Integrated Observability Intelligence Framework: Bridging Semantic Data Modeling, Caching, and LLM-Powered Multi-Agent Root Cause Analysis",
+    "authors": "Chris Zhang; Kevin Coleman",
+    "year": "2026",
+    "venue": "Research Square",
+    "doi": "10.21203/rs.3.rs-9777036/v1",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Zhang, C., & Coleman, K. (2026). An integrated observability intelligence framework: Bridging semantic data modeling, caching, and LLM-powered multi-agent root cause analysis. Research Square. https://doi.org/10.21203/rs.3.rs-9777036/v1"
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "framework design with experimental evaluation",
+    "study_design": "architecture proposal (IOIF) evaluated on production-scale observability workloads with 350 systematically injected failure scenarios",
+    "sample_description": "production-scale observability workloads; 350 systematically injected failure scenarios",
+    "sample_size": "350 failure scenarios",
+    "sector": "IT operations / cloud-native distributed systems (AIOps)",
+    "regulated_domain": "no",
+    "llm_specificity": "generic_genai",
+    "technology_context": "hierarchical multi-agent LLM orchestration for automated root cause analysis over metrics, logs, and traces; Python-native semantic layer with BFS join resolution, TTL caching, and row-level security"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "borderline",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_MULTI_AGENT",
+      "OPERATIONAL_GOVERNANCE",
+      "OBSERVABILITY_MONITORING",
+      "SECURITY_RLS"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI",
+      "NO_REGULATED_DOMAIN"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O artigo apresenta governança operacional/técnica de agentes LLM multiagente para análise de causa raiz em observabilidade (camada semântica governada, RLS, consistência de métricas, logs/traces), mas o texto fornecido não evidencia sistemas conversacionais nem aplicação em ambientes regulados de alto risco (saúde, financeiro, jurídico etc.). Relevância parcial para governança de IA generativa em operações, não para governança conversacional.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Triagem Python classificou como central_candidate por termos de governança/LLM, mas dimensão conversacional=0 e domínio regulado fraco; leitura humana necessária para confirmar se governança operacional de agentes LLM entra no escopo da revisão."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Objetivos e resultados quantitativos estão claros no abstract; detalhes completos de métodos, limitações e validação externa não aparecem no trecho fornecido. Declaração de ausência de conflitos de interesse presente."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Evidência moderadamente confiável para alegações técnicas de framework e avaliação experimental reportada, mas relevância para governança conversacional em contextos regulados é baixa com base apenas no texto fornecido."
+  },
+  "coding": {
+    "open_codes": [
+      "semantic_layer",
+      "metric_consistency",
+      "multi_agent_llm",
+      "root_cause_analysis",
+      "observability",
+      "row_level_security",
+      "caching_ttl",
+      "false_positive_reduction",
+      "incident_management",
+      "diagnostic_drift"
+    ],
+    "axial_codes": [
+      "operational_technical_governance",
+      "llm_agent_orchestration",
+      "data_governance_for_ai_agents",
+      "monitoring_and_incident_response"
+    ],
+    "theme": "Governança operacional de fundação de dados para agentes LLM em AIOps",
+    "subtheme": "Camada semântica governada para consistência diagnóstica em análise de causa raiz",
+    "concepts": [
+      "Integrated Observability Intelligence Framework (IOIF)",
+      "Semantic Context Injection (SCI)",
+      "Portable Cache Key Propagation (PCKP)",
+      "Security Context Threading (SCT)",
+      "metric drift",
+      "governed semantic layer",
+      "Model Context Protocol (MCP)"
+    ],
+    "model_layers": [
+      "data_semantic_layer",
+      "caching_layer",
+      "multi_agent_orchestration_layer",
+      "security_enforcement_boundary"
+    ],
+    "rq_alignment": [
+      "governança operacional de agentes LLM",
+      "observabilidade e monitoramento",
+      "controle de risco operacional (falsos positivos/diagnósticos)",
+      "segurança em camada de modelo (RLS)"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "IOIF integra camada semântica governada com orquestração multiagente baseada em LLM para reduzir inconsistência de métricas e deriva diagnóstica em análise automatizada de causa raiz em sistemas observáveis.",
+    "contribution": "Propõe três mecanismos de integração (SCI, PCKP, SCT) e reporta melhorias quantitativas em falsos positivos, consistência investigativa e tempo médio de diagnóstico em cenários de falha injetados.",
+    "limitations": "Texto fornecido não detalha limitações explícitas, generalização além de AIOps/cloud-native, nem implicações para supervisão humana, contestação ou compliance regulatório.",
+    "use_in_review": "Evidência de apoio ou contextual para governança técnica de agentes LLM (consistência semântica, segurança, observabilidade), não como estudo central de governança conversacional em ambientes regulados."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo usa LLM multiagente para análise de incidentes operacionais",
+      "excerpt": "hierarchical multi- agent Large Language Model (LLM) orchestration system",
+      "page": "2",
+      "section": "ABSTRACT",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Foco em governança de fundação semântica de métricas para agentes LLM",
+      "excerpt": "automated root cause analysis frameworks lack a governed, semantically coherent data foundation",
+      "page": "2",
+      "section": "ABSTRACT",
+      "supports": "coding"
+    },
+    {
+      "claim": "Mecanismos de integração propostos incluem injeção de contexto semântico e segurança",
+      "excerpt": "Semantic Context Injection (SCI), Portable Cache Key Propagation (PCKP), and Security Context Threading (SCT)",
+      "page": "2",
+      "section": "ABSTRACT",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Camada semântica aplica RLS na fronteira do modelo",
+      "excerpt": "row-level security (RLS) enforcement at the model boundary",
+      "page": "2",
+      "section": "ABSTRACT",
+      "supports": "coding"
+    },
+    {
+      "claim": "Avaliação experimental com 350 cenários de falha",
+      "excerpt": "Experimental evaluation on production-scale observability workloads across 350 systematically injected failure scenarios",
+      "page": "2",
+      "section": "ABSTRACT",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Resultados quantitativos reportados",
+      "excerpt": "23.4% reduction in false positive diagnoses and a 31.2% improvement in investigation consistency",
+      "page": "2",
+      "section": "ABSTRACT",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Contexto tecnológico é AIOps com métricas, logs e traces, não diálogo conversacional",
+      "excerpt": "LLM-based systems for automated root cause analysis (6, 7) ingest operational telemetry—metrics, logs, and distributed traces",
+      "page": "3",
+      "section": "INTRODUCTION",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Agentes podem produzir diagnósticos contraditórios ou alucinados sem base métrica consistente",
+      "excerpt": "their divergent inputs can produce contradictory or hallucinated diagnoses",
+      "page": "3",
+      "section": "INTRODUCTION",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Publicação em Research Square com data de postagem em 2026",
+      "excerpt": "Posted Date: May 22nd, 2026 DOI: https://doi.org/10.21203/rs.3.rs-9777036/v1",
+      "page": "1",
+      "section": "FRONT MATTER",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Autores declararam ausência de conflitos de interesse",
+      "excerpt": "The authors declare no competing interests.",
+      "page": "1",
+      "section": "FRONT MATTER",
+      "supports": "appraisal"
+    }
+  ]
+}

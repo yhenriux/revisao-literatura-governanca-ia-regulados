@@ -1,0 +1,173 @@
+{
+  "bibliographic": {
+    "title": "GPT-4 Technical Report OpenAI∗",
+    "authors": "OpenAI",
+    "year": "2023",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "OpenAI. (2023). GPT-4 technical report. arXiv:2303.08774."
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "technical report with benchmark evaluation",
+    "study_design": "model development and capability benchmarking technical report",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "GPT-4 large-scale multimodal Transformer-based language model with image and text inputs and text outputs"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_FOUNDATIONAL",
+      "SAFETY_LIMITATIONS_CONTEXT"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "O texto fornecido descreve primariamente o desenvolvimento, capacidades e limitações do GPT-4, com menção breve a aplicações como dialogue systems e advertências para contextos de alta criticidade. Não apresenta, no excerto disponível, estudo ou framework de governança conversacional, supervisão humana operacional, auditoria, compliance ou desenho de sistemas conversacionais em ambientes regulados.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Avaliação baseada em fragmentos limitados (páginas 1, 2 e 10); seções posteriores sobre safety, alignment e aplicações podem alterar a classificação de relevância para governança."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Relatório técnico adequado para documentar capacidades e limitações do modelo, mas com transparência metodológica limitada por design competitivo e de segurança; pouca evidência no excerto sobre governança conversacional operacional."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "Para perguntas de governança conversacional em ambientes regulados, o documento oferece contexto fundacional sobre capacidades, alinhamento pós-treino e riscos de confiabilidade, mas o excerto não sustenta inferências robustas sobre práticas de governança, supervisão, auditoria ou compliance conversacional."
+  },
+  "coding": {
+    "open_codes": [
+      "model_capability_benchmarking",
+      "post_training_alignment",
+      "hallucination_risk",
+      "high_stakes_caution",
+      "dialogue_systems_application"
+    ],
+    "axial_codes": [
+      "LLM_FOUNDATION",
+      "MODEL_SAFETY_LIMITATIONS",
+      "POTENTIAL_CONVERSATIONAL_USE"
+    ],
+    "theme": "Capacidades e limitações fundacionais de LLM",
+    "subtheme": "Riscos de confiabilidade e alinhamento comportamental",
+    "concepts": [
+      "post-training alignment",
+      "factuality",
+      "desired behavior",
+      "hallucinations",
+      "high-stakes contexts",
+      "dialogue systems"
+    ],
+    "model_layers": [
+      "model",
+      "alignment",
+      "deployment_risk"
+    ],
+    "rq_alignment": [
+      "contexto tecnológico de LLMs",
+      "limitações de confiabilidade relevantes a sistemas conversacionais",
+      "advertências para uso em contextos de alta criticidade"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "GPT-4 é um modelo multimodal de grande escala com desempenho forte em benchmarks acadêmicos e profissionais, melhorias de segurança e alinhamento pós-treino, mas com limitações persistentes de confiabilidade.",
+    "contribution": "Fornece referência fundacional sobre arquitetura geral, capacidades, processo de alinhamento, infraestrutura de escala previsível e advertências de uso em contextos sensíveis.",
+    "limitations": "No excerto fornecido, não detalha governança conversacional, supervisão humana, auditoria operacional ou conformidade regulatória; detalhes técnicos e reprodutibilidade são limitados.",
+    "use_in_review": "Usar como evidência contextual/fundacional sobre GPT-4, riscos de alucinação e cautela em high-stakes contexts; não como estudo central de governança conversacional."
+  },
+  "evidence": [
+    {
+      "claim": "Documento foca no desenvolvimento e relatório técnico do GPT-4",
+      "excerpt": "We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Alinhamento pós-treino melhora factualidade e aderência comportamental",
+      "excerpt": "The post-training alignment process results in improved performance on measures of factuality and adherence to desired behavior.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Modelos podem ser usados em dialogue systems, entre outras aplicações",
+      "excerpt": "Such models are an important area of study as they have the potential to be used in a wide range of applications, such as dialogue systems, text summarization, and machine translation.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Avaliação inclui exames profissionais como bar exam simulado",
+      "excerpt": "For example, on a simulated bar exam, GPT-4 achieves a score that falls in the top 10% of test takers.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Relatório também discute melhorias e resultados de model safety",
+      "excerpt": "We discuss these model capability results, as well as model safety improvements and results, in more detail in later sections.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "GPT-4 compartilha limitações de confiabilidade com modelos anteriores",
+      "excerpt": "Despite its capabilities, GPT-4 has similar limitations to earlier GPT models [1, 37, 38]: it is not fully reliable (e.g. can suffer from “hallucinations”), has a limited context window, and does not learn",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Advertência explícita para contextos onde confiabilidade é importante",
+      "excerpt": "Care should be taken when using the outputs of GPT-4, particularly in contexts where reliability is important.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Cautela reforçada para outputs de language model em contextos de alta criticidade",
+      "excerpt": "Great care should be taken when using language model outputs, particularly in high-stakes contexts, with the exact",
+      "page": "10",
+      "section": "Limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "Publicação é relatório técnico/preprint sem revisão por pares indicada no excerto",
+      "excerpt": "Please cite this work as “OpenAI (2023)\".",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Detalhes técnicos completos não estão amplamente disponíveis a terceiros",
+      "excerpt": "nical details available to additional third parties who can advise us on how to weigh the competitive and safety considerations above against the scientific value of further transparency.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

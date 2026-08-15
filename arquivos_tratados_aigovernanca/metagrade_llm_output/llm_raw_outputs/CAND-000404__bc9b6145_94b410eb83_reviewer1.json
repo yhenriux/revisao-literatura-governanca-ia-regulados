@@ -1,0 +1,200 @@
+{
+  "bibliographic": {
+    "title": "Secure Human Oversight of AI: Threat Modeling in a Socio-Technical Context",
+    "authors": "Ditz, J. C., Lazar, V., Lichtmeß, E., Plesch, C., Heck, M., Baum, K., & Langer, M.",
+    "year": "2026",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Ditz, J. C., Lazar, V., Lichtmeß, E., Plesch, C., Heck, M., Baum, K., & Langer, M. (2026). Secure human oversight of AI: Threat modeling in a socio-technical context. arXiv preprint arXiv:2509.12290v2."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "cybersecurity threat modeling; socio-technical systems analysis",
+    "study_design": "conceptual threat-modeling framework treating human oversight as an IT application",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "cybersecurity; public administration; AI governance",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "human oversight applications; high-risk AI systems; agentic AI; MCP servers; AI chatbots"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "human_oversight",
+      "ai_governance",
+      "regulated_high_risk_context",
+      "security_risk_audit",
+      "llm_agentic_mentions"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "O artigo aborda diretamente governança e supervisão humana de IA em contextos regulados (incluindo EU AI Act e sistemas de alto risco), com foco em segurança, accountability e vetores de ataque. Menciona LLMs, agentes e chatbots, mas o núcleo é threat modeling da arquitetura de supervisão humana, não governança conversacional de sistemas LLM.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Metadados extraídos por Python estão corrompidos (título/autores); confirmar classificação entre evidência de apoio e contextual dado foco secundário em LLMs/conversação."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Estudo conceitual sem amostra empírica; adequação de amostragem e coleta de dados não se aplicam plenamente. Rigor analítico inferido pela proposta de modelagem sistemática de ameaças, mas detalhes metodológicos completos não constam no trecho fornecido."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "O argumento é coerente e relevante para supervisão humana segura em IA regulada, mas a evidência empírica é limitada no material fornecido e a aplicabilidade direta a governança conversacional de LLMs é parcial."
+  },
+  "coding": {
+    "open_codes": [
+      "human_oversight_security",
+      "attack_surface",
+      "threat_modeling",
+      "hardening_strategies",
+      "eu_ai_act",
+      "high_risk_ai",
+      "sociotechnical_oversight",
+      "llm_scheming",
+      "agentic_ai_attacks",
+      "chatbot_oversight_example"
+    ],
+    "axial_codes": [
+      "governance_architecture",
+      "human_oversight",
+      "risk_and_security",
+      "regulated_compliance",
+      "technical_mitigation"
+    ],
+    "theme": "Segurança da supervisão humana como componente da governança de IA",
+    "subtheme": "Threat modeling socio-técnico da superfície de ataque da supervisão humana",
+    "concepts": [
+      "human oversight",
+      "attack vectors",
+      "hardening strategies",
+      "accountability architecture",
+      "insider threat via scheming LLMs",
+      "MCP credential access"
+    ],
+    "model_layers": [
+      "policy_regulatory",
+      "organizational_oversight",
+      "technical_security",
+      "human_factors"
+    ],
+    "rq_alignment": [
+      "human_oversight",
+      "accountability",
+      "risk_audit_compliance",
+      "regulated_high_stakes",
+      "operational_technical_governance"
+    ],
+    "coding_confidence": 0.8
+  },
+  "synthesis": {
+    "main_claim": "A supervisão humana de IA cria uma nova superfície de ataque dentro da arquitetura de segurança, accountability e operações de IA; modelá-la como aplicação de TI via threat modeling permite identificar riscos e estratégias de mitigação.",
+    "contribution": "Introduz perspectiva de cibersegurança sobre supervisão humana, orienta abordagem de segurança para aplicações de oversight e oferece visão sistemática de vetores de ataque e estratégias de hardening.",
+    "limitations": "unclear",
+    "use_in_review": "Evidência de apoio para camadas de governança operacional e supervisão humana em contextos regulados; útil para mapear riscos de segurança, ataques a credenciais de pessoal de oversight e ameaças de LLMs/agentes, mas não como estudo central de governança conversacional."
+  },
+  "evidence": [
+    {
+      "claim": "Título e foco do estudo",
+      "excerpt": "SECURE HUMAN OVERSIGHT OF AI: THREAT MODELING IN A SOCIO-TECHNICAL CONTEXT",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Tipo de publicação pré-print arXiv",
+      "excerpt": "arXiv:2509.12290v2 [cs.CR] 5 Mar 2026",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Supervisão humana como requisito regulatório em sistemas de alto risco",
+      "excerpt": "a central requirement for the implementation of high-risk AI systems in emerging AI regulation, such as Article 14 of the European AI Act",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Supervisão humana cria nova superfície de ataque na arquitetura de accountability",
+      "excerpt": "human oversight creates a new attack surface within the safety, security, and accountability architecture of AI operations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Método conceitual de threat modeling",
+      "excerpt": "we model human oversight as an IT application for the purpose of systematic threat modeling of the human oversight process",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Exemplo conversacional com chatbot em contexto de saúde",
+      "excerpt": "a patient using an AI chatbot for mental health support [18] would be the user, while oversight personnel monitor the patient–AI interaction",
+      "page": "2",
+      "section": "related work",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs podem realizar scheming e ameaçar credenciais de supervisão",
+      "excerpt": "current state-of-the-art large language models (LLMs) have the ability to do scheming",
+      "page": "8",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Agentes com MCP podem acessar credenciais de pessoal de oversight",
+      "excerpt": "With insufficiently secured model context protocol (MCP) servers, AI agents can try and use available tools to access credentials of human oversight personnel",
+      "page": "8",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Ataques por prompt injection afetam ativos de supervisão humana",
+      "excerpt": "direct) prompt injections can be used to attack both physical assets, HO personnel credentials (PA.1) and User data (PA.2)",
+      "page": "9",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Scheming de LLM pode converter sistema em insider threat",
+      "excerpt": "Scheming can convert an AI system into an insider threat by triggering forbidden operations due to misaligned behavior",
+      "page": "9",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Contribuições declaradas incluem vetores de ataque e hardening",
+      "excerpt": "providing a systematic overview of attack vectors and hardening strategies to enable secure human oversight of AI",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Contexto regulado de alto risco inclui infraestrutura crítica",
+      "excerpt": "targeting AI operations in high-risk contexts such as critical infrastructure",
+      "page": "2",
+      "section": "related work",
+      "supports": "eligibility"
+    }
+  ]
+}

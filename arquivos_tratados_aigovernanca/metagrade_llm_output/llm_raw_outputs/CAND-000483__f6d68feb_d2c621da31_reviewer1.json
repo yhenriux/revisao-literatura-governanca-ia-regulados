@@ -1,0 +1,191 @@
+{
+  "bibliographic": {
+    "title": "Operational AI Deployment Assurance: Governance-State Orchestration Under Threshold-Sensitive Deployment Conditions - A Governance Framework for High-Stakes AI Systems",
+    "authors": "Khalid Adnan Alsayed",
+    "year": "2026",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Alsayed, K. A. (2026). Operational AI deployment assurance: Governance-state orchestration under threshold-sensitive deployment conditions—A governance framework for high-stakes AI systems. Preprint."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "governance framework development with deployment-oriented illustrative evaluation",
+    "study_design": "conceptual framework proposal building on Fairness Disagreement Index (FDI) and FairRisk-FDI, with deployment-oriented evaluation across facial recognition systems and extended discussion to healthcare AI",
+    "sample_description": "facial recognition systems used for deployment-oriented evaluation; healthcare AI discussed as representative high-stakes domain",
+    "sample_size": "unclear",
+    "sector": "high-stakes AI across healthcare diagnostics, law enforcement, financial decision-making, critical infrastructure, and public-sector governance",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "machine learning and high-stakes AI deployment pipelines; MLOps, post-deployment monitoring, fairness metrics, facial recognition; foundation models mentioned only as future research direction"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "AI_GOVERNANCE_FRAMEWORK",
+      "DEPLOYMENT_ASSURANCE",
+      "HIGH_STAKES_REGULATED",
+      "LIFECYCLE_RISK_MANAGEMENT",
+      "HUMAN_OVERSIGHT_ESCALATION",
+      "POST_DEPLOYMENT_MONITORING"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI",
+      "LIMITED_LLM_SPECIFICITY"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper provides a substantive operational AI governance framework for high-stakes regulated deployment, including escalation states, remediation progression, deployment readiness, auditing, monitoring, and compliance-oriented lifecycle control. However, the provided text contains no evidence of conversational AI, chatbots, agents, or RAG, and LLM/foundation-model relevance appears only as a future-research mention rather than the study focus.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated triage graded the study as central_candidate, but conversational AI evidence is absent and LLM specificity is weak; manual adjudication is needed to confirm foundational versus peripheral inclusion for a conversational LLM governance review."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Clear framework objective and construct definitions are present in the abstract and introduction. Empirical support appears limited to deployment-oriented evaluation on facial recognition, with healthcare discussed illustratively. Full methodological detail on data collection and sample size is not visible in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and clearly linked to deployment governance, fairness disagreement, and lifecycle assurance. Confidence is moderate rather than high because the supplied text offers limited empirical transparency and the work is not specific to conversational LLM systems, which reduces direct adequacy and relevance for the review's core scope."
+  },
+  "coding": {
+    "open_codes": [
+      "operational deployment assurance",
+      "governance escalation states",
+      "deployment readiness classification",
+      "threshold stability zones",
+      "fairness disagreement",
+      "remediation-aware assurance progression",
+      "observational governance limitations",
+      "MLOps monitoring",
+      "lifecycle governance",
+      "human oversight"
+    ],
+    "axial_codes": [
+      "operational AI governance",
+      "deployment-state control",
+      "risk and assurance management",
+      "regulated high-stakes contexts"
+    ],
+    "theme": "Operational deployment assurance as a governance layer between evaluation and real-world AI deployment",
+    "subtheme": "Threshold-sensitive deployment readiness and escalation under fairness disagreement",
+    "concepts": [
+      "OADA",
+      "Deployment Assurance Scores",
+      "Deployment Readiness Classifications",
+      "Threshold Stability Zones",
+      "Governance Escalation States",
+      "Fairness Disagreement Index (FDI)",
+      "FairRisk-FDI"
+    ],
+    "model_layers": [
+      "evaluation outputs",
+      "deployment-state interpretation",
+      "reassessment",
+      "escalation",
+      "operational control",
+      "post-deployment monitoring"
+    ],
+    "rq_alignment": [
+      "governance of generative/AI systems in regulated environments",
+      "risk management and compliance",
+      "human oversight and escalation",
+      "post-deployment monitoring and operational governance"
+    ],
+    "coding_confidence": 0.84
+  },
+  "synthesis": {
+    "main_claim": "OADA reframes governance uncertainty as an operational deployment concern and translates fairness disagreement, subgroup instability, threshold sensitivity, remediation outcomes, and operational uncertainty into deployment-oriented assurance decisions through deployment scores, readiness classifications, stability zones, and escalation states.",
+    "contribution": "Proposes a lifecycle-oriented governance framework that moves beyond observational metric reporting and post-hoc auditing toward assurance-driven deployment control in high-stakes AI systems.",
+    "limitations": "The provided text indicates current approaches remain observational, and the paper itself notes future research on foundation models, multimodal AI, adaptive learning environments, and enterprise-scale integration; empirical demonstration in the supplied excerpts is centered on facial recognition with healthcare discussed representatively.",
+    "use_in_review": "Use as foundational contextual evidence for operational AI governance, deployment readiness, escalation, remediation, monitoring, and regulated high-stakes assurance mechanisms; do not treat as central evidence on conversational governance or LLM-based systems unless broader AI-governance framing is explicitly allowed."
+  },
+  "evidence": [
+    {
+      "claim": "Paper proposes OADA, an operational governance framework for high-stakes AI deployment assurance.",
+      "excerpt": "This paper introduces Operational AI Deployment Assurance (OADA), a governance framework for translating fairness disagreement, subgroup instability, threshold sensitivity, remediation outcomes, and operational uncertainty into deployment-oriented assurance decisions.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Framework connects evaluation outputs to deployment control, reassessment, and escalation.",
+      "excerpt": "The framework introduces Deployment Assurance Scores, Deployment Readiness Classifications, Threshold Stability Zones, Governance Escalation States, and remediation-aware assurance progression.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Study addresses regulated high-stakes domains.",
+      "excerpt": "Artificial Intelligence systems are increasingly being deployed in high-stakes operational environments, including healthcare diagnostics, law enforcement, financial decision-making, critical infrastructure management, and public-sector governance",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance emphasis includes accountability, oversight, safety, and continuous risk management.",
+      "excerpt": "emphasize principles including transparency, accountability, robustness, human oversight, fairness, safety, explainability, and continuous risk management across AI system lifecycles",
+      "page": "3",
+      "section": "findings",
+      "supports": "coding"
+    },
+    {
+      "claim": "Existing governance approaches are criticized as observational rather than deployment-controlling.",
+      "excerpt": "many existing governance approaches remain primarily observational in nature",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Empirical illustration uses facial recognition with healthcare discussed as high-stakes example.",
+      "excerpt": "Through deployment-oriented evaluation across facial recognition systems, with discussion extended to healthcare AI as a representative high-stakes domain",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Paper builds on prior fairness-disagreement work rather than conversational AI methods.",
+      "excerpt": "Building on prior work on the Fairness Disagreement Index (FDI) and FairRisk-FDI, OADA reframes governance uncertainty as an operational concern within AI deployment pipelines",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "MLOps and post-deployment monitoring are part of the governance context.",
+      "excerpt": "substantial attention has been directed toward Machine Learning Operations (MLOps), lifecycle management, and post-deployment monitoring infrastructures.",
+      "page": "4",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "Foundation models are only identified as future work, not central focus.",
+      "excerpt": "Additional research may also investigate deployment assurance behaviour under continuously adaptive learning environments, foundation models, multimodal AI systems, and large-scale operational AI infrastructures.",
+      "page": "12",
+      "section": "limitations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational AI content is evidenced in the supplied text.",
+      "excerpt": "matched_terms: [] for conversational_ai with evidence_count: 0",
+      "page": "unclear",
+      "section": "PYTHON EVIDENCE HITS",
+      "supports": "eligibility"
+    }
+  ]
+}

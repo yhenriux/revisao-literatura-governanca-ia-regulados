@@ -1,0 +1,187 @@
+{
+  "bibliographic": {
+    "title": "Development and validation of an artificial intelligence proof-of-concept tool for risk-based quality assessment of generic medicines: a South African case study",
+    "authors": "Danks, L.; Semete-Makokotlela, B.; Reynecke, C.; Dijeng, S.; Kgosietsile, B.; van Tonder, J.; van Graan, C.; Hinch, J.; Kruger, A.; Walker, S.; Salek, S.",
+    "year": "2026",
+    "venue": "Frontiers in Medicine",
+    "doi": "10.3389/fmed.2026.1811333",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Danks, L., Semete-Makokotlela, B., Reynecke, C., Dijeng, S., Kgosietsile, B., van Tonder, J., van Graan, C., Hinch, J., Kruger, A., Walker, S., & Salek, S. (2026). Development and validation of an artificial intelligence proof-of-concept tool for risk-based quality assessment of generic medicines: A South African case study. Frontiers in Medicine, 13, 1811333. https://doi.org/10.3389/fmed.2026.1811333"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "proof-of-concept development and GAMP5-based validation case study",
+    "study_design": "development and external validation of an AI RBA triage tool across two African NRAs using IQ/OQ/PQ qualification phases",
+    "sample_description": "210 SAHPRA product dossiers for development; external validation across 60 dossiers at SAHPRA and BoMRA with human assessors-in-the-loop",
+    "sample_size": "210 development dossiers; 60 validation dossiers",
+    "sector": "pharmaceutical regulatory affairs / medicines regulation",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "RAG architecture with Meta Llama 3.1, vector embeddings, regulatory knowledge base integrations (EDQM, WHO PQ), Docker deployment, document intelligence pipeline"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_SPECIFIC",
+      "RAG_ARCHITECTURE",
+      "REGULATED_HEALTH_PHARMA",
+      "RISK_AUDIT_COMPLIANCE",
+      "HUMAN_OVERSIGHT_LOOP",
+      "OPERATIONAL_GOVERNANCE"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_SYSTEM",
+      "NOT_CHATBOT_OR_AGENT_INTERFACE"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study provides empirical evidence on LLM-based RAG deployment, validation, auditability, and governance in a highly regulated medicines context, but the provided text describes dossier triage and document intelligence rather than conversational AI, chatbots, agents, or conversational governance mechanisms.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "High automated relevance score despite zero conversational-AI signals; confirm whether non-conversational RAG regulatory tools should be coded as supporting or excluded under the review's conversational-governance scope."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Clear PoC development and GAMP5-aligned validation with quantitative performance metrics and human assessors-in-the-loop; limited provided text on broader limitations and no conversational-governance design."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Methodologically coherent empirical validation of an LLM-RAG regulatory tool with transparent qualification phases, but direct relevance to conversational governance is low because the supplied text does not describe dialogue systems, user interaction governance, or conversational oversight mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "RAG_grounding",
+      "GAMP5_validation",
+      "human_assessors_in_the_loop",
+      "regulatory_dossier_triage",
+      "Docker_local_deployment",
+      "audit_traceability",
+      "document_intelligence",
+      "risk_based_assessment"
+    ],
+    "axial_codes": [
+      "operational_technical_governance",
+      "regulated_llm_deployment",
+      "validation_and_accountability"
+    ],
+    "theme": "LLM-RAG governance for regulated document assessment",
+    "subtheme": "pharmaceutical regulatory quality triage validation",
+    "concepts": [
+      "retrieval-augmented generation",
+      "risk-based assessment",
+      "GAMP5 qualification",
+      "regulatory accountability",
+      "knowledge base grounding",
+      "external validation",
+      "human-in-the-loop"
+    ],
+    "model_layers": [
+      "model_layer",
+      "retrieval_knowledge_layer",
+      "deployment_security_layer",
+      "validation_audit_layer",
+      "human_oversight_layer"
+    ],
+    "rq_alignment": [
+      "LLM deployment in regulated environments",
+      "RAG knowledge governance",
+      "audit and validation of AI systems",
+      "human oversight in high-stakes regulation"
+    ],
+    "coding_confidence": 0.84
+  },
+  "synthesis": {
+    "main_claim": "LEXI, an AI proof-of-concept using RAG with Llama 3.1, was developed from SAHPRA's RBA quality matrix and externally validated under GAMP5, achieving 91.7% overall predictive accuracy across 60 dossiers at two African NRAs.",
+    "contribution": "Offers an empirical regulated-domain case of LLM-RAG system design, grounding, security-conscious deployment, and formal validation for medicines dossier triage rather than conversational interaction.",
+    "limitations": "Provided text notes LLM limitations with mathematical equations affecting one criterion and indicates need for further validation across broader product types and regulatory environments; conversational governance is not addressed.",
+    "use_in_review": "Include as supporting evidence for operational governance, validation, auditability, and human-in-the-loop oversight of LLM-RAG systems in regulated health/pharma contexts; not central evidence for conversational governance."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses a specific LLM with RAG in a regulated medicines workflow",
+      "excerpt": "The system employed Retrieval- Augmented Generation (RAG) architecture with Meta’s Llama 3.1 large language model",
+      "page": "1",
+      "section": "Introduction/Methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical validation design with defined sample sizes",
+      "excerpt": "using 210 of its product dossiers, and was validated under the Good Automated Manufacturing Practice (GAMP5) framework",
+      "page": "1",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "External validation across two NRAs on 60 dossiers with reported accuracy",
+      "excerpt": "During external validation across 60 dossiers, LEXI demonstrated 91.7% overall predictive accuracy (55/60; 95% CI: 81.6-97.2%)",
+      "page": "1",
+      "section": "Results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Human oversight integrated into validation",
+      "excerpt": "with the final tool testing and validation with “human assessors-in-the-loop” to assure the acceptable accuracy of the AI tool",
+      "page": "3",
+      "section": "Materials and methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "RAG outputs are grounded in regulatory knowledge base",
+      "excerpt": "Upon receiving a query, the system retrieved pertinent context from its indexed knowledge base and used this to guide the LLM’s reasoning, thereby grounding all AI-generated outputs in the provided regulatory texts",
+      "page": "6",
+      "section": "Retrieval-augmented generation (RAG) framework",
+      "supports": "coding"
+    },
+    {
+      "claim": "Auditability and regulatory accountability are explicit design goals",
+      "excerpt": "maintaining regulatory accountability and supporting validation audits",
+      "page": "7",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Security-centric deployment limits external data transfer",
+      "excerpt": "Local hosting of the language model and data processing pipeline prevented the transfer of any confidential regulatory data to external servers or cloud services",
+      "page": "7",
+      "section": "Security and deployment environment",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Ethics and governance frameworks addressed",
+      "excerpt": "the AI use complied with data privacy and governance frameworks",
+      "page": "4",
+      "section": "Materials and methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational system described in supplied text",
+      "excerpt": "The RBA AI PoC tool, which was nicknamed LEXI (Linguistic Expert), was developed over the course of 18 months, using the Large Language Model (LLM), Llama 3.1",
+      "page": "5",
+      "section": "Results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Known LLM limitation affecting performance on symbolic content",
+      "excerpt": "LLMs, which enable systems to understand, interpret, and generate human language, are not well- suited for directly handling mathematical equations as these are symbolic, not linguistic",
+      "page": "8",
+      "section": "Results",
+      "supports": "synthesis"
+    }
+  ]
+}

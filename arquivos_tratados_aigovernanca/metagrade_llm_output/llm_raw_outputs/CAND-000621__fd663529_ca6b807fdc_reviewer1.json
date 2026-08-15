@@ -1,0 +1,202 @@
+{
+  "bibliographic": {
+    "title": "From Control to Foresight: Simulation as a New Paradigm for Human–Agent Collaboration",
+    "authors": "Gaole He; Brian Y. Lim",
+    "year": "2026",
+    "venue": "CHI 2026 Workshop on Human-Agent Collaboration, Barcelona, Spain",
+    "doi": "10.1145/nnnnnnn.nnnnnnn",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "He, G., & Lim, B. Y. (2026). From control to foresight: Simulation as a new paradigm for human–agent collaboration. In CHI 2026 Workshop on Human-Agent Collaboration."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "perspective paper with conceptual framework and design space",
+    "study_design": "conceptual framework paper illustrating scenarios without reported empirical evaluation",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "human-computer interaction; LLM agent task domains including travel planning and code generation",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-powered autonomous agents in multi-step agentic workflows with human oversight, simulation of future trajectories, and human-computer interaction"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_agents",
+      "human_oversight",
+      "human_agent_collaboration",
+      "conceptual_framework",
+      "accountability_supervision"
+    ],
+    "exclusion_codes": [
+      "no_regulated_domain",
+      "no_conversational_governance_focus",
+      "no_compliance_audit_operational_governance",
+      "no_empirical_study"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper is a short CHI workshop perspective on simulation-in-the-loop for human–LLM agent collaboration, with explicit attention to human supervision, approval/correction, and accountable outcomes. It is relevant as supporting conceptual evidence on human oversight and foresight in agent workflows, but it does not address conversational governance, regulated/high-stakes domains, compliance, audit, observability, or operational governance mechanisms required for central evidence in this review.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Workshop perspective paper with placeholder DOI; only partial PDF text provided; triage marked central_candidate but regulated-domain and governance-operational signals are weak."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appropriate as a conceptual HCI perspective paper. Strengths are clear problem framing and framework articulation. Weaknesses for evidence synthesis are absence of empirical evaluation, no regulated-domain application, and limited discussion of governance/compliance mechanisms beyond supervision at decision points."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is internally coherent and clearly scoped as a perspective framework, but confidence for the review's regulated conversational-governance focus is only moderate because the text lacks regulated contexts, operational controls, and empirical validation of the proposed paradigm."
+  },
+  "coding": {
+    "open_codes": [
+      "pointwise reactive interaction",
+      "human approval and correction",
+      "mental simulation burden",
+      "simulation-in-the-loop",
+      "agentic workflow",
+      "action space exploration",
+      "simulated trajectories",
+      "human oversight",
+      "accountable outcomes",
+      "LLM world-model limitations"
+    ],
+    "axial_codes": [
+      "human-agent collaboration",
+      "human oversight and intervention",
+      "interaction paradigm design",
+      "foresight versus control"
+    ],
+    "theme": "Human oversight in LLM agent collaboration",
+    "subtheme": "Simulation-based foresight before action commitment",
+    "concepts": [
+      "simulation-in-the-loop",
+      "agentic workflow",
+      "action space",
+      "simulation",
+      "simulated impact",
+      "human oversight"
+    ],
+    "model_layers": [
+      "interaction paradigm",
+      "human supervision layer",
+      "agent planning and exploration layer",
+      "simulation layer"
+    ],
+    "rq_alignment": [
+      "human oversight",
+      "accountability",
+      "risk mitigation through informed intervention"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Current human–LLM agent collaboration is pointwise and reactive, leaving users without visibility into downstream consequences; the authors propose simulation-in-the-loop so users and agents explore simulated future trajectories before committing to actions.",
+    "contribution": "Characterizes limitations of existing interaction paradigms, introduces a conceptual framework and design space for simulation-based collaboration, and illustrates potential use through human–agent scenarios.",
+    "limitations": "Perspective paper without reported empirical study; acknowledges that LLM-generated simulations may hallucinate, omit dependencies, or be overly optimistic; open-ended domain simulation remains technically uncertain.",
+    "use_in_review": "Use as supporting conceptual evidence on human oversight, intervention timing, and foresight in LLM agent workflows; not suitable as central evidence for conversational governance in regulated environments because regulated domains and governance/compliance mechanisms are not addressed."
+  },
+  "evidence": [
+    {
+      "claim": "Bibliographic title and authorship",
+      "excerpt": "From Control to Foresight: Simulation as a New Paradigm for Human–Agent Collaboration GAOLE HE, National University of Singapore, Singapore BRIAN Y. LIM",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Publication is a 2026 CHI workshop perspective paper",
+      "excerpt": "This perspective paper characterizes the limitations of current paradigms, introduces a conceptual framework for simulation-based collaboration",
+      "page": "1",
+      "section": "abstract/introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Focus on LLM agents and human supervision",
+      "excerpt": "Large Language Models (LLMs) are increasingly used to power autonomous agents for complex, multi-step tasks.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human oversight at key decision junctures",
+      "excerpt": "To ensure reliable and accountable outcomes, LLM agents are often supervised by humans [5, 8]: the agent proposes a sequence of actions, and the human is asked to approve or correct decisions at key junctures.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Current interaction is reactive and lacks downstream visibility",
+      "excerpt": "human-agent interaction remains pointwise and reactive: users approve or correct individual actions to mitigate immediate risks, without visibility into subsequent consequences.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Proposed paradigm is simulation-in-the-loop",
+      "excerpt": "We propose simulation-in-the-loop, an interaction paradigm that enables users and agents to explore simulated future trajectories before committing to decisions.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Core unit is multi-step LLM agent workflow under human oversight",
+      "excerpt": "Agentic Workflow: The unit of analysis is a multi-step task performed by an LLM agent under human oversight (e.g., travel planning).",
+      "page": "2",
+      "section": "2.1 Concept and Definition",
+      "supports": "coding"
+    },
+    {
+      "claim": "Humans may approve, modify, or override agent actions",
+      "excerpt": "at each step, the age... the human may approve, modify, or override it before execution.",
+      "page": "2",
+      "section": "2.1 Concept and Definition",
+      "supports": "coding"
+    },
+    {
+      "claim": "No regulated-domain focus in examples",
+      "excerpt": "ranging from travel planning to code generation [15, 18]",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Acknowledged limitation of LLM-based simulation reliability",
+      "excerpt": "LLM-generated simulations may hallucinate, omit critical dependencies, or produce overly optimistic trajectories [6, 7, 16].",
+      "page": "4",
+      "section": "3 Challenges and Opportunities",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Paper contributions are conceptual rather than empirical",
+      "excerpt": "In this paper, we (1) articulate the limitations of existing pointwise interaction paradigms, (2) introduce a conceptual framework and design space for simulation-based collaboration, and (3) illustrate the approach through concrete scenarios with LLM agents",
+      "page": "2",
+      "section": "introduction/limitations",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Risk/trade-off annotation in simulated trajectories",
+      "excerpt": "Each simulated trajectory is annotated with key outcomes—risks, opportunities, trade-offs, uncertainties—that help humans compare alternatives.",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "coding"
+    }
+  ]
+}

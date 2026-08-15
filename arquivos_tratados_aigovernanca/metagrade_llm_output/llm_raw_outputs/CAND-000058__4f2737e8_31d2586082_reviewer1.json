@@ -1,0 +1,184 @@
+{
+  "bibliographic": {
+    "title": "Towards trustworthy LLMs: a review on debiasing and dehallucinating in large language models",
+    "authors": "Zichao Lin; Shuyan Guan; Wending Zhang; Huiyan Zhang; Yugang Li; Huaping Zhang",
+    "year": "2024",
+    "venue": "Artificial Intelligence Review",
+    "doi": "10.1007/s10462-024-10896-y",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Lin, Z., Guan, S., Zhang, W., Zhang, H., Li, Y., & Zhang, H. (2024). Towards trustworthy LLMs: a review on debiasing and dehallucinating in large language models. Artificial Intelligence Review, 57, 243. https://doi.org/10.1007/s10462-024-10896-y"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "literature survey",
+    "study_design": "dual-focused narrative review on bias and hallucination in LLMs",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models; debiasing; dehallucination; benchmarks; evaluation methods; mitigation taxonomy"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_FOCUS",
+      "BIAS_GOVERNANCE",
+      "HALLUCINATION_MITIGATION",
+      "TRUSTWORTHINESS"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI",
+      "NO_REGULATED_DOMAIN",
+      "NO_OPERATIONAL_GOVERNANCE"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed survey on bias and hallucination mitigation in LLMs, framed around trustworthy LLMs. It is relevant as foundational/contextual evidence for LLM risk and mitigation, but the provided text contains no evidence on conversational systems, conversational governance, regulated/high-stakes domains, operational governance, audit/logging, human oversight, or compliance frameworks.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial introduction were provided; full review methods, inclusion criteria, corpus size, and later sections on governance implications are unavailable."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Clear review objective and planned outputs (benchmarks, taxonomy, comparative analysis) are stated in the abstract, but review protocol, search strategy, study selection, and limitations are not visible in the supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The abstract presents a coherent dual-focused review on bias and hallucination with taxonomy and comparative analysis, supporting moderate confidence for foundational LLM trustworthiness topics. Confidence is limited for the target review scope because conversational governance and regulated-context governance are not evidenced, and full review methodology is not shown."
+  },
+  "coding": {
+    "open_codes": [
+      "bias_mitigation",
+      "hallucination_mitigation",
+      "trustworthy_llms",
+      "benchmarks",
+      "evaluation_methods",
+      "mitigation_taxonomy",
+      "comparative_analysis"
+    ],
+    "axial_codes": [
+      "LLM_risk_management",
+      "model_reliability",
+      "technical_mitigation_strategies"
+    ],
+    "theme": "Trustworthiness of LLMs through debiasing and dehallucination",
+    "subtheme": "Survey of benchmarks, evaluation, and mitigation strategies",
+    "concepts": [
+      "bias",
+      "hallucination",
+      "debiasing",
+      "dehallucinating",
+      "benchmarks",
+      "evaluation methods",
+      "mitigation strategies",
+      "taxonomy",
+      "trustworthy LLMs"
+    ],
+    "model_layers": [
+      "model_output_quality",
+      "risk_mitigation",
+      "evaluation_and_benchmarking"
+    ],
+    "rq_alignment": [
+      "bias_governance",
+      "risk_control",
+      "explicability_trust"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "The paper conducts a simultaneous dual-focused review of bias and hallucination in LLMs, covering benchmarks, evaluation methods, mitigation strategies, and a comparative taxonomy.",
+    "contribution": "Provides a synthesized landscape of debiasing and dehallucination research, including mitigation taxonomies and comparative analysis of sources, methods, and evaluation approaches.",
+    "limitations": "Supplied text does not describe review methodology details, corpus scope, or study limitations; no regulated-domain or conversational-governance analysis is evidenced.",
+    "use_in_review": "Use as foundational/contextual evidence on LLM bias and hallucination risks and technical mitigation approaches; not central evidence for conversational governance in regulated environments."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article on trustworthy LLMs",
+      "excerpt": "Artificial Intelligence Review (2024) 57:243",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Dual-focused review on bias and hallucination in LLMs",
+      "excerpt": "this paper aims to conduct a simultaneous and dual-focused review of the current landscape of research",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Covers benchmarks, evaluation, mitigation, and taxonomy",
+      "excerpt": "benchmarks and evaluation methods on bias and hallucination in LLMs",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Mitigation taxonomy is a core output",
+      "excerpt": "present a taxonomy based on different mitigation strategies",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Bias and hallucination pose practical deployment challenges",
+      "excerpt": "LLMs’ generation of biased or hallucinatory content raised significant concerns, posing major challenges for their practical application",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Article is explicitly a survey/review",
+      "excerpt": "Keywords Large language models · Debias · Hallucination · Survey",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM-specific technology context including ChatGPT",
+      "excerpt": "large language models (LLMs) represented by OpenAI’s ChatGPT",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational AI governance content in provided text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No regulated-domain focus in provided text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Clear review objective stated in abstract",
+      "excerpt": "Addressing this gap, this paper aims to conduct a simultaneous and dual-focused review",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

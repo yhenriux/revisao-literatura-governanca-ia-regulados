@@ -1,0 +1,201 @@
+{
+  "bibliographic": {
+    "title": "Governing Generative AI in Healthcare: A Normative Conceptual Framework for Epistemic Authority, Trust, and the Architecture of Responsibility",
+    "authors": "Fatma Eren Akgün; Metin Akgün",
+    "year": "2026",
+    "venue": "Healthcare",
+    "doi": "10.3390/healthcare14081098",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Akgün, F. E., & Akgün, M. (2026). Governing generative AI in healthcare: A normative conceptual framework for epistemic authority, trust, and the architecture of responsibility. Healthcare, 14(8), 1098. https://doi.org/10.3390/healthcare14081098"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "normative conceptual analysis with structured literature synthesis",
+    "study_design": "essay proposing a normative conceptual framework (ETR Architecture) derived from philosophical principles, ethical theories, and empirical evidence identified via structured searches of PubMed, PhilPapers, and EUR-Lex (January 2020–March 2026)",
+    "sample_description": "literature from philosophy of medical knowledge, ethics of trust and testimony, and moral philosophy of responsibility; no primary empirical sample described in provided text",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models (LLMs) such as ChatGPT integrated into healthcare for clinical documentation, diagnostic support, discharge summaries, and clinician–patient messaging"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "governance_accountability",
+      "regulated_healthcare",
+      "human_oversight",
+      "conceptual_framework"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses governance of LLMs in healthcare through a normative framework linking epistemic authority, warranted trust, human oversight, verification tiers, accountability, and regulatory transition (EU AI Act, WHO guidance). It matches the review scope on generative AI governance in regulated conversational/clinical AI contexts.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and pages 1–2 were provided; full framework components, limitations, and complete methods should be verified in the complete PDF."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Appropriate normative conceptual method for the stated aim. Objectives and four framework outputs are clearly articulated. Search databases and date range are reported, but detailed search strategy, selection criteria, and limitations are not visible in the excerpt. Framework proposes testable hypotheses but empirical validation is not shown in provided pages."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 5,
+    "overall_confidence": "moderate",
+    "explanation": "Highly relevant and internally coherent normative governance framework for healthcare LLMs, but confidence is moderated because only partial text was available and the framework's empirical grounding and full analytical process are not fully documented in the excerpt."
+  },
+  "coding": {
+    "open_codes": [
+      "epistemic authority",
+      "warranted trust",
+      "responsibility gap",
+      "epistemic placebo",
+      "four-tier output classification",
+      "verification requirements",
+      "human oversight",
+      "clinical risk matching",
+      "automation bias",
+      "EU AI Act high-risk medical AI"
+    ],
+    "axial_codes": [
+      "governance architecture",
+      "accountability and responsibility",
+      "trust calibration",
+      "output classification and verification",
+      "regulatory compliance transition"
+    ],
+    "theme": "Normative governance of generative AI/LLMs in healthcare",
+    "subtheme": "Epistemic authority, trust, and responsibility architecture (ETR)",
+    "concepts": [
+      "ETR Architecture",
+      "epistemic placebo",
+      "four-tier LLM output classification",
+      "conditions for justified trust",
+      "testable governance hypotheses"
+    ],
+    "model_layers": [
+      "output classification tier",
+      "verification/oversight intensity",
+      "trust justification conditions",
+      "accountability/responsibility assignment",
+      "institutional governance policy"
+    ],
+    "rq_alignment": [
+      "AI governance in regulated healthcare",
+      "LLM-specific governance",
+      "human oversight beyond declarative compliance",
+      "accountability for AI-informed harm",
+      "risk-calibrated oversight",
+      "trust and epistemic authority in conversational/clinical AI outputs"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Healthcare governance of LLMs must jointly resolve what kind of knowledge LLM outputs represent, when trust in them is justified, and who bears responsibility when AI-informed decisions cause harm, via an integrated Epistemic Authority–Trust–Responsibility (ETR) Architecture rather than isolated ethics topics such as bias, privacy, and accuracy alone.",
+    "contribution": "Proposes the ETR Architecture with four outputs: a four-tier classification of LLM outputs matched to verification requirements; the concept of the 'epistemic placebo' (governance appearing compliant without genuine oversight); conditions for justified trust; and four testable hypotheses with associated research designs.",
+    "limitations": "unclear in provided excerpt; full limitations section not available in supplied pages",
+    "use_in_review": "Use as central conceptual evidence for normative governance of LLMs in healthcare, especially tiered verification, critique of superficial human-oversight declarations, warranted trust, responsibility/accountability, and alignment with 2025–2027 regulatory transition under the EU AI Act."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on LLM governance in healthcare with explicit LLM/ChatGPT context",
+      "excerpt": "Large language models (LLMs) such as ChatGPT are rapidly being integrated into healthcare for tasks ranging from clinical documentation to diagnostic support.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research type is normative conceptual analysis synthesizing philosophical and empirical literature",
+      "excerpt": "The framework was developed through normative conceptual analysis—a method that constructs governance proposals by synthesising philosophical principles, ethical theories, and empirical evidence.",
+      "page": "1",
+      "section": "Abstract/Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Literature identified via structured searches across named databases and date range",
+      "excerpt": "The literature was identified through structured searches of PubMed, PhilPapers, and EUR-Lex (January 2020–March 2026)",
+      "page": "1",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Framework produces tiered LLM output classification with verification requirements",
+      "excerpt": "a four-tier classification system that distinguishes LLM outputs—from administrative drafts to clinical evidence claims—and matches each tier to appropriate verification requirements",
+      "page": "1",
+      "section": "Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Generic human oversight can be an epistemic placebo lacking genuine safeguards",
+      "excerpt": "Generic ‘human oversight’ declarations can function as ‘epistemic placebos’ that create the appearance of safety without genuine safeguards.",
+      "page": "1",
+      "section": "Highlights",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Epistemic placebo formally defined as governance appearing compliant without operative oversight",
+      "excerpt": "the concept of the ‘epistemic placebo’, formally defined as a governance measure that creates a documented appearance of compliance while lacking at least one operative element of genuine oversight",
+      "page": "1",
+      "section": "Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Three integrated governance questions on knowledge, trust, and responsibility",
+      "excerpt": "What kind of knowledge does an LLM output represent in clinical reasoning? When is a clinician’s or patient’s trust in that output justified? Who bears responsibility when an AI-informed decision leads to patient harm?",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Conversational/clinical use cases include patient messaging and diagnostic support",
+      "excerpt": "When a large language model (LLM) such as ChatGPT drafts a discharge summary, suggests possible diagnoses, or replies to a patient’s message on behalf of a clinician",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated high-risk healthcare AI and EU AI Act transition context",
+      "excerpt": "the EU Artificial Intelligence Act, which classifies certain medical AI systems as ‘high risk’ under Annex III, will become fully applicable between 2026 and 2027",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Oversight intensity should match clinical risk of each deployment",
+      "excerpt": "Healthcare institutions need explicit governance frameworks that match oversight intensity to the clinical risk level of each AI deployment.",
+      "page": "1",
+      "section": "Highlights",
+      "supports": "coding"
+    },
+    {
+      "claim": "Deploying LLMs without output classification risks vendor-set governance norms",
+      "excerpt": "deploying LLMs without explicitly classifying their outputs and building appropriate oversight risks allows governance norms to be set by technology vendors rather than by evidence-informed, patient-centred policy",
+      "page": "2",
+      "section": "Keywords/Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Framework includes testable hypotheses connecting governance design to outcomes",
+      "excerpt": "four testable hypotheses with associated research designs connecting governance design to",
+      "page": "2",
+      "section": "Results",
+      "supports": "appraisal"
+    }
+  ]
+}

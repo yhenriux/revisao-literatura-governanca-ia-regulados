@@ -1,0 +1,186 @@
+{
+  "bibliographic": {
+    "title": "Large Language Models in Finance: A Survey",
+    "authors": "Yinheng Li; Shaofei Wang; Han Ding; Hang Chen",
+    "year": "2024",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Li, Y., Wang, S., Ding, H., & Chen, H. (2024). Large Language Models in Finance: A Survey [Preprint]. Columbia University; New York University."
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "practical literature survey",
+    "study_design": "survey",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "finance",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLMs for financial applications including zero-shot/few-shot use of pretrained models, fine-tuning on domain-specific data, training custom LLMs, and financial NLP tasks; mentions ChatGPT and customer service among finance use cases"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_FINANCE",
+      "REGULATED_DOMAIN",
+      "RISK_LIMITATIONS_DISCUSSED",
+      "ADOPTION_FRAMEWORK"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_GOVERNANCE_FOCUS",
+      "NO_OPERATIONAL_GOVERNANCE_MECHANISMS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The provided text identifies a finance-focused LLM survey with adoption guidance, risks, and responsible-use framing in a regulated sector, but does not center conversational systems, governance mechanisms such as guardrails, audit, tracing, human oversight, or accountability in chatbot/agent deployments.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only page 1/front matter was supplied; later sections on risks, limitations, and the decision framework may contain additional governance-relevant content not visible in the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Appraisal is constrained to page 1. Objectives are clearly stated as a practical survey of LLM solutions and adoption guidance for finance, but review methodology, literature search strategy, inclusion criteria, and analytical procedures are not described in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "The excerpt supports relevance to regulated finance and general responsible LLM adoption, but provides insufficient detail on review methods and little direct evidence on conversational governance, oversight, auditability, or compliance controls."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM adoption in finance",
+      "financial NLP",
+      "pretrained model use",
+      "fine-tuning",
+      "custom LLM training",
+      "decision framework",
+      "cost-benefit trade-offs",
+      "risks and limitations",
+      "responsible application",
+      "customer service use case"
+    ],
+    "axial_codes": [
+      "domain-specific LLM deployment",
+      "adoption decision-making",
+      "regulated financial context",
+      "responsible AI framing"
+    ],
+    "theme": "LLM adoption pathways in finance",
+    "subtheme": "decision guidance and responsible use in regulated finance",
+    "concepts": [
+      "zero-shot learning",
+      "few-shot learning",
+      "fine-tuning",
+      "domain-specific LLMs",
+      "financial NLP",
+      "decision framework",
+      "risks",
+      "limitations",
+      "responsible application"
+    ],
+    "model_layers": [
+      "application layer",
+      "model selection layer"
+    ],
+    "rq_alignment": [
+      "regulated LLM context",
+      "risk and limitation awareness",
+      "adoption guidance"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "The paper surveys current LLM approaches for finance and proposes a decision framework to help financial professionals choose appropriate LLM solutions based on data, compute, and performance constraints, while also discussing limitations, challenges, and responsible application.",
+    "contribution": "Synthesizes finance-oriented LLM solution patterns and offers a staged adoption pathway from lightweight experimentation to customized LLM investment in a regulated industry context.",
+    "limitations": "Supplied text does not describe the survey's literature selection method or evidence base; governance topics relevant to conversational systems are not evidenced in the excerpt.",
+    "use_in_review": "Use as foundational contextual evidence for LLM deployment and adoption considerations in regulated finance, not as central evidence on conversational governance, operational controls, or human oversight mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Paper is a finance-focused survey on LLM solutions and adoption guidance.",
+      "excerpt": "we provide a practical survey focused on two key aspects of utilizing LLMs for financial tasks: existing solutions and guidance for adoption.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors review multiple LLM deployment approaches for finance.",
+      "excerpt": "review current approaches employing LLMs in finance, including leveraging pretrained models via zero- shot or few-shot learning, fine-tuning on domain-specific data, and training custom LLMs from scratch.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Paper proposes a decision framework for selecting LLM solutions under constraints.",
+      "excerpt": "we propose a decision framework to guide finan- cial professionals in selecting the appropriate LLM solution based on their use case constraints around data, compute, and performance needs.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Paper addresses risks, limitations, and responsible use.",
+      "excerpt": "we discuss limitations and challenges around lever- aging LLMs in financial applications.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Paper aims to support responsible LLM application in finance.",
+      "excerpt": "provide a roadmap for responsibly applying LLMs to advance financial AI.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Finance is presented as a relevant application domain including customer service.",
+      "excerpt": "effective language understanding and generation can inform trading, risk modeling, customer service, and more.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Adoption guidance explicitly includes risks and limitations.",
+      "excerpt": "We discuss factors to consider regarding whether LLMs are suitable for a task, cost/benefit trade- offs, risks, and limitations.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Paper organizes later sections around risks and limitations.",
+      "excerpt": "Finally, Sections 6 and 7 discuss risks, limitations, and conclusions.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Specific LLM example cited.",
+      "excerpt": "powerful large language models (LLMs) like ChatGPT[33].",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational governance focus is evidenced in the supplied text.",
+      "excerpt": "Sections 4 and 5 provide LLM solutions and decision guidance for financial applications.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

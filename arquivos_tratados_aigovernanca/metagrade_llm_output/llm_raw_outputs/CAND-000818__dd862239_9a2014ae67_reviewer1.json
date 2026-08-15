@@ -1,0 +1,161 @@
+{
+  "bibliographic": {
+    "title": "Rowen: Adaptive Retrieval-Augmented Generation for Hallucination Mitigation in LLMs",
+    "authors": "Hanxing Ding, Liang Pang, Zihao Wei, Huawei Shen, Xueqi Cheng",
+    "year": "2025",
+    "venue": "Proceedings of the 2025 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region (SIGIR-AP 2025)",
+    "doi": "10.1145/3767695.3769500",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Ding, H., Pang, L., Wei, Z., Shen, H., & Cheng, X. (2025). Rowen: Adaptive Retrieval-Augmented Generation for Hallucination Mitigation in LLMs. In Proceedings of the 2025 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region (SIGIR-AP 2025) (pp. 1–10). ACM. https://doi.org/10.1145/3767695.3769500"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "adaptive retrieval-augmented generation with consistency-based hallucination detection",
+    "study_design": "technical framework proposal with comparative empirical experiments",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "GPT-3.5-turbo-0613; adaptive RAG; consistency-based hallucination detection; self-consistency check; question answering"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_out_of_scope_conversational_governance",
+      "E2_no_regulated_high_stakes_context",
+      "E3_primary_focus_technical_mitigation_not_governance"
+    ],
+    "exclusion_reason": "O artigo propõe e avalia empiricamente um framework técnico de RAG adaptativo para mitigação de alucinações em LLMs, sem tratar governança conversacional, sistemas conversacionais, compliance, supervisão humana, auditoria ou ambientes regulados.",
+    "decision_rationale": "O texto fornecido confirma foco em detecção e mitigação de alucinações via Rowen, com experimentos empíricos e uso de GPT-3.5-turbo-0613. Há menções genéricas a risco em implantações e confiança em saídas de LLMs, mas não há evidência de governança conversacional, chatbots/agentes conversacionais, accountability operacional ou contextos regulados. A triagem Python também indicou ausência de conversacional (0/3) e domínio regulado (0/3), com governança mínima (1/3).",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Decisão borderline na triagem automática (56.67/100); o excerto fornecido cobre sobretudo front matter e trechos de métodos, sem seções completas de resultados, limitações ou discussão de governança."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Avaliação baseada apenas no excerto fornecido. O objetivo e o desenho técnico estão claros no abstract e na introdução; detalhes experimentais completos, limitações e ética não aparecem no material disponibilizado."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Embora o estudo pareça metodologicamente coerente para mitigação técnica de alucinações, a relevância para governança conversacional em ambientes regulados é muito baixa com base no texto fornecido."
+  },
+  "coding": {
+    "open_codes": [
+      "adaptive_retrieval_augmented_generation",
+      "hallucination_detection",
+      "hallucination_mitigation",
+      "model_uncertainty",
+      "self_consistency_check",
+      "external_vs_parametric_knowledge",
+      "deployment_risk"
+    ],
+    "axial_codes": [
+      "technical_safety_controls",
+      "retrieval_governance_mechanism",
+      "output_reliability"
+    ],
+    "theme": "Mitigação técnica de alucinações em LLMs via RAG adaptativo",
+    "subtheme": "Detecção baseada em consistência e ativação condicional de recuperação externa",
+    "concepts": [
+      "Rowen",
+      "internal hallucinations",
+      "external hallucinations",
+      "semantic inconsistency",
+      "uncertainty quantification",
+      "retrieval activation"
+    ],
+    "model_layers": [
+      "detection_layer",
+      "retrieval_decision_layer",
+      "generation_correction_layer"
+    ],
+    "rq_alignment": [
+      "operational_technical_governance_partial",
+      "risk_mitigation_partial"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Rowen equilibra conhecimento paramétrico e informação externa por meio de um processo adaptativo de retrieval augmentation que detecta incertezas via inconsistências semânticas entre respostas e aciona recuperação externa para corrigir saídas alucinadas.",
+    "contribution": "Framework técnico com módulo de detecção de alucinações baseado em consistência e avaliação empírica alegando superar o estado da arte em detecção e mitigação de alucinações.",
+    "limitations": "unclear",
+    "use_in_review": "Excluir como evidência central ou de apoio para governança conversacional em contextos regulados; pode servir apenas como referência contextual muito indireta sobre controles técnicos de confiabilidade em RAG."
+  },
+  "evidence": [
+    {
+      "claim": "O artigo trata explicitamente de LLMs e mitigação de alucinações.",
+      "excerpt": "Hallucinations present a significant challenge for large language models (LLMs).",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "O foco principal é um framework técnico de RAG adaptativo chamado Rowen.",
+      "excerpt": "we present Rowen, a novel framework that enhances LLMs with an adaptive retrieval augmentation process tailored to address hallucinated outputs.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Há avaliação empírica comparativa, mas sem detalhes completos no excerto.",
+      "excerpt": "Through comprehensive empirical experiments, we demonstrate that Rowen surpasses the current state-of-the-art in both detecting and mitigating hallucinated content",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "O estudo usa um LLM específico em experimentos.",
+      "excerpt": "we validate Rowen using the GPT-3.5 language model, specifically the gpt-3.5-turbo-0613 version",
+      "page": "5",
+      "section": "Implementation Details",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Há menção genérica a risco de implantação, sem contexto regulado.",
+      "excerpt": "These unreliable outputs pose significant risks in practical deployments of LLMs.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Confiança em LLMs é discutida como indicador técnico, não como governança conversacional.",
+      "excerpt": "it serves an important indicator for identifying and eliminating hallucinations, so it can assist users in determining when to trust LLMs.",
+      "page": "2",
+      "section": "Methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Não há evidência de sistemas conversacionais, compliance, auditoria ou domínios regulados no texto fornecido.",
+      "excerpt": "Keywords Large Language Models, Hallucination Mitigation, Self-Consistency Check",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "O venue e revisão por pares são indicados como artigo de conferência ACM.",
+      "excerpt": "In Proceedings of the 2025 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region (SIGIR-AP 2025)",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

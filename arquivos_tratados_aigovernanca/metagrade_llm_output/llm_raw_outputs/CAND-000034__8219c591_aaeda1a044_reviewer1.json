@@ -1,0 +1,226 @@
+{
+  "bibliographic": {
+    "title": "Trustworthy Generative AI for Financial Services",
+    "authors": "Marc-André Zöller; Anastasiia Iurshina; Ines Röder",
+    "year": "2024",
+    "venue": "Symposium on Scaling AI Assessments (SAIA 2024), OASIcs",
+    "doi": "10.4230/OASIcs.SAIA.2024.2",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Zöller, M.-A., Iurshina, A., & Röder, I. (2024). Trustworthy generative AI for financial services. In Symposium on Scaling AI Assessments (SAIA 2024). https://doi.org/10.4230/OASIcs.SAIA.2024.2"
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "practitioner platform architecture and solution description",
+    "study_design": "practitioner track solution architecture with illustrative deployment in a financial institution",
+    "sample_description": "demonstration within a large-scale financial institution; no detailed participant or dataset description in provided text",
+    "sample_size": "unclear",
+    "sector": "financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "GFT EnterpriseGPT platform using LLM providers (local open-source or commercial), with guardrails, privacy-preserving techniques, grounding/context augmentation, document search, API queries, and GFT AI Shield"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "regulated_financial_services",
+      "governance_guardrails",
+      "risk_audit_compliance",
+      "operational_technical_governance"
+    ],
+    "exclusion_codes": [
+      "no_conversational_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper directly addresses trustworthy GenAI governance for regulated financial services through guardrails, privacy, grounding, compliance, and audit-related use cases, but the provided text does not substantively address conversational systems, chatbots, or conversational governance mechanisms.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Conversational relevance is absent in the extracted evidence while governance and regulated-domain relevance are strong; full-text sections beyond the excerpt should be checked for customer-support or dialogue-specific governance content."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Practitioner-track architecture paper with clear safeguard categories, but limited transparent empirical evaluation, sample detail, and limitations discussion in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The safeguard framework is internally coherent and relevant to regulated LLM governance, but outcome claims are weakly supported in the provided text and conversational governance is not evidenced."
+  },
+  "coding": {
+    "open_codes": [
+      "guardrails",
+      "input_guardrails",
+      "output_guardrails",
+      "privacy_preserving",
+      "grounding",
+      "regulatory_compliance",
+      "audit_assistance",
+      "hallucination_control",
+      "context_augmentation",
+      "financial_services"
+    ],
+    "axial_codes": [
+      "technical_safeguards",
+      "trustworthy_genai",
+      "regulated_domain_deployment",
+      "risk_mitigation"
+    ],
+    "theme": "Trustworthy GenAI governance for regulated financial services",
+    "subtheme": "Multi-level platform safeguards via guardrails, privacy, and grounding",
+    "concepts": [
+      "GFT EnterpriseGPT",
+      "GFT AI Shield",
+      "foundation model guardrails",
+      "prompt inspection",
+      "context generation",
+      "document search",
+      "alignment fine-tuning"
+    ],
+    "model_layers": [
+      "input_guardrails",
+      "output_guardrails",
+      "privacy_controls",
+      "grounding_mechanisms",
+      "context_augmentation"
+    ],
+    "rq_alignment": [
+      "governance_of_generative_ai",
+      "guardrails",
+      "compliance",
+      "audit",
+      "privacy",
+      "risk_control",
+      "regulated_financial_context"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "GFT EnterpriseGPT enables regulatory-compliant, trustworthy GenAI in financial services through multi-level safeguards combining guardrails, privacy-preserving techniques, and grounding mechanisms.",
+    "contribution": "Describes a practitioner platform architecture and workflow for safely deploying LLM-based GenAI in finance, including input/output guardrails, local privacy inspection, and context augmentation before LLM processing.",
+    "limitations": "Provided text offers limited empirical detail on evaluation design, sample size, measured outcomes, and limitations; conversational governance is not developed.",
+    "use_in_review": "Use as supporting evidence on technical and compliance-oriented GenAI governance in regulated finance, especially guardrails, privacy controls, grounding/RAG-like augmentation, and audit/compliance applications; not central for conversational governance."
+  },
+  "evidence": [
+    {
+      "claim": "Paper introduces a regulatory-compliant trustworthy GenAI platform for financial services",
+      "excerpt": "This work introduces GFT EnterpriseGPT, a regulatory-compliant, trustworthy generative AI (GenAI) platform tailored for the financial services sector.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance approach combines guardrails, privacy, and grounding",
+      "excerpt": "Our solution addresses these challenges through multi-level safeguards, including robust guardrails, privacy-preserving techniques, and grounding mechanisms.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Deployment demonstrated in a large financial institution with claimed efficiency and compliance gains",
+      "excerpt": "We demonstrate the practical application of GFT EnterpriseGPT within a large-scale financial institution, where it successfully improves operational efficiency and compliance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulated financial domain with compliance and audit use cases",
+      "excerpt": "In the financial sector data privacy, ethical considerations, and regulatory compliance are paramount.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "GenAI positioned for audit assistance and regulatory compliance support",
+      "excerpt": "GenAI can be used in the compliance office to optimize processes and to increase efficiency.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Audit-assistant functions include policy overview, change detection, conflict detection, and gap identification",
+      "excerpt": "As an auditing assistant, GenAI can provide comprehensive overviews of existing rules and policies, highlight changes from previous versions, detect conflicting policies, and ensure alignment with internal guidelines.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Platform uses LLM providers with context augmentation workflow",
+      "excerpt": "Finally, the augmented prompt is forwarded to an large language model (LLM) provider, e.g., a local open-source model or a commercial provider.",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Trustworthy measures organized into guardrails, privacy, and grounding",
+      "excerpt": "In general, these measures fall into three categor- ies: guardrails, privacy and grounding.",
+      "page": "2",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Input and output guardrails mitigate risk and check hallucinations",
+      "excerpt": "Input guardrails verify that requests that are classified as risky will not enter the LLM model",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Provider safety measures alone are insufficient for specific regulated use cases",
+      "excerpt": "While this provides a solid basis for ethical GenAI, they are not sufficient in practice as they can not be adapted to specific use cases and can be overcome by malicious actors [3].",
+      "page": "2",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Privacy shield prevents forwarding sensitive prompts to commercial providers",
+      "excerpt": "Only when no violations, for example, a prompt containing credit card information, were detected, the user prompt is forwarded to an LLM for answer generation.",
+      "page": "3",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Local inspection methods include pattern matching and named-entity recognition",
+      "excerpt": "Simple pattern matching is used to detect restricted words Named-entity recognition [13] using a local neural network checks if restricted categories are used in the",
+      "page": "3",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Flagged prompts are blocked with user notification",
+      "excerpt": "If a prompt is flagged by one of the filters, the user is informed why the request is not being processed.",
+      "page": "3",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Customer support is mentioned only as a possible application, not as the study focus",
+      "excerpt": "particularly in applications such as credit assessments [4], personalized financial advice [6], customer support [2], investment research [6], or audit assistance for regulatory compli- ance [12].",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Transparency and trust are explicit goals of the safeguard design",
+      "excerpt": "ensuring reliability, transparency, and adherence to ethical and regulatory standards.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    }
+  ]
+}

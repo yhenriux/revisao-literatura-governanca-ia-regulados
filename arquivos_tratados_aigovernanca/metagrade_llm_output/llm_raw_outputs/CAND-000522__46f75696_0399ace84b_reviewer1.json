@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Fostering effective hybrid human-LLM reasoning and decision making",
+    "authors": "Passerini, A., Gema, A., Minervini, P., Sayin, B., & Tentori, K.",
+    "year": "2025",
+    "venue": "Frontiers in Artificial Intelligence",
+    "doi": "10.3389/frai.2024.1464690",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Passerini, A., Gema, A., Minervini, P., Sayin, B., & Tentori, K. (2025). Fostering effective hybrid human-LLM reasoning and decision making. Frontiers in Artificial Intelligence, 7, 1464690. https://doi.org/10.3389/frai.2024.1464690"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "perspective article; narrative argument and literature-informed discussion",
+    "study_design": "perspective",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "unclear",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Large Language Models (LLMs), chatGPT, human-AI hybrid collaboration, question-answering, text generation, Natural Language Processing"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "human_llm_collaboration",
+      "llm_limitations_and_risks",
+      "bias_and_oversight_themes",
+      "hybrid_intelligence_perspective"
+    ],
+    "exclusion_codes": [
+      "no_regulated_domain_focus_in_provided_text",
+      "no_conversational_governance_operational_controls",
+      "no_empirical_governance_implementation"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed perspective on human-LLM collaboration, biases, mutual understanding, and complementary team performance. Provided text supports relevance to human oversight and LLM risk themes, but does not substantively address conversational governance mechanisms, regulated high-stakes deployment, audit, compliance, observability, or operational controls. Best classified as foundational contextual framing rather than central governance evidence.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial PDF text was supplied; later sections may contain additional governance, oversight, or domain-specific content not visible in the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal reflects a conceptual perspective article, not an empirical study. Several CASP/JBI-style criteria are not applicable due to absence of primary data collection in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The perspective presents a coherent argument for prioritizing human-LLM interaction research and cites known LLM limitations, but the supplied excerpt offers limited direct evidence on conversational governance in regulated settings and no empirical evaluation of governance interventions."
+  },
+  "coding": {
+    "open_codes": [
+      "human_llm_collaboration",
+      "hybrid_intelligence",
+      "llm_biases",
+      "mutual_understanding",
+      "complementary_team_performance",
+      "llm_limitations",
+      "hallucination_mitigation",
+      "human_ai_interaction"
+    ],
+    "axial_codes": [
+      "human_oversight_and_collaboration",
+      "model_limitations_and_risk",
+      "research_agenda_for_effective_reasoning"
+    ],
+    "theme": "Hybrid human-LLM reasoning and decision making",
+    "subtheme": "Biases, mutual understanding, and complementary performance in human-LLM teams",
+    "concepts": [
+      "human-LLM interaction",
+      "biases",
+      "mutual understanding",
+      "complementary team performance",
+      "hallucinations",
+      "hybrid intelligence"
+    ],
+    "model_layers": [
+      "human_oversight",
+      "interaction_design",
+      "model_risk_mitigation"
+    ],
+    "rq_alignment": [
+      "human_oversight_contestation",
+      "governance_accountability_partial",
+      "llm_genai"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Future LLM research should prioritize effective human-LLM interaction by addressing collaboration biases and pursuing mutual understanding and complementary team performance in reasoning and decision making.",
+    "contribution": "Provides a conceptual research agenda for hybrid human-LLM collaboration, highlighting underexplored collaboration risks and pointing toward bias mitigation and hallucination management as part of effective teaming.",
+    "limitations": "Supplied text does not describe empirical validation, regulated-domain deployment, or operational governance mechanisms such as audit, compliance, logging, or conversational control frameworks.",
+    "use_in_review": "Use as foundational contextual evidence for human oversight, hybrid intelligence, and collaboration-risk framing; not as primary evidence for conversational governance implementation in regulated environments."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a peer-reviewed perspective on human-LLM collaboration.",
+      "excerpt": "TYPE Perspective",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Peer review is indicated in front matter.",
+      "excerpt": "REVIEWED BY Michiel Van Der Meer, Idiap Research Institute, Switzerland",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Focus is hybrid human-LLM reasoning and decision making with LLMs.",
+      "excerpt": "Fostering effective hybrid human-LLM reasoning and decision making",
+      "page": "1",
+      "section": "title",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human-LLM collaboration risks and interaction are presented as underexplored and primary research targets.",
+      "excerpt": "the potentials and risks of human-LLM collaboration remain largely underexplored",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors argue human-LLM interaction should be a primary target for future LLM research.",
+      "excerpt": "enhancing the focus on human-LLM interaction should be a primary target for future LLM research",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Article examines biases hindering human-machine collaboration and proposes broader goals.",
+      "excerpt": "we will briefly examine some of the biases that may hinder effective collaboration between humans and machines",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Two broader collaboration goals are mutual understanding and complementary team performance.",
+      "excerpt": "two broader goals—mutual understanding and complementary team performance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Specific LLM technology context includes chatGPT and LLM-based systems.",
+      "excerpt": "The release of chatGPT has raised unprecedented attention",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Known LLM limitations include fabricated information and sensitivity to prompt wording.",
+      "excerpt": "they have been shown to provide entirely fabricated information",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Hallucination mitigation is discussed as part of effective collaboration.",
+      "excerpt": "Detecting and mitigating the impact of hallucinations",
+      "page": "3",
+      "section": "3.1",
+      "supports": "coding"
+    },
+    {
+      "claim": "Complementary team performance is described as crucial for effective human-LLM collaboration in reasoning and decision-making.",
+      "excerpt": "enhancing complementary team performance are crucial for achieving effective collaboration in reasoning and decision-making between humans and LLMs",
+      "page": "3",
+      "section": "conclusion",
+      "supports": "synthesis"
+    }
+  ]
+}

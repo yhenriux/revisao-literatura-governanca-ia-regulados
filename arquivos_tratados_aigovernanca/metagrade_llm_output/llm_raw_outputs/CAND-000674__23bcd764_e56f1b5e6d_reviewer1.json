@@ -1,0 +1,187 @@
+{
+  "bibliographic": {
+    "title": "Trustworthy AI in Financial Risk Management: Applications for SME Compliance, Consumer Protection, and Audit Readiness",
+    "authors": "Norman Alfredo Gamboa Gamarra",
+    "year": "2026",
+    "venue": "International Journal of Emerging Research in Engineering and Technology, Pearl Blue Research Group",
+    "doi": "10.63282/3050-922X.IJERET-V7I1P139",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Gamarra, N. A. G. (2026). Trustworthy AI in Financial Risk Management: Applications for SME Compliance, Consumer Protection, and Audit Readiness. International Journal of Emerging Research in Engineering and Technology, 7(1), 322-331. https://doi.org/10.63282/3050-922X.IJERET-V7I1P139"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "unclear",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "financial services; SMEs",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "artificial intelligence, machine learning, NLP, deep learning applied to financial risk management, compliance, fraud detection, credit assessment; no conversational or LLM-specific systems described"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_no_conversational_ai",
+      "E2_no_llm_focus"
+    ],
+    "exclusion_reason": "The article addresses trustworthy AI governance, compliance, and audit readiness in financial risk management for SMEs, but the provided text contains no evidence of conversational AI systems, chatbots, agents, or LLM-based architectures central to the review scope.",
+    "decision_rationale": "Although the paper strongly aligns with regulated-domain governance themes (fairness, transparency, accountability, audit, compliance, bias, explainability) in financial services, it does not address conversational governance or LLM-based conversational systems. NLP is mentioned only as a general ML technique in risk assessment literature, not as conversational AI governance.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Conceptual/normative paper on trustworthy AI principles in financial risk management. Provided excerpts do not describe empirical sampling, data collection, or systematic review methodology; claims are largely principle-based with literature citations."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "The text coherently articulates trustworthy AI principles for financial risk and SME compliance, but methodological detail is unclear and relevance to conversational LLM governance is indirect at best."
+  },
+  "coding": {
+    "open_codes": [
+      "trustworthy_ai",
+      "financial_risk_management",
+      "SME_compliance",
+      "consumer_protection",
+      "audit_readiness",
+      "bias_detection",
+      "explainability",
+      "ethical_governance",
+      "model_documentation",
+      "lifecycle_management"
+    ],
+    "axial_codes": [
+      "AI_governance_principles",
+      "regulated_financial_AI",
+      "compliance_and_audit",
+      "responsible_AI_implementation"
+    ],
+    "theme": "Trustworthy AI governance in financial risk management",
+    "subtheme": "SME compliance, consumer protection, and audit preparedness",
+    "concepts": [
+      "fairness",
+      "transparency",
+      "accountability",
+      "privacy",
+      "security",
+      "robustness",
+      "bias",
+      "explainability",
+      "regulatory alignment",
+      "model risk",
+      "traceability",
+      "lifecycle management",
+      "perpetual validation"
+    ],
+    "model_layers": [
+      "principles_and_policy",
+      "model_documentation",
+      "validation_and_monitoring",
+      "compliance_alignment"
+    ],
+    "rq_alignment": [
+      "governance_accountability",
+      "risk_audit_compliance",
+      "regulated_high_stakes"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Financial institutions and SMEs need trustworthy AI frameworks—grounded in fairness, transparency, accountability, privacy, security, and robustness—to manage risk, ensure regulatory compliance, protect consumers, and maintain audit readiness.",
+    "contribution": "Provides a principle-oriented account of trustworthy AI in financial risk management, including bias detection, model documentation, traceability, lifecycle management, and alignment with regulatory expectations for SMEs.",
+    "limitations": "Provided text does not specify empirical methods, sample, or evaluation outcomes; future work calls for more empirical studies. No conversational or LLM-specific governance mechanisms are addressed.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational LLM governance; may serve only as distant contextual background on general AI governance in regulated finance if broader mapping is needed."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on trustworthy AI in financial risk management, not conversational or LLM systems.",
+      "excerpt": "Trustworthy AI in Financial Risk Management: Applications for SME Compliance, Consumer Protection, and Audit Readiness",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance principles include fairness, transparency, accountability, privacy, security, and robustness.",
+      "excerpt": "It describes the main principles, including fairness, transparency, accountability, privacy, security and robustness",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Paper addresses audit preparedness and ethical governance in financial AI.",
+      "excerpt": "enhanced efficacy with regulations, and audit preparedness. It also emphasizes ethical governance, consumer protection and AI assurance systems",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Proposes lifecycle management, documentation standards, and perpetual validation.",
+      "excerpt": "incorporating the lifecycle management, documentation standards and perpetual validation or practices",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "SME context with governance frameworks and auditable model pipelines.",
+      "excerpt": "The combination of explainable AI (XAI) applications, pipeline of auditable models, and governance frameworks allows SMEs to prove compliance",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Model documentation and traceability are emphasized for accountability.",
+      "excerpt": "Documentation makes artificial intelligence models responsibility and readable. Institutions are to document model design procedures, data sources, and the output of the process of validation",
+      "page": "6",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "NLP mentioned only as a general ML technique in financial risk literature, not conversational governance.",
+      "excerpt": "Financial institutions may utilise ML algorithms, NLP, and sophisticated data analytics to enhance their risk assessment methods",
+      "page": "7",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated financial domain with compliance and EU AIA alignment referenced.",
+      "excerpt": "Aligns governance models with the EU AIA and high-risk AI oversight",
+      "page": "8",
+      "section": "conclusion",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational AI, chatbots, or LLM systems appear in provided evidence.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research type appears conceptual with calls for future empirical work.",
+      "excerpt": "Furthermore, further empirical studies of the ev",
+      "page": "8",
+      "section": "conclusion",
+      "supports": "appraisal"
+    }
+  ]
+}

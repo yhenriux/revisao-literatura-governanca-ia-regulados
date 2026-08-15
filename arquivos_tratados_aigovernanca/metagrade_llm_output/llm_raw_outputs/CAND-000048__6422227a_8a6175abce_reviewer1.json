@@ -1,0 +1,184 @@
+{
+  "bibliographic": {
+    "title": "ConfidentNeuro: Conformal Prediction-Based Uncertainty Quantification for Hallucination Risk Scoring in LLM-Assisted Alzheimer's Clinical Decision Support",
+    "authors": "Afreen Khan; Samreen Khan; Mudassir Khan; Mazliham Mohd Su'ud; Muhammad Mansoor Alam; Saurav Mallik",
+    "year": "2026",
+    "venue": "Research Square",
+    "doi": "10.21203/rs.3.rs-9707462/v1",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Khan, A., Khan, S., Khan, M., Mohd Su'ud, M., Alam, M. M., & Mallik, S. (2026). ConfidentNeuro: Conformal prediction-based uncertainty quantification for hallucination risk scoring in LLM-assisted Alzheimer's clinical decision support. Research Square. https://doi.org/10.21203/rs.3.rs-9707462/v1"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "conformal prediction; benchmark evaluation; calibration and perturbation audit",
+    "study_design": "technical framework development with empirical benchmark evaluation on three LLMs",
+    "sample_description": "ConfidentNeuro-Bench with 150 clinical question-answer pairs across five Alzheimer's disease categories gathered via PubMed MeSH queries, each linked to source PMID",
+    "sample_size": "150",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-assisted clinical decision support for Alzheimer's disease; models tested include GPT-4o, Claude Haiku, and Mixtral-8x7B"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM",
+      "healthcare",
+      "high_stakes",
+      "risk_scoring",
+      "audit",
+      "uncertainty_quantification",
+      "regulated_context"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The study directly addresses LLM use in high-stakes Alzheimer's clinical decision support and proposes conformal-prediction-based hallucination risk scoring with calibration and perturbation audits, aligning with governance, risk, and compliance themes in regulated healthcare. However, the provided text contains no evidence of conversational AI, chatbots, agents, dialogue systems, human handoff, contestation, or conversational governance mechanisms, so it is better classified as supporting rather than central evidence for a review focused on conversational governance.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage scored conversational_ai 0/3; only partial PDF text was supplied; adjudicator should confirm whether non-conversational clinical CDS risk-scoring work should remain as supporting evidence or be excluded from conversational-governance scope."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Objectives and methods are clearly stated in the abstract and introduction: conformal prediction for per-response hallucination risk in LLM-assisted AD decision support, with named models and benchmark construction from PubMed MeSH queries. Appraisal is limited by incomplete full text; ethics, limitations, and full analytical detail beyond early results are not fully visible in the supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is coherent and empirically instantiated on three LLMs in a regulated healthcare context with audit-oriented evaluation, but supplied text is partial, the work is not conversational in nature, and broader governance mechanisms such as human oversight workflows remain unclear."
+  },
+  "coding": {
+    "open_codes": [
+      "hallucination risk scoring",
+      "conformal prediction",
+      "uncertainty quantification",
+      "clinical decision support",
+      "calibration audit",
+      "perturbation audit",
+      "trustworthy clinical AI",
+      "EU AI Act reference"
+    ],
+    "axial_codes": [
+      "technical risk governance",
+      "LLM safety in healthcare",
+      "post-hoc confidence signaling",
+      "benchmark-based evaluation"
+    ],
+    "theme": "Uncertainty and hallucination risk governance for LLMs in clinical decision support",
+    "subtheme": "Conformal prediction with calibration and perturbation auditing in Alzheimer's care",
+    "concepts": [
+      "ConfidentNeuro",
+      "ConfidentNeuro-Bench",
+      "nonconformity score",
+      "semantic similarity",
+      "empirical coverage",
+      "expected calibration error",
+      "distrust signals"
+    ],
+    "model_layers": [
+      "risk control",
+      "monitoring and audit",
+      "deployment safety"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa em contextos regulados",
+      "controle de risco",
+      "auditoria e calibração",
+      "saúde de alto risco"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "ConfidentNeuro uses conformal prediction with semantic similarity as a nonconformity score to provide statistically grounded per-response hallucination risk estimates for LLM-assisted Alzheimer's clinical decision support, and shows that token-level log probabilities are unreliable confidence signals in clinical use.",
+    "contribution": "Introduces a conformal-prediction framework and ConfidentNeuro-Bench (150 PMID-linked AD clinical Q&A pairs) to evaluate hallucination risk across GPT-4o, Claude Haiku, and Mixtral-8x7B, including calibration and perturbation audits.",
+    "limitations": "Supplied text is incomplete; full limitations section not available. Visible results indicate GPT-4o miscalibration (ECE = 0.213) and low sensitivity of confidence under perturbation audit.",
+    "use_in_review": "Use as supporting evidence on technical risk governance, hallucination scoring, and audit-based evaluation of LLMs in regulated healthcare; not suitable as central evidence for conversational governance because no conversational system or dialogue governance mechanism is described."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on LLM-assisted clinical decision support in Alzheimer's care",
+      "excerpt": "clinical decision support (CDS) systems built on large language models (LLMs) have become increasingly common in neurological care",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Addresses hallucination risk and lack of per-response uncertainty signals",
+      "excerpt": "These models hallucinate, generating clinically plausible but factually incorrect responses",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Proposes conformal prediction framework ConfidentNeuro",
+      "excerpt": "We present ConfidentNeuro, a conformal prediction framework for assessing the risk of hallucination in LLM-assisted AD decision support",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Benchmark sample and data provenance are specified",
+      "excerpt": "ConfidentNeuro-Bench, which includes 150 clinical question-answer pairs across five AD categories",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Specific LLMs empirically evaluated",
+      "excerpt": "GPT-4o, Claude Haiku, and Mixtral-8x7B were each tested zero-shot",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated high-stakes healthcare context is explicit",
+      "excerpt": "In high-stakes clinical scenarios, such as AD management, where diagnostic and treatment decisions directly impact patients",
+      "page": "3",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulatory compliance context referenced",
+      "excerpt": "the European Union Artificial Intelligence Act (EU AI) imposes mandatory requirements for high-risk clinical AI applications",
+      "page": "4",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Calibration audit finding supports unreliable confidence signals",
+      "excerpt": "The calibration audit indicated that GPT-4o is miscalibrated (ECE = 0.213)",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Perturbation audit included in evaluation design",
+      "excerpt": "Under perturbation audit across eight input modifications, confidence barely changed",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational AI or dialogue governance described in supplied text",
+      "excerpt": "clinical decision support (CDS) systems built on large language models (LLMs)",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

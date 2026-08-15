@@ -1,0 +1,198 @@
+{
+  "bibliographic": {
+    "title": "Automating financial compliance with AI: A New Era in regulatory technology (RegTech)",
+    "authors": "Hariharan Pappil Kothandapani",
+    "year": "2024",
+    "venue": "International Journal of Science and Research Archive",
+    "doi": "10.30574/ijsra.2024.11.1.0040",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Kothandapani, H. P. (2024). Automating financial compliance with AI: A New Era in regulatory technology (RegTech). International Journal of Science and Research Archive, 11(1), 2646-2659. https://doi.org/10.30574/ijsra.2024.11.1.0040"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "literature review and case studies",
+    "study_design": "narrative literature review with case study discussion",
+    "sample_description": "existing literature and case studies on AI in financial regulatory compliance",
+    "sample_size": "unclear",
+    "sector": "financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "RegTech; machine learning; natural language processing; predictive analytics; AML; sanctions compliance; fraud detection; generative AI mentioned as future trend"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "borderline",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "regulated_domain_financial",
+      "governance_ethics_themes",
+      "genai_llm_mentioned"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai_focus",
+      "not_llm_governance_study",
+      "secondary_llm_reference_only"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a narrative review of AI in financial RegTech with governance, ethics, transparency, bias, and human oversight themes in a regulated domain. However, the provided text does not establish conversational AI, chatbots, agents, or LLM-based conversational systems as the study focus; LLMs and generative AI appear as cited literature or future trends rather than as the primary object of governance analysis.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage flagged conversational terms not clearly supported in supplied excerpts; confirm whether chatbots or conversational governance appear elsewhere in the full PDF."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Abstract claims a comprehensive review of literature and case studies, but supplied text shows no explicit systematic search strategy, inclusion criteria, or reproducible review protocol. Suitable as contextual RegTech background, not as primary evidence on conversational LLM governance."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the review question on conversational governance of LLM systems in regulated settings, this paper offers only indirect relevance through general financial compliance governance and brief LLM/generative AI mentions; narrative review methods are weakly specified in the provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "RegTech",
+      "financial compliance automation",
+      "AML",
+      "fraud detection",
+      "ethical AI",
+      "data privacy",
+      "human oversight",
+      "governance frameworks",
+      "transparency",
+      "bias"
+    ],
+    "axial_codes": [
+      "AI automation in regulated financial compliance",
+      "deployment challenges and ethical governance",
+      "future generative AI in compliance"
+    ],
+    "theme": "AI-driven regulatory compliance in financial services",
+    "subtheme": "governance, ethics, and human oversight in RegTech",
+    "concepts": [
+      "transparency",
+      "bias management",
+      "human oversight",
+      "governance frameworks",
+      "data privacy",
+      "ethical AI",
+      "legacy integration"
+    ],
+    "model_layers": [
+      "policy_governance",
+      "risk_compliance"
+    ],
+    "rq_alignment": [
+      "regulated_high_stakes_context",
+      "governance_accountability_themes",
+      "weak_conversational_ai_alignment",
+      "weak_operational_llm_governance_alignment"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "AI technologies, especially machine learning and NLP, can automate and improve financial regulatory compliance, while adoption requires addressing ethics, privacy, transparency, bias, and human oversight through robust governance frameworks.",
+    "contribution": "Provides a broad RegTech-oriented overview of AI applications in financial compliance and discusses governance and ethical challenges of deployment.",
+    "limitations": "Supplied text does not document systematic review methods, sampling, or primary empirical design; conversational AI and LLM governance are not central; LLM discussion appears secondary to broader AI compliance automation.",
+    "use_in_review": "Use only as borderline contextual evidence on general AI governance in regulated financial compliance; not suitable as central evidence for conversational LLM governance without further full-text verification."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with identifiable author and DOI",
+      "excerpt": "Hariharan Pappil Kothandapani * Federal Home Loan Bank of Chicago",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is a literature review with case studies, not primary empirical LLM research",
+      "excerpt": "Through a comprehensive review of existing literature and case studies, this study highlights the practical applications of AI",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated financial services domain",
+      "excerpt": "Integrating Artificial Intelligence (AI) into the financial sector has revolutionized regulatory compliance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Technology focus is ML, NLP, and predictive analytics rather than conversational systems",
+      "excerpt": "focusing on how machine learning, natural language processing, and predictive analytics are automating critical compliance functions",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance themes include transparency, bias, and human oversight",
+      "excerpt": "ensuring transparency, managing biases, and balancing automation and human oversight",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Paper calls for robust governance frameworks",
+      "excerpt": "develop robust governance frameworks",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "NLP used for compliance monitoring, not described as conversational interface governance",
+      "excerpt": "natural language processing can interpret and monitor communications and transactions for signs of non-compliance",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs are discussed via cited research, not as this paper's primary study object",
+      "excerpt": "Their research emphasizes the efficiency of Large Language Models (LLMs) in regulatory compliance, comparing open-source models like Llama-2 with proprietary ones such as OpenAI's GPT models",
+      "page": "8",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Generative AI presented as future compliance trend, not current conversational governance analysis",
+      "excerpt": "New trends, such as generative AI and innovative machine learning methods, are expected to improve the functions of compliance systems",
+      "page": "12",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Ethics committees recommended for AI implementation governance",
+      "excerpt": "organizations should follow the best practice of having their own AI ethics committees to guarantee that the ethical elements are consistent at every level of implementation",
+      "page": "12",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Review method transparency is unclear in provided text",
+      "excerpt": "starting with a literature review outlining existing research and identifying knowledge gaps",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Deployment challenges include data privacy and legacy integration",
+      "excerpt": "challenges in deploying AI, including ethical considerations, data privacy concerns, and integrating AI systems into legacy infrastructures",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

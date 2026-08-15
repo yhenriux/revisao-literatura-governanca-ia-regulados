@@ -1,0 +1,175 @@
+{
+  "bibliographic": {
+    "title": "We are Building Gods: AI as the Anthropomorphised Authority of the Past",
+    "authors": "Carl Öhman",
+    "year": "2024",
+    "venue": "Minds and Machines",
+    "doi": "10.1007/s11023-024-09667-z",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Öhman, C. (2024). We are building gods: AI as the anthropomorphised authority of the past. Minds and Machines, 34(8). https://doi.org/10.1007/s11023-024-09667-z"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "philosophical and conceptual analysis with critical-theoretical illustration (Martin Hägglund)",
+    "study_design": "theoretical essay",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models, ChatGPT, LLM chatbots"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_CONCEPTUAL_CRITIQUE",
+      "NORMATIVE_RISK_FRAMING"
+    ],
+    "exclusion_codes": [
+      "NO_OPERATIONAL_GOVERNANCE",
+      "NO_REGULATED_DEPLOYMENT_STUDY"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed conceptual-theoretical essay arguing that LLMs should be interpreted as anthropomorphised authority of the past, with normative critique of bias, unpredictability, privacy, and democratic freedom. It mentions LLMs and chatbots but, in the text provided, does not examine conversational governance mechanisms, operational controls, audit/observability, compliance implementation, or LLM deployment in regulated high-stakes environments.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front-matter text was supplied (mainly pages 1-2; page 9 truncated), so later sections on governance implications, limitations, and full argument cannot be fully verified."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal adapted for a non-empirical conceptual paper. Sampling and data-collection criteria are not applicable. Rigor and limitations scores are conservative because only partial text was available."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "The argument presented in the available text is internally coherent and clearly stated, but its adequacy and relevance to conversational governance in regulated LLM systems is limited because the work reframes LLMs philosophically rather than analysing governance practices, oversight architectures, or regulated-sector deployments."
+  },
+  "coding": {
+    "open_codes": [
+      "anthropomorphised authority",
+      "tyranny of the past",
+      "democratic freedom",
+      "bias",
+      "unpredictability",
+      "privacy concerns",
+      "LLM chatbot personification"
+    ],
+    "axial_codes": [
+      "conceptual reframing of LLMs",
+      "normative critique of AI authority",
+      "metaphor-driven risk interpretation"
+    ],
+    "theme": "Philosophical reconceptualization of LLMs as personified collective authority",
+    "subtheme": "Religious and anthropological metaphor applied to ChatGPT/LLM critique",
+    "concepts": [
+      "anthropological god",
+      "personified authority",
+      "stochastic synthesis of past speech acts",
+      "abdication of democratic freedom",
+      "religious critique as analytical resource"
+    ],
+    "model_layers": [
+      "conceptual ontology of LLMs",
+      "normative/sociopolitical risk layer"
+    ],
+    "rq_alignment": [
+      "background on LLM normative risks",
+      "conceptual framing of authority and accountability in LLM-mediated interaction"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "LLMs should be understood not as quasi-divine cognition, but as anthropological gods: personified authorities synthesised from traces of past human speech, which users may falsely experience as extra-human and thereby tempt democratic abdication to a tyranny of the past.",
+    "contribution": "Offers a theological/anthropological metaphor and mobilises religious critique, illustrated through Martin Hägglund, to reinterpret LLM risks beyond bias and unpredictability toward spiritual and democratic freedom.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence for normative and conceptual discussions of LLM authority, anthropomorphism, and democratic accountability; not as central evidence on operational conversational governance, guardrails, observability, audit, or regulated-environment implementation."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses specifically on large language models and ChatGPT.",
+      "excerpt": "large language models (LLMs) should be interpreted as a form of gods",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Work is conceptual/theoretical rather than empirical.",
+      "excerpt": "This article argues that large language models (LLMs) should be interpreted as a form of gods.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM chatbots are explicitly discussed as personifications.",
+      "excerpt": "a LLM chatbot thus becomes an embodiment—indeed a personification—",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Normative risks include bias and unpredictability.",
+      "excerpt": "the danger of LLMs emerge not only as bias or unpredictability",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Article raises democratic accountability/freedom concerns.",
+      "excerpt": "a temptation to abdicate our spiritual and ultimately democratic freedom",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Privacy is referenced among commonly raised LLM critiques.",
+      "excerpt": "Others have rather placed their focus on privacy and copyright concerns",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulatory containment is mentioned only as part of cited debate, not as studied governance practice.",
+      "excerpt": "arguing for various technological and regulatory means to contain",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Analytical method draws on Marxian religious philosophy of Martin Hägglund.",
+      "excerpt": "I draw on the Marxian religious philosophy of Martin Hägglund.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research objective is clearly stated.",
+      "excerpt": "This reconceptualization, I argue, opens up new avenues of critique of LLMs",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No operational governance mechanisms are described in the provided text.",
+      "excerpt": "The most commonly raised critiques have pertained to various forms of bias and discrimination",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "bibliographic": {
+    "title": "Diagnostic efficacy of large language models in the pediatric emergency department: a pilot study",
+    "authors": "Del Monte, F., Barolo, R., Circhetta, M., Delmonaco, A. G., Castagno, E., Pivetta, E., Bergamasco, L., Franco, M., Olmo, G., & Bondone, C.",
+    "year": "2025",
+    "venue": "Frontiers in Digital Health",
+    "doi": "10.3389/fdgth.2025.1624786",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Del Monte, F., Barolo, R., Circhetta, M., Delmonaco, A. G., Castagno, E., Pivetta, E., Bergamasco, L., Franco, M., Olmo, G., & Bondone, C. (2025). Diagnostic efficacy of large language models in the pediatric emergency department: a pilot study. Frontiers in Digital Health, 7, 1624786. https://doi.org/10.3389/fdgth.2025.1624786"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative diagnostic accuracy evaluation",
+    "study_design": "pilot study comparing LLM-based chatbots versus physicians on real clinical cases",
+    "sample_description": "80 real-practice pediatric clinical cases from a tertiary care children's hospital PED; 23 physicians (10 PED physicians, 6 PED residents, 7 Emergency Medicine residents); 5 LLMs (ChatGPT-4o, Gemini 1.5 Pro, Gemini 1.5 Flash, Llama-3-8B, ChatGPT-4o mini)",
+    "sample_size": "80 cases; 23 physicians; 5 LLMs",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-based chatbots evaluated as diagnosis-making assistants in pediatric emergency department scenarios with three levels of diagnostic complexity"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_CHATBOT",
+      "REGULATED_HEALTHCARE",
+      "HUMAN_OVERSIGHT_MENTION",
+      "EMPIRICAL_PILOT"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The study is an empirical pilot on diagnostic accuracy of named LLM chatbots in a pediatric emergency department, not a governance-focused study. It is relevant as supporting evidence because it evaluates conversational LLMs in a regulated high-stakes clinical setting and briefly calls for shared collaboration protocols and physician judgment, but governance mechanisms such as guardrails, audit, compliance, observability, or contestability are not addressed in the provided text.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter/page 1 text is available; governance relevance depends on limited discussion fragments and full-text sections on ethics, limitations, and deployment protocols were not provided."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Methods are clearly described for a comparative accuracy benchmark with independent expert scoring, but appraisal is limited to page 1; ethics approval, detailed statistical analysis, and study limitations are not visible in the provided excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The reported design is internally coherent and sufficiently described for a pilot accuracy study, but evidence adequacy for governance synthesis is limited because the available text centers on diagnostic performance rather than operational or regulatory governance of conversational systems."
+  },
+  "coding": {
+    "open_codes": [
+      "diagnostic_accuracy",
+      "pediatric_emergency_department",
+      "llm_physician_comparison",
+      "clinical_case_benchmark",
+      "shared_protocols_needed"
+    ],
+    "axial_codes": [
+      "clinical_ai_evaluation",
+      "human_ai_collaboration",
+      "regulated_healthcare_deployment"
+    ],
+    "theme": "Clinical performance evaluation of LLM chatbots",
+    "subtheme": "Diagnostic assistance in pediatric emergency care",
+    "concepts": [
+      "LLM-based chatbots",
+      "clinical decision support",
+      "physician judgment",
+      "diagnostic complexity",
+      "collaboration protocols"
+    ],
+    "model_layers": [
+      "application_layer"
+    ],
+    "rq_alignment": [
+      "weak_alignment_to_conversational_governance",
+      "contextual_evidence_for_regulated_llm_chatbot_use"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "In this pilot study, selected LLM-based chatbots achieved diagnostic accuracy comparable to or better than some physician groups on 80 real pediatric emergency cases, with ChatGPT-4o performing best.",
+    "contribution": "Provides empirical comparative evidence on named LLMs used as diagnosis-making assistants in a regulated pediatric emergency setting, and notes the need for shared protocols for collaboration between AI chatbots and healthcare professionals.",
+    "limitations": "Pilot design, single tertiary children's hospital, and governance-related deployment controls are not substantively discussed in the provided text.",
+    "use_in_review": "Use as supporting evidence on LLM chatbot use in regulated healthcare and human-in-the-loop clinical assistance; not suitable as central evidence on conversational governance, compliance, auditability, or operational controls without further full-text review."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed original research article in Frontiers in Digital Health.",
+      "excerpt": "TYPE Original Research PUBLISHED 01 July 2025 DOI 10.3389/fdgth.2025.1624786",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study evaluates specific LLM-based chatbots in pediatric emergency diagnostics.",
+      "excerpt": "We aimed to assess LLM-based chatbots performance in realistic PED scenarios",
+      "page": "1",
+      "section": "background",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Empirical comparative design with defined models, cases, and physicians.",
+      "excerpt": "We evaluated the diagnostic effectiveness of 5 LLMs (ChatGPT-4o, Gemini 1.5 Pro, Gemini 1.5 Flash, Llama-3-8B, and ChatGPT-4o mini) compared to 23 physicians",
+      "page": "1",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample comprises 80 real pediatric cases with expert-rated accuracy.",
+      "excerpt": "80 real-practice pediatric clinical cases from the PED of a tertiary care Children’s Hospital",
+      "page": "1",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Independent evaluation using a five-level accuracy scale.",
+      "excerpt": "two independent experts evaluated the answers using a five-level accuracy scale",
+      "page": "1",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Primary outcome is comparative diagnostic performance.",
+      "excerpt": "The best performing chatbots were ChatGPT-4o (score: 72.5) and Gemini 1.5 Pro (score: 62.75)",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human oversight is framed as physician judgment rather than replacement.",
+      "excerpt": "supporting clinical decision-making without replacing the physician’s judgment",
+      "page": "1",
+      "section": "discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Limited governance signal: need for shared collaboration protocols.",
+      "excerpt": "Shared protocols for effective collaboration between AI chatbots and healthcare professionals are needed",
+      "page": "1",
+      "section": "discussion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated high-stakes healthcare context is explicit.",
+      "excerpt": "pediatric emergency department",
+      "page": "1",
+      "section": "title",
+      "supports": "methodology"
+    }
+  ]
+}

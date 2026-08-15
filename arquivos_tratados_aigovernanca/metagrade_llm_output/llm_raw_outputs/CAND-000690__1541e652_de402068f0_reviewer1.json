@@ -1,0 +1,180 @@
+{
+  "bibliographic": {
+    "title": "Robust blue-green urban flood risk management optimised with a genetic algorithm for multiple rainstorm return periods",
+    "authors": "Asid Ur Rehman, Vassilis Glenis, Elizabeth Lewis, Chris Kilsby, Claire Walsh",
+    "year": "unclear",
+    "venue": "Journal of Flood Risk Management",
+    "doi": "10.1111/jfr3.70118",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Rehman, A. U., Glenis, V., Lewis, E., Kilsby, C., & Walsh, C. (unclear). Robust blue-green urban flood risk management optimised with a genetic algorithm for multiple rainstorm return periods. Journal of Flood Risk Management. https://doi.org/10.1111/jfr3.70118"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "multi-objective optimisation with NSGA-II genetic algorithm integrated with distributed hydrodynamic flood modelling (CityCAT)",
+    "study_design": "computational simulation and optimisation study comparing single-return-period versus composite multi-return-period BGI designs",
+    "sample_description": "urban catchment with 80 permeable surface intervention zones; rainfall return periods T = 10, 20, 30, 50, and 100 years; building-type damage functions for DDC and EAD",
+    "sample_size": "80 zones",
+    "sector": "urban flood risk management / civil and environmental engineering",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "Blue-Green Infrastructure (BGI) spatial optimisation; NSGA-II; CityCAT hydrodynamic model; Depth-Duration-Frequency rainfall design; direct damage cost (DDC) and expected annual damage (EAD) objective functions"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_technology_domain",
+      "no_llm_genai",
+      "no_conversational_ai",
+      "no_ai_governance"
+    ],
+    "exclusion_reason": "The article addresses urban flood risk management and genetic-algorithm optimisation of blue-green infrastructure. The provided text contains no large language models, generative AI, conversational systems, chatbots, agents, RAG, or AI governance mechanisms relevant to the review scope.",
+    "decision_rationale": "Although automated triage matched generic terms such as risk, compliance, government, policy, standard, challenge, and question, these occur in a hydrological-engineering context (flood damage, rainfall standards, Scottish Government EAD equation, city planning policy). The study's core contribution is a multi-objective optimisation framework for BGI design across multiple rainstorm return periods, not governance of conversational or LLM-based systems in regulated settings.",
+    "decision_confidence": 0.97,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Full text clearly establishes flood-engineering optimisation as the sole focus; absence of LLM, conversational AI, and AI governance content is unambiguous."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Within its own domain, the study presents a clear optimisation objective, detailed modelling workflow, and reported performance metrics (MedRD, MaxRD, AUPF). Appraisal is reported only for signals present in the supplied text and does not imply eligibility for the conversational-LLM governance review."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "The evidence is internally coherent for flood-risk optimisation, but it has very low relevance to conversational governance or LLM systems because the technology and governance objects are entirely different."
+  },
+  "coding": {
+    "open_codes": [
+      "blue-green infrastructure",
+      "multi-objective optimisation",
+      "genetic algorithm NSGA-II",
+      "hydrodynamic flood modelling",
+      "multiple return periods",
+      "expected annual damage",
+      "climate resilience stress testing"
+    ],
+    "axial_codes": [
+      "environmental risk engineering",
+      "computational optimisation",
+      "infrastructure design"
+    ],
+    "theme": "Urban flood risk management through multi-return-period BGI optimisation",
+    "subtheme": "Robustness of composite rainstorm-based design versus single maximum return period design",
+    "concepts": [
+      "NSGA-II",
+      "CityCAT",
+      "DDC",
+      "EAD",
+      "Pareto front",
+      "permeable surface zoning"
+    ],
+    "model_layers": [
+      "physical/hydrodynamic layer",
+      "optimisation algorithm layer",
+      "economic damage-risk layer"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.95
+  },
+  "synthesis": {
+    "main_claim": "BGI schemes optimised for a single maximum return period perform poorly under other storm magnitudes, whereas a composite multi-return-period optimisation framework improves robustness and resilience metrics across return periods.",
+    "contribution": "Introduces a multi-objective optimisation framework combining NSGA-II with a distributed hydrodynamic model, using DDC and EAD as risk objectives across five return periods, with climate uplift stress testing.",
+    "limitations": "DDC reliability depends on accurate building classification; permeable surface zones may remain skewed toward higher return periods; trade-offs between spatial resolution and computational efficiency are noted.",
+    "use_in_review": "Exclude from central or supporting evidence for a systematic review on conversational governance in LLM-based regulated systems; at most incidental contextual value for generic risk-management vocabulary, which is not sufficient for inclusion."
+  },
+  "evidence": [
+    {
+      "claim": "Article topic is urban flood risk management, not AI or conversational systems",
+      "excerpt": "Robust blue-green urban flood risk management optimised with a genetic algorithm for multiple rainstorm return periods",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Core method is genetic-algorithm hydrodynamic optimisation of BGI",
+      "excerpt": "The framework combines a Non-dominated Sorting Genetic Algorithm II (NSGA-II) with a fully distributed hydrodynamic model to optimise the spatial placement and combined size of BGI features.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM, generative AI, or conversational technology appears in the provided text",
+      "excerpt": "Keywords multi-objective optimisation; genetic algorithm; blue-green infrastructure; multiple return periods; robust flood risk management; climate change resilience",
+      "page": "2",
+      "section": "keywords",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Risk terminology refers to flood damage objectives, not AI risk governance",
+      "excerpt": "direct damage cost (DDC) and expected annual damage (EAD), calculated for various building types, are used as risk objective functions",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Government reference is an EAD calculation source, not AI policy governance",
+      "excerpt": "The following equation from the Scottish Government (2018) was used to compute EAD",
+      "page": "16",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Compliance refers to BGI design performance across return periods, not regulatory AI compliance",
+      "excerpt": "Multi-return period optimised BGI design generally exhibited good compliance across all the considered return periods",
+      "page": "35",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Policy mention concerns urban planning for blue-green infrastructure",
+      "excerpt": "driving policy shifts in city councils towards ‘blue-green’ urban planning",
+      "page": "3",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Challenge and research question concern storm-design paradigm, not AI oversight",
+      "excerpt": "To address this challenge, a multi-objective optimisation algorithm is integrated with a fully distributed hydrodynamic flood model",
+      "page": "3",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study objective and design are clearly stated",
+      "excerpt": "This study aims to assess the effectiveness of single return period-based BGI design across multiple storm magnitudes and introduces a novel multi-objective optimisation framework",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Reported quantitative improvements support internal validity of findings",
+      "excerpt": "greatest improvements observed in MedRD (22%) and AUPF (73%) for the 20-year return period, and MaxRD (23%) for the 50-year return period",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Limitations on damage-cost methodology are acknowledged",
+      "excerpt": "DDC, calculated for residential and non-residential buildings differently, remains the standard method for assessing flood damages to buildings in the UK, its reliability depends on accurate building classification",
+      "page": "34",
+      "section": "discussion",
+      "supports": "synthesis"
+    }
+  ]
+}

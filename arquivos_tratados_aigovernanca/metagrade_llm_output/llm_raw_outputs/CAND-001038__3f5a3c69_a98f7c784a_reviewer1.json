@@ -1,0 +1,163 @@
+{
+  "bibliographic": {
+    "title": "Large Language Models in Portuguese for Healthcare: A Systematic Review",
+    "authors": "Andre Massahiro Shimaoka; Antonio Carlos da Silva Junior; José Marcio Duarte; Thiago Bulhões da Silva Costa; Ivan Torres Pisa; Luciano Rodrigo Lopes; Paulo Bandiera-Paiva",
+    "year": "2025",
+    "venue": "Research Square (preprint); published version in Research on Biomedical Engineering (2026)",
+    "doi": "10.21203/rs.3.rs-6673690/v1",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Shimaoka, A. M., Junior, A. C. S., Duarte, J. M., Costa, T. B. S., Pisa, I. T., Lopes, L. R., & Paiva, P. B. (2025). Large Language Models in Portuguese for Healthcare: A Systematic Review. Research Square. https://doi.org/10.21203/rs.3.rs-6673690/v1"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic literature review",
+    "study_design": "systematic review following search, screening, quality assessment, data extraction, and analysis",
+    "sample_description": "28 Portuguese LLM models identified across healthcare literature, mostly based on BERTimbau, mBERT, and BioBERTpt",
+    "sample_size": "28",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Portuguese pre-trained LLMs with contextual embeddings applied to healthcare NLP tasks including classification, NER, topic modeling, question answering, text generation, and conversational agents"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text assessment",
+    "inclusion_codes": [
+      "LLM_HEALTHCARE",
+      "SYSTEMATIC_REVIEW",
+      "REGULATED_DOMAIN_HEALTH"
+    ],
+    "exclusion_codes": [
+      "CONVERSATIONAL_GOVERNANCE_NOT_PRIMARY"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study is a systematic review of Portuguese LLMs in healthcare with clear regulated-domain relevance and brief mention of conversational agents and privacy gaps, but the provided text does not center on conversational governance, guardrails, oversight, accountability, or compliance mechanisms required for central evidence in this review scope.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and abstract-level excerpts were provided; full-text sections on governance, conversational systems, and quality assessment details are needed to confirm peripheral versus central relevance."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal is based on limited excerpted text. The review reports standard SLR steps and a clear healthcare-focused research question, but detailed reporting of search strategy, inclusion criteria, and quality appraisal instruments is not visible in the supplied pages."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The review appears internally coherent and adequately summarizes Portuguese healthcare LLM models and application gaps, but direct relevance to conversational governance in regulated environments is limited in the provided evidence."
+  },
+  "coding": {
+    "open_codes": [
+      "systematic_literature_review",
+      "portuguese_llms",
+      "healthcare_applications",
+      "conversational_agents",
+      "data_privacy_gaps",
+      "fine_tuning",
+      "contextual_embeddings"
+    ],
+    "axial_codes": [
+      "llm_landscape_mapping",
+      "regulated_healthcare_nlp",
+      "governance_adjacent_gaps"
+    ],
+    "theme": "State of Portuguese LLMs in healthcare",
+    "subtheme": "Model architectures, adaptation strategies, datasets, and NLP task coverage",
+    "concepts": [
+      "contextual embeddings",
+      "fine-tuning",
+      "domain-adaptive pre-training",
+      "conversational agents",
+      "de-identification",
+      "anonymization",
+      "clinical records"
+    ],
+    "model_layers": [
+      "application layer"
+    ],
+    "rq_alignment": [
+      "LLMs in regulated healthcare contexts",
+      "peripheral alignment to conversational AI via conversational agents mention",
+      "limited alignment to governance, oversight, and accountability themes"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "Portuguese LLMs for healthcare are limited but growing; the review identifies 28 models, prevalent adaptation strategies, diverse datasets and domains, and several research gaps including unexplored base models, reproducibility limits, and overlooked privacy practices.",
+    "contribution": "Provides a structured map of Portuguese healthcare LLM models, training and fine-tuning approaches, corpora, application areas, and NLP tasks, while noting conversational agents among application types.",
+    "limitations": "Supplied text is partial; governance topics such as guardrails, observability, human oversight, and accountability are not substantively addressed. Authors report that data privacy, especially de-identification and anonymization, have been largely overlooked in the reviewed literature.",
+    "use_in_review": "Use as supporting contextual evidence on Portuguese healthcare LLM deployment and task landscape; cite cautiously for conversational governance, except where noting privacy/de-identification gaps and the presence of conversational-agent applications."
+  },
+  "evidence": [
+    {
+      "claim": "Study is a systematic review of Portuguese LLMs for healthcare.",
+      "excerpt": "Large Language Models in Portuguese for Healthcare: A Systematic Review",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors followed standard systematic review protocols.",
+      "excerpt": "Our Systematic Literature Review (SLR) followed standard protocols: search, screening based on inclusion/exclusion criteria, quality assessment, data extraction, and analysis.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Review identified 28 models, mostly BERTimbau, mBERT, and BioBERTpt.",
+      "excerpt": "We identified 28 models, mostly based on BERTimbau, mBERT, and BioBERTpt.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Conversational agents are among reported NLP application tasks.",
+      "excerpt": "accomplishing classification tasks, followed by named entity recognition (NER), topic modeling, question answering, text generation, and conversational agents.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Data privacy, de-identification, and anonymization are reported as overlooked gaps.",
+      "excerpt": "data privacy, especially de-identification and anonymization, have been largely overlooked",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Primary research question concerns use of Portuguese-trained LLMs in healthcare.",
+      "excerpt": "How are Portuguese-trained LLM models being used in the healthcare domain?",
+      "page": "3",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Healthcare is the regulated application domain.",
+      "excerpt": "LLMs pre-trained in Portuguese, and applied to the healthcare domain",
+      "page": "3",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "A journal version exists, but peer-review status of the preprint is not stated in the excerpt.",
+      "excerpt": "A version of this preprint was published at Research on Biomedical Engineering on March 12th, 2026.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

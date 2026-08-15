@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Designing Enterprise Data Architecture for AI-First Government and Higher Education Institutions",
+    "authors": "Jayant Bhat",
+    "year": "2024",
+    "venue": "International Journal of Emerging Research in Engineering and Technology",
+    "doi": "10.63282/3050-922X.IJERET-V5I3P111",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Bhat, J. (2024). Designing enterprise data architecture for AI-first government and higher education institutions. International Journal of Emerging Research in Engineering and Technology, 5(3), 106-117. https://doi.org/10.63282/3050-922X.IJERET-V5I3P111"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "design-science research with literature synthesis and use-case mapping",
+    "study_design": "layered reference architecture proposal with illustrative benchmark-based evaluation",
+    "sample_description": "no empirical sample; synthesizes recent industry and policy literature and maps representative public-sector and higher-education use cases",
+    "sample_size": "unclear",
+    "sector": "government and higher education",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "enterprise data architecture with MLOps/LLMOps, RAG pipelines, guardrails, chatbots, policy assistants, and student support systems on cloud-native data mesh and lakehouse platforms"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "governance_accountability",
+      "regulated_high_stakes",
+      "risk_audit_compliance",
+      "operational_technical_governance"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article primarily proposes an enterprise data architecture for AI-first government and higher education institutions rather than studying conversational governance directly. It is relevant as supporting evidence because it explicitly addresses LLMOps, RAG, guardrails, safety filters, and governed deployment of LLMs used as chatbots and policy assistants within regulated public-sector and education contexts.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Confirm whether architectural LLMOps and guardrail guidance is sufficient for inclusion as supporting evidence versus foundational context, and verify peer-review status of the venue."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Design-science reference architecture is appropriate for its stated aim, but claims rely on illustrative 2023-2024 benchmark ranges rather than primary empirical validation. Sampling adequacy is low because no participants, cases, or systematic review protocol are reported."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The architecture is internally coherent and aligned with ISO/IEC 25012, DAMA-DMBOK, and NIST AI RMF, but evidence for outcomes is illustrative rather than empirically demonstrated. Relevance to conversational governance is indirect, concentrated in the LLMOps layer and regulated-sector use cases."
+  },
+  "coding": {
+    "open_codes": [
+      "enterprise data architecture",
+      "data mesh",
+      "data lakehouse",
+      "data governance",
+      "LLMOps",
+      "guardrails",
+      "RAG pipelines",
+      "zero-trust security",
+      "privacy-by-design",
+      "chatbots",
+      "policy assistants",
+      "student support systems"
+    ],
+    "axial_codes": [
+      "technical and operational AI governance",
+      "regulated public-sector AI infrastructure",
+      "platform-level LLM safety controls"
+    ],
+    "theme": "Enterprise data and AI platform governance for regulated institutions",
+    "subtheme": "LLMOps and conversational AI operational controls within enterprise architecture",
+    "concepts": [
+      "reference architecture",
+      "multi-stakeholder requirements matrix",
+      "MLOps",
+      "LLMOps",
+      "retrieval-augmented generation",
+      "guardrails",
+      "safety filters",
+      "NIST AI Risk Management Framework",
+      "ethical AI",
+      "traceability"
+    ],
+    "model_layers": [
+      "ingestion and integration",
+      "governance and security",
+      "metadata and semantic modeling",
+      "analytical data store",
+      "AI/ML platform (MLOps, LLMOps)",
+      "application and consumption"
+    ],
+    "rq_alignment": [
+      "indirect alignment to governed LLM deployment in regulated environments",
+      "limited direct alignment to conversational governance mechanisms such as handoff, contestation, or post-deployment conversational monitoring"
+    ],
+    "coding_confidence": 0.8
+  },
+  "synthesis": {
+    "main_claim": "AI-first government and higher education institutions need a layered enterprise data architecture that integrates data mesh and lakehouse designs with centralized governance, security, and an AI/ML platform including LLMOps for governed generative AI and conversational applications.",
+    "contribution": "Provides a governance-consistent reference blueprint mapping public-sector and higher-education use cases onto architecture layers grounded in established data-quality, data-management, and AI risk frameworks.",
+    "limitations": "Evaluation is illustrative using benchmark ranges rather than institution-specific empirical validation; conversational governance is addressed only at platform-operation level, not as a primary object of study.",
+    "use_in_review": "Use as supporting evidence on platform-level governance for LLM-based chatbots, assistants, and RAG systems in government and higher education; not suitable as central evidence on conversational governance practices, human oversight workflows, or post-deployment conversational audit."
+  },
+  "evidence": [
+    {
+      "claim": "Study follows a design-science approach synthesizing literature and mapping use cases",
+      "excerpt": "Methodologically, the work follows a design-science approach, synthesizing recent industry and policy literature, deriving a multi-stakeholder requirements matrix, and mapping representative public-sector and higher-education use cases",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Architecture is grounded in governance and AI risk frameworks",
+      "excerpt": "combines data mesh and lakehouse designs with a cloud-native platform based on the ISO/IEC 25012, DAMA-DMBOK, and the NIST AI Risk Management Framework",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMOps includes guardrails and safety filters for LLM chatbots and assistants",
+      "excerpt": "the capabilities of LLMOps deal with prompt templates, retrieval-augmented generation pipelines, guardrails, and safety filters of large language models that are used as chatbots, policy assistants, and student support systems",
+      "page": "6",
+      "section": "4.6 AI/ML Platform Layer",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Centralized LLMOps supports governance and NIST AI risk alignment",
+      "excerpt": "Centralizing these functions ensures that models are reproducible, governed, and aligned with NIST AI risk principles",
+      "page": "6",
+      "section": "4.6 AI/ML Platform Layer",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulated-sector focus on government and higher education",
+      "excerpt": "AI-first government and higher education organizations will have to balance AI ambitious agendas with data infrastructure that is stable and responsible",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Privacy, ethical AI, and security risks are identified",
+      "excerpt": "the paper identifies the most pertinent risks related to privacy, ethical AI, security risks, and skill gaps",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "LLMs introduce prompt injection and require AI-aware security controls",
+      "excerpt": "prompt injection (in the case of LLMs), there are new threat classes, which need AI-aware security controls and red-teaming practices",
+      "page": "10",
+      "section": "8.3",
+      "supports": "coding"
+    },
+    {
+      "claim": "Outcomes are supported only by illustrative benchmark ranges",
+      "excerpt": "According to illustrative evaluation founded on 2023-2024 benchmark ranges, an AI-first EDA is capable of achieving",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Application layer includes virtual assistants and AI-enhanced services",
+      "excerpt": "intelligent capabilities (introduced by AI) are introduced into day-to-day operations as virtual assistants, recommendation engines, or early-warning dashboards",
+      "page": "6",
+      "section": "4.7 Application and",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Holistic blueprint requires integrated data governance and institutional operating models",
+      "excerpt": "It requires a blue print level, holistic approach that integrates data governance, technical architecture and institutional operating models",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    }
+  ]
+}

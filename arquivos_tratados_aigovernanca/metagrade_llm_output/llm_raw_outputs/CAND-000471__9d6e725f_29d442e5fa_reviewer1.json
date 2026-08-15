@@ -1,0 +1,173 @@
+{
+  "bibliographic": {
+    "title": "HOW DECENTRALIZED IS THE GOVERNANCE OF BLOCKCHAIN-BASED FINANCE? Empirical Evidence from four Governance Token Distributions Research in Progress",
+    "authors": "Jensen, J. R.; von Wachter, V.; Ross, O.",
+    "year": "unclear",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "unknown",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Jensen, J. R., von Wachter, V., & Ross, O. (unclear). How decentralized is the governance of blockchain-based finance? Empirical evidence from four governance token distributions [Research in progress]. unclear."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "quantitative empirical analysis of governance token distributions using statistical dispersion coefficients",
+    "study_design": "ongoing empirical study analyzing governance token distribution across four DeFi finance applications",
+    "sample_description": "four blockchain-based decentralized finance applications",
+    "sample_size": "4",
+    "sector": "decentralized finance (DeFi) / financial services",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "blockchain, distributed ledger technology, governance tokens, smart contracts, DAOs"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "FOUNDATIONAL_GOVERNANCE"
+    ],
+    "exclusion_codes": [
+      "E_NO_LLM",
+      "E_NO_CONVERSATIONAL_AI",
+      "E_DOMAIN_MISMATCH"
+    ],
+    "exclusion_reason": "The study addresses blockchain/DeFi token governance and decentralization measurement, not governance of LLM-based conversational systems in regulated environments.",
+    "decision_rationale": "Python triage scored 44.0/100 (grade D) with 0/3 on LLM and conversational AI dimensions. The provided text contains governance and financial-services content, but no LLMs, generative AI, chatbots, agents, RAG, guardrails, observability, human oversight, or regulated conversational-system controls. It may serve only as distant contextual background on governance measurement in financial technology.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Scope mismatch is explicit in title, abstract, and introduction; no LLM or conversational-system content appears in the supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 1,
+    "limitations_transparency": 1,
+    "evidence_support": 1,
+    "transferability": 1,
+    "notes": "Work-in-progress paper with incomplete methods and results in the supplied excerpt. Appraisal reflects only visible signals; full empirical execution and findings are not fully reported."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Although governance is clearly defined for DeFi token distributions, the manuscript is incomplete and the topic has very low direct relevance to conversational governance of LLMs in regulated settings."
+  },
+  "coding": {
+    "open_codes": [
+      "governance token distribution",
+      "decentralization measurement",
+      "DeFi governance",
+      "statistical dispersion coefficients",
+      "voting power concentration",
+      "trust-minimized finance"
+    ],
+    "axial_codes": [
+      "distributed system governance",
+      "financial technology governance",
+      "quantitative governance evaluation"
+    ],
+    "theme": "Measurement of decentralized governance in blockchain finance",
+    "subtheme": "Governance token dispersion across DeFi applications",
+    "concepts": [
+      "decentralization",
+      "governance tokens",
+      "majority voting",
+      "token distribution",
+      "DeFi",
+      "DAOs",
+      "smart contracts"
+    ],
+    "model_layers": [
+      "institutional governance",
+      "protocol-level decision rights"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "The authors propose an ongoing framework to quantify decentralization of governance power by analyzing governance token distributions in four DeFi applications using statistical dispersion coefficients.",
+    "contribution": "Offers a measurement-oriented approach to evaluate how concentrated or dispersed governance voting power is in blockchain-based financial applications.",
+    "limitations": "The paper is labeled research in progress; the supplied text presents an incomplete study with limited methodological detail and no full results section.",
+    "use_in_review": "Foundational/contextual reference only for broad governance-measurement ideas in financial technology; not usable as central or supporting evidence on conversational LLM governance, compliance, oversight, or operational controls."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on blockchain DeFi governance tokens, not LLMs or conversational AI.",
+      "excerpt": "A rapidly growing ecosystem of applications is built around financial services, commonly referred to as decentralized finance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research question concerns decentralization of governance token distribution in DeFi.",
+      "excerpt": "We approach the research question: How decentralized is the governance token distribu- tion in DeFi applications?",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Empirical sample comprises four finance applications.",
+      "excerpt": "we aggregate, parse, and analyze empirical data of four finance applications calculating coefficients for the statisti- cal dispersion of the governance token distribution.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance mechanism is token-based voting, not conversational or LLM oversight.",
+      "excerpt": "governance tokens; fungible entities ena- bling holders to participate directly in decision-making processes through majority voting schemes.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Paper is explicitly work in progress.",
+      "excerpt": "Research in Progress",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors present a framework to quantify governance decentralization.",
+      "excerpt": "This paper provides a framework to quantify decentralization of governance power among blockchain ap- plications.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Financial regulated-domain context is DeFi/blockchain finance, not conversational compliance systems.",
+      "excerpt": "Decentralized finance aims to create a trust-minimized and automated version of traditional financial infrastructure.",
+      "page": "7",
+      "section": "conclusion",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance importance is framed around protocol token governance.",
+      "excerpt": "Transparent and decentralized governance for these core protocols is of utmost importance",
+      "page": "7",
+      "section": "conclusion",
+      "supports": "coding"
+    },
+    {
+      "claim": "No LLM, chatbot, agent, or conversational-system terminology appears in supplied text.",
+      "excerpt": "Keywords: Distributed Ledger Technology, Blockchain, Decentralized Finance (DeFi), Governance, Governance Token",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Sampling adequacy is limited to four applications.",
+      "excerpt": "empirical data of four finance applications",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

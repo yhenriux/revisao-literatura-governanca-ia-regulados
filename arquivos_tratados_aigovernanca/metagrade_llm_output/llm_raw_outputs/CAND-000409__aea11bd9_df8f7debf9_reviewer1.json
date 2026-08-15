@@ -1,0 +1,156 @@
+{
+  "bibliographic": {
+    "title": "How Different AI Chatbots Behave? Benchmarking Large Language Models in Behavioral Economics Games",
+    "authors": "Yutong Xie; Yiyao Liu; Zhuang Ma; Lin Shi; Xiyuan Wang; Walter Yuan; Matthew O. Jackson; Qiaozhu Mei",
+    "year": "2024",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Xie, Y., Liu, Y., Ma, Z., Shi, L., Wang, X., Yuan, W., Jackson, M. O., & Mei, Q. (2024). How different AI chatbots behave? Benchmarking large language models in behavioral economics games. Preprint."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative behavioral benchmarking using behavioral economics games",
+    "study_design": "cross-model benchmark of five LLM-based chatbot families across multiple behavioral economics games",
+    "sample_description": "Five families of LLM-based AI chatbots; flagship models per family; checkpoints obtained as of July 31, 2024; models include OpenAI ChatGPT, Meta Llama, Google Gemini, Anthropic Claude, and Mistral",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-based AI chatbots evaluated in behavioral economics games including Dictator, Ultimatum, Trust, Public Goods, Bomb, and Prisoner's Dilemma"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "no_governance_focus",
+      "no_regulated_context",
+      "wrong_phenomenon_of_interest"
+    ],
+    "exclusion_reason": "The study empirically benchmarks behavioral patterns of LLM-based chatbots in behavioral economics games and does not address conversational governance, accountability, compliance, human oversight, auditability, or deployment in regulated environments.",
+    "decision_rationale": "Although the paper clearly concerns LLM-based chatbots and mentions deployment implications, reliability, trust, fairness, and risk in a behavioral-economics sense, the provided text contains no evidence on governance mechanisms, guardrails, observability, supervision, contestation, compliance, or regulated-domain application. The work is behavioral benchmarking rather than governance research.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "The mismatch with review scope is clear from title, abstract, introduction, and methods excerpt; no governance or regulated-context content is present in the supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal is based only on page 1-2 excerpts. Within its own aim, objectives and method framing appear clear, but results, limitations, ethics, and full analytic detail are not available in the provided text. Transferability to conversational governance in regulated settings is very limited."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the review's governance-in-regulated-settings focus, relevance is very low because the study measures chatbot behavior in economics games rather than governance practices or regulated deployment. Confidence in using this as review evidence is low despite a seemingly coherent empirical benchmark design within its own scope."
+  },
+  "coding": {
+    "open_codes": [
+      "llm_chatbot_benchmarking",
+      "behavioral_economics_games",
+      "cross_model_comparison",
+      "trust_fairness_risk_traits",
+      "deployment_implications"
+    ],
+    "axial_codes": [
+      "chatbot_behavioral_profiling",
+      "decision_making_patterns",
+      "model_family_differences"
+    ],
+    "theme": "Behavioral benchmarking of LLM-based chatbots",
+    "subtheme": "Comparative behavioral economics game performance across leading LLM families",
+    "concepts": [
+      "behavioral Turing test supplement",
+      "strategic preferences",
+      "reliability and predictability",
+      "trust",
+      "fairness",
+      "risk aversion",
+      "altruism",
+      "cooperation"
+    ],
+    "model_layers": [
+      "model_behavior"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Five leading LLM-based chatbot families exhibit common and distinct behavioral patterns when benchmarked across behavioral economics games, with implications for understanding their strategic preferences and deployment in decision-making roles.",
+    "contribution": "Provides a comparative behavioral profile of multiple prominent LLM chatbot families beyond prior ChatGPT-focused work, extending analysis across games testing trust, fairness, risk aversion, altruism, and cooperation.",
+    "limitations": "unclear",
+    "use_in_review": "Not suitable as central or supporting evidence for conversational governance in regulated environments; at most peripheral contextual background on chatbot behavioral variability, with no direct governance, compliance, or oversight findings."
+  },
+  "evidence": [
+    {
+      "claim": "Paper title and focus are LLM chatbot behavioral benchmarking in economics games.",
+      "excerpt": "How Different AI Chatbots Behave? Benchmarking Large Language Models in Behavioral Economics Games",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study analyzes five LLM-based chatbot families in behavioral economics games.",
+      "excerpt": "this paper presents a comprehensive analysis of five leading LLM-based chatbot families as they navigate a series of behavioral economics games",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Mentions deployment and decision-making roles but not governance mechanisms.",
+      "excerpt": "highlighting potential implications for their deployment in critical decision-making roles",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Behavioral traits studied include trust, fairness, and risk, but in game contexts rather than governance.",
+      "excerpt": "scenarios designed to test trust, fairness, risk aversion, altruism, cooperation, and other traits",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Compared models include ChatGPT, Llama, Gemini, Claude, and Mistral.",
+      "excerpt": "other LLMs like Meta Llama, Google Gemini, Anthropic Claude, and Mistral models",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Methods section defines five families of LLM-based AI chatbots with checkpoints as of July 31, 2024.",
+      "excerpt": "This study focuses on five families of LLM-based AI chatbots",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Games used include Dictator, Ultimatum, Trust, Public Goods, Bomb, and Prisoner's Dilemma.",
+      "excerpt": "Dictator (b) Ultimatum - Proposer (c) Ultimatum - Responder (d) Trust - Investor (e) Trust - Banker (f) Public Goods (g) Bomb (h) Prisoner's Dilemma",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No regulated-domain or governance focus appears in the provided text.",
+      "excerpt": "enable better assessment of their reliability and predictability, particularly in contexts involving significant responsibilities",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

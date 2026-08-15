@@ -1,0 +1,220 @@
+{
+  "bibliographic": {
+    "title": "Conversational AI for perinatal mental health: promise, limits, and a human-AI stepped-care framework",
+    "authors": "Haiyan Yang and Dong-Mei Lin",
+    "year": "2026",
+    "venue": "Frontiers in Psychiatry",
+    "doi": "10.3389/fpsyt.2026.1847854",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Yang, H., & Lin, D.-M. (2026). Conversational AI for perinatal mental health: promise, limits, and a human-AI stepped-care framework. Frontiers in Psychiatry, 17, 1847854. https://doi.org/10.3389/fpsyt.2026.1847854"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "argumentative perspective framework",
+    "study_design": "conceptual framework paper with literature-informed argumentation",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "conversational AI, digital doulas, generative AI, large language models, chatbots, multimodal interaction, NLP-based mental health support"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "conversational_ai",
+      "llm_genai",
+      "governance_accountability",
+      "human_oversight",
+      "regulated_healthcare",
+      "conceptual_framework"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses conversational AI and large language models in a high-stakes regulated healthcare domain (perinatal mental health), and proposes a human-AI stepped-care framework emphasizing human oversight, escalation protocols, medico-legal accountability, safety-by-design, and equity-centered evaluation.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial full-text excerpts were provided (approximately pages 1-6); complete manuscript review needed to confirm absence of empirical components and to verify full governance discussion."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 5,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Appropriate as a conceptual governance-oriented perspective for regulated conversational AI, but not an empirical study; sampling and data-collection criteria are largely not applicable. Rigor rests on cited literature and normative argument rather than primary data."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 5,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and highly relevant to conversational governance in regulated healthcare, but confidence is moderated because the work is conceptual, not empirically validated, and the appraisal is based on partial text."
+  },
+  "coding": {
+    "open_codes": [
+      "digital doula",
+      "stepped-care model",
+      "human oversight",
+      "escalation protocols",
+      "safety-by-design",
+      "crisis recognition failure",
+      "algorithmic sycophancy",
+      "deterministic overrides",
+      "human-in-the-loop",
+      "human-on-the-loop",
+      "medico-legal accountability",
+      "equity-centered evaluation",
+      "data privacy",
+      "algorithmic bias"
+    ],
+    "axial_codes": [
+      "conversational governance",
+      "human-AI collaboration",
+      "risk and safety controls",
+      "regulated clinical deployment",
+      "ethical and equity concerns"
+    ],
+    "theme": "Human-AI stepped-care governance for conversational AI in perinatal mental health",
+    "subtheme": "Safety-by-design with mandatory escalation and non-substitution of human care",
+    "concepts": [
+      "digital doula",
+      "four core functions (companionship, symptom interpretation, navigation, sentinel monitoring)",
+      "stepped-care model",
+      "Language Detection Protocol",
+      "algorithmic sycophancy",
+      "digital phenotyping",
+      "cultural idioms of distress"
+    ],
+    "model_layers": [
+      "relational interface layer",
+      "companionship",
+      "symptom interpretation",
+      "navigation",
+      "sentinel monitoring",
+      "routine monitoring with human-on-the-loop",
+      "crisis escalation with human-in-the-loop",
+      "deterministic crisis override layer"
+    ],
+    "rq_alignment": [
+      "governança conversacional",
+      "supervisão humana",
+      "handoff e escalation",
+      "compliance e accountability",
+      "risco e segurança",
+      "contexto regulado em saúde",
+      "LLMs e IA generativa",
+      "guardrails operacionais"
+    ],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "Digital doulas should be framed as AI-enabled relational interfaces embedded within a stepped-care model rather than autonomous substitutes for clinicians, with safety-by-design emphasizing human oversight, escalation protocols, workflow integration, and equity-centered evaluation.",
+    "contribution": "Proposes four core functions for digital doulas (companionship, symptom interpretation, navigation, sentinel monitoring) and a safety-by-design agenda for governed deployment of conversational AI/LLMs in perinatal mental health, including deterministic crisis overrides and differentiated human-on-the-loop versus human-in-the-loop oversight.",
+    "limitations": "Conceptual argument without reported primary empirical evaluation; risks discussed include illusion of empathy, crisis recognition failure, algorithmic bias, privacy vulnerabilities, and unsafe deployment.",
+    "use_in_review": "High-value central conceptual evidence for conversational governance in regulated healthcare, especially human oversight tiers, escalation/handoff design, guardrails, accountability, and equity risks in LLM-based conversational systems."
+  },
+  "evidence": [
+    {
+      "claim": "Article is peer-reviewed journal publication in Frontiers in Psychiatry",
+      "excerpt": "REVIEWED BY Jasmine Joseph, CHRIST (Deemed to be University), India",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is conceptual framework, not empirical primary research",
+      "excerpt": "We propose four core functions for digital doulas: companionship, symptom interpretation, navigation, and sentinel monitoring.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Direct relevance to LLMs and generative AI in conversational mental health care",
+      "excerpt": "generative AI and large language models are rapidly entering mental health care.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated high-stakes healthcare domain",
+      "excerpt": "Perinatal mental health conditions are highly prevalent, clinically consequential, and persistently undertreated.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Human oversight and escalation governance proposed",
+      "excerpt": "we outline a safety-by-design agenda emphasizing human oversight, clear escalation protocols with medico-legal accountability",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Differentiated oversight model: human-on-the-loop vs human-in-the-loop",
+      "excerpt": "routine monitoring, which may operate with human-on-the-loop oversight (periodic clinician review), and crisis escalation, which requires mandatory human-in-the-loop real-time engagement",
+      "page": "3",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Operational guardrail example with deterministic override bypassing generative layer",
+      "excerpt": "When the model detects specific keywords related to self-harm or infant harm, it completely bypasses the generative AI layer, halting open-ended conversation and immediately triggering deterministic crisis escalation pathways",
+      "page": "5",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Identifies LLM-specific conversational risk: algorithmic sycophancy",
+      "excerpt": "A unique danger of large language models in this context is \"algorithmic sycophancy\"—the tendency of models trained on human feedback to be overly agreeable and validating.",
+      "page": "4",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Crisis recognition and escalation pathway failures in conversational agents",
+      "excerpt": "they still frequently fail to provide reliable source citations or actionable emergency escalation pathways",
+      "page": "4",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Equity and bias concerns in NLP/conversational deployment",
+      "excerpt": "Eurocentric Natural Language Processing (NLP) models often fail to recognize diverse \"cultural idioms of distress.\"",
+      "page": "4",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors position AI as adjunct, not replacement, supporting governance of substitution risk",
+      "excerpt": "digital doulas should not be framed as autonomous substitutes for clinicians or human doulas",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Privacy and data governance risks acknowledged",
+      "excerpt": "data privacy vulnerabilities, and unsafe deployment",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Generative AI used only for manuscript language editing, not scientific content generation",
+      "excerpt": "generative AI was used in the creation of this manuscript. For language editing and polishing only",
+      "page": "6",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

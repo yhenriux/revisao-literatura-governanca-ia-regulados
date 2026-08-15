@@ -1,0 +1,149 @@
+{
+  "bibliographic": {
+    "title": "Large Language Model-Powered Chatbots for Internationalizing Student Support in Higher Education",
+    "authors": "Achraf Hsain; Hamza El Housni",
+    "year": "unclear",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "unknown",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Hsain, A., & El Housni, H. (unclear). Large language model-powered chatbots for internationalizing student support in higher education. [Venue unclear]."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "system design and implementation with user survey evaluation",
+    "study_design": "chatbot design, implementation, and performance evaluation using bespoke metrics and student survey",
+    "sample_description": "students of Al Akhawayn University who participated in a distributed survey",
+    "sample_size": "unclear",
+    "sector": "higher education",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "GPT-3.5, GPT-4 Turbo, GPT API, Python 3, LangChain, Chroma Vector Store, transcript dataset for chatbot testing"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "EXCL_NO_CONVERSATIONAL_GOVERNANCE",
+      "EXCL_OUT_OF_SCOPE_PRIMARY_FOCUS"
+    ],
+    "exclusion_reason": "The provided text focuses on design, implementation, and evaluation of LLM-powered chatbots for student support in higher education, with no discussion of conversational governance, accountability, audit, compliance, guardrails, observability, human oversight, or risk controls.",
+    "decision_rationale": "Although the study clearly addresses LLM-based chatbots in a higher-education context, the available full-text excerpt contains no governance, oversight, audit, compliance, or risk-management content relevant to the review scope. The Python triage also scored governance_accountability and risk_audit_compliance at 0/3. The paper appears to be an implementation and usability/effectiveness study rather than evidence on conversational governance in regulated settings.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage marked the record as borderline_manual, but the provided excerpt is partial (pages 1-2 only) and governance-related terms are absent; manual confirmation should verify whether later sections introduce governance, oversight, or compliance content."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 0,
+    "results_clarity": 3,
+    "limitations_transparency": 0,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal is limited to pages 1-2. The objective and technology stack are clearly described, and evaluation via bespoke metrics plus a student survey is mentioned, but sample size, analysis procedures, limitations, and ethics are not visible in the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Within the provided excerpt, the study is internally coherent as an LLM chatbot implementation paper, but methodological detail is incomplete and the content has very low relevance to conversational governance, oversight, or regulated compliance."
+  },
+  "coding": {
+    "open_codes": [
+      "llm_chatbot",
+      "student_support",
+      "higher_education",
+      "internationalization",
+      "information_retrieval",
+      "survey_evaluation",
+      "langchain",
+      "chroma_vector_store"
+    ],
+    "axial_codes": [
+      "conversational_ai_implementation",
+      "education_digital_transformation",
+      "user_preference_and_response_quality"
+    ],
+    "theme": "LLM-powered chatbot implementation for international student support",
+    "subtheme": "design, deployment, and evaluation in higher education",
+    "concepts": [
+      "GPT-3.5",
+      "GPT-4 Turbo",
+      "context-aware conversations",
+      "transcript dataset",
+      "response quality",
+      "human-likeness",
+      "real-time engagement",
+      "memory capabilities"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "An LLM-powered chatbot using GPT-3.5 and GPT-4 Turbo can improve student engagement, information access, and support for internationalization in higher education, with positive user preference and low error rate.",
+    "contribution": "Describes the design and implementation of an LLM chatbot for international and exchange students, including use of LangChain and Chroma Vector Store, curated institutional information, and evaluation through bespoke metrics and a student survey at Al Akhawayn University.",
+    "limitations": "unclear",
+    "use_in_review": "Not recommended as central or supporting evidence for a systematic review on conversational governance in regulated LLM systems; may serve only as peripheral background on LLM chatbot adoption in higher education if governance content is confirmed absent in the full text."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses specific LLMs GPT-3.5 and GPT-4 Turbo for a higher-education chatbot.",
+      "excerpt": "This research explores the integration of chatbot technology powered by GPT-3.5 and GPT-4 Turbo into higher education",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research type is empirical system design, implementation, and evaluation.",
+      "excerpt": "It delves into the design, implementation, and application of Large Language Models (LLMs) for improving student engagement, information access, and support.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Technology stack includes Python 3, GPT API, LangChain, and Chroma Vector Store.",
+      "excerpt": "Utilizing technologies like Python 3, GPT API, LangChain, and Chroma Vector Store",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Evaluation includes bespoke metrics and a student survey at one university.",
+      "excerpt": "The chatbot's effectiveness is measured through bespoke metrics, tailored to evaluate its performance across multiple dimensions such as response quality, relevance, and human- likeness. We have conducted extensive evaluations using a survey distributed among students of Al Akhawayn University",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Reported outcomes emphasize response quality and user preference rather than governance.",
+      "excerpt": "Findings indicate the chatbot's efficacy in providing comprehensive responses, its preference over traditional methods by users, and a low error rate.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Sector context is higher education internationalization and student support.",
+      "excerpt": "LARGE LANGUAGE MODEL-POWERED CHATBOTS FOR INTERNATIONALIZING STUDENT SUPPORT IN HIGHER EDUCATION",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No governance, audit, compliance, guardrails, or oversight content appears in the provided excerpt.",
+      "excerpt": "Our goal is to illuminate the transformative impact that LLM-based chatbots can have on the student experience, particularly in the realm of international education.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "bibliographic": {
+    "title": "Leveraging pre-trained language models for mining microbiome-disease relationships",
+    "authors": "Nikitha Karkera, Sathwik Acharya, Sucheendra K. Palaniappan",
+    "year": "2023",
+    "venue": "BMC Bioinformatics",
+    "doi": "10.1186/s12859-023-05411-z",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Karkera, N., Acharya, S., & Palaniappan, S. K. (2023). Leveraging pre-trained language models for mining microbiome-disease relationships. BMC Bioinformatics, 24, 290. https://doi.org/10.1186/s12859-023-05411-z"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "biomedical NLP information extraction with comparative fine-tuning evaluation of pre-trained language models",
+    "study_design": "comparative experimental evaluation (zero-shot/few-shot baseline followed by domain-specific fine-tuning and performance comparison)",
+    "sample_description": "labeled training data obtained from prior work [24] for microbe-disease relationship extraction from biomedical literature; multiple pre-trained biomedical and general language models evaluated",
+    "sample_size": "unclear",
+    "sector": "biomedical informatics / microbiome research",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "fine-tuning and evaluation of GPT-3, BioGPT, BioMedLM, BERT, BioMegatron, PubMedBERT, BioClinicalBERT, and BioLinkBERT for structured extraction of microbe-disease relationships from scientific publications"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "no_conversational_ai",
+      "no_governance_accountability",
+      "no_regulated_deployment_focus"
+    ],
+    "exclusion_reason": "The study addresses biomedical text mining and fine-tuning of pre-trained language models for microbe-disease relationship extraction; it does not examine conversational AI systems, governance, accountability, compliance, human oversight, audit, or deployment in regulated conversational settings.",
+    "decision_rationale": "Although the paper explicitly uses large language models and GPT-3 in a biomedical health-related domain, its focus is NLP extraction performance (F1, precision, recall) rather than conversational governance. No discussion of chatbots, agents, guardrails, observability, supervision, contestation, risk control, or compliance frameworks appears in the provided text.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is clear from title, abstract, and methods; paper is an applied biomedical NLP benchmarking study, not a governance or conversational-system study."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Appraisal based on limited excerpted text. Study appears methodologically coherent for its stated NLP extraction objective, but sampling size, full evaluation protocol, and ethics are not visible in the provided excerpts. Transferability to conversational governance in regulated environments is very low."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Confidence in excluding this study from the review corpus is high because relevance to conversational governance is minimal. Within its own domain, coherence between objective and method appears strong in the available text, but adequacy of sampling and broader methodological detail remain unclear from excerpts alone."
+  },
+  "coding": {
+    "open_codes": [
+      "microbe-disease relationship extraction",
+      "pre-trained language model fine-tuning",
+      "zero-shot and few-shot evaluation",
+      "biomedical transfer learning",
+      "generative model output variability"
+    ],
+    "axial_codes": [
+      "LLM application in biomedical NLP",
+      "domain-specific model adaptation",
+      "information extraction performance benchmarking"
+    ],
+    "theme": "Biomedical NLP with fine-tuned language models",
+    "subtheme": "Microbiome-disease relationship extraction from literature",
+    "concepts": [
+      "fine-tuning",
+      "transfer learning",
+      "large language models",
+      "generative AI",
+      "F1 score",
+      "biomedical literature mining"
+    ],
+    "model_layers": [
+      "model selection",
+      "fine-tuning",
+      "inference/evaluation"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Pre-trained language models perform poorly in zero-shot or few-shot settings for microbe-disease relationship extraction but achieve state-of-the-art results after domain-specific fine-tuning, with GPT-3, BioMedLM, and BioLinkBERT reaching average F1, precision, and recall above 0.8.",
+    "contribution": "Empirical comparison of multiple biomedical and general pre-trained language models for extracting microbe-disease interactions from scientific publications, demonstrating the value of task-specific fine-tuning over out-of-the-box use.",
+    "limitations": "Zero-shot and few-shot setups underperform; generative models can produce varying outputs for the same prompt, posing challenges for consistency.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance in regulated LLM systems. At most foundational/contextual background on biomedical LLM fine-tuning, with no governance, conversational, or compliance implications."
+  },
+  "evidence": [
+    {
+      "claim": "Study objective is biomedical information extraction, not conversational governance",
+      "excerpt": "This study aims to leverage state-of-the-art deep-learning language models to extract microbe-disease relationships from biomedical literature.",
+      "page": "1",
+      "section": "Abstract/Background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Paper evaluates multiple specific LLMs including GPT-3",
+      "excerpt": "we fine-tune multiple language models (specifically, GPT-3, BioGPT, BioMedLM, BERT, BioMegatron, PubMedBERT, BioClinicalBERT, and BioLinkBERT)",
+      "page": "1",
+      "section": "Abstract/Results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational AI or governance focus; topic is microbiome NLP mining",
+      "excerpt": "there has been a growing interest in leveraging these techniques to tackle problems in the microbiome field as well",
+      "page": "2",
+      "section": "Introduction/Methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Generative models show output variability, a technical limitation not framed as governance",
+      "excerpt": "these models sometimes produced varying outputs for the same prompt, owing to their generative nature, which can pose challenges",
+      "page": "4",
+      "section": "Methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Reported performance metric is extraction accuracy, not governance outcomes",
+      "excerpt": "achieving an average F1 score, precision, and recall of over > 0.8 compared to the previous best of 0.74",
+      "page": "1",
+      "section": "Abstract/Results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Biomedical health domain context without regulated deployment or oversight discussion",
+      "excerpt": "BioMedLM 2.7B is a large language model trained on a dataset of biomedical literature",
+      "page": "6",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Zero-shot/few-shot failure motivates fine-tuning as core methodological finding",
+      "excerpt": "these models fall short in the zero-shot or few-shot setup, highlighting the need for domain-specific fine-tuning and task-specific training data",
+      "page": "4",
+      "section": "Methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Peer-reviewed journal publication in BMC Bioinformatics",
+      "excerpt": "Karkera et al. BMC Bioinformatics (2023) 24:290 https://doi.org/10.1186/s12859-023-05411-z",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

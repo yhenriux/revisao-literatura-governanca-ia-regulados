@@ -1,0 +1,163 @@
+{
+  "bibliographic": {
+    "title": "Towards an Enabling Environment for Social Accountability in Bangladesh",
+    "authors": "Hossain Ahmed Taufiq",
+    "year": "2008",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "unknown",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Taufiq, H. A. (2008). Towards an enabling environment for social accountability in Bangladesh. [Venue unclear]."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual policy analysis with literature synthesis",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "public sector; civil society governance; Bangladesh",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "social and political accountability mechanisms in public administration; no LLM, generative AI, or conversational AI systems discussed"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_TOPIC_MISMATCH",
+      "E_NO_LLM",
+      "E_NO_CONVERSATIONAL_AI"
+    ],
+    "exclusion_reason": "The paper addresses social accountability and public governance in Bangladesh and does not discuss LLMs, generative AI, conversational systems, chatbots, agents, RAG, or technical AI governance.",
+    "decision_rationale": "Provided text is a conceptual policy paper on social accountability, civil society, legal protection, and public-sector responsiveness in Bangladesh. Python keyword hits for accountability, governance, dialogue, audit, and public sector reflect political/social accountability discourse, not conversational AI or LLM governance. No technology-specific governance mechanisms relevant to the review scope appear in the excerpts.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal based on limited excerpts; article excluded from review scope due to topic mismatch. Conceptual clarity on social accountability is present, but empirical methods, sampling, and limitations are not evidenced in provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "Very low relevance to the review on conversational governance in LLM-based regulated systems; provided material supports a conceptual public-governance argument only, with no AI or conversational-system evidence."
+  },
+  "coding": {
+    "open_codes": [
+      "social accountability",
+      "good governance",
+      "civil society",
+      "legal protection",
+      "citizen voice",
+      "horizontal accountability",
+      "vertical accountability",
+      "whistle-blowers",
+      "public service capacity",
+      "mutual trust"
+    ],
+    "axial_codes": [
+      "public governance accountability",
+      "citizen participation mechanisms",
+      "institutional enabling environment"
+    ],
+    "theme": "Social accountability in public governance",
+    "subtheme": "Enabling legal and institutional environment for civil society in Bangladesh",
+    "concepts": [
+      "answerability",
+      "checks and balances",
+      "enabling environment",
+      "self-regulating social accountability institutions",
+      "Community Score Cards"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.92
+  },
+  "synthesis": {
+    "main_claim": "Social accountability can promote good governance by making ruling elites more responsive, and Bangladesh requires stronger legal protection, information access, citizen voice, and independent institutions to enable civil society accountability.",
+    "contribution": "Conceptual advocacy for an enabling environment supporting social accountability institutions, whistle-blower protection, and citizen-public official dialogue within Bangladesh's weak horizontal and vertical accountability context.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from synthesis; only tangential terminological overlap on accountability and governance, with no LLM or conversational AI governance content."
+  },
+  "evidence": [
+    {
+      "claim": "Article topic is social accountability in Bangladesh public governance, not AI or conversational systems",
+      "excerpt": "Social accountability refers to promoting good governance by making ruling elites more responsive.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study focuses on public-sector accountability mechanisms rather than technical AI governance",
+      "excerpt": "traditional horizontal or vertical accountability proved to be very blunt and weak.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Paper advocates legal and institutional reforms for civil society accountability",
+      "excerpt": "This paper advocate for a stronger legal environment to protect critical civil society and whistle-blowers",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Accountability is framed as public power holders' obligation to explain and justify actions",
+      "excerpt": "accountability is often defined as the obligation of public power holders to account for or take responsibility for their actions",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Horizontal accountability includes audits and legislative oversight in state institutions",
+      "excerpt": "anti-corruption ombudsmanship, audits and accounts, legislative accounts committees, human rights watchdogs, and the rule of law",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Dialogue refers to citizen-public servant interaction in governance, not conversational AI",
+      "excerpt": "if dialogue opportunity with honest and sincere public servants are being facilitated",
+      "page": "17",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Monitoring appears in community accountability tools, not AI observability",
+      "excerpt": "CSC empowered local citizens to conduct participatory appraisal, forecasting, monitoring",
+      "page": "13",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Trust is discussed between citizens and public officials via feedback mechanisms",
+      "excerpt": "It engages in citizens problem- solving and helps to create mutual trust between them and public officials.",
+      "page": "15",
+      "section": "conclusion",
+      "supports": "coding"
+    },
+    {
+      "claim": "No LLM or generative AI content is present in provided evidence",
+      "excerpt": "Key Words: Accountability, Legal Protection, Efficiency, Civil Society, Responsiveness",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "bibliographic": {
+    "title": "From Agents to Governance: Essential AI Skills for Clinicians in the Large Language Model Era",
+    "authors": "Weiping Cao; Qing Zhang; Jialin Liu; Siru Liu",
+    "year": "2026",
+    "venue": "Journal of Medical Internet Research",
+    "doi": "10.2196/86550",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Cao, W., Zhang, Q., Liu, J., & Liu, S. (2026). From agents to governance: Essential AI skills for clinicians in the large language model era. Journal of Medical Internet Research, 28, e86550. https://doi.org/10.2196/86550"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "viewpoint with narrative synthesis and framework proposal",
+    "study_design": "conceptual viewpoint proposing a 3-tier competency framework",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "health care / clinical practice",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models (e.g., GPT-4, Gemini), agentic workflows, clinical decision support, human-AI agent interaction"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "governance_accountability",
+      "regulated_high_stakes",
+      "human_oversight_contestation",
+      "conceptual_framework"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Viewpoint article proposing a governance-aligned, 3-tier clinician competency framework for LLM and agentic AI use in health care, explicitly covering accountability, human-AI agent interaction, ethical governance, regulatory strategy, and model life cycle management; relevant as foundational governance framing rather than empirical implementation evidence.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial PDF text provided (pages 1-2); full framework details, limitations section, and validation proposals require verification."
+  },
+  "appraisal": {
+    "objective_clarity": 8,
+    "method_fit": 6,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 5,
+    "ethics_reflexivity": 7,
+    "results_clarity": 7,
+    "limitations_transparency": 6,
+    "evidence_support": 5,
+    "transferability": 7,
+    "notes": "Conceptual viewpoint without empirical sample or validation study; framework derived from narrative synthesis of prior digital health competencies and LLM technical capabilities. Appropriate for normative framework contribution but limited for causal or implementation evidence."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The 3-tier framework is clearly structured and highly relevant to clinician governance of LLMs in regulated health care, but the provided text offers no empirical validation, operational metrics, or detailed methods beyond narrative synthesis."
+  },
+  "coding": {
+    "open_codes": [
+      "clinician competencies",
+      "prompt engineering",
+      "human-AI agent interaction",
+      "security and privacy awareness",
+      "transparency and consent",
+      "bias detection and mitigation",
+      "explainability interpretation",
+      "ethical governance",
+      "accountability and liability boundaries",
+      "regulatory strategy",
+      "model life cycle management",
+      "agentic workflows",
+      "continuing medical education"
+    ],
+    "axial_codes": [
+      "AI governance",
+      "human oversight",
+      "clinical education and workforce readiness",
+      "regulated health care deployment"
+    ],
+    "theme": "Tiered clinician competency framework for safe and responsible LLM/agent use in clinical practice",
+    "subtheme": "Evolution from cautious users to responsible stewards and governance leaders",
+    "concepts": [
+      "3-tier competency framework",
+      "human-in-the-loop supervision",
+      "agentic perceive-plan-act workflows",
+      "algorithmic adaptation governance",
+      "deployment standardization"
+    ],
+    "model_layers": [
+      "Tier 1: foundational safe use",
+      "Tier 2: intermediate evaluative expertise",
+      "Tier 3: advanced governance and leadership"
+    ],
+    "rq_alignment": [
+      "governance and accountability",
+      "human oversight and handoff to clinicians",
+      "risk mitigation in regulated health care",
+      "education and operational readiness",
+      "explainability and bias"
+    ],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "Clinicians require a structured 3-tier competency framework to balance LLM opportunities with accountability as LLMs move from pilots to routine clinical practice.",
+    "contribution": "Defines tiered competencies spanning safe LLM use (prompt engineering, human-AI agent interaction, privacy, transparency/consent), evaluative skills (bias, explainability, clinical integration), and advanced governance leadership (accountability/liability boundaries, regulatory strategy, model life cycle and change-protocol governance).",
+    "limitations": "Authors state they describe the framework's limitations and propose priority directions for validation; no validated empirical evidence is presented in the provided text.",
+    "use_in_review": "Use as foundational contextual evidence for clinician-facing governance competency models in regulated health care LLM/agent deployments; not primary empirical evidence on conversational system governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a viewpoint proposing a 3-tier clinician competency framework for the LLM era.",
+      "excerpt": "We propose a 3-tier competency framework to support clinicians' evolution from cautious users to responsible stewards of artificial intelligence (AI).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study addresses specific LLMs in clinical decision support.",
+      "excerpt": "Large language models (LLMs), exemplified by recent advances, such as GPT-4 and Gemini, demonstrate a transformative capacity to process multimodal data and generate context-aware responses",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance and accountability are explicit Tier 3 competencies.",
+      "excerpt": "Tier 3 (advanced skills) establishes leadership capabilities, mandating competencies in ethical governance (delineating accountability and liability boundaries), regulatory strategy, and model life cycle management",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human-AI agent interaction and oversight are foundational competencies.",
+      "excerpt": "Tier 1 (foundational skills) defines the minimum competencies for safe use, including prompt engineering, human–AI agent interaction, security and privacy awareness, and the clinician-patient interface (transparency and consent).",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated health care and regulatory context are central.",
+      "excerpt": "This complexity is compounded by the intersection of regulatory requirements and ethical obligations. Evolving legal frameworks, such as the European Union (EU) AI Act and the US Food and Drug Administration",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Framework addresses shift to agentic workflows requiring clinician supervision.",
+      "excerpt": "LLM-enabled care necessitates a transition in the roles of clinicians (physicians, nurses, pharmacists, and allied health professionals)—from interpreting predictive outputs to supervising agentic workflows.",
+      "page": "2",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "Method is narrative synthesis rather than empirical study.",
+      "excerpt": "Drawing on previous research, a narrative synthesis of evolving digital health competencies, and an analysis of the technical capabilities of LLMs [13-17], we propose a 3-tier, governance-aligned framework",
+      "page": "2",
+      "section": "limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors acknowledge limitations and call for validation.",
+      "excerpt": "We describe the core competencies at each tier, outline the framework's limitations, and propose priority directions for validation to sustain its relevance amid an evolving regulatory landscape.",
+      "page": "2",
+      "section": "limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Intermediate tier includes bias, explainability, and clinical integration.",
+      "excerpt": "Tier 2 (intermediate skills) emphasizes evaluative expertise, including bias detection and mitigation, interpretation of explainability outputs, and the effective clinical integration of AI-generated workflows.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Deployment and education integration are proposed uses.",
+      "excerpt": "Integrating this framework into continuing medical education programs and role-specific job descriptions could enhance clinicians'ability to use AI safely and responsibly.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

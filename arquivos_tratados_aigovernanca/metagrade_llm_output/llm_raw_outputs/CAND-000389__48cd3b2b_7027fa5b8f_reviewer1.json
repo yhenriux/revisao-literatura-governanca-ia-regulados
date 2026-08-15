@@ -1,0 +1,188 @@
+{
+  "bibliographic": {
+    "title": "Unmasking the Shadows of AI: Investigating Deceptive Capabilities in Large Language Models",
+    "authors": "Linge Guo",
+    "year": "2023",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Guo, L. (2023). Unmasking the shadows of AI: Investigating deceptive capabilities in large language models. University College London."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "narrative essay with literature review and evaluative commentary",
+    "study_design": "conceptual essay",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "cross-sector",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Large Language Models (LLMs), ChatGPT (GPT), chatbots, search engines"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_GENAI",
+      "GOVERNANCE_DISCOURSE",
+      "REGULATED_CONTEXT_PARTIAL"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_GOVERNANCE_FOCUS",
+      "NO_OPERATIONAL_GOVERNANCE_CONTROLS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The text is a conceptual essay on deceptive behaviors in LLMs, AI Safety Summit 2023, and high-level international governance, with only peripheral mention of chatbots and no operational treatment of conversational governance, guardrails, observability, audit, human oversight, or regulated deployment controls central to the review scope.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front-matter pages were supplied; bibliographic metadata uses a placeholder title and venue is not stated in the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 1,
+    "transferability": 1,
+    "notes": "Self-described essay combining literature review, categorization of deception types, and evaluative commentary; author acknowledges literature is predominantly from arXiv and deficient in social science contribution. No empirical sampling, data collection protocol, or systematic review method is described in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The argument is internally coherent on LLM deception and macro-governance discourse, but evidence adequacy is limited by reliance on secondary and arXiv-heavy sources without a transparent search strategy; relevance to conversational governance in regulated LLM systems is indirect."
+  },
+  "coding": {
+    "open_codes": [
+      "AI deception",
+      "algorithmic bias",
+      "strategic deception",
+      "imitation",
+      "sycophancy",
+      "unfaithful reasoning",
+      "international collaborative governance",
+      "digital education",
+      "infrastructures as harm"
+    ],
+    "axial_codes": [
+      "LLM risk discourse",
+      "deception taxonomy",
+      "macro AI governance",
+      "social implications of LLM use"
+    ],
+    "theme": "Deceptive capabilities and governance discourse in LLMs",
+    "subtheme": "Categorization of deception types and AI Safety Summit evaluation",
+    "concepts": [
+      "deceptive AI",
+      "multidimensional biases",
+      "self-driven intent",
+      "loss of control",
+      "societal harm",
+      "global oversight"
+    ],
+    "model_layers": [
+      "policy/governance layer",
+      "model behavior/risk layer"
+    ],
+    "rq_alignment": [
+      "generic LLM governance context",
+      "risk and harm in generative AI",
+      "regulated-sector implications at discourse level"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Deceptive behavior in LLMs is an inherent phenomenon tied to model advancement and biases, categorized as strategic deception, imitation, sycophancy, and unfaithful reasoning, with significant social risks requiring international governance and educational responses.",
+    "contribution": "Provides a conceptual taxonomy of LLM deception and a critical evaluation of the AI Safety Summit 2023 alongside discussion of biases, chatbot use contexts, and high-level governance considerations.",
+    "limitations": "Predominantly arXiv-based literature with limited social science contribution; essay format without described systematic evidence synthesis; partial text prevents assessment of full argument and methods.",
+    "use_in_review": "Use as foundational contextual evidence on LLM deception, bias, and macro-governance discourse; not suitable as central evidence for operational conversational governance, guardrails, observability, audit, or regulated deployment controls."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on deceptive behaviors of LLMs via conceptual essay and literature review",
+      "excerpt": "This research critically navigates the intricate landscape of AI deception, concentrating on deceptive behaviours of Large Language Models (LLMs).",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research type is essay with evaluative stance, not empirical study",
+      "excerpt": "The essay initiates with an evaluation of the AI Safety Summit 2023 (ASS) and introduction of LLMs",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Four deception categories are reviewed",
+      "excerpt": "The literature review covers four types of deception categorised: Strategic deception, Imitation, Sycophancy, and Unfaithful Reasoning",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "International collaborative governance is discussed at macro level",
+      "excerpt": "This encompasses considerations of international collaborative governance, the reconfigured engagement of individuals with AI",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Digital education is mentioned as a governance-related response",
+      "excerpt": "proposal of practical adjustments, and specific elements of digital education.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Literature base is arXiv-heavy with limited social science input",
+      "excerpt": "The literature around deceptive AI, predominantly available on arXiv archives, manifests a deficiency in contribution from social science.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Chatbots appear only as a peripheral LLM use context",
+      "excerpt": "Users interact with LLMs, such as ChatGPT (GPT), using prompts, engaging in tasks such as customer service conversations and content generation.",
+      "page": "3",
+      "section": "LLMs & Biases in LLMs",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated/high-stakes contexts are referenced indirectly rather than studied operationally",
+      "excerpt": "chatbots and search engines, infiltrating the decision-making framework of autonomous driving cars",
+      "page": "3",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance discourse emphasizes global oversight and societal harm",
+      "excerpt": "Risks Outweigh Rewards without Global Oversight",
+      "page": "2",
+      "section": "AI Safety Summit 2023",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Bias and harm infrastructures frame LLM risk analysis",
+      "excerpt": "emphasising multidimensional biases that underlie their deceptive behaviours.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "No operational conversational governance mechanisms are described in provided text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

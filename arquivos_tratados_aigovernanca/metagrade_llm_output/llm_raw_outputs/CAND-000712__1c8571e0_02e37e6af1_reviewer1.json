@@ -1,0 +1,179 @@
+{
+  "bibliographic": {
+    "title": "Rethinking LLMOps for Fraud and AML: Building a Compliance-Grade LLM Serving Stack",
+    "authors": "Prathamesh Vasudeo Naik; Naresh Dintakurthi; Yue Wang",
+    "year": "2026",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Naik, P. V., Dintakurthi, N., & Wang, Y. (2026). Rethinking LLMOps for fraud and AML: Building a compliance-grade LLM serving stack. arXiv preprint arXiv:2605.11232."
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "systems engineering with controlled serving benchmarks and synthetic workload evaluation",
+    "study_design": "technical architecture proposal with reproducibility track and controlled serving benchmarks on public synthetic AML datasets",
+    "sample_description": "Public synthetic AML datasets (IBM AML, SAML-D) converted into prefix-heavy compliance prompts; controlled serving benchmarks; no proprietary customer records or institution-specific data",
+    "sample_size": "unclear",
+    "sector": "financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Self-hosted open-weight models (Meta Llama, Alibaba Qwen); vLLM-style runtime; PagedAttention; Automatic Prefix Caching; multi-adapter serving; LLM-as-judge evaluation framework with deterministic compliance checks"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_REGULATED_DOMAIN",
+      "COMPLIANCE_AML",
+      "TECHNICAL_GOVERNANCE",
+      "OPERATIONAL_CONTROL"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper directly addresses LLM deployment in regulated financial AML/fraud contexts and explicitly discusses auditability, operational control, governance, and output-quality validation within a compliance-grade serving stack. Its primary contribution is workload-aware LLMOps and serving optimization rather than conversational governance, human oversight, contestation, or chatbot/agent interaction design; it is therefore better classified as supporting evidence for operational-technical governance in regulated LLM systems than as central conversational-governance evidence.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front-matter text was provided; full-text verification is needed to confirm whether later sections add conversational oversight, handoff, logging, or governance mechanisms beyond serving infrastructure."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Objectives and methods are clearly aligned for serving-stack performance claims. Authors transparently scope findings to public synthetic data and serving benchmarks, limiting transferability to proprietary institutional AML workflows and to conversational-governance claims not evidenced in the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The study is internally coherent and reports concrete benchmark metrics, but evidence is based on synthetic public datasets and serving benchmarks rather than live regulated conversational systems; relevance to conversational governance is partial and mainly indirect through compliance deployment concerns."
+  },
+  "coding": {
+    "open_codes": [
+      "LLMOps",
+      "prefix-heavy compliance prompts",
+      "AML workload characterization",
+      "multi-adapter serving",
+      "LLM-as-judge evaluation",
+      "auditability",
+      "output validity",
+      "synthetic reproducibility track"
+    ],
+    "axial_codes": [
+      "regulated LLM deployment",
+      "operational technical governance",
+      "compliance-oriented serving optimization",
+      "pre-production quality gating"
+    ],
+    "theme": "Compliance-grade LLM serving infrastructure in regulated financial workloads",
+    "subtheme": "Workload-aware LLMOps for fraud and AML",
+    "concepts": [
+      "prefix reuse",
+      "KV-cache efficiency",
+      "schema-constrained outputs",
+      "governance integration",
+      "deterministic compliance checks",
+      "expert-adjudicated calibration"
+    ],
+    "model_layers": [
+      "serving/runtime layer",
+      "evaluation/quality-gate layer",
+      "policy-and-schema prompt layer"
+    ],
+    "rq_alignment": [
+      "regulated high-stakes LLM deployment",
+      "operational technical governance",
+      "risk and compliance validation"
+    ],
+    "coding_confidence": 0.74
+  },
+  "synthesis": {
+    "main_claim": "Fraud and AML compliance LLM workloads are prefix-dominated and require a workload-aware, self-hosted LLMOps serving stack with caching, multi-adapter orchestration, and LLM-as-judge quality gates to meet regulated deployment needs for latency, auditability, and output validity.",
+    "contribution": "Maps concrete serving optimizations to AML/fraud workloads and reports large throughput and latency gains on public synthetic benchmarks while proposing a reproducibility track and pre-production evaluation framework for compliance-grade rollout decisions.",
+    "limitations": "Evidence is limited to public synthetic AML datasets and controlled serving benchmarks; authors state results should not be interpreted as disclosure of proprietary financial-institution systems; conversational governance mechanisms are not the paper's main focus in the provided text.",
+    "use_in_review": "Use as supporting evidence on operational-technical governance, compliance validation, and regulated deployment constraints for LLMs in financial AML/fraud contexts; do not treat as primary evidence on conversational governance, human contestation, or chatbot interaction design."
+  },
+  "evidence": [
+    {
+      "claim": "Paper targets regulated financial AML/fraud use of LLMs.",
+      "excerpt": "deploying LLMs in regulated finan- cial systems is not simply a matter of choosing the strongest model",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Compliance workloads differ from open-ended conversational chat.",
+      "excerpt": "This pattern differs from open-ended chat, where each conversation may have diverse history and long outputs.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance is integrated into the controlled deployment stack.",
+      "excerpt": "the ability to integrate model selection, serving optimization, governance, and quality validation within a controlled deployment stack",
+      "page": "2",
+      "section": "Related Work",
+      "supports": "coding"
+    },
+    {
+      "claim": "Auditability and operational control are stated deployment requirements.",
+      "excerpt": "output validity, auditability, and operational control are equally important",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLM-as-judge framework includes deterministic compliance checks and expert calibration.",
+      "excerpt": "LLM-as-a-judge evaluation framework that uses deterministic compliance checks, reference metrics, expert-adjudicated calibration data where available",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Reported serving benchmark improvements on synthetic AML workloads.",
+      "excerpt": "workload-aware tuning improved throughput from 612–650 to 3,600 requests/hour, reduced P99 latency from 31–38 seconds to 6.4–8.7 seconds",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors limit generalizability to synthetic serving evidence.",
+      "excerpt": "These results should be interpreted as serving-stack and workload-shape evidence on public synthetic data",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Chatbot reference appears only in related-work evaluation literature, not as the study system.",
+      "excerpt": "MT-Bench, Chatbot Arena, and G-Eval show that strong judges can align with human preferences",
+      "page": "2",
+      "section": "Related Work",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Reproducibility track uses public synthetic AML datasets only.",
+      "excerpt": "converts public synthetic AML datasets, including IBM AML and SAML-D, into prefix-heavy compliance prompts",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Pre-production rollout eligibility is determined by multi-judge scoring and compliance checks.",
+      "excerpt": "multi-judge scoring determine whether a serving configuration is eligible for rollout",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    }
+  ]
+}

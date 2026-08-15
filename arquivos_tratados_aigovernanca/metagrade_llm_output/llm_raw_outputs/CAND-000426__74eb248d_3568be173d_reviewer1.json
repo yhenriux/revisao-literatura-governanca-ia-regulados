@@ -1,0 +1,167 @@
+{
+  "bibliographic": {
+    "title": "The Role of Generative AI in Enhancing Customer Experience and Risk Management in Credit Card Services",
+    "authors": "Abhishek Dodda",
+    "year": "2022",
+    "venue": "International Journal of Scientific Research and Modern Technology",
+    "doi": "10.38124/ijsrmt.v1i12.491",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Dodda, A. (2022). The Role of Generative AI in Enhancing Customer Experience and Risk Management in Credit Card Services. International Journal of Scientific Research and Modern Technology, 1(12), 138–154. https://doi.org/10.38124/ijsrmt.v1i12.491"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "design and socio-technical information processing perspectives",
+    "study_design": "conceptual analytical study",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "credit card services / fintech / financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Generative AI, chatbots, GPT-3, generative models, GAN, ViT, AI agents and assistants, machine learning, deep learning"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text review",
+    "inclusion_codes": [
+      "regulated_financial_domain",
+      "generative_ai",
+      "conversational_interfaces",
+      "risk_management"
+    ],
+    "exclusion_codes": [
+      "insufficient_conversational_governance_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The provided text shows generative AI and chatbots applied to customer experience and risk management in credit card services within a regulated financial context, but does not substantively address conversational governance, accountability mechanisms, guardrails, observability, human oversight, or related operational governance constructs central to the review scope.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front-matter text is available; governance-related terms from automated screening are not evidenced in the supplied excerpts, and empirical methodology details are absent."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 3,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Available text presents a conceptual exploration with stated perspectives but no described empirical sampling, data collection, or analysis procedures. Claims are oriented to CXM and risk applications rather than governance appraisal."
+  },
+  "cerqual": {
+    "methodological_limitations": 4,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "low",
+    "explanation": "Coherent conceptual framing for generative AI in credit card CX and risk, but limited methodological transparency and weak direct relevance to conversational governance in regulated LLM systems based on supplied text."
+  },
+  "coding": {
+    "open_codes": [
+      "generative AI",
+      "customer experience management",
+      "credit card services",
+      "risk management",
+      "chatbots",
+      "customer lifecycle",
+      "strategic decision-making",
+      "operational efficiency"
+    ],
+    "axial_codes": [
+      "fintech customer service transformation",
+      "financial risk mitigation",
+      "technology-enabled CX optimization"
+    ],
+    "theme": "Generative AI applications in regulated financial customer services",
+    "subtheme": "Chatbots and risk management in credit card CX",
+    "concepts": [
+      "Customer Experience Management",
+      "Generative AI",
+      "risk management",
+      "customer knowledge",
+      "customer engagement",
+      "customer loyalty",
+      "relationship management",
+      "CX data management"
+    ],
+    "model_layers": [
+      "strategic",
+      "operational"
+    ],
+    "rq_alignment": [
+      "regulated_high_stakes_domain",
+      "conversational_ai_interfaces",
+      "risk_management"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "Generative AI can improve the customer lifecycle in credit card services, enhancing customer experience management while supporting risk management and business performance.",
+    "contribution": "Identifies four CXM action areas for generative AI and combines generative AI with CXM research to offer interdisciplinary insights for practitioner decision-making at strategic and operational levels.",
+    "limitations": "Future limitations and research directions are noted, but detailed limitations are not specified in the provided excerpts.",
+    "use_in_review": "Use as supporting evidence on generative AI and chatbots in regulated credit card/fintech contexts linking customer experience and risk management; not suitable as central evidence for conversational governance frameworks."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on generative AI for customer experience and risk management in credit card services.",
+      "excerpt": "Using Generative AI (G-AI) in Customer Experience Management (CXM) can help to improve the complete customer life-cycle, thus enhancing the business performance and further supporting service providers in their risk management.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Chatbots are treated as a key generative AI enabler.",
+      "excerpt": "Generative AI, chatbots, in particular, have quickly become significant technological enablers, triggering disruptions to a variety of sectors.",
+      "page": "2",
+      "section": "findings",
+      "supports": "coding"
+    },
+    {
+      "claim": "Study is set in regulated financial/credit card services.",
+      "excerpt": "This study explores how generative artificial intelligence technologies impact customer experience and risk management within credit card services.",
+      "page": "2",
+      "section": "limitations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Method is conceptual and perspective-based rather than empirically described.",
+      "excerpt": "It builds on design and socio-technical information processing perspectives to leverage insights around risk management to build a bridge toward customer experience.",
+      "page": "2",
+      "section": "background",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Four CXM action areas are identified as contributions.",
+      "excerpt": "Four specific areas of action related to G-AI improvements in CXM have been identified: enhancing customer knowledge, creating customer engagement and loyalty, supporting customer relationship management, and improving CX data management.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "GPT-3 is referenced as an example generative model.",
+      "excerpt": "GPT-3 isn't all that different from a piece of music generation software or a neural net generating images – They are all generative models following rules set by humans but applying them to create something new.",
+      "page": "2",
+      "section": "discussion",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Authors acknowledge future limitations without detailing them in the excerpt.",
+      "excerpt": "Finally, we close this work by discussing the future limitations and directions of this study.",
+      "page": "2",
+      "section": "limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "AI agents and assistants are mentioned as part of the analytical scope.",
+      "excerpt": "It first contextualizes the credit card industry and then provides further concepts for AI agents and assistants.",
+      "page": "2",
+      "section": "discussion",
+      "supports": "coding"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "Review Applications and Concerns of ChatGPT and Other Conversational Large Language Models in Health Care: Systematic Review",
+    "authors": "Leyao Wang; Zhiyu Wan; Congning Ni; Qingyuan Song; Yang Li; Ellen Clayton; Bradley Malin; Zhijun Yin",
+    "year": "2024",
+    "venue": "Journal of Medical Internet Research",
+    "doi": "10.2196/22769",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Wang, L., Wan, Z., Ni, C., Song, Q., Li, Y., Clayton, E., Malin, B., & Yin, Z. (2024). Review applications and concerns of ChatGPT and other conversational large language models in health care: Systematic review. Journal of Medical Internet Research, 26, e22769. https://doi.org/10.2196/22769"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic review",
+    "study_design": "PRISMA-guided systematic review of peer-reviewed research articles",
+    "sample_description": "Peer-reviewed research articles related to health care applications and conversational LLMs, published before September 1, 2023, identified from PubMed, ACM, and IEEE digital libraries",
+    "sample_size": "65 included papers from 820 initially identified",
+    "sector": "health care",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Conversational LLMs including ChatGPT, Bard, LLaMA and other LLMs applied to health care scenarios such as summarization, medical knowledge inquiry, prediction, and administration"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_review",
+    "inclusion_codes": [
+      "conversational_llm",
+      "health_care_regulated_domain",
+      "systematic_review",
+      "concerns_reliability_bias_privacy"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a PRISMA-based systematic review of conversational LLMs in health care that synthesizes applications and concern categories including reliability, interpretability, bias, and privacy. It is highly relevant to regulated conversational AI risks, but the provided text frames applications and concerns rather than operational conversational governance mechanisms such as guardrails, audit, tracing, or human oversight.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter is available; full text is needed to verify depth of coverage on governance, oversight, compliance, monitoring, and related operational controls."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Clear PRISMA objective and inclusion criteria are reported, with transparent counts and concern taxonomy. Appraisal is limited by incomplete text: search strategy detail, quality appraisal of included studies, limitations, and ethics discussion are not evidenced in the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The study reports a structured PRISMA review with explicit inclusion criteria and categorized findings, supporting moderate confidence in coherence and adequacy. Confidence is not high because the available excerpt does not show full search, appraisal, or limitation reporting needed for stronger methodological judgment."
+  },
+  "coding": {
+    "open_codes": [
+      "conversational LLMs",
+      "ChatGPT",
+      "health care applications",
+      "summarization",
+      "medical knowledge inquiry",
+      "reliability",
+      "bias",
+      "privacy",
+      "public acceptability",
+      "interpretability",
+      "PRISMA"
+    ],
+    "axial_codes": [
+      "LLM application taxonomy",
+      "risk and concern taxonomy",
+      "regulated health care AI"
+    ],
+    "theme": "Applications and concerns of conversational LLMs in health care",
+    "subtheme": "Reliability, bias, privacy, and acceptability as primary concern categories",
+    "concepts": [
+      "systematic review",
+      "conversational LLM",
+      "summarization",
+      "medical knowledge inquiry",
+      "diagnosis",
+      "training data quality",
+      "accuracy",
+      "consistency",
+      "legal efforts",
+      "technical efforts"
+    ],
+    "model_layers": [
+      "application layer",
+      "concern/risk layer"
+    ],
+    "rq_alignment": [
+      "conversational AI in regulated settings",
+      "LLM risk and safety concerns",
+      "bias and privacy in health care LLMs",
+      "reliability and interpretability"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Across 65 included studies, conversational LLMs—especially ChatGPT—are mainly used for summarization and medical knowledge inquiry, show promise in some tasks, but are not reliably suited to complex health-related tasks requiring specialized expertise; reliability and bias are the most frequently reported concerns.",
+    "contribution": "Provides a PRISMA-based synthesis and classification of health care applications and concerns for conversational LLMs, with counts by LLM type and application/concern category, plus a stated future research agenda.",
+    "limitations": "Provided text is truncated before full conclusions and limitations; no complete reporting on study quality appraisal, governance mechanisms, or post-deployment monitoring is available in the excerpt.",
+    "use_in_review": "Use as supporting secondary evidence to map common conversational LLM applications and concern categories in regulated health care, especially reliability, bias, privacy, and interpretability; not sufficient on its own for operational conversational governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a systematic review of conversational LLMs in health care following PRISMA.",
+      "excerpt": "We followed the guidance of PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) to screen and select peer-reviewed research articles",
+      "page": "1",
+      "section": "Abstract Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Included sample comprises 65 peer-reviewed papers on health care conversational LLMs.",
+      "excerpt": "out of which 65 (7.9%) papers met our criteria and were included in the review",
+      "page": "1",
+      "section": "Abstract Results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study focuses on specific conversational LLMs in health care.",
+      "excerpt": "The most popular conversational LLM was ChatGPT (60/65, 92% of papers), followed by Bard",
+      "page": "1",
+      "section": "Abstract Results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Concern categories include reliability, bias, privacy, and public acceptability.",
+      "excerpt": "four categories of concerns: (1) reliability (eg, training data quality, accuracy, interpretability, and consistency in responses), (2) bias, (3) privacy, and (4) public acceptability",
+      "page": "1",
+      "section": "Abstract Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Reliability and bias dominate reported concerns in included literature.",
+      "excerpt": "there are 58 (89%) papers expressing concerns about either reliability or bias, or both",
+      "page": "1",
+      "section": "Abstract Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Conversational LLMs are unreliable for complex clinical tasks requiring specialized expertise.",
+      "excerpt": "conversational LLMs such as ChatGPT are not always able to provide reliable answers to complex health-related tasks (eg, diagnosis)",
+      "page": "1",
+      "section": "Abstract Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors call for legal, social, and technical efforts to address LLM concerns in health care.",
+      "excerpt": "legal, social, and technical efforts are all needed to address concerns about LLMs to promote, improve, and regularize the application of LLMs in health care",
+      "page": "2",
+      "section": "Conclusion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Published as a peer-reviewed journal article in JMIR with DOI.",
+      "excerpt": "(J Med Internet Res 2024;26:e22769) doi: 10.2196/22769",
+      "page": "2",
+      "section": "Conclusion",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Conversational LLMs differ from traditional chatbots by generating human-like coherent text.",
+      "excerpt": "In comparison with traditional chatbots, the current array of conversational LLMs can generate seemingly human-like coherent texts",
+      "page": "2",
+      "section": "Introduction Background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Objective is to summarize applications and concerns and provide a future research agenda.",
+      "excerpt": "This review aims to summarize applications of and concerns regarding conversational LLMs in health care and provide an agenda for future research in this field",
+      "page": "1",
+      "section": "Abstract Objective",
+      "supports": "appraisal"
+    }
+  ]
+}

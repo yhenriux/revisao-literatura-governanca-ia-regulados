@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "Monitoring Limits in DAO Governance: Capacity Breakpoints and Endogenous Concentration",
+    "authors": "Guy Tchuente",
+    "year": "2026",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Tchuente, G. (2026). Monitoring limits in DAO governance: Capacity breakpoints and endogenous concentration. arXiv preprint arXiv:2603.11222."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "panel econometrics with fixed-effects kink model",
+    "study_design": "DAO-quarter panel observational study with kink specifications and data-driven cutoffs",
+    "sample_description": "DAO-quarter panel across decentralized autonomous organizations",
+    "sample_size": "unclear",
+    "sector": "blockchain and decentralized autonomous organizations",
+    "regulated_domain": "no",
+    "llm_specificity": "not_applicable",
+    "technology_context": "on-chain DAO governance, token-mediated voting, delegation mechanisms, proposal flow monitoring"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_no_llm",
+      "E2_no_conversational_ai",
+      "E3_wrong_technology_domain"
+    ],
+    "exclusion_reason": "The study addresses monitoring capacity and voting concentration in blockchain DAO governance using econometric panel analysis; it does not examine LLMs, generative AI, conversational systems, chatbots, agents, or regulated high-stakes application contexts targeted by the review.",
+    "decision_rationale": "Although the paper discusses governance and monitoring, its empirical focus is decentralized autonomous organizations and on-chain voting dynamics rather than conversational AI governance in regulated LLM-based systems. Python screening scores 0/3 on both llm_genai and conversational_ai dimensions, and the provided text contains no LLM or conversational technology references.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal reflects only the abstract and introduction excerpt provided. The study appears internally coherent for its DAO governance question but is outside the review's LLM conversational governance scope. Ethics, limitations, and full sample details are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "Within its own domain the abstract presents a coherent empirical argument, but relevance to conversational governance of LLM systems in regulated environments is negligible based on the provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "monitoring_capacity",
+      "governance_workload",
+      "voting_concentration",
+      "proposal_flow",
+      "decentralized_participation",
+      "too_big_to_monitor",
+      "delegation",
+      "kink_threshold"
+    ],
+    "axial_codes": [
+      "governance_monitoring_limits",
+      "endogenous_concentration",
+      "capacity_breakpoints"
+    ],
+    "theme": "monitoring limits in decentralized organizational governance",
+    "subtheme": "DAO proposal overload and voter concentration",
+    "concepts": [
+      "too big to monitor",
+      "capacity breakpoints",
+      "endogenous concentration",
+      "participation fatigue",
+      "delegation"
+    ],
+    "model_layers": [
+      "institutional_governance",
+      "monitoring_capacity"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.9
+  },
+  "synthesis": {
+    "main_claim": "When DAO proposal flow exceeds broad-based monitoring capacity, marginal voter responsiveness declines and effective governance control concentrates among a smaller set of highly active participants.",
+    "contribution": "Provides reduced-form econometric evidence for a too-big-to-monitor mechanism in DAO governance using fixed-effects kink models on a DAO-quarter panel.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central evidence; at most marginal foundational context for generic governance-monitoring capacity concepts, but not applicable to conversational LLM governance in regulated settings."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on DAO governance, not LLMs or conversational AI",
+      "excerpt": "Decentralized autonomous organizations (DAOs) are designed to disperse control",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM or conversational system technology mentioned",
+      "excerpt": "Keywords: DAOs; decentralized governance; monitoring; capacity constraints.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical panel econometric design",
+      "excerpt": "Using a DAO–quarter panel, I estimate a fixed-effects kink model with DAO and quarter fixed effects",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Statistically significant threshold effect on voter responsiveness",
+      "excerpt": "find a statistically significant decline in the marginal responsiveness of active voters once proposal activity crosses an interior threshold",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Governance concentration emerges under high workload",
+      "excerpt": "decentralization gains do not persist indefinitely once governance workload becomes sufficiently high",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Core mechanism is monitoring burden in decentralized governance",
+      "excerpt": "Because decentralized governance is monitor-intensive, rising proposal flow may eventually outpace the capacity of broad-based participation",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Too-big-to-monitor framework applied to DAOs",
+      "excerpt": "The results provide reduced-form evidence consistent with a \"too big to monitor\" mechanism in DAO governance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Technology context is on-chain DAO governance",
+      "excerpt": "the institutional diversity of on-chain governance, including variation in voting rules, delegation mechanisms, quorum requirements, and implementation architectures",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Participants must monitor proposals to vote informedly",
+      "excerpt": "participants must monitor governance activity: they must read proposals, assess tradeoffs, follow discussion, and cast informed votes",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Earlier work studied regulatory environments but this note extends to DAOs",
+      "excerpt": "The first papers in that series study more traditional regulatory and service-delivery environments. The present note extends the same logic to DAOs",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Preprint not peer-reviewed",
+      "excerpt": "arXiv:2603.11222v1 [econ.GN] 11 Mar 2026",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Author affiliation identifiable",
+      "excerpt": "Purdue University. Email: gtchuent@purdue.edu.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "bibliographic"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "bibliographic": {
+    "title": "Mental-LLM: Leveraging Large Language Models for Mental Health Prediction via Online Text Data",
+    "authors": "Xuhai Xu, Bingsheng Yao, Yuanzhe Dong, Saadia Gabriel, Hong Yu, James Hendler, Marzyeh Ghassemi, Anind K. Dey, Dakuo Wang",
+    "year": "2024",
+    "venue": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+    "doi": "10.1145/3643540",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Xu, X., Yao, B., Dong, Y., Gabriel, S., Yu, H., Hendler, J., Ghassemi, M., Dey, A. K., & Wang, D. (2024). Mental-LLM: Leveraging Large Language Models for Mental Health Prediction via Online Text Data. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 8(1), Article 32. https://doi.org/10.1145/3643540"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative experimental evaluation with zero-shot prompting, few-shot prompting, and instruction fine-tuning",
+    "study_design": "multi-LLM benchmark study on mental health prediction tasks using online text data",
+    "sample_description": "online text data for various mental health prediction tasks",
+    "sample_size": "unclear",
+    "sector": "mental health",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Alpaca, Alpaca-LoRA, FLAN-T5, GPT-3.5, and GPT-4 evaluated on mental health prediction and exploratory mental health reasoning tasks"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "TOPIC_MISMATCH",
+      "NO_CONVERSATIONAL_GOVERNANCE_FOCUS"
+    ],
+    "exclusion_reason": "The study centers on benchmarking LLM predictive performance for mental health tasks from online text; it does not examine conversational AI systems, governance mechanisms, accountability, oversight, auditability, or operational control of conversational LLM deployments.",
+    "decision_rationale": "Although the article uses specific LLMs in a regulated-adjacent health domain and briefly notes ethical risks, bias, and deployability limitations, the provided text frames the work as comprehensive model evaluation and performance comparison rather than conversational governance in regulated environments. Python triage over-weighted generic LLM, ethics, and health terms without confirming governance or conversational-system focus.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and a partial introduction were supplied; full-text confirmation is needed to rule out later sections on conversational deployment governance."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal is based only on abstract-level and introductory fragments. The objective and experimental framing are clear, but sampling, data collection, and full analytic procedures cannot be judged from the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The abstract presents a coherent empirical benchmark study, but available text is insufficient to assess full methodological adequacy. Relevance to conversational governance in regulated LLM systems is very low because governance, conversational interaction, and operational oversight are not addressed."
+  },
+  "coding": {
+    "open_codes": [
+      "mental health prediction",
+      "instruction fine-tuning",
+      "zero-shot prompting",
+      "few-shot prompting",
+      "LLM benchmarking",
+      "online text data",
+      "racial bias",
+      "gender bias",
+      "ethical risks",
+      "deployment limitations"
+    ],
+    "axial_codes": [
+      "LLM application in healthcare",
+      "model performance evaluation",
+      "ethical and deployability caveats"
+    ],
+    "theme": "LLM performance enhancement for mental health prediction",
+    "subtheme": "prompting versus instruction fine-tuning",
+    "concepts": [
+      "Mental-Alpaca",
+      "Mental-FLAN-T5",
+      "balanced accuracy",
+      "mental health reasoning",
+      "action guidelines"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Instruction fine-tuning can substantially improve smaller LLMs for mental health prediction tasks and may outperform much larger prompted models, but zero-shot and few-shot designs remain limited and real-world deployment faces important ethical and bias-related constraints.",
+    "contribution": "Provides a broad empirical comparison of multiple LLMs and fine-tuned variants on mental health prediction tasks and summarizes action guidelines for improving LLM capability in this domain.",
+    "limitations": "The authors emphasize important limitations before deployability in real-world mental health settings, including known racial and gender bias and important ethical risks.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance. May serve only as distant contextual background on ethics and deployment limits of health-related LLM applications if broader health-risk framing is needed."
+  },
+  "evidence": [
+    {
+      "claim": "The study evaluates specific LLMs on mental health prediction tasks using online text.",
+      "excerpt": "we present a comprehensive evaluation of multiple LLMs on various mental health prediction tasks via online text data, including Alpaca, Alpaca-LoRA, FLAN-T5, GPT-3.5, and GPT-4",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "The empirical design includes zero-shot, few-shot, and instruction fine-tuning experiments.",
+      "excerpt": "We conduct a broad range of experiments, covering zero-shot prompting, few-shot prompting, and instruction fine-tuning.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Instruction fine-tuning improves performance across mental health tasks.",
+      "excerpt": "our experiments show that instruction finetuning can significantly boost the performance of LLMs for all tasks simultaneously",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "The work is health-related but not focused on conversational governance.",
+      "excerpt": "understanding and enhancing the capabilities of LLMs in the field of mental health",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors acknowledge deployability limits and ethical risks in regulated mental health contexts.",
+      "excerpt": "we also emphasize the important limitations before achieving deployability in real-world mental health settings, such as known racial and gender bias",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Ethical risks are highlighted but governance mechanisms are not described.",
+      "excerpt": "We highlight the important ethical risks accompanying this line of research.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Prior work in the area focused on domain-specific ML models rather than conversational governance.",
+      "excerpt": "most of these studies have focused on building domain-specific machine learning (ML) models",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The article is published in a peer-reviewed ACM journal venue.",
+      "excerpt": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 8, 1, Article 32 (March 2024), 32 pages.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "bibliographic"
+    }
+  ]
+}

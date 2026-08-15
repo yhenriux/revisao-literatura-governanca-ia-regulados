@@ -1,0 +1,158 @@
+{
+  "bibliographic": {
+    "title": "A Review on Large Language Models: Architectures, Applications, Taxonomies, Open Issues and Challenges",
+    "authors": "Mohaimenul Azam Khan Raiaan, Md. Saddam Hossain Mukta, Kaniz Fatema, Nur Mohammad Fahad, Sadman Sakib, Most. Marufatul Jannat Mim, Jubaer Ahmad, Mohammed Eunus Ali, Sami Azam",
+    "year": "unclear",
+    "venue": "IEEE Access",
+    "doi": "10.1109/ACCESS.2024.3365742",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Khan Raiaan, M. A., Mukta, M. S. H., Fatema, K., Fahad, N. M., Sakib, S., Mim, M. M. J., Ahmad, J., Ali, M. E., & Azam, S. (unclear). A review on large language models: Architectures, applications, taxonomies, open issues and challenges. IEEE Access. https://doi.org/10.1109/ACCESS.2024.3365742"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "narrative literature review",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "biomedical and healthcare, education, social, business, agriculture",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Large Language Models, transformers, NLP, pre-trained models, self-supervised learning on unlabeled text"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "I_LLM_GENERAL",
+      "I_APPLICATIONS_REGULATED_SECTORS"
+    ],
+    "exclusion_codes": [
+      "E_CONVERSATIONAL_GOVERNANCE_FOCUS_ABSENT"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a broad narrative review of LLMs covering architectures, training, applications, and deployment challenges. The available text confirms sector applications including healthcare and education, but does not specifically address conversational governance, accountability, guardrails, observability, human oversight, or compliance mechanisms for conversational LLM systems in regulated environments. It is better suited as contextual/background evidence on LLMs than as central evidence for the review scope.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter/page 1 text was provided; Python screening likely over-matched governance and conversational terms from general LLM/deployment language. Full-text verification is needed for challenges, ethics, and regulated-domain sections."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal is limited to page 1/front matter. The review objective is clearly stated, but search strategy, inclusion criteria, study selection, and synthesis method are not described in the provided text. Cannot assess review rigor beyond abstract-level claims."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "Confidence is low for using this study as direct evidence on conversational governance in regulated settings because the provided text only establishes a general LLM overview and broad application domains. Coherence of the stated aim is reasonable, but methodological adequacy and relevance to the governance-focused review question cannot be confirmed from the excerpt."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM overview",
+      "transformer architecture",
+      "pre-trained models",
+      "training pipeline",
+      "taxonomy",
+      "deployment challenges",
+      "sector applications"
+    ],
+    "axial_codes": [
+      "technical foundations of LLMs",
+      "application mapping",
+      "open challenges"
+    ],
+    "theme": "General LLM landscape review",
+    "subtheme": "Architectures, applications, and deployment challenges",
+    "concepts": [
+      "large language models",
+      "natural language processing",
+      "transformers",
+      "taxonomy",
+      "question answering",
+      "text generation",
+      "real-world deployment challenges"
+    ],
+    "model_layers": [],
+    "rq_alignment": [
+      "weak alignment: provides LLM background but not conversational governance mechanisms"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "The paper presents a thorough overview of LLMs, including their history, architectures, transformers, resources, training methods, datasets, applications, societal impacts, and open deployment challenges.",
+    "contribution": "Offers a short but thorough review intended to help practitioners, researchers, and experts understand LLM evolution, pre-trained architectures, applications, challenges, and future goals.",
+    "limitations": "Assessment is based only on page 1; review methodology, governance content, and conversational-system specifics are unclear from the provided excerpt.",
+    "use_in_review": "Use as foundational/contextual background on LLMs, architectures, and high-level applications in sectors such as healthcare and education. Do not treat as central evidence for conversational governance, operational controls, auditability, or regulated compliance unless later sections explicitly address those topics."
+  },
+  "evidence": [
+    {
+      "claim": "The study is a review paper focused on LLMs broadly.",
+      "excerpt": "This article thoroughly overviews LLMs, including their history, architectures, transformers, resources, training methods, applications, impacts, challenges, etc.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The paper includes applications in regulated-relevant sectors such as healthcare and education.",
+      "excerpt": "After that, the paper discusses the wide range of applications of LLMs, including biomedical and healthcare, education, social, business, and agriculture.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "The paper mentions deployment challenges but not conversational governance specifically.",
+      "excerpt": "Then it also explores open issues and challenges to deploying LLMs in real- world scenario.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The work is positioned as a review for practitioners and researchers.",
+      "excerpt": "Our review paper aims to help practitioners, researchers, and experts thoroughly understand the evolution of LLMs, pre-trained architectures, applications, challenges, and future goals.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLMs are described as capable of generating situation-appropriate replies and question answering.",
+      "excerpt": "LLMs are a new and essential part of computerized language processing, having the ability to understand complex verbal patterns and generate coherent and appropriate replies for the situation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Peer review acceptance is indicated.",
+      "excerpt": "This article has been accepted for pu",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Publication year is unclear due to placeholder/template dating in the provided text.",
+      "excerpt": "Date of publication xxxx 00, 0000, date of current version xxxx 00, 0000.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "The review scope includes taxonomy as an index/theme term.",
+      "excerpt": "INDEX TERMS Large Language Models, Natural Language Processing, Evolution, Transformer, Pre- trained models, Taxonomy, Application",
+      "page": "1",
+      "section": "front matter",
+      "supports": "coding"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "bibliographic": {
+    "title": "A dynamic contextual responsibility framework for evaluating large language models in socio-technical contexts",
+    "authors": "Ayodeji Olusegun Ibitoye; Deepika Roselind Johnson; Babafemi Gabriel Sorinolu; Rita Orji; Abikoye Oluwakemi Christiana",
+    "year": "2026",
+    "venue": "AI and Ethics",
+    "doi": "10.1007/s43681-026-01072-9",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Ibitoye, A. O., Johnson, D. R., Sorinolu, B. G., Orji, R., & Christiana, A. O. (2026). A dynamic contextual responsibility framework for evaluating large language models in socio-technical contexts. AI and Ethics, 6, 191. https://doi.org/10.1007/s43681-026-01072-9"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "conceptual framework development with benchmark-based multi-model evaluation",
+    "study_design": "Dynamic Contextual Responsibility (DCR) framework integrating five dimensions, illustrated through multi-model, multi-context, and multi-temporal evaluations using benchmarks such as TruthfulQA, FEVER, and HotpotQA",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare, law, education, policy/regulatory",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Responsible AI metrics, benchmark-driven LLM evaluation, socio-technical accountability, alignment with EU AI Act and NIST AI RMF"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GOVERNANCE",
+      "ACCOUNTABILITY",
+      "REGULATED_DOMAINS",
+      "RISK_MONITORING",
+      "FRAMEWORK"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses LLM responsibility, accountability, governance mechanisms, and regulatory alignment in sensitive domains such as healthcare, law, and education. It is highly relevant to governance and risk in regulated LLM deployment, but the provided text does not establish a primary focus on conversational systems, chatbots, agents, or conversational governance mechanisms.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial full text was supplied; conversational-AI relevance cannot be confirmed from the excerpts provided, and benchmark/sample details are incomplete."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Strong conceptual framing and stated operational illustration via established benchmarks; however, sampling, full analytic protocol, and ethics/reflexivity details are not visible in the supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and clearly linked to governance and regulatory instruments, with a reported empirical reclassification finding. Confidence is moderated because the supplied text is incomplete and does not document full evaluation design, sample, or conversational-system applicability."
+  },
+  "coding": {
+    "open_codes": [
+      "dynamic accountability",
+      "context-conditioned responsibility",
+      "benchmark critique",
+      "socio-technical evaluation",
+      "regulatory alignment",
+      "post-deployment monitoring",
+      "ethical foundations",
+      "temporal dynamics"
+    ],
+    "axial_codes": [
+      "LLM governance",
+      "accountability mechanisms",
+      "risk evaluation",
+      "regulated deployment"
+    ],
+    "theme": "Dynamic contextual accountability for LLMs beyond static Responsible AI metrics",
+    "subtheme": "Governance-aligned, temporally sensitive evaluation of LLM responsibility",
+    "concepts": [
+      "Dynamic Contextual Responsibility (DCR)",
+      "Responsible AI metrics",
+      "algorithmic governance",
+      "dynamic accountability",
+      "LLM risk calibration",
+      "socio-technical evaluation"
+    ],
+    "model_layers": [
+      "ethical foundations",
+      "contextual grounding",
+      "behavioural properties",
+      "governance mechanisms",
+      "temporal dynamics"
+    ],
+    "rq_alignment": [
+      "governance and accountability of generative AI",
+      "risk, audit, and compliance in regulated LLM use",
+      "post-deployment monitoring and temporal change",
+      "alignment with regulatory frameworks"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Responsibility in LLMs should be evaluated as a dynamic, context-conditioned, socio-technical relation rather than through static benchmark proxies alone.",
+    "contribution": "Introduces the DCR framework with five integrated dimensions and reports that about 22% of outputs classified as responsible under static metrics are reclassified when contextual and temporal factors are considered.",
+    "limitations": "DCR is presented as an analytic framework, not a regulatory certification protocol; full empirical scope and conversational-system applicability are unclear from the supplied text.",
+    "use_in_review": "Use as supporting evidence on dynamic accountability, governance mechanisms, and regulatory alignment for LLM evaluation in regulated socio-technical contexts; not as central evidence on conversational governance unless fuller text confirms conversational-system focus."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on LLMs in sensitive regulated domains.",
+      "excerpt": "The rapid adoption of large language models (LLMs) across sensitive domains such as healthcare, law, and education",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study proposes a conceptual and operational governance-oriented framework.",
+      "excerpt": "This study introduces Dynamic Contextual Responsibility (DCR), a conceptual and operational framework that defines responsibility as a dynamic, context-conditioned, and socio-technical relation shaped by system behaviour, governance arrangements, and institutional norms.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Framework integrates five governance-relevant dimensions.",
+      "excerpt": "DCR integrates five dimensions, ethical foundations, contextual grounding, behavioural properties, governance mechanisms, and temporal dynamics, into a unified and interpretable construct.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empirical illustration uses established benchmarks across models and contexts.",
+      "excerpt": "the framework is examined through multi- model, multi-context, and multi-temporal evaluations using established benchmarks such as TruthfulQA, FEVER, and HotpotQA.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Static metrics may misclassify responsible outputs once context and time are considered.",
+      "excerpt": "approximately 22% of outputs classified as responsible under static metrics are reclas­ sified once contextual and temporal factors are considered",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Work is explicitly linked to major regulatory governance frameworks.",
+      "excerpt": "with direct relevance for emerging regulatory regimes, including the EU AI Act and the NIST AI Risk Management Framework.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "DCR is analytic rather than a certification protocol.",
+      "excerpt": "DCR is an analytic framework, not a regulatory certification protocol.",
+      "page": "2",
+      "section": "Related work and conceptual foundations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Existing benchmark metrics are criticized for neglecting governance underpinnings.",
+      "excerpt": "Existing metrics quantify behavioural outcomes but neglect their moral and governance underpinnings",
+      "page": "2",
+      "section": "Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "DCR dimensions are mapped to EU AI Act and NIST AI RMF.",
+      "excerpt": "the five dimensions of the DCR framework were conceptually mapped to two major international instruments: the Euro­ pean Union Artificial Intelligence Act (EU AI Act, Regula­ tion (EU) 2024/1689) and the U.S (NIST AI RMF 1.0, SP 1270.",
+      "page": "13",
+      "section": "Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Framework supports post-deployment monitoring requirements.",
+      "excerpt": "Under the EU Artificial Intelligence Act, it supports post-deployment monitoring and documentation requirements for high-risk systems",
+      "page": "14",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Framework operationalises governance functions in NIST AI RMF.",
+      "excerpt": "within the NIST AI RMF, it operationalises the Govern function by providing measurable indicators for ethical risk management.",
+      "page": "14",
+      "section": "unclear",
+      "supports": "synthesis"
+    }
+  ]
+}

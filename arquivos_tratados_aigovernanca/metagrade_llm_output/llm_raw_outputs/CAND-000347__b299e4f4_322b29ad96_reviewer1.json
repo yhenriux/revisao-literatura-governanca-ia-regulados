@@ -1,0 +1,202 @@
+{
+  "bibliographic": {
+    "title": "Agentic AI systems in electrical power systems engineering: current state-of-the-art and challenges",
+    "authors": "Soham Ghosh; Gaurav Mittal",
+    "year": "2026",
+    "venue": "Frontiers in Artificial Intelligence",
+    "doi": "10.3389/frai.2026.1814651",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Ghosh, S., & Mittal, G. (2026). Agentic AI systems in electrical power systems engineering: Current state-of-the-art and challenges. Frontiers in Artificial Intelligence, 9, 1814651. https://doi.org/10.3389/frai.2026.1814651"
+  },
+  "methodology": {
+    "research_type": "theoretical",
+    "method_family": "hypothesis_and_theory_review_with_domain_case_studies",
+    "study_design": "conceptual_taxonomy_and_state_of_the_art_review",
+    "sample_description": "Literature-based conceptual review with four detailed use-case applications in electrical power systems engineering; no empirical participant or dataset sample described in provided text",
+    "sample_size": "unclear",
+    "sector": "electrical power systems engineering",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "agentic AI integrating LLM reasoning with autonomous planning and tool use; references to GenAI systems such as ChatGPT and Gemini, RAG, MCP, HITL/HOTL, and zero trust architecture in power system automation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "borderline",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_AGENTIC_AI",
+      "GOVERNANCE_ACCOUNTABILITY_MENTIONED",
+      "CRITICAL_INFRASTRUCTURE_DOMAIN",
+      "THEORETICAL_FRAMEWORK"
+    ],
+    "exclusion_codes": [
+      "CONVERSATIONAL_GOVERNANCE_NOT_PRIMARY",
+      "DOMAIN_MISMATCH_POWER_SYSTEMS",
+      "NOT_CONVERSATIONAL_AI_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed hypothesis-and-theory review focused on defining and taxonomizing agentic AI and presenting power-system use cases, with recommendations for safe, reliable, and accountable deployment. It clearly engages LLMs, GenAI, RAG, and human oversight concepts, and touches regulated or high-stakes contexts such as power systems and referenced domains like healthcare and finance. However, the provided text does not center conversational systems, chatbots, or conversational governance mechanisms; governance appears as deployment accountability and failure-mode discussion rather than governance of conversational interaction. Fit to the review scope is therefore partial and borderline rather than central.",
+    "decision_confidence": 0.68,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated triage graded the paper as a central candidate, but the available text indicates a domain-specific agentic-AI review in electrical power systems rather than explicit conversational governance in regulated LLM conversational systems."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appropriate as a conceptual/theory paper establishing agentic-AI definitions, taxonomy, and power-system case studies. Provided excerpts do not describe systematic search methods, inclusion criteria, or reproducible literature sampling. Governance discussion is present at a high level through accountability and failure-mode recommendations, but conversational-governance mechanisms are not evidenced in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is internally coherent around agentic AI evolution, taxonomy, and power-system applications, but the supplied text offers limited transparency on review methodology and limited direct relevance to conversational governance in regulated LLM conversational systems."
+  },
+  "coding": {
+    "open_codes": [
+      "agentic_ai_definition",
+      "taxonomy",
+      "power_system_automation",
+      "failure_modes",
+      "accountable_deployment",
+      "llm_orchestration",
+      "human_in_the_loop",
+      "retrieval_augmented_generation"
+    ],
+    "axial_codes": [
+      "AI_paradigm_evolution",
+      "domain_specific_agentic_deployment",
+      "operational_safety_and_accountability"
+    ],
+    "theme": "Agentic AI governance and deployment challenges in electrical power systems",
+    "subtheme": "Taxonomy and accountability recommendations for LLM-enabled autonomous agents",
+    "concepts": [
+      "agentic AI",
+      "generative AI",
+      "large language models",
+      "RAG",
+      "MCP",
+      "HITL",
+      "HOTL",
+      "zero trust architecture",
+      "agentic collusion",
+      "failure mode investigation"
+    ],
+    "model_layers": [
+      "conceptual_taxonomy",
+      "architecture_and_tool_use",
+      "deployment_risk_and_accountability",
+      "domain_use_cases"
+    ],
+    "rq_alignment": [
+      "LLM-based autonomous agents",
+      "governance and accountability",
+      "regulated or high-stakes engineering contexts",
+      "human oversight terminology"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Agentic AI represents a third evolutionary phase beyond classical agents and generative AI by combining LLM reasoning with autonomous planning and action, and the paper proposes a definition/taxonomy plus power-system case studies and recommendations for safe, reliable, and accountable deployment.",
+    "contribution": "Provides a conceptual and taxonomical framing of agentic AI, distinguishes it from classical and generative AI, and discusses state-of-the-art applications and deployment challenges in electrical power systems engineering.",
+    "limitations": "Based on the provided text, the work is broad and domain-specific to power systems; review methodology and conversational-governance mechanisms are not clearly specified.",
+    "use_in_review": "Use as borderline supporting or contextual evidence for agentic LLM governance, human oversight terminology, RAG, and accountability in critical-infrastructure settings; not suitable as central evidence for conversational governance unless fuller text shows stronger conversational-system focus."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article in Frontiers in Artificial Intelligence",
+      "excerpt": "TYPE Hypothesis and Theory",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study aims to define and taxonomize agentic AI and review state of the art in electrical power systems",
+      "excerpt": "providing a comprehensive review that establishes a precise definition and taxonomy for \"agentic AI\"",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Paper includes power-system use cases and failure-mode based recommendations for accountable deployment",
+      "excerpt": "four detailed, state-of-the-art use-case applications within electrical power systems engineering",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance-relevant deployment objective includes safety, reliability, and accountability",
+      "excerpt": "actionable recommendations for the design and implementation of safe, reliable, and accountable agentic AI systems",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs are a core technology context for agentic AI",
+      "excerpt": "KEYWORDS agentic AI, agentic collusion, autonomous agents, large language model (LLM)",
+      "page": "1",
+      "section": "keywords",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "GenAI/LLM systems such as ChatGPT and Gemini are discussed as prior phase before agentic AI",
+      "excerpt": "large language models (LLMs), which underpin Generative AI (GenAI), with GenAI systems like ChatGPT and Gemini",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Agentic AI integrates LLM reasoning with autonomous action",
+      "excerpt": "integrating the reasoning capabilities of LLMs with the classical agent’s ability to act",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human oversight concepts are present in terminology",
+      "excerpt": "HITL, Human-in-the-loop; HOTL, Human-on-the-loop; LLM, Large language model",
+      "page": "2",
+      "section": "abbreviations",
+      "supports": "coding"
+    },
+    {
+      "claim": "RAG is part of the technical vocabulary used in the paper",
+      "excerpt": "RAG, Retrieval augmented generation",
+      "page": "2",
+      "section": "abbreviations",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated or high-stakes domains are referenced in taxonomy mapping but primary focus is engineering/power systems",
+      "excerpt": "taxonomy that maps architectures, domains (e.g., healthcare, finance, robotics)",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No explicit conversational governance or chatbot focus in provided text",
+      "excerpt": "Agentic AI systems in electrical power systems engineering: current state-of-the-art and challenges",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Review type is conceptual/theoretical rather than empirical",
+      "excerpt": "Our paper addresses this gap by providing a comprehensive review",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

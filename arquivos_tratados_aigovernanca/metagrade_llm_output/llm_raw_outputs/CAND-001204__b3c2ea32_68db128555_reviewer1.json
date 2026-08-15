@@ -1,0 +1,186 @@
+{
+  "bibliographic": {
+    "title": "Generative AI in consumer health: leveraging large language models for health literacy and clinical safety with a digital health framework",
+    "authors": "Tilton, A. K., Caplan, B. E., & Cole, B. J.",
+    "year": "2025",
+    "venue": "Frontiers in Digital Health",
+    "doi": "10.3389/fdgth.2025.1616488",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Tilton, A. K., Caplan, B. E., & Cole, B. J. (2025). Generative AI in consumer health: Leveraging large language models for health literacy and clinical safety with a digital health framework. Frontiers in Digital Health, 7, 1616488. https://doi.org/10.3389/fdgth.2025.1616488"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "mini review with proposed evaluation framework",
+    "study_design": "narrative mini review",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare / consumer health",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "generative AI, large language models (GPT-4, Med-PaLM, Claude), AI chatbots, patient-facing digital health tools"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "conversational_ai",
+      "governance_accountability",
+      "regulated_high_stakes",
+      "foundational_value"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed mini review on generative AI and LLM-based patient-facing tools in consumer health, proposing the RECAP evaluation framework for safety, usability, and effectiveness. It is relevant to regulated conversational AI governance, but the provided text shows a conceptual/framework contribution rather than primary empirical governance implementation or operational controls.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front matter and early sections were provided; full-text screening should verify review methods, limitations, and whether operational governance mechanisms beyond the RECAP framework are discussed."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal is based only on the excerpt provided. The paper clearly states it is a mini review and proposes the RECAP framework, but the supplied text does not describe systematic search, inclusion criteria, or full limitations."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is clearly articulated and directly addresses LLM/chatbot use in regulated consumer health, but confidence is moderated because the excerpt lacks detail on review methodology, evidence selection, and stated limitations."
+  },
+  "coding": {
+    "open_codes": [
+      "RECAP model",
+      "clinical safety",
+      "health literacy",
+      "AI chatbots",
+      "patient-facing tools",
+      "digital health ethics",
+      "oversight"
+    ],
+    "axial_codes": [
+      "evaluation framework",
+      "consumer health AI governance",
+      "LLM-enabled conversational health tools"
+    ],
+    "theme": "Evaluation framework for generative AI in consumer health",
+    "subtheme": "Clinical safety and responsible implementation of LLM chatbots",
+    "concepts": [
+      "RECAP",
+      "Relevance",
+      "Evidence-based",
+      "Clarity",
+      "Adaptability",
+      "Precision",
+      "generative AI",
+      "large language models",
+      "chatbots",
+      "clinical safety",
+      "health literacy",
+      "digital health ethics"
+    ],
+    "model_layers": [
+      "evaluation",
+      "safety",
+      "ethics",
+      "usability"
+    ],
+    "rq_alignment": [
+      "governance of generative AI in regulated settings",
+      "clinical safety and risk mitigation",
+      "oversight of patient-facing conversational AI",
+      "accountability and responsible implementation"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Generative AI powered by LLMs can improve consumer health literacy and personalized education, but responsible patient-facing deployment requires a robust digital health framework; the authors propose the RECAP model to evaluate relevance, evidence-base, clarity, adaptability, and precision.",
+    "contribution": "Provides a clinician-informed conceptual lens (RECAP) and contextualizes promises and pitfalls of LLM/chatbot use cases in consumer health, including mental health and lifestyle guidance.",
+    "limitations": "The provided excerpt does not report systematic review methods, sample/search strategy, or comprehensive limitations; only partial text was available for appraisal.",
+    "use_in_review": "Use as foundational contextual evidence for governance-oriented evaluation frameworks in regulated healthcare conversational AI, especially for safety, ethics, and oversight of chatbots and patient-facing LLM tools."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with identifiable bibliographic metadata.",
+      "excerpt": "CITATION Tilton AK, Caplan BE and Cole BJ (2025) Generative AI in consumer health: leveraging large language models for health literacy and clinical safety with a digital health framework. Front. Digit. Health 7:1616488.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study type is a mini review proposing an evaluation framework.",
+      "excerpt": "This mini review examines current use cases for generative AI in consumer health education, highlights persistent challenges, and proposes a clinician-informed framework to evaluate safety, usability, and effectiveness.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Article focuses on specific LLMs in healthcare communication.",
+      "excerpt": "LLMs, including OpenAI’s Generative Pre-trained Transformer 4 (GPT-4), Google’s Med-PaLM, and Anthropic’s Claude, are trained on extensive internet and medical text.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors propose the RECAP governance/evaluation model.",
+      "excerpt": "The RECAP model—Relevance, Evidence-based, Clarity, Adaptability, and Precision—offers a pragmatic lens to guide responsible implementation of AI in patient-facing tools.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Clinical safety and risk concerns are central motivations.",
+      "excerpt": "However, ensuring clinical safety and effectiveness requires a robust digital health framework to address risks like misinformation and inequitable communication.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Conversational AI/chatbots are explicit use cases.",
+      "excerpt": "AI chatbots, software applications that use artiﬁcial intelligence to simulate human conversation, can simplify complex terminology and generate personalized responses to common health questions.",
+      "page": "2",
+      "section": "2.1 Health literacy and generative AI chatbots",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Oversight is needed for unpredictable generative conversational tools.",
+      "excerpt": "Yet, unlike structured CBT apps like Woebot or Wysa, generative models are more unpredictable and require careful oversight to avoid unintentional reinforcement of maladaptive behaviors",
+      "page": "2",
+      "section": "2.4 Mental health and lifestyle guidance",
+      "supports": "coding"
+    },
+    {
+      "claim": "Ethics is an explicit keyword/theme.",
+      "excerpt": "KEYWORDS generative AI, large language models (LLMs), consumer health education, health literacy, clinical safety, AI evaluation framework, digital health ethics",
+      "page": "1",
+      "section": "keywords",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Regulated healthcare/consumer health context is explicit.",
+      "excerpt": "Generative AI, powered by large language models, is transforming consumer health by enhancing health literacy and delivering personalized health education.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Review methodology details are not visible in the provided excerpt.",
+      "excerpt": "This mini review examines current use cases for generative AI in consumer health education",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

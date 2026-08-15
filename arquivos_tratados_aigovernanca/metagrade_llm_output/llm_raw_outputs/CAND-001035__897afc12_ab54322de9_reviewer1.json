@@ -1,0 +1,172 @@
+{
+  "bibliographic": {
+    "title": "Navigating the Wicked Policy Problem: An In-Depth Analysis of Policy Dilemmas and Innovative Approaches for Effective Problem Solving",
+    "authors": "Omweri, F. S",
+    "year": "2024",
+    "venue": "International Journal of Multidisciplinary Research and Analysis",
+    "doi": "10.47191/ijmra/v7-i03-42",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Omweri, F. S. (2024). Navigating the wicked policy problem: An in-depth analysis of policy dilemmas and innovative approaches for effective problem solving. International Journal of Multidisciplinary Research and Analysis, 7(3), 1196-1205. https://doi.org/10.47191/ijmra/v7-i03-42"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "narrative conceptual analysis of wicked policy problems",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "public administration and public policy",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "public policy wicked problems; mentions data-driven decision-making and new information technologies in policy contexts without LLM or conversational AI"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_technology",
+      "wrong_population",
+      "wrong_intervention",
+      "out_of_scope_topic"
+    ],
+    "exclusion_reason": "No LLM, generative AI, conversational systems, chatbots, agents, RAG, or technical AI governance content; focus is public policy wicked problems and collaborative governance in government.",
+    "decision_rationale": "The article conceptually analyzes wicked policy problems and public-policy strategies such as policy networks, collaborative governance, policy entrepreneurship, decentralization, and street-level bureaucrats. Provided text contains no mention of large language models, generative AI, conversational interfaces, or governance mechanisms for AI systems in regulated technical environments. Governance matches are limited to public-administration and multi-level governance discourse.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 1,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 0,
+    "evidence_support": 1,
+    "transferability": 1,
+    "notes": "Conceptual public-policy article without empirical design, sampling, or methods reporting. Not assessable as empirical evidence for LLM conversational governance; appraisal scores reflect only what is visible in the excerpted text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "Although the article coherently discusses wicked policy problems and collaborative governance in public administration, it lacks relevance to LLM-based conversational systems and provides no empirical or technical governance evidence for the review scope."
+  },
+  "coding": {
+    "open_codes": [
+      "wicked_policy_problems",
+      "collaborative_governance",
+      "policy_networks",
+      "policy_entrepreneurship",
+      "data_driven_decision_making",
+      "street_level_bureaucrats",
+      "public_administration"
+    ],
+    "axial_codes": [
+      "public_policy_governance",
+      "multi_stakeholder_coordination",
+      "complex_social_problems"
+    ],
+    "theme": "Public policy approaches to wicked problems",
+    "subtheme": "Collaborative and networked governance in government",
+    "concepts": [
+      "wicked problems",
+      "collaborative governance",
+      "policy diffusion",
+      "policy networks",
+      "decentralization"
+    ],
+    "model_layers": [
+      "policy_design",
+      "institutional_coordination",
+      "implementation"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.9
+  },
+  "synthesis": {
+    "main_claim": "Wicked policy problems require an integrated, multifaceted, and adaptive policy package rather than a single problem-solving technique.",
+    "contribution": "Synthesizes public-policy strategies—including policy networks, collaborative governance, policy entrepreneurship, data-driven decision-making, policy diffusion, decentralization, and street-level bureaucrat placement—for addressing complex public-policy dilemmas.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central and supporting evidence because it does not address conversational AI, LLMs, or technical AI governance in regulated systems; at most distant contextual background on generic collaborative governance in public policy."
+  },
+  "evidence": [
+    {
+      "claim": "Article topic is wicked public policy problems, not AI or LLMs",
+      "excerpt": "Navigating the Wicked Policy Problem: An In-Depth Analysis of Policy Dilemmas and Innovative Approaches for Effective Problem Solving",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM or conversational AI content in abstract",
+      "excerpt": "policy networks, policy entrepreneurship, collaborative governance, data-driven decision-making, policy diffusion, decentralization, and strategic placement of street-level bureaucrats",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance refers to public-policy collaborative governance, not AI governance",
+      "excerpt": "collaborative governance, data-driven decision-making, policy diffusion, decentralization, and strategic placement of street-level bureaucrats to traverse the inherent complexity",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Author affiliation is public administration, not AI systems",
+      "excerpt": "Dept. Public Administration and Development Studies, Western Campus-Uganda",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research type is conceptual policy analysis",
+      "excerpt": "This article offers a greater grasp of the alternatives for fixing wicked problems.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated-domain references are public-sector and financial crime policy, not AI regulation",
+      "excerpt": "terrorism, money laundering, child trafficking, goods smuggling, climate degradation necessitates a complete systemic strategy",
+      "page": "3",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Fairness discussed in street-level policy implementation context",
+      "excerpt": "compromise the fairness and efficiency of the execution of public policy and services",
+      "page": "5",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Multi-level governance is about global wicked problems outside government",
+      "excerpt": "global wicked problems require management outside government at multiple levels of governance",
+      "page": "7",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Main synthesis claim about integrated policy package",
+      "excerpt": "an integrated policy package is best suited to address wicked policy issues",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No empirical sample or methods reported in provided text",
+      "excerpt": "The concept of wicked policy problem was first mentioned by Horst Rittel and Melvin Webber in 1973",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    }
+  ]
+}

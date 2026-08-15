@@ -1,0 +1,193 @@
+{
+  "bibliographic": {
+    "title": "Does My Chatbot Have an Agenda? Understanding Human and AI Agency in Human-Human-like Chatbot Interaction",
+    "authors": "Bhada Yun; Evgenia Taranova; April Yi Wang",
+    "year": "2026",
+    "venue": "arXiv preprint (cs.HC)",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Yun, B., Taranova, E., & Wang, A. Y. (2026). Does my chatbot have an agenda? Understanding human and AI agency in human-human-like chatbot interaction. arXiv preprint arXiv:2601.22452v2."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "longitudinal qualitative HCI study with semi-structured interviews and chat log analysis",
+    "study_design": "month-long longitudinal interaction study with 22 adults using an LLM companion chatbot, followed by semi-structured interviews with post-hoc elicitation of notable moments, cross-participant chat reviews, and a strategy reveal disclosing the chatbot's conversational goals",
+    "sample_description": "22 adults who engaged in sustained chat with the researchers' LLM companion chatbot Day; occupations included academia, technology, business, humanities, and service sectors",
+    "sample_size": "22",
+    "sector": "general consumer/companion chatbot research (non-sector-specific participant pool)",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Custom LLM companion chatbot Day built with Next.js, hosted on Vercel and Supabase; prompt-engineered anthropomorphic design; execution relied on Anthropic LLM capabilities and provider safeguards"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_chatbot",
+      "conversational_agency",
+      "human_ai_interaction",
+      "transparency_governance",
+      "longitudinal_empirical"
+    ],
+    "exclusion_codes": [
+      "no_regulated_domain_application"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "Strong empirical fit for LLM-based conversational agents, perceived agency, transparency, and human control in sustained dialogue; however, the study is an HCI companion-chatbot investigation without deployment or evaluation in regulated/high-stakes domains such as health, finance, or public sector compliance.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Metadata title extraction is corrupted; confirm full-text sections on ethics approval, complete methods, and whether governance implications extend beyond companion-chatbot HCI to regulated operational contexts."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 5,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Clear longitudinal empirical design with rich conversational data (~75 hours across ~192 sessions) and progressive transparency interviews; ethics/IRB details and full analytical procedures are not visible in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Methodologically coherent longitudinal HCI study with substantial interaction data and a proposed agency framework, but limited direct relevance to regulated-environment conversational governance and incomplete visibility of ethics/limitations in supplied text."
+  },
+  "coding": {
+    "open_codes": [
+      "perceived_agency",
+      "agency_negotiation",
+      "co_constructed_control",
+      "translucent_design",
+      "transparency_on_demand",
+      "strategy_reveal",
+      "anthropomorphic_chatbot",
+      "prompt_engineering",
+      "provider_safeguards",
+      "emotional_dependency_risk"
+    ],
+    "axial_codes": [
+      "human_ai_agency",
+      "conversational_control",
+      "transparency_governance",
+      "llm_companion_design",
+      "longitudinal_user_experience"
+    ],
+    "theme": "Human and AI agency in sustained LLM chatbot conversation",
+    "subtheme": "Co-constructed conversational control and transparency-on-demand design",
+    "concepts": [
+      "3-by-4 agency framework",
+      "translucent design",
+      "hybrid/shared agency",
+      "intention_execution_adaptation_delimitation",
+      "strategy reveal",
+      "anthropomorphism"
+    ],
+    "model_layers": [
+      "interaction_layer",
+      "agent_behavior_layer",
+      "transparency_layer",
+      "environmental_modulators"
+    ],
+    "rq_alignment": [
+      "who_controls_conversation_in_human_ai_chat",
+      "how_agency_is_perceived_in_sustained_llm_interaction",
+      "design_implications_for_agency_aware_conversational_agents"
+    ],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "Agency in sustained human-LLM chatbot interaction manifests as an emergent, shared experience co-constructed turn-by-turn, with humans retaining ultimate control over conversation start and end while AI and human agency dynamically shift.",
+    "contribution": "Introduces a 3-by-4 framework mapping actors (Human, AI, Hybrid) across Intention, Execution, Adaptation, and Delimitation, supported by a month-long study of 22 participants interacting with the LLM companion Day, and argues for translucent design (transparency-on-demand).",
+    "limitations": "Study context is a researcher-built companion chatbot with undisclosed conversational motivations initially hidden from participants; regulated-domain operational governance, compliance controls, audit/logging, and post-deployment risk management are not addressed in the provided text.",
+    "use_in_review": "Use as supporting empirical evidence on perceived agency, conversational control negotiation, transparency-on-demand, and human retention of session boundaries in LLM chatbots; cite cautiously for regulated-domain governance claims."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses a specific LLM companion chatbot in a longitudinal empirical design",
+      "excerpt": "We report a month-long longitudinal study with 22 adults who chatted with \"Day\", an LLM companion we built",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research focuses on perceived human and AI agency in sustained conversation",
+      "excerpt": "This paper explores perceived human and AI agency in sustained conver- sation.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Agency is co-constructed turn-by-turn with humans retaining ultimate session control",
+      "excerpt": "with humans retaining ultimate control over when the chat begins and ends. Each conversational turn between the human and AI creates a new opportunity for agency negotiation.",
+      "page": "1",
+      "section": "Figure 1 caption",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors propose a 3-by-4 agency framework and translucent design",
+      "excerpt": "We introduce a 3-by-4 framework mapping actors (Human, AI, Hybrid) by their action (Intention, Execution, Adaptation, De- limitation)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Transparency-on-demand is recommended",
+      "excerpt": "We argue for translucent design (transparency-on-demand) and provide implications for agency self-aware conversational agents.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Study scale includes substantial conversational data",
+      "excerpt": "Through ∼75 hours of conversation across ∼192 unique chat sessions and progressive transparency interviews",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Chatbot had hidden conversational motivations revealed later to participants",
+      "excerpt": "22 participants engaged with \"Day\", an AI chatbot we devel- oped with distinct conversational motivations participants were initially unaware of.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM implementation relied on Anthropic model and provider safeguards",
+      "excerpt": "how \"Day\" executed these strategies ... relied on the LLM's inherent conversational capabilities and model provider's (i.e., Anthropic) safeguards.",
+      "page": "6",
+      "section": "Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Technical stack and hosting are described",
+      "excerpt": "\"Day\" was built with Next.js and hosted on Vercel and a Supabase database",
+      "page": "6",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Participants attributed refusals to chatbot agency rather than provider safety measures",
+      "excerpt": "participants gener- ally interpreted such cases as \"Day's\" own active boundary-setting.",
+      "page": "16",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Sample includes diverse occupations but not a regulated-sector deployment",
+      "excerpt": "Occupations spanned academia (e.g., PhD students in HCI, EdTech, Mathematics), technol- ogy ... business ... humanities ... and service sectors",
+      "page": "8",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "bibliographic": {
+    "title": "The Recognition of Language Rights Under International Human Rights Law: Analysis of Its Protection in Ethiopia and Mauritius",
+    "authors": "Mitiku Mekonnen Chere",
+    "year": "2009",
+    "venue": "University of Mauritius, Faculty of Law and Management",
+    "doi": "unclear",
+    "publication_type": "thesis",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Chere, M. M. (2009). The recognition of language rights under international human rights law: Analysis of its protection in Ethiopia and Mauritius [LLM dissertation, University of Mauritius]."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "legal doctrinal and comparative analysis",
+    "study_design": "comparative analysis of linguistic rights under international human rights law and domestic legal systems of Ethiopia and Mauritius",
+    "sample_description": "international human rights instruments, regional charters, and domestic legal frameworks of Ethiopia and Mauritius",
+    "sample_size": "unclear",
+    "sector": "human rights law and public policy",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "none; study concerns human linguistic rights, state language policy, and legal protection of minority languages"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_wrong_population_technology",
+      "E2_wrong_intervention_phenomenon",
+      "E3_wrong_outcome_focus",
+      "E4_false_positive_keyword_match"
+    ],
+    "exclusion_reason": "Thesis on linguistic rights under international human rights law in Ethiopia and Mauritius; contains no content on LLMs, generative AI, conversational systems, or AI governance. Automated matches for 'LLM', 'interaction', and 'governance' are false positives from the LLM degree title, human linguistic interaction, and political self-governance.",
+    "decision_rationale": "Front matter and body text establish a 2009 legal dissertation comparing protection of language rights in Ethiopia and Mauritius under international human rights law. Evidence discusses discrimination, participation, self-governance, education, and human interaction in a legal-political sense. There is no mention of large language models, chatbots, agents, RAG, guardrails, AI compliance, or conversational AI governance. The Python central_candidate decision appears driven by substring false positives.",
+    "decision_confidence": 0.98,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is unambiguous from title, degree context, chapter structure, and substantive excerpts."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": "unclear",
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 0,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal reflects only signals visible in provided excerpts. The work appears coherent as legal scholarship on linguistic rights, but limitations section and full analytic methods are not visible in the supplied text. Not appraised for suitability to the AI governance review question."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "For the review scope on conversational governance of LLMs in regulated settings, this thesis is topically irrelevant. Within its own legal-rights domain, provided excerpts suggest a structured comparative legal argument, but adequacy and limitations cannot be fully judged from partial text."
+  },
+  "coding": {
+    "open_codes": [
+      "language rights",
+      "international human rights law",
+      "linguistic discrimination",
+      "right to participation",
+      "self-governance",
+      "Ethiopia",
+      "Mauritius",
+      "education policy",
+      "legal comparative analysis"
+    ],
+    "axial_codes": [
+      "human rights law",
+      "minority language protection",
+      "state language policy",
+      "constitutional analysis"
+    ],
+    "theme": "Legal recognition and protection of linguistic rights",
+    "subtheme": "Comparative analysis of Ethiopia and Mauritius under international human rights frameworks",
+    "concepts": [
+      "linguistic rights",
+      "non-discrimination",
+      "freedom of expression",
+      "right to culture",
+      "self-governance",
+      "public participation"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.97
+  },
+  "synthesis": {
+    "main_claim": "Language rights are essential to human interaction, dignity, and democratic participation, and their legal protection in Ethiopia and Mauritius should be assessed against international human rights standards.",
+    "contribution": "Provides a comparative legal analysis of how linguistic rights are recognized and limited in Ethiopia and Mauritius, including discussion of group and individual rights, federalism, and constitutional gaps.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from evidence synthesis for conversational governance of LLMs; usable only as an example of automated false-positive screening where 'LLM' denotes a Master of Laws degree rather than large language models."
+  },
+  "evidence": [
+    {
+      "claim": "Document is a 2009 LLM dissertation on language rights law, not AI or LLMs.",
+      "excerpt": "THE RECOGNITION OF LANGUAGE RIGHTS UNDER INTERNATIONAL HUMAN RIGHTS LAW: ANALYSIS OF ITS PROTECTION IN ETHIOPIA AND MAURITIUS A DISSERTATION SUBMITTED IN PARTIAL FULFILLMENT OF THE REQUIREMENTS OF THE DEGREE LLM (HUMAN RIGHTS AND DEMOCRATISATION IN AFRICA)",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research focus is comparative legal analysis of linguistic rights in Ethiopia and Mauritius.",
+      "excerpt": "Chapter four: Linguistic rights under Ethiopian and Mauritian legal system",
+      "page": "8",
+      "section": "table of contents",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Keyword hit 'interaction' refers to human linguistic communication, not conversational AI.",
+      "excerpt": "Language is one of the undisputable key elements of human interaction. It enables all mankind to have interaction among his family, community, government and the whole world at large.",
+      "page": "52",
+      "section": "Chapter Five Conclusions",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Keyword hit 'governance' refers to political self-governance and local administration, not AI governance.",
+      "excerpt": "every small ethnic group that might live within the territory of federating states with a dominant ethnic group has the rights to self-governance and the right to use its language at its very local council level",
+      "page": "38",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Keyword hit 'LLM' in acknowledgments refers to LLM housemates/programme, not large language models.",
+      "excerpt": "I am profoundly indebted to my LLM housemates’ at Pretoria, Tom, Conrad and Nhampossa",
+      "page": "4",
+      "section": "Acknowledgments",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study addresses education and government in the context of language policy, not regulated AI systems.",
+      "excerpt": "Unwillingness of states to recognise the right to language and accommodate linguistic diversity is also known to be the causes for",
+      "page": "10",
+      "section": "background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Main conclusion concerns linguistic rights and human dignity under international law.",
+      "excerpt": "Unless language right is recognised, such communication can no longer be effective and this will result in violation of human dignity.",
+      "page": "52",
+      "section": "Chapter Five Conclusions",
+      "supports": "synthesis"
+    }
+  ]
+}

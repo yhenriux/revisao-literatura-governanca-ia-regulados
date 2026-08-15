@@ -1,0 +1,154 @@
+{
+  "bibliographic": {
+    "title": "Assessment of vaccine information accuracy across large language models",
+    "authors": "Julia Siebielec and Filip Raciborski",
+    "year": "2026",
+    "venue": "Frontiers in Public Health",
+    "doi": "10.3389/fpubh.2026.1811462",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Siebielec, J., & Raciborski, F. (2026). Assessment of vaccine information accuracy across large language models. Frontiers in Public Health, 14, 1811462. https://doi.org/10.3389/fpubh.2026.1811462"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative LLM accuracy benchmarking with quantitative and qualitative answer analysis",
+    "study_design": "cross-sectional comparison of four named LLMs answering 90 multiple-choice and two open-ended vaccination questions sourced from a government information website",
+    "sample_description": "Four LLMs (ChatGPT, Copilot, DeepSeek, Gemini) queried with vaccination questions from a government information website; data collected March 2026",
+    "sample_size": "4 LLMs; 90 multiple-choice questions; 2 open-ended questions per model",
+    "sector": "public health / healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "direct consumer LLM querying for vaccine and health information accuracy assessment"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "out_of_scope_topic",
+      "no_conversational_governance_focus"
+    ],
+    "exclusion_reason": "The study empirically benchmarks factual accuracy of LLM responses to vaccination questions in a regulated health context but does not examine conversational governance, guardrails, observability, audit, compliance, human oversight, accountability, or operational control mechanisms.",
+    "decision_rationale": "Although the article is an empirical LLM study in healthcare and reports accuracy, safety-relevant usability limits, and government-sourced questions, the provided text contains no analysis of conversational systems governance, supervision workflows, monitoring infrastructure, auditability, or compliance frameworks central to the review scope.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage marked borderline_manual (68/100) with moderate regulated-domain and LLM relevance but very low conversational and operational governance signals; adjudication should confirm exclusion despite contextual health-risk value."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 0,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Methods and results are clearly summarized in the abstract, but ethics, detailed protocols, and limitations are not evident in the provided excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 0,
+    "overall_confidence": "low",
+    "explanation": "Findings on LLM vaccination-information accuracy are internally coherent within the excerpt, but the study does not address conversational governance mechanisms and therefore offers very low confidence for the review's core synthesis question."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM factual accuracy",
+      "vaccine information reliability",
+      "comparative model benchmarking",
+      "open-ended response vagueness",
+      "government-sourced health questions",
+      "limited standalone usability"
+    ],
+    "axial_codes": [
+      "regulated health information use",
+      "LLM output quality assessment",
+      "information risk without governance controls"
+    ],
+    "theme": "LLM reliability as a health information source",
+    "subtheme": "vaccination information accuracy across consumer LLMs",
+    "concepts": [
+      "accuracy",
+      "information usability",
+      "herd immunity",
+      "adverse reactions",
+      "self-diagnosis risk"
+    ],
+    "model_layers": [],
+    "rq_alignment": [
+      "regulated_high_stakes_context",
+      "llm_risk_and_safety"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Four tested LLMs performed well on multiple-choice vaccination questions, with Gemini highest (0.98) and ChatGPT lowest (0.86), but open-ended answers were factually correct yet too vague to be usable on their own as vaccine information sources.",
+    "contribution": "Provides comparative empirical evidence on accuracy and qualitative adequacy of LLM-generated vaccination information drawn from government website questions.",
+    "limitations": "Generated content was judged factually correct but lacking in detail; broader methodological and governance limitations are unclear from the provided text.",
+    "use_in_review": "Exclude from central or supporting governance evidence; at most peripheral contextual citation if the review separately documents ungoverned LLM health-information risk, not governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Study objective is to assess correctness of LLM-generated vaccine information.",
+      "excerpt": "verifying the correctness of generated responses becomes extremely important",
+      "page": "1",
+      "section": "Background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical comparison of four named LLMs using government-sourced vaccination questions.",
+      "excerpt": "Four LLMs (ChatGPT, Copilot, DeepSeek, Gemini) were chosen for the analysis.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample comprised 90 multiple-choice and two open-ended vaccination questions.",
+      "excerpt": "All models were asked 90 multiple-choice questions on the various topics surrounding vaccination, sourced from a government information website.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Models differed significantly in multiple-choice accuracy.",
+      "excerpt": "Biggest proportion of correct answers was achieved by Gemini (0.98), smallest one – by ChatGPT (0.86).",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Open-ended answers were correct but insufficiently detailed for standalone use.",
+      "excerpt": "the generated content, while factually correct, was not enough to be usable on its own.",
+      "page": "1",
+      "section": "Conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No conversational governance, oversight, audit, or compliance mechanisms are discussed in the provided text.",
+      "excerpt": "Answers were analysed quantitatively and qualitatively.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated healthcare context is explicit.",
+      "excerpt": "Use of Large Language Models (LLMs) as a health information source is on the rise.",
+      "page": "1",
+      "section": "Background",
+      "supports": "coding"
+    },
+    {
+      "claim": "Peer-reviewed journal publication.",
+      "excerpt": "REVIEWED BY Oluchi Abosi, University of Iowa Health Care, United States",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

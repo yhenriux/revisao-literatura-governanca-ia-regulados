@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "When LLM Agent Teams Fail at Topological Spatial Reasoning Under Partial Observability",
+    "authors": "Heitor Gama; Jean-Philippe Diguet; Damith C. Ranasinghe",
+    "year": "2026",
+    "venue": "25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)",
+    "doi": "10.65109/RTFT9958",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Gama, H., Diguet, J.-P., & Ranasinghe, D. C. (2026). When LLM agent teams fail at topological spatial reasoning under partial observability: Extended abstract. In Proceedings of the 25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026) (pp. 3567–3569). https://doi.org/10.65109/RTFT9958"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "task-based multi-agent LLM evaluation",
+    "study_design": "extended abstract with specified task model and cooperative navigation benchmark",
+    "sample_description": "LLM-based multi-agent team in a cooperative bomb-defusal navigation scenario with decentralized local observations",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "generic_genai",
+    "technology_context": "multi-agent LLM teams, graph navigation, topological spatial reasoning, partial observability, dialogue-based coordination"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "OUT_OF_SCOPE",
+      "NO_GOVERNANCE_FOCUS",
+      "NO_REGULATED_CONTEXT"
+    ],
+    "exclusion_reason": "The paper studies failure modes in LLM multi-agent topological spatial reasoning and coordination under partial observability; it does not address conversational governance, accountability, compliance, risk controls, auditability, human oversight, or regulated high-stakes deployment contexts.",
+    "decision_rationale": "Although the study involves LLM agents communicating through dialogue in a cooperative task, the focus is spatial reasoning and scalable coordination limitations rather than governance of conversational AI systems. No evidence in the provided text covers guardrails, observability for governance, auditing, compliance, supervision, contestation, or regulated sectors.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Scope mismatch is explicit in title, abstract, motivation, and task model; governance and regulated-domain constructs are absent from the supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 1,
+    "limitations_transparency": 1,
+    "evidence_support": 1,
+    "transferability": 1,
+    "notes": "Appraisal is limited by the 3-page extended abstract and truncated full text; sufficient detail is present to judge study intent and task model, but not full empirical execution, sampling, or complete findings."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "For the review scope on conversational governance in regulated LLM systems, the supplied evidence is coherent but minimally adequate and not relevant; confidence in using this study as review evidence is very low."
+  },
+  "coding": {
+    "open_codes": [
+      "multi-agent coordination",
+      "topological spatial reasoning",
+      "partial observability",
+      "dialogue-based coordination",
+      "task model",
+      "graph navigation",
+      "coordination failures",
+      "map representations",
+      "memory design"
+    ],
+    "axial_codes": [
+      "LLM agent limitations",
+      "decentralized multi-agent planning",
+      "cooperative navigation benchmark"
+    ],
+    "theme": "Failure modes in LLM multi-agent spatial reasoning",
+    "subtheme": "Topological reasoning under decentralized information",
+    "concepts": [
+      "LLM agents",
+      "multi-agent systems",
+      "spatial reasoning",
+      "graph navigation",
+      "decentralized coordination",
+      "dialogue",
+      "instruction following",
+      "local observations"
+    ],
+    "model_layers": [
+      "agent coordination",
+      "task/environment model"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "LLM-agent teams exhibit limitations in topological spatial reasoning under partial observability that hinder scalable coordination in navigation-centered cooperative tasks.",
+    "contribution": "Introduces and motivates a task formulation to isolate and study spatial reasoning failures in LLM multi-agent teams, including a task model for analyzing map representations and memory design.",
+    "limitations": "Provided text is an extended abstract with incomplete findings and unclear sample size, models tested, and quantitative results.",
+    "use_in_review": "Exclude as central or supporting evidence; at most marginal foundational context on multi-agent LLM dialogue coordination, not on conversational governance in regulated settings."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed AAMAS 2026 conference paper.",
+      "excerpt": "In Proc. of the 25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)",
+      "page": "2",
+      "section": "ACM Reference Format",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors are identifiable from the provided text.",
+      "excerpt": "Heitor Gama, Jean-Philippe Diguet, Damith C Ranasinghe",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses generic LLM agents for multi-agent planning and natural-language communication.",
+      "excerpt": "Large language models (LLMs) offer a solution by enabling text-native agents capable of planning and communicating in natural language.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research focus is coordination failures in topological spatial reasoning, not governance.",
+      "excerpt": "we examine a failure-prone ingredient for scalable coordination",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Agents coordinate through dialogue and instruction following.",
+      "excerpt": "LLM agents offer a practical mechanism for coordination through dialogue and instruction following",
+      "page": "2",
+      "section": "problem motivation",
+      "supports": "coding"
+    },
+    {
+      "claim": "Task setting involves decentralized local observations rather than regulated deployment.",
+      "excerpt": "each agent receives only local observations to understand the limits of LLM-based agents",
+      "page": "2",
+      "section": "problem motivation",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical task model centers on cooperative navigation over graph-structured maps.",
+      "excerpt": "we focus on studying topological spatial reasoning of agents, critical for path planning, under partial observability",
+      "page": "2",
+      "section": "problem motivation",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Scenario is a cooperative LLM-agent team with inter-agent communication.",
+      "excerpt": "each firefighter, an independent text-only LLM-agent, communicates with teammates to defuse a bomb",
+      "page": "2",
+      "section": "figure 1 caption",
+      "supports": "coding"
+    },
+    {
+      "claim": "Study specifies a task model for systematic analysis of map representations and memory.",
+      "excerpt": "we specify a task model, as described next, to support the systematic analysis of map representations and memory design for LLM multi-agent teams",
+      "page": "2",
+      "section": "task model",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Environment is modeled as a graph for navigation/coordination benchmarking.",
+      "excerpt": "we model the map as an undirected, unweighted, connected gra",
+      "page": "2",
+      "section": "task model",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Partial observability refers to local bomb information via room interaction, not governance observability.",
+      "excerpt": "Agents only observe bomb information through local interaction in the same room.",
+      "page": "2",
+      "section": "task model",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Findings direction mentions interfaces and memory design trade-offs, but text is incomplete.",
+      "excerpt": "interfaces, where full-map encodings compete with region-collapsed local views under matched prompt budgets; and (iii) memory, where structured belief templates trade off against long chat t",
+      "page": "3",
+      "section": "findings",
+      "supports": "appraisal"
+    }
+  ]
+}

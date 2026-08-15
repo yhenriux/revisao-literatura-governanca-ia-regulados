@@ -1,0 +1,169 @@
+{
+  "bibliographic": {
+    "title": "Governance, Risk, and Regulation: A Framework for Improving Efficiency in Kenyan Pension Funds",
+    "authors": "Sylvester Willys Namagwa",
+    "year": "2025",
+    "venue": "Journal of Financial Risk Management",
+    "doi": "10.4236/jfrm.2025.144023",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Namagwa, S. W. (2025). Governance, Risk, and Regulation: A Framework for Improving Efficiency in Kenyan Pension Funds. Journal of Financial Risk Management, 14(4), 428-455. https://doi.org/10.4236/jfrm.2025.144023"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "panel regression analysis",
+    "study_design": "quantitative panel regression on secondary data",
+    "sample_description": "seven-year secondary dataset of 128 Kenyan pension schemes",
+    "sample_size": "896 observations (128 schemes over seven years)",
+    "sector": "pension funds / retirement benefits schemes",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "corporate governance, board of trustees, risk management, and industry regulation in pension schemes; no AI, LLM, generative AI, chatbot, agent, or conversational system technology mentioned"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_OUT_OF_SCOPE",
+      "E_NO_CONVERSATIONAL_AI",
+      "E_NO_LLM_GENAI"
+    ],
+    "exclusion_reason": "The study examines corporate governance, risk management, and industry regulation effects on pension scheme efficiency in Kenya; it does not address conversational AI, LLMs, generative AI, chatbots, agents, RAG, guardrails, or governance of language-model-based systems.",
+    "decision_rationale": "Keyword overlap on governance, risk, compliance, accountability, and regulated financial context produced a false-positive triage score. The article's governance focus is institutional board governance of pension funds, not conversational or LLM governance in regulated AI systems.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 0,
+    "results_clarity": 3,
+    "limitations_transparency": 0,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal based on abstract and introductory excerpts only. Methodological quality appears adequate for its own research question on pension governance efficiency, but the study is out of scope for conversational LLM governance."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 0,
+    "overall_confidence": "high",
+    "explanation": "High confidence in exclusion: provided text clearly describes a quantitative pension governance study with no conversational AI or LLM content. Relevance to the review topic is negligible despite regulated financial sector context."
+  },
+  "coding": {
+    "open_codes": [
+      "corporate_governance",
+      "risk_management",
+      "industry_regulation",
+      "pension_efficiency",
+      "board_of_trustees",
+      "employee_representation",
+      "agency_theory",
+      "panel_regression"
+    ],
+    "axial_codes": [
+      "institutional_governance",
+      "financial_regulation",
+      "organizational_efficiency"
+    ],
+    "theme": "Corporate governance and risk management in pension funds",
+    "subtheme": "Board composition and regulation effects on pension scheme efficiency",
+    "concepts": [
+      "corporate governance",
+      "risk management",
+      "industry regulation",
+      "efficiency",
+      "board of trustees",
+      "agency theory",
+      "accountability",
+      "oversight",
+      "transparency",
+      "trust"
+    ],
+    "model_layers": [
+      "organizational governance",
+      "regulatory compliance"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.92
+  },
+  "synthesis": {
+    "main_claim": "Employee representatives on the board and effective risk management have a significant positive effect on Kenyan pension scheme efficiency, while independent board members exhibit a significant negative effect; industry regulation showed no significant effect in the joint model.",
+    "contribution": "Empirical panel regression evidence linking governance and risk management factors to pension scheme efficiency in Kenya, with a proposed Agency Theory extension via a self-cleaning mechanism for elected employee trustees.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude. No usable evidence for conversational governance, LLM systems, or generative AI in regulated environments; only peripheral overlap via generic governance and financial regulation terminology."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses quantitative panel regression on Kenyan pension scheme data",
+      "excerpt": "Using a quan- titative design, we conducted a panel regression analysis on a seven-year sec- ondary dataset of 128 Kenyan pension schemes, totalling 896 observations.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research focus is corporate governance, risk management, and industry regulation in pension schemes",
+      "excerpt": "examining the combined effects of corporate governance, risk management, and industry regulation on pension scheme efficiency in Kenya",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational AI or LLM technology is discussed",
+      "excerpt": "Pension schemes' governance should prioritise the adequacy of pension payouts",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance terminology refers to corporate/board governance, not AI governance",
+      "excerpt": "CG catalyses the interplay of mixt factors that define the effectiveness of the board in designing oversight tools and their costs to promote trust, accountability, transparency",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated financial domain is pension funds in Kenya",
+      "excerpt": "Governance lapses in pension schemes not only expose scheme members to old age hardship, but also dampen the public trust in the pen- sion systems.",
+      "page": "3",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Key empirical findings on board and risk factors",
+      "excerpt": "the presence of employee representatives on the board and effective risk management have a significant positive effect on efficiency. Conversely, independent board members exhibit a significant neg- ative effect.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Industry regulation showed no significant effect on efficiency",
+      "excerpt": "Other factors, including top management representation, female board members, and industry regulation, showed no significant effect on effi- ciency in the joint model.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Theoretical contribution extends Agency Theory for pension trustees",
+      "excerpt": "the electoral process for employee board members may introduce a \"self-cleaning mechanism\" that progressively enhances scheme efficiency. This mechanism offers a novel theoretical extension of Agency Theory",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Peer-reviewed journal publication",
+      "excerpt": "Received: September 29, 2025 Accepted: November 11, 2025 Published: November 14, 2025",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

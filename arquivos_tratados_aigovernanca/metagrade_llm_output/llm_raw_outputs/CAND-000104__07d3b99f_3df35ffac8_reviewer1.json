@@ -1,0 +1,180 @@
+{
+  "bibliographic": {
+    "title": "Analysis of Data Management in Blockchain-Based Systems: From Architecture to Governance",
+    "authors": "Paik, H.-Y., Xu, X., Bandara, H. M. N. D., Lee, S. U., & Lo, S. K.",
+    "year": "2019",
+    "venue": "IEEE Access",
+    "doi": "10.1109/ACCESS.2019.2961404",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Paik, H.-Y., Xu, X., Bandara, H. M. N. D., Lee, S. U., & Lo, S. K. (2019). Analysis of data management in blockchain-based systems: From architecture to governance. IEEE Access, 7, 186091-186113. https://doi.org/10.1109/ACCESS.2019.2961404"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "architectural analysis and conceptual framework",
+    "study_design": "developer-oriented conceptual analysis of blockchain as a data store within larger software systems",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "blockchain technology; distributed data management; software architecture",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "blockchain-based systems as distributed immutable data stores with on-chain/off-chain data architecture; tangential references to machine learning and deep learning in blockchain analytics contexts"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_wrong_technology",
+      "E2_no_llm_genai",
+      "E3_no_conversational_ai",
+      "E4_wrong_governance_focus"
+    ],
+    "exclusion_reason": "The article analyzes blockchain data management and blockchain data governance (privacy, quality assurance), not conversational governance, LLM-based systems, chatbots, agents, or related operational controls in generative AI deployments.",
+    "decision_rationale": "Provided text identifies the study as a conceptual analysis of blockchains from a developer viewpoint, covering architectural layers, data placement/flow, data administration, blockchain analytics, and data governance for privacy and quality assurance. Mentions of machine learning, deep learning, compliance, audit, and regulated sectors appear only as peripheral blockchain application or reference contexts, not as LLM or conversational-system governance evidence. The work predates and does not address LLM-specific governance mechanisms required by the review scope.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Technology focus and absence of conversational AI or LLM governance are explicit in title, abstract, and introduction."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal reflects a 2019 conceptual/architectural blockchain paper. Empirical sampling, ethics, and limitations are not substantively described in the provided excerpts. Method fit is adequate for its stated conceptual aim but not for empirical causal inference."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Within its own domain the paper presents a coherent developer-oriented blockchain data-management framework, but methodological depth for empirical claims is limited in the provided text. Relevance to conversational governance in LLM systems in regulated environments is very low because the governance focus is blockchain data privacy and quality assurance, not generative or conversational AI oversight."
+  },
+  "coding": {
+    "open_codes": [
+      "blockchain data store",
+      "software architecture layers",
+      "on-chain off-chain data",
+      "data administration",
+      "blockchain analytics",
+      "data governance",
+      "privacy",
+      "quality assurance",
+      "transparency",
+      "immutability",
+      "distributed consensus"
+    ],
+    "axial_codes": [
+      "distributed data management",
+      "architectural conceptualization",
+      "trust and transparency mechanisms",
+      "data governance for blockchain"
+    ],
+    "theme": "Blockchain data management and governance",
+    "subtheme": "Architectural and administrative analysis of blockchain as a component data store",
+    "concepts": [
+      "transparency",
+      "immutability",
+      "consistency",
+      "data provenance",
+      "privacy assurance",
+      "quality assurance",
+      "trustless multi-party transactions"
+    ],
+    "model_layers": [
+      "application layer",
+      "logical data store layer",
+      "physical blockchain tiers",
+      "off-chain data stores"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.92
+  },
+  "synthesis": {
+    "main_claim": "Blockchains should be understood and incorporated as distributed data stores within larger software systems through structured architectural, administrative, analytic, and governance considerations.",
+    "contribution": "Conceptualizes blockchain layers in software architecture, examines data placement and flow, discusses blockchain data administration and trustable analytics, and outlines governance issues around privacy and quality assurance.",
+    "limitations": "Provided excerpts do not detail study limitations; empirical validation, conversational AI applicability, and LLM governance are not addressed.",
+    "use_in_review": "Exclude from central or supporting evidence on conversational governance in LLM systems. At most, marginal foundational context only if the review separately maps distributed auditability and data-governance concepts to non-LLM infrastructures."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed IEEE Access journal article published in 2019.",
+      "excerpt": "Received November 5, 2019, accepted December 9, 2019, date of publication December 23, 2019",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study focus is blockchain data management and blockchain data governance, not conversational or LLM systems.",
+      "excerpt": "Analysis of Data Management in Blockchain-Based Systems: From Architecture to Governance",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Paper uses a developer-oriented conceptual analysis rather than empirical LLM evaluation.",
+      "excerpt": "we analyse blockchains from the viewpoint of a developer to highlight important concepts and considerations when incorporating a blockchain into a larger software system as a data store",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance scope is blockchain data privacy and quality assurance.",
+      "excerpt": "we examine the data governance issues in blockchains in terms of privacy and quality assurance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated domains are cited only as blockchain application examples.",
+      "excerpt": "asset management, medical/health, finance, and insurance, to name a few",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Transparency is discussed as a blockchain ledger property, not conversational AI transparency.",
+      "excerpt": "Transparency – Data stored on a blockchain are accessible to all participants within the blockchain network",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Machine learning appears only as a blockchain-enabled collaborative analytics use case.",
+      "excerpt": "blockchains could be used in distributed machine learning to enable collaborative model training and development",
+      "page": "12",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Interaction refers to blockchain account analytics, not human-chatbot interaction.",
+      "excerpt": "interaction patterns between accounts",
+      "page": "10",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Audit/deep learning references are bibliographic, not central LLM governance mechanisms.",
+      "excerpt": "Deepchain: Auditable and privacy-preserving deep learning with blockchain-based incentive",
+      "page": "16",
+      "section": "references",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Objectives are clearly stated as five blockchain data-management aims.",
+      "excerpt": "Examine current issues and future directions in the governance of blockchain data privacy and quality",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    }
+  ]
+}

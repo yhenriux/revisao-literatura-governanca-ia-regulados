@@ -1,0 +1,187 @@
+{
+  "bibliographic": {
+    "title": "Accounting, Hybrids and the Management of Risk",
+    "authors": "Peter Miller, Liisa Kurunmäki, Ted O'Leary",
+    "year": "2006",
+    "venue": "Centre for Analysis of Risk and Regulation, London School of Economics and Political Science (Discussion Paper No. 40)",
+    "doi": "unclear",
+    "publication_type": "report",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Miller, P., Kurunmäki, L., & O'Leary, T. (2006). Accounting, hybrids and the management of risk (Discussion Paper No. 40). Centre for Analysis of Risk and Regulation, London School of Economics and Political Science."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "theoretical essay with selective literature review and illustrative examples",
+    "study_design": "conceptual discussion paper",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "organizational management, accounting, risk regulation",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "pre-digital organizational risk management, accounting hybrids, and formalized governance regimes; no AI, LLM, or conversational system technology discussed"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_NO_LLM_GENAI",
+      "E_NO_CONVERSATIONAL_AI",
+      "E_OUT_OF_SCOPE_TECHNOLOGY"
+    ],
+    "exclusion_reason": "Discussion paper on accounting hybrids and organizational risk management (2006); contains no discussion of LLMs, generative AI, conversational systems, chatbots, agents, RAG, or related technical governance mechanisms.",
+    "decision_rationale": "The document addresses formalized governance, risk management, compliance, and accountability in organizational and regulatory contexts, which partially overlaps thematic dimensions of the review. However, it predates and does not reference AI or conversational technologies. It may serve only as foundational contextual literature on organizational governance and risk regimes, not as central or supporting evidence for conversational governance in LLM-based regulated systems.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Absence of LLM, generative AI, and conversational system content is unambiguous from provided full-text excerpts."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Conceptual ESRC discussion paper arguing via literature synthesis and selected examples. No empirical sample, data collection protocol, or statistical analysis. Appropriate for theoretical claims about hybrids and risk governance, but not designed to produce generalizable empirical findings. No technology-transfer pathway to LLM conversational governance is established in the text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internally coherent conceptual argument with clear structure, but offers no direct evidence on conversational AI, LLMs, or technical operational governance. Adequacy for the review's primary question is very low despite moderate coherence of organizational risk-governance claims."
+  },
+  "coding": {
+    "open_codes": [
+      "hybrid practices",
+      "formalized risk management",
+      "governance regimes",
+      "accounting visibility",
+      "lateral information flows",
+      "compliance with governance models",
+      "relational governance",
+      "trust in exchange relations"
+    ],
+    "axial_codes": [
+      "organizational governance",
+      "risk management formalization",
+      "regulatory compliance frameworks",
+      "inter-organizational coordination"
+    ],
+    "theme": "Organizational risk governance beyond formalized systems",
+    "subtheme": "Hybrid practices as sites of uncertainty management",
+    "concepts": [
+      "hybrids",
+      "risk management",
+      "governance structures",
+      "accountability",
+      "compliance",
+      "trust",
+      "relational governance",
+      "institutionalization"
+    ],
+    "model_layers": [
+      "organizational",
+      "regulatory",
+      "processual"
+    ],
+    "rq_alignment": [
+      "indirect: governance and accountability in regulated organizational contexts",
+      "indirect: risk management and compliance regimes",
+      "no alignment: conversational AI or LLM governance"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Organizational management is increasingly formalized around risk management and governance regimes, yet much real risk management occurs through hybrid practices, processes, and expertises that enable lateral information flows across organizational boundaries; accounting practices are central to making hybrids visible and calculable.",
+    "contribution": "Provides a pre-AI theoretical framing on how formalized risk management and governance systems may diverge from localized practices that actually manage uncertainty, with references to financial and corporate regulatory frameworks (Cadbury, COSO, Turnbull, Sarbanes-Oxley).",
+    "limitations": "Conceptual essay without empirical evaluation; limited explicit discussion of study limitations in provided excerpts; no technology-specific governance analysis.",
+    "use_in_review": "Foundational contextual reference only for organizational governance, risk formalization, compliance regimes, and accountability themes. Not usable as evidence on conversational governance, LLM guardrails, observability, human oversight of AI systems, or regulated-domain deployment of generative conversational technologies."
+  },
+  "evidence": [
+    {
+      "claim": "Document is a 2006 ESRC discussion paper, not peer-reviewed journal article",
+      "excerpt": "DISCUSSION PAPER NO: 40 DATE: November 2006",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM, generative AI, or conversational technology discussed",
+      "excerpt": "This essay addresses the implications of accounting and hybrids for the management of risk.",
+      "page": "4",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Formalized governance mechanisms for risk management",
+      "excerpt": "risk committees, risk officers and risk maps have become obligatory elements of formalized governance mechanisms",
+      "page": "5",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Compliance with standardized governance models may weaken real risk management",
+      "excerpt": "as compliance with more or less standardized governance models comes to dominate increasingly the design of risk management systems, it may well be that such systems lose their ability to manage the real risks that organizations face",
+      "page": "5",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "References to regulated financial and corporate governance frameworks",
+      "excerpt": "Committee on the Financial Aspects of Corporate Governance, 1992 (Cadbury Report); Committee of Sponsoring Organizations of the Treadway Commission (COSO), 1992; ICAEW, 1999 (Turnbull Report); Sarbanes-Oxley Act 2002",
+      "page": "5",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance structures as organizational mode (Williamson)",
+      "excerpt": "Williamson identified hybrids explicitly as one of three alternative modes of governance (Williamson, 1991)",
+      "page": "8",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Accountability of line managers in hybrid organizational forms",
+      "excerpt": "the authority and accountability of line managers has been increased",
+      "page": "9",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Trust complements economic factors in relational governance",
+      "excerpt": "factors such as trust complement economic factors in the governance of exchange relations",
+      "page": "12",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Interaction between localized practices and formalized governance regimes",
+      "excerpt": "a better understanding of the interaction between localized practices that contribute to the management of risk, and the increasingly prevalent and formalized risk management and governance regimes",
+      "page": "18",
+      "section": "conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Conceptual research type without empirical sample",
+      "excerpt": "In the second section, some selected examples of hybrid practices, processes and expertises are identified and briefly discussed.",
+      "page": "4",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Institutionalization of formalized risk management and governance systems",
+      "excerpt": "We are seeing this now with formalized risk management and governance systems that are specified with increasing detail.",
+      "page": "6",
+      "section": "unclear",
+      "supports": "coding"
+    }
+  ]
+}

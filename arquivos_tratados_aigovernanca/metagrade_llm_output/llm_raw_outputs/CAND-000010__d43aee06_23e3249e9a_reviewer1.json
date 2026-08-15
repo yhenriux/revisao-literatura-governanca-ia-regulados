@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "authors": "Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela",
+    "year": "2020",
+    "venue": "arXiv preprint",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., Yih, W., Rocktäschel, T., Riedel, S., & Kiela, D. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. arXiv:2005.11401."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "retrieval-augmented generation with hybrid parametric and non-parametric memory",
+    "study_design": "experimental fine-tuning and benchmark evaluation of RAG variants on knowledge-intensive NLP tasks",
+    "sample_description": "Wikipedia dense vector index as non-parametric memory; evaluation on open-domain QA, abstractive QA, and language generation benchmarks",
+    "sample_size": "unclear",
+    "sector": "academic NLP research",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "pre-trained seq2seq generator (BART) combined with neural retriever over Wikipedia; compares RAG-Sequence and RAG-Token formulations"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "foundational_rag_architecture",
+      "knowledge_grounding",
+      "interpretability_provenance_signals"
+    ],
+    "exclusion_codes": [
+      "no_conversational_governance_focus",
+      "no_regulated_domain_evaluation",
+      "no_audit_compliance_operational_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper is a foundational empirical study introducing and evaluating retrieval-augmented generation for knowledge-intensive NLP. It offers relevant architectural context for knowledge governance, provenance, interpretability, and factual grounding in generative systems, but does not address conversational governance, compliance, audit, human oversight, or regulated deployment contexts as primary objects of study.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted metadata contains clear errors (incorrect title/authors/year=2005); confirm bibliographic fields against arXiv:2005.11401 and venue/peer-review status."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Strong technical clarity and empirical support for RAG performance claims. Limited direct relevance to conversational governance in regulated settings; societal impacts and bias are discussed briefly rather than studied empirically."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "moderate",
+    "explanation": "Confidence is moderate for the paper's core technical claims about RAG effectiveness, but low-to-moderate for relevance to the review's governance-in-regulated-contexts focus because governance, compliance, and conversational oversight are not central empirical targets."
+  },
+  "coding": {
+    "open_codes": [
+      "retrieval_augmented_generation",
+      "parametric_memory",
+      "non_parametric_memory",
+      "knowledge_grounding",
+      "provenance",
+      "interpretability",
+      "hallucination_reduction",
+      "wikipedia_index",
+      "open_domain_qa",
+      "abstractive_generation"
+    ],
+    "axial_codes": [
+      "knowledge_architecture",
+      "grounding_and_provenance",
+      "generative_nlp_systems"
+    ],
+    "theme": "Retrieval-augmented knowledge grounding for generative language models",
+    "subtheme": "Hybrid memory architectures for factual language generation",
+    "concepts": [
+      "RAG",
+      "dense vector retrieval",
+      "seq2seq generation",
+      "human-readable memory",
+      "human-writable memory",
+      "document index"
+    ],
+    "model_layers": [
+      "retrieval_layer",
+      "generation_layer",
+      "knowledge_base_layer"
+    ],
+    "rq_alignment": [
+      "knowledge_governance_architecture",
+      "RAG_as_operational_technical_control"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Retrieval-augmented generation models that combine a pre-trained seq2seq generator with a dense Wikipedia index accessed by a neural retriever can outperform parametric-only models on knowledge-intensive NLP tasks and produce more specific, diverse, and factual generations.",
+    "contribution": "Introduces a general-purpose RAG fine-tuning recipe and two formulations (RAG-Sequence and RAG-Token), establishing a foundational architecture linking external retrievable knowledge to generative language models with inspectable non-parametric memory.",
+    "limitations": "Does not evaluate conversational governance, compliance, auditability, or regulated-domain deployment; external knowledge sources may contain bias and factual errors; provenance and interpretability are architectural affordances rather than governance mechanisms studied in operational settings.",
+    "use_in_review": "Use as foundational contextual evidence for RAG/knowledge-base grounding, inspectable memory, and reduced hallucination in generative systems; not central evidence for conversational governance, human oversight, or compliance in regulated environments."
+  },
+  "evidence": [
+    {
+      "claim": "Paper introduces RAG for knowledge-intensive NLP by combining parametric seq2seq memory with non-parametric Wikipedia retrieval",
+      "excerpt": "We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG) — models which combine pre-trained parametric and non-parametric memory for language generation.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "External memory supports inspectability and dynamic knowledge update",
+      "excerpt": "knowledge can be directly revised and expanded, and accessed knowledge can be inspected and interpreted.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Parametric-only models struggle with provenance and hallucinations",
+      "excerpt": "providing provenance for their decisions and updating their world knowledge remain open research problems.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "RAG achieves strong empirical results on knowledge-intensive benchmarks",
+      "excerpt": "We fine-tune and evaluate our models on a wide range of knowledge- intensive NLP tasks and set the state of the art on three open domain QA tasks",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "RAG generates more factual language than parametric baseline",
+      "excerpt": "RAG models generate more specific, diverse and factual language than a state-of-the-art parametric-only seq2seq baseline.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Memory comprised of raw text enables interpretability and human-writable updates",
+      "excerpt": "it is comprised of raw text rather distributed representations, which makes the memory both (i) human-readable, lending a form of interpretability to our model, and (ii) human-writable",
+      "page": "9",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors acknowledge bias in external knowledge sources",
+      "excerpt": "Wikipedia, or any potential external knowledge source, will probably never be entirely factual and completely devoid of bias.",
+      "page": "10",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Potential regulated-domain use is hypothetical only",
+      "excerpt": "RAG could be employed in a wide variety of scenarios with direct benefit to society, for example by endowing it with a medical index and asking it open-domain questions on that topic",
+      "page": "10",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Dialogue appears only as prior related work, not as study focus",
+      "excerpt": "Such tasks include open-domain question answering [5, 29], fact checking [56], fact completion [48], long-form question answering [12], Wikipedia article generation [36], dialogue [41, 65, 9, 13]",
+      "page": "8",
+      "section": "Related Work",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Publication is an arXiv preprint from Facebook AI Research",
+      "excerpt": "arXiv:2005.11401v4 [cs.CL] 12 Apr 2021",
+      "page": "1",
+      "section": "Front Matter",
+      "supports": "bibliographic"
+    }
+  ]
+}

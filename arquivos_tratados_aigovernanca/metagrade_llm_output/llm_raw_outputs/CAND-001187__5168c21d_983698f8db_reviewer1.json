@@ -1,0 +1,175 @@
+{
+  "bibliographic": {
+    "title": "AI chatbots in programming education: guiding success or encouraging plagiarism",
+    "authors": "Gökhan Akçapınar; Elif Sidan",
+    "year": "2024",
+    "venue": "Discover Artificial Intelligence",
+    "doi": "10.1007/s44163-024-00203-7",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Akçapınar, G., & Sidan, E. (2024). AI chatbots in programming education: guiding success or encouraging plagiarism. Discover Artificial Intelligence, 4, 87. https://doi.org/10.1007/s44163-024-00203-7"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "quasi-experimental",
+    "study_design": "one group pretest-posttest quasi-experimental design",
+    "sample_description": "students taking identical programming exams once without AI assistance and once with optional use of a customized AI programming assistant",
+    "sample_size": "unclear",
+    "sector": "higher education",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "customized AI programming assistant developed by authors using GPT-based Large Language Model (LLM); student-AI interaction logs analyzed"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_chatbot",
+      "education_context",
+      "student_ai_interaction",
+      "interaction_logs"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The study empirically evaluates a GPT-based AI programming assistant in an educational setting, including analysis of student-AI interaction logs and risks of accepting incorrect AI outputs and plagiarism. It addresses LLM conversational use and operational risks but does not present governance, compliance, guardrails, audit, or accountability frameworks central to the review scope.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial page 2 were provided; sample size, full methods, ethics, and limitations sections are unavailable for complete appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Clear quasi-experimental objective and reported quantitative outcomes with effect size, but sample size, ethics approval, and full limitations are not visible in the provided excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings on exam performance and acceptance of incorrect AI responses are coherently reported from a defined quasi-experimental design and log analysis, but governance relevance is indirect and incomplete text limits full methodological assessment."
+  },
+  "coding": {
+    "open_codes": [
+      "exam_score_improvement",
+      "incorrect_ai_acceptance",
+      "copy_paste_behavior",
+      "plagiarism_risk",
+      "customized_vs_generic_ai",
+      "student_ai_interaction_logs"
+    ],
+    "axial_codes": [
+      "educational_impact_of_llm_assistants",
+      "learner_overreliance_on_ai",
+      "integrity_risks_in_ai_supported_learning"
+    ],
+    "theme": "Risks and benefits of LLM-based educational assistants",
+    "subtheme": "Student acceptance of incorrect AI outputs and plagiarism in programming education",
+    "concepts": [
+      "large language models",
+      "AI programming assistant",
+      "student-AI interaction",
+      "plagiarism",
+      "incorrect information acceptance",
+      "interaction logs"
+    ],
+    "model_layers": [
+      "interaction_layer",
+      "risk_layer"
+    ],
+    "rq_alignment": [
+      "human_oversight_contestation",
+      "risk_audit_compliance",
+      "regulated_high_stakes"
+    ],
+    "coding_confidence": 0.75
+  },
+  "synthesis": {
+    "main_claim": "Using a customized GPT-based AI programming assistant significantly improved students' exam scores, but most students who received incorrect AI answers accepted or copied them, highlighting overreliance and integrity risks.",
+    "contribution": "Provides empirical evidence that LLM assistants can boost performance while also increasing risks of accepting false AI information and plagiarism-like copying in programming education.",
+    "limitations": "Provided text does not report sample size, full statistical model, ethics procedures, or study limitations.",
+    "use_in_review": "Use as supporting empirical evidence on operational risks of student-LLM interaction (incorrect output acceptance, plagiarism, interaction log analysis) in regulated-adjacent educational contexts, not as primary governance framework evidence."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses a customized GPT-based LLM AI programming assistant in a quasi-experimental design.",
+      "excerpt": "The customized AI programming assistant was developed by the authors using GPT based Large Language Model (LLM). A one group pretest–posttest quasi-experimental design was utilized",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Exam scores increased significantly when students used the AI assistant.",
+      "excerpt": "Results showed that the students’ average exam scores significantly increased from 48.33 to 74.47 with a large effect size (d = 1.56) when they used the AI assistance.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Most students accepted or copied incorrect AI-generated answers.",
+      "excerpt": "AI generated incorrect answers to 36 students. Thirty-three of these students (92%) answered the question incorrectly.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Many students directly copied incorrect AI responses.",
+      "excerpt": "22 of them (61%) copied and pasted the AI’s response directly into the answer field.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors recommend careful integration and customized tools over free ChatGPT.",
+      "excerpt": "underscores the need for careful integration of AI tools into learning environments. Moreover, our findings emphasize the importance of specially developed AI tools rather than free tools like ChatGPT",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Student-AI interaction logs were analyzed.",
+      "excerpt": "when student—AI interaction logs were analyzed for a specific question",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs pose risks of false information and plagiarism in education.",
+      "excerpt": "models can generate false or inaccurate information, which students need to approach critically.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Plagiarism risk is linked to human-like text generation by LLMs.",
+      "excerpt": "The human-like text generation capability of large language models makes it difficult for plagiarism detection software to identify generated content.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Peer-reviewed journal publication with acceptance dates.",
+      "excerpt": "Received: 4 September 2024 / Accepted: 12 November 2024",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study context is programming education rather than formal compliance governance.",
+      "excerpt": "programming education is one of the areas where LLMs are powerful",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

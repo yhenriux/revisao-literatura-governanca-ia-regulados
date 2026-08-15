@@ -1,0 +1,170 @@
+{
+  "bibliographic": {
+    "title": "Automated Environmental Compliance Monitoring with IoT and Open Government Data",
+    "authors": "Lizaveta Miasayedava, Keegan McBride, Jeffrey Andrew Tuhtan",
+    "year": "unclear",
+    "venue": "IEEE Internet of Things Journal (submitted manuscript)",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Miasayedava, L., McBride, K., & Tuhtan, J. A. (unclear). Automated environmental compliance monitoring with IoT and open government data. Manuscript submitted to IEEE Internet of Things Journal."
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "IoT-based environmental compliance monitoring system using open government data",
+    "study_design": "system development and real-world demonstration case study",
+    "sample_description": "Estonia national river monitoring network and EU river regulatory compliance context",
+    "sample_size": "unclear",
+    "sector": "environmental regulation and water resource management",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "Internet of Things, open government data, cyber-physical river sensing networks, environmental flows compliance evaluation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_TECH_NOT_LLM",
+      "E_NOT_CONVERSATIONAL",
+      "E_WRONG_AI_DOMAIN"
+    ],
+    "exclusion_reason": "The article addresses automated environmental regulatory compliance monitoring with IoT and open government data; it does not study LLMs, generative AI, conversational systems, chatbots, agents, or conversational governance.",
+    "decision_rationale": "Although the paper strongly addresses regulatory compliance, government monitoring, and risk in a regulated environmental domain, the provided text contains no LLM, generative AI, or conversational AI focus. Machine learning is mentioned only as a possible future module in IoT data pipelines, not as the core object of study. The work is therefore outside the review scope on conversational governance in LLM-based systems.",
+    "decision_confidence": 0.93,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Exclusion is clear from title, abstract, introduction, and technology description; no conversational or LLM governance content is present in the supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 0,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal is based only on the limited front-matter text provided. The study appears methodologically coherent for an IoT compliance monitoring application, but ethics, limitations, and detailed analytic procedures are not evidenced in the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Confidence in the article's own technical claims is moderate within its IoT compliance domain, but relevance to conversational governance in LLM systems is very low because the supplied text does not address LLMs, conversational interfaces, or AI governance mechanisms applicable to language-model systems."
+  },
+  "coding": {
+    "open_codes": [
+      "environmental_regulatory_compliance",
+      "open_government_data",
+      "IoT_monitoring",
+      "river_eflows",
+      "adaptive_regulation",
+      "national_scale_monitoring"
+    ],
+    "axial_codes": [
+      "regulated_environmental_monitoring",
+      "government_data_reuse",
+      "automated_compliance_evaluation"
+    ],
+    "theme": "IoT-enabled regulatory compliance monitoring",
+    "subtheme": "environmental flows compliance using open government river data",
+    "concepts": [
+      "environmental flows",
+      "open government data",
+      "Internet of Open Government Data and Things",
+      "EU Water Framework Directive",
+      "automated compliance evaluation"
+    ],
+    "model_layers": [
+      "data_layer",
+      "monitoring_layer",
+      "compliance_evaluation_layer"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "IoT-generated open government data can be repurposed to build a scalable automated system for environmental flows regulatory compliance monitoring and evaluation at national scale.",
+    "contribution": "Proposes and demonstrates an IoT-based compliance evaluation approach using routinely collected river monitoring data, illustrated with Estonia's national river monitoring network.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude as central or supporting evidence because it does not address conversational AI or LLM governance; it may serve only as distant contextual background on generic regulatory compliance automation outside language-model systems."
+  },
+  "evidence": [
+    {
+      "claim": "Article focus is environmental regulatory compliance automation with IoT and open government data, not LLM or conversational systems.",
+      "excerpt": "we explore how IoT-generated open government data can be used to enhance the development of an automated IoT-based eflows compliance system",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated environmental compliance domain is explicit.",
+      "excerpt": "Properly managing these impacts relies on a government's ability to ensure environmental regulatory compliance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Real-world empirical demonstration context is Estonia's river monitoring network.",
+      "excerpt": "we demonstrate a real-world application of our system using open government data from Estonia's national river monitoring network",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "EU water regulation provides the compliance framework.",
+      "excerpt": "environmental regulatory compliance in rivers within the European Union (EU)",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Machine learning is only a future IoT pipeline capability, not the study's core technology.",
+      "excerpt": "integration of modules performing intelligent computing (advanced analytics, machine learning and data-driven learning) can be applied to data pipelines",
+      "page": "7",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Future-work mention of machine learning does not establish LLM or generative AI specificity.",
+      "excerpt": "In future works, we will investigate the trade-offs in compl",
+      "page": "7",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational AI, chatbot, agent, or dialogue governance content appears in the supplied text.",
+      "excerpt": "SUBMITTED TO IEEE INTERNET OF THINGS JOURNAL 1 Automated Environmental Compliance Monitoring with IoT and Open Government Data",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study objective is clearly stated around automated compliance evaluation.",
+      "excerpt": "the proposed IoT-based system provides a simple evaluation tool that re-purposes IoT-generated open government data to evaluate compliance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Transferability claim supports reuse by authorities with similar monitoring data.",
+      "excerpt": "Our approach allows for any authority with similar data to rapidly develop, test and verify a scalable solution",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Governance term in metadata match refers to author affiliation, not conversational governance.",
+      "excerpt": "K. McBride is with Hertie School's Centre for Digital Governance",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

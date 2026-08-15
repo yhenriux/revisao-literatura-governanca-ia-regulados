@@ -1,0 +1,159 @@
+{
+  "bibliographic": {
+    "title": "Sustainable AI: AI for sustainability and the sustainability of AI",
+    "authors": "Aimee van Wynsberghe",
+    "year": "2021",
+    "venue": "AI and Ethics",
+    "doi": "10.1007/s43681-021-00043-6",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "van Wynsberghe, A. (2021). Sustainable AI: AI for sustainability and the sustainability of AI. AI and Ethics, 1, 213–218. https://doi.org/10.1007/s43681-021-00043-6"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "opinion paper",
+    "study_design": "conceptual argument and definitional framework",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "cross-sector AI ethics and policy",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "general AI, machine learning, deep learning, and NLP models discussed for environmental cost; no conversational or LLM-system governance focus"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "TOPIC_MISMATCH",
+      "NO_CONVERSATIONAL_AI",
+      "NO_LLM_CONVERSATIONAL_GOVERNANCE"
+    ],
+    "exclusion_reason": "Opinion paper on environmental sustainability of AI; does not address conversational AI, LLM-based systems, or conversational governance in regulated environments.",
+    "decision_rationale": "The article proposes a definition of Sustainable AI and a third wave of AI ethics centered on environmental impact. Although it mentions governance across the AI product lifecycle and responsible AI, it does not examine chatbots, agents, RAG, guardrails, observability, human oversight, or compliance mechanisms for conversational systems in regulated domains.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appropriate as a conceptual opinion piece with clear definitional aim, but not empirically grounded and not transferable to conversational LLM governance review questions."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The argument is internally coherent and clearly stated, but methodological depth is limited by the opinion format and direct relevance to conversational LLM governance in regulated settings is very low."
+  },
+  "coding": {
+    "open_codes": [
+      "Sustainable AI definition",
+      "AI lifecycle governance",
+      "environmental costs of AI",
+      "responsible AI",
+      "third wave AI ethics",
+      "NLP training emissions",
+      "policy proportionality"
+    ],
+    "axial_codes": [
+      "AI ethics framing",
+      "environmental sustainability",
+      "lifecycle governance",
+      "policy and proportionality"
+    ],
+    "theme": "Environmental sustainability of AI",
+    "subtheme": "Lifecycle governance as part of Sustainable AI",
+    "concepts": [
+      "Sustainable AI",
+      "AI for sustainability",
+      "sustainability of AI",
+      "sociotechnical system of AI",
+      "equitable resource distribution",
+      "inter and intra-generational justice"
+    ],
+    "model_layers": [
+      "governance",
+      "lifecycle",
+      "policy"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Sustainable AI is a movement to foster change in the entire lifecycle of AI products toward greater ecological integrity and social justice, comprising AI for sustainability and the sustainability of AI.",
+    "contribution": "Offers a conceptual definition of Sustainable AI and argues for a third wave of AI ethics that places sustainable development and environmental costs at the core of AI discourse.",
+    "limitations": "The paper states it is not meant to engage with each pillar of sustainability in depth and is meant to inspire rather than comprehensively analyze governance mechanisms.",
+    "use_in_review": "Not suitable as central or supporting evidence for a review on conversational governance in LLM systems; at most marginal foundational context for broad AI lifecycle governance language."
+  },
+  "evidence": [
+    {
+      "claim": "Publication is a peer-reviewed journal opinion paper.",
+      "excerpt": "OPINION PAPER Sustainable AI: AI for sustainability and the sustainability of AI",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Article proposes a lifecycle governance framing for AI products.",
+      "excerpt": "Sustainable AI is a movement to foster change in the entire lifecycle of AI products (i.e. idea generation, training, re-tuning, implementation, governance)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Focus is environmental sustainability of AI, not conversational systems.",
+      "excerpt": "this paper is meant to inspire the reader, the policy maker, the AI ethicist, the AI developer to connect with the environment—to remember that there are environmental costs to AI",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Discusses generic ML/NLP environmental costs rather than LLM conversational governance.",
+      "excerpt": "training a single, deep learning, natural language processing (NLP) model (GPU) can lead to approx. 600,000 lb of carbon dioxide emissions",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Mentions explainability and bias as second-wave AI ethics concerns, not conversational oversight.",
+      "excerpt": "the black-box algorithm and the problem of explainability",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Calls for policy-level governance of AI methods proportionality, not conversational guardrails.",
+      "excerpt": "it is time for policy makers to govern AI at a more detailed level and suggest that certain methods, for example tuning a deep learning NLP model, should not be permitted for ethically charged tasks",
+      "page": "4",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Author acknowledges limited scope across sustainability pillars.",
+      "excerpt": "this paper is not meant to engage with each of the three pillars of sustainability (i.e. social, economic, environment)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational AI, chatbot, agent, RAG, or operational monitoring content appears in provided text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

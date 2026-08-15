@@ -1,0 +1,173 @@
+{
+  "bibliographic": {
+    "title": "A Privacy by Design Framework for Large Language Model-Based Applications for Children",
+    "authors": "Diana Addae; Diana Rogachova; Nafiseh Kahani; Masoud Barati; Michael Christensen; Chen Zhou",
+    "year": "2026",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Addae, D., Rogachova, D., Kahani, N., Barati, M., Christensen, M., & Zhou, C. (2026). A privacy by design framework for large language model-based applications for children. [Venue unclear]."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "framework development and regulatory mapping",
+    "study_design": "conceptual framework with literature-based operational control mapping and illustrative case study",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "children's digital applications; education",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Large Language Model-based applications for children, including educational tools, conversational agents, and LLM-powered storytelling bots"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_review",
+    "inclusion_codes": [
+      "LLM_applications",
+      "privacy_governance",
+      "regulated_children_context",
+      "operational_monitoring",
+      "conversational_agents_mentioned"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article proposes a Privacy-by-Design framework mapping GDPR, PIPEDA, COPPA, UNCRC, and AADC principles to LLM application stages, including operational monitoring and ongoing validation, with a case study of an LLM-based educational tutor for children under 13. It is relevant to governance, privacy, compliance, and regulated educational LLM use, but the primary contribution is children's data privacy rather than conversational governance mechanisms such as oversight, contestation, or accountability in dialogue systems.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted bibliographic metadata is corrupted; only front matter and a fragment of page 5 were provided, so peer-review status, venue, methods detail, results, and limitations cannot be fully verified."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Appraisal is limited to the abstract, introduction, and one partial sentence from a later section. The stated approach—mapping regulatory principles to LLM lifecycle stages and illustrating application via a case study—fits a methodological framework paper, but sampling, literature search methods, analysis procedures, results, and limitations are not described in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The framework objective and lifecycle mapping are clearly articulated and internally coherent in the available text. Relevance to regulated LLM governance is moderate-to-high for privacy and operational controls, but confidence is moderated because only partial text is available and empirical validation beyond a case study is unclear."
+  },
+  "coding": {
+    "open_codes": [
+      "privacy-by-design",
+      "children's data privacy",
+      "LLM lifecycle stages",
+      "operational monitoring",
+      "ongoing validation",
+      "technical and organizational controls",
+      "age-appropriate design",
+      "conversational agents",
+      "educational tutor case study",
+      "data governance"
+    ],
+    "axial_codes": [
+      "regulatory compliance mapping",
+      "privacy risk mitigation",
+      "operational technical governance",
+      "regulated children's applications"
+    ],
+    "theme": "Privacy and data governance framework for LLM-based applications targeting children",
+    "subtheme": "Regulatory alignment across data collection, training, monitoring, and validation in educational/conversational LLM contexts",
+    "concepts": [
+      "Privacy-by-Design",
+      "GDPR",
+      "PIPEDA",
+      "COPPA",
+      "UNCRC",
+      "Age-Appropriate Design Code",
+      "operational controls",
+      "LLM memorization risk",
+      "data governance"
+    ],
+    "model_layers": [
+      "data collection",
+      "model training",
+      "operational monitoring",
+      "ongoing validation",
+      "design guidelines for children"
+    ],
+    "rq_alignment": [
+      "privacy governance in regulated LLM environments",
+      "operational monitoring and validation controls",
+      "governance of conversational/educational LLM applications for vulnerable users"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "A Privacy-by-Design framework can guide proactive, risk-averse design of LLM-based applications for children by mapping privacy regulatory principles to LLM lifecycle stages and supporting compliance through technical and organizational controls.",
+    "contribution": "Integrates multiple privacy regulations and child-rights design standards into a staged framework for LLM applications, discusses operational controls from recent literature, and demonstrates application through an LLM-based educational tutor case study for children under 13.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence on privacy governance, regulatory compliance, and operational monitoring/validation controls for LLM applications in regulated children's and educational contexts; secondary support for conversational LLM applications where privacy and lifecycle governance are relevant."
+  },
+  "evidence": [
+    {
+      "claim": "Article title and authorship",
+      "excerpt": "A Privacy by Design Framework for Large Language Model-Based Applications for Children",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Framework maps privacy regulations to LLM lifecycle stages including monitoring and validation",
+      "excerpt": "We map these principles to various stages of applications that use Large Language Models (LLMs), including data collection, model training, operational monitoring, and ongoing validation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Case study concerns an LLM-based educational tutor for children under 13",
+      "excerpt": "we present a case study of an LLM-based educational tutor for children under 13.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Paper addresses conversational LLM applications for children",
+      "excerpt": "educational tools, conversational agents, and LLM-powered storytelling bots can offer children engaging and personalized experiences",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated legal context is explicit",
+      "excerpt": "principles from several privacy regulations, such as the General Data Protection Regulation (GDPR) from the European Union, the Personal Information Protection and Electronic Documents Act (PIPEDA) from Canada, and the Children's Online Privacy Protection Act (COPPA) from the United States.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Framework aims to reduce privacy risks while meeting legal standards",
+      "excerpt": "operational controls found in the recent academic literature to help AI service providers and developers reduce privacy risks while meeting legal standards.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Index terms include data governance",
+      "excerpt": "Index Terms—Large Language Models, Privacy-by-Design, Children's Data Privacy, Data Protection Regulations, Data Governance",
+      "page": "1",
+      "section": "front matter",
+      "supports": "coding"
+    },
+    {
+      "claim": "Later section introduces technical analysis of privacy principles",
+      "excerpt": "this section serves as a technical introduction to the following sections, which will analyze specific privacy principle",
+      "page": "5",
+      "section": "introduction",
+      "supports": "appraisal"
+    }
+  ]
+}

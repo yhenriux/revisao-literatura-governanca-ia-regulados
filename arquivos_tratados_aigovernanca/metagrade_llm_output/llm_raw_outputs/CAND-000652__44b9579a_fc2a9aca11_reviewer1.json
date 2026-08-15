@@ -1,0 +1,203 @@
+{
+  "bibliographic": {
+    "title": "AGENTOPS: ENABLING OBSERVABILITY OF LLM AGENTS",
+    "authors": "Liming Dong, Qinghua Lu, Liming Zhu",
+    "year": "2024",
+    "venue": "arXiv preprint arXiv:2411.05285v2",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Dong, L., Lu, Q., & Zhu, L. (2024). AgentOps: Enabling observability of LLM agents. arXiv preprint arXiv:2411.05285."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "systematic mapping study",
+    "study_design": "systematic mapping study of existing AgentOps tools to develop a taxonomy",
+    "sample_description": "existing AgentOps tools",
+    "sample_size": "unclear",
+    "sector": "software engineering and general LLM agent applications",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM agents, AgentOps, observability infrastructure including monitoring, logging, analytics, and tracing across the agent lifecycle"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_AGENTS",
+      "OBSERVABILITY",
+      "OPERATIONAL_GOVERNANCE",
+      "AI_SAFETY",
+      "TAXONOMY"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_FOCUS",
+      "NO_REGULATED_DOMAIN"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper directly addresses observability, monitoring, logging, and analytics for LLM agents via an AgentOps taxonomy derived from a systematic mapping study, which aligns with operational and technical governance dimensions of the review. However, the provided text contains no explicit focus on conversational systems, chatbots, regulated high-stakes domains, human oversight, compliance, or accountability beyond general AI safety framing.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front matter (pages 1-2) was supplied; full taxonomy, mapping protocol, tool sample, results, limitations, and regulated-context relevance cannot be verified."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Objective and method type are clearly stated, but appraisal is limited by incomplete text: sample size, mapping protocol, analysis procedures, limitations, and full taxonomy content are not available in the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The abstract and introduction coherently link AgentOps observability to AI safety for LLM agents, but evidence adequacy for appraisal is constrained because only partial front matter was provided and regulated or conversational governance relevance is not demonstrated in the supplied text."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM agents",
+      "AgentOps",
+      "observability",
+      "systematic mapping study",
+      "taxonomy",
+      "monitoring",
+      "logging",
+      "analytics",
+      "AI safety",
+      "autonomous agents",
+      "non-deterministic behavior",
+      "lifecycle tracing"
+    ],
+    "axial_codes": [
+      "operational_technical_governance",
+      "risk_monitoring",
+      "agent_infrastructure"
+    ],
+    "theme": "Operational observability governance for LLM agents",
+    "subtheme": "AgentOps taxonomy and lifecycle tracing",
+    "concepts": [
+      "observability",
+      "AgentOps",
+      "taxonomy",
+      "monitoring",
+      "logging",
+      "analytics",
+      "tracing",
+      "AI safety",
+      "compound AI systems",
+      "runtime artifacts"
+    ],
+    "model_layers": [
+      "monitoring",
+      "logging",
+      "tracing",
+      "analytics",
+      "lifecycle governance"
+    ],
+    "rq_alignment": [
+      "observability",
+      "monitoring",
+      "logging",
+      "tracing",
+      "operational governance",
+      "AI safety",
+      "risk control"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "A comprehensive AgentOps taxonomy, developed through a systematic mapping study of existing tools, identifies artifacts and data that should be traced across the LLM agent lifecycle to enable observability and support AI safety.",
+    "contribution": "Provides a reference template for designing AgentOps infrastructure that supports monitoring, logging, and analytics for LLM agents.",
+    "limitations": "Provided excerpt does not include full mapping methods, sample of tools, complete taxonomy, empirical validation, or discussion of regulated-domain, conversational, or human-oversight governance requirements.",
+    "use_in_review": "Use as supporting evidence for operational and technical governance of LLM-based agent systems, especially observability, monitoring, logging, tracing, and anomaly detection; not sufficient as central evidence for conversational governance in regulated environments."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses specifically on LLM agents.",
+      "excerpt": "Hereafter, we use \"agents\" to refer specifically to LLM agents throughout this paper.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses a systematic mapping study of AgentOps tools.",
+      "excerpt": "The taxonomy is developed based on a systematic mapping study of existing AgentOps tools.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Core contribution is an AgentOps taxonomy for lifecycle observability.",
+      "excerpt": "we present a comprehensive taxonomy of AgentOps, identifying the artifacts and associated data that should be traced throughout the entire lifecycle of agents to achieve effective observability.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Observability is framed as necessary for AI safety.",
+      "excerpt": "From a DevOps perspective, enabling observability in agents is necessary to ensuring AI safety",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "AgentOps infrastructure should support monitoring, logging, and analytics.",
+      "excerpt": "Our taxonomy serves as a reference template for developers to design and implement AgentOps infrastructure that supports monitoring, logging, and analytics.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLM agents pose safety risks due to autonomy and non-determinism.",
+      "excerpt": "these agents raise significant concerns on AI safety due to their autonomous and non-deterministic behavior",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Agents are compound systems with design-time and runtime artifacts.",
+      "excerpt": "The agents are compound AI systems, integrating LLMs with various components (i.e., design time artifacts), such as context engine and external tools, and dynamically generating runtime artifacts, such as goals and plans.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Example application domain mentioned is software engineering.",
+      "excerpt": "many agents are being successfully applied in the software engineering domain, such as Devin 1, ChatDev 2, SWE-agent 3.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Autonomy and dynamic external interaction may increase unintended risk.",
+      "excerpt": "The agents operate with a high degree of autonomy, dynamically interact with external environments, including shifting context, external knowledge bases and tools.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No conversational-system focus is evidenced in the supplied text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No regulated-domain application is evidenced in the supplied text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

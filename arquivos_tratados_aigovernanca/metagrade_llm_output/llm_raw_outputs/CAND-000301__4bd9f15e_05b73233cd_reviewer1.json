@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "The TRIPOD-LLM reporting guideline for studies using large language models",
+    "authors": "Jack Gallifant, Majid Afshar, Saleem Ameen, Yindalon Aphinyanaphongs, Shan Chen, Giovanni Cacciamani, Dina Demner-Fushman, Dmitriy Dligach, Roxana Daneshjou, Chrystinne Fernandes, Lasse Hyldig Hansen, Adam Landman, Lisa Lehmann, Liam G. McCoy, Timothy Miller, Amy Moreno, Nikolaj Munch, David Restrepo, Guergana Savova, Renato Umeton, Judy Wawira Gichoya, Gary S. Collins, Karel G. M. Moons, Leo A. Celi, Danielle S. Bitterman",
+    "year": "2025",
+    "venue": "Nature Medicine",
+    "doi": "10.1038/s41591-024-03425-5",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Gallifant, J., Afshar, M., Ameen, S., Aphinyanaphongs, Y., Chen, S., Cacciamani, G., Demner-Fushman, D., Dligach, D., Daneshjou, R., Fernandes, C., Hansen, L. H., Landman, A., Lehmann, L., McCoy, L. G., Miller, T., Moreno, A., Munch, N., Restrepo, D., Savova, G., Umeton, R., Gichoya, J. W., Collins, G. S., Moons, K. G. M., Celi, L. A., & Bitterman, D. S. (2025). The TRIPOD-LLM reporting guideline for studies using large language models. Nature Medicine, 31(1), 60–69. https://doi.org/10.1038/s41591-024-03425-5"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "expedited Delphi process and expert consensus for guideline development",
+    "study_design": "consensus statement / reporting guideline development",
+    "sample_description": "expert consensus group; specific participant numbers unclear from provided text",
+    "sample_size": "unclear",
+    "sector": "healthcare / biomedical research",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models in biomedical and healthcare applications, including chatbot solutions, NLP tasks, diagnosis, prognosis, patient communication, and medical education"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_relevant",
+      "regulated_healthcare_context",
+      "governance_transparency_oversight",
+      "reporting_standard"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a methodological consensus statement extending TRIPOD+AI into TRIPOD-LLM for transparent reporting of LLM studies in healthcare. It addresses transparency, human oversight, regulatory governance gaps, and regulated biomedical contexts, but does not empirically study conversational governance, guardrails, observability, or operational controls in deployed conversational systems. It is best classified as foundational/contextual evidence for accountability and reporting standards rather than central evidence on conversational governance.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python metadata incorrectly labels publication as preprint; text shows Nature Medicine Volume 31, January 2025, Consensus Statement. Confirm full-text scope beyond excerpt for conversational-governance-specific items."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Appraisal based on limited front-matter excerpt. Guideline objective and Delphi-based development are clearly stated; detailed consensus procedures, participant selection, and full checklist content are not fully visible in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The guideline development approach is coherent and clearly described at a high level, but the excerpt provides insufficient detail to fully assess Delphi sampling, consensus thresholds, or completeness of governance-related checklist items for conversational systems."
+  },
+  "coding": {
+    "open_codes": [
+      "reporting guideline",
+      "TRIPOD-LLM",
+      "transparency",
+      "human oversight",
+      "Delphi consensus",
+      "healthcare LLM adoption",
+      "regulatory governance gaps",
+      "chatbot solutions",
+      "modular reporting format"
+    ],
+    "axial_codes": [
+      "research transparency standards",
+      "accountability in regulated healthcare",
+      "methodological governance of LLM studies",
+      "human oversight in biomedical AI"
+    ],
+    "theme": "Standardized transparent reporting for LLM research in regulated healthcare",
+    "subtheme": "Consensus-based reporting guideline emphasizing transparency and human oversight",
+    "concepts": [
+      "TRIPOD-LLM",
+      "transparency",
+      "human oversight",
+      "task-specific performance reporting",
+      "living document",
+      "modular checklist"
+    ],
+    "model_layers": [
+      "governance and compliance",
+      "accountability and reporting",
+      "human oversight"
+    ],
+    "rq_alignment": [
+      "transparency",
+      "human oversight",
+      "accountability",
+      "regulated healthcare context",
+      "standardization"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "TRIPOD-LLM is an extension of TRIPOD+AI that provides a comprehensive checklist to standardize transparent reporting of studies using large language models in biomedical applications.",
+    "contribution": "Introduces 19 main items and 50 subitems in a modular format applicable across LLM research designs and tasks; developed via expedited Delphi and expert consensus; emphasizes transparency, human oversight, and task-specific performance reporting; includes an interactive website for guideline completion.",
+    "limitations": "Provided excerpt does not include the article's full limitations section; guideline is described as a living document that will evolve with the field.",
+    "use_in_review": "Use as foundational/contextual evidence on research reporting standards that support accountability, transparency, and human oversight for LLM studies in regulated healthcare; not primary evidence for operational conversational governance mechanisms such as guardrails, logging, tracing, or post-deployment monitoring."
+  },
+  "evidence": [
+    {
+      "claim": "Published as peer-reviewed Nature Medicine consensus statement in 2025",
+      "excerpt": "Nature Medicine | Volume 31 | January 2025 | 60–69",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Article presents TRIPOD-LLM reporting guideline for LLM studies",
+      "excerpt": "We present transparent reporting of a multivariable model for individual prognosis or diagnosis (TRIPOD)-LLM, an extension of the TRIPOD + artificial intelligence statement",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Guideline developed through expedited Delphi and expert consensus",
+      "excerpt": "Developed through an expedited Delphi process and expert consensus, TRIPOD-LLM emphasizes transparency, human oversight and task-specific performance reporting.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Checklist comprises 19 main items and 50 subitems",
+      "excerpt": "TRIPOD-LLM provides a comprehensive checklist of 19 main items and 50 subitems, covering key aspects from title to discussion.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Modular format accommodates various LLM research designs",
+      "excerpt": "The guidelines introduce a modular format accommodating various LLM research designs and tasks, with 14 main items and 32 subitems applicable across all categories.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Healthcare is a regulated high-stakes domain for LLM deployment",
+      "excerpt": "Healthcare’s embrace of large language models (LLMs) shows no signs of slowing down, with current and future deployment being considered in several domains across administrative and healthcare delivery use cases",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Existing regulatory and governance structures are strained by LLM development",
+      "excerpt": "The rapid advancements in LLMs have stretched existing regulatory and governance structures to their limits, exposing a patchwork of solutions that do not fully encompass the nuances of these all-purpose models",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Conversational/chatbot use of LLMs is explicitly mentioned",
+      "excerpt": "Chatbot solutions (for example, ChatGPT) use LLMs as their fo",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs perform healthcare-related NLP tasks from a single model",
+      "excerpt": "capabilities to perform a wide range of healthcare-related natural language processing (NLP) tasks from a single model",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Guideline aims to enhance quality, reproducibility, and clinical applicability through comprehensive reporting",
+      "excerpt": "aiming to enhance the quality, reproducibility and clinical applicability of LLM research in healthcare through comprehensive reporting",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

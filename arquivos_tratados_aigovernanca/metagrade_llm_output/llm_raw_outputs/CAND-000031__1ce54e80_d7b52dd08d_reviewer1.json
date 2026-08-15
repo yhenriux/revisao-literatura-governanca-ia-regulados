@@ -1,0 +1,206 @@
+{
+  "bibliographic": {
+    "title": "Standardizing and Scaffolding Health Care AI-Chatbot Evaluation: Systematic Review",
+    "authors": "Yining Hua; Winna Xia; David Bates; George Luke Hartstein; Hyungjin Tom Kim; Michael Li; Benjamin W Nelson; Charles Stromeyer IV; Darlene King; Jina Suh; Li Zhou; John Torous",
+    "year": "2025",
+    "venue": "JMIR AI",
+    "doi": "10.2196/69006",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Hua, Y., Xia, W., Bates, D., Hartstein, G. L., Kim, H. T., Li, M., Nelson, B. W., Stromeyer, C., IV, King, D., Suh, J., Zhou, L., & Torous, J. (2025). Standardizing and scaffolding health care AI-chatbot evaluation: Systematic review. JMIR AI, 4, e69006. https://doi.org/10.2196/69006"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "PRISMA-guided systematic review with stakeholder-informed framework synthesis",
+    "study_design": "systematic review",
+    "sample_description": "266 records identified across multiple databases; 152 screened; 21 full texts assessed; 11 evaluation frameworks included; 356 questions extracted and refined to 271",
+    "sample_size": "11 frameworks",
+    "sector": "health care",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "health care chatbots and conversational agents, including generative AI and large language models, for patient-facing and back-office use cases"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full-text assessment and inclusion completed within a PRISMA-guided systematic review",
+    "inclusion_codes": [
+      "systematic_review",
+      "health_care_chatbots",
+      "generative_ai",
+      "evaluation_framework",
+      "governance_constructs"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a PRISMA-guided systematic review that synthesizes existing frameworks into HAICEF, a structured evaluation scaffold for health care chatbots in a regulated health context. It explicitly addresses generative AI, conversational agents, safety, privacy, fairness, transparency, accountability, compliance, and responsible implementation.",
+    "decision_confidence": 0.91,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial excerpts were provided; full methods, results tables, and limitations sections were not fully available for complete appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Methods are clearly reported for screening, inclusion, question extraction, deduplication, mapping to Coalition for Health AI constructs, and iterative stakeholder input. Prospective validation is planned but not yet reported, limiting certainty about applied performance of the framework."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The review is transparent, PRISMA-guided, and directly relevant to governance and evaluation of health care conversational AI. Confidence is moderated because the developed framework has not yet undergone prospective validation and accountability/accessibility assurances are only planned for future Delphi work."
+  },
+  "coding": {
+    "open_codes": [
+      "HAICEF",
+      "PRISMA systematic review",
+      "health care chatbots",
+      "evaluation questions",
+      "stakeholder input",
+      "safety privacy fairness",
+      "trustworthiness",
+      "operational effectiveness",
+      "HIPAA",
+      "GDPR",
+      "bias management",
+      "transparency",
+      "accountability"
+    ],
+    "axial_codes": [
+      "evaluation governance",
+      "regulated health care AI",
+      "conversational AI standards",
+      "responsible implementation"
+    ],
+    "theme": "Standardized evaluation governance for health care conversational AI",
+    "subtheme": "Stakeholder-informed evaluation frameworks for generative AI chatbots",
+    "concepts": [
+      "Health Care AI Chatbot Evaluation Framework",
+      "Coalition for Health AI constructs",
+      "data provenance",
+      "harm control",
+      "workflow integration",
+      "reliability",
+      "fairness",
+      "privacy and security"
+    ],
+    "model_layers": [
+      "policy_compliance",
+      "risk_safety",
+      "operational_deployment",
+      "accountability_oversight",
+      "monitoring_evaluation"
+    ],
+    "rq_alignment": [
+      "governance of conversational AI",
+      "evaluation and audit standards",
+      "compliance in regulated health contexts",
+      "accountability and transparency",
+      "privacy and safety controls",
+      "human-centered oversight through stakeholder review"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "The authors developed HAICEF, a hierarchical stakeholder-informed framework with 3 priority domains, 18 second-level constructs, 60 third-level constructs, and 271 evaluation questions to standardize evaluation and responsible implementation of health care chatbots.",
+    "contribution": "Provides an adaptable scaffold for comparing and evaluating health care chatbots, mapping extracted questions to Coalition for Health AI constructs and emphasizing safety, privacy, fairness, trustworthiness, transparency, bias management, and workflow integration in regulated health settings.",
+    "limitations": "Prospective validation across settings is only planned, not completed; Delphi consensus to extend accountability and accessibility assurances is a future step; provided text does not fully report study limitations or independent validation outcomes.",
+    "use_in_review": "Use as central evidence on evaluation governance frameworks for LLM/generative AI chatbots in regulated health care, especially for constructs related to safety, privacy, fairness, transparency, accountability, compliance, and operational deployment."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a PRISMA-guided systematic review of health care chatbot evaluation frameworks.",
+      "excerpt": "Methods: PRISMA (Preferred Reporting Items for Systematic reviews and Meta-Analyses)–guided searches across multiple databases identified 266 records; 152 were screened, 21 full texts were assessed, and 11 frameworks were included.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study targets generative AI health care chatbots where existing standards are insufficient.",
+      "excerpt": "Background: Health care chatbots are rapidly proliferating, while generative artificial intelligence (AI) outpaces existing evaluation standards.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "HAICEF organizes evaluation around safety, privacy, fairness, trustworthiness, usefulness, and operational effectiveness.",
+      "excerpt": "We developed the Health Care AI Chatbot Evaluation Framework (HAICEF), a hierarchical framework with 3 priority domains (safety, privacy, and fairness; trustworthiness and usefulness; and design and operational effectiveness) and 18 second-level and 60 third-level constructs covering 271 questions.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Framework emphasizes governance-related controls including privacy, security, bias, transparency, and harm control.",
+      "excerpt": "Emphasis includes data provenance and harm control; Health Insurance Portability and Accountability Act/General Data Protection Regulation–aligned privacy and security; bias management; and reliability, transparency, and workflow integration.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Framework development used stakeholder-informed iterative input.",
+      "excerpt": "mapped items to Coalition for Health AI constructs, and organized them with iterative input from clinicians, patients, developers, epidemiologists, and policymakers.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Accountability assurances remain incomplete and are planned for future work.",
+      "excerpt": "Planned next steps include prospective validation across settings and a Delphi consensus to extend accountability and accessibility assurances.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Article explicitly concerns conversational agents/chatbots in health care.",
+      "excerpt": "The rapid rise of chatbots, also known as conversational agents, has garnered substantial interest in the health care market.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Generative AI chatbots outpace regulatory frameworks and lack stable evaluation targets.",
+      "excerpt": "Rapid technological advancements, particularly in generative AI, outpace existing regulatory frameworks [10], complicating the establishment of evaluation standards.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Keywords confirm LLM and generative AI relevance.",
+      "excerpt": "KEYWORDS large language model; artificial intelligence; AI chatbots; evaluation framework; generative AI",
+      "page": "1",
+      "section": "Keywords",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Review included 11 frameworks after full-text assessment.",
+      "excerpt": "21 full texts were assessed, and 11 frameworks were included.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Question corpus was extracted, deduplicated, and refined for relevance.",
+      "excerpt": "We extracted 356 questions (refined to 271 by deduplication and relevance review)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Framework supports both patient-facing and back-office chatbot use cases.",
+      "excerpt": "The framework accommodates both patient-facing and back-office use cases.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

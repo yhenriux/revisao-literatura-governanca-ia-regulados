@@ -1,0 +1,179 @@
+{
+  "bibliographic": {
+    "title": "Large language models propagate race-based medicine",
+    "authors": "Jesutofunmi A. Omiye, Jenna C. Lester, Simon Spichak, Veronica Rotemberg, Roxana Daneshjou",
+    "year": "2023",
+    "venue": "npj Digital Medicine",
+    "doi": "10.1038/s41746-023-00939-z",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Omiye, J. A., Lester, J. C., Spichak, S., Rotemberg, V., & Daneshjou, R. (2023). Large language models propagate race-based medicine. npj Digital Medicine, 6(1), 195. https://doi.org/10.1038/s41746-023-00939-z"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative LLM prompt interrogation with repeated trials",
+    "study_design": "expert-derived scenario questioning of four commercial LLMs, nine questions each interrogated five times (45 responses per model)",
+    "sample_description": "four commercially available large language models assessed with medical race-based medicine and misconception scenarios",
+    "sample_size": "45 responses per model (nine questions x five repetitions x four models)",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "commercially available LLMs queried with medically relevant questions; some models described as connecting to electronic health record systems; Bard noted as internet-accessible"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_HEALTHCARE",
+      "BIAS_HARM",
+      "REGULATED_DOMAIN",
+      "DEPLOYMENT_RISK"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_GOVERNANCE_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study provides primary empirical evidence that commercial LLMs in healthcare-oriented use can propagate harmful race-based medicine and show response inconsistency, supporting risk, bias, and harm themes in regulated LLM deployment. It does not examine conversational governance mechanisms such as guardrails, observability, human oversight, audit, compliance controls, or operational governance frameworks, so it is not central evidence for conversational governance.",
+    "decision_confidence": 0.74,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front-matter text was supplied; full methods, complete model list, analysis procedures, limitations, and absence of governance framing should be verified before final inclusion."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Brief communication with a clearly stated objective and repeatable interrogation design. Provided excerpt lacks full methods, scoring rubric, statistical analysis, ethics discussion, and explicit limitations, limiting appraisal of rigor and transparency."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are coherent and adequately supported for the narrow claim that tested LLMs can output race-based medical misconceptions, but methodological detail is limited in the supplied text and the study's relevance to conversational governance is indirect."
+  },
+  "coding": {
+    "open_codes": [
+      "race-based medicine",
+      "LLM medical responses",
+      "response inconsistency",
+      "training data opacity",
+      "healthcare deployment harm",
+      "commercial LLM evaluation"
+    ],
+    "axial_codes": [
+      "algorithmic bias",
+      "patient safety risk",
+      "regulated healthcare AI",
+      "model output auditing"
+    ],
+    "theme": "LLM safety and bias in healthcare deployment",
+    "subtheme": "propagation of debunked race-based medical beliefs by commercial LLMs",
+    "concepts": [
+      "bias",
+      "harm",
+      "fairness",
+      "transparency",
+      "accountability",
+      "safety"
+    ],
+    "model_layers": [
+      "training data",
+      "model outputs",
+      "deployment context"
+    ],
+    "rq_alignment": [
+      "risk and harm in regulated LLM use",
+      "bias and fairness concerns",
+      "limited alignment with conversational governance controls"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Four commercially available LLMs propagate harmful, inaccurate race-based medical content in response to expert-derived medical scenarios and are not always consistent across repeated identical questions.",
+    "contribution": "Empirical demonstration that LLMs proposed for healthcare and EHR-connected use can reproduce debunked racist medical ideas, highlighting deployment risk in a regulated domain.",
+    "limitations": "Supplied text does not report full model identification, complete analytic methods, formal bias measurement framework, governance interventions, or study limitations.",
+    "use_in_review": "Use as supporting evidence on LLM bias, harm, and deployment risk in regulated healthcare contexts; not as central evidence on conversational governance architecture, oversight, or operational control mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Clear study objective focused on race-based medical content in LLMs",
+      "excerpt": "The objective of this study is to assess whether four commercially available large language models (LLMs) propagate harmful, inaccurate, race-based content",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Empirical design with repeated questioning of multiple LLMs",
+      "excerpt": "We assessed four large language models with nine different questions that were interrogated five times each with a total of 45 responses per model.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "methodology"
+    },
+    {
+      "claim": "All tested models showed harmful race-based outputs",
+      "excerpt": "All models had examples of perpetuating race-based medicine in their responses.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Response inconsistency across repeated identical prompts",
+      "excerpt": "Models were not always consistent in their responses when asked the same question repeatedly.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "coding"
+    },
+    {
+      "claim": "Healthcare regulated deployment context with potential harm",
+      "excerpt": "LLMs are being proposed for use in the healthcare setting, with some models already connecting to electronic health record systems.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Harm and debunked racist ideas as outcome risk",
+      "excerpt": "these LLMs could potentially cause harm by perpetuating debunked, racist ideas.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "coding"
+    },
+    {
+      "claim": "Training data transparency limitation",
+      "excerpt": "The underlying training data used to build these models are not transparent",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Primary result that every LLM promoted race-based medicine or tropes",
+      "excerpt": "every LLM model had instances of promoting race-based medicine/racist tropes or repeating unsub-stantiated claims around race",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Questions derived from physician expert input and prior misconception literature",
+      "excerpt": "Questions were derived from discussions among four physician experts and prior work on race-based medical misconceptions believed by medical trainees.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational governance mechanisms studied",
+      "excerpt": "this study assesses the potential of these models to regurgitate discredited, race-based medicine and debunked racist tropes.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    }
+  ]
+}

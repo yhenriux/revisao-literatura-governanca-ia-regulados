@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+    "authors": "Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu, Ahmed Awadallah, Ryen W. White, Doug Burger, Chi Wang",
+    "year": "2023",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Wu, Q., Bansal, G., Zhang, J., Wu, Y., Li, B., Zhu, E., Jiang, L., Zhang, X., Zhang, S., Liu, J., Awadallah, A., White, R. W., Burger, D., & Wang, C. (2023). AutoGen: Enabling next-gen LLM applications via multi-agent conversation. arXiv preprint arXiv:2308.08155."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "framework development with empirical demonstrations",
+    "study_design": "open-source framework proposal with example application studies",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "multi-agent LLM conversation framework (AutoGen) supporting LLMs, tools, humans, and flexible conversation patterns"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_MULTI_AGENT",
+      "CONVERSATIONAL_FRAMEWORK",
+      "HUMAN_IN_LOOP"
+    ],
+    "exclusion_codes": [
+      "NO_GOVERNANCE_FOCUS",
+      "NO_REGULATED_DOMAIN_EVIDENCE"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The provided text describes AutoGen as a technical open-source framework for building LLM applications via customizable multi-agent conversations, including optional human inputs and flexible interaction patterns. It demonstrates effectiveness across diverse example domains (mathematics, coding, QA, operations research, online decision-making, entertainment), but the excerpt contains no explicit treatment of conversational governance, accountability, compliance, audit, risk control, or regulated high-stakes environments central to the review scope.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python metadata title was corrupted; full-text governance and regulated-domain relevance cannot be confirmed from the partial excerpt alone."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal is based only on front matter and partial introduction. The study clearly presents a framework objective and matching methodological approach, but sampling, ethics, limitations, and detailed empirical protocol are not visible in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "For the review question on conversational governance in regulated LLM systems, the available text offers coherent technical background on multi-agent conversation and human-in-the-loop support, but provides little or no direct evidence on governance mechanisms, oversight accountability, compliance, or regulated-domain deployment."
+  },
+  "coding": {
+    "open_codes": [
+      "multi-agent conversation",
+      "human-in-the-loop",
+      "conversation programming",
+      "customizable agents",
+      "tool-augmented agents"
+    ],
+    "axial_codes": [
+      "conversational architecture",
+      "agent orchestration",
+      "human participation"
+    ],
+    "theme": "Multi-agent conversational LLM frameworks",
+    "subtheme": "Flexible agent interaction patterns with optional human involvement",
+    "concepts": [
+      "AutoGen",
+      "conversable agents",
+      "conversation programming",
+      "multi-agent cooperation",
+      "human inputs"
+    ],
+    "model_layers": [
+      "application layer",
+      "agent interaction layer",
+      "human-in-the-loop layer"
+    ],
+    "rq_alignment": [
+      "technical enabler for conversational AI systems",
+      "partial alignment to human oversight via human-in-the-loop support"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "AutoGen is an open-source framework that lets developers build LLM applications through multiple customizable agents that converse with each other, and optionally with humans and tools, using flexible conversation patterns programmed in natural language or code.",
+    "contribution": "Provides a foundational technical framework and programming paradigm for multi-agent LLM conversations, with empirical demonstrations across varied non-regulated example applications.",
+    "limitations": "Provided excerpt does not document governance, compliance, auditability, safety controls, or regulated-domain evaluation; empirical sampling and limitations sections are not available in the supplied text.",
+    "use_in_review": "Use as foundational contextual evidence for multi-agent conversational architectures and human-in-the-loop integration, not as central evidence on conversational governance in regulated settings."
+  },
+  "evidence": [
+    {
+      "claim": "Identifies the article as an AutoGen framework paper on multi-agent LLM conversation.",
+      "excerpt": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Framework supports LLMs, tools, humans, and flexible conversation patterns.",
+      "excerpt": "AutoGen agents are conversable, customizable, and can be based on LLMs, tools, humans, or even a combination of them.",
+      "page": "1",
+      "section": "Figure 1 caption",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human participation is explicitly supported in agent chats.",
+      "excerpt": "They can form a chat, potentially with humans in the loop.",
+      "page": "1",
+      "section": "Figure 1 caption",
+      "supports": "coding"
+    },
+    {
+      "claim": "AutoGen is presented as an open-source multi-agent conversational framework.",
+      "excerpt": "AutoGen2 is an open-source framework that allows developers to build LLM applications via multiple agents that can converse with each other to accomplish tasks.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Agents can combine LLMs, human inputs, and tools in various modes.",
+      "excerpt": "AutoGen agents are customizable, conversable, and can operate in various modes that employ combinations of LLMs, human inputs, and tools.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Developers can program flexible agent interaction behaviors.",
+      "excerpt": "Using AutoGen, developers can also flexibly define agent interaction behaviors.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empirical studies are reported across diverse non-regulated example domains.",
+      "excerpt": "Empirical studies demonstrate the effectiveness of the framework in many example applications, with domains ranging from mathematics, coding, question answering, operations research, online decision-making, entertainment, etc.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Publication is an arXiv preprint from 2023.",
+      "excerpt": "arXiv:2308.08155v2 [cs.AI] 3 Oct 2023",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Core insight is using multi-agent conversations to scale LLM applications.",
+      "excerpt": "Our insight is to use multi-agent conversations to achieve it.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLM agents can cooperate through conversation with other agents or humans.",
+      "excerpt": "LLM agents can cooperate through conversations with each other or human(s), e.g., a dialog where agents provide and seek reasoning, observations, critiques, and validation.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "No governance, compliance, or regulated-domain focus appears in the provided text.",
+      "excerpt": "domains ranging from mathematics, coding, question answering, operations research, online decision-making, entertainment, etc.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

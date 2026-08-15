@@ -1,0 +1,171 @@
+{
+  "bibliographic": {
+    "title": "Generative AI Chatbot for Diabetes Management: Formative 2-Part Qualitative Study Using DTalksBot Involving Patients and Clinicians",
+    "authors": "Soyun Jeon; Seolhee Lee; Esther Hehsun Kim; Jinsu Eun; Kwangwon Lee; Hajin Lim; Joonhwan Lee",
+    "year": "2025",
+    "venue": "JMIR Formative Research",
+    "doi": "10.2196/72553",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Jeon, S., Lee, S., Kim, E. H., Eun, J., Lee, K., Lim, H., & Lee, J. (2025). Generative AI chatbot for diabetes management: Formative 2-part qualitative study using DTalksBot involving patients and clinicians. JMIR Formative Research, 9, e72553. https://doi.org/10.2196/72553"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "formative qualitative evaluation",
+    "study_design": "2-part qualitative study: Part 1 structured chatbot sessions, postinteraction surveys, and in-depth interviews with patients; Part 2 specialist review of conversation logs and expert interviews",
+    "sample_description": "24 patients with diabetes in Part 1; 4 family medicine specialists in Part 2",
+    "sample_size": "24 patients; 4 specialists",
+    "sector": "health care",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "DTalksBot generative AI chatbot powered by GPT-4 (OpenAI) with retrieval-augmented generation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_review",
+    "inclusion_codes": [
+      "genai_chatbot",
+      "regulated_healthcare",
+      "qualitative_empirical",
+      "human_oversight_via_specialist_review",
+      "conversation_logs"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The study empirically evaluates a GPT-4 RAG chatbot in diabetes care, explicitly aims to identify appropriate boundaries for generative AI chatbot involvement using both patient and clinician perspectives, and includes specialist review of conversation logs for response accuracy in a regulated health context.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Assessment is based mainly on front matter and abstract; full methods, ethics, governance mechanisms, and limitations sections were not provided in the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Clear formative qualitative design aligned with exploratory aims. Patient sample size is adequate for qualitative inquiry, but the specialist sample is very small (n=4). Governance-related appraisal is limited because the provided text emphasizes user needs and utility rather than formal governance, audit, or compliance mechanisms."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are coherent and directly relevant to conversational generative AI in regulated diabetes care, including boundaries and specialist log review. Confidence is moderated by formative scope, small specialist sample, and limited detail on analysis rigor and ethics in the provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "appropriate_boundaries",
+      "patient_information_needs",
+      "specialist_log_review",
+      "contextual_accuracy_limits",
+      "clinical_workflow_alignment",
+      "trust_and_safety"
+    ],
+    "axial_codes": [
+      "human_oversight",
+      "conversational_ai_in_healthcare",
+      "formative_evaluation"
+    ],
+    "theme": "Boundary setting and stakeholder evaluation of generative AI chatbots for diabetes self-management",
+    "subtheme": "Clinician review of conversation logs and limits of chatbot personalization",
+    "concepts": [
+      "generative AI chatbot",
+      "retrieval-augmented generation",
+      "GPT-4",
+      "conversation logs",
+      "diabetes self-management",
+      "appropriate boundaries"
+    ],
+    "model_layers": [
+      "interaction_layer",
+      "knowledge_retrieval_layer",
+      "human_oversight_layer"
+    ],
+    "rq_alignment": [
+      "governance_boundaries",
+      "human_oversight",
+      "regulated_healthcare_deployment",
+      "post_interaction_monitoring_via_logs"
+    ],
+    "coding_confidence": 0.74
+  },
+  "synthesis": {
+    "main_claim": "Generative AI chatbots can complement diabetes self-management by meeting patient information needs, while specialists see value for routine inquiries but identify limits in contextual accuracy, real-time data integration, and personalization.",
+    "contribution": "Provides empirical formative evidence on patient query themes, user experience advantages, specialist assessment of chatbot responses via conversation logs, and stakeholder-informed boundaries for chatbot involvement in diabetes care.",
+    "limitations": "Based on provided text only: specialist sample is small; study is formative and qualitative; specialists flagged contextual accuracy, real-time data integration, and personalization limits; broader governance, compliance, and long-term monitoring mechanisms are not detailed in the excerpt.",
+    "use_in_review": "Use as central empirical evidence on conversational generative AI in regulated healthcare, especially for boundary setting, clinician oversight through log review, and operational limitations relevant to safe deployment."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses a GPT-4 chatbot with RAG named DTalksBot.",
+      "excerpt": "This study was conducted using DTalksBot, a generative AI chatbot powered by GPT-4 (OpenAI) and enhanced with retrieval-augmented generation.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research aim includes identifying appropriate boundaries for chatbot involvement.",
+      "excerpt": "the study aimed to identify appropriate boundaries for the involvement of generative AI chatbots, reflecting the needs and expectations of both stakeholder groups.",
+      "page": "1",
+      "section": "Background/Objective",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Part 1 included 24 patients in structured chatbot sessions, surveys, and interviews.",
+      "excerpt": "24 participants engaged in structured chatbot sessions, completed postinteraction surveys, and participated in in-depth interviews.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Part 2 involved specialists reviewing conversation logs to assess accuracy.",
+      "excerpt": "we invited 4 family medicine specialists to assess the accuracy of DTalksBot’s responses by reviewing conversation logs",
+      "page": "1",
+      "section": "Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Patient queries were categorized into four primary themes with counts.",
+      "excerpt": "24 patients submitted a total of 643 questions, which were categorized into 4 primary themes",
+      "page": "1",
+      "section": "Results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Specialists recognized value but noted accuracy and integration limitations.",
+      "excerpt": "specialists recognized the generative AI chatbots’value in answering routine inquiries, but noted limitations in contextual accuracy, real-time data integration, and response personalization.",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Future chatbots should align with clinical workflows to ensure safety and trust.",
+      "excerpt": "future generative AI chatbots need to integrate real-time health data, enhance contextual relevance, and align with clinical workflows to ensure safety, trust, and broader applicability.",
+      "page": "1",
+      "section": "Conclusions",
+      "supports": "coding"
+    },
+    {
+      "claim": "Published in JMIR Formative Research in 2025.",
+      "excerpt": "JMIR Form Res 2025 | vol. 9 | e72553 | p. 1",
+      "page": "1",
+      "section": "Footer",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Recent LLM advances enable generative chatbots with context-specific responses.",
+      "excerpt": "Recent advances in large language models have enabled generative artificial intelligence (AI) chatbots capable of interpreting complex queries and generating context-specific responses",
+      "page": "2",
+      "section": "Introduction/Limitations",
+      "supports": "methodology"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "bibliographic": {
+    "title": "Marine biodiversity indicators and online data knowledge systems",
+    "authors": "Nazli Demirel; Alice C. Hughes; David K.A. Barnes; Patricia Miloslavich; Frank E. Muller-Karger; Ana Lara-Lopez; Ina Helene Ahlquist; Clive R. McMahon; Charlie Taylor; Alena Cierna; Andrew Szopa-Comley; Frances Davis; Chris McOwen; Katherine Richardson; Ward Appeltans; Mary S. Wisz; Neil D. Burgess",
+    "year": "2025",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "report",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Demirel, N., Hughes, A. C., Barnes, D. K. A., Miloslavich, P., Muller-Karger, F. E., Lara-Lopez, A., Ahlquist, I. H., McMahon, C. R., Taylor, C., Cierna, A., Szopa-Comley, A., Davis, F., McOwen, C., Richardson, K., Appeltans, W., Wisz, M. S., & Burgess, N. D. (2025). Marine biodiversity indicators and online data knowledge systems. [Venue unclear]."
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic compilation and synthesis of indicators and online knowledge systems",
+    "study_design": "review compiling 145 operational marine biodiversity indicators and examining 223 marine-relevant online knowledge systems active in December 2025",
+    "sample_description": "operational marine biodiversity indicators and marine-relevant online biodiversity knowledge systems",
+    "sample_size": "145 indicators; 223 online knowledge systems",
+    "sector": "marine biodiversity monitoring and ocean environmental governance",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "marine biodiversity indicators, online biodiversity knowledge systems, generic AI and machine-learning for underwater imagery and environmental DNA processing"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "no_llm_focus",
+      "no_conversational_ai",
+      "domain_mismatch"
+    ],
+    "exclusion_reason": "The document is a marine biodiversity indicator and online knowledge-system review. It does not address LLMs, conversational AI, chatbots, agents, RAG, or governance of generative AI in regulated settings.",
+    "decision_rationale": "Although the text contains governance, accountability, transparency, monitoring, and generic artificial intelligence terms, these refer to ocean biodiversity policy reporting and environmental observation systems, not to conversational governance of LLM-based systems. AI is mentioned only as support for imagery and e-DNA processing in marine monitoring.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is explicit in title, abstract, and methods; no ambiguous overlap with conversational LLM governance."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 1,
+    "notes": "Methodological appraisal reflects the marine biodiversity review itself. Transferability to the target review on conversational governance of LLMs is very low despite surface keyword overlap from Python triage."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "Within its own domain the review appears coherent and adequately described, but relevance to LLM conversational governance in regulated environments is negligible because the study object is marine biodiversity indicators and online knowledge systems."
+  },
+  "coding": {
+    "open_codes": [
+      "marine_biodiversity_indicators",
+      "online_knowledge_systems",
+      "ocean_governance",
+      "policy_tracking",
+      "indicator_transparency",
+      "generic_ai_monitoring"
+    ],
+    "axial_codes": [
+      "environmental_monitoring_governance",
+      "biodiversity_data_infrastructure"
+    ],
+    "theme": "Marine biodiversity monitoring and indicator governance",
+    "subtheme": "Online biodiversity knowledge systems for policy reporting",
+    "concepts": [
+      "State-Pressure-Response-Benefit framework",
+      "calculation transparency",
+      "accountability for international commitments",
+      "trusted data governance",
+      "generic AI for marine imagery"
+    ],
+    "model_layers": [
+      "policy_targets",
+      "indicator_frameworks",
+      "online_knowledge_systems",
+      "observation_data"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.92
+  },
+  "synthesis": {
+    "main_claim": "Existing marine biodiversity indicators and online knowledge systems were systematically compiled and assessed for alignment with monitoring needs, data readiness, analytical maturity, and policy reporting pipelines.",
+    "contribution": "Provides a broad marine-focused evaluation of 145 indicators and 223 online systems using an SPRB framework to support ocean governance and decision-making.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central and supporting evidence on conversational LLM governance; at most marginal foundational context only if the review broadens to generic environmental data-governance infrastructures, which is outside current scope."
+  },
+  "evidence": [
+    {
+      "claim": "Study topic is marine biodiversity indicators and online knowledge systems, not LLM conversational systems",
+      "excerpt": "Marine biodiversity indicators and online data knowledge systems",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Review design covers indicators and online knowledge systems",
+      "excerpt": "review compiled and synthesised 145 operational marine biodiversity indicators and examined 223 marine-relevant online knowledge systems",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance terms refer to ocean policy and indicator accountability, not AI system governance",
+      "excerpt": "ensuring accountability for international commitments require transparent and interoperable indicator frameworks",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Online systems enable interaction with biodiversity data, not conversational AI",
+      "excerpt": "enable interaction with biodiversity observations, derived indicators, curated datasets, or decision-support tools",
+      "page": "5",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "AI is generic and applied to marine monitoring data processing, not LLMs or conversational agents",
+      "excerpt": "Artificial intelligence (AI), and machine-learning approaches are reshaping marine biodiversity monitoring through improved processing of underwater imagery",
+      "page": "24",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Trusted data governance concerns biodiversity knowledge systems",
+      "excerpt": "System endurance and analytical value are shaped by user focus, indicator transparency, update cadence, and trusted data governance",
+      "page": "5",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Indicators assessed for calculation transparency and update frequency",
+      "excerpt": "assessed against their data sources, calculation transparency, update frequency and assessment applicability",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "SPRB framework used to classify indicators and systems",
+      "excerpt": "We used the State-Pressure-Response-Benefit (SPRB) framework to categorise both marine biodiversity indicators and online biodiversity knowledge systems",
+      "page": "5",
+      "section": "unclear",
+      "supports": "methodology"
+    }
+  ]
+}

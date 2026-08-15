@@ -1,0 +1,170 @@
+{
+  "bibliographic": {
+    "title": "An assets-liabilities dynamical model of banking system and systemic risk governance",
+    "authors": "Lorella Fatone; Francesca Mariani",
+    "year": "2019",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Fatone, L., & Mariani, F. (2019). An assets-liabilities dynamical model of banking system and systemic risk governance. arXiv preprint arXiv:1905.12431."
+  },
+  "methodology": {
+    "research_type": "theoretical",
+    "method_family": "stochastic differential equations, optimal control, statistical simulation",
+    "study_design": "mathematical dynamical model with numerical simulation of systemic risk governance",
+    "sample_description": "homogeneous population of banks represented by assets and liabilities in a dynamical banking system model",
+    "sample_size": "unclear",
+    "sector": "banking/finance",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "assets-liabilities dynamical model of banking system with monetary authority intervention and cooperation mechanism among banks"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "title_abstract_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_NO_LLM",
+      "E_NO_CONVERSATIONAL_AI",
+      "E_WRONG_TECHNOLOGY_CONTEXT"
+    ],
+    "exclusion_reason": "The paper addresses mathematical systemic risk governance in a banking dynamical model using stochastic differential equations and optimal control; it does not discuss LLMs, generative AI, conversational systems, chatbots, agents, or conversational governance.",
+    "decision_rationale": "Although the text repeatedly uses governance and banking in a regulated financial context, the study concerns probabilistic control of bank failures in a stochastic assets-liabilities model. There is no mention of large language models, conversational AI, human oversight of AI outputs, guardrails, observability, or related generative-AI governance mechanisms relevant to the review scope.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is explicit from title, abstract, and introduction; no ambiguous overlap with conversational LLM governance."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal based only on front matter and introduction pages provided. Internal methodological clarity appears adequate for a mathematical finance modeling paper, but ethics, limitations, and full results are not visible in the excerpt. Appraisal does not imply eligibility for the conversational LLM governance review."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "For the target review on conversational governance of LLM-based systems, this preprint has no evident relevance despite strong internal coherence as a banking systemic-risk modeling study."
+  },
+  "coding": {
+    "open_codes": [
+      "systemic risk",
+      "banking system model",
+      "monetary authority intervention",
+      "optimal control",
+      "cooperation mechanism among banks",
+      "statistical simulation"
+    ],
+    "axial_codes": [
+      "financial systemic risk governance",
+      "mathematical risk modeling",
+      "regulatory authority control"
+    ],
+    "theme": "Systemic risk governance in banking dynamical models",
+    "subtheme": "Optimal control of failure probability via ideal-bank reference behavior",
+    "concepts": [
+      "systemic risk",
+      "assets-liabilities dynamics",
+      "stochastic differential equations",
+      "pseudo mean field approximation",
+      "ideal bank",
+      "monetary authority"
+    ],
+    "model_layers": [
+      "macro financial system model",
+      "governance via control rules"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.92
+  },
+  "synthesis": {
+    "main_claim": "Systemic risk in a homogeneous banking population can be governed by keeping the probability of widespread bank failure within bounds through monetary-authority choices for an ideal bank and cooperation rules derived from a stochastic optimal control problem.",
+    "contribution": "Proposes and illustrates a generalized assets-liabilities dynamical banking model with cooperation and direct monetary authority intervention, plus a governance method using pseudo mean field approximation and numerical shock simulations.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central and supporting evidence for conversational LLM governance; at most peripheral contextual background on the word governance in banking risk modeling, not on AI or conversational systems."
+  },
+  "evidence": [
+    {
+      "claim": "Paper is a 2019 arXiv preprint on banking systemic risk, not LLM or conversational AI.",
+      "excerpt": "arXiv:1905.12431v1 [q-fin.RM] 29 May 2019 An assets-liabilities dynamical model of banking system and systemic risk governance",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study objective is governing systemic risk in a banking dynamical model.",
+      "excerpt": "We consider the problem of governing systemic risk in an assets-liabilities dynamical model of banking system.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Governance means controlling probability of systemic bank failure, not AI oversight.",
+      "excerpt": "The systemic risk governance pursues the goal of keeping the probability of systemic risk in a bounded time interval between two given thresholds.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Monetary authority implements governance through ideal-bank rules and cooperation mechanism.",
+      "excerpt": "The monetary authority is responsible for the systemic risk governance.",
+      "page": "2",
+      "section": "abstract/introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Method uses stochastic differential equations and optimal control.",
+      "excerpt": "These rules are obtained solving an optimal control problem for the pseudo mean field approximation of the banking system model.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Empirical evaluation is numerical simulation with shocks, not field study of AI systems.",
+      "excerpt": "Numerical examples of systemic risk governance in presence and in absence of shocks acting on the banking system are studied.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated domain is banking/finance.",
+      "excerpt": "We limit our attention to the modeling of systemic risk in banking systems.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational AI, LLM, chatbot, or generative AI content appears in provided text.",
+      "excerpt": "This paper is concerned with measurement, monitoring and governance of systemic risk in an assets-liabilities dynamical model of banking system.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research type is mathematical modeling with simulation.",
+      "excerpt": "The probability of systemic risk in a bounded time interval is evaluated using statistical simulation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors are Lorella Fatone and Francesca Mariani.",
+      "excerpt": "Lorella Fatone Dipartimento di Matematica Universit`a di Camerino",
+      "page": "1",
+      "section": "front matter",
+      "supports": "bibliographic"
+    }
+  ]
+}

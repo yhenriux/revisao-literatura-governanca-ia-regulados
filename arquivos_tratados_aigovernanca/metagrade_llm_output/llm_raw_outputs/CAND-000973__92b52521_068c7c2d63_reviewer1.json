@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "Generative AI for Transformative Healthcare: A Comprehensive Study of Emerging Models, Applications, Case Studies and Limitations",
+    "authors": "Siva Sai; Aanchal Gaur; Revant Sai; Vinay Chamola; Mohsen Guizani; Joel J. J. P. C. Rodrigues",
+    "year": "unclear",
+    "venue": "IEEE Access",
+    "doi": "10.1109/ACCESS.2017.DOI",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Siva Sai, Aanchal Gaur, Revant Sai, Vinay Chamola, Mohsen Guizani, & Joel J. J. P. C. Rodrigues. (unclear). Generative AI for transformative healthcare: A comprehensive study of emerging models, applications, case studies and limitations. IEEE Access. https://doi.org/10.1109/ACCESS.2017.DOI"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "comprehensive survey or narrative review",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "generative artificial intelligence; ChatGPT; DALL-E; Bard; healthcare-customized LLMs such as Med-PaLM, BioGPT, DeepHealth; NLP; medical chatbots"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_GENAI",
+      "REGULATED_HEALTHCARE",
+      "MEDICAL_CHATBOT_MENTION",
+      "GOVERNANCE_ADJACENT_LIMITATIONS"
+    ],
+    "exclusion_codes": [
+      "NOT_CONVERSATIONAL_GOVERNANCE_FOCUS",
+      "NO_OPERATIONAL_GOVERNANCE_FRAMEWORK"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a broad healthcare-focused survey of generative AI and LLM applications, case studies, and limitations. It mentions medical chatbots and governance-adjacent challenges such as privacy, bias, and professional expertise in decision making, but the provided text does not center conversational governance, guardrails, observability, audit, human oversight mechanisms, or accountability frameworks for conversational systems. It may support regulated-domain and LLM context but is unlikely to serve as central evidence for conversational governance.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted bibliographic metadata appear corrupted; publication year is placeholder-only in the provided text; only front-matter pages were supplied, so eligibility and appraisal rely on incomplete full text."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 1,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 0,
+    "ethics_reflexivity": 0,
+    "results_clarity": 1,
+    "limitations_transparency": 2,
+    "evidence_support": 1,
+    "transferability": 2,
+    "notes": "Appraisal is based only on abstract, introduction, and stated paper objectives. The excerpt does not describe review search strategy, inclusion criteria, screening process, or analytical method, limiting assessment of methodological rigor."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "The study presents a coherent healthcare GAI overview with stated objectives and limitations, but the supplied text lacks sufficient methodological detail to judge review adequacy. Relevance to conversational governance is partial because chatbots and risk themes appear only as application and challenge mentions."
+  },
+  "coding": {
+    "open_codes": [
+      "generative AI in healthcare",
+      "healthcare-customized LLMs",
+      "medical chatbots",
+      "patient data privacy risk",
+      "data bias",
+      "professional expertise in decision making",
+      "real-world healthcare scenarios",
+      "future research directions"
+    ],
+    "axial_codes": [
+      "regulated healthcare applications",
+      "LLM and GAI adoption",
+      "risk and limitation themes",
+      "non-governance-centric survey"
+    ],
+    "theme": "Generative AI and LLM applications in healthcare",
+    "subtheme": "Applications, case studies, and limitations with brief chatbot mention",
+    "concepts": [
+      "ChatGPT",
+      "LLMs",
+      "medical chatbots",
+      "privacy",
+      "bias",
+      "healthcare integration"
+    ],
+    "model_layers": [
+      "application layer",
+      "model layer",
+      "risk/limitation layer"
+    ],
+    "rq_alignment": [
+      "regulated healthcare context",
+      "LLM and generative AI technologies",
+      "limited alignment with conversational governance mechanisms"
+    ],
+    "coding_confidence": 0.58
+  },
+  "synthesis": {
+    "main_claim": "The paper claims to provide a comprehensive study of generative AI in healthcare, covering applications, real-world scenarios, healthcare-customized LLMs, and limitations.",
+    "contribution": "Offers a structured overview of healthcare GAI use cases including medical chatbots and discusses challenges such as privacy, bias, integration, and lack of professional expertise in decision making.",
+    "limitations": "Provided text does not establish a conversational governance framework; review methodology is not evidenced in the excerpt; governance topics are limited to general challenges rather than operational controls for conversational systems.",
+    "use_in_review": "Use as supporting background on healthcare LLM applications and high-level risk themes; not suitable as central evidence on conversational governance, observability, audit, handoff, or contestation."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a comprehensive healthcare-focused study of generative AI and LLMs.",
+      "excerpt": "Generative AI for Transformative Healthcare: A Comprehensive Study of Emerging Models, Applications, Case Studies and Limitations",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Published in IEEE Access with placeholder DOI in supplied text.",
+      "excerpt": "Digital Object Identifier 10.1109/ACCESS.2017.DOI",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors include Siva Sai, Aanchal Gaur, Revant Sai, Vinay Chamola, Mohsen Guizani, and Joel J. J. P. C. Rodrigues.",
+      "excerpt": "SIVA SAI1, AANCHAL GAUR2, REVANT SAI3, VINAY CHAMOLA1 (Senior Member, IEEE), MOHSEN GUIZANI4 (FELLOW, IEEE) and JOEL J. J. P. C. RODRIGUES5",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Paper addresses generative AI models including ChatGPT and healthcare-customized LLMs.",
+      "excerpt": "GAI models like ChatGPT, DALL-E, and Bard have recently caught the attention of industry and academia equally.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Medical chatbots are included among healthcare applications.",
+      "excerpt": "medical simulation and training, clinical trial optimization, mental health support, healthcare operations and research, medical chatbots",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Healthcare-customized LLMs are discussed.",
+      "excerpt": "We also provide an elaborate discussion on seven healthcare-customized LLMs like Med-PaLM, BioGPT, DeepHealth, etc.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance-adjacent challenges include privacy, bias, and professional expertise limits.",
+      "excerpt": "lack of professional expertise in decision making, risk of patient data privacy, issues in integrating with existing healthcare systems, and the problem of data bias",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Stated objectives include applications, real-world scenarios, customized models, and limitations.",
+      "excerpt": "Provide a variety of applications of GAI in healthcare. 4. Describe four real-world scenarios of using generative AI in healthcare. 5. Discuss seven healthcare-customized GAI models. 6. Present several limitations and future directions",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Publication year is not determinable from supplied text.",
+      "excerpt": "Date of publication xxxx 00, 0000, date of current version xxxx 00, 0000.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No explicit conversational governance framework is evidenced in the supplied text.",
+      "excerpt": "medical chatbots",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

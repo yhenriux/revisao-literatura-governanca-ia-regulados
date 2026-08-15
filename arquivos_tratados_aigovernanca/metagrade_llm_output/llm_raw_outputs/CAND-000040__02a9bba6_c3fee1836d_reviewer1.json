@@ -1,0 +1,216 @@
+{
+  "bibliographic": {
+    "title": "Current applications and challenges in large language models for patient care: a systematic review",
+    "authors": "Felix Busch, Lena Hoffmann, Christopher Rueger, Elon HC van Dijk, Rawen Kader, Esteban Ortiz-Prado, Marcus R. Makowski, Luca Saba, Martin Hadamitzky, Jakob Nikolas Kather, Daniel Truhn, Renato Cuocolo, Lisa C. Adams, Keno K. Bressem",
+    "year": "2024",
+    "venue": "Communications Medicine",
+    "doi": "10.1038/s43856-024-00717-2",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Busch, F., Hoffmann, L., Rueger, C., van Dijk, E. H. C., Kader, R., Ortiz-Prado, E., Makowski, M. R., Saba, L., Hadamitzky, M., Kather, J. N., Truhn, D., Cuocolo, R., Adams, L. C., & Bressem, K. K. (2024). Current applications and challenges in large language models for patient care: a systematic review. Communications Medicine. https://doi.org/10.1038/s43856-024-00717-2"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic review with convergent thematic synthesis",
+    "study_design": "systematic review; 5-database search; Mixed Methods Appraisal Tool 2018 quality assessment; data-driven convergent synthesis with free line-by-line coding in Dedoose",
+    "sample_description": "Qualitative, quantitative, and mixed methods primary studies on LLMs in patient care published between 2022 and 2023 across 29 medical specialties",
+    "sample_size": "89 included studies from 4349 initial records; 124 different LLMs examined across included studies",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLMs for patient care including GPT-3.5, GPT-4, ChatGPT, Bing Chat, BERT, LLaMA, Claude, and other transformer-based models used for medical question answering, patient information generation, summarization, translation, and clinical documentation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GENAI",
+      "REGULATED_HEALTHCARE",
+      "CONVERSATIONAL_CONTEXT",
+      "LIMITATIONS_RISK"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed systematic review of LLM use in regulated healthcare patient care, with explicit coverage of chatbot-oriented models, safety, bias, and transparency limitations. However, the provided text centers on clinical applications and limitation taxonomies rather than conversational governance mechanisms such as guardrails, observability, audit, human oversight, or accountability frameworks, making it supportive rather than central to the review scope.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted metadata incorrectly parsed author names as title and labeled the work as preprint; confirm bibliographic fields, publication year, and governance-relevant sections beyond the abstract and early pages."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 5,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 5,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Methods are clearly reported for a systematic review: defined search window, inclusion of 89 studies, MMAT 2018 appraisal, and explicit convergent thematic synthesis. Ethics/reflexivity and review-level limitations are not evident in the supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The review appears methodologically sound and internally coherent for mapping LLM applications and limitations in patient care. Its relevance to conversational governance is moderate because governance is addressed mainly through limitation categories such as bias, unsafety, and data transparency rather than operational governance controls."
+  },
+  "coding": {
+    "open_codes": [
+      "systematic review",
+      "patient-facing LLM applications",
+      "design limitations",
+      "output limitations",
+      "medical question answering",
+      "patient information generation",
+      "clinical documentation",
+      "bias",
+      "unsafety",
+      "data transparency",
+      "implementation framework",
+      "evaluation taxonomy"
+    ],
+    "axial_codes": [
+      "regulated healthcare deployment",
+      "LLM limitation taxonomy",
+      "patient-directed conversational AI use",
+      "trust and safety risks"
+    ],
+    "theme": "Applications and limitations of LLMs in patient care",
+    "subtheme": "Design and output limitations with implementation/evaluation taxonomy",
+    "concepts": [
+      "large language models",
+      "patient care",
+      "chatbots",
+      "ChatGPT",
+      "bias",
+      "unsafety",
+      "data transparency",
+      "accessibility",
+      "framework",
+      "taxonomy",
+      "systematic review"
+    ],
+    "model_layers": [
+      "application layer",
+      "output quality layer",
+      "design/data layer"
+    ],
+    "rq_alignment": [
+      "LLM in regulated healthcare",
+      "risk and safety limitations",
+      "patient-facing conversational systems"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "This systematic review maps current LLM applications and limitations in patient care and proposes a foundational framework and taxonomy for implementation and evaluation in healthcare settings.",
+    "contribution": "Provides a structured synthesis of 89 studies across 29 specialties, identifying dominant models such as GPT-3.5 and GPT-4, common use cases, and a hierarchical taxonomy of design and output limitations including bias, unsafety, and data transparency.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence on LLM applications, patient-facing conversational use, and limitation categories relevant to governance in regulated healthcare; not sufficient as central evidence on conversational governance architecture or operational controls."
+  },
+  "evidence": [
+    {
+      "claim": "The study is a systematic review of LLMs in patient care with clearly stated aim and methods.",
+      "excerpt": "this systematic review aims to synthesize current applications and limitations of LLMs in patient care.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The review used systematic search, quality appraisal, and thematic synthesis.",
+      "excerpt": "We systematically searched 5 databases for qualitative, quantitative, and mixed methods articles on LLMs in patient care published between 2022 and 2023.",
+      "page": "1",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "The included evidence base comprises 89 primary studies.",
+      "excerpt": "From 4349 initial records, 89 studies across 29 medical specialties were included.",
+      "page": "1",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Quality assessment used MMAT 2018.",
+      "excerpt": "Quality assessment was performed using the Mixed Methods Appraisal Tool 2018.",
+      "page": "1",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "The review examines specific LLMs including GPT-3.5 and GPT-4.",
+      "excerpt": "most studies investigate Generative Pre-trained Transformers (GPT)- 3.5 (53.2%, n = 66 of 124 different LLMs examined) and GPT-4 (26.6%, n = 33/124)",
+      "page": "1",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Output limitations include unsafety and bias.",
+      "excerpt": "output limitations include 9 second-order and 32 third-order codes, for example, non-reproducibility, non-comprehensiveness, incorrectness, unsafety, and bias.",
+      "page": "1",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Design limitations include data transparency and lack of medical domain optimization.",
+      "excerpt": "Design limitations include 6 second- order and 12 third-order codes, such as lack of medical domain optimization, data transparency, and accessibility issues",
+      "page": "1",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "The paper offers a framework and taxonomy for healthcare implementation and evaluation.",
+      "excerpt": "providing a foundational framework and taxonomy for their implementation and evaluation in healthcare settings.",
+      "page": "1",
+      "section": "conclusions",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLMs are commonly designed as general-purpose chatbots and applied in medical contexts.",
+      "excerpt": "Since most LLMs are designed as general-purpose chatbots, recent research has focused on developing specialized models for the medical domain",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The study is situated in regulated healthcare patient care.",
+      "excerpt": "The introduction of large language models (LLMs) into clinical practice promises to improve patient education and empowerment",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Applications include chatbot-based systems such as Bing Chat.",
+      "excerpt": "Bing Chat (n = 7/124, 5.7%; now Microsoft Copilot)",
+      "page": "3",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Most included applications were targeted at patients.",
+      "excerpt": "The majority of applications were primarily targeted at patients (n = 64 of 89 included studies, 73%)",
+      "page": "3",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "The review defines LLMs for patient care as transformer-based NLP systems for disease management and support.",
+      "excerpt": "LLMs for patient care were deﬁned as any artiﬁcial neural network that follows a transformer architectureand canbeused togenerateand translatetextand othercontent or perform other natural language processing tasks",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Limitations are organized into design and output domains with hierarchical coding.",
+      "excerpt": "Fig. 3 | Illustration of the hierarchical tree structure for the thematic synthesis of large language model (LLM) limitations in patient care",
+      "page": "5",
+      "section": "limitations",
+      "supports": "synthesis"
+    }
+  ]
+}

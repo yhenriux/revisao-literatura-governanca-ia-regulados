@@ -1,0 +1,214 @@
+{
+  "bibliographic": {
+    "title": "From companion technologies to social care infrastructure: A multi-level perspective on loneliness-related support in dementia care in an era of artificial intelligence (AI)",
+    "authors": "Machiko Uenishi; Peipei Song",
+    "year": "2026",
+    "venue": "Global Health & Medicine",
+    "doi": "10.35772/ghm.2026.01063",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Uenishi, M., & Song, P. (2026). From companion technologies to social care infrastructure: A multi-level perspective on loneliness-related support in dementia care in an era of artificial intelligence (AI). Global Health & Medicine. Advance online publication. https://doi.org/10.35772/ghm.2026.01063"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "perspective article proposing a conceptual framework (MCST model) with narrative literature synthesis",
+    "study_design": "non-empirical perspective/framework paper",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "companion technologies in dementia care, including socially assistive robots, humanoid and conversational robots, avatars, virtual agents, AI-enabled companions, and LLM-based companion technologies"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "conceptual_framework",
+      "regulated_healthcare_context",
+      "mentions_llm_conversational_ai",
+      "governance_oversight_accountability"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Perspective article in regulated dementia-care healthcare that explicitly groups LLM-based companion technologies among conversational/AI-enabled systems and discusses ethical governance, human oversight, accountability, audit logs, and escalation. Primary focus is loneliness-related psychosocial support and the MCST care-infrastructure model, not conversational governance of LLMs as the central object of study; authors state dementia-specific evidence for generative AI and LLMs remains insufficient.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted metadata year (2021) conflicts with DOI/advance publication (2026); only partial PDF text provided; confirm full governance sections and whether article is peer-reviewed."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Appropriate as a perspective/framework contribution rather than empirical study. No sample or primary data collection reported in provided text. Governance recommendations for AI-enabled/LLM companions are conceptually argued and supported by cited literature, but LLM-specific effectiveness evidence is explicitly described as preliminary/insufficient."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The MCST model and governance arguments are internally coherent and relevant to regulated healthcare conversational AI, but the provided text is a non-empirical perspective with limited direct LLM evidence and incomplete full-text coverage for adjudication."
+  },
+  "coding": {
+    "open_codes": [
+      "loneliness-related support",
+      "companion technologies",
+      "social care infrastructure",
+      "MCST model",
+      "individual engagement",
+      "relational interaction",
+      "care ecosystem",
+      "conversational agents",
+      "LLM-based companions",
+      "ethical governance",
+      "human oversight",
+      "accountability",
+      "audit logs",
+      "conversation review",
+      "escalation",
+      "privacy and consent risks",
+      "insufficient LLM evidence"
+    ],
+    "axial_codes": [
+      "multi-level care integration",
+      "human-technology-care workflow interaction",
+      "risk and safeguard design for conversational AI",
+      "regulated dementia-care context"
+    ],
+    "theme": "Positioning conversational and AI-enabled companion technologies as components of regulated social care infrastructure rather than standalone loneliness interventions",
+    "subtheme": "Ethical governance and operational safeguards for AI-enabled and LLM-based companions in dementia care",
+    "concepts": [
+      "multi-level care with social technologies (MCST)",
+      "social care infrastructure",
+      "human facilitation",
+      "feedback-based adjustment",
+      "human oversight",
+      "audit logs",
+      "escalation",
+      "accountability",
+      "hallucination risk"
+    ],
+    "model_layers": [
+      "individual engagement",
+      "relational interaction",
+      "care ecosystem"
+    ],
+    "rq_alignment": [
+      "governance in regulated healthcare",
+      "human oversight and accountability",
+      "risk management and auditability",
+      "conversational agents in high-stakes care",
+      "operational integration of conversational AI"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Companion technologies, including conversational robots and LLM-based companions, should be treated as potential components of social care infrastructure for loneliness-related support in dementia care, with benefits produced through interaction among technology, human facilitation, care workflows, ethical governance, and feedback-based adjustment.",
+    "contribution": "Proposes the MCST three-layer model and argues for evaluation frameworks and practical safeguards—especially human oversight, accountability, audit logs, conversation review, and escalation—for AI-enabled and LLM-based companions in dementia care.",
+    "limitations": "Authors state current dementia-specific evidence for generative AI and large language models is still insufficient and should be presented as a future direction requiring validation, not established effectiveness.",
+    "use_in_review": "Use as supporting conceptual evidence on governance-oriented integration of conversational/LLM companions in regulated healthcare; not suitable as central empirical evidence on conversational governance mechanisms or LLM system operation."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a perspective proposing the MCST model for loneliness-related support in dementia care using companion technologies and AI.",
+      "excerpt": "We propose the multi-level care with social technologies (MCST) model, which consists of three connected layers: individual engagement, relational interaction, and the care ecosystem.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM-based companion technologies are explicitly included among companion technology categories.",
+      "excerpt": "We group companion technologies into four broad categories: animal-like socially assistive robots, humanoid robots, conversational robots, and AI-enabled or large language model (LLM)-based companion technologies.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Dementia-specific evidence for generative AI and LLMs is insufficient.",
+      "excerpt": "Importantly, current dementia- specific evidence for generative AI and large language models is still insufficient.",
+      "page": "2",
+      "section": "conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "The model emphasizes ethical governance and feedback-based adjustment.",
+      "excerpt": "The model emphasizes that loneliness-related support is produced through the interaction between technology, human facilitation, care workflows, ethical governance, and feedback-based adjustment.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors call for frameworks addressing safety, privacy, human oversight, and accountability.",
+      "excerpt": "establish evaluation frameworks that address psychosocial outcomes, sustained use, safety, privacy, human oversight, and accountability.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "AI-enabled companions include conversational agents and potential LLM-based systems.",
+      "excerpt": "AI-enabled companions, including conversational agents, avatars, android robotic media, and potential large- language-model-based systems, create new possibilities for more personalized and continuous engagement.",
+      "page": "2",
+      "section": "conclusion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Conversational agents are framed as mediating rather than substituting human contact.",
+      "excerpt": "In this layer, the technology is not a substitute for human contact. Its intended role is to make human inte",
+      "page": "4",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "AI-enabled companions require explicit human oversight.",
+      "excerpt": "abled companions require explicit human oversight.",
+      "page": "5",
+      "section": "conclusion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Practical safeguards include audit logs, conversation review, suspension criteria, and escalation.",
+      "excerpt": "Practical safeguards should include audit logs, procedures for reviewing conversations, criteria for temporary suspension of use, escala",
+      "page": "5",
+      "section": "conclusion",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs pose hallucination risks that may be harmful to people with dementia.",
+      "excerpt": "Large language models can generate hallucinations or inconsistent statements, which may be particularly harmful to people with dementia",
+      "page": "5",
+      "section": "conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Personalization increases privacy, consent, dependence, and inappropriate-reliance risks.",
+      "excerpt": "Personalization may improve engagement, but it also increases risks related to privacy, consent, emotional dependence, reduced human contact, and inappropriate reliance on machine-generated responses",
+      "page": "5",
+      "section": "conclusion",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study context is regulated healthcare: dementia care systems.",
+      "excerpt": "This means that loneliness-related support is a practical issue for dementia care systems to address",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Benefits are unlikely to emerge from the device alone.",
+      "excerpt": "Across technology types, the consistent lesson is that benefits are unlikely to emerge from the device alone.",
+      "page": "2",
+      "section": "conclusion",
+      "supports": "synthesis"
+    }
+  ]
+}

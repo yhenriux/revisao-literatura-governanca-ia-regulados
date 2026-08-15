@@ -1,0 +1,168 @@
+{
+  "bibliographic": {
+    "title": "AI: the future of humanity",
+    "authors": "Soha Rawas",
+    "year": "2024",
+    "venue": "Discover Artificial Intelligence",
+    "doi": "10.1007/s44163-024-00118-3",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Rawas, S. (2024). AI: the future of humanity. Discover Artificial Intelligence, 4, Article 25. https://doi.org/10.1007/s44163-024-00118-3"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "narrative review with stated empirical exploration via secondary source analysis",
+    "study_design": "unclear",
+    "sample_description": "comprehensive collection of relevant and reputable scholarly sources",
+    "sample_size": "unclear",
+    "sector": "healthcare; transportation; finance/banking; education; multiple sectors",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "broad AI including computer vision, deep learning, machine learning, symbolic AI, NLP, Transformers, chatbots, and virtual assistants"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_assessment",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "SCOPE_TOO_BROAD",
+      "INSUFFICIENT_CONVERSATIONAL_GOVERNANCE_FOCUS"
+    ],
+    "exclusion_reason": "Broad sectoral AI futures review; provided text does not center conversational governance, LLM operational controls, or regulated-deployment governance mechanisms.",
+    "decision_rationale": "The article is labeled a Review and aims to comprehensively assess AI impacts across sectors while examining ethical and societal considerations. The supplied text mentions NLP, chatbots, virtual assistants, Transformers, and regulated-adjacent sectors such as healthcare, banking, and education, but it does not substantively address conversational governance, LLM-specific guardrails, observability, auditability, compliance controls, or human oversight in regulated conversational systems. It may provide contextual background on AI ethics and applications, but not central evidence for the review question.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial PDF text was supplied; Python triage appears keyword-driven and may overstate governance and conversational relevance relative to the article's actual focus."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Objectives are stated, but the provided excerpt gives limited detail on search strategy, inclusion criteria, source count, or analytic method. Claims appear broad and sector-spanning rather than focused on conversational governance in regulated LLM deployments."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "The review's stated aims are coherent, but the available text offers limited methodological transparency and only partial topical overlap with conversational governance in regulated LLM systems."
+  },
+  "coding": {
+    "open_codes": [
+      "broad AI futures review",
+      "sectoral AI applications",
+      "ethical and responsible AI",
+      "NLP and conversational interfaces",
+      "human-AI interaction challenges"
+    ],
+    "axial_codes": [
+      "AI societal impact",
+      "ethics and risk discourse",
+      "conversational interface mention without governance depth"
+    ],
+    "theme": "General AI impact and ethics across sectors",
+    "subtheme": "Peripheral mention of chatbots, virtual assistants, and regulated sectors",
+    "concepts": [
+      "responsible AI development",
+      "ethical considerations",
+      "chatbots",
+      "virtual assistants",
+      "Transformers",
+      "human-AI interaction"
+    ],
+    "model_layers": [],
+    "rq_alignment": [
+      "weak alignment to conversational governance",
+      "weak alignment to regulated LLM operational governance"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "AI is reshaping humanity's future across many sectors, and its development should be understood together with ethical considerations, challenges, and opportunities.",
+    "contribution": "Provides a broad review-oriented resource on AI applications, historical development, and ethical/societal implications for policymakers, researchers, and practitioners.",
+    "limitations": "unclear",
+    "use_in_review": "Use only as foundational or contextual background on general AI ethics, sectoral applications, and conversational-interface terminology; not suitable as central evidence on conversational governance in regulated LLM systems based on the text provided."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a journal review on AI's future implications across sectors.",
+      "excerpt": "Review AI: the future of humanity",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study objectives include sectoral impact assessment and ethical/societal considerations.",
+      "excerpt": "Comprehensive impact assessment: To analyze and evaluate the multidimensional impact of artificial intelligence across diverse sectors, including healthcare, transportation, finance, and education.",
+      "page": "2",
+      "section": "Study objectives",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Ethical and responsible AI are explicit concerns.",
+      "excerpt": "Ethical considerations and the significance of responsible AI development are addressed.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Method is described as empirical exploration using secondary scholarly sources.",
+      "excerpt": "Empirical exploration: To conduct a rigorous empirical exploration through data analysis, drawing from a comprehensive collection of relevant and reputable sources.",
+      "page": "3",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Conversational technologies are mentioned only at application level, not governance level.",
+      "excerpt": "NLP applications range from sentiment analysis and language translation to chatbots and virtual assistants.",
+      "page": "4",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Modern language models are referenced generically via Transformers.",
+      "excerpt": "Advanced NLP models utilize deep learning techniques, such as Transformers, to process contextual information and improve language understanding.",
+      "page": "4",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated-adjacent sectors are discussed as application contexts.",
+      "excerpt": "The influence of AI on areas such as healthcare, transportation, banking, and education is revealed",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Human-AI interaction is noted as a challenge, without governance mechanisms.",
+      "excerpt": "realizing the full potential of collaborative intelligence requires addressing human-AI interaction challenges",
+      "page": "10",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational governance, audit, compliance, or LLM operational control focus appears in the supplied text.",
+      "excerpt": "This paper serves as a resource for policymakers, researchers, and practitioners understanding the complex link between AI and humans.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Sampling and review procedure details are insufficient in the provided excerpt.",
+      "excerpt": "drawing from a comprehensive collection of relevant and reputable sources",
+      "page": "3",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

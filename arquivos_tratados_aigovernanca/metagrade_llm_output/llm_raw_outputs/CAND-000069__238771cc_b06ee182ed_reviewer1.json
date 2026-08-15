@@ -1,0 +1,175 @@
+{
+  "bibliographic": {
+    "title": "Formação docente e competências digitais na era da dataficação: Uma análise crítico-sistêmica das mediações entre inteligência artificial, governança educacional e prática pedagógica",
+    "authors": "Luiz Fernando Ridolfi; Andréa da Silva Santos leite; Luciana Maria Nickel Candeias; Wadiswava Dias Rezende; Dominick Figueiredo; Graziani Vasconcelos Zanfolin; Charles Alves Correia; Emanuele Martins Teles; Maria José Cunha Freire Mendes",
+    "year": "2026",
+    "venue": "unclear",
+    "doi": "10.66104/5nyz8e97",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Ridolfi, L. F., Santos Leite, A. da S., Candeias, L. M. N., Rezende, W. D., Figueiredo, D., Zanfolin, G. V., Correia, C. A., Teles, E. M., & Mendes, M. J. C. F. (2026). Formação docente e competências digitais na era da dataficação: Uma análise crítico-sistêmica das mediações entre inteligência artificial, governança educacional e prática pedagógica. Revista não identificada no texto, 13(04), 1–29. https://doi.org/10.66104/5nyz8e97"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "qualitative theoretical-analytical systematized literature review with PRISMA-inspired selection",
+    "study_design": "systematized literature review (2020–2025) using SciELO, ERIC, CAPES and Google Scholar",
+    "sample_description": "recent literature on teacher digital competencies, educational governance, dataification and AI in education, selected by theoretical relevance, methodological rigor and critical educational field adherence",
+    "sample_size": "n=38",
+    "sector": "education",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "generic artificial intelligence, adaptive systems and educational algorithms in digital/datafied education; no explicit LLM, chatbot, agent, RAG or conversational system focus"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "EDU_GOVERNANCE",
+      "GENERIC_AI",
+      "LIT_REVIEW"
+    ],
+    "exclusion_codes": [
+      "NO_LLM_SPECIFIC",
+      "NO_CONVERSATIONAL_AI",
+      "NO_OPERATIONAL_TECH_GOVERNANCE"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a PRISMA-inspired systematized review on teacher digital competencies linking AI and educational governance in datafied education. It offers contextual evidence on governance, monitoring and institutional/policy dimensions in education, but the provided text does not address conversational AI, LLMs, chatbots, agents, guardrails, observability, audit logs, human oversight mechanisms, or operational governance of generative conversational systems.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Triagem Python classificou como central_candidate por termos amplos de governança e IA; é necessário confirmar manualmente se o texto completo contém menções a LLMs, sistemas conversacionais ou governança operacional/técnica ausentes nos trechos fornecidos."
+  },
+  "appraisal": {
+    "objective_clarity": 8,
+    "method_fit": 7,
+    "sampling_adequacy": 7,
+    "data_collection_transparency": 6,
+    "analysis_rigor": 6,
+    "ethics_reflexivity": 4,
+    "results_clarity": 7,
+    "limitations_transparency": 6,
+    "evidence_support": 7,
+    "transferability": 5,
+    "notes": "Objective and review design are clearly stated in the abstract. Selection across multiple databases and n=38 are reported, but full search strategy, screening flow, quality appraisal of included studies and reflexivity/ethics are not evidenced in the excerpts provided. Relevance to the review's LLM conversational governance focus is limited."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "moderate",
+    "explanation": "Moderate confidence that the study adequately synthesizes educational governance and generic AI in teacher training, but low relevance to conversational LLM governance because the provided text focuses on datafication, teacher digital competence and educational governance rather than conversational systems or operational AI controls."
+  },
+  "coding": {
+    "open_codes": [
+      "teacher_digital_competence",
+      "datafication",
+      "educational_governance",
+      "platformization",
+      "generic_ai_in_education",
+      "institutional_barriers",
+      "teacher_agency",
+      "fragmented_teacher_training"
+    ],
+    "axial_codes": [
+      "governance_and_policy_in_education",
+      "human_capacity_and_pedagogy",
+      "technology_mediated_education"
+    ],
+    "theme": "Educational governance and teacher digital competence in the age of datafication and generic AI",
+    "subtheme": "Institutional, formative and pedagogical mediations between AI and teaching practice",
+    "concepts": [
+      "competência digital docente",
+      "governança educacional",
+      "dataficação",
+      "plataformização",
+      "agência docente",
+      "TPACK"
+    ],
+    "model_layers": [
+      "institutional",
+      "policy",
+      "pedagogical",
+      "technical"
+    ],
+    "rq_alignment": [
+      "regulated_education_context",
+      "governance_accountability_broad",
+      "human_agency_in_ai_mediated_education"
+    ],
+    "coding_confidence": 0.74
+  },
+  "synthesis": {
+    "main_claim": "Teacher digital competence is a multidimensional phenomenon shaped by structural, formative and institutional conditions, and the integration of AI and digital technologies in education reconfigures educational governance while posing risks to teacher autonomy unless supported by systemic, critical approaches.",
+    "contribution": "Provides a critical-systemic literature synthesis connecting AI, educational governance and teacher practice in datafied education, useful as contextual background for regulated education settings but not as direct evidence on conversational LLM governance.",
+    "limitations": "Provided excerpts do not document full PRISMA reporting, independent quality appraisal of included studies, or any LLM/conversational-system operational governance mechanisms; the presented table is explicitly non-exhaustive of the n=38 corpus.",
+    "use_in_review": "Include as foundational/contextual evidence for education-sector governance, monitoring and policy tensions around AI-mediated teaching; do not treat as central evidence for conversational LLM governance, guardrails, observability, auditability or human oversight in chat/agent systems."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article published in 2026 with DOI and acceptance dates.",
+      "excerpt": "Received: 13/01/2026 - Accepted: 01/04/2026 Vol: 13.04 DOI: 10.66104/5nyz8e97",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses a qualitative theoretical-analytical systematized literature review with PRISMA-inspired criteria.",
+      "excerpt": "Fundamentado em uma abordagem qualitativa de natureza teórico-analítica, o artigo realiza uma revisão sistematizada da literatura recente (2020–2025), com base em critérios inspirados no protocolo PRISMA",
+      "page": "2",
+      "section": "Resumo",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Corpus drawn from SciELO, ERIC, CAPES and Google Scholar with n=38 studies.",
+      "excerpt": "contemplando produções indexadas em bases como SciELO, ERIC, CAPES e Google Scholar",
+      "page": "2",
+      "section": "Resumo",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Final analyzed corpus size is 38 studies.",
+      "excerpt": "o quadro apresentado não esgota a totalidade dos estudos analisados (n=38)",
+      "page": "16",
+      "section": "results/table note",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "AI-based systems are linked to educational governance, control, monitoring and evaluation.",
+      "excerpt": "plataformas digitais e sistemas baseados em inteligência artificial reconfiguram a governança educacional, introduzindo novas formas de controle, monitoramento e avaliação",
+      "page": "7",
+      "section": "2.1",
+      "supports": "coding"
+    },
+    {
+      "claim": "Technology context is generic AI/adaptive systems, not LLMs or conversational agents.",
+      "excerpt": "a emergência de tecnologias baseadas em inteligência artificial, como sistemas adaptativos e algoritmos educacionais, impõe novos desafios à formação docente",
+      "page": "8",
+      "section": "2.2",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "AI in education may personalize learning but risks automating teaching and reducing teacher autonomy.",
+      "excerpt": "a IA pode potencializar processos de personalização da aprendizagem, mas também apresenta riscos relacionados a automatização do ensino e a redução da autonomia",
+      "page": "11",
+      "section": "2.5",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Teacher digital competence is multidimensional and exceeds technical-instrumental skills.",
+      "excerpt": "a competência digital docente se constitui como um fenômeno multidimensional, que transcende o domínio técnico-instrumental",
+      "page": "2",
+      "section": "Resumo",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No conversational AI/LLM operational governance content appears in provided excerpts.",
+      "excerpt": "FORMAÇÃO DOCENTE E COMPETÊNCIAS DIGITAIS NA ERA DA DATAFICAÇÃO: UMA ANÁLISE CRÍTICO-SISTÊMICA DAS MEDIAÇÕES ENTRE INTELIGÊNCIA ARTIFICIAL, GOVERNANÇA EDUCACIONAL E PRÁTICA PEDAGÓGICA",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    }
+  ]
+}

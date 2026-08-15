@@ -1,0 +1,171 @@
+{
+  "bibliographic": {
+    "title": "Use of large language model-based chatbots in managing the rehabilitation concerns and education needs of outpatient stroke survivors and caregivers",
+    "authors": "Jin Rui Edmund Neo, Joon Sin Ser, San San Tay",
+    "year": "2024",
+    "venue": "Frontiers in Digital Health",
+    "doi": "10.3389/fdgth.2024.1395501",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Neo, J. R. E., Ser, J. S., & Tay, S. S. (2024). Use of large language model-based chatbots in managing the rehabilitation concerns and education needs of outpatient stroke survivors and caregivers. Frontiers in Digital Health, 6, 1395501. https://doi.org/10.3389/fdgth.2024.1395501"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "survey-based question collection with structured chatbot response evaluation by raters",
+    "study_design": "cross-sectional evaluation of two commercial LLM chatbots using representative patient/caregiver questions derived from survey themes",
+    "sample_description": "questions collected from outpatient stroke survivors and their caregivers via survey; responses evaluated by physicians/raters",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "ChatGPT and Google Bard LLM-based chatbots for patient-facing stroke rehabilitation education and concern management"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "title_abstract_screening",
+    "inclusion_codes": [
+      "LLM_CHATBOT",
+      "CONVERSATIONAL_AI",
+      "REGULATED_HEALTHCARE",
+      "SAFETY_RISK_EVALUATION"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is an empirical evaluation of named LLM chatbots in a regulated healthcare setting and reports safety, accuracy, relevance, and hallucination risks relevant to conversational AI deployment. However, based on the provided text, governance mechanisms such as guardrails, audit, observability, human oversight frameworks, or compliance architectures are not the primary focus; the study centers on clinical performance assessment.",
+    "decision_confidence": 0.68,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only page 1/front matter with abstract was provided; full-text review needed to confirm whether governance, oversight, or deployment-control content appears in methods/discussion."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal limited to abstract-only evidence. Objective and evaluation dimensions are stated, but sample size, detailed protocol, ethics, and analytic procedures are not visible in the provided text. Low interrater agreement is reported as a finding, which also signals appraisal uncertainty for response-quality scoring."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "low",
+    "explanation": "Findings on safety, hallucination, and relevance are coherent with the stated aim, but confidence is low because only the abstract is available and key methodological details, sample size, and governance-related mechanisms are unclear."
+  },
+  "coding": {
+    "open_codes": [
+      "stroke_rehabilitation_questions",
+      "caregiver_education_needs",
+      "chatgpt_evaluation",
+      "google_bard_evaluation",
+      "hallucinated_responses",
+      "low_interrater_agreement",
+      "patient_facing_support"
+    ],
+    "axial_codes": [
+      "clinical_LLM_chatbot_performance",
+      "safety_and_accuracy_risks",
+      "regulated_healthcare_conversational_AI"
+    ],
+    "theme": "Performance and safety risks of patient-facing LLM chatbots in stroke rehabilitation",
+    "subtheme": "Accuracy, safety, relevance, and readability assessment of commercial chatbots",
+    "concepts": [
+      "accuracy",
+      "safety",
+      "relevance",
+      "readability",
+      "hallucination",
+      "interrater agreement",
+      "patient concerns",
+      "caregiver education"
+    ],
+    "model_layers": [
+      "application_layer",
+      "risk_and_safety_layer"
+    ],
+    "rq_alignment": [
+      "regulated_domain_deployment_risks",
+      "safety_and_harm_in_conversational_LLM_systems",
+      "human_review_of_chatbot_outputs"
+    ],
+    "coding_confidence": 0.62
+  },
+  "synthesis": {
+    "main_claim": "ChatGPT and Google Bard show potential for patient-facing stroke rehabilitation support, but both have safety, accuracy, relevance, and emotional-situation limitations, with low physician interrater agreement on response acceptability.",
+    "contribution": "Provides empirical, healthcare-regulated-domain evidence comparing two commercial LLM chatbots on safety and response quality using real patient/caregiver-derived questions.",
+    "limitations": "Provided text is abstract-only; sample size, full evaluation protocol, governance controls, and detailed limitations are unclear. Reported low interrater agreement reduces certainty in quality judgments.",
+    "use_in_review": "Use as supporting evidence on operational risks of deploying general-purpose LLM chatbots in regulated healthcare conversations, especially hallucination, insufficient specificity, safety gaps, and variability in expert acceptance; not sufficient as central evidence on conversational governance frameworks or technical compliance controls."
+  },
+  "evidence": [
+    {
+      "claim": "Study evaluates two specific commercial LLM chatbots in healthcare",
+      "excerpt": "We sought to evaluate the performance of two well-known, freely-accessible chatbots, ChatGPT and Google Bard",
+      "page": "1",
+      "section": "Background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated healthcare context with patient and caregiver questions",
+      "excerpt": "responding to common questions about stroke rehabilitation posed by patients and their caregivers",
+      "page": "1",
+      "section": "Background",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Empirical method combines survey-derived questions with chatbot evaluation",
+      "excerpt": "We collected questions from outpatients and their caregivers through a survey, categorised them by theme, and created representative questions to be posed to both chatbots.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Responses assessed on safety and related quality dimensions",
+      "excerpt": "We then evaluated the chatbots’ responses based on accuracy, safety, relevance, and readability.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Hallucination and safety risks identified",
+      "excerpt": "struggled with hallucinated responses, were often not specific, and lacked awareness of the possibility for emotional situations with the potential to turn dangerous",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Low interrater agreement among physician evaluators",
+      "excerpt": "Additionally, interrater agreement was low, highlighting the variability in physician acceptance of their responses.",
+      "page": "1",
+      "section": "Results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Conclusion emphasizes unresolved safety and reliability issues before independent use",
+      "excerpt": "issues remain regarding safety, accuracy, and relevance. Future chatbots should address these problems to ensure that they can reliably and independently manage the concerns and questions",
+      "page": "1",
+      "section": "Conclusions",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Peer-reviewed journal publication",
+      "excerpt": "REVIEWED BY Elena Cardillo, National Research Council (CNR), Italy Giacomo Rossettini, University of Verona, Italy",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "RAG mentioned only as abbreviation, not as studied governance mechanism",
+      "excerpt": "RAG, retrieval- augmented language generator",
+      "page": "1",
+      "section": "Abbreviations",
+      "supports": "eligibility"
+    }
+  ]
+}

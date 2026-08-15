@@ -1,0 +1,207 @@
+{
+  "bibliographic": {
+    "title": "Human-in-the-loop assessment with AI: implications for teacher education in Ibero-American universities",
+    "authors": "Diana Carolina Fajardo-Ramos, Andrés Chiappe, Javier Mella-Norambuena",
+    "year": "2025",
+    "venue": "Frontiers in Education",
+    "doi": "10.3389/feduc.2025.1710992",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Fajardo-Ramos, D. C., Chiappe, A., & Mella-Norambuena, J. (2025). Human-in-the-loop assessment with AI: implications for teacher education in Ibero-American universities. Frontiers in Education, 10, 1710992. https://doi.org/10.3389/feduc.2025.1710992"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "scoping review with PRISMA and PPCDO eligibility scheme",
+    "study_design": "scoping review",
+    "sample_description": "Peer-reviewed studies on AI and assessment in Ibero-American higher education identified via Scopus (2015–2025; English/Spanish/Portuguese)",
+    "sample_size": "76",
+    "sector": "higher education; teacher education",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI-enhanced assessment tools including automated/granular feedback, adaptive testing, learning-analytics-supported grading, generative item/rubric creation, LLM-assisted evaluation, and AI-supported proctoring; distinguished from pre-AI baselines"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_assessment",
+    "inclusion_codes": [
+      "GOV_HITL",
+      "GOV_AUDIT_TRACEABILITY",
+      "GOV_EXPLAINABILITY",
+      "GOV_FAIRNESS_TRANSPARENCY",
+      "EDU_REGULATED",
+      "LLM_MENTIONED",
+      "REVIEW_SECONDARY"
+    ],
+    "exclusion_codes": [
+      "EXCL_NOT_CONVERSATIONAL_PRIMARY",
+      "EXCL_NOT_LLM_CENTRIC"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "Scoping review centered on human-in-the-loop AI assessment governance in Ibero-American higher education, with explicit governance conditions (explainability, audit trails, fairness, transparency) and LLM-assisted evaluation as one AI mechanism; however, the primary phenomenon is educational assessment rather than conversational LLM systems, chatbots, or agentic conversational governance.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Provided excerpts emphasize assessment governance and search-strategy mentions of LLMs/chatbots; full text should be checked for depth of conversational-AI and operational governance content beyond assessment scoring."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Clear scoping-review objective and replicable PRISMA/PPCDO protocol with documented Scopus search blocks and dual-language queries. Single-database retrieval and Ibero-American regional focus may limit generalizability. Limitations section not visible in supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Method is coherent and adequately reported for a scoping review synthesizing 76 studies, but relevance to conversational LLM governance is indirect: LLMs appear among broader AI-assessment tools and search terms rather than as the central governance object."
+  },
+  "coding": {
+    "open_codes": [
+      "human-in-the-loop assessment",
+      "audit trails",
+      "explainability practices",
+      "data stewardship",
+      "fairness in AI assessment",
+      "teacher competency clusters",
+      "function-by-purpose taxonomy",
+      "AI-enhanced assessment tools",
+      "LLM-assisted evaluation"
+    ],
+    "axial_codes": [
+      "human oversight",
+      "governance safeguards",
+      "regulated education context",
+      "assessment technology taxonomy"
+    ],
+    "theme": "Human-in-the-loop governance for AI-enhanced educational assessment",
+    "subtheme": "Teacher-education competency requirements for trustworthy AI-assisted assessment",
+    "concepts": [
+      "explainability",
+      "audit trails",
+      "transparency",
+      "fairness",
+      "traceability",
+      "double-marking",
+      "feedback literacy",
+      "rubric validation",
+      "integrity"
+    ],
+    "model_layers": [
+      "policy and ethical safeguards",
+      "human oversight workflows",
+      "platform orchestration and moderation",
+      "data interpretation and fairness",
+      "assessment tool taxonomy"
+    ],
+    "rq_alignment": [
+      "human oversight and handoff in AI systems",
+      "auditability and traceability",
+      "fairness transparency and explainability",
+      "governance in regulated education contexts",
+      "operational competency frameworks"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Ibero-American higher education is technically ready for AI-enhanced assessment, but progress depends on professionalizing human-in-the-loop assessment paired with explainability, data stewardship, audit trails, and clearly communicated assistance limits.",
+    "contribution": "Offers a function-by-purpose taxonomy distinguishing pre-AI from AI-specific assessment mechanisms, five teacher-education competency clusters for responsible AI-involved assessment, and a decision-oriented research agenda grounded in 76 peer-reviewed studies.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting secondary evidence for human-in-the-loop oversight, audit/traceability, explainability, and fairness/transparency governance patterns in regulated education; not as central evidence on conversational LLM system governance."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed scoping review using PRISMA and PPCDO with 76 included studies",
+      "excerpt": "This scoping review examines how artificial intelligence (AI) reshapes assessment in Ibero-American higher education",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Search covered LLM and chatbot terms among broader AI variants",
+      "excerpt": "\"generative AI,\" \"large language model* ,\" \"chatbot* ,\" \"LLM,\" \"recommender.\"",
+      "page": "6",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM-assisted evaluation is one explicit AI-enhanced assessment mechanism",
+      "excerpt": "AI-enhanced tools (e.g., automated/granular feedback, adaptive testing, learning-analytics-supported grading, generative item/rubric creation, LLM-assisted evaluation, AI-supported proctoring)",
+      "page": "5",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance conditions include explainability, stewardship, and audit trails",
+      "excerpt": "explainability practices, data stewardship, audit trails, and clearly communicated assistance limits",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human-in-the-loop assessment is the central governance conclusion",
+      "excerpt": "progress depends less on adding tools and more on professionalizing human-in-the-loop assessment within robust governance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Five competency clusters specify oversight and traceability practices",
+      "excerpt": "(1) feedback literacy with AI (criterion-anchored prompting, sampling and audits, revision-based workflows); (2) rubric/item validation and traceability",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Integrity, transparency, and moderation/double-marking when AI assists scoring",
+      "excerpt": "(4) integrity and transparency in AI-involved assessment; and (5) orchestration of platforms and moderation/double-marking when AI assists scoring",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "PRISMA-guided review process is explicitly reported",
+      "excerpt": "Guided by PRISMA procedures and an eligibility scheme based on PPCDO (Population–Phenomenon–Context–Design–Outcomes)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Sample size of 76 peer-reviewed studies after screening",
+      "excerpt": "yielding 76 peer-reviewed studies",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Synthesis combined qualitative thematic analysis with quantitative descriptors",
+      "excerpt": "Synthesis combined qualitative thematic analysis with quantitative descriptors and an exploratory correlational look at tool–outcome pairings",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Primary focus is assessment in teacher education, not conversational systems",
+      "excerpt": "implications for teacher education in Ibero-American universities",
+      "page": "1",
+      "section": "title/abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated education context is explicit",
+      "excerpt": "Ibero-American higher education",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

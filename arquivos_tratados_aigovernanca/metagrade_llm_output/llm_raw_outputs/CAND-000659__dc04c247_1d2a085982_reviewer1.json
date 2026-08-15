@@ -1,0 +1,211 @@
+{
+  "bibliographic": {
+    "title": "Employee-Driven Leakage of Technical Documentation into General-Purpose LLMs: An Integrative Review",
+    "authors": "Latinović, L., Zhukovskiy, O., Mašić, O., & Živković, D.",
+    "year": "2026",
+    "venue": "Serbian Journal of Engineering Management",
+    "doi": "10.5937/SJEM2601077L",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Latinović, L., Zhukovskiy, O., Mašić, O., & Živković, D. (2026). Employee-driven leakage of technical documentation into general-purpose LLMs: An integrative review. Serbian Journal of Engineering Management, 11(1), 77. https://doi.org/10.5937/SJEM2601077L"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "integrative review",
+    "study_design": "integrative review synthesizing peer-reviewed research, provider and regulator materials, and structured incident reporting",
+    "sample_description": "heterogeneous corpus spanning peer-reviewed literature on LLM use in work settings, provider documentation, and structured incident databases/case reports",
+    "sample_size": "unclear",
+    "sector": "engineering and documentation work / enterprise knowledge work",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "general-purpose LLMs used by employees via chat/API/plugin for interpreting standards, troubleshooting, and drafting engineering artefacts"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "llm_governance",
+      "data_leakage_risk",
+      "guardrails_observability",
+      "compliance_cross_border",
+      "integrative_review"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper is an integrative review focused on employee-driven leakage of technical documentation into general-purpose LLMs and proposes an auditable governance approach with a minimal guardrail stack. It is relevant to operational LLM governance, observability, compliance, and escalation, but it is not centered on conversational AI systems or conversational governance in regulated high-stakes domains.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Provided text is partial (front matter, methodology fragments, references); Python-extracted bibliographic metadata was garbled and year may differ from journal issue (2026)."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal based on partial text. Integrative review design and inclusion criteria are stated, but full search, screening, and synthesis procedures are not visible in the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The review presents a coherent mechanism map and governance framework with explicit limitations, but available text does not fully document search and synthesis procedures, and the study addresses organizational LLM data-governance rather than conversational governance in regulated conversational systems."
+  },
+  "coding": {
+    "open_codes": [
+      "employee-driven leakage",
+      "documentation lifecycle",
+      "copy-paste transition points",
+      "upload/OCR",
+      "connector invocation",
+      "paste-back",
+      "shadow workflows",
+      "policy drift",
+      "minimal guardrail stack",
+      "observability gaps"
+    ],
+    "axial_codes": [
+      "organizational AI governance",
+      "socio-technical risk controls",
+      "LLM-mediated knowledge transfer",
+      "compliance and confidentiality exposure"
+    ],
+    "theme": "Organizational governance of employee LLM use",
+    "subtheme": "Documentation leakage pathways and proportionate guardrails",
+    "concepts": [
+      "minimal guardrail stack",
+      "boundary-crossing transition points",
+      "qualitative risk scoring",
+      "rule-based escalation",
+      "trackable governance metrics",
+      "interaction surface (chat/API/plugin)"
+    ],
+    "model_layers": [
+      "risk identification",
+      "operational controls",
+      "observability and audit",
+      "organizational evaluation"
+    ],
+    "rq_alignment": [
+      "operational_technical_governance",
+      "risk_audit_compliance",
+      "governance_accountability"
+    ],
+    "coding_confidence": 0.74
+  },
+  "synthesis": {
+    "main_claim": "Routine employee use of general-purpose LLMs creates bidirectional flows that externalize proprietary documentation and reintroduce model outputs into internal systems, concentrating risk at specific transition points where observability is often weakest.",
+    "contribution": "Synthesizes heterogeneous evidence into a mechanism map of employee-driven documentation leakage and proposes a proportionate minimal guardrail stack plus an organizational evaluation framework with auditable metrics such as consolidation onto sanctioned channels, blocking effectiveness, and policy-drift lag.",
+    "limitations": "The paper explicitly does not assert prevalence and aims to make assumptions explicit; full prevalence estimates and complete review methods are not evidenced in the provided excerpt.",
+    "use_in_review": "Use as supporting evidence on operational LLM governance, guardrails, observability, compliance, and escalation for employee LLM workflows; limited direct value as central evidence on conversational AI governance in regulated conversational systems."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with stated submission and acceptance dates",
+      "excerpt": "Original Scientific Paper/Original naučni rad",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is an integrative review of heterogeneous LLM-related evidence",
+      "excerpt": "This integrative review synthesises heterogeneous evidence (peer-reviewed research, provider and regulator materials, and structured incident reporting)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Focus is general-purpose LLMs used by employees in engineering/documentation work",
+      "excerpt": "General-purpose large language models are increasingly used by employees to interpret standards, troubleshoot systems, and draft or refine engineering artefacts.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Identifies boundary-crossing transition points where risk and weak observability concentrate",
+      "excerpt": "We identify a recurrent set of boundary-crossing transition points such as copy–paste, upload/OCR, connector invocation, and paste-back, where risk concentrates and where observability is often weakest.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Proposes auditable governance with a minimal guardrail stack and evaluation metrics",
+      "excerpt": "we propose a proportionate “minimal guardrail stack” and an organisational evaluation framework combining qualitative risk scoring, rule-based escalation, and simple, trackable metrics",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Does not claim prevalence estimates",
+      "excerpt": "The paper does not assert prevalence. Instead, it aims to make assumptions explicit and support cautious, workflow-compatible adoption decisions.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Methodology is explicitly integrative review",
+      "excerpt": "This study adopts an integrative review design, a methodology specifically chosen for its capacity to combine diverse data sources—including",
+      "page": "3",
+      "section": "methodology",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Inclusion criteria require relevance to employee LLM use, provider handling, documentation risks, or governance mitigations",
+      "excerpt": "Inclusion required relevance to employee LLM use, provider handling of user inputs, documentation-relevant risks, or mitigations/governance.",
+      "page": "3",
+      "section": "methodology",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Sources coded by interaction surface including chat/API/plugin",
+      "excerpt": "Sources were coded by interaction surface (chat/API/plugin), data path (prompt/upload/relay), stated handling (retention/training/telemetry), and controls.",
+      "page": "3",
+      "section": "methodology",
+      "supports": "coding"
+    },
+    {
+      "claim": "Research questions address pathways, risks, controls, and organizational evaluation",
+      "excerpt": "RQ1: Through which employee-driven pathways do proprietary documentation artefacts plausibly reach general-purpose LLM services?",
+      "page": "3",
+      "section": "methodology",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Corpus spans peer-reviewed literature, provider documentation, and incident databases",
+      "excerpt": "Peer-reviewed literature on LLM use in work settings, data leakage, cloud governance, and security/privacy of extensions, APIs, and cloud email/document platforms",
+      "page": "3",
+      "section": "methodology",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Risk dimensions include compliance and cross-border transfer",
+      "excerpt": "four cross- cutting risk dimensions recur: confidentiality and competitive exposure, compliance and cross-border transfer, model-side effects",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Incentive-driven governance gaps sustain shadow workflows and reduce observability",
+      "excerpt": "incentive-driven governance gaps that sustain shadow workflows",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Mechanism map illustrates bidirectional flows and proposed minimal guardrail stack",
+      "excerpt": "Systematic mapping of employee-driven documentation leakage into general-purpose LLMs, illustrating bidirectional data flows across critical transition points (copy-paste, uploads, connectors) and the proposed \"minimal guardrail stack\" for organisational governance.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "bibliographic": {
+    "title": "Benchmark evaluation of video large language models in quality assessment of science popularization videos for dry eye",
+    "authors": "Shiqi Zhou, Mingxue Huang, Jiawen Wei, Huihui Fang, Weihua Yang, Hanyi Yu, Yanwu Xu",
+    "year": "2026",
+    "venue": "Scientific Reports",
+    "doi": "10.1038/s41598-026-39444-0",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Zhou, S., Huang, M., Wei, J., Fang, H., Yang, W., Yu, H., & Xu, Y. (2026). Benchmark evaluation of video large language models in quality assessment of science popularization videos for dry eye. Scientific Reports. https://doi.org/10.1038/s41598-026-39444-0"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "benchmark comparative evaluation",
+    "study_design": "benchmark evaluation of three VideoLLMs against established audiovisual quality assessment instruments",
+    "sample_description": "science popularization videos on dry eye for automated quality assessment",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Video Large Language Models (VideoLLaMA3, QwenVL, InternVL) for automated evaluation of health science popularization videos"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_TOPIC_MISMATCH",
+      "E_NOT_CONVERSATIONAL_AI"
+    ],
+    "exclusion_reason": "Study benchmarks VideoLLMs for automated quality assessment of health education videos; it does not address conversational AI systems, dialogue-based agents, or conversational governance mechanisms.",
+    "decision_rationale": "The article is an empirical benchmark of VideoLLMs in a healthcare content-quality context. Although it references LLMs, misinformation risk, and governance of medical video content, the provided text contains no evidence of chatbots, conversational agents, dialogue oversight, guardrails, audit/logging of conversational systems, or other core conversational governance topics in the review scope.",
+    "decision_confidence": 0.91,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Exclusion is clear from title, abstract, and introduction: focus is VideoLLM benchmarking for audiovisual health content assessment, not conversational governance."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal is limited to front matter, abstract, introduction, keywords, and a partial discussion excerpt; full methods, sample size, results tables, and complete limitations are not provided in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the review question on conversational governance in regulated LLM systems, relevance is low because the study evaluates VideoLLMs for offline quality assessment of health videos rather than governance of conversational interactions."
+  },
+  "coding": {
+    "open_codes": [
+      "video_llm_benchmarking",
+      "health_video_quality_assessment",
+      "digital_health_misinformation",
+      "medical_content_governance_reference",
+      "llm_reliability_concerns"
+    ],
+    "axial_codes": [
+      "llm_evaluation_in_healthcare",
+      "content_quality_control",
+      "pre_deployment_assessment"
+    ],
+    "theme": "Benchmarking VideoLLMs for health science video quality assessment",
+    "subtheme": "Misinformation risk mitigation in online health content",
+    "concepts": [
+      "VideoLLMs",
+      "PEMAT-A/V",
+      "Global Quality Score",
+      "science popularization videos",
+      "dry eye",
+      "open-source evaluation framework",
+      "digital health governance"
+    ],
+    "model_layers": [
+      "content_evaluation",
+      "deployment_readiness_assessment"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "VideoLLMs can be systematically benchmarked to automate quality assessment of dry eye science popularization videos, with an open-source framework intended to support evaluation before broader use in medical video content governance.",
+    "contribution": "Proposes a framework benchmarking three VideoLLMs using established audiovisual quality instruments and presents what the authors describe as a first application of VideoLLMs for automated assessment of online medical science popularization videos.",
+    "limitations": "LLM outputs are probabilistic and assessment variability raises reproducibility and reliability concerns; further methodological refinement is needed before trustworthy application in medical contexts.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance; may serve only as peripheral contextual background on LLM reliability and digital health content governance if needed."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on VideoLLMs for automated quality assessment of health popularization videos, not conversational systems.",
+      "excerpt": "We proposed a framework employing Video Large Language Models (VideoLLMs) for automated evaluation of science popularization videos.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Specific LLMs and benchmark instruments are named.",
+      "excerpt": "Three representative VideoLLMs (VideoLLaMA3, QwenVL, and InternVL) were benchmarked using three established instruments",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Healthcare regulated context with misinformation risk motivation.",
+      "excerpt": "Reliable and scalable methods are urgently needed to identify and mitigate misinformation risks in online health content.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLM reliability concerns are acknowledged in medical contexts.",
+      "excerpt": "LLM outputs remain probabilistic in nature, and variability in their assessments raises concerns about reproducibility and reliability in medical contexts",
+      "page": "3",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Governance is referenced for medical video content, not conversational governance.",
+      "excerpt": "before VideoLLMs can be considered for automated evaluation or governance of medical video content.",
+      "page": "3",
+      "section": "keywords/introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors position the work as bridging AI and digital health governance.",
+      "excerpt": "bridging the gap between cutting-edge artificial intelligence technologies and digital health governance",
+      "page": "10",
+      "section": "discussion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Peer-reviewed journal acceptance is indicated.",
+      "excerpt": "Accepted: 5 February 2026",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

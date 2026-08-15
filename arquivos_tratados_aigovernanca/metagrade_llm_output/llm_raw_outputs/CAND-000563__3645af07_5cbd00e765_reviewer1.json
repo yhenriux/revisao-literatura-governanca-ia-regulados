@@ -1,0 +1,170 @@
+{
+  "bibliographic": {
+    "title": "Proactive adoption of generative artificial intelligence (AI) in the operations of Japan's Pharmaceuticals and Medical Devices Agency (PMDA): Current initiatives, governance, and future perspectives",
+    "authors": "Kohei Amakasu, Junichi Kawana, Osamu Kotera, Tomoharu Numanyu, Akihiro Nakajima, Koichi Ishikawa, Yuka Kobayashi, Yoshiaki Uyama",
+    "year": "2026",
+    "venue": "Global Health & Medicine",
+    "doi": "10.35772/ghm.2026.01046",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Amakasu, K., Kawana, J., Kotera, O., Numanyu, T., Nakajima, A., Ishikawa, K., Kobayashi, Y., & Uyama, Y. (2026). Proactive adoption of generative artificial intelligence (AI) in the operations of Japan's Pharmaceuticals and Medical Devices Agency (PMDA): Current initiatives, governance, and future perspectives. Global Health & Medicine. Advance online publication. https://doi.org/10.35772/ghm.2026.01046"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "institutional case description and policy forum",
+    "study_design": "institutional experience report with planned/ongoing proof-of-concept activities",
+    "sample_description": "PMDA internal operations, policies, and initiatives across regulatory reviews, safety measures, and relief services",
+    "sample_size": "unclear",
+    "sector": "pharmaceutical and medical device regulatory agency",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "commercially available generative artificial intelligence tools for administrative support and exploration of large language models in secure internal environments for scientifically specialized tasks"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_GenAI",
+      "governance_accountability",
+      "regulated_high_stakes",
+      "human_oversight",
+      "risk_audit_compliance"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article provides substantive evidence on generative AI and LLM governance, human-in-the-loop oversight, information governance, and regulated institutional adoption at PMDA. However, the supplied text contains no explicit focus on conversational AI, chatbots, agents, or conversational governance mechanisms, so it is better classified as supporting rather than central evidence for a review on conversational governance in LLM-based systems.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Provided text is truncated after page 2; metadata extraction was corrupted; conversational AI relevance is absent in available excerpts and requires full-text confirmation."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Policy forum-style institutional account with clear governance framing but limited transparent empirical methodology in the provided text; suitability is descriptive rather than evaluative."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The governance narrative is coherent and institutionally grounded, but available text offers incomplete methodological detail and no conversational-system focus, limiting confidence for central synthesis on conversational governance."
+  },
+  "coding": {
+    "open_codes": [
+      "phased GenAI implementation",
+      "human-in-the-loop decision-making",
+      "information governance",
+      "staged evaluation",
+      "staff capacity building",
+      "secure internal LLM exploration",
+      "regulatory productivity",
+      "institutional accountability"
+    ],
+    "axial_codes": [
+      "organizational AI governance",
+      "human oversight",
+      "regulated operational adoption",
+      "implementation strategy"
+    ],
+    "theme": "Institutional governance for generative AI and LLM adoption in a regulated health agency",
+    "subtheme": "Phased deployment with human oversight and information governance",
+    "concepts": [
+      "governance framework",
+      "human-in-the-loop",
+      "generative artificial intelligence",
+      "large language models",
+      "accountability",
+      "public trust",
+      "proof-of-concept activities"
+    ],
+    "model_layers": [
+      "policy governance",
+      "human oversight",
+      "information governance",
+      "operational implementation"
+    ],
+    "rq_alignment": [
+      "governance of generative AI in regulated environments",
+      "human oversight in LLM-supported work",
+      "institutional accountability and trust"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "PMDA is proactively but cautiously adopting generative AI and exploring LLMs through a governance-centered phased strategy that preserves human judgment, strengthens information governance, and supports regulatory work without replacing expert oversight.",
+    "contribution": "Offers an institutional governance framework and implementation strategy from a national medicines regulator, combining commercial GenAI for administrative tasks with secure internal LLM exploration for specialized scientific work.",
+    "limitations": "Provided text is partial; no explicit conversational AI governance content; empirical evaluation details, limitations section, and operational controls such as audit, tracing, or contestation are not evidenced in the excerpt.",
+    "use_in_review": "Use as supporting evidence on regulated institutional GenAI/LLM governance, human-in-the-loop oversight, and phased adoption in healthcare regulation; not as primary evidence for conversational governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on generative AI utilization and governance at PMDA",
+      "excerpt": "This article describes the current status of generative artificial intelligence utilization at PMDA, outlines its governance framework",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs are part of the implementation strategy in secure internal environments",
+      "excerpt": "combines commercially available generative artificial intelligence tools for administrative support with the exploration of large language models in secure internal environments",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance emphasizes human-in-the-loop and staged evaluation",
+      "excerpt": "a governance framework that emphasizes human-in-the-loop decision-making, staged evaluation, information governance, and staff capacity building",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "GenAI should support regulatory work without replacing human judgment",
+      "excerpt": "illustrate how generative artificial intelligence may support regulatory work without replacing human judgment",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Adoption is framed around accountability and public trust",
+      "excerpt": "proactive yet cautious adoption of generative artificial intelligence, grounded in robust governance and organizational learning, can improve productivity and enhance scientific capacity within regulatory authorities while maintaining public trust and institutional accountability",
+      "page": "1",
+      "section": "conclusion",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Regulated healthcare/pharmaceutical domain is explicit",
+      "excerpt": "ensuring the quality, efficacy, and safety of pharmaceuticals, medical devices, and related products in Japan",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Institutional implementation section addresses generative AI governance framework",
+      "excerpt": "2. Implementation of generative AI and governance framework at PMDA",
+      "page": "2",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No conversational AI focus appears in supplied text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "bibliographic": {
+    "title": "The EU AI Act: implications and compliance guidance for healthcare facilities",
+    "authors": "Fabio Dennstädt, Janna Hastings, Paul Windisch, Aleksa Jovanovic, Tijana Žunić Marič, Sarah Brüningk, Daniel M. Aebersold, Antje Knopf, Nikola Cihoric",
+    "year": "2026",
+    "venue": "Frontiers in Digital Health",
+    "doi": "10.3389/fdgth.2026.1808373",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Dennstädt, F., Hastings, J., Windisch, P., Jovanovic, A., Marič, T. Ž., Brüningk, S., Aebersold, D. M., Knopf, A., & Cihoric, N. (2026). The EU AI Act: implications and compliance guidance for healthcare facilities. Frontiers in Digital Health, 8, 1808373. https://doi.org/10.3389/fdgth.2026.1808373"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "qualitative regulatory analysis with multidisciplinary expert panel synthesis",
+    "study_design": "four-part regulatory analysis cross-referenced with clinical governance standards and illustrated by a hypothetical high-risk case study",
+    "sample_description": "multidisciplinary expert panel comprising specialists in clinical oncology, AI research, health informatics, medical law, and AI implementation",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "EU AI Act deployer obligations for clinical settings; clinical AI including CDSS, multimodal diagnostic AI, LLMs, and chatbots as examples of risk tiers"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "governance_accountability",
+      "regulated_healthcare",
+      "risk_compliance",
+      "human_oversight",
+      "transparency_obligations"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article centrally addresses EU AI Act compliance governance for healthcare deployers, including human oversight, transparency, risk assessment, and ongoing monitoring. LLMs and chatbots appear as secondary technology examples rather than the primary object of study, so it supports but does not centrally evidence conversational LLM governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage marked central_candidate, but full text shows primary focus on general healthcare AI Act compliance rather than conversational LLM governance; manual confirmation of peripheral LLM/chatbot relevance is advised."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Strengths: clear regulatory objective, structured four-part method, explicit cross-walk to MDR/FUTURE-AI, and operational four-phase framework. Limits: no empirical deployment study; expert synthesis and hypothetical case; EU healthcare specificity; LLM/conversational systems are referenced but not analyzed in depth."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are logically coherent and adequately grounded in regulatory text and standards, but the work is a normative compliance synthesis rather than primary evidence on conversational LLM governance in practice."
+  },
+  "coding": {
+    "open_codes": [
+      "EU AI Act",
+      "deployer obligations",
+      "healthcare compliance",
+      "high-risk AI",
+      "FRIA",
+      "human oversight",
+      "transparency obligations",
+      "post-market monitoring",
+      "clinical governance",
+      "foundation models"
+    ],
+    "axial_codes": [
+      "regulatory compliance",
+      "organizational governance",
+      "risk classification",
+      "human-AI interaction obligations",
+      "operational implementation"
+    ],
+    "theme": "Regulatory and operational AI governance for healthcare deployers under the EU AI Act",
+    "subtheme": "Four-phase compliance roadmap and deployer obligations (Articles 26, 27, 50)",
+    "concepts": [
+      "Foundational Strategy and Governance",
+      "System Analysis & Risk Assessment",
+      "Operational Integration",
+      "Ongoing Compliance",
+      "Fundamental Rights Impact Assessment",
+      "limited-risk transparency for AI interaction"
+    ],
+    "model_layers": [
+      "legal/regulatory",
+      "organizational governance",
+      "risk management",
+      "operational deployment",
+      "post-deployment monitoring"
+    ],
+    "rq_alignment": [
+      "governance",
+      "compliance",
+      "accountability",
+      "human oversight",
+      "risk management",
+      "regulated healthcare context"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Healthcare facilities deploying AI under the EU AI Act face predominantly high-risk obligations, and the authors propose a four-phase implementation framework plus a 10-step compliance roadmap for deployers, exemplified with a hypothetical multimodal breast cancer AI system.",
+    "contribution": "Translates EU AI Act legal requirements for deployers into a practical hospital-oriented compliance framework cross-referenced with MDR and FUTURE-AI governance standards.",
+    "limitations": "The Act's static approval-based framework may struggle with rapidly evolving technologies such as foundation models and substantial retraining; applicability is primarily EU healthcare regulatory context.",
+    "use_in_review": "Use as supporting evidence on regulated healthcare AI governance, deployer accountability, transparency obligations for user interaction with AI systems, and compliance roadmaps; cite cautiously for conversational LLM governance because LLMs/chatbots are illustrative rather than analytically central."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with identifiable authorship and DOI",
+      "excerpt": "REVIEWED BY Lars Masanneck",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study performs qualitative regulatory analysis focused on deployer obligations in clinical settings",
+      "excerpt": "We performed a qualitative regulatory analysis of the EU AI Act, specifically focusing on the obligations of \"deployers\" (Articles 26, 27, and 50) in clinical settings.",
+      "page": "1",
+      "section": "abstract/methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Method combines regulatory cross-reference with multidisciplinary expert panel and four-part procedure",
+      "excerpt": "The methodology comprised four parts, leveraging a multidisciplinary expert panel comprising specialists in clinical oncology, AI research, health informatics, medical law, and AI implementation.",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Obligations categorized into governance, human-AI interaction, and post-market monitoring",
+      "excerpt": "We categorized the specific obligations of the EU AI Act into three primary domains: Governance and Documentation, Human-AI Interaction, and Post-Market Monitoring.",
+      "page": "2",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Most clinical AI tools are classified as high-risk in healthcare",
+      "excerpt": "the analysis identifies healthcare as a primary focus of the Act, with most clinical AI tools classified as \"high-risk\".",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors propose a four-phase implementation framework for compliance",
+      "excerpt": "We established a four-phase implementation framework: (1) Foundational Strategy and Governance, (2) System Analysis & Risk Assessment, (3) Operational Integration, and (4) Ongoing Compliance.",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLMs are mentioned as increasingly implemented healthcare technologies but are not the study's sole focus",
+      "excerpt": "More autonomous and generative AI systems including Large Language Models (LLMs) are increasingly being implemented into healthcare with numerous potential applications (14).",
+      "page": "3",
+      "section": "introduction/results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Chatbots appear only as a limited-risk transparency example",
+      "excerpt": "AI chatbot providing general health information, symptom checkers for patients on a hospital website.",
+      "page": "5",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Transparency obligations require informing users they interact with an AI system",
+      "excerpt": "Users must be informed they are interacting with an AI system [Art. 50 (1)]",
+      "page": "5",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Article acknowledges governance concerns including bias, transparency, and human oversight",
+      "excerpt": "Concerns about algorithmic bias, cybersecurity issues, lack of transparency, and",
+      "page": "3",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Limitation noted for rapidly evolving foundation models under a static approval framework",
+      "excerpt": "the Act's static, approval-based framework struggles to address rapidly evolving technologies, particularly general-purpose AI and foundation models.",
+      "page": "12",
+      "section": "discussion",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors declare generative AI use in manuscript preparation with human review",
+      "excerpt": "During the preparation of this work the author(s) used the generative AI system Gemini 2.5 pro (Google, Mountain View, CA, USA) for draft revision and translation.",
+      "page": "13",
+      "section": "declarations",
+      "supports": "appraisal"
+    }
+  ]
+}

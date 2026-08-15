@@ -1,0 +1,181 @@
+{
+  "bibliographic": {
+    "title": "Online Health Information–Seeking in the Era of Large Language Models: Cross-Sectional Web-Based Survey Study",
+    "authors": "Hye Sun Yun; Timothy Bickmore",
+    "year": "2025",
+    "venue": "Journal of Medical Internet Research",
+    "doi": "10.2196/68560",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Yun, H. S., & Bickmore, T. (2025). Online health information–seeking in the era of large language models: Cross-sectional web-based survey study. Journal of Medical Internet Research, 27, e68560. https://doi.org/10.2196/68560"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "cross-sectional web-based survey",
+    "study_design": "cross-sectional web-based survey of crowd workers via Prolific",
+    "sample_description": "Crowd workers recruited through Prolific; questionnaire covered sociodemographic information, trust in health care providers, eHealth literacy, AI attitudes, chronic health condition status, and online health information source use, perceptions, and actions",
+    "sample_size": "297",
+    "sector": "health care / consumer health information",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-based chatbots such as ChatGPT and Microsoft Copilot used for online health information seeking"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_CHATBOT",
+      "HEALTHCARE_REGULATED",
+      "USER_TRUST_SAFETY",
+      "HUMAN_VERIFICATION_BEHAVIOR"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The study is an empirical survey of user patterns, perceptions, and actions when seeking health information from LLM-based chatbots in a regulated health context. It provides supporting evidence on safety risks, trust, cross-checking, and cautious adherence, but the provided text does not examine conversational governance mechanisms such as guardrails, observability, audit, compliance controls, institutional oversight, or operational governance of LLM conversational systems.",
+    "decision_confidence": 0.74,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial methods are available; full-text review is needed to confirm whether the article discusses governance, oversight, or compliance mechanisms beyond end-user verification behavior."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 0,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Clear cross-sectional survey design with named instruments (eHEALS, T-HCT, AIAS-4) and quantified results. Sampling relies on Prolific crowd workers, limiting generalizability. Ethics and study limitations are not visible in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are internally coherent and adequately reported for a behavioral survey, but methodological limitations include a convenience sample of crowd workers. Relevance to conversational governance is partial because the study focuses on consumer information-seeking behavior rather than governance architecture, compliance, or system-level oversight."
+  },
+  "coding": {
+    "open_codes": [
+      "online_health_information_seeking",
+      "llm_chatbot_use",
+      "perceived_information_quality",
+      "trust_in_ai",
+      "cross_checking_behavior",
+      "adherence_to_advice",
+      "age_correlates",
+      "ai_attitude_correlates"
+    ],
+    "axial_codes": [
+      "end_user_behavior",
+      "health_information_sources",
+      "risk_aware_information_use",
+      "sociodemographic_correlates"
+    ],
+    "theme": "Consumer use and cautious uptake of LLM-based health information",
+    "subtheme": "Verification, trust, and adherence differences across information sources",
+    "concepts": [
+      "large language models",
+      "chatbots",
+      "health information seeking",
+      "safety risks",
+      "trust",
+      "transparency",
+      "cross-checking",
+      "adherence",
+      "responsible information-seeking"
+    ],
+    "model_layers": [
+      "end_user_layer",
+      "information_source_comparison"
+    ],
+    "rq_alignment": [
+      "human_oversight_contestation",
+      "risk_audit_compliance",
+      "regulated_high_stakes"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "LLM-based chatbots are an emerging but minority source for online health information; users show more cautious cross-checking and lower adherence to chatbot advice than to search engines or health websites, while younger age and more positive AI attitudes correlate with greater chatbot use.",
+    "contribution": "Provides empirical survey evidence on how users perceive, validate, and act on health information from LLM-based chatbots compared with traditional online sources in a healthcare context.",
+    "limitations": "Based on a Prolific crowd-worker sample; only abstract and partial methods are available in the supplied text; does not assess institutional or technical governance mechanisms for conversational AI.",
+    "use_in_review": "Use as supporting evidence on end-user verification behavior, trust, safety risk awareness, and cautious adherence in regulated health contexts involving LLM chatbots; not central evidence for conversational governance frameworks or operational controls."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on LLM-based chatbots for online health information seeking",
+      "excerpt": "As large language model (LLM)–based chatbots such as ChatGPT (OpenAI) grow in popularity, it is essential to understand their role in delivering online health information",
+      "page": "1",
+      "section": "Abstract Background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated health context with safety risk concern",
+      "excerpt": "These chatbots often generate inaccurate content, posing potential safety risks.",
+      "page": "1",
+      "section": "Abstract Background",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empirical cross-sectional web survey design with defined sample size",
+      "excerpt": "Methods: A web-based survey of crowd workers was conducted via Prolific.",
+      "page": "1",
+      "section": "Abstract Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Sample size is 297 participants",
+      "excerpt": "while 21.2% (63/297) used LLM-based chatbots",
+      "page": "1",
+      "section": "Abstract Results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Specific LLM chatbot tools named",
+      "excerpt": "63/297) used LLM-based chatbots, with ChatGPT and Microsoft Copilot being the most popular.",
+      "page": "1",
+      "section": "Abstract Results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Human verification behavior is measured via cross-checking",
+      "excerpt": "For information obtained from LLM-based chatbots, 19.4% (12/63) of participants cross-checked the information",
+      "page": "1",
+      "section": "Abstract Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Users are more cautious with chatbot advice than other online sources",
+      "excerpt": "the adherence to health information from LLM-based chatbots seemed more cautious compared to search engines or health-related websites.",
+      "page": "1",
+      "section": "Abstract Conclusions",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Transparency is framed as important for risk mitigation",
+      "excerpt": "enhancing their accuracy and transparency will be essential in mitigating any potential risks by supporting responsible information-seeking",
+      "page": "1",
+      "section": "Abstract Conclusions",
+      "supports": "coding"
+    },
+    {
+      "claim": "Questionnaire includes validated trust and AI attitude scales",
+      "excerpt": "the full eHealth Literacy Scale (eHEALS) [25], Trust in the Health Care Team (T-HCT) Scale [26], the 4-item Artificial Intelligence Attitude Scale (AIAS-4) [27]",
+      "page": "2",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Professional consultation is preferred validation source over AI tools",
+      "excerpt": "The preferred source for validating information from the internet was consulting health care professionals (40/132, 30.3%), while only a very small percentage of participants (5/214, 2.3%) consulted AI tools to cross-check information",
+      "page": "1",
+      "section": "Abstract Results",
+      "supports": "synthesis"
+    }
+  ]
+}

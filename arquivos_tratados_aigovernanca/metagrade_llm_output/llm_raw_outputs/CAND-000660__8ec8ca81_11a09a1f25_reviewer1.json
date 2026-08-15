@@ -1,0 +1,166 @@
+{
+  "bibliographic": {
+    "title": "LLM Code Smells: A Taxonomy and Detection Approach",
+    "authors": "Chenail-Larcher, Zacharie; Mahmoudi, Brahim; Moha, Naouel; Stievenart, Quentin; Avellaneda, Florent",
+    "year": "2026",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Chenail-Larcher, Z., Mahmoudi, B., Moha, N., Stievenart, Q., & Avellaneda, F. (2026). LLM code smells: A taxonomy and detection approach. arXiv preprint arXiv:2605.22976."
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "taxonomy development; static source code analysis; empirical tool evaluation; software repository mining",
+    "study_design": "taxonomy and catalog of nine LLM code smells; development of SpecDetect4LLM static analyzer; empirical evaluation of detection precision/recall and prevalence across open-source projects",
+    "sample_description": "692 open-source software projects integrating LLMs, comprising 171,194 source files",
+    "sample_size": "692 projects; 171,194 source files",
+    "sector": "software engineering; open-source software",
+    "regulated_domain": "no",
+    "llm_specificity": "generic_genai",
+    "technology_context": "LLM-integrating systems ranging from simple inference to extensive agentic logic; static analysis tool SpecDetect4LLM"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "no_conversational_governance",
+      "no_regulated_domain"
+    ],
+    "exclusion_reason": "The paper focuses on poor LLM integration coding practices, software quality, and static detection of LLM code smells, not on conversational governance, accountability, compliance, human oversight, or regulated-domain deployment of conversational LLM systems.",
+    "decision_rationale": "Although the study is strongly LLM-specific and methodologically solid for software engineering quality, the provided text addresses taxonomy and detection of code smells in LLM-integrating software systems. It does not discuss conversational AI governance, chatbots/agents as governed socio-technical systems, regulatory compliance, auditability, human supervision, or high-stakes regulated contexts central to the review scope.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "The mismatch with review scope is clear from title, abstract, and introduction; no governance or regulated-domain framing appears in the supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 1,
+    "notes": "Appraisal reflects only the supplied excerpts. The study appears rigorous for software-quality research, but ethics, limitations, and full analytical detail are not evidenced in the provided text. Transferability to regulated conversational governance is low."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internal coherence and empirical adequacy for software-quality claims appear strong in the abstract, but relevance to conversational governance in regulated environments is very low based on the provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM code smells",
+      "taxonomy",
+      "static analysis",
+      "software quality",
+      "SpecDetect4LLM",
+      "precision and recall",
+      "prevalence study",
+      "LLM-integrating systems",
+      "agentic logic"
+    ],
+    "axial_codes": [
+      "technical integration quality",
+      "software engineering practices",
+      "automated detection"
+    ],
+    "theme": "Software quality and poor coding practices in LLM-integrated systems",
+    "subtheme": "Taxonomy and static detection of LLM code smells",
+    "concepts": [
+      "LLM code smells",
+      "code smells",
+      "static source code analysis",
+      "software system quality",
+      "non-determinism",
+      "LLM-integrating systems"
+    ],
+    "model_layers": [
+      "implementation/source code",
+      "tooling/static analysis"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Poor LLM integration coding practices degrade software system quality; the authors present a taxonomy of nine LLM code smells, a static detector, and empirical evidence of widespread prevalence and high detection precision.",
+    "contribution": "Consolidated taxonomy/catalog of LLM code smells, SpecDetect4LLM detection tool, and large-scale empirical prevalence and effectiveness results across 692 open-source projects.",
+    "limitations": "Provided text does not state study limitations; scope is open-source software engineering rather than governed conversational deployments in regulated sectors.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance in regulated environments; at most peripheral contextual background on technical risks of poor LLM integration in software systems."
+  },
+  "evidence": [
+    {
+      "claim": "Paper title and focus are LLM code smells, taxonomy, and detection.",
+      "excerpt": "LLM Code Smells: A Taxonomy and Detection Approach",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study presents taxonomy/catalog, static detector, and empirical evaluation.",
+      "excerpt": "presenting a self-contained taxonomy and a catalog of nine LLM code smells. We also create SpecDetect4LLM, a static source code analysis tool for their detection",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Large empirical sample of open-source LLM-integrating projects.",
+      "excerpt": "prevalence of LLM code smells across 692 open-source software projects (171,194 source files)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Reported detection effectiveness and prevalence results.",
+      "excerpt": "LLM code smells affect 73.5% of the analyzed systems, with a detection precision of 91.3% and a recall of 71.8%",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Focus is software reliability/quality of LLM integration, not governance of conversational systems.",
+      "excerpt": "To ensure the reliability, robustness, performance, and maintainability of LLM-integrating systems",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Scope includes agentic systems but as software components integrated in code.",
+      "excerpt": "systems that use LLMs as components, ranging from simple inference to extensive agentic logic",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Contribution is coding guidelines/code smells, not regulatory or conversational governance.",
+      "excerpt": "establishing coding guidelines, including the specification of code smells, is essential for LLM-integrating systems",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Search strategy used PICO and repository/API queries for defect/smell terms.",
+      "excerpt": "(”large language model*” OR ”LLM*” ) AND (”integrat*” OR ”API*” OR ”software system*”) AND (”misuse*” OR ”defect*” OR ”bug*” OR ”smell*” OR ”pitfall*”)",
+      "page": "9",
+      "section": "background",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No regulated-domain or conversational-governance framing appears in supplied text.",
+      "excerpt": "poor integration of LLM inference in source code can undermine software system quality",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "bibliographic": {
+    "title": "Guidance for researchers and peer‑reviewers on the ethical use of Large Language Models (LLMs) in scientific research workflows",
+    "authors": "Ryan Watkins",
+    "year": "2023",
+    "venue": "AI and Ethics",
+    "doi": "10.1007/s43681-023-00294-5",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Watkins, R. (2023). Guidance for researchers and peer-reviewers on the ethical use of Large Language Models (LLMs) in scientific research workflows. AI and Ethics, 4, 969–974. https://doi.org/10.1007/s43681-023-00294-5"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "editorial opinion paper",
+    "study_design": "opinion paper",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "scientific research",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Large Language Models (LLMs) used in scientific research workflows; examples include OpenAI ChatGPT and Google LaMDA"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_ethics",
+      "governance_norms_standards",
+      "AI_ethics_principles"
+    ],
+    "exclusion_codes": [
+      "not_conversational_systems",
+      "not_regulated_operational_domain",
+      "not_operational_technical_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is an opinion paper advocating norms, conventions, and standards for ethical LLM use by researchers and peer-reviewers in scientific research workflows. It addresses AI ethics and governance framing for LLMs but does not examine conversational governance, conversational AI systems, or LLM deployment in regulated operational environments central to the review scope.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter/page 1 text was provided; metadata incorrectly labels the item as preprint though the source identifies it as a peer-reviewed journal opinion paper."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 2,
+    "results_clarity": 1,
+    "limitations_transparency": 0,
+    "evidence_support": 1,
+    "transferability": 1,
+    "notes": "Appraisal based on limited excerpt. As an editorial opinion paper, it does not report empirical sampling, data collection, or analysis; it argues for developing ethical norms and standards for LLM use in research practice."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The provided text coherently argues for ethical norms for LLM use in scientific research, but evidence is conceptual and the excerpt is incomplete. Relevance to conversational governance in regulated LLM systems is indirect and limited."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM_ethics",
+      "research_norms",
+      "peer_review_guidance",
+      "scientific_workflows",
+      "standards_development"
+    ],
+    "axial_codes": [
+      "ethical_governance",
+      "research_practice_standards",
+      "AI_ethics_application"
+    ],
+    "theme": "Ethical governance of LLM use in scientific research",
+    "subtheme": "Norms and standards for researchers and peer-reviewers",
+    "concepts": [
+      "norms",
+      "conventions",
+      "standards",
+      "AI ethics",
+      "peer-review",
+      "research workflows"
+    ],
+    "model_layers": [
+      "policy_norms",
+      "ethical_principles"
+    ],
+    "rq_alignment": [
+      "LLM governance",
+      "ethical use of generative AI",
+      "accountability in research practice"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "Researchers and peer-reviewers currently lack guidance on ethical LLM use in scientific research, and norms, conventions, and standards should be developed by applying AI ethics principles.",
+    "contribution": "Provides an editorial call to establish ethical norms and standards for LLM use and reporting in scientific research workflows, including guidance needs for peer-reviewers.",
+    "limitations": "No empirical evaluation, operational governance mechanisms, conversational system design, or regulated-domain deployment analysis are presented in the provided text.",
+    "use_in_review": "Use as foundational contextual evidence on ethical norms and standards for LLM use; not central evidence for conversational governance in regulated operational environments."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal opinion paper on LLM ethics in research workflows",
+      "excerpt": "OPINION PAPER Guidance for researchers and peer‑reviewers on the ethical use of Large Language Models (LLMs) in scientific research workflows",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Publication venue and peer-review status indicated",
+      "excerpt": "AI and Ethics (2024) 4:969–974",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Author affiliation identifiable",
+      "excerpt": "Ryan Watkins rwatkins@gwu.edu 1 Educational Technology Leadership, George Washington University",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Limited existing guidance for researchers using LLMs",
+      "excerpt": "there is currently limited guidance and few norms for them to consult",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Peer-reviewers lack conventions for assessing LLM use",
+      "excerpt": "those providing peer-reviews on research articles where LLMs were used are without conventions or standards to apply or guidelines to follow",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Calls for development of norms, conventions, and standards",
+      "excerpt": "now is the time to begin the development of norms, conventions, and standards that can be applied by researchers and peer-reviewers",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Applies AI ethics principles to LLM research use",
+      "excerpt": "By applying the principles of Artificial Intelligence (AI) ethics, we can better ensure that the use of LLMs in scientific research aligns with ethical principles and best practices",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Mentions conversational interaction only as an application example",
+      "excerpt": "to those that let users \"chat\" with a research publication",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Focus is scientific research workflows, not regulated operational deployment",
+      "excerpt": "the use of LLMs in scientific research, both as guidance for researchers and peer-reviewers",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Specific LLM technologies referenced",
+      "excerpt": "Recent advancements in Large Language Models (LLMs), such as OpenAI’s ChatGPT 4 [1] and Google’s LaMDA [2]",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    }
+  ]
+}

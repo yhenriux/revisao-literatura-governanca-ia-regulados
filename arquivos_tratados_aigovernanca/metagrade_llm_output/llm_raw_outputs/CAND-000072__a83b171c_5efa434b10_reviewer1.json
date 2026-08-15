@@ -1,0 +1,181 @@
+{
+  "bibliographic": {
+    "title": "Inteligência artificial, precedentes e a Resolução CNJ 615/2025",
+    "authors": "Anderson de Paiva Gabriel; Fabio Ribeiro Porto; Valter Shuenquener de Araújo",
+    "year": "2025",
+    "venue": "Revista da EMERJ",
+    "doi": "10.70622/2236-8957.2025.649",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Gabriel, A. de P., Porto, F. R., & Araújo, V. S. de. (2025). Inteligência artificial, precedentes e a Resolução CNJ 615/2025. Revista da EMERJ, 27, e649, 1–17. https://doi.org/10.70622/2236-8957.2025.649"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "critical legal-doctrinal analysis of normative instrument",
+    "study_design": "normative-critical examination of CNJ Resolution 615/2025 with jurisprudential and regulatory reasoning",
+    "sample_description": "no empirical sample; analysis centered on CNJ Resolution 615/2025 and related judicial-regulatory context",
+    "sample_size": "unclear",
+    "sector": "Poder Judiciário brasileiro",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLMs, sistemas de IA generativa e sistemas de IA no apoio à gestão e à decisão judicial"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "REGULATED_JUDICIAL_DOMAIN",
+      "LLM_GENAI_FOCUS",
+      "AI_GOVERNANCE",
+      "HUMAN_OVERSIGHT",
+      "RISK_AND_ACCOUNTABILITY"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O artigo trata explicitamente de governança, supervisão humana, categorização de riscos, transparência, explicabilidade e responsabilização no uso de LLMs e IA generativa no Judiciário brasileiro, alinhando-se ao escopo regulatório da revisão. Contudo, não aborda governança conversacional, chatbots, agentes, RAG ou sistemas conversacionais; o foco é análise normativo-jurídica da Resolução CNJ 615/2025.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Confirmar no texto integral ausência de foco em sistemas conversacionais e delimitar uso como evidência de apoio regulatório, não central sobre governança conversacional."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Estudo doutrinário bem delimitado para análise crítica de ato normativo; não há desenho empírico, amostra ou validação operacional de sistemas. Limitações metodológicas explícitas não são evidentes no trecho fornecido."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "A argumentação normativa é coerente e diretamente relevante para governança de LLMs em contexto judicial regulado, mas a relevância para governança conversacional é indireta e limitada pelo escopo jurídico-institucional do artigo."
+  },
+  "coding": {
+    "open_codes": [
+      "Resolução CNJ 615/2025",
+      "supervisão humana",
+      "categorização de riscos",
+      "explicabilidade algorítmica",
+      "reserva de humanidade",
+      "responsabilização",
+      "LLMs",
+      "IA generativa"
+    ],
+    "axial_codes": [
+      "governança institucional de IA",
+      "regulação judicial de LLMs",
+      "controle humano nas decisões judiciais",
+      "gestão de risco e conformidade normativa"
+    ],
+    "theme": "Regulação e governança de IA, incluindo LLMs, no Poder Judiciário",
+    "subtheme": "Supervisão humana, transparência e responsabilização no uso de IA generativa em decisões judiciais",
+    "concepts": [
+      "governança",
+      "transparência",
+      "supervisão humana",
+      "explicabilidade",
+      "accountability",
+      "categorização de riscos",
+      "reserva de humanidade",
+      "Justiça 4.0"
+    ],
+    "model_layers": [
+      "camada regulatória/normativa",
+      "camada institucional de governança",
+      "camada ética e de direitos fundamentais"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa",
+      "contextos regulados jurídicos",
+      "supervisão humana",
+      "accountability",
+      "explicabilidade",
+      "gestão de risco",
+      "compliance normativo"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "A Resolução CNJ 615/2025 desempenha papel inovador na regulamentação do uso de IA no Poder Judiciário brasileiro, com ênfase em riscos, governança, transparência e supervisão humana, devendo a IA, inclusive LLMs e IA generativa, apoiar mas não substituir o raciocínio jurídico humano.",
+    "contribution": "Análise crítica da Resolução CNJ 615/2025 e proposta de uma reserva de humanidade como direito fundamental para preservar a centralidade humana nas decisões judiciais.",
+    "limitations": "Estudo conceitual-normativo sem avaliação empírica de implantação, desempenho ou governança operacional de sistemas; limitações autorais não explicitadas no material fornecido.",
+    "use_in_review": "Evidência de apoio para síntese sobre marcos regulatórios, princípios de governança, supervisão humana, explicabilidade e responsabilização de LLMs/IA generativa no setor jurídico; não deve ser tratado como evidência central sobre governança conversacional."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo analisa criticamente a Resolução CNJ 615/2025 sobre uso de IA no Judiciário brasileiro",
+      "excerpt": "O artigo analisa criticamente a Resolução CNJ nº 615/2025, destacando seu papel inovador na regulamentação do uso de inteligência artificial no Poder Judiciário brasileiro.",
+      "page": "1",
+      "section": "Resumo",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Foco explícito em LLMs e IA generativa com governança, riscos e supervisão humana",
+      "excerpt": "Em particular, enfatiza-se o uso de modelos de linguagem de larga escala (LLMs) e sistemas de IA generativa, seus desafios, riscos e impactos sobre a produção e fundamentação de decisões judiciais.",
+      "page": "1",
+      "section": "Resumo",
+      "supports": "coding"
+    },
+    {
+      "claim": "Resolução estabelece diretrizes éticas, técnicas e institucionais com categorização de riscos, governança, transparência e supervisão humana",
+      "excerpt": "A Resolução estabelece diretrizes éticas, técnicas e institucionais para o desenvolvimento e a aplicação de sistemas de IA, com enfoque especial na categorização de riscos, governança, transparência e supervisão humana.",
+      "page": "1",
+      "section": "Resumo",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Ênfase em explicabilidade, qualificação de operadores jurídicos e responsabilização",
+      "excerpt": "A análise destaca a importância da explicabilidade algorítmica, da qualificação dos operadores jurídicos e da responsabilização no uso de ferramentas tecnológicas.",
+      "page": "1",
+      "section": "Resumo",
+      "supports": "coding"
+    },
+    {
+      "claim": "Proposta de reserva de humanidade para impedir substituição do raciocínio jurídico humano",
+      "excerpt": "O texto defende a necessidade de uma “reserva de humanidade” como novo direito fundamental, capaz de assegurar que a inteligência artificial atue como suporte ao raciocínio jurídico, mas jamais o substitua.",
+      "page": "1",
+      "section": "Resumo",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Capítulo VI da Resolução estabelece condições detalhadas para uso de LLMs e IA generativa por magistrados e servidores",
+      "excerpt": "O Capítulo VI estabelece condições detalhadas para seu uso, permitindo que magistrados e servidores utilizem essas ferramentas como auxílio à gestão ou apoio à deci",
+      "page": "9",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Contexto normativo vinculado ao desenvolvimento acelerado de LLMs e IA generativa no âmbito judicial",
+      "excerpt": "O contexto de elaboração dessa Resolução está intrinsecamente relacionado ao acelerado desenvolvimento das tecnologias de inteligência artificial, particularmente dos grandes modelos de linguagem (LLMs) e sistemas de IA generativa",
+      "page": "3",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Publicação em periódico revisado por pares com datas de submissão e aprovação",
+      "excerpt": "Submissão em: 02/06/2025 | Aprovação em: 26/06/2025 e 01/07/2025 Editor: Antonio Aurelio Abi Ramia Duarte Revista da EMERJ",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Não há menção a sistemas conversacionais, chatbots ou agentes no material fornecido",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

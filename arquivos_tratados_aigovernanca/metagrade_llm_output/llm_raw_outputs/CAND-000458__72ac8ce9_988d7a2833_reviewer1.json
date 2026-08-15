@@ -1,0 +1,162 @@
+{
+  "bibliographic": {
+    "title": "Chinese Electric Vehicle Policy Database: A Dataset of Policy Goals, Instruments, and Supply Chain Stages",
+    "authors": "Gao, P., Hu, W., Ba, Y., Sewerin, S.",
+    "year": "2026",
+    "venue": "Scientific Data",
+    "doi": "10.1038/s41597-026-07708-z",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Gao, P., Hu, W., Ba, Y., & Sewerin, S. (2026). Chinese Electric Vehicle Policy Database: A Dataset of Policy Goals, Instruments, and Supply Chain Stages. Scientific Data. https://doi.org/10.1038/s41597-026-07708-z"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "dataset construction with rule-based filtering, LLM-assisted annotation, and manual validation",
+    "study_design": "policy document database development and technical validation across annotation tasks T1-T4",
+    "sample_description": "7,300 Chinese EV-related policy documents issued by national, provincial, and municipal bodies from the early 2000s to 2023",
+    "sample_size": "7300",
+    "sector": "electric vehicle policy and industrial transition",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Qwen-2.5 and DeepSeek-V3 used as auxiliary classifiers/coders for policy text disambiguation and annotation; not deployed as conversational systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_TOPIC_MISMATCH",
+      "E_LLM_AS_METHOD_ONLY",
+      "E_NO_CONVERSATIONAL_GOVERNANCE"
+    ],
+    "exclusion_reason": "The article presents an EV policy database and uses LLMs as annotation tools for policy-text coding; it does not address governance, accountability, oversight, or risk management of conversational LLM systems in regulated deployments.",
+    "decision_rationale": "Although the text mentions LLMs, governance, policy, and government levels, the study object is a Chinese EV policy dataset and multi-level public policy governance in the EV sector. LLMs function as virtual coders for classification tasks, with manual checks and prompt refinement. There is no conversational AI system, no guardrails/observability/audit framework for generative deployments, and no regulated-domain operational governance of LLM-based dialogue systems. Python triage appears to be a keyword false positive.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Deterministic triage graded the record A/central_candidate despite clear topic mismatch between EV policy dataset methods and conversational LLM governance."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Methodological quality appears adequate for a Scientific Data descriptor, but appraisal is not grounds for inclusion in a review on conversational LLM governance."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internal coherence and adequacy for dataset construction are supported, but relevance to conversational governance of LLMs in regulated environments is very low because LLMs are auxiliary research tools rather than governed conversational systems."
+  },
+  "coding": {
+    "open_codes": [
+      "EV policy database",
+      "multi-level government policy",
+      "policy instrument classification",
+      "policy goal coding",
+      "LLM-assisted text annotation",
+      "manual validation",
+      "prompt refinement",
+      "virtual human coder"
+    ],
+    "axial_codes": [
+      "policy text analysis methods",
+      "dataset descriptor",
+      "computational social science"
+    ],
+    "theme": "LLM-assisted annotation of public policy documents",
+    "subtheme": "industrial/energy policy database construction",
+    "concepts": [
+      "policy goals",
+      "policy instruments",
+      "supply chain stages",
+      "rule-based filters",
+      "model-assisted coding",
+      "chain-of-thought prompting"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.92
+  },
+  "synthesis": {
+    "main_claim": "The authors built and validated a large annotated database of Chinese EV policies and used LLMs to support selected coding tasks with reported accuracies alongside manual checks.",
+    "contribution": "Provides a structured EV policy dataset and demonstrates LLM use in policy text classification workflows.",
+    "limitations": "Not focused on conversational AI governance; regulated-domain references concern public policy and legal policy documents, not operational governance of generative conversational systems.",
+    "use_in_review": "Exclude from central/supporting evidence; at most marginal foundational context only if the review separately covers LLMs as research annotation tools, which is outside the stated conversational governance scope."
+  },
+  "evidence": [
+    {
+      "claim": "Bibliographic identity and venue",
+      "excerpt": "Chinese Electric Vehicle Policy Database: A Dataset of Policy Goals, Instruments, and Supply Chain Stages",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is a policy dataset, not conversational AI governance",
+      "excerpt": "We present a database of 7,300 policy documents issued by national, provincial, and municipal bodies from the early 2000s to 2023.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs used only as annotation/classification tools",
+      "excerpt": "Technical validation combines rule-based filters, model- assisted coding, and manual checks.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Specific LLM models named for coding tasks",
+      "excerpt": "Two LLMs were used in distinct roles: (i) DeepSeek-V3 was used as the primary classification backbone for the policy-instrument task (T3) and the policy-goals task (T4).",
+      "page": "22",
+      "section": "code availability",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM treated as virtual human coder, not governed conversational system",
+      "excerpt": "We treated it as a \"virtual human coder\" and used a chain-of-thought reasoning approach to have the model determin",
+      "page": "13",
+      "section": "findings",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Reported LLM classification performance",
+      "excerpt": "LLM-based accuracies of 96.5% for instrument classification and 82.9% for goal coding.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Governance refers to multi-level public policy, not AI governance",
+      "excerpt": "providing a more nuanced and complete picture of China's multi-level governance and policy supply in the EV sector.",
+      "page": "4",
+      "section": "limitations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Dialogue refers to academic policy-science exchange, not conversational AI",
+      "excerpt": "Such annotation facilitates dialogue between empirical findings and policy science concepts",
+      "page": "4",
+      "section": "limitations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors frame contribution as expanding LLM use in policy text analysis",
+      "excerpt": "expanded the application of LLMs in policy text analysis and demonstrated that LLMs can support policy research at multiple levels.",
+      "page": "21",
+      "section": "methods",
+      "supports": "synthesis"
+    }
+  ]
+}

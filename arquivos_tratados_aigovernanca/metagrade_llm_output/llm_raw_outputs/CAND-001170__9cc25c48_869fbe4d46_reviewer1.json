@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "Mapping the Ethics of Generative AI: A Comprehensive Scoping Review",
+    "authors": "Thilo Hagendorff",
+    "year": "2024",
+    "venue": "Minds and Machines",
+    "doi": "10.1007/s11023-024-09694-w",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Hagendorff, T. (2024). Mapping the ethics of generative AI: A comprehensive scoping review. Minds and Machines, 34, 39. https://doi.org/10.1007/s11023-024-09694-w"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "scoping review",
+    "study_design": "scoping review",
+    "sample_description": "Literature on the ethics of generative artificial intelligence, including especially large language models and text-to-image models",
+    "sample_size": "378 normative issues in 19 topic areas",
+    "sector": "unclear",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Generative AI comprising large, foundation, or frontier models capable of text-to-text, text-to-image, image-to-text, text-to-code, text-to-audio, text-to-video, or text-to-3D; includes LLMs and text-to-image models"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "genai_llm_focus",
+      "ethics_governance_taxonomy",
+      "scoping_review"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Scoping review that maps 378 normative ethical issues across 19 topic areas for generative AI including LLMs, covering fairness, safety, privacy, interaction risks, security, and alignment. Highly relevant as foundational ethical and governance framing for generative AI/LLMs, but the provided text does not focus on conversational governance, operational controls, or regulated high-stakes deployment contexts as primary objects of study.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial introduction (pages 1-2) are available; full search strategy, inclusion criteria, screening process, and complete topic taxonomy cannot be verified from the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Appraisal based on abstract and partial introduction only. Objective and scoping-review design appear appropriate for mapping normative discourse, but detailed reporting of search, selection, and synthesis procedures is not visible in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The study presents a coherent scoping-review aim and reports a structured taxonomy of 378 normative issues in 19 areas. Confidence is moderated because the excerpt lacks full methodological detail and because relevance to conversational governance in regulated environments is indirect rather than central."
+  },
+  "coding": {
+    "open_codes": [
+      "scoping review",
+      "ethics taxonomy",
+      "normative issues",
+      "generative artificial intelligence",
+      "large language models",
+      "literature mapping",
+      "topic ranking"
+    ],
+    "axial_codes": [
+      "AI ethics",
+      "risk taxonomy",
+      "governance and policy framing",
+      "generative AI harms"
+    ],
+    "theme": "Ethics of generative artificial intelligence",
+    "subtheme": "Normative taxonomy and prevalence mapping of ethical issues",
+    "concepts": [
+      "fairness",
+      "safety",
+      "harmful content",
+      "hallucinations",
+      "privacy",
+      "interaction risks",
+      "security",
+      "alignment",
+      "societal impacts",
+      "transparency",
+      "governance",
+      "oversight",
+      "accountability",
+      "explainability"
+    ],
+    "model_layers": [
+      "normative principles",
+      "risk and harm taxonomy",
+      "policy and legal translation"
+    ],
+    "rq_alignment": [
+      "generative AI governance",
+      "LLM ethical risks",
+      "normative frameworks for AI"
+    ],
+    "coding_confidence": 0.74
+  },
+  "synthesis": {
+    "main_claim": "A scoping review synthesizes recent ethical discourse on generative artificial intelligence and maps 378 normative issues across 19 topic areas, ranking them by prevalence in the literature.",
+    "contribution": "Provides a comprehensive taxonomy and overview of ethical debates surrounding generative AI, especially LLMs and text-to-image models, intended for scholars, practitioners, and policymakers.",
+    "limitations": "The abstract states the authors discuss imbalances in the literature and explore unsubstantiated risk scenarios; full study limitations are unclear from the provided excerpt.",
+    "use_in_review": "Use as foundational contextual evidence for normative issues, ethical taxonomies, and governance-related concepts in generative AI and LLMs. Not primary evidence for conversational governance mechanisms, operational guardrails, audit/logging practices, or regulated-domain deployment."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article published in 2024",
+      "excerpt": "Minds and Machines (2024) 34:39",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is a scoping review on ethics of generative AI including LLMs",
+      "excerpt": "we conducted a scoping review on the ethics of generative artificial intelligence, includ- ing especially large language models and text-to-image models",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Produces taxonomy of 378 normative issues in 19 topic areas ranked by prevalence",
+      "excerpt": "Our analysis pro- vides a taxonomy of 378 normative issues in 19 topic areas and ranks them accord- ing to their prevalence in the literature",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Covers governance-relevant ethical topics including interaction risks and security",
+      "excerpt": "condensing the ethical debates sur- rounding fairness, safety, harmful content, hallucinations, privacy, interaction risks, security, alignment, societal impacts, and others",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Explicitly addresses large language models",
+      "excerpt": "large language models (LLMs) possessing complex reasoning abilities",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Defines generative AI broadly including foundation/frontier models across modalities",
+      "excerpt": "we define the term “generative AI” as comprising large, foundation, or frontier models, capable of transforming text to text, text to image, image to text, text to code, text to audio, text to video, or text to 3D",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Links AI ethics to proposed legal norms such as the EU AI Act",
+      "excerpt": "it became increasingly transferred into proposed legal norms like the AI Act of the European Union",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Discusses literature imbalances and unsubstantiated risk scenarios",
+      "excerpt": "We discuss the results, evaluate imbalances in the literature, and explore unsubstantiated risk scenarios",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Target audience includes scholars, practitioners, and policymakers",
+      "excerpt": "The study offers a comprehensive overview for scholars, practitioners, or policymakers",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No explicit focus on conversational governance or regulated operational deployment in provided text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

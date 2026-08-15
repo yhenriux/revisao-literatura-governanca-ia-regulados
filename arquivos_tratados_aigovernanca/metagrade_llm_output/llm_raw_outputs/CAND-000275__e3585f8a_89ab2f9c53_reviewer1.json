@@ -1,0 +1,166 @@
+{
+  "bibliographic": {
+    "title": "Beyond the surface: diagnosing the origins of institutional barriers in the governance of floating offshore wind",
+    "authors": "Lindsey West; Christina Kelly; Wesley Flannery",
+    "year": "2026",
+    "venue": "Maritime Studies",
+    "doi": "10.1007/s40152-026-00499-4",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "West, L., Kelly, C., & Flannery, W. (2026). Beyond the surface: diagnosing the origins of institutional barriers in the governance of floating offshore wind. Maritime Studies, 25(40). https://doi.org/10.1007/s40152-026-00499-4"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "institutional theory; diagnostic analytical approach",
+    "study_design": "diagnostic analysis of institutional barriers in marine governance for floating offshore wind in the UK Celtic Sea",
+    "sample_description": "UK Celtic Sea floating offshore wind governance context; multiple actors including policymakers, regulators, industry representatives, and marine users",
+    "sample_size": "unclear",
+    "sector": "marine governance; offshore renewable energy; floating offshore wind",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "floating offshore wind development in the UK Celtic Sea; no LLM, generative AI, or conversational systems mentioned"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_technology",
+      "wrong_domain",
+      "no_llm",
+      "no_conversational_ai"
+    ],
+    "exclusion_reason": "Article addresses marine/institutional governance of floating offshore wind using institutional theory; it does not study LLMs, generative AI, conversational systems, chatbots, agents, RAG, or conversational governance in regulated AI deployments.",
+    "decision_rationale": "Although the text repeatedly discusses governance, regulation, trust, legitimacy, and institutional barriers, these terms refer to marine policy and offshore renewable energy governance in the Celtic Sea, not to governance of LLM-based conversational systems. Python triage appears to be a keyword false positive. No evidence in the provided text links the study to AI, LLMs, or conversational technologies.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Exclusion is clear from title, abstract, keywords, and introduction; technology mismatch is unambiguous in supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal reflects only signals visible in the excerpt. The study appears internally coherent for marine institutional governance, but transferability to conversational LLM governance is very low. Sampling, data collection, analysis details, and limitations are not sufficiently described in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "For the review scope on conversational governance in LLM systems, relevance is very low because the article concerns marine governance of floating wind, not AI systems. Coherence within its own domain appears moderate from the abstract, but adequacy and methodological detail are unclear from the excerpt provided."
+  },
+  "coding": {
+    "open_codes": [
+      "marine governance",
+      "institutional barriers",
+      "fragmentation",
+      "institutional attributes",
+      "floating offshore wind",
+      "Celtic Sea",
+      "multi-level governance",
+      "trust in planning authorities",
+      "institutional legitimacy"
+    ],
+    "axial_codes": [
+      "institutional theory",
+      "policy fragmentation",
+      "offshore renewable energy governance",
+      "actor coordination across scales"
+    ],
+    "theme": "Institutional barriers in marine governance for offshore renewable energy",
+    "subtheme": "Fragmented governance landscape for floating wind in the UK Celtic Sea",
+    "concepts": [
+      "institutional barriers",
+      "path dependency",
+      "policy layering",
+      "institutional inertia",
+      "reflexivity",
+      "adaptability",
+      "collaborative learning",
+      "power and authority distribution"
+    ],
+    "model_layers": [
+      "institutional attributes",
+      "actor roles and responsibilities",
+      "social networks",
+      "power and authority structures",
+      "governance scales and policy domains"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.9
+  },
+  "synthesis": {
+    "main_claim": "Governance challenges for floating offshore wind in the UK Celtic Sea arise from systemic and synergistic institutional barriers rooted in institutional attributes that regulate roles, structure networks, and distribute power, rather than from isolated policy failures.",
+    "contribution": "Links institutional barriers in marine governance to underlying institutional attributes and argues for reconfigured marine governance arrangements emphasizing reflexivity, adaptability, and collaborative learning.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude as central or supporting evidence for conversational LLM governance; may serve only as distant contextual background on generic institutional governance language, but not recommended for synthesis due to domain and technology mismatch."
+  },
+  "evidence": [
+    {
+      "claim": "Study focuses on marine governance of floating offshore wind, not AI or LLMs",
+      "excerpt": "Beyond the surface: diagnosing the origins of institutional barriers in the governance of floating offshore wind",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research uses institutional theory and a diagnostic analytical approach",
+      "excerpt": "Drawing on institutional theory and using a diagnostic analytical approach, this study identifies multiple institutional barriers",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance refers to marine policy fragmentation for floating wind in the Celtic Sea",
+      "excerpt": "its implementation is unfolding within a fragmented governance landscape, which constrains the development of new governance approaches",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM, conversational AI, or generative AI technology is discussed",
+      "excerpt": "Keywords Marine governance · Institutional attributes · Institutional barriers · Fragmentation · Floating wind · Celtic Sea",
+      "page": "1",
+      "section": "keywords",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated actors are policymakers and marine-sector stakeholders, not AI systems",
+      "excerpt": "The involvement of a wide range of actors, including policymakers, regulators, industry representatives, and diverse marine users",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Institutional legitimacy and trust are discussed in marine planning context",
+      "excerpt": "weakened public trust in authorities and the wider planning system",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Main conclusion concerns reconfiguration of marine governance arrangements",
+      "excerpt": "overcoming institutional barriers demands a reconfiguration of marine governance arrangements to enhance reflexivity, adaptability, and collaborative learning",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Peer-reviewed journal article in Maritime Studies",
+      "excerpt": "Maritime Studies (2026) 25:40 https://doi.org/10.1007/s40152-026-00499-4",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

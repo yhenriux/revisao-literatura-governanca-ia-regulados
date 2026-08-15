@@ -1,0 +1,184 @@
+{
+  "bibliographic": {
+    "title": "Algorithmic Profiling of Job Seekers in Austria: How Austerity Politics Are Made Effective",
+    "authors": "Doris Allhutter; Florian Cech; Fabian Fischer; Gabriel Grill; Astrid Mager",
+    "year": "2020",
+    "venue": "Frontiers in Big Data",
+    "doi": "10.3389/fdata.2020.00005",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Allhutter, D., Cech, F., Fischer, F., Grill, G., & Mager, A. (2020). Algorithmic profiling of job seekers in Austria: How austerity politics are made effective. Frontiers in Big Data, 3, Article 5. https://doi.org/10.3389/fdata.2020.00005"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "qualitative document analysis grounded in science and technology studies and critical data studies",
+    "study_design": "in-depth analysis of technical documentation and policy documents",
+    "sample_description": "technical documentation and policy documents related to the Austrian Public Employment Service (AMS) algorithmic profiling system",
+    "sample_size": "unclear",
+    "sector": "public employment service; public administration",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "machine learning-based statistical profiling/classification system for job seekers at AMS; not a conversational or generative AI system"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_NO_CONVERSATIONAL_AI",
+      "E_NO_LLM",
+      "E_WRONG_TECHNOLOGY_CONTEXT"
+    ],
+    "exclusion_reason": "The study analyzes a pre-LLM machine learning profiling algorithm in public employment services and does not address conversational AI, chatbots, agents, or LLM-based systems relevant to conversational governance.",
+    "decision_rationale": "Although the paper strongly addresses fairness, accountability, transparency, oversight, bias, and regulated public-sector algorithmic governance, it concerns a batch classification/profiling system built on machine learning rather than conversational or LLM-based interaction. The provided text contains no evidence of chatbots, dialogue systems, agents, RAG, guardrails, or generative AI governance, so it falls outside the core scope of a systematic review on conversational governance in LLM systems.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Technology mismatch is explicit in the supplied text: AMS algorithmic profiling via machine learning, with zero conversational-AI evidence."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Methodologically sound qualitative STS/critical data studies analysis for its own research question, but not designed to inform conversational or LLM governance mechanisms."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Findings on accountability, transparency, and bias in public-sector algorithmic profiling are coherent and adequately supported for that topic, but relevance to conversational governance in LLM systems is very low because the system studied is neither conversational nor LLM-based."
+  },
+  "coding": {
+    "open_codes": [
+      "algorithmic profiling",
+      "austerity politics",
+      "accountability gaps",
+      "transparency deficits",
+      "machine learning classification",
+      "public employment service",
+      "bias and discrimination",
+      "coproduction"
+    ],
+    "axial_codes": [
+      "algorithmic governance",
+      "socio-technical coproduction",
+      "fairness accountability transparency",
+      "public-sector automated decision-making"
+    ],
+    "theme": "Politics and governance of algorithmic profiling in public employment services",
+    "subtheme": "Transparency, accountability, and explainability limits of ML profiling systems",
+    "concepts": [
+      "accountability",
+      "transparency",
+      "fairness",
+      "bias",
+      "oversight",
+      "machine learning",
+      "algorithmic profiling",
+      "austerity",
+      "coproduction",
+      "human agency distribution"
+    ],
+    "model_layers": [
+      "policy",
+      "technical system",
+      "organizational practice",
+      "oversight/public accountability"
+    ],
+    "rq_alignment": [
+      "algorithmic governance",
+      "accountability in regulated public sector",
+      "bias and fairness",
+      "human oversight distribution"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "The AMS job-seeker profiling algorithm coproduces semi-automated managerial practices and austerity politics, while its design, documentation, and implementation raise serious questions about transparency, accountability, objectivity, and possible bias.",
+    "contribution": "Provides a critical qualitative analysis of how technical affordances, social values, and policy goals shape a public-sector machine learning profiling system, with explicit attention to FAT concerns and organizational integration.",
+    "limitations": "No conversational or LLM context; reliance on available technical and policy documents; Austrian AMS-specific case; exact data origins and full technical details not publicly available.",
+    "use_in_review": "Exclude from central conversational-LLM governance synthesis; at most retain as peripheral foundational context on public-sector algorithmic accountability if the review includes a broad pre-LLM governance background section."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed original research in Frontiers in Big Data, 2020.",
+      "excerpt": "ORIGINAL RESEARCH published: 21 February 2020 doi: 10.3389/fdata.2020.00005",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses qualitative analysis of technical and policy documents on the AMS profiling system.",
+      "excerpt": "An in-depth analysis of relevant technical documentation and policy documents investigates crucial conceptual, technical, and social implications of the system.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Technology is machine learning profiling, not conversational AI or LLM.",
+      "excerpt": "the AMS algorithm, which is built on data of and about job seekers that subsequently gets fed into a machine learning algorithm.",
+      "page": "5",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Paper explicitly frames work within fairness, accountability, and transparency research.",
+      "excerpt": "Based in science and technology studies, critical data studies and research on fairness, accountability and transparency of algorithmic systems",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated public-sector context in employment administration.",
+      "excerpt": "As of 2020, the Public Employment Service Austria (AMS) makes use of algorithmic profiling of job seekers",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Accountability and transparency are central analytical concerns.",
+      "excerpt": "What does it imply for the distribution of agency and accountability between the system and the case workers?",
+      "page": "2",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "System lacks adequate ex-post explainability and accountability for public inquiry.",
+      "excerpt": "in terms of ex-post explainability and, subsequently, accountability, the speculative operationalization of the algorithm is woefully lacking",
+      "page": "14",
+      "section": "background",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Public criticism highlighted missing remedy and transparency.",
+      "excerpt": "Criticism pointed to a lack of transparency, missing possibilities to remedy decisions for AMS customers",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational AI terms or systems appear in the provided text.",
+      "excerpt": "classify clients of the AMS into three categories",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study discusses oversight bodies and system quality communication.",
+      "excerpt": "the way the available documentation communicates the quality of the overall system to the public and oversight bodies",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "bibliographic": {
+    "title": "Safety-focused development and evaluation of an LLM sexual well-being chatbot for women: A methods-focused feasibility study",
+    "authors": "Alice E McGee, Guy Parsons, Liudmila Zhaunova, Alison Paul, Aliaksandr Kazlou, Yihan Xu, Heorhi Stsefanovich, Anna Klepchukova, András Meczner",
+    "year": "2026",
+    "venue": "unclear",
+    "doi": "10.1177/20552076261435861",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "McGee, A. E., Parsons, G., Zhaunova, L., Paul, A., Kazlou, A., Xu, Y., Stsefanovich, H., Klepchukova, A., & Meczner, A. (2026). Safety-focused development and evaluation of an LLM sexual well-being chatbot for women: A methods-focused feasibility study. unclear. https://doi.org/10.1177/20552076261435861"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "methods-focused feasibility study with multi-stage development and evaluation",
+    "study_design": "interdisciplinary medically led three-phase development process with five-stage evaluation framework combining synthetic test cases, clinician-led vulnerability testing, and controlled release to real users",
+    "sample_description": "controlled release to real users of an LLM-based sexual well-being chatbot in a mobile application",
+    "sample_size": "5195 real user interactions reviewed in controlled release",
+    "sector": "digital health / sexual health education",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-based educational chatbot named Expert with auxiliary LLM Critic for semi-automated evaluation and clinician review in a mobile application"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_chatbot",
+      "conversational_AI",
+      "clinical_safety_governance",
+      "human_in_the_loop",
+      "risk_assessment",
+      "regulated_healthcare",
+      "post_deployment_monitoring"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly designs and evaluates a safety-focused framework for an LLM conversational agent in a sensitive healthcare domain, reporting staged governance mechanisms including clinician oversight, vulnerability testing, risk governance, and monitoring of real-user dialogues at scale.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial methods text were provided; full methods, ethics, governance implementation details, and limitations sections were not available for complete appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 5,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Clear feasibility objective and staged evaluation with predefined thresholds and quantified safety outcomes. Ethics and fuller methodological detail are not visible in the supplied excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 5,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are coherent and quantitatively reported for a feasibility study in a regulated health context, but appraisal is limited by incomplete full text and limited visibility of ethics, governance operations, and long-term monitoring design."
+  },
+  "coding": {
+    "open_codes": [
+      "clinical_safety_framework",
+      "five_stage_evaluation",
+      "synthetic_test_cases",
+      "clinician_led_vulnerability_testing",
+      "controlled_release",
+      "human_in_the_loop",
+      "expert_critic_architecture",
+      "semi_automated_evaluation",
+      "risk_governance",
+      "monitoring_at_scale",
+      "hallucination_risk"
+    ],
+    "axial_codes": [
+      "development_governance",
+      "evaluation_governance",
+      "human_oversight",
+      "technical_safeguards",
+      "clinical_accuracy_monitoring"
+    ],
+    "theme": "Safety-focused governance framework for LLM conversational health systems",
+    "subtheme": "Staged clinical oversight and automated critic-assisted review in sexual well-being chatbots",
+    "concepts": [
+      "clinical safety",
+      "risk governance",
+      "human-in-the-loop AI",
+      "risk assessment",
+      "post-deployment review",
+      "content safeguards",
+      "vulnerability testing"
+    ],
+    "model_layers": [
+      "design_requirements",
+      "technical_safeguards",
+      "content_safeguards",
+      "evaluation_pipeline",
+      "clinician_review",
+      "auxiliary_critic_model",
+      "real_user_monitoring"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa em sistemas conversacionais",
+      "supervisão humana",
+      "controle de risco",
+      "monitoramento pós-implantação",
+      "segurança clínica",
+      "contextos regulados de saúde"
+    ],
+    "coding_confidence": 0.84
+  },
+  "synthesis": {
+    "main_claim": "A structured, medically led framework can feasibly develop and evaluate an LLM sexual well-being chatbot with clinical safety oversight, meeting predefined accuracy and safety thresholds across synthetic, clinician-led, and real-user stages.",
+    "contribution": "Provides an end-to-end safety-focused development and evaluation framework, including Expert-Critic architecture and five-stage assessment, with reported error and unsafe-response rates in a controlled real-user release.",
+    "limitations": "Supplied text notes manual review limits at scale and positions the work as feasibility-focused; broader governance, compliance, auditability, and long-term operational learning details are not evidenced in the excerpt.",
+    "use_in_review": "Use as central empirical evidence on conversational governance mechanisms for regulated LLM health chatbots, especially staged human oversight, vulnerability testing, critic-assisted flagging, and post-release dialogue review."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses a specific LLM-based conversational chatbot in a regulated health context.",
+      "excerpt": "This study designed and evaluated a safety-focused framework for an LLM-based sexual well-being chatbot in a mobile application.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research design is a methods-focused feasibility study with staged evaluation.",
+      "excerpt": "We conducted a methods-focused feasibility study comprising a multi-stage development and evaluation of the chatbot.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Evaluation combines synthetic cases, clinician vulnerability testing, and real-user controlled release.",
+      "excerpt": "a five-stage evaluation framework combining synthetic test cases, clinician-led vulnerability testing and controlled release to real users",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Real-user sample size and monitored dialogue count are reported.",
+      "excerpt": "In a controlled release, 5195 real user interactions were reviewed.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Predefined safety/accuracy outcomes were met with low clinically inaccurate and unsafe responses.",
+      "excerpt": "Clinically inaccurate responses occurred in 0.90% (47/5195) of dialogues, with unsafe responses within severity thresholds.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Clinical safety and risk governance are central design outcomes.",
+      "excerpt": "our approach positions clinical safety and risk governance as central design and evaluation outcomes.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance includes translating safety principles into design requirements and safeguards.",
+      "excerpt": "translating high-level safety principles into explicit design requirements and implementing technical and content safeguards during chatbot development.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human-in-the-loop oversight is implemented via clinician review supported by an auxiliary Critic LLM.",
+      "excerpt": "we also incorporated a second LLM as an auxiliary 'Critic' to support semi-automated evaluation by flagging potentially problematic responses for clinician review.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Article explicitly frames human-in-the-loop and risk assessment as core topics.",
+      "excerpt": "Keywords Large language models, digital health, chatbots, human-in-the-loop AI, risk assessment, clinical safety",
+      "page": "1",
+      "section": "Keywords",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Framework is presented as transferable to other sensitive clinical domains.",
+      "excerpt": "This approach helps to address gaps in safety reporting and could be adapted for other sensitive clinical domains.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Peer review status is indicated by submission and acceptance dates.",
+      "excerpt": "Received: 20 August 2025; accepted: 9 March 2026",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "bibliographic"
+    }
+  ]
+}

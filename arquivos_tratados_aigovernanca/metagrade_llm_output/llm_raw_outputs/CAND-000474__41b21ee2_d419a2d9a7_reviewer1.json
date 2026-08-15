@@ -1,0 +1,186 @@
+{
+  "bibliographic": {
+    "title": "A Federated Architecture for Sector-Led AI Governance: Lessons from India",
+    "authors": "Avinash Agarwal; Manisha J. Nene",
+    "year": "2026",
+    "venue": "Transforming Government: People, Process and Policy",
+    "doi": "10.1108/TG-09-2025-0310",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Agarwal, A., & Nene, M. J. (2026). A federated architecture for sector-led AI governance: Lessons from India. Transforming Government: People, Process and Policy. https://doi.org/10.1108/TG-09-2025-0310"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual framework application with illustrative case study",
+    "study_design": "application of an established five-layer conceptual framework to the Indian context, validated through a detailed case study on AI incident management",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "whole-of-government AI governance; cross-sectoral public policy in India",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "general AI governance architecture and federated national AI incident management; no LLM or conversational system focus in provided text"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "ai_governance",
+      "accountability",
+      "regulated_sectors",
+      "incident_management",
+      "standards_compliance"
+    ],
+    "exclusion_codes": [
+      "no_llm_focus",
+      "no_conversational_ai_system",
+      "no_operational_conversational_governance"
+    ],
+    "exclusion_reason": "Out of scope for central or supporting evidence on conversational governance in LLM-based systems; addresses national sector-led AI governance architecture rather than conversational AI, chatbots, agents, RAG, guardrails, or related operational controls.",
+    "decision_rationale": "The manuscript clearly contributes institutional AI governance architecture, accountability, standards, and incident management for India's sector-led model, which aligns partially with regulated high-stakes governance themes. However, the provided text discusses AI generically, contains no LLM-specific content, and the only conversational match is metaphorical ('national conversation'), not conversational AI systems. It may inform macro-level governance context but not conversational LLM governance mechanisms.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter provided; boundary case between regulated AI governance and conversational LLM governance; Python metadata title extraction is corrupted."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Appraisal based only on author accepted manuscript front matter. Objective and high-level findings are clear; empirical rigor of the incident-management case study cannot be assessed from the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internally coherent conceptual policy-architecture paper with stated case-study validation, but provided text is limited and relevance to conversational LLM governance in regulated deployments is weak."
+  },
+  "coding": {
+    "open_codes": [
+      "sector_led_governance",
+      "whole_of_government_architecture",
+      "policy_to_practice_gap",
+      "ai_incident_management",
+      "federated_architecture",
+      "accountability",
+      "public_trust",
+      "standards",
+      "light_touch_regulation",
+      "cross_sectoral_risk_analysis"
+    ],
+    "axial_codes": [
+      "institutional_ai_governance",
+      "implementation_architecture",
+      "regulated_sector_coordination"
+    ],
+    "theme": "National sector-led AI governance architecture",
+    "subtheme": "Federated AI incident management and standards-based coordination",
+    "concepts": [
+      "five-layer conceptual framework",
+      "structured decentralisation",
+      "common national standards",
+      "cross-border data aggregation",
+      "trustworthy AI"
+    ],
+    "model_layers": [
+      "policy",
+      "institutional_roles",
+      "operational_incident_management",
+      "standards",
+      "cross_sectoral_analysis"
+    ],
+    "rq_alignment": [
+      "macro_governance_accountability",
+      "regulated_context_policy",
+      "risk_and_incident_management"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "India's sector-led AI governance can be made coherent through a whole-of-government federated architecture, demonstrated via a national AI incident management design using common standards across sectors.",
+    "contribution": "Provides two actionable architectures—national governance role assignment and a federated incident-management model—that bridge policy principles and operational implementation, with claimed global transferability.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence on national/sectoral AI governance, accountability, standards, and incident management in regulated environments; not usable as central or supporting evidence for conversational LLM governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with identifiable bibliographic metadata",
+      "excerpt": "Avinash Agarwal, Manisha J. Nene, “A federated architecture for sector-led AI governance: lessons from India”, Transforming Government: People, Process and Policy, 2026",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is conceptual with case-study validation, not empirical LLM or conversational-system research",
+      "excerpt": "The paper applies an established Aive-layer conceptual framework to the Indian context.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Second component uses AI incident management case study for operational validation",
+      "excerpt": "it uses a detailed case study on AI incident management to validate and demonstrate the architecture’s practical utility",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Addresses regulated/high-stakes sectors at policy level",
+      "excerpt": "deployment of biased AI systems in critical sectors or unclear liability when AI failures occur",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Emphasizes accountability and public trust in governance architecture",
+      "excerpt": "this structured approach ensures accountability and aligns AI development with societal values",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Proposes federated incident-management architecture using common standards",
+      "excerpt": "detailed, federated architecture for national AI Incident Management. It addresses the data silo problem by using a common national standard",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No LLM-specific technology focus in provided text",
+      "excerpt": "Arti'icial Intelligence (AI) has emerged as a transformative general-purpose technology",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Conversational-term hit is policy discourse, not conversational AI",
+      "excerpt": "this paper moves the national conversation from a debate over principles to a focused discussion on implementation",
+      "page": "2",
+      "section": "discussion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Claims global transferability for sector-led governance models",
+      "excerpt": "it offers a globally relevant template for any country pursuing a sectorled, vertical approach to AI governance",
+      "page": "2",
+      "section": "discussion",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Links architecture to risk management",
+      "excerpt": "creating the robust structures necessary to build public trust, ensure accountability, and manage risk effectively",
+      "page": "2",
+      "section": "discussion",
+      "supports": "coding"
+    }
+  ]
+}

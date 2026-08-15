@@ -1,0 +1,153 @@
+{
+  "bibliographic": {
+    "title": "A Case Study Demonstrating Applications of ChatGPT in the Clinical Management of Treatment-Resistant Schizophrenia",
+    "authors": "Pearl Valentine Galido, Saloni Butala, Meg Chakerian, Davin Agustines",
+    "year": "2023",
+    "venue": "Cureus",
+    "doi": "10.7759/cureus.38166",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Galido, P. V., Butala, S., Chakerian, M., & Agustines, D. (2023). A case study demonstrating applications of ChatGPT in the clinical management of treatment-resistant schizophrenia. Cureus. https://doi.org/10.7759/cureus.38166"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "case report",
+    "study_design": "single case study",
+    "sample_description": "22-year-old male diagnosed with treatment-resistant schizophrenia (TRS)",
+    "sample_size": "n=1",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "ChatGPT queried to compare suggested medical management with current standards of care for treatment-resistant schizophrenia"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_focus",
+      "no_governance_framework"
+    ],
+    "exclusion_reason": "Empirical clinical case report comparing ChatGPT treatment suggestions to standards of care; provided text contains no discussion of conversational governance, guardrails, observability, audit, accountability, human oversight mechanisms, or compliance frameworks for LLM systems.",
+    "decision_rationale": "Although the article uses ChatGPT in a regulated healthcare context, its focus is clinical diagnostic and treatment comparison rather than governance of conversational AI systems. No governance, oversight architecture, monitoring, logging, contestation, or accountability mechanisms are described in the available text.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and page 1 are available; full-text sections on methods, discussion, and limitations may contain additional governance-relevant content not captured in the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Case report with clearly stated clinical comparison objective, but single-patient design limits generalizability. Ethics, data collection procedures, and analytic methods are not described in the provided excerpt. Appraisal reflects clinical case-report standards, not conversational governance research."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Findings are internally coherent for a clinical utility comparison, but adequacy is limited by n=1 and unclear methodological detail in the excerpt. Relevance to conversational governance in regulated LLM systems is very low because governance constructs are absent from the provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "clinical case report",
+      "ChatGPT clinical comparison",
+      "treatment-resistant schizophrenia",
+      "standard of care alignment",
+      "medical work-up suggestions",
+      "pharmacologic treatment recommendations",
+      "limitations in clinical application"
+    ],
+    "axial_codes": [
+      "LLM in regulated healthcare",
+      "clinical decision support",
+      "single-case empirical evaluation"
+    ],
+    "theme": "Clinical application of ChatGPT in psychiatry",
+    "subtheme": "Comparison of AI-generated management suggestions with standards of care",
+    "concepts": [
+      "ChatGPT",
+      "treatment-resistant schizophrenia",
+      "standard of care",
+      "clinical work-up",
+      "pharmacologic treatment",
+      "side effects reporting"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.75
+  },
+  "synthesis": {
+    "main_claim": "ChatGPT can identify treatment-resistant schizophrenia, suggest appropriate work-up and treatment options aligned with standards of care, and list medication side effects, but has limitations for direct clinical application.",
+    "contribution": "Illustrates potential clinical utility of ChatGPT for organizing medical information and supporting complex psychiatric case management in a regulated healthcare setting.",
+    "limitations": "Single case report; acknowledges both potential and limitations in clinical application; governance, safety controls, and oversight mechanisms not addressed in available text.",
+    "use_in_review": "Not suitable as central or supporting evidence for conversational governance synthesis; may serve only as peripheral contextual illustration of LLM use in regulated healthcare if broader scoping permits."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a clinical case report using ChatGPT in healthcare",
+      "excerpt": "In this case report, we present the clinical treatment of a 22-year-old male diagnosed with treatment-resistant schizophrenia (TRS) and compare the medical management suggested by ChatGPT to current standards of care",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses specific LLM ChatGPT",
+      "excerpt": "Chat Generative Pre-trained Transformer, also known as ChatGPT, is a new artificial intelligence (AI) program that responds to user inquiry with discourse resembling human language.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated healthcare domain",
+      "excerpt": "Categories: Psychiatry, Healthcare Technology",
+      "page": "1",
+      "section": "front matter",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational governance focus in provided text",
+      "excerpt": "compare the medical management suggested by ChatGPT to current standards of care in order to assess the program's ability to identify the disorder, evaluate potential medical and psychiatric work-up, and develop a treatment plan",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors acknowledge clinical limitations",
+      "excerpt": "We found both potential for and limitations in the clinical application of ChatGPT to assist in the assessment and management of complex medical conditions.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Peer review process indicated",
+      "excerpt": "Review began 03/09/2023 Review ended 04/17/2023 Published 04/26/2023",
+      "page": "1",
+      "section": "front matter",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "ChatGPT outputs aligned with standards of care",
+      "excerpt": "pharmacologic treatment options including clozapine with adjuvant medications, and nonpharmacologic treatment options including electroconvulsive therapy (ECT), repetitive transcranial magnetic stimulation (rTMS), and psychotherapy which align with current standards of care",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Proposed clinical reference use rather than governance system",
+      "excerpt": "ChatGPT may serve as a powerful tool to organize medical data in a meaningful and palatable format for medical professionals to reference during patient care.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    }
+  ]
+}

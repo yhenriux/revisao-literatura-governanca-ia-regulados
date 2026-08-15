@@ -1,0 +1,166 @@
+{
+  "bibliographic": {
+    "title": "Leveraging Foundation Models in Maternal and Child Health: A Systematic Review",
+    "authors": "Xinnie Mai, Yunqian Liu, Philip Chung, Jonathan D. Reiss, Shuang Zhou, Ronald J. Wong, Mingquan Lin, Ivana Maric, Marina Sirota, Nima Aghaeepour, Rui Zhang, David K. Stevenson, Feng Xie",
+    "year": "2025",
+    "venue": "medRxiv",
+    "doi": "10.1101/2025.08.29.25333768",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Mai, X., Liu, Y., Chung, P., Reiss, J. D., Zhou, S., Wong, R. J., Lin, M., Maric, I., Sirota, M., Aghaeepour, N., Zhang, R., Stevenson, D. K., & Xie, F. (2025). Leveraging foundation models in maternal and child health: A systematic review. medRxiv. https://doi.org/10.1101/2025.08.29.25333768"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic review",
+    "study_design": "systematic literature review with PRISMA flow diagram",
+    "sample_description": "Studies leveraging foundation models in maternal and child health published between 2020 and 2025; 785 studies screened, 63 met inclusion criteria",
+    "sample_size": "63 included studies (from 785 screened)",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Foundation models including GPT, BERT, ViT, LLaMA, and ChatGPT applied to maternal, neonatal, and pediatric clinical tasks such as diagnosis, documentation, and medical response generation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "insufficient_governance_focus"
+    ],
+    "exclusion_reason": "Systematic review focused on clinical applications of foundation models in maternal and child health, not on conversational governance, oversight, accountability, or operational governance of conversational LLM systems in regulated settings.",
+    "decision_rationale": "Although the article is a systematic review covering foundation models and LLMs (including ChatGPT) in regulated healthcare (MCH), the stated objective and reported scope center on clinical task performance, multimodal integration, diagnostics, and documentation. The provided text contains no substantive treatment of conversational governance mechanisms such as guardrails, observability, audit, human oversight, contestation, compliance controls, or post-deployment monitoring of conversational AI systems. Term overlap from automated triage (e.g., ChatGPT, dialogue) reflects incidental mentions within included primary studies, not the review's governing focus.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Scope mismatch is clear from title, abstract, and study objectives; no ambiguous governance content requiring adjudication."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Appraised as a healthcare FM systematic review based on available front matter and abstract. Full methods, quality appraisal of included studies, and detailed synthesis were not provided in the excerpt. Not appraised for relevance to conversational governance because the study is out of scope for inclusion."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Within its own domain (FM applications in MCH), the review appears methodologically coherent with PRISMA and a defined search window, but the excerpt provides limited detail on search strategy, risk-of-bias assessment, and synthesis methods. Relevance to the target review on conversational governance in regulated LLM systems is very low because governance, oversight, and conversational-system controls are not addressed."
+  },
+  "coding": {
+    "open_codes": [
+      "foundation_models",
+      "maternal_child_health",
+      "systematic_review",
+      "clinical_documentation",
+      "multimodal_clinical_ai",
+      "ChatGPT_clinical_use",
+      "PRISMA_screening"
+    ],
+    "axial_codes": [
+      "healthcare_ai_applications",
+      "clinical_decision_support",
+      "model_deployment_safety_mention"
+    ],
+    "theme": "Clinical application of foundation models in maternal and child health",
+    "subtheme": "Diagnostics, documentation, and medical content generation",
+    "concepts": [
+      "foundation models",
+      "maternal and child health",
+      "clinical NLP",
+      "multimodal EHR/imaging",
+      "safe deployment"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "Foundation models show strong potential to generalize across maternal and child health clinical tasks by integrating multimodal data for diagnosis, documentation, and medical response generation, but rigorous validation and clinician collaboration are needed for safe deployment.",
+    "contribution": "Maps 63 included studies (2020–2025) on foundation models in MCH and summarizes application areas across text, EHR, imaging, and temporal data.",
+    "limitations": "Provided excerpt does not detail full search strategy, quality appraisal, or governance-related gaps; preprint not peer reviewed.",
+    "use_in_review": "Exclude from central evidence on conversational governance; may serve only as peripheral bibliographic context for healthcare FM reviews unrelated to governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Study is a systematic review of foundation models in maternal and child health, not conversational governance.",
+      "excerpt": "We conducted a systematic review to identify recent studies leveraging FMs in MCH published between 2020 and 2025.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated healthcare domain (maternal and child health).",
+      "excerpt": "Maternal and child health (MCH) represents a critical domain requiring accurate, timely, and data-driven decision-making",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample size and screening process are reported.",
+      "excerpt": "Of 785 studies, 63 met the inclusion criteria.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "PRISMA-based systematic review design.",
+      "excerpt": "Figure 1: PRISMA Flow Diagram of Study Selection and Screening Process.",
+      "page": "7",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Includes LLMs/ChatGPT among foundation models but for clinical tasks, not governance.",
+      "excerpt": "Representative FM architectures include Generative Pre-trained Transformer (GPT)28, Bidirectional Encoder Representations from Transformers (BERT)29,30, Vision Transformer (ViT)31,32 and Large Language Model Meta AI (LLaMA)33,34.",
+      "page": "3",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "ChatGPT appears in included studies for clinical NLP tasks without governance focus.",
+      "excerpt": "2024 Desseauve et al.61 ChatGPT Text 14 Obstetrics Residents Obstetrics",
+      "page": "7",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "One included study involves dialogue exchanges but within obstetric addiction medicine clinical analysis, not governance.",
+      "excerpt": "2025 Herbert et al.68 ChatGPT Text 30 dialogue exchanges analyzed Obstetric Addiction Medicine",
+      "page": "8",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Deployment safety mentioned generally, without conversational governance mechanisms.",
+      "excerpt": "rigorous validation and close collaboration with clinicians will be essential for the safe, equitable, and effective deployment of FMs in MCH care.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Clinical application focus: diagnosis, documentation, and response generation.",
+      "excerpt": "support disease diagnosis, streamline clinical documentation, and generate high-quality medical responses throughout maternal, neonatal, and pediatric care.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Preprint not peer reviewed.",
+      "excerpt": "this preprint reports new research that has not been certified by peer review and should not be used to guide clinical practice.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "bibliographic"
+    }
+  ]
+}

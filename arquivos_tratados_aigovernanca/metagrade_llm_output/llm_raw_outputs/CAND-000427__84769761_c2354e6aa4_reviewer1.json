@@ -1,0 +1,200 @@
+{
+  "bibliographic": {
+    "title": "Regulatory Markets: The Future of AI Governance",
+    "authors": "Gillian K. Hadfield; Jack Clark",
+    "year": "2026",
+    "venue": "Jurimetrics Journal",
+    "doi": "unclear",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Hadfield, G. K., & Clark, J. (2026). Regulatory markets: The future of AI governance. Jurimetrics Journal, 65, 195–240."
+  },
+  "methodology": {
+    "research_type": "theoretical",
+    "method_family": "legal and policy analysis; normative institutional design proposal",
+    "study_design": "conceptual policy proposal with literature-based argumentation",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "cross-sector artificial intelligence governance",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "artificial intelligence broadly, including large generative models, large language models, ChatGPT, generative AI, and dual-use foundation models"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "AI_GOVERNANCE",
+      "REGULATED_CONTEXT",
+      "GENAI_LLM_MENTION"
+    ],
+    "exclusion_codes": [
+      "CONVERSATIONAL_AI_NOT_PRIMARY"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a theoretical policy proposal on macro-level AI governance via regulatory markets, with strong relevance to regulation, accountability, and generative AI/LLM context, but the provided text does not center conversational systems, chatbots, agents, or operational conversational governance mechanisms such as guardrails, observability, or human handoff in dialogue.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial full text was supplied; keyword screening over-weighted generic governance and LLM mentions relative to conversational governance scope."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appropriate as a high-level institutional governance argument rather than an empirical or conversational-systems study; sampling and ethics appraisal items are largely not applicable."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The proposal is internally coherent and clearly stated, but the supplied evidence supports institutional AI regulation more than conversational LLM governance in regulated deployments."
+  },
+  "coding": {
+    "open_codes": [
+      "regulatory markets",
+      "technical deficit",
+      "democratic deficit",
+      "command-and-control regulation",
+      "industry technical standards",
+      "policy urgency",
+      "frontier models",
+      "international standards"
+    ],
+    "axial_codes": [
+      "institutional AI governance",
+      "regulation-technology translation gap",
+      "democratic accountability",
+      "market-based regulatory design"
+    ],
+    "theme": "Macro-level institutional design for AI governance",
+    "subtheme": "Regulatory markets as an alternative to command-and-control and excessive industry delegation",
+    "concepts": [
+      "regulatory markets",
+      "AI governance",
+      "accountability",
+      "compliance",
+      "generative AI",
+      "foundation models",
+      "large language models"
+    ],
+    "model_layers": [
+      "policy layer",
+      "regulatory/institutional layer"
+    ],
+    "rq_alignment": [
+      "governance in regulated environments",
+      "accountability and oversight at policy level"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Governments should use regulatory markets—requiring regulated entities to purchase services from government-licensed private regulators—to overcome both the technical deficit of translating law into technical requirements and the democratic deficit of overreliance on industry standards in AI governance.",
+    "contribution": "Offers an institutional policy framework for AI regulation that aims to combine democratically accountable public priorities with market-driven technical regulatory innovation.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence on institutional and policy-level AI governance in regulated settings; not as central evidence on conversational LLM governance, operational controls, or deployment monitoring."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with 2026 Jurimetrics citation",
+      "excerpt": "CITATION: Gillian K. Hadfield & Jack Clark, Regulatory Markets: The Future of AI Governance, 65 JURIMETRICS J. 195–240 (2026).",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors are Gillian K. Hadfield and Jack Clark",
+      "excerpt": "REGULATORY MARKETS: THE FUTURE OF AI GOVERNANCE Gillian K. Hadfield∗ Jack Clark∗∗",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is a theoretical policy proposal, not empirical",
+      "excerpt": "We propose a solution: regulatory markets, in which governments require the targets of regulation to purchase regulatory services from a government-licensed private regulator.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Identifies technical and democratic deficits in AI regulation",
+      "excerpt": "First is a technical deficit: Legislatures and regulators face significant challenges in rapidly translating conventional command-and-control legal requirements into technical requirements.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Discusses democratic accountability concern in AI governance",
+      "excerpt": "Second is a democratic deficit: Overreliance on industry to provide technical standards fails to ensure that the many values-based decisions that must be made to shape AI development and deployment are made by democratically accountable public, not private, actors.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Mentions ChatGPT and large generative models",
+      "excerpt": "Coming into public view with the release of ChatGPT in November 2022, large generative models, with billions or even trillions of parameters and trained on billions of words and images have shown surprising foundational capacities",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Frames AI governance conversation evolution including ethics and legislation",
+      "excerpt": "The past decade has also witnessed an evolution in the conversation around AI governance.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Links LLM deployment unpredictability to governance challenge",
+      "excerpt": "The engineers who develop a facial recognition or large language model cannot possibly anticipate and test for all the different ways in which the models could be used.",
+      "page": "6",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "ChatGPT increased regulatory urgency around large language models",
+      "excerpt": "Then the dramatic introduction of ChatGPT in late 2022, exposing millions around the world to the potential, and risks, of powerful large language models, increased the sense of urgency around regulation.",
+      "page": "9",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Discusses generative AI and foundation model risk-management policy",
+      "excerpt": "The executive order called for NIST to expand its risk-management framework to address generative AI and dual-use foundation models",
+      "page": "15",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational-system governance focus in supplied text",
+      "excerpt": "The past decade has also witnessed an evolution in the conversation around AI governance.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Complex LLMs are difficult to interpret and modify",
+      "excerpt": "increasingly, machine-learning models are complex and difficult to interpret and intervention to modify their behavior can be very difficult.",
+      "page": "8",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Regulated-domain relevance is cross-sector rather than conversational",
+      "excerpt": "pertaining to AI in their particular domain (transportation, finance, consumer protection, etc.)",
+      "page": "13",
+      "section": "unclear",
+      "supports": "methodology"
+    }
+  ]
+}

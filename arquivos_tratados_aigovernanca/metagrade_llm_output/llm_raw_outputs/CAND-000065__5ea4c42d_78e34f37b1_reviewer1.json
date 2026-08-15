@@ -1,0 +1,208 @@
+{
+  "bibliographic": {
+    "title": "The Ethics of ChatGPT in Medicine and Healthcare: A Systematic Review on Large Language Models (LLMs)",
+    "authors": "Joschka Haltaufderheide & Robert Ranisch",
+    "year": "unclear",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Haltaufderheide, J., & Ranisch, R. (unclear). The ethics of ChatGPT in medicine and healthcare: A systematic review on large language models (LLMs) [Preprint version]. University of Potsdam."
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic review with modified rapid review and meta-aggregative synthesis",
+    "study_design": "systematic review",
+    "sample_description": "Electronic databases and preprint servers searched; records screened and extracted; methodological quality assessed with hybrid approach; subset synthesized meta-aggregatively",
+    "sample_size": "796 records identified; 53 records included in meta-aggregative synthesis",
+    "sector": "medicine and healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Large Language Models (LLMs), including ChatGPT, in clinical, educational, and research healthcare applications"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_appraisal",
+    "inclusion_codes": [
+      "systematic_review",
+      "llm_healthcare",
+      "ethics_governance",
+      "human_oversight",
+      "regulated_healthcare"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The study is a systematic review mapping ethical issues and application fields of LLMs in medicine and healthcare, with recurrent themes of fairness, bias, transparency, privacy, harm, and human oversight. It provides foundational ethical context for regulated LLM use but the supplied text does not focus on conversational governance mechanisms such as guardrails, observability, audit logs, tracing, or operational compliance controls.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial methods sources are supplied; full screening criteria, extraction protocol, quality appraisal details, and limitations require full-text verification."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Abstract reports a comprehensive search (796 records), modified rapid review screening/extraction, hybrid quality assessment, and meta-aggregative synthesis of 53 records. Database list is partially visible; limitations and full appraisal protocol are not shown in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are coherently summarized from a sizable screened sample and a defined synthesis subset, but the modified rapid review design and incomplete visibility of methods in the supplied text limit confidence for operational governance claims."
+  },
+  "coding": {
+    "open_codes": [
+      "ethical_landscape_mapping",
+      "human_oversight",
+      "transparency",
+      "fairness",
+      "bias",
+      "privacy",
+      "harmful_misinformation",
+      "non_maleficence",
+      "healthcare_deployment",
+      "experimental_use_justification"
+    ],
+    "axial_codes": [
+      "ethical_governance",
+      "risk_and_harm",
+      "accountability_and_oversight",
+      "regulated_healthcare_applications"
+    ],
+    "theme": "Ethical governance of LLMs in medicine and healthcare",
+    "subtheme": "Human oversight and acceptable thresholds across diverse healthcare use cases",
+    "concepts": [
+      "human oversight",
+      "transparency",
+      "bias",
+      "fairness",
+      "privacy",
+      "harm",
+      "misinformation",
+      "ethical guidance",
+      "performance thresholds",
+      "necessity and justification of experimental use"
+    ],
+    "model_layers": [
+      "principles_and_ethics",
+      "human_supervision"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa",
+      "supervisão humana",
+      "compliance e risco ético",
+      "contextos regulados em saúde",
+      "transparência e vieses"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "LLM use in medicine and healthcare spans four application fields in an exploratory phase, offering benefits in data analysis, personalized information, and decision support, while recurrent ethical concerns include fairness, bias, transparency, privacy, and harmful misinformation.",
+    "contribution": "Provides a systematic map of practical LLM applications and connected ethical issues in healthcare, and reframes ethical guidance toward defining acceptable human oversight across settings with varying harm potential and performance thresholds.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence on ethical risks, human oversight, transparency, bias, and privacy for LLMs in regulated healthcare; not primary evidence for operational conversational governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Study is a systematic review on LLM ethics in medicine and healthcare",
+      "excerpt": "this work aims to map the ethical landscape surrounding the current stage of deployment of LLMs in medicine and healthcare",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Search and synthesis sample sizes are reported",
+      "excerpt": "generated 796 records",
+      "page": "1",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Meta-aggregative synthesis conducted on 53 records",
+      "excerpt": "For 53 records, a meta-aggregative synthesis was performed",
+      "page": "1",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Modified rapid review approach used",
+      "excerpt": "Studies were screened and extracted following a modified rapid review approach",
+      "page": "1",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Hybrid methodological quality assessment applied",
+      "excerpt": "Methodological quality was assessed using a hybrid approach",
+      "page": "1",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Recurrent ethical concerns include governance-relevant themes",
+      "excerpt": "recurrent ethical concerns connected to fairness, bias, non-maleficence, transparency, and privacy",
+      "page": "1",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Distinct risk of harmful or inaccurate LLM outputs",
+      "excerpt": "the tendency to produce harmful misinformation or convincingly but inaccurate content",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human oversight is a recurrent plea",
+      "excerpt": "A recurrent plea for ethical guidance and human oversight is evident",
+      "page": "1",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Discussion emphasizes acceptable human oversight across applications",
+      "excerpt": "focus on defining what constitutes acceptable human oversight across the spectrum of applications",
+      "page": "1",
+      "section": "discussion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Healthcare is the regulated application domain",
+      "excerpt": "A burgeoning field for LLMs lies within medicine and healthcare",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "ChatGPT is a focal LLM technology",
+      "excerpt": "With the introduction of ChatGPT, Large Language Models (LLMs) have received enormous attention in healthcare",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Multiple bibliographic databases and preprint servers searched",
+      "excerpt": "Sources Databases MEDLINE via PubMed CINAHL Embase",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Document is a preprint and not peer reviewed",
+      "excerpt": "Preprint Version",
+      "page": "1",
+      "section": "front matter",
+      "supports": "bibliographic"
+    }
+  ]
+}

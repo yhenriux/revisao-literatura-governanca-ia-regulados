@@ -1,0 +1,161 @@
+{
+  "bibliographic": {
+    "title": "From Words to Watts: Benchmarking the Energy Costs of Large Language Model Inference",
+    "authors": "Siddharth Samsi, Dan Zhao, Joseph McDonald, Baolin Li, Adam Michaleas, Michael Jones, William Bergeron, Jeremy Kepner, Devesh Tiwari, Vijay Gadepally",
+    "year": "2023",
+    "venue": "arXiv preprint",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Samsi, S., Zhao, D., McDonald, J., Li, B., Michaleas, A., Jones, M., Bergeron, W., Kepner, J., Tiwari, D., & Gadepally, V. (2023). From words to watts: Benchmarking the energy costs of large language model inference. arXiv preprint arXiv:2310.03003."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "experimental benchmarking",
+    "study_design": "computational performance and energy benchmarking experiments",
+    "sample_description": "LLaMA models of different sizes on NVIDIA V100 and A100 GPUs using Alpaca and GSM8K datasets; multi-node multi-GPU inference with model sharding across up to 32 GPUs",
+    "sample_size": "unclear",
+    "sector": "computing; sustainability; Green AI",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLaMA inference benchmarking; distributed GPU computing; energy utilization measurement"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "no_governance_focus"
+    ],
+    "exclusion_reason": "The study benchmarks computational and energy costs of LLM inference rather than addressing conversational AI governance, accountability, oversight, compliance, or related governance mechanisms in regulated environments.",
+    "decision_rationale": "Although the paper discusses LLM deployment across domains such as law, finance, and medicine, its primary objective and contribution are experimental measurement of inference performance and energy utilization for LLaMA on GPUs. The provided text contains no substantive treatment of conversational governance, guardrails, observability for accountability, human oversight, audit, compliance, or risk control in conversational systems.",
+    "decision_confidence": 0.93,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Exclusion is clear from the stated research objective and methods; mismatch with review scope is unambiguous."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal reflects methodological signals visible in the excerpt. The study appears internally coherent for an energy-benchmarking objective, but the provided text offers limited detail on analysis procedures, limitations, and ethics beyond brief mention of societal concerns."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "high",
+    "explanation": "Confidence is high that this paper is not adequate or relevant evidence for conversational governance in regulated LLM systems because its core contribution is inference energy and compute benchmarking, not governance mechanisms or accountable conversational system design."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM inference",
+      "energy benchmarking",
+      "Green AI",
+      "computational resources",
+      "distributed GPU inference",
+      "model sharding",
+      "sustainability"
+    ],
+    "axial_codes": [
+      "technical infrastructure",
+      "environmental impact of AI",
+      "deployment resource costs"
+    ],
+    "theme": "LLM inference energy and computational sustainability",
+    "subtheme": "benchmarking inference performance and energy utilization",
+    "concepts": [
+      "inference energy costs",
+      "GPU benchmarking",
+      "LLaMA",
+      "multi-node inference",
+      "carbon footprint"
+    ],
+    "model_layers": [
+      "infrastructure layer"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.9
+  },
+  "synthesis": {
+    "main_claim": "LLM inference imposes significant computational and energy costs that require systematic benchmarking to support cost savings, scaling, efficient hardware use, and optimal inference strategies.",
+    "contribution": "Empirical benchmarking and preliminary analysis of LLaMA inference performance and energy costs across model sizes, GPU generations, datasets, and up to 32-GPU distributed inference.",
+    "limitations": "The abstract describes a preliminary analysis; the excerpt does not provide detailed limitations, and findings appear tied to LLaMA, specific NVIDIA GPUs, and selected datasets.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance. At most, it offers peripheral contextual background on operational resource costs of LLM deployment, not governance of conversational systems in regulated settings."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on benchmarking inference energy and compute costs, not conversational governance.",
+      "excerpt": "In this paper, we describe experiments conducted to study the computational and energy utilization of inference with LLMs.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Primary contribution is experimental benchmarking of LLaMA inference performance and energy costs.",
+      "excerpt": "We benchmark and conduct a preliminary analysis of the inference performance and inference energy costs of different sizes of LLaMA—a recent state-of-the-art LLM—developed by Meta AI on two generations of popular GPUs (NVIDIA V100 & A100) and two datasets (Alpaca and GSM8K)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Study uses distributed multi-GPU experimental design.",
+      "excerpt": "We present the results of multi-node, multi-GPU inference using model sharding across up to 32 GPUs.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated domains are mentioned only as deployment contexts, not as governance study settings.",
+      "excerpt": "These technologies are increasingly being leveraged in various domains such as law, finance, and medicine.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Societal concerns are noted but not studied as governance mechanisms.",
+      "excerpt": "The popularity of these models has also put a spotlight on many societal concerns stemming from their usage.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "ChatGPT is referenced as an example of inference usage, not as a conversational governance object of study.",
+      "excerpt": "Inference energy costs already receive less attention than the energy costs of training LLMs—despite how often these large models are called on to conduct inference in reality (e.g., ChatGPT).",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors position the work as first large-scale study of inference from computational and energy resource perspective.",
+      "excerpt": "To our knowledge, our work is the one of the first to study LLM inference performance from the perspective of computational and energy resources at this scale.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Analysis is described as preliminary.",
+      "excerpt": "We benchmark and conduct a preliminary analysis of the inference performance and inference energy costs",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Publication is an arXiv preprint from October 2023.",
+      "excerpt": "arXiv:2310.03003v1 [cs.CL] 4 Oct 2023",
+      "page": "1",
+      "section": "Footer",
+      "supports": "bibliographic"
+    }
+  ]
+}

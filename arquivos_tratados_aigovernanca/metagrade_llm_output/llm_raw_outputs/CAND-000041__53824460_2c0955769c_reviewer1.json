@@ -1,0 +1,190 @@
+{
+  "bibliographic": {
+    "title": "Preserving attribution and accountability in AI-scale systems",
+    "authors": "Frank C. Gahl",
+    "year": "2026",
+    "venue": "Discover Artificial Intelligence",
+    "doi": "10.1007/s44163-026-01415-9",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Gahl, F. C. (2026). Preserving attribution and accountability in AI-scale systems. Discover Artificial Intelligence, 6, 564. https://doi.org/10.1007/s44163-026-01415-9"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual and infrastructural framework development",
+    "study_design": "conceptual paper introducing BlockClaim provenance framework with literature-informed analysis of attribution failure modes",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI-mediated information systems; AI-scale systems involving ingestion, transformation, and recombination of human-produced material; provenance and attribution infrastructure"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "governance_accountability",
+      "risk_audit_compliance",
+      "foundational_value"
+    ],
+    "exclusion_codes": [
+      "conversational_ai_not_evident",
+      "llm_not_specific"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article offers a strong conceptual contribution on attribution, accountability, traceability, and governance enablers in AI-scale systems, but the provided text contains no explicit treatment of conversational AI, chatbots, agents, RAG, or LLM-specific operational governance in regulated deployments. It is better suited as foundational/contextual evidence for accountability infrastructure than as central evidence for conversational LLM governance.",
+    "decision_confidence": 0.74,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Metadata title extraction is corrupted; only partial full text was supplied; conversational-AI and LLM-specific fit must be verified across the complete manuscript."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal is based on abstract, introduction, and scattered section excerpts only. The study is explicitly conceptual and infrastructural rather than empirical; sampling and data-collection criteria are not applicable in the usual empirical sense."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The argumentative structure is coherent and the objective is clearly stated, but available text shows limited empirical validation and only partial direct relevance to conversational LLM governance in regulated operational contexts."
+  },
+  "coding": {
+    "open_codes": [
+      "attribution collapse",
+      "attribution continuity",
+      "temporal priority",
+      "provenance",
+      "traceability",
+      "non-adjudicative infrastructure",
+      "BlockClaim",
+      "AI-scale systems",
+      "institutional accountability"
+    ],
+    "axial_codes": [
+      "governance preconditions",
+      "socio-technical infrastructure",
+      "accountability enablement",
+      "failure modes"
+    ],
+    "theme": "Attribution and provenance as infrastructural preconditions for AI accountability",
+    "subtheme": "Minimal non-adjudicative provenance framework for AI-mediated claim traceability",
+    "concepts": [
+      "attribution continuity",
+      "temporal integrity",
+      "attribution collapse",
+      "provenance mechanisms",
+      "downstream ethical/legal/institutional evaluation",
+      "BlockClaim"
+    ],
+    "model_layers": [
+      "infrastructure/provenance layer",
+      "accountability enablement layer",
+      "downstream governance and institutional evaluation layer"
+    ],
+    "rq_alignment": [
+      "accountability",
+      "traceability",
+      "AI governance foundations",
+      "compliance-related institutional evaluation"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Stable attribution and temporal priority are fragile infrastructural conditions required for accountability in AI-scale systems, and BlockClaim is proposed as a minimal provenance framework to preserve claim history without adjudicating truth, ethics, or enforcement.",
+    "contribution": "Reframes AI accountability challenges as problems of preserved traceability and introduces a neutral provenance framework intended to support downstream ethical, legal, and institutional processes.",
+    "limitations": "The framework is not presented as a comprehensive governance solution and remains neutral with respect to truth, ethics, and enforcement; attribution collapse may not be adequately addressed by downstream governance alone.",
+    "use_in_review": "Use as foundational/contextual evidence on accountability, traceability, and provenance infrastructure in AI-mediated systems; not recommended as central evidence for conversational LLM governance unless fuller text shows direct conversational or LLM-operational relevance."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with identifiable bibliographic metadata",
+      "excerpt": "RESEARCH Open Access Discover Artificial Intelligence Gahl Discover Artificial Intelligence (2026) 6:564 https://doi.org/10.1007/s44163-026-01415-9",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study adopts a conceptual and infrastructural approach",
+      "excerpt": "Adopting a conceptual and infrastructural approach, it identifies recurring failure modes in existing attribution practices",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Focus is AI-scale systems broadly, not LLM-specific or conversational systems",
+      "excerpt": "Artificial intelligence systems do not introduce attribution collapse, but can significantly amplify its scope and consequences",
+      "page": "3",
+      "section": "1.2 AI-scale systems and the amplification of attribution collapse",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Addresses governance, ethics, accountability, and institutional/legal contexts",
+      "excerpt": "While debates in AI governance, ethics, and accountability often presuppose the availability of stable attribution",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Positions provenance as an enabling condition for accountability rather than full governance",
+      "excerpt": "Rather than proposing a comprehensive governance solution, the framework is positioned as an enabling condition for accountability",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Introduces BlockClaim as a minimal provenance framework",
+      "excerpt": "On this basis, the paper introduces BlockClaim as a minimal provenance framework designed to preserve attribution continuity and temporal integrity",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Reframes accountability around preserved traceability",
+      "excerpt": "it reframes accountability challenges in AI-mediated environments as problems of preserved traceability rather than solely of normative design or regulatory control",
+      "page": "5",
+      "section": "2 Provenance accountability and AI literature context",
+      "supports": "coding"
+    },
+    {
+      "claim": "Links attribution collapse to interaction of scale, automation, and platform factors",
+      "excerpt": "it can emerge from the interaction of scale, automation, platform fragmentation, and misaligned incentives",
+      "page": "6",
+      "section": "4 Failure modes of attribution in AI-scale systems",
+      "supports": "coding"
+    },
+    {
+      "claim": "Acknowledges limits of downstream governance without preserved attribution",
+      "excerpt": "These limitations suggest that attribution collapse cannot be adequately addressed through downstream evaluation or governance mechanisms alone.",
+      "page": "6",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Mentions governance, oversight, and ethical evaluation stakeholders",
+      "excerpt": "by making it inaccessible to those responsible for governance, oversight, and ethical evaluation",
+      "page": "9",
+      "section": "unclear",
+      "supports": "rq_alignment"
+    },
+    {
+      "claim": "No conversational-AI evidence in supplied text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

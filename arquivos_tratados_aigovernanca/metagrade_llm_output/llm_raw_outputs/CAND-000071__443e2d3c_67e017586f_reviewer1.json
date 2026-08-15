@@ -1,0 +1,171 @@
+{
+  "bibliographic": {
+    "title": "A Regulação pela Ética e a Proposta de Marco Legal para a Inteligência Artificial no Brasil",
+    "authors": "Guilherme Pereira Pinheiro",
+    "year": "2024",
+    "venue": "Revista Direitos Fundamentais & Democracia",
+    "doi": "10.25192/ISSN.1982-0496.RDFD.V.29.II.2513",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Pinheiro, G. P. (2024). A regulação pela ética e a proposta de marco legal para a inteligência artificial no Brasil. Revista Direitos Fundamentais & Democracia, 29(2), 124-147. https://doi.org/10.25192/ISSN.1982-0496.RDFD.V.29.II.2513"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "revisão bibliográfica e análise doutrinária jurídica",
+    "study_design": "análise normativa e comparativa de marco regulatório de IA com base em revisão bibliográfica e estado da arte",
+    "sample_description": "literatura doutrinária e normativa sobre inteligência artificial, ética e proteção de dados pessoais; Projeto de Lei nº 21/2020 aprovado pela Câmara dos Deputados",
+    "sample_size": "unclear",
+    "sector": "jurídico-regulatório",
+    "regulated_domain": "yes",
+    "llm_specificity": "unclear",
+    "technology_context": "inteligência artificial em geral; sistemas de IA; menção exemplificativa a chatbots em atendimentos online; proposta legislativa brasileira de IA"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "regulatory_governance",
+      "ethics_and_compliance",
+      "regulated_context"
+    ],
+    "exclusion_codes": [
+      "no_llm_specificity",
+      "no_operational_conversational_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O artigo oferece análise jurídico-doutrinária relevante sobre governança e regulação de IA no Brasil, incluindo transparência em interações com chatbots, mas o texto fornecido não aborda governança conversacional operacional nem sistemas baseados em LLMs de forma específica.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Metadados extraídos indicam ano 2020, mas o PDF indica publicação em maio/ago. 2024; é necessário confirmar escopo completo do texto quanto a LLMs, agentes e mecanismos operacionais de governança conversacional."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Estudo doutrinário com objetivos e metodologia declarados no resumo; rigor analítico e limitações não podem ser totalmente avaliados com base apenas nos trechos fornecidos."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "A argumentação normativa parece coerente e adequada ao objetivo de avaliar ética versus marco legal de IA no Brasil, mas a relevância direta para governança conversacional em LLMs é limitada no material disponibilizado."
+  },
+  "coding": {
+    "open_codes": [
+      "regulação por ética",
+      "marco legal de IA",
+      "governança de IA",
+      "transparência algorítmica",
+      "chatbots",
+      "proteção de dados pessoais",
+      "Constituição da Técnica",
+      "PL 21/2020"
+    ],
+    "axial_codes": [
+      "regulação e compliance de IA",
+      "princípios de governança",
+      "contexto regulado brasileiro"
+    ],
+    "theme": "Regulação ética e marco legal para inteligência artificial no Brasil",
+    "subtheme": "Adequação do PL 21/2020 a elementos regulatórios essenciais de governança de IA",
+    "concepts": [
+      "ética insuficiente como instrumento único de governança",
+      "elementos regulatórios essenciais",
+      "transparência em comunicação com sistemas de IA",
+      "centralidade no humano",
+      "não discriminação"
+    ],
+    "model_layers": [
+      "normativo",
+      "principiológico"
+    ],
+    "rq_alignment": [
+      "governança e accountability",
+      "compliance em contextos regulados",
+      "transparência e supervisão"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "A regulação apenas por ética é insuficiente para governar o desenvolvimento e a aplicação de sistemas de IA; um marco legal é necessário, e a proposta legislativa brasileira consolidada no PL 21/2020 apresenta robusta aderência a elementos regulatórios essenciais de governança de IA.",
+    "contribution": "Fornece enquadramento jurídico-doutrinário brasileiro sobre governança de IA, contrapondo ética e regulação legal e avaliando a proposta parlamentar aprovada na Câmara dos Deputados.",
+    "limitations": "Texto fornecido não explicita limitações metodológicas do estudo nem aprofunda mecanismos operacionais de governança conversacional, auditoria, tracing ou controles técnicos em sistemas de IA.",
+    "use_in_review": "Usar como evidência contextual e fundacional sobre regulação e princípios de governança de IA no Brasil; não como evidência central sobre governança conversacional em LLMs."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo publicado em periódico acadêmico revisado em 2024",
+      "excerpt": "Revista Direitos Fundamentais & Democracia Vol. 29, n.2, p. 124-147, maio/ago. 2024",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Objetivo explícito de comparar regulação ética e marco legal de IA",
+      "excerpt": "a ética, por si só, é suficiente para regulação da inteligência artificial - IA ou deve ser complementada por um marco legal?",
+      "page": "1",
+      "section": "resumo",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Metodologia declarada como revisão bibliográfica e estado da arte",
+      "excerpt": "utilizamos metodologias de revisão bibliográfica e o estado da arte de temáticas relacionadas à inteligência artificial e proteção de dados pessoais",
+      "page": "1",
+      "section": "resumo",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Conclusão sobre insuficiência da ética como único instrumento de governança",
+      "excerpt": "observando a sua insuficiência como instrumento único de governança para o desenvolvimento e aplicação de sistemas de IA",
+      "page": "1",
+      "section": "resumo",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Avaliação positiva da adequação do PL 21/2020 a elementos regulatórios essenciais",
+      "excerpt": "concluindo pela robusta aderência da proposta a esses elementos regulatórios essenciais",
+      "page": "1",
+      "section": "resumo",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Menção a chatbots no contexto de transparência em interações com sistemas de IA",
+      "excerpt": "quando a pessoa está comunicando-se diretamente com sistemas de IA, em atendimentos online com chatbots, por exemplo",
+      "page": "19",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Princípios regulatórios citados incluem transparência e centralidade no humano",
+      "excerpt": "IA no Brasil deve respeitar princípios de não discriminação, centralidade no humano, ter finalidade benéfica e transparência",
+      "page": "19",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Foco no marco legislativo brasileiro PL 21/2020",
+      "excerpt": "consolidada no texto do Projeto de Lei nº 21/2020, aprovado pela Câmara dos Deputados",
+      "page": "1",
+      "section": "resumo",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Não há menção explícita a LLMs no material fornecido",
+      "excerpt": "temáticas relacionadas à inteligência artificial e proteção de dados pessoais",
+      "page": "1",
+      "section": "resumo",
+      "supports": "eligibility"
+    }
+  ]
+}

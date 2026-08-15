@@ -1,0 +1,163 @@
+{
+  "bibliographic": {
+    "title": "Marking intersubjectivity in human-written and AI-generated editorials published in Il Foglio",
+    "authors": "Franz Meier",
+    "year": "2026",
+    "venue": "AI-Linguistica. Linguistic Studies on AI-Generated Texts and Discourses, Special Issue: Natural Language and AI, Vol. 3 No. 1",
+    "doi": "10.62408/ai-ling.v3i1.65",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Meier, F. (2026). Marking intersubjectivity in human-written and AI-generated editorials published in Il Foglio. AI-Linguistica, 3(1). https://doi.org/10.62408/ai-ling.v3i1.65"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "corpus linguistics / discourse analysis",
+    "study_design": "comparative corpus analysis of human-written versus LLM-generated editorials using Martin and White's engagement taxonomy",
+    "sample_description": "Two subcorpora of 25 editorials each from Il Foglio and Il Foglio AI, published between April and May 2025",
+    "sample_size": "50 editorials (25 human-written + 25 LLM-generated)",
+    "sector": "journalism / media",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_llm",
+    "technology_context": "Il Foglio AI newspaper supplement with content generated entirely by LLMs; human journalists limited to crafting prompts and overseeing output"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "not_conversational_governance",
+      "linguistic_analysis_primary"
+    ],
+    "exclusion_reason": "The study is primarily a comparative linguistic analysis of intersubjectivity markers in editorials and does not address conversational governance, operational controls, compliance, auditability, or governance mechanisms for LLM-based systems in regulated environments.",
+    "decision_rationale": "Although the paper involves LLM-generated journalism and briefly references human prompting, oversight, ethics debates, and limited transparency around the experiment, its central research question concerns authorial stance markers and intersubjective positioning in texts, not governance of conversational AI systems. The journalism/media context is not a high-stakes regulated domain as defined by the review scope.",
+    "decision_confidence": 0.86,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial full text was provided (pages 1-2); publication year differs between extracted metadata (2025) and article front matter (2026); borderline governance-adjacent mentions warrant human confirmation."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 3,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal based on partial text only (front matter, abstract, introduction, and beginning of results). Methodological description is clear for a linguistic corpus study, but governance-relevant operational details about the LLM workflow are reported as undisclosed."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the review question on conversational governance in regulated LLM systems, relevance is very low because the paper's contribution is linguistic typology of AI-generated editorials rather than governance mechanisms, oversight frameworks, or compliance controls. Confidence in using this study as review evidence is low."
+  },
+  "coding": {
+    "open_codes": [
+      "intersubjectivity",
+      "editorials",
+      "LLM-generated texts",
+      "human-written texts",
+      "stance markers",
+      "journalism experiment",
+      "human prompting",
+      "human oversight",
+      "limited transparency",
+      "ethics debate"
+    ],
+    "axial_codes": [
+      "AI-generated journalism",
+      "linguistic comparison",
+      "human-in-the-loop production workflow",
+      "media automation"
+    ],
+    "theme": "Linguistic characterization of AI-generated journalistic editorials",
+    "subtheme": "Intersubjectivity and authorial stance in human versus LLM-written texts",
+    "concepts": [
+      "intersubjectivity",
+      "engagement taxonomy",
+      "authorial stance markers",
+      "experiential grounding",
+      "Il Foglio AI"
+    ],
+    "model_layers": [
+      "content generation layer",
+      "human prompt-and-oversight layer"
+    ],
+    "rq_alignment": [
+      "LLM use in real-world publishing",
+      "human oversight in generative media workflows"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Human-written and LLM-generated editorials from Il Foglio can be compared through authorial stance markers to analyze how intersubjective positionings are conveyed, with implications for describing AI-generated texts as a new textual typology because LLMs lack experiential grounding.",
+    "contribution": "Empirical linguistic comparison of 50 editorials using Martin and White's engagement taxonomy within the novel Il Foglio AI journalism experiment.",
+    "limitations": "Transparency around the experiment has remained limited, including undisclosed LLM(s), fine-tuning, prompt construction, and accuracy assurance; only partial methodological and results detail available in the supplied excerpt.",
+    "use_in_review": "Not recommended as central or supporting evidence for conversational governance in regulated environments; at most marginal contextual background on LLM journalism workflows with human prompting and oversight."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses specific LLM technology in a real journalism experiment",
+      "excerpt": "a daily four-page supplement entirely generated by large language models (LLMs)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Primary research focus is linguistic, not governance",
+      "excerpt": "compares human-written and LLM-generated editorials from Il Foglio and Il Foglio AI, examining the use of authorial stance markers to analyze how intersubjective positionings are conveyed",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Defined sample and timeframe",
+      "excerpt": "The dataset comprises two subcorpora of 25 editorials each, published between April and May 2025 in Il Foglio and Il Foglio AI.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Human role is prompting and oversight, not conversational governance",
+      "excerpt": "Its content – including headlines, quotations, and images – is generated entirely by LLMs, while the role of human journalists is limited to crafting prompts and overseeing the output.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Limited operational transparency about LLM deployment",
+      "excerpt": "Crucial details – such as which LLM(s) employed, whether it (they) has (have) been fine-tuned, how prompts are constructed, and how accuracy is ensured – have not been disclosed.",
+      "page": "2",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Ethics mentioned only as broader controversy, not studied governance framework",
+      "excerpt": "this development has not been without controversy, sparking debates about ethics, content quality, and the potential dehumanizing impact of AI-driven journalism",
+      "page": "2",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Theoretical basis for analysis",
+      "excerpt": "the study draws on Martin and White’s (2005) taxonomy of four “engagement” meanings typically expressed by markers of intersubjectivity",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "LLM specificity remains unclear in practice",
+      "excerpt": "In some texts, the AI tool, most likely OpenAI’s GPT, refers to itself, though the specific model version has never been confirmed.",
+      "page": "2",
+      "section": "results",
+      "supports": "methodology"
+    }
+  ]
+}

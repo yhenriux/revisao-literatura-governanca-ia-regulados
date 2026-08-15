@@ -1,0 +1,181 @@
+{
+  "bibliographic": {
+    "title": "Copyright Law and the Lifecycle of Machine Learning Models",
+    "authors": "Martin Kretschmer; Thomas Margoni; Pinar Oruc",
+    "year": "2024",
+    "venue": "IIC (International Review of Intellectual Property and Competition Law)",
+    "doi": "10.1007/s40319-023-01419-3",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Kretschmer, M., Margoni, T., & Oruc, P. (2024). Copyright law and the lifecycle of machine learning models. IIC, 55, 110–138. https://doi.org/10.1007/s40319-023-01419-3"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "empirical case studies with legal and policy analysis",
+    "study_design": "three detailed case studies across ML application settings mapped to an industry AI lifecycle framework",
+    "sample_description": "Three technological settings: (1) machine learning for scientific study of regional short-term letting markets; (2) NLP in the context of large language models; (3) computer vision for image content moderation",
+    "sample_size": "3 case studies",
+    "sector": "cross-sector (scientific research, NLP/LLM industry, content moderation)",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "machine learning lifecycle (collecting data, organising data, model training, model operation); foundation models; generative AI; NLP; large language models including ChatGPT and GPT-4; EU copyright and AI Act policy context"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "legal_regulatory_governance",
+      "llm_training_data_governance",
+      "eu_regulated_context"
+    ],
+    "exclusion_codes": [
+      "not_conversational_governance",
+      "not_operational_ai_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article addresses copyright law, training-data inputs, and EU regulatory interventions (CDSM exceptions, AI Act foundation-model disclosure) across an ML lifecycle that includes an LLM/NLP case study. It does not examine conversational systems, chatbot operation, guardrails, observability, human oversight, contestation, or post-deployment monitoring of conversational AI in regulated environments. It is relevant as foundational legal-regulatory context for LLM data governance rather than central evidence on conversational governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "High Python relevance score driven by LLM and governance terms, but the paper's primary focus is copyright law and training-data legality rather than conversational AI governance; manual confirmation of scope fit is advised."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal based on abstract, introduction, and partial case-study excerpts only. The study combines deliberate multi-setting case studies with EU copyright legal analysis; limitations and full methods/results were not fully visible in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The study is coherent and methodologically appropriate for legal analysis of ML lifecycles, including LLMs, but its relevance to conversational governance in regulated operational settings is indirect and primarily limited to input-stage copyright, disclosure, and compliance policy."
+  },
+  "coding": {
+    "open_codes": [
+      "copyright law",
+      "machine learning lifecycle",
+      "training data corpora",
+      "text and data mining",
+      "lawful access",
+      "foundation models",
+      "forced disclosure",
+      "EU CDSM Directive",
+      "AI Act",
+      "large language models",
+      "ChatGPT",
+      "content moderation"
+    ],
+    "axial_codes": [
+      "legal governance of AI inputs",
+      "regulatory compliance for foundation models",
+      "data collection uncertainty",
+      "industry innovation structure"
+    ],
+    "theme": "Legal governance of machine learning model inputs across the AI lifecycle",
+    "subtheme": "Copyright and regulatory treatment of LLM training data in the EU",
+    "concepts": [
+      "collecting data",
+      "organising data",
+      "model training",
+      "model operation",
+      "foundation models",
+      "generative AI",
+      "lawful access requirement",
+      "opt-outs",
+      "copyright-licensed environment"
+    ],
+    "model_layers": [
+      "data/input",
+      "training",
+      "deployment/operation"
+    ],
+    "rq_alignment": [
+      "regulated_high_stakes_context",
+      "governance_of_knowledge_inputs",
+      "compliance_and_disclosure_policy"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Copyright law centrally shapes the machine learning model lifecycle, especially at the input stage, and current EU policy moves toward copyright exceptions, opt-outs, and training-data disclosure are likely to produce a fully copyright-licensed machine learning environment with structural effects on industry, innovation, and research.",
+    "contribution": "Provides an industry lifecycle framework (collecting, organising, training, operating) and three empirical case studies—including NLP/large language models—to support legal analysis and harmonisation assessment under EU copyright law and related AI regulation.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence on legal and regulatory governance of LLM training data, copyright compliance, and EU policy instruments; not as primary evidence on conversational AI governance, operational guardrails, human oversight, or post-deployment monitoring."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with identifiable authors and DOI.",
+      "excerpt": "ARTICLE Copyright Law and the Lifecycle of Machine Learning Models Martin Kretschmer . Thomas Margoni . Pinar Oruc",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses empirical case studies plus legal analysis of ML lifecycle.",
+      "excerpt": "This paper takes a step back, exploring empirically three technological settings through detailed case studies.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Includes NLP/large language models as one of three case studies.",
+      "excerpt": "2. Natural Language Processing (NLP), in the context of large language models;",
+      "page": "2",
+      "section": "abstract/introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "References user-facing LLM applications such as ChatGPT.",
+      "excerpt": "large language models (accessed e.g. via OpenAI’s Chat-GPT)",
+      "page": "3",
+      "section": "discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Addresses EU regulatory governance including AI Act foundation-model disclosure obligations.",
+      "excerpt": "obligation for providers of foundation models to ‘‘document and make publicly available a sufficiently detailed summary of the use of training data protected under copyright law’’",
+      "page": "4",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "ChatGPT is described as a general-purpose chatbot built on an LLM.",
+      "excerpt": "ChatGPT, a general purpose chatbot built on a large language model developed by OpenAI",
+      "page": "8",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Central finding concerns input-stage data corpora and legal uncertainty affecting model inputs.",
+      "excerpt": "the nature and quality of data corpora at the input stage is central to the lifecycle of machine learning",
+      "page": "2",
+      "section": "abstract/introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Policy assessment predicts a copyright-licensed ML environment with structural consequences.",
+      "excerpt": "the likely result is a fully copyright-licensed environment of machine learning that may have problematic effects for the structure of industry, innovation and scientific research",
+      "page": "2",
+      "section": "abstract/introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Paper focus is copyright law and ML lifecycle, not conversational system operation or oversight.",
+      "excerpt": "We set out the established industry methodology of a lifecycle of AI (collecting data, organising data, model training, model operation) to arrive at descriptions suitable for legal analysis.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

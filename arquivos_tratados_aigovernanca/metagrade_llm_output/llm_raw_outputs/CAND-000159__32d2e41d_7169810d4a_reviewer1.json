@@ -1,0 +1,197 @@
+{
+  "bibliographic": {
+    "title": "Balancing innovation and risk: artificial intelligence in travel medicine",
+    "authors": "Perry J. J. van Genderen",
+    "year": "2026",
+    "venue": "Tropical Diseases, Travel Medicine and Vaccines",
+    "doi": "10.1186/s40794-026-00309-z",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "van Genderen, P. J. J. (2026). Balancing innovation and risk: artificial intelligence in travel medicine. Tropical Diseases, Travel Medicine and Vaccines, 12, 24. https://doi.org/10.1186/s40794-026-00309-z"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "perspective",
+    "study_design": "perspective article",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Machine learning, generative AI, LLMs (e.g., ChatGPT), chatbots, and digital surveillance tools applied across the travel health continuum including pre-travel counselling, surveillance, and post-travel diagnosis"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_chatbots_mentioned",
+      "governance_oversight_themes",
+      "regulated_healthcare_context",
+      "human_oversight_emphasized"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Perspective article in travel medicine that explicitly discusses LLMs and chatbots as travel health information tools, emphasizes clinical oversight, validation, explainability, accountability, governance, privacy, and regulatory oversight in healthcare; however it is not focused on conversational governance mechanisms or operational controls and provides no empirical evaluation of conversational systems.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python metadata title was corrupted; confirm full-text sections on governance and LLM deployment beyond provided excerpts before final inclusion tier."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraised as a journal perspective rather than empirical research; appropriate for opinion synthesis but limited transparency on literature selection and no primary data collection."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Coherent argument linking AI opportunities to oversight and governance prerequisites in travel medicine, with clear statements on LLM limitations and clinical responsibility; adequacy is limited because the piece is non-systematic, non-empirical, and operational conversational governance detail is sparse in the provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "clinical_oversight",
+      "decision_support_not_autonomy",
+      "llm_accuracy_variability",
+      "validation_requirements",
+      "governance_prerequisites",
+      "regulated_medical_devices",
+      "post_implementation_monitoring",
+      "data_privacy_concerns"
+    ],
+    "axial_codes": [
+      "human_supervision",
+      "risk_and_compliance",
+      "healthcare_ai_governance",
+      "conversational_information_access"
+    ],
+    "theme": "Responsible integration of AI and LLMs in regulated travel medicine",
+    "subtheme": "LLMs and chatbots as adjunctive travel health information tools under clinical oversight",
+    "concepts": [
+      "clinical oversight",
+      "accountability",
+      "explainability",
+      "validation",
+      "governance",
+      "regulatory oversight",
+      "post-implementation monitoring",
+      "data privacy",
+      "equity"
+    ],
+    "model_layers": [
+      "supervision_layer",
+      "risk_compliance_layer",
+      "deployment_validation_layer"
+    ],
+    "rq_alignment": [
+      "human oversight in AI-assisted decisions",
+      "governance prerequisites for generative AI",
+      "risk and compliance in regulated healthcare",
+      "limitations of LLM-based information provision"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "AI, including generative models and LLMs such as ChatGPT, should be carefully validated and integrated as decision-support tools in travel medicine rather than replacing clinical expertise, with clinical oversight, explainability, accountability, and governance as prerequisites for responsible implementation.",
+    "contribution": "Provides a regulated healthcare perspective on balancing innovation and risk across the travel health continuum, explicitly positioning LLMs and chatbots as adjunctive information tools while stressing validation, regulatory oversight, monitoring, privacy, and equity considerations.",
+    "limitations": "Perspective format without described systematic methods or primary empirical sample; limited detail on operational conversational governance such as guardrails, logging, tracing, contestation, or audit mechanisms; LLM discussion is one section within a broader AI overview.",
+    "use_in_review": "Use as supporting evidence for human oversight, accountability, validation, and governance prerequisites when deploying LLMs and chatbots in regulated healthcare contexts; not suitable as central empirical evidence on conversational governance architectures or post-deployment operational controls."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a peer-reviewed journal perspective on AI in travel medicine.",
+      "excerpt": "PERSPECTIVE Open Access Tropical Diseases, Travel Medicine and Vaccines",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Discusses generative AI and machine learning in travel medicine.",
+      "excerpt": "Machine learning systems, generative AI models and digital surveillance tools have the potential to enhance pre-travel counselling",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Raises privacy and regulatory framework concerns.",
+      "excerpt": "concerns remain regarding variable performance, data privacy and the absence of clear regulatory frameworks",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "States clinical oversight is essential for AI-assisted decisions.",
+      "excerpt": "Clinical oversight remains essential for all AI-assisted decisions.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Validation, explainability and accountability are prerequisites.",
+      "excerpt": "Validation, explainability and accountability are prerequisites for implementation.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance and equity considerations are emphasized.",
+      "excerpt": "Governance and equity considerations will determine long-term success.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs such as ChatGPT are used for travel health information.",
+      "excerpt": "Large language models (LLMs) such as ChatGPT are increasingly used as accessible sources of travel health information",
+      "page": "2",
+      "section": "Large language models and Chatbots",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated AI-enabled medical devices require higher validation and monitoring.",
+      "excerpt": "regulated AI-enabled medical devices that directly influence clinical decision-making and therefore require substantially higher levels of validation, regulatory oversight and post-implementation monitoring",
+      "page": "2",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs should be adjunctive decision-support tools, not autonomous decision-makers.",
+      "excerpt": "LLMs should presently be regarded as adjunctive information and decision-support tools rather than autonomous clinical decision-makers",
+      "page": "2",
+      "section": "limitations",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Final responsibility for recommendations remains with clinicians.",
+      "excerpt": "final responsibility for recommendations remain",
+      "page": "2",
+      "section": "limitations",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "AI outputs should be interpreted as decision-support tools.",
+      "excerpt": "AI outputs should therefore be interpreted as decision-support tools rather than definitive guidance",
+      "page": "2",
+      "section": "limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Machine learning discussed for post-travel diagnostic support with validation caveats.",
+      "excerpt": "External validation and prospective studies are required before considering routine clinical implementation.",
+      "page": "3",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "bibliographic": {
+    "title": "Open Banking Foundational Model: Learning Language Representations from Few Financial Transactions",
+    "authors": "Gustavo Polleti; Marlesson Santana; Eduardo Fontes",
+    "year": "2025",
+    "venue": "Proceedings of AI for Finance Symposium '25, The 2nd Workshop on LLMs and Generative AI for Finance (ACM ICAIF 2025)",
+    "doi": "10.1145/nnnnnnn.nnnnnnn",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Polleti, G., Santana, M., & Fontes, E. (2025). Open Banking Foundational Model: Learning Language Representations from Few Financial Transactions. In Proceedings of AI for Finance Symposium '25, The 2nd Workshop on LLMs and Generative AI for Finance (ACM ICAIF 2025). ACM. https://doi.org/10.1145/nnnnnnn.nnnnnnn"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "self-supervised learning; masked language modeling; BERT-based foundational language model; multimodal transaction representation",
+    "study_design": "large-scale empirical evaluation of pretrained embeddings on 19 downstream classification tasks",
+    "sample_description": "private financial transaction dataset spanning thousands of financial institutions across North America; account transaction histories represented as textual documents",
+    "sample_size": "unclear",
+    "sector": "financial services; open banking",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "BERT-based bidirectional language model with masked language modeling over structured and unstructured financial transaction sequences; embeddings from [CLS] token for downstream tasks including fraud prevention and credit risk"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_wrong_population_technology",
+      "E2_no_conversational_system",
+      "E3_no_governance_accountability_focus"
+    ],
+    "exclusion_reason": "The study addresses self-supervised foundational modeling of financial transaction sequences for downstream classification tasks in open banking; it does not examine conversational AI systems, LLM-based dialogue, or governance/accountability mechanisms relevant to the review scope.",
+    "decision_rationale": "Although published in a workshop on LLMs and Generative AI for Finance and using language-model terminology, the paper focuses on BERT-style masked language modeling of transaction histories for fraud, credit risk, and customer insights. The provided text contains no discussion of chatbots, agents, RAG, guardrails, observability, audit, human oversight, compliance governance, or conversational control in regulated settings.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Absence of conversational AI and governance content is explicit across abstract, introduction, and methods; exclusion is straightforward."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Appraisal reflects only methodological signals present in the excerpted text. The work appears methodologically coherent for representation learning in finance, but relies on a private dataset with limited procedural detail in the provided pages."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Findings are internally coherent for financial embedding learning, but relevance to conversational governance in LLM systems is very low because the study does not address dialogue systems, operational governance, or accountability mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "foundational model",
+      "masked language modeling",
+      "financial transaction embeddings",
+      "open banking",
+      "data scarcity",
+      "fraud prevention",
+      "credit risk",
+      "multimodal transactions",
+      "self-supervised learning",
+      "downstream classification"
+    ],
+    "axial_codes": [
+      "representation learning",
+      "regulated financial domain",
+      "model benchmarking"
+    ],
+    "theme": "Financial transaction representation learning",
+    "subtheme": "Foundational language models for open banking embeddings",
+    "concepts": [
+      "transaction sequence as document",
+      "BERT-based MLM",
+      "[CLS] account embedding",
+      "multimodal structured and unstructured transaction data",
+      "generalization across institutions and geographies"
+    ],
+    "model_layers": [
+      "data representation layer",
+      "pretraining layer",
+      "downstream task layer"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "A multimodal foundational model that integrates structured transaction attributes and unstructured textual descriptions into unified representations, trained with masked language modeling, outperforms classical feature engineering and discrete event sequence methods, especially in data-scarce open banking settings.",
+    "contribution": "Presents what the authors describe as the first large-scale study across thousands of financial institutions in North America and demonstrates self-supervised multimodal representations for applications such as fraud prevention, credit risk, and customer insights.",
+    "limitations": "Private dataset limits external verification; transaction textual descriptions raise privacy concerns; modeling imbalanced events remains difficult; some downstream tasks show weaker performance.",
+    "use_in_review": "Exclude from evidence on conversational governance in LLMs. Not suitable as central or supporting evidence; at most distant contextual background on regulated finance and language-model methods, which is insufficient for the review's governance focus."
+  },
+  "evidence": [
+    {
+      "claim": "Paper objective is financial transaction representation learning, not conversational AI governance",
+      "excerpt": "We introduced a multimodal foundational model for financial trans- actions that integrates both structured attributes and unstructured textual descriptions into a unified representation.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Uses BERT-based masked language modeling on transaction histories",
+      "excerpt": "Our foundational language model is fine-tuned on a private dataset using bi-directional attention, following the BERT- based architecture [11], with masked language modeling (MLM)",
+      "page": "2",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Evaluated on financial downstream tasks rather than conversational governance",
+      "excerpt": "we designed 19 downstream tasks, ranging from typical financial applications (e.g. credit risk and fraud prevention) and customer demographics (gender, age, location) to \"banking\" tasks.",
+      "page": "2",
+      "section": "Introduction/Methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated financial domain context",
+      "excerpt": "particularly effective in data-scarce Open Banking scenarios. To our knowledge, this is the first large-scale study across thousands of financial institutions in North America",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Privacy sensitivity acknowledged for transaction text",
+      "excerpt": "Benchmarks that include trans- action textual descriptions often face privacy concerns due to the sensitive nature of financial data.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Empirical comparison against classical machine learning baselines",
+      "excerpt": "we present empirical evidence that our methods can outperform both classical machine learning models, which rely on handcrafted features, and other discrete event sequence embedding methods",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational system or governance mechanism discussed in provided text",
+      "excerpt": "These results highlight the potential of self-supervised models to advance financial applications ranging from fraud pre- vention and credit risk to customer insights.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Workshop venue references LLMs but paper centers transaction embeddings",
+      "excerpt": "In Proceedings of AI for Finance Symposium '25, The 2nd Workshop on LLMs and Generative AI for Finance (ACM ICAIF 2025).",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Account-level representation derived from [CLS] embedding",
+      "excerpt": "the representa- tion of the entire account is derived from the contextual embedding of the [CLS] token, which serves as a global summary of the trans- action sequence.",
+      "page": "2",
+      "section": "Methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Results note difficulty with imbalanced events and comparative model performance",
+      "excerpt": "These results high- light the difficulty of modeling imbalanced events and the potential value of language model approaches.",
+      "page": "4",
+      "section": "Results",
+      "supports": "appraisal"
+    }
+  ]
+}

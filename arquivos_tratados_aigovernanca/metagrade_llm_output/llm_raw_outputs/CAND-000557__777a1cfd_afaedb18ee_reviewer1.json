@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "Generative AI for pre-consultation mental health triage in disorders of gut-brain interaction",
+    "authors": "Dakai Zeng, He Zeng, Jie Song, Kai Zhu",
+    "year": "2026",
+    "venue": "Frontiers in Psychiatry",
+    "doi": "10.3389/fpsyt.2026.1854670",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Zeng, D., Zeng, H., Song, J., & Zhu, K. (2026). Generative AI for pre-consultation mental health triage in disorders of gut-brain interaction. Frontiers in Psychiatry, 17, 1854670. https://doi.org/10.3389/fpsyt.2026.1854670"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual framework / perspective article",
+    "study_design": "proposal of supervised pre-consultation triage model with governance conditions",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "GenAI-enabled intake tool and conversational systems for pre-consultation mental health triage in gastroenterology/psychogastroenterology; LLM mentioned in safety safeguards for escalation-sensitive content"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "conceptual_governance_framework",
+      "regulated_healthcare",
+      "genai_conversational_triage",
+      "human_oversight_escalation"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Peer-reviewed conceptual article proposing a constrained, auditable GenAI pre-consultation triage model for DGBI with explicit governance conditions (clinician review, escalation rules, safety/equity evaluation). Highly relevant to conversational governance in regulated healthcare, but not an empirical implementation or evaluation study.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Provided excerpts are partial (pages 1-2, 7-8); confirm article type, full governance framework sections, and absence of unreported empirical components."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Clear conceptual proposal aligned with its aim; strong governance framing but no empirical sample, dataset, or prospective evaluation reported in supplied text. Appraisal reflects conceptual/theoretical contribution only."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "Internally coherent governance-oriented framework for supervised GenAI triage in a regulated clinical setting, but supplied text lacks empirical findings or operational deployment evidence, limiting adequacy for outcome claims."
+  },
+  "coding": {
+    "open_codes": [
+      "pre-consultation_triage",
+      "supervised_clinical_ai",
+      "clinician_review_before_action",
+      "medical_psychiatric_escalation",
+      "rule_based_routing",
+      "hallucination_safeguards",
+      "multidomain_assessment",
+      "workflow_safety_equity_evaluation",
+      "multidisciplinary_care_embedding"
+    ],
+    "axial_codes": [
+      "human_oversight",
+      "risk_escalation_governance",
+      "safety_constraints",
+      "accountability_verification",
+      "regulated_healthcare_pathway"
+    ],
+    "theme": "Governance conditions for constrained GenAI conversational triage",
+    "subtheme": "Human-in-the-loop pre-consultation mental health triage in DGBI",
+    "concepts": [
+      "narrowly defined triage task",
+      "explicit escalation rules",
+      "clinician review before action",
+      "auditable constrained systems",
+      "deterministic routing for safety-critical disclosures",
+      "prospective evaluation across workflow safety equity acceptability"
+    ],
+    "model_layers": [
+      "task_definition",
+      "data_collection_scope",
+      "escalation_routing",
+      "clinician_oversight",
+      "safety_safeguards",
+      "post_deployment_evaluation"
+    ],
+    "rq_alignment": [
+      "governance of generative conversational AI",
+      "human oversight and escalation in regulated healthcare",
+      "safety risk control and auditability",
+      "supervised triage rather than autonomous diagnosis"
+    ],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "DGBI is a suitable setting for supervised GenAI-enabled pre-consultation triage that summarizes patient histories, screens distress, flags escalation, and routes care without replacing specialist judgment, provided five governance conditions are met.",
+    "contribution": "Articulates a practical, governance-centered design for constrained, auditable GenAI intake in regulated gastroenterology/mental health pathways, including rule-based bypass of generative synthesis for safety-critical disclosures and clinician-review workflows.",
+    "limitations": "Conceptual proposal without reported empirical implementation, sample, or prospective evaluation in the supplied text; manuscript preparation used GenAI only for language editing.",
+    "use_in_review": "Use as supporting conceptual evidence on governance design for LLM/GenAI conversational triage in healthcare: human oversight, escalation rules, auditable workflows, and safety-sensitive routing."
+  },
+  "evidence": [
+    {
+      "claim": "Article proposes supervised GenAI pre-consultation triage rather than autonomous diagnosis.",
+      "excerpt": "supervised pre-consulta- tion triage",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Five governance conditions for acceptable systems are specified.",
+      "excerpt": "five conditions are essential: a narrowly deﬁned triage task, multidomain but proportionate data collection, explicit rules for medical and psychiatric escalation, clinician review before action, and prospective evaluation",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "GenAI tools should be constrained, auditable, and embedded in multidisciplinary care.",
+      "excerpt": "useful precisely because they are constrained, auditable, and embedded in multidisciplinary care",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Mental health-related AI tools require clinician oversight and clear limits.",
+      "excerpt": "mental health- related AI tools require clear limits, clinician oversight, and careful attention to context",
+      "page": "2",
+      "section": "background",
+      "supports": "coding"
+    },
+    {
+      "claim": "Safety-critical disclosures should bypass generative synthesis and use deterministic routing.",
+      "excerpt": "escalation-sensitive content—suicidal ideation, self-harm, severe nutritional risk—should bypass the generative synthesis step entirely and follow deterministic, rule-based routing",
+      "page": "7",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLM paraphrases of safety-critical disclosures introduce unacceptable risk.",
+      "excerpt": "LLM- generated paraphrases of safety-critical disclosures introduce unac- ceptable risk",
+      "page": "7",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Safeguards aim to make hallucination visible and correctable within clinician-review workflow.",
+      "excerpt": "These safeguards make hallucination visible and correctable within the clinician-review workﬂow",
+      "page": "7",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Prospective evaluation should cover workflow, safety, equity, and patient acceptability.",
+      "excerpt": "prospective evaluation across workﬂow, safety, equity, and patient acceptability",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Peer-reviewed publication in Frontiers in Psychiatry.",
+      "excerpt": "Frontiers in Psychiatry 17:1854670",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors used GenAI only for manuscript language editing, not for data or conclusions.",
+      "excerpt": "generative AI was used in the prepara- tion of this manuscript solely for language editing and polishing",
+      "page": "8",
+      "section": "Generative AI statement",
+      "supports": "appraisal"
+    }
+  ]
+}

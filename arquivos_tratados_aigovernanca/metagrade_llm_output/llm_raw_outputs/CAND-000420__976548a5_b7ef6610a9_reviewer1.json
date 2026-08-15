@@ -1,0 +1,165 @@
+{
+  "bibliographic": {
+    "title": "The AI Revolution: Opportunities and Challenges for the Finance Sector",
+    "authors": "Carsten Maple, Lukasz Szpruch, Gregory Epiphaniou, Kalina Staykova, Simran Singh, William Penwarden, Yisi Wen, Zijian Wang, Jagdish Hariharan, Pavle Avramovic",
+    "year": "2021",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "report",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Maple, C., Szpruch, L., Epiphaniou, G., Staykova, K., Singh, S., Penwarden, W., Wen, Y., Wang, Z., Hariharan, J., & Avramovic, P. (2021). The AI revolution: Opportunities and challenges for the finance sector. The Alan Turing Institute."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "sector overview report",
+    "study_design": "narrative synthesis report",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "broad AI technologies in finance including machine learning, NLP, expert systems, RPA, and brief discussion of generative AI and foundation LLMs for regulatory use"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "regulated_financial_domain",
+      "mentions_llm_genai",
+      "regulatory_governance_context"
+    ],
+    "exclusion_codes": [
+      "no_conversational_governance_focus",
+      "no_conversational_systems_governance",
+      "not_llm_centric"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The document is a broad sector report on AI opportunities and challenges in finance, co-authored by Alan Turing Institute researchers and FCA staff. It mentions LLMs and generative AI mainly as regulatory support tools (second opinion, evidence summarization, firm authorization), but the provided text does not address conversational governance, chatbot/agent guardrails, observability, auditability, human oversight of conversational systems, or governance frameworks for LLM-based conversational deployments.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated triage scored the document as central_candidate, but the supplied excerpts show only glossary-level LLM mentions and brief regulatory generative-AI use cases; full-text verification is needed for sections on customer service automation and any governance content not captured in the excerpt set."
+  },
+  "appraisal": {
+    "objective_clarity": 7,
+    "method_fit": 5,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 4,
+    "results_clarity": 6,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 6,
+    "notes": "Conceptual policy-oriented report without described empirical sampling or systematic review methodology in the provided text. Clear sector framing and structured technology taxonomy, but limited methodological transparency and no primary data collection described."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "The report coherently outlines AI technologies and finance-sector opportunities/challenges, but the supplied evidence offers only limited, non-conversational discussion of LLMs in regulatory workflows. It is unlikely to provide direct evidence on conversational governance in regulated LLM systems."
+  },
+  "coding": {
+    "open_codes": [
+      "financial_services_ai",
+      "regulatory_supervision",
+      "generative_ai_regulatory_use",
+      "foundation_llm",
+      "machine_learning_taxonomy",
+      "nlp_in_finance",
+      "fca_turing_collaboration"
+    ],
+    "axial_codes": [
+      "regulated_sector_context",
+      "ai_technology_landscape",
+      "regulator-facing_genai_applications"
+    ],
+    "theme": "AI adoption and regulatory implications in financial services",
+    "subtheme": "Potential generative AI and LLM uses for supervisory review",
+    "concepts": [
+      "second opinion for supervisors",
+      "evidence summarization",
+      "firm authorization risk classification",
+      "generative AI",
+      "foundation LLMs",
+      "natural language processing",
+      "machine learning"
+    ],
+    "model_layers": [
+      "policy_context",
+      "technology_landscape"
+    ],
+    "rq_alignment": [
+      "regulated_domain_context",
+      "human_supervisory_review"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "AI, including generative AI based on foundation LLMs, presents broad opportunities and challenges for the finance sector, with specific potential for regulators to use generative models for supervisory second opinions, evidence summarization, and risk classification during firm authorization.",
+    "contribution": "Provides foundational sector context linking financial regulation, multiple AI technologies, and emerging generative-AI/LLM applications for supervisory workflows.",
+    "limitations": "Not focused on conversational systems or conversational governance; LLM content in the provided excerpts is brief and oriented to regulatory document analysis rather than chatbots, agents, or dialogue governance.",
+    "use_in_review": "Use as foundational contextual evidence for regulated financial-services settings and regulator-facing generative-AI use cases; do not treat as central evidence for conversational governance of LLM systems unless additional full-text sections substantively address chatbots, dialogue systems, or governance controls."
+  },
+  "evidence": [
+    {
+      "claim": "Document is an Alan Turing Institute report with FCA contributions on AI in financial services.",
+      "excerpt": "This report was authored by researchers at The Alan Turing Institute (the Turing) with contributions from staff at the UK Financial Conduct Authority (FCA).",
+      "page": "2",
+      "section": "Disclaimer",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Report scope covers multiple AI technologies in finance, not only LLMs.",
+      "excerpt": "2 KEY AI TECHNOLOGY IN FINANCIAL SERVICES",
+      "page": "3",
+      "section": "Table of Contents",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM is defined in abbreviations but not developed as the main subject in provided text.",
+      "excerpt": "LLM – Large Language Models",
+      "page": "5",
+      "section": "Abbreviations",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Generative AI with foundation LLMs is discussed for regulator use in supervision and authorization.",
+      "excerpt": "The rapid improvement in generative AI drawing on foundation Large Language Models (LLM) also offers significant potential for use by regulators.",
+      "page": "29",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Proposed regulatory use includes passing firm documentation into a pre-trained generative model for risk classification.",
+      "excerpt": "documentation gathered from a firm such as business plans, correspondence and reports could be passed into a pre-trained generative model that has learned to identify those characteristics: high risk, medium risk, or low risk.",
+      "page": "29",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Generative AI may support enforcement by summarizing evidence for supervisors' review.",
+      "excerpt": "generative AI could be used to summarise evidence for supervisors' review or further to highlight potential areas of concern.",
+      "page": "29",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human supervisory review remains implied in regulatory workflows.",
+      "excerpt": "Using AI to provide a second opinion on supervisors' analyses could be its parallel in regulation.",
+      "page": "29",
+      "section": "unclear",
+      "supports": "rq_alignment"
+    },
+    {
+      "claim": "No conversational governance framework is evidenced in the supplied text.",
+      "excerpt": "generative AI could be used to summarise evidence for supervisors' review or further to highlight potential areas of concern.",
+      "page": "29",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

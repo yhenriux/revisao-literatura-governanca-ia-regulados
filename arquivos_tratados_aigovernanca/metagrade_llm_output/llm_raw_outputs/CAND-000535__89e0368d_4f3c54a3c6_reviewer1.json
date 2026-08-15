@@ -1,0 +1,200 @@
+{
+  "bibliographic": {
+    "title": "Human-in-the-Loop Models for Ethical AI Grading: Combining AI Speed with Human Ethical Oversight",
+    "authors": "Muthu Selvam; Rubén González Vallejo",
+    "year": "2025",
+    "venue": "EthAIca",
+    "doi": "10.56294/ai2025413",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Selvam, M., & González Vallejo, R. (2025). Human-in-the-Loop Models for Ethical AI Grading: Combining AI Speed with Human Ethical Oversight. EthAIca, 4, 413. https://doi.org/10.56294/ai2025413"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "Human-in-the-Loop (HITL) framework design with university case study/pilot evaluation",
+    "study_design": "Four-layer HITL grading framework applied in a mid-sized university pilot on undergraduate essays",
+    "sample_description": "800 undergraduate essays at a mid-sized university; pilot used fine-tuned RoBERTa on anonymized faculty-scored essays",
+    "sample_size": "800",
+    "sector": "education",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "AI-assisted educational grading using transformer-based language models (GPT-4, BERT, RoBERTa), rubric-aligned automated scoring, SHAP/LIME explainability, on-premise deployment with access control and privacy measures"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_GOVERNANCE",
+      "HUMAN_OVERSIGHT",
+      "AUDIT_LOGGING",
+      "REGULATED_EDUCATION",
+      "EXPLAINABILITY",
+      "HIGH_STAKES_ASSESSMENT"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "Strong fit for LLM governance, human oversight, audit trails, explainability, and high-stakes educational assessment, but no conversational, chatbot, agent, or RAG system context; relevant as supporting evidence for HITL governance patterns rather than central conversational-governance evidence.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Abstract refers to 'the chapter' while metadata lists a journal article; confirm publication type and whether full methods/results beyond abstract-level claims are reported."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Provides a structured four-layer HITL framework and reports pilot outcomes (87% validation, 13% overrides, 40% time reduction), but supplied text offers limited detail on evaluation design, statistical analysis, and generalizability beyond one institutional pilot."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Claims are internally coherent and supported by reported pilot metrics, but evidence is largely descriptive, institution-specific, and not focused on conversational LLM systems; adequacy is moderate for governance themes and lower for conversational-governance relevance."
+  },
+  "coding": {
+    "open_codes": [
+      "human-in-the-loop",
+      "AI-assisted grading",
+      "rubric calibration",
+      "human validation",
+      "contextual adjustment",
+      "dual-logged audit trails",
+      "algorithmic bias",
+      "algorithmic transparency",
+      "explainable AI",
+      "SHAP",
+      "LIME",
+      "high-stakes assessment",
+      "faculty agency",
+      "student satisfaction",
+      "policy guidelines"
+    ],
+    "axial_codes": [
+      "human oversight",
+      "accountability",
+      "transparency and explainability",
+      "risk mitigation",
+      "operational efficiency",
+      "educational equity"
+    ],
+    "theme": "Human-in-the-loop governance for LLM-based educational assessment",
+    "subtheme": "Ethical oversight and auditability in high-stakes grading",
+    "concepts": [
+      "four-layer HITL grading framework",
+      "AI-generated recommendations with human oversight",
+      "pre-grading configuration",
+      "AI pre-assessment",
+      "human validation and contextual adjustment",
+      "transparent feedback with audit trails",
+      "interpretability mechanisms",
+      "modular academic deployment"
+    ],
+    "model_layers": [
+      "pre-grading configuration with customizable rubrics and model calibration",
+      "preliminary scoring using transformer-based language models",
+      "human validation and contextual adjustment of AI outputs",
+      "transparent feedback supported by dual-logged audit trails"
+    ],
+    "rq_alignment": [
+      "human oversight",
+      "accountability",
+      "audit trails and logging",
+      "explainability",
+      "bias and fairness",
+      "high-stakes regulated contexts",
+      "deployment governance",
+      "privacy and access control"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "A four-layer Human-in-the-Loop grading framework can combine transformer-based LLM speed with human ethical oversight, transparency tools, and audit trails to improve fairness, efficiency, and trust in high-stakes academic assessment.",
+    "contribution": "Proposes an operational HITL architecture for ethical AI grading and reports a university pilot where faculty validated most AI scores, overrode a minority for contextual reasons, reduced grading time, and improved satisfaction through transparent educator involvement.",
+    "limitations": "Supplied text does not detail full study methods, validation metrics, or independent evaluation; findings come from a single institutional pilot; no conversational-system governance evidence; abstract wording suggests possible chapter origin requiring bibliographic verification.",
+    "use_in_review": "Use as supporting evidence on HITL governance, human override/review, audit logging, explainability, and regulated educational deployment of LLMs; not suitable as central evidence for conversational governance."
+  },
+  "evidence": [
+    {
+      "claim": "Article presents a four-layer HITL grading framework integrating AI recommendations with human oversight.",
+      "excerpt": "the chapter presented a Human-in-the-Loop (HITL) grading framework that integrated AI-generated recommendations with human oversight. The model consisted of four layers",
+      "page": "1",
+      "section": "ABSTRACT",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Framework includes transformer-based language models and human validation with audit trails.",
+      "excerpt": "(ii) preliminary scoring using transformer- based language models; (iii) human validation and contextual adjustment of AI outputs; and (iv) transparent feedback supported by dual-logged audit trails",
+      "page": "1",
+      "section": "ABSTRACT",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empirical pilot involved 800 undergraduate essays at a mid-sized university.",
+      "excerpt": "A case study was conducted at a mid-sized university, where the framework was applied to 800 undergraduate essays",
+      "page": "1",
+      "section": "ABSTRACT",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Pilot outcomes report high human validation rate, override rate, and time reduction.",
+      "excerpt": "the faculty validated 87 % of the AI-generated scores with only minor adjustments, while 13 % required overrides",
+      "page": "1",
+      "section": "ABSTRACT",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Context involves high-stakes educational assessment and ethical risks.",
+      "excerpt": "ethical challenges, including algorithmic bias, contextual insensitivity, and reduced transparency, particularly in high-stakes assessments",
+      "page": "1",
+      "section": "ABSTRACT",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Specific LLMs named for rubric-aligned scoring include GPT-4 and BERT.",
+      "excerpt": "transformer-based language models such as GPT-4 or BERT. These latter models pose significant risks of opacity",
+      "page": "5",
+      "section": "Model Selection and Technical Alignment",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Technical integration explicitly centers on large language models and interpretability.",
+      "excerpt": "selection of appropriate large language models (LLMs), incorporation of interpretability mechanisms, and configuration of a modular system architecture",
+      "page": "11",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Pilot deployment used fine-tuned RoBERTa with privacy and access controls.",
+      "excerpt": "integrated a fine-tuned version of the RoBERTa language model hosted on an on-premise server configured with institutional access control and data privacy measures",
+      "page": "16",
+      "section": "Technical Configuration",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Explainability tools SHAP and LIME are used to build trust.",
+      "excerpt": "built trust through explainable AI tools such as SHAP and LIME",
+      "page": "1",
+      "section": "ABSTRACT",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational AI, chatbot, agent, or dialogue-system context is described in supplied text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

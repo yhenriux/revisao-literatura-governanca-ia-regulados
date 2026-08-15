@@ -1,0 +1,192 @@
+{
+  "bibliographic": {
+    "title": "Audit Trails for Accountability in Large Language Models",
+    "authors": "Victor Ojewale; Harini Suresh; Suresh Venkatasubramanian",
+    "year": "2026",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Ojewale, V., Suresh, H., & Venkatasubramanian, S. (2026). Audit Trails for Accountability in Large Language Models. Manuscript submitted to ACM."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "framework and reference architecture development with open-source implementation and scenario-based motivation",
+    "study_design": "conceptual framework, reference architecture, and technical prototype with illustrative scenarios",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare, finance, employment, public services",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM audit trails as chronological, tamper-evident, context-rich ledgers linking technical provenance with governance records; lightweight emitters, append-only audit stores, auditor interface, and Python library for LLM workflows"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "governance_accountability",
+      "risk_audit_compliance",
+      "regulated_high_stakes",
+      "operational_technical_governance"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper directly proposes LLM audit trails as a sociotechnical accountability mechanism, specifying lifecycle event types, governance metadata, a reference architecture, and an open-source Python implementation for regulated, high-stakes LLM deployments.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial excerpts were provided; full-text verification is needed to confirm empirical evaluation, limitations, and conversational-AI applicability beyond scenario mentions."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Clear methodological contribution (framework, architecture, implementation) aligned with accountability and compliance goals. Provided text shows scenario-based motivation rather than empirical sampling or evaluation; CCS Concepts cite empirical HCI studies but no empirical study design is evidenced in the supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is internally coherent and highly relevant to LLM governance, auditability, and regulatory record-keeping, but confidence is moderated because the supplied text emphasizes framework and architecture over demonstrated empirical validation or end-to-end deployment evidence."
+  },
+  "coding": {
+    "open_codes": [
+      "audit_trail",
+      "accountability",
+      "transparency",
+      "traceability",
+      "tamper_evident_logging",
+      "lifecycle_governance",
+      "technical_provenance",
+      "governance_records",
+      "regulatory_compliance",
+      "cross_organizational_traceability",
+      "append_only_storage",
+      "auditor_interface",
+      "python_implementation",
+      "scenario_based_motivation"
+    ],
+    "axial_codes": [
+      "operational_accountability",
+      "audit_and_compliance",
+      "technical_governance_infrastructure",
+      "regulated_llm_deployment"
+    ],
+    "theme": "LLM audit trails for continuous accountability",
+    "subtheme": "Lifecycle-linked, tamper-evident provenance and governance logging",
+    "concepts": [
+      "audit trail",
+      "accountability gap",
+      "sociotechnical mechanism",
+      "lifecycle framework",
+      "reference architecture",
+      "governance rationales",
+      "data provenance",
+      "regulatory record keeping",
+      "transparency by design"
+    ],
+    "model_layers": [
+      "governance layer",
+      "audit/logging layer",
+      "LLM workflow instrumentation layer",
+      "storage and auditor interface layer"
+    ],
+    "rq_alignment": [
+      "governance_accountability",
+      "risk_audit_compliance",
+      "operational_technical_governance",
+      "regulated_high_stakes",
+      "llm_genai"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Organizations deploying LLMs in consequential settings need chronological, tamper-evident, context-rich audit trails that link technical lifecycle events with governance approvals and attestations to enable reconstruction, accountability, and regulatory compliance.",
+    "contribution": "Provides a lifecycle framework for event types and metadata, a reference architecture with emitters, append-only stores, and auditor tools, plus a reusable open-source Python implementation for LLM workflows.",
+    "limitations": "The supplied text states limitations and adoption directions are discussed, but specific limitations are not detailed in the provided excerpts.",
+    "use_in_review": "Use as central evidence for audit trails, traceability, accountability, and compliance-oriented technical governance in regulated LLM deployments; pair with studies on conversational oversight, guardrails, and post-deployment monitoring where chatbot-specific instrumentation is required."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses specifically on large language models in consequential regulated contexts.",
+      "excerpt": "Large language models (LLMs) are increasingly embedded in consequential decisions across healthcare, finance, employment, and public services.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Core proposal is LLM audit trails as a sociotechnical accountability mechanism.",
+      "excerpt": "We propose LLM audit trails as a sociotechnical mechanism for continuous accountability.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Audit trails link technical provenance with governance records in a tamper-evident ledger.",
+      "excerpt": "An audit trail is a chronological, tamper-evident, context-rich ledger of lifecycle events and decisions that links technical provenance (models, data, training and evaluation runs, deployments, monitoring) with governance records (approvals, waivers, and attestations)",
+      "page": "1",
+      "section": "front matter",
+      "supports": "coding"
+    },
+    {
+      "claim": "Three stated contributions: lifecycle framework, reference architecture, and Python implementation.",
+      "excerpt": "This paper contributes: (1) a lifecycle framework that specifies event types, required metadata, and governance rationales; (2) a reference architecture with lightweight emitters, append only audit stores, and an auditor interface supporting cross organizational traceability; and (3) a reusable, open-source Python implementation",
+      "page": "1",
+      "section": "front matter",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Work aligns with regulatory record keeping and risk management guidance.",
+      "excerpt": "Audit trails turn transparency by design from principle into operational practice [17] and align with regulatory record keeping [33, Article 12] and risk management guidance [40].",
+      "page": "2",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Architecture emphasizes tamper evidence, privacy, and cross-organizational linkage.",
+      "excerpt": "a reference architecture for capturing, storing, and using logs that emphasizes tamper evidence, privacy, and cross organizational linkage",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Conversational deployment context is illustrated via a financial advice chatbot incident scenario.",
+      "excerpt": "Financial advice chatbot incident. Retail banks are actively piloting generative AI for customer-facing assistance",
+      "page": "2",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance investigation requires records of model version, prompts, controls, and approvals at interaction time.",
+      "excerpt": "the bank needs records that show which fine tuned model version was serving in the relevant channel at the time of the interaction, which prompt templates and decoding settings were active, and how rollout controls such as feature flags were configured.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Operational logging must remain compatible with privacy and scale constraints.",
+      "excerpt": "Operational logging should make usage and exposure legible while remaining compatible with privacy and scale con",
+      "page": "7",
+      "section": "limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Manuscript status suggests pre-publication submission rather than finalized venue.",
+      "excerpt": "Manuscript submitted to ACM",
+      "page": "2",
+      "section": "unclear",
+      "supports": "bibliographic"
+    }
+  ]
+}

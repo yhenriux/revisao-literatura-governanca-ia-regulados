@@ -1,0 +1,226 @@
+{
+  "bibliographic": {
+    "title": "Large language models in real-world clinical workflows: a systematic review of applications and implementation",
+    "authors": "Yaara Artsi, Vera Sorin, Benjamin S. Glicksberg, Panagiotis Korfiatis, Girish N. Nadkarni, Eyal Klang",
+    "year": "2025",
+    "venue": "Frontiers in Digital Health",
+    "doi": "10.3389/fdgth.2025.1659134",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Artsi, Y., Sorin, V., Glicksberg, B. S., Korfiatis, P., Nadkarni, G. N., & Klang, E. (2025). Large language models in real-world clinical workflows: a systematic review of applications and implementation. Frontiers in Digital Health, 7, 1659134. https://doi.org/10.3389/fdgth.2025.1659134"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic review with PROBAST risk-of-bias assessment",
+    "study_design": "systematic review",
+    "sample_description": "Peer-reviewed, full-text, English empirical studies reporting real-world LLM implementation in clinical settings; four studies published 2024–2025, all using GPTs",
+    "sample_size": "4",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "GPT-based LLMs deployed in clinical workflows for outpatient communication, mental health support, inbox message drafting, and clinical data extraction"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "identification_screening_eligibility_included",
+    "inclusion_codes": [
+      "systematic_review",
+      "llm_clinical_implementation",
+      "regulated_healthcare",
+      "real_world_deployment",
+      "human_oversight_mentioned",
+      "post_deployment_monitoring_gap"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed systematic review of real-world LLM implementation in clinical workflows within regulated healthcare. It is relevant to the review scope via deployment challenges, human oversight, regulatory delays, and communication-oriented use cases, but its primary focus is clinical applications and implementation outcomes rather than conversational governance frameworks, guardrails, auditability, or accountability mechanisms for conversational AI.",
+    "decision_confidence": 0.74,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and early methods/results pages were provided; full synthesis, governance-specific findings, and detailed appraisal require full-text verification."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "PROSPERO-registered systematic review with predefined databases, inclusion criteria, dual independent screening, and PROBAST quality assessment. The included evidence base is very small (n=4). Provided text supports methodological transparency but does not show full data extraction, synthesis, or discussion of governance mechanisms in depth."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The review appears methodologically sound for its stated aim, but confidence is moderated by the very limited number of included real-world studies and because only partial text was available to assess full thematic coherence and adequacy of evidence on governance-related claims."
+  },
+  "coding": {
+    "open_codes": [
+      "systematic_review",
+      "real_world_clinical_deployment",
+      "GPT",
+      "outpatient_communication",
+      "mental_health_support",
+      "inbox_message_drafting",
+      "clinical_data_extraction",
+      "operational_efficiency",
+      "user_satisfaction",
+      "performance_variability",
+      "regulatory_delays",
+      "lack_of_post_deployment_monitoring",
+      "human_oversight",
+      "site_specific_prompt_engineering_chatbot"
+    ],
+    "axial_codes": [
+      "LLM_clinical_implementation",
+      "workflow_integration",
+      "deployment_barriers",
+      "monitoring_and_oversight_gaps",
+      "regulated_healthcare_adoption"
+    ],
+    "theme": "Real-world LLM implementation in clinical workflows",
+    "subtheme": "Implementation benefits and systemic governance barriers",
+    "concepts": [
+      "human oversight",
+      "post-deployment monitoring",
+      "regulatory delays",
+      "operational efficiency",
+      "communication workflows",
+      "safety vs risk"
+    ],
+    "model_layers": [
+      "deployment",
+      "monitoring",
+      "human_oversight",
+      "risk_and_safety"
+    ],
+    "rq_alignment": [
+      "regulated_healthcare_context",
+      "LLM_operational_governance",
+      "human_oversight",
+      "post_deployment_monitoring",
+      "clinical_communication_use_cases"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "Early evidence suggests LLMs can enhance clinical workflows, but real-world adoption remains constrained by systemic, technical, and regulatory barriers, including lack of post-deployment monitoring.",
+    "contribution": "Provides a focused systematic synthesis of four real-world clinical LLM implementation studies, reporting use cases, outcomes, and implementation challenges in regulated healthcare settings.",
+    "limitations": "Very small included corpus (four studies); challenges include performance variability, limited generalizability, regulatory delays, and lack of post-deployment monitoring; full-text governance analysis not visible in provided excerpt.",
+    "use_in_review": "Use as supporting evidence on real-world regulated healthcare LLM deployment, especially for communication-related use cases and for barriers involving oversight, monitoring, regulation, and safety/risk."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a systematic review of real-world LLM implementation in clinical workflows.",
+      "excerpt": "This systematic review aims to evaluate the literature on real-world implementation of LLMs in clinical workflows",
+      "page": "1",
+      "section": "Background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Search covered major databases with empirical clinical implementation focus.",
+      "excerpt": "We searched MEDLINE, Scopus, Web of Science, and Google Scholar for studies published between January 2015 and April 2025 that assessed LLMs in real-world clinical applications.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Inclusion required peer-reviewed empirical LLM implementation in clinical settings.",
+      "excerpt": "Inclusion criteria were peer-reviewed, full- text studies in English reporting empirical implementation of LLMs in clinical settings.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Quality appraisal used PROBAST.",
+      "excerpt": "Study quality and risk of bias were assessed using the PROBAST tool.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Only four GPT-based real-world studies were included.",
+      "excerpt": "Four studies published between 2024 and 2025 met inclusion criteria. All used generative pre-trained transformers (GPTs).",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Reported applications include communication-oriented clinical tasks.",
+      "excerpt": "Reported applications included outpatient communication, mental health support, inbox message drafting, and clinical data extraction.",
+      "page": "1",
+      "section": "Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Deployment was linked to efficiency and satisfaction benefits.",
+      "excerpt": "LLM deployment was associated with improvements in operational efficiency, user satisfaction, and reduced workload.",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Key barriers include regulatory delays and absent post-deployment monitoring.",
+      "excerpt": "challenges included performance variability across data types, limitations in generalizability, regulatory delays, and lack of post- deployment monitoring.",
+      "page": "1",
+      "section": "Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors recommend human oversight for safe scalable use.",
+      "excerpt": "future efforts should prioritize standardized evaluation metrics, multi-site validation, human oversight, and implementation frameworks tailored to clinical settings.",
+      "page": "1",
+      "section": "Conclusions",
+      "supports": "coding"
+    },
+    {
+      "claim": "Review is prospectively registered.",
+      "excerpt": "Systematic Review Registration: https://www.crd.york.ac.uk/PROSPERO/ recorddashboard, PROSPERO CRD420251030069.",
+      "page": "1",
+      "section": "Conclusions",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Outcomes framework included safety versus risk.",
+      "excerpt": "Outcomes encompassed workflow, efficiency, usability, adoption, clinical impact, and safety vs. risk.",
+      "page": "2",
+      "section": "Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Simulation-only and non-LLM NLP studies were excluded.",
+      "excerpt": "We excluded simulation-only studies (including vignette-based evaluations not used to guide real patient care), bench evaluations without deployment, and non-LLM NLP.",
+      "page": "2",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Dual independent screening with discrepancy resolution was used.",
+      "excerpt": "Two authors (YA and VS) independently screened titles and abstracts for relevance. Potentially eligible articles were retrieved in full text and assessed by YA and VS. Discrepancies w",
+      "page": "2",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Abbreviations indicate a site-specific prompt-engineering chatbot context.",
+      "excerpt": "SSPEC, site-specific prompt engineering chatbot",
+      "page": "2",
+      "section": "Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Study setting is regulated healthcare/clinical domain.",
+      "excerpt": "Background: Large language models (LLMs) offer promise for enhancing clinical care by automating documentation, supporting decision-making, and improving communication.",
+      "page": "1",
+      "section": "Background",
+      "supports": "eligibility"
+    }
+  ]
+}

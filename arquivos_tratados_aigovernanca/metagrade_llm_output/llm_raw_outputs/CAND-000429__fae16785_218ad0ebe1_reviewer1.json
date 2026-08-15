@@ -1,0 +1,193 @@
+{
+  "bibliographic": {
+    "title": "AI-AUGMENTED RISK DETECTION IN CYBERSECURITY COMPLIANCE: A GRC-BASED EVALUATION IN HEALTHCARE AND FINANCIAL SYSTEMS",
+    "authors": "Mahmudul Hasan; Md. Omar Faruq",
+    "year": "2025",
+    "venue": "1st Global Research and Innovation Conference 2025 / ASRC Procedia: Global Perspectives in Science and Scholarship",
+    "doi": "10.63125/49gs6175",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Hasan, M., & Faruq, M. O. (2025). AI-augmented risk detection in cybersecurity compliance: A GRC-based evaluation in healthcare and financial systems. In 1st Global Research and Innovation Conference 2025 (pp. 313–342). https://doi.org/10.63125/49gs6175"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "comprehensive literature review with cross-sectoral synthesis",
+    "study_design": "narrative/literature synthesis comparing AI applications in healthcare and financial compliance contexts",
+    "sample_description": "synthesis of contemporary literature and cross-sectoral analyses on AI applied to regulatory automation in healthcare and finance",
+    "sample_size": "unclear",
+    "sector": "healthcare and financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "machine learning, natural language processing, deep learning, anomaly detection, federated learning, explainable AI applied to cybersecurity compliance and GRC frameworks"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_TECH_NO_CONVERSATIONAL",
+      "E_TECH_NO_LLM",
+      "E_SCOPE_MISMATCH"
+    ],
+    "exclusion_reason": "The study reviews AI/ML/NLP for cybersecurity compliance and GRC in healthcare and finance; provided text contains no conversational AI, chatbots, agents, or LLM-based systems relevant to conversational governance.",
+    "decision_rationale": "Although the paper addresses governance, accountability, compliance, and regulated healthcare/financial contexts, it focuses on AI-augmented risk detection and regulatory automation in cybersecurity compliance rather than conversational governance in LLM-based systems. Python triage scored conversational_ai 0/3 and the excerpted full text confirms absence of conversational or LLM-specific focus.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Scope mismatch is explicit in abstract and objectives; no conversational or LLM governance content appears in provided pages."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal based on limited excerpt (pages 1–5). Study is positioned as a comprehensive literature review; detailed search strategy, inclusion criteria, and limitations are not visible in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "Coherent review framing for cybersecurity GRC in regulated sectors, but provided text lacks detail on review methods and does not address the review's target phenomenon (conversational governance in LLM systems)."
+  },
+  "coding": {
+    "open_codes": [
+      "cybersecurity compliance",
+      "GRC integration",
+      "regulatory automation",
+      "sector-specific implementation",
+      "continuous controls monitoring",
+      "explainable AI",
+      "federated learning",
+      "real-time risk analytics"
+    ],
+    "axial_codes": [
+      "compliance automation",
+      "risk detection",
+      "regulated sector governance",
+      "AI augmentation of audit and monitoring"
+    ],
+    "theme": "AI-augmented cybersecurity compliance and GRC in regulated sectors",
+    "subtheme": "healthcare and financial sector risk detection",
+    "concepts": [
+      "Governance Risk and Compliance (GRC)",
+      "regulatory compliance",
+      "compliance automation",
+      "ethical oversight",
+      "accountability",
+      "explainable AI"
+    ],
+    "model_layers": [
+      "policy interpretation",
+      "anomaly detection",
+      "audit trail monitoring",
+      "compliance workflow automation"
+    ],
+    "rq_alignment": [
+      "regulated high-stakes contexts",
+      "risk and compliance governance",
+      "generic AI/NLP governance signals"
+    ],
+    "coding_confidence": 0.75
+  },
+  "synthesis": {
+    "main_claim": "AI, through machine learning and NLP, is transforming cybersecurity compliance and GRC by enabling real-time risk detection, policy interpretation, and autonomous mitigations in healthcare and financial systems.",
+    "contribution": "Cross-sector synthesis positioning AI as foundational to compliance automation and GRC integration in highly regulated healthcare and finance environments.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude as central evidence; at most peripheral contextual reference for generic AI governance/compliance in regulated sectors if broader scope is later expanded."
+  },
+  "evidence": [
+    {
+      "claim": "Study is a literature review on AI in regulatory automation for healthcare and finance",
+      "excerpt": "This study provides a comprehensive review of recent advancements in artificial intelligence (AI) applied to regulatory automation, particularly in highly regulated sectors such as healthcare and finance.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Uses ML and NLP for compliance tasks, not conversational or LLM systems",
+      "excerpt": "These systems are increasingly augmented by machine learning and natural language processing (NLP), enabling them to interpret complex policy texts, flag anomalies, and implement mitigations autonomously.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Addresses governance, accountability, and regulatory alignment via GRC",
+      "excerpt": "Ultimately, this research illustrates that AI is not merely enhancing compliance but fundamentally transforming how institutions govern risk, uphold accountability, and ensure regulatory alignment.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Healthcare sector emphasizes ethical oversight and explainable AI",
+      "excerpt": "healthcare systems prioritize ethical oversight and data sensitivity, employing federated learning and explainable AI to maintain compliance with HIPAA and GDPR.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Financial sector emphasizes governance optimization and real-time risk analytics",
+      "excerpt": "Financial institutions, by contrast, emphasize biometric verification, internal governance optimization, and real-time risk analytics tailored to high-volume transaction environments.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Peer-reviewed conference publication",
+      "excerpt": "Peer-review under responsibility of the organizing committee of GRIC, 2025",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Authors identified",
+      "excerpt": "Mahmudul Hasan1; Md. Omar Faruq2;",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Regulated domains include healthcare and finance with named regulations",
+      "excerpt": "compliance requirements are increasingly anchored in legal and regulatory mandates such as the General Data Protection Regulation (GDPR), the Health Insurance Portability and Accountability Act (HIPAA), the Gramm-Leach-Bliley Act (GLBA), and the Payment Card Industry Data Security Standard (PCI DSS)",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research objectives focus on AI in cybersecurity compliance and GRC, not conversational systems",
+      "excerpt": "The research also aims to identify how AI technologies—particularly machine learning, natural language processing, and anomaly detection—are transforming traditional compliance practices into dynamic, real-time systems.",
+      "page": "5",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "NLP used for documentation review in healthcare compliance context",
+      "excerpt": "Natural language models assist in reviewing medical documentation and communications for privacy risks",
+      "page": "4",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Primary objective is synthesis of empirical and theoretical studies on AI-powered risk detection in GRC",
+      "excerpt": "The primary objective is to synthesize empirical and theoretical studies that examine how AI technologies—especially machine learning, natural language processing, and anomaly detection algorithms—enhance the ability of organizations to comply with complex cybersecurity mandates",
+      "page": "5",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational AI, chatbots, or LLM governance discussed in provided text",
+      "excerpt": "Techniques such as machine learning, natural language processing, and deep learning now underpin systems that analyze vast volumes of structured and unstructured data to identify anomalies, classify threats, and suggest mitigation actions",
+      "page": "3",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

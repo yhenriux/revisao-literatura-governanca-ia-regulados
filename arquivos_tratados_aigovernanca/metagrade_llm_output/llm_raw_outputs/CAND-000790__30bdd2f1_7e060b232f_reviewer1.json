@@ -1,0 +1,151 @@
+{
+  "bibliographic": {
+    "title": "Evaluating the Performance of different large language models on health consultation and patient education in urolithiasis",
+    "authors": "Haifeng Song; Yi Xia; Zhichao Luo; Hui Liu; Yan Song; Xue Zeng; Tianjie Li; Guangxin Zhong; Jianxing Li; Ming Chen; Guangyuan Zhang; Bo Xiao",
+    "year": "2023",
+    "venue": "Research Square (preprint)",
+    "doi": "10.21203/rs.3.rs-3293294/v1",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Song, H., Xia, Y., Luo, Z., Liu, H., Song, Y., Zeng, X., Li, T., Zhong, G., Li, J., Chen, M., Zhang, G., & Xiao, B. (2023). Evaluating the performance of different large language models on health consultation and patient education in urolithiasis. Research Square. https://doi.org/10.21203/rs.3.rs-3293294/v1"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative performance evaluation with expert-rated simulated consultations",
+    "study_design": "questionnaire and clinical scenario simulation across four LLMs with expert evaluation on 5-point Likert scales",
+    "sample_description": "Twenty-one urolithiasis-related questions and two clinical scenarios; responses from Claude, Bard, ChatGPT4, and New Bing evaluated by urolithiasis experts",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Claude, Bard, ChatGPT4, and New Bing applied to simulated medical consultation and patient education for urolithiasis"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_OFF_TOPIC_GOVERNANCE",
+      "E_CLINICAL_PERFORMANCE_ONLY"
+    ],
+    "exclusion_reason": "The study empirically compares LLM response quality in urolithiasis consultation and education but does not address conversational governance, accountability, compliance, operational controls, auditability, human oversight frameworks, or related governance mechanisms.",
+    "decision_rationale": "Although the article is LLM-specific and set in regulated healthcare consultation/education, available text focuses on accuracy, comprehensiveness, legibility, empathy, and clinical case analysis performance. Governance-related constructs are absent from the provided excerpts, and the only oversight signal is expert review for evaluation purposes rather than governance of deployed conversational systems.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage marked borderline_manual (62.67/100) with zero governance and operational governance term matches; manual adjudication needed to confirm exclusion despite strong LLM and healthcare signals."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 0,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Clear comparative evaluation objective and reported results, but expert sample size, ethics approval, and full limitations are not evident in the provided text. Study quality may be adequate for clinical performance comparison, yet it is not methodologically aligned with governance-focused review questions."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 0,
+    "overall_confidence": "low",
+    "explanation": "Within the provided text, the study is internally coherent as an LLM performance comparison in healthcare, but it offers very low confidence for answering questions about conversational governance because governance mechanisms are not examined."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM comparative evaluation",
+      "medical consultation simulation",
+      "patient education",
+      "urolithiasis",
+      "expert rating",
+      "Likert scale assessment",
+      "healthcare AI performance"
+    ],
+    "axial_codes": [
+      "regulated healthcare application",
+      "clinical accuracy assessment",
+      "human expert evaluation as study method"
+    ],
+    "theme": "Clinical performance of LLMs in healthcare consultation",
+    "subtheme": "Urolithiasis consultation and education benchmarking",
+    "concepts": [
+      "accuracy",
+      "comprehensiveness",
+      "legibility",
+      "human care",
+      "clinical case analysis",
+      "professional review"
+    ],
+    "model_layers": [
+      "application layer"
+    ],
+    "rq_alignment": [
+      "regulated healthcare context",
+      "LLM conversational use in medicine"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Among four widely used LLMs tested on urolithiasis consultation and education tasks, Claude performed best overall, ChatGPT4 ranked second, and Bard showed the weakest performance.",
+    "contribution": "Provides an empirical benchmark of multiple commercial LLMs on urolithiasis-related consultation and education using expert-rated questionnaires and clinical scenarios.",
+    "limitations": "Provided text does not detail governance risks, deployment controls, or oversight models; expert evaluator count and broader methodological limitations are only partially visible.",
+    "use_in_review": "Not suitable as central or supporting evidence for conversational governance; at most marginal contextual background on LLM use in regulated healthcare consultation."
+  },
+  "evidence": [
+    {
+      "claim": "Study evaluates four specific LLMs in medical consultation and patient education for urolithiasis.",
+      "excerpt": "To evaluate the effectiveness of four large language models (LLMs) (Claude, Bard, ChatGPT4, and New Bing)",
+      "page": "3",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Methods use simulated consultations/questions and expert evaluation rather than governance framework analysis.",
+      "excerpt": "we developed a questionnaire consisting of twenty-one questions and two clinical scenarios related to urolithiasis. Subsequently, clinical consultations were simulated for each of the four models",
+      "page": "3",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Outcome dimensions are clinical/communication quality, not governance controls.",
+      "excerpt": "Urolithiasis experts then evaluated the model responses in terms of accuracy, comprehensiveness, legibility, human care, and clinical case analysis ability",
+      "page": "3",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors note need for professional review but not conversational governance mechanisms.",
+      "excerpt": "although professional review, further evaluation, and modifications are still required",
+      "page": "3",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Article is a 2023 Research Square preprint with listed healthcare/LLM keywords.",
+      "excerpt": "Keywords: urolithiasis, health consultation, large language model, ChatGPT, artificial intelligence Posted Date: August 29th, 2023",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "LLMs are discussed in healthcare consultation/education context, including conversation as a task capability.",
+      "excerpt": "LLMs are trained on vast quantities of text data and are capable of various natural language tasks, including summarization, translation, question answering, conversation",
+      "page": "4",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "No governance, compliance, audit, or operational control focus appears in provided excerpts.",
+      "excerpt": "This study aimed to evaluate the effectiveness of four large language models (Bard, Claude, ChatGPT4, and New Bing)",
+      "page": "4",
+      "section": "Introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

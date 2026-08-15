@@ -1,0 +1,184 @@
+{
+  "bibliographic": {
+    "title": "Trust Layers: AI-Augmented Multi-Layer Risk Compliance Engines for Next-Gen Banking Infrastructure",
+    "authors": "Srinivasarao Paleti",
+    "year": "2023",
+    "venue": "Educational Administration: Theory and Practice",
+    "doi": "10.53555/kuey.v29i4.9788",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Paleti, S. (2023). Trust Layers: AI-Augmented Multi-Layer Risk Compliance Engines for Next-Gen Banking Infrastructure. Educational Administration: Theory and Practice, 29(4), 4907-4920. https://doi.org/10.53555/kuey.v29i4.9788"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual framework",
+    "study_design": "conceptual framework proposal for AI-augmented multi-layer risk compliance engines",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "banking / financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI-augmented risk compliance engines, NLP microservices for transaction monitoring and communication/data flows (including emails), trust layers in next-generation banking infrastructure"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "AI_governance",
+      "regulated_banking",
+      "risk_compliance",
+      "NLP_text_processing",
+      "traceability"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai_focus",
+      "no_llm_specificity"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O texto apresenta um framework conceitual de governança de IA e compliance de risco em infraestrutura bancária, com menções a NLP, traceability e mecanismos regulatórios. Não há evidência de foco em sistemas conversacionais, chatbots, agentes ou LLMs; o uso de NLP refere-se a monitoramento de alertas, transações, emails e fluxos de dados para compliance, não a governança conversacional.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Triagem Python classificou como central_candidate por termos de governança e domínio regulado, mas o alinhamento com governança conversacional e LLMs é fraco; verificar seções completas sobre supervisão humana, contestação e aplicações conversacionais."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Estudo predominantemente conceitual; o texto fornecido descreve arquitetura e camadas de confiança, mas não detalha coleta empírica, amostra, validação ou limitações explícitas."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "O framework é internamente coerente para governança de compliance em bancos, mas a adequação e relevância para governança conversacional em sistemas baseados em LLMs são limitadas; não há evidência empírica robusta no excerto fornecido."
+  },
+  "coding": {
+    "open_codes": [
+      "trust_layers",
+      "AI_LRCE",
+      "runtime_AI_governance",
+      "transaction_monitoring",
+      "NLP_microservices",
+      "traceability",
+      "certification",
+      "regulatory_compliance"
+    ],
+    "axial_codes": [
+      "infrastructure_level_AI_governance",
+      "regulated_financial_compliance",
+      "automated_risk_detection",
+      "text_based_compliance_monitoring"
+    ],
+    "theme": "Governança de IA e compliance de risco em infraestrutura bancária",
+    "subtheme": "Camadas de confiança e motores de compliance multi-camada",
+    "concepts": [
+      "Trust Layers",
+      "AI-Augmented Multi-Layer Risk Compliance Engines",
+      "Trustworthy AI governance",
+      "formal proofs of non-compliance",
+      "contextual layer",
+      "red alert narrative processing"
+    ],
+    "model_layers": [
+      "Layer 1: data trust agent (unclear detail in excerpt)",
+      "Layer 2: Transaction Monitoring (ML-TM)",
+      "up to five trust layers (total count stated, not all detailed in excerpt)"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa (parcial)",
+      "compliance e controle de risco em contexto regulado",
+      "traceability",
+      "NLP aplicado a fluxos textuais não conversacionais"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "Propõe o framework conceitual Trust Layers e motores AI-LRCE em até cinco camadas para governar compliance de risco de modelos de IA em tempo de execução na infraestrutura bancária de próxima geração.",
+    "contribution": "Articula camadas de infraestrutura de confiança após segurança de rede e aplicação, integrando modelagem digital, monitoramento, provas formais de não conformidade, enforcement e análise de comunicações via NLP/data mining para detecção de violações regulatórias.",
+    "limitations": "unclear",
+    "use_in_review": "Evidência de apoio para mecanismos de governança de IA, compliance, traceability e processamento de linguagem em domínio bancário regulado; utilidade limitada como evidência central para governança conversacional em LLMs."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo é um framework conceitual de governança de IA em bancos, não um estudo empírico.",
+      "excerpt": "Here, a conceptual framework is introduced to foster the development of AI-Augmented Multi-Layer Risk Compliance Engines.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Há lacuna explícita de mecanismos de governança de IA confiável no contexto bancário.",
+      "excerpt": "Trustworthy AI governance mechanisms are currently lacking.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Governança proposta opera em tempo de execução com mecanismos legais ou técnicos por camada.",
+      "excerpt": "AI-LRCEs are proposed to more effectively govern the risk compliance of AI models in runtime. Each trust layer is grounded in legal or technical governance mechanisms.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Requisitos regulatórios incluem traceability e certificação de modelos.",
+      "excerpt": "AI systems are required to ensure traceability; or (iii) the discrimination or unfairness against natural persons, i.e., AI models require certification.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "NLP é usado para examinar comunicações e fluxos de dados, incluindo emails, para compliance.",
+      "excerpt": "communication and data flows, including emails, are modeled and examined through NLP and data mining.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Camada 2 usa NLP em microserviços para alertas de compliance, não sistemas conversacionais.",
+      "excerpt": "A domain-specific series of NLP microservices that enhance the compliance engine with advanced language technologies",
+      "page": "7",
+      "section": "Layer 2: Transaction Monitoring",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "NLP processa narrativas de red alerts de monitoramento de transações.",
+      "excerpt": "the natural language processing (NLP) domain is devoted to the generic processing algorithms of text written in human language. There are several different kinds of technology used to perform NLP on the red alert narrative.",
+      "page": "8",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Domínio regulado bancário é explícito.",
+      "excerpt": "Financial institutions are transitioning towards the next-generation banking infrastructure enabling personalized financial services in real time.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Termo interaction aparece em contexto de computação distribuída, não conversacional.",
+      "excerpt": "In modern internet-scale computing the interaction between a large number of parties that are not known a- priori, is predominant.",
+      "page": "4",
+      "section": "3.1. Defining Trust Layers",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Autoria e metadados bibliográficos identificáveis no front matter.",
+      "excerpt": "Srinivasarao Paleti* *Assistant Consultant, srinivaassarao@gmail.com",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "bibliographic"
+    }
+  ]
+}

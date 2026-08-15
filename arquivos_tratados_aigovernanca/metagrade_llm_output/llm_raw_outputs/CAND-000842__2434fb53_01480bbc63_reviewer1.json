@@ -1,0 +1,192 @@
+{
+  "bibliographic": {
+    "title": "Assessing the research landscape and clinical utility of large language models: a scoping review",
+    "authors": "Ye-Jean Park, Abhinav Pillai, Jiawen Deng, Eddie Guo, Mehul Gupta, Mike Paget, Christopher Naugler",
+    "year": "2024",
+    "venue": "BMC Medical Informatics and Decision Making",
+    "doi": "10.1186/s12911-024-02459-6",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Park, Y.-J., Pillai, A., Deng, J., Guo, E., Gupta, M., Paget, M., & Naugler, C. (2024). Assessing the research landscape and clinical utility of large language models: a scoping review. BMC Medical Informatics and Decision Making, 24, 72. https://doi.org/10.1186/s12911-024-02459-6"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "scoping review",
+    "study_design": "scoping review with systematic search and screening",
+    "sample_description": "English-language papers on LLMs in medical/clinical applications identified from MEDLINE, EMBASE, CINAHL, medRxiv, bioRxiv, and arXiv (January 2023 to June 26, 2023)",
+    "sample_size": "4036 records screened; 55 studies included",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Large language models (e.g., ChatGPT, GPT-3, GPT-4) applied in clinical and medical settings"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_review",
+    "inclusion_codes": [
+      "llm_genai",
+      "regulated_healthcare",
+      "governance_ethics_legal",
+      "human_oversight",
+      "evaluation_framework"
+    ],
+    "exclusion_codes": [
+      "operational_technical_governance_absent",
+      "not_conversational_governance_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "Scoping review on LLMs in clinical settings that synthesizes ethical, legal, logistical, socioeconomic, privacy, bias, and human oversight themes and proposes a standardized evaluation framework; relevant to regulated LLM governance but not focused on conversational governance mechanisms such as guardrails, observability, audit logs, or conversational control.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial excerpts were provided; full-text sections on governance mechanisms, conversational interfaces, and proposed evaluation framework require verification."
+  },
+  "appraisal": {
+    "objective_clarity": 8,
+    "method_fit": 8,
+    "sampling_adequacy": 7,
+    "data_collection_transparency": 7,
+    "analysis_rigor": 6,
+    "ethics_reflexivity": 5,
+    "results_clarity": 7,
+    "limitations_transparency": 6,
+    "evidence_support": 7,
+    "transferability": 6,
+    "notes": "Appraisal based on abstract, introduction, and partial methods/results excerpts. Scoping review design is appropriate for mapping the LLM-in-medicine evidence landscape; authors report OCEBM-based quality grading and a documented multi-database search, but full critical appraisal procedures and reflexivity are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 6,
+    "coherence": 7,
+    "adequacy": 7,
+    "relevance": 7,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are coherent with stated objectives and supported by screening of 55 studies, but supplied text does not fully document synthesis methods or detailed governance-operational controls; relevance to conversational governance is indirect though strong for regulated healthcare LLM use."
+  },
+  "coding": {
+    "open_codes": [
+      "human oversight",
+      "ethical implications",
+      "legal implications",
+      "privacy concerns",
+      "bias in training data",
+      "standardized evaluation framework",
+      "clinical decision support",
+      "implementation barriers"
+    ],
+    "axial_codes": [
+      "regulated_healthcare_llm_use",
+      "governance_and_accountability",
+      "evaluation_and_evidence_gaps"
+    ],
+    "theme": "Governance-related implications and evaluation of LLMs in clinical healthcare",
+    "subtheme": "Ethical-legal-privacy barriers, human oversight, and standardized clinical utility assessment",
+    "concepts": [
+      "human oversight",
+      "accountability",
+      "bias",
+      "privacy",
+      "compliance",
+      "evaluation framework",
+      "clinical utility"
+    ],
+    "model_layers": [
+      "policy_ethics_layer",
+      "human_supervision_layer",
+      "evaluation_assurance_layer"
+    ],
+    "rq_alignment": [
+      "regulated_domain_healthcare",
+      "llm_governance_implications",
+      "human_oversight",
+      "risk_and_harm_mitigation",
+      "evaluation_and_accountability"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "LLMs show promise for compiling patient notes, assisting patient navigation, and supporting clinical decision-making with human oversight, but clinical use is limited by training-data bias, convincing inaccuracies, and ethical, legal, socioeconomic, and privacy concerns, alongside a lack of standardized evaluation methods.",
+    "contribution": "Maps the 2023 medical LLM literature (55 included studies), discusses implementation barriers and facilitators, and proposes a standardized evaluation framework for assessing clinical utility while identifying evidence gaps.",
+    "limitations": "Authors note limitations in evaluating LLMs' effectiveness and feasibility and call for future directions; full methodological limitations are not fully visible in the supplied excerpts.",
+    "use_in_review": "Use as supporting evidence for regulated healthcare contexts: human oversight, ethical/legal/privacy risks, bias harms, and evaluation-framework needs; not primary evidence for operational conversational governance controls."
+  },
+  "evidence": [
+    {
+      "claim": "Published peer-reviewed journal article on LLMs in clinical settings",
+      "excerpt": "Park et al. BMC Medical Informatics and Decision Making (2024) 24:72 https://doi.org/10.1186/s12911-024-02459-6",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is a scoping review with defined search and inclusion counts",
+      "excerpt": "We screened 4,036 records from MEDLINE, EMBASE, CINAHL, medRxiv, bioRxiv, and arXiv from January 2023 (inception of the search) to June 26, 2023 for English-language papers and analyzed findings from 55 worldwide studies.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Objectives include ethical, legal, and implementation governance themes plus evaluation framework",
+      "excerpt": "discuss the ethical, legal, logistical, and socioeconomic implications of LLM use in clinical settings",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Proposes standardized evaluation framework for clinical LLM utility",
+      "excerpt": "propose a standardized evaluation framework for assessing LLMs' clinical utility",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human oversight is identified as a condition for clinical decision support",
+      "excerpt": "supporting clinical decision-making when combined with human oversight",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance-related risks include bias, inaccuracy, and privacy concerns",
+      "excerpt": "limited by biases in training data that may harm patients, the generation of inaccurate but convincing information, and ethical, legal, socioeconomic, and privacy concerns",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Evidence quality was assessed using OCEBM recommendations",
+      "excerpt": "Quality of evidence was reported based on the Oxford Centre for Evidence-based Medicine recommendations.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "LLMs are deep learning algorithms trained with human feedback",
+      "excerpt": "LLMs are deep learning algorithms capable of interpreting and synthesizing vast volumes of textual data. Using a large corpora of unlabelled text combined with reinforcement training from human feedback",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Full-text screening yielded 55 included articles",
+      "excerpt": "63 articles were eligible for full-text screening, of which 8 were excluded given that their topics did not align with the inclusion criteria. 55 articles were ultimately included.",
+      "page": "3",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Search strategy explicitly targets LLM/GPT terms",
+      "excerpt": "1. large language model*.mp. or LLM*.tw,kf. 2. (ChatGPT or GPT or GPT-3 or GPT-4 or generative pre trained transformer* or generative pre-trained transformer*).tw,kf.",
+      "page": "3",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Authors acknowledge lack of standardized evaluation methods",
+      "excerpt": "We also identified a lack of standardized methods for evaluating LLMs' effectiveness and feasibility.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

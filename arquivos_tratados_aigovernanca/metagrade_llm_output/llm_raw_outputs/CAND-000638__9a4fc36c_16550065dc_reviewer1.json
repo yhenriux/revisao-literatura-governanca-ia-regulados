@@ -1,0 +1,163 @@
+{
+  "bibliographic": {
+    "title": "Should the Food and Drug Administration Limit Placebo-Controlled Trials?",
+    "authors": "Max Goodman, Connor Pedersen",
+    "year": "2022",
+    "venue": "Voices in Bioethics",
+    "doi": "unclear",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Goodman, M., & Pedersen, C. (2022). Should the Food and Drug Administration Limit Placebo-Controlled Trials? Voices in Bioethics, 8."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "normative bioethics policy analysis",
+    "study_design": "argumentative conceptual essay",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare clinical research regulation",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "FDA policy on placebo-controlled clinical trials; bioethical principles (autonomy, beneficence, nonmaleficence, justice); Declaration of Helsinki and Belmont Report"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_TECH",
+      "E_POPULATION",
+      "E_INTERVENTION"
+    ],
+    "exclusion_reason": "The article analyzes FDA ethics and policy for placebo-controlled clinical trials in biomedical research. It contains no LLMs, conversational AI, generative AI, chatbots, agents, RAG, or related technical governance mechanisms.",
+    "decision_rationale": "Python screening scored 0/3 on LLM and conversational dimensions. Provided text consistently addresses placebo-controlled trials, FDA regulatory practice, and bioethics in clinical research. Regulated-domain and oversight terms appear in a biomedical trial context, not conversational AI governance. Retained only as foundational contextual reference for regulatory oversight and ethics in regulated health settings.",
+    "decision_confidence": 0.95,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is unambiguous from title, abstract, and body excerpts; no LLM or conversational AI content detected."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal based on partial text. Conceptual normative argument without empirical sample; strong ethics framing but limited applicability to the review's LLM conversational governance scope."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "moderate",
+    "explanation": "Internally coherent bioethics argument on FDA placebo-trial policy with clear claims, but very low relevance to conversational AI or LLM governance. Confidence in exclusion is moderate-to-high; confidence in substantive contribution to the target review is very low."
+  },
+  "coding": {
+    "open_codes": [
+      "FDA regulation",
+      "placebo-controlled trials",
+      "bioethics",
+      "clinical trial oversight",
+      "regulatory compliance",
+      "human subjects protection",
+      "institutional review"
+    ],
+    "axial_codes": [
+      "regulated health policy",
+      "research ethics oversight",
+      "regulatory non-compliance"
+    ],
+    "theme": "Bioethical and regulatory oversight of clinical trial design",
+    "subtheme": "FDA placebo-control policy versus international ethical standards",
+    "concepts": [
+      "autonomy",
+      "beneficence",
+      "nonmaleficence",
+      "justice",
+      "oversight",
+      "compliance",
+      "standard of care",
+      "Institutional Review Boards"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.92
+  },
+  "synthesis": {
+    "main_claim": "The FDA should overhaul its practices and prohibit placebo-controlled trials where effective treatments already exist, because current approvals can violate bioethical principles despite FDA reliance on PCTs as the gold standard.",
+    "contribution": "Provides a normative critique of FDA placebo-control policy framed through bioethical principles and international guidelines, useful only as distant contextual background on regulatory oversight in regulated health domains.",
+    "limitations": "unclear",
+    "use_in_review": "Foundational contextual only. May briefly inform background discussion of regulatory oversight, ethics, and compliance in regulated sectors, but not eligible as central or supporting evidence on conversational AI or LLM governance."
+  },
+  "evidence": [
+    {
+      "claim": "Article topic is FDA placebo-controlled trial policy, not AI or conversational systems.",
+      "excerpt": "Should the Food and Drug Administration Limit Placebo-Controlled Trials?",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM, generative AI, or conversational technology content in provided text.",
+      "excerpt": "Randomized placebo-controlled trials are often used in clinical research, though there are ethical concerns regarding their use.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated high-stakes domain is healthcare/clinical research regulation.",
+      "excerpt": "The Food and Drug Administration (FDA) has rejected international stances on placebo-controlled trial use in favor of the bioethical principles of autonomy, beneficence, nonmaleficence, and justice.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Oversight discussed in context of lax clinical trial rules, not AI governance.",
+      "excerpt": "though poor oversight and lax rules have largely permitted PCT research, even under those conditions.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is conceptual normative analysis, not empirical LLM evaluation.",
+      "excerpt": "It is our belief that the FDA should change its approach and prohibit the use of placebo controls in clinical trials where effective treatments already exist.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulatory compliance framing concerns Helsinki/FDA policy divergence.",
+      "excerpt": "abandoned any compliance with it in 2008.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Risk and safety discussed as patient harm in trials, not AI risk controls.",
+      "excerpt": "will not be subject to additional risks of serious or irreversible harm as a result of not receiving the best proven intervention.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Peer venue and publication metadata support journal article classification.",
+      "excerpt": "GOODMAN ET AL., SHOULD THE FDA LIMIT PLACEBO-CONTROLLED TRIALS, VOICES IN BIOETHICS, VOL. 8 (2022)",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Main synthesis claim is explicit policy recommendation on placebo controls.",
+      "excerpt": "Ultimately, the FDA should overhaul its practices regarding the use of placebo-controlled trials.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

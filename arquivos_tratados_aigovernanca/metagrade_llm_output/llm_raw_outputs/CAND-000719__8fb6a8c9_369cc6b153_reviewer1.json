@@ -1,0 +1,170 @@
+{
+  "bibliographic": {
+    "title": "Minimalist Compliance Control",
+    "authors": "Haochen Shi, Songbo Hu, Yifan Hou, Weizhuo Wang, C. Karen Liu, Shuran Song",
+    "year": "2026",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Shi, H., Hu, S., Hou, Y., Wang, W., Liu, C. K., & Song, S. (2026). Minimalist Compliance Control. Stanford University. https://minimalist-compliance-control.github.io"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "robotics control engineering with experimental validation",
+    "study_design": "technical method development and multi-platform experimental evaluation",
+    "sample_description": "Four robotic platforms: robot arm, dexterous hand, and two humanoid robots evaluated on contact-rich manipulation tasks",
+    "sample_size": "4 robotic platforms",
+    "sector": "robotics",
+    "regulated_domain": "no",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Physical admittance/compliance control for robots using motor current or voltage signals; vision-language models used as one optional high-level planning policy among VLM-based, imitation, and model-based policies"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_wrong_domain",
+      "E2_wrong_topic_focus",
+      "E3_keyword_false_positive"
+    ],
+    "exclusion_reason": "The paper studies robotic physical compliance control (force/admittance control), not conversational AI governance, LLM governance, accountability, audit, or regulated-domain AI deployment. Terms such as compliance, policy, interaction, risk, and safety refer to robot mechanics and control policies, not organizational or regulatory AI governance.",
+    "decision_rationale": "Although the text mentions vision foundation models and vision-language models as planning components for robot tasks (drawing, wiping), the central contribution is a minimalist compliance controller for safe physical robot interaction without force sensors. There is no discussion of conversational systems, chatbots, agents, RAG, guardrails, observability, auditing, human oversight, contestation, or governance in regulated sectors. Python triage appears to be a false positive driven by homonymous terms (compliance, policy, interaction).",
+    "decision_confidence": 0.97,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Domain mismatch is unambiguous from title, abstract, and methods; no conversational or AI-governance content is present in supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Appraisal reflects internal quality as a robotics methods paper based on provided excerpts only. Low ethics_reflexivity and limitations_transparency due to absence of such discussion in supplied text. Scores are not transferable to the review scope because the study is out of domain."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "very_low",
+    "explanation": "Within robotics, the method appears coherent and empirically supported, but relevance to conversational governance of LLMs in regulated environments is negligible. VLM usage is ancillary to robot trajectory planning and not analyzed as a governable conversational or generative-AI system."
+  },
+  "coding": {
+    "open_codes": [
+      "physical_compliance_control",
+      "admittance_control",
+      "motor_torque_estimation",
+      "embodiment_agnostic_robotics",
+      "VLM_trajectory_planning",
+      "plug_and_play_policies",
+      "contact_rich_manipulation"
+    ],
+    "axial_codes": [
+      "robotics_safety_control",
+      "peripheral_VLM_integration"
+    ],
+    "theme": "Robotic physical compliance control",
+    "subtheme": "Sensorless force estimation with optional VLM-based planning",
+    "concepts": [
+      "compliance_control",
+      "admittance_controller",
+      "vision_language_model_planning",
+      "imitation_learning",
+      "model_based_planning",
+      "humanoid_robotics"
+    ],
+    "model_layers": [
+      "physical_control_layer",
+      "optional_high_level_planner"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.95
+  },
+  "synthesis": {
+    "main_claim": "Minimalist Compliance Control enables compliant, safe physical robot interaction using only motor current or voltage signals, without force sensors or learning, and integrates plug-and-play with diverse high-level planners including VLM-based policies.",
+    "contribution": "Proposes and validates a lightweight admittance-control framework generalized across robot embodiments and planning paradigms for contact-rich tasks.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude. No usable evidence for conversational governance, LLM accountability, compliance frameworks, audit/logging, human oversight, or regulated-domain deployment of generative AI systems."
+  },
+  "evidence": [
+    {
+      "claim": "Paper topic is robotic compliance control, not AI or conversational governance",
+      "excerpt": "Compliance control is essential for safe physical interaction, yet its adoption is limited by hardware requirements such as force/torque sensors.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Compliance refers to physical robot control, not regulatory compliance",
+      "excerpt": "We propose Minimalist Compliance Control, which enables compliant behavior using only motor current or voltage signals readily available in modern servos",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Policy refers to robot control policies, not governance policy",
+      "excerpt": "remains plug-and-play with any policy such as VLM-based policy, imitation policy, and model-based policy",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "VLMs are used for 3D contact trajectory planning in robot tasks",
+      "excerpt": "The first planning method uses vision foundation models and vision–language models to predict 3D contact points and normals, which are interpolated into a dense trajectory.",
+      "page": "4",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Interaction means physical robot-environment contact, not conversational interaction",
+      "excerpt": "The results demonstrate robust, safe, and compliant interaction across embodiments and planning paradigms.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Safety concerns are physical force spikes during robot contact",
+      "excerpt": "the learned controllers often lack safety guarantees and can produce unexpected, large force spikes during physical interaction",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Transparency in text refers to actuator torque transparency, not AI transparency",
+      "excerpt": "Our work extends beyond low-transmission, high–torque-transparency actuators and shows that servo motors with high-reduction transmissions",
+      "page": "2",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is empirical robotics validation on multiple platforms",
+      "excerpt": "We validate our approach on a robot arm, a dexterous hand, and two humanoid robots across multiple contact-rich tasks",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No regulated-domain context is discussed",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No governance, audit, oversight, or accountability mechanisms for LLMs are discussed",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "bibliographic": {
+    "title": "From setting to vetting: using artificial intelligence for Single Best Answer questions review",
+    "authors": "Olivia Ng; Siew Ping Han; Magdalene Hui Min Lee; Dong Haur Phua",
+    "year": "2026",
+    "venue": "Korean Journal of Medical Education",
+    "doi": "10.3946/kjme.2025.068",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Ng, O., Han, S. P., Lee, M. H. M., & Phua, D. H. (2026). From setting to vetting: using artificial intelligence for Single Best Answer questions review. Korean Journal of Medical Education, 38(1), 10–14. https://doi.org/10.3946/kjme.2025.068"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "cross-sectional comparative reliability study",
+    "study_design": "cross-sectional study comparing AI-based QA-bot ratings with two experienced medical educator raters on a shared rubric",
+    "sample_description": "32 AI-generated Single Best Answer (SBA) questions across clinical domains; evaluated by QA-bot (custom GPT/GPT-4o) and two experienced educators",
+    "sample_size": "32 questions; 2 human reviewers",
+    "sector": "medical education",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "custom GPT QA-bot (GPT-4o) embedded with 25 criteria aligned with Bloom's taxonomy for rubric-based vetting of AI-generated SBA assessment items"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_specific_technology",
+      "human_oversight_mentioned",
+      "regulated_education_context"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai_system",
+      "no_conversational_governance_focus",
+      "assessment_QA_not_system_governance"
+    ],
+    "exclusion_reason": "Study addresses LLM-assisted quality assurance of medical education assessment items, not governance of conversational LLM-based systems in regulated environments.",
+    "decision_rationale": "The article empirically evaluates an LLM-based QA-bot for vetting SBA questions and emphasizes human oversight as essential for educational and clinical relevance. However, the provided text contains no focus on conversational AI, chatbots/agents for end users, or governance mechanisms such as guardrails, observability, audit, compliance, contestation, or post-deployment monitoring of conversational systems. The human oversight described is a first-pass review workflow for assessment items, which falls outside the review's conversational governance scope despite LLM use in a regulated education domain.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is clear from purpose, methods, and conclusion in the supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Clear feasibility/reliability objective and appropriate ICC/Cronbach's alpha reporting for inter-rater comparison. Ethics, limitations, and fuller methodological detail are not visible in the excerpt provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Methods appear internally coherent for an educational QA reliability study, but relevance to conversational governance in regulated LLM systems is very low based on the supplied text."
+  },
+  "coding": {
+    "open_codes": [
+      "SBA question vetting",
+      "LLM-assisted first-pass review",
+      "human oversight essential",
+      "rubric-based evaluation",
+      "inter-rater reliability",
+      "Bloom taxonomy criteria"
+    ],
+    "axial_codes": [
+      "human-AI collaboration in assessment QA",
+      "LLM quality assurance workflow"
+    ],
+    "theme": "LLM-supported quality assurance for medical education assessment items",
+    "subtheme": "human oversight in AI-assisted question vetting",
+    "concepts": [
+      "QA-bot",
+      "custom GPT",
+      "GPT-4o",
+      "Single Best Answer questions",
+      "question vetting",
+      "first-pass reviewer",
+      "human oversight"
+    ],
+    "model_layers": [
+      "application workflow",
+      "human oversight"
+    ],
+    "rq_alignment": [
+      "human_oversight"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "An LLM-based QA-bot can serve as an efficient first-pass reviewer of AI-generated SBA questions with good alignment to human raters, but human oversight remains essential for educational and clinical relevance.",
+    "contribution": "Empirical feasibility and reliability evidence for using a customized GPT-4o QA-bot with a 25-criterion Bloom-aligned rubric to vet medical education assessment items.",
+    "limitations": "AI was less consistent in detecting irrelevant complexity and accurately judging difficulty; human oversight still required. Full limitations section not provided in excerpt.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance; may serve only as peripheral contextual reference on human oversight in LLM-assisted review workflows if explicitly scoped beyond conversational systems."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses a large language model for SBA question vetting",
+      "excerpt": "This study investigates the feasibility and reliability of using a large language model to support the vetting of SBA questions.",
+      "page": "1",
+      "section": "Purpose/Methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "QA-bot built on specific LLM technology (custom GPT/GPT-4o)",
+      "excerpt": "We developed a customized QA-bot through custom GPT",
+      "page": "2",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "QA-bot is powered by GPT-4o",
+      "excerpt": "QA-bot is powered by GPT-4o and was developed to evalua",
+      "page": "2",
+      "section": "Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empirical cross-sectional design with defined sample",
+      "excerpt": "we conducted a cross-sectional study in March 2025 comparing the evaluation of SBA questions by an AI-based QA-bot with those of experienced medical educators.",
+      "page": "2",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Sample of 32 AI-generated SBA questions",
+      "excerpt": "A total of 32 SBA questions were generated using published LLM prompts",
+      "page": "2",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Strong alignment between QA-bot and human raters",
+      "excerpt": "QA-bot demonstrated good alignment with human raters (ICC=0.861 and 0.840).",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human oversight remains essential",
+      "excerpt": "with human oversight remaining essential for educational and clinical relevance.",
+      "page": "1",
+      "section": "Conclusion",
+      "supports": "coding"
+    },
+    {
+      "claim": "AI functions as first-pass reviewer, not final authority",
+      "excerpt": "AI can function as an efficient first-pass reviewer, improving consistency and reducing workload",
+      "page": "1",
+      "section": "Conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulated education context: medical education assessment",
+      "excerpt": "SBA questions are a widely adopted format in medical education",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational AI governance focus in provided text",
+      "excerpt": "the vetting process is under-explored and difficult to scale.",
+      "page": "1",
+      "section": "Purpose",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Rubric internal consistency reported",
+      "excerpt": "The rubric showed high internal consistency (Cronbach's alpha=0.878)",
+      "page": "1",
+      "section": "Results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Human inter-rater reliability reported",
+      "excerpt": "strong inter-rater reliability between human reviewers (intraclass correlation coefficient [ICC]=0.893)",
+      "page": "1",
+      "section": "Results",
+      "supports": "appraisal"
+    }
+  ]
+}

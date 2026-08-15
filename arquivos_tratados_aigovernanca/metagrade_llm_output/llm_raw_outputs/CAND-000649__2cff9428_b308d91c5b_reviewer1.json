@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "LLMOps, AgentOps, and MLOps for Generative AI: A Comprehensive Review",
+    "authors": "Satyadhar Joshi",
+    "year": "2025",
+    "venue": "International Journal of Computer Applications Technology and Research Volume 14–Issue 07",
+    "doi": "10.7753/IJCATR1407.1001",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Joshi, S. (2025). LLMOps, AgentOps, and MLOps for Generative AI: A Comprehensive review. International Journal of Computer Applications Technology and Research, 14(7), 1–11. https://doi.org/10.7753/IJCATR1407.1001"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic review (claimed)",
+    "study_design": "comprehensive literature review combining systematic review of articles and industry practices",
+    "sample_description": "over 100 recent articles and industry practices",
+    "sample_size": "over 100",
+    "sector": "enterprise; finance mentioned among industries",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "MLOps, LLMOps, GenAIOps, AgentOps, agentic AI, generative AI, multi-agent systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_GENAI",
+      "OPERATIONAL_GOVERNANCE",
+      "AGENT_SYSTEMS",
+      "OBSERVABILITY_MONITORING"
+    ],
+    "exclusion_codes": [
+      "WEAK_CONVERSATIONAL_FOCUS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a 2025 review focused on operational frameworks (MLOps, LLMOps, AgentOps) for generative and agentic AI, with explicit coverage of monitoring, debugging, observability, prompt management, hallucination mitigation, ethical considerations, and enterprise deployment. It aligns with operational/technical governance dimensions of the review scope but does not center conversational governance, chatbots, or regulated conversational oversight; only page 1 was available for appraisal.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter/page 1 was provided; full-text verification is needed for systematic review methodology transparency, conversational governance relevance, regulated-domain treatment, and claimed case studies."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "The abstract and introduction clearly state review aims and contributions, including a claimed systematic review of over 100 articles. However, the provided text does not describe search strategy, databases, inclusion/exclusion criteria, quality appraisal of included studies, or limitations. Appraisal is therefore provisional and limited to page 1."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The source appears coherent and potentially adequate as an operational review of LLMOps/AgentOps, but methodological detail is insufficient in the excerpt to support high confidence. Relevance to conversational governance in regulated settings is partial because the focus is AI operations rather than conversational oversight, contestation, or compliance workflows."
+  },
+  "coding": {
+    "open_codes": [
+      "AgentOps",
+      "LLMOps",
+      "MLOps",
+      "GenAIOps",
+      "model monitoring",
+      "prompt management",
+      "agent debugging",
+      "multi-agent coordination",
+      "hallucination mitigation",
+      "ethical considerations",
+      "observability",
+      "secure lifecycle management"
+    ],
+    "axial_codes": [
+      "AI operations lifecycle",
+      "operational governance",
+      "enterprise deployment",
+      "agentic systems management"
+    ],
+    "theme": "Operational frameworks for generative and agentic AI",
+    "subtheme": "Evolution from MLOps to LLMOps, GenAIOps, and AgentOps",
+    "concepts": [
+      "integrated operational framework",
+      "monitoring",
+      "debugging",
+      "observability",
+      "prompt engineering",
+      "multi-agent systems",
+      "enterprise best practices"
+    ],
+    "model_layers": [
+      "deployment",
+      "monitoring",
+      "debugging",
+      "lifecycle management",
+      "optimization"
+    ],
+    "rq_alignment": [
+      "operational governance",
+      "observability and monitoring",
+      "agent systems governance",
+      "risk-related deployment practices"
+    ],
+    "coding_confidence": 0.74
+  },
+  "synthesis": {
+    "main_claim": "The paper argues that operational practices for AI have evolved from MLOps to LLMOps and GenAIOps, and further to AgentOps for managing agentic AI, proposing an integrated framework and recommendations for enterprise-scale generative AI deployment.",
+    "contribution": "Provides a claimed systematic review of over 100 recent articles and industry practices, summarizes an integrated MLOps-LLMOps-AgentOps framework, presents case studies, and offers implementation guidelines for organizations adopting generative AI at scale.",
+    "limitations": "Provided evidence is limited to page 1; review methods, quality assessment, full findings, case study details, and explicit limitations are not visible in the supplied text.",
+    "use_in_review": "Use as supporting evidence for the operational/technical governance layer of LLM and agentic AI systems, especially monitoring, debugging, observability, and lifecycle management; not suitable as central evidence for conversational governance unless later sections directly address chatbots, human oversight, or regulated conversational controls."
+  },
+  "evidence": [
+    {
+      "claim": "The paper is a review article focused on AgentOps, LLMOps, and MLOps for generative AI.",
+      "excerpt": "LLMOps, AgentOps, and MLOps for Generative AI: A Comprehensive Review",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The study claims a systematic review of more than 100 sources.",
+      "excerpt": "Through a systematic review of over 100 recent articles and industry practices",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "The paper addresses monitoring, prompt management, debugging, and ethical considerations in generative AI operations.",
+      "excerpt": "including model monitoring, prompt management, agent debugging, and ethical considerations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "The paper proposes an integrated operational framework across MLOps, LLMOps, and AgentOps.",
+      "excerpt": "an integrated framework that combines MLOps, LLMOps, and AgentOps principles",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "AgentOps is presented as managing multi-agent systems with monitoring, debugging, and secure lifecycle management.",
+      "excerpt": "manage the unique complexities of multi-agent systems, including monitoring, debugging, and secure lifecycle management",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Observability is an explicit keyword/topic of the paper.",
+      "excerpt": "Keywords: Generative AI, MLOps, LLMOps, AgentOps, AI Operations, Model Deployment, AI Agents, Agentic AI, GenAI, MLOps, Observability, AI Operations",
+      "page": "1",
+      "section": "keywords",
+      "supports": "coding"
+    },
+    {
+      "claim": "Generative AI operational challenges include prompt engineering, hallucination mitigation, and multi-agent coordination.",
+      "excerpt": "generative AI systems require additional considerations for prompt engineering, hallucination mitigation, and multi-agent coordination",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Finance is mentioned as an application context for GenAI.",
+      "excerpt": "especially finance enabling capabilities in content creation, design, scientific research, risk analytics, and decision-making",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "The paper's stated contributions include operational requirements analysis and implementation guidelines.",
+      "excerpt": "A systematic analysis of operational requirements for generative AI systems across three dimensions: model operations (LLMOps), agent operations (AgentOps), and traditional machine learning operations (MLOps)",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No explicit conversational governance, chatbot, or regulated oversight workflow focus appears in the provided text.",
+      "excerpt": "best practices for deploying and managing agentic AI in enterprise environments",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

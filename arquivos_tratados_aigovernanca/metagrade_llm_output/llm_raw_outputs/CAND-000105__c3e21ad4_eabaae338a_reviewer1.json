@@ -1,0 +1,166 @@
+{
+  "bibliographic": {
+    "title": "The Corporate Governance Role of the Media",
+    "authors": "Alexander Dyck; Luigi Zingales",
+    "year": "2002",
+    "venue": "NBER Working Paper Series",
+    "doi": "unclear",
+    "publication_type": "report",
+    "peer_reviewed": "no",
+    "citation_apa": "Dyck, A., & Zingales, L. (2002). The corporate governance role of the media (NBER Working Paper No. 9309). National Bureau of Economic Research."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "economics corporate governance study combining anecdotal case illustrations and systematic empirical analysis",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "corporate governance and media influence on corporations",
+    "regulated_domain": "no",
+    "llm_specificity": "not_applicable",
+    "technology_context": "traditional print and broadcast media as a mechanism shaping corporate manager and director behavior; no AI, LLM, or conversational systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_wrong_technology",
+      "E2_wrong_topic_domain"
+    ],
+    "exclusion_reason": "The study examines corporate governance through traditional media pressure on managers and directors; the provided text contains no LLMs, generative AI, conversational systems, chatbots, agents, RAG, or AI governance mechanisms relevant to the review scope.",
+    "decision_rationale": "Although the paper uses governance-related terminology and matched deterministic screening terms, its object of study is media influence on corporate policy and reputation in firms, not conversational governance in LLM-based systems in regulated environments. The abstract and excerpts consistently frame governance as media-driven pressure on corporate managers, with no technology or AI context.",
+    "decision_confidence": 0.97,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Exclusion is clear from title, abstract, and full-text excerpts; no ambiguous overlap with LLM or conversational AI governance."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal based on limited excerpts only. Within its own domain, the paper states both anecdotal and systematic evidence and claims attention to reverse causality, but sampling, full design, and limitations are not visible in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "For the target review on conversational governance in LLM systems, relevance is absent in the provided text. Methodological adequacy cannot be fully judged because only partial front matter and selected hits were supplied."
+  },
+  "coding": {
+    "open_codes": [
+      "media pressure",
+      "corporate governance",
+      "reputation sanctions",
+      "socially acceptable behavior",
+      "societal norms",
+      "legal environment interaction"
+    ],
+    "axial_codes": [
+      "institutional accountability",
+      "non-digital governance mechanisms",
+      "reputational enforcement"
+    ],
+    "theme": "Media as an informal corporate governance mechanism",
+    "subtheme": "Public pressure, reputation, and norms shaping managerial behavior",
+    "concepts": [
+      "corporate governance",
+      "media influence",
+      "reputation",
+      "social norms",
+      "legal and competitive environment",
+      "informal contract enforcement"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.95
+  },
+  "synthesis": {
+    "main_claim": "The media pressure corporate managers and directors to behave in socially acceptable ways, sometimes aligning with shareholder value maximization and sometimes not, and media attention affects corporate environmental policy and the diversion of corporate resources to controlling shareholders.",
+    "contribution": "Argues that corporate governance research and reform debates should broaden beyond legal and contractual mechanisms to include media influence and societal norms.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central and supporting evidence. At most foundational contextual value for generic governance vocabulary, but not for LLM-based conversational governance, regulated AI deployment, or related technical-operational controls."
+  },
+  "evidence": [
+    {
+      "claim": "Paper topic is traditional corporate governance via media, not AI or conversational systems",
+      "excerpt": "In this paper we discuss the role of the media in pressuring corporate managers and directors to behave in ways that are \"socially acceptable\".",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study combines anecdotal and systematic empirical evidence on media effects",
+      "excerpt": "We provide both anecdotal and systematic evidence that media affect companies' policy toward the environment and the amount of corporate resources that are diverted to the sole advantage of controlling shareholders.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No LLM, generative AI, or conversational technology context appears in provided text",
+      "excerpt": "These episodes suggest that the media may play a role in shaping corporate policy.",
+      "page": "3",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance mechanisms discussed are legal, competitive, and reputational, not AI governance",
+      "excerpt": "How does the media's power relate to and interact with other corporate governance mechanisms, such as the legal and competitive environment?",
+      "page": "3",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Media affects corporate governance through reputation and political/legal responses",
+      "excerpt": "The media can play a role in corporate governance by affecting reputation in at least three ways. First, media attention can drive politicians to introduce corporate law reforms or enforce corporate laws",
+      "page": "5",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors require evidence beyond anecdotes to establish media's governance role",
+      "excerpt": "Before concluding that the media do indeed play a role in corporate governance we have to establish that this is more than a theoretical possibility supported by two anecdotes.",
+      "page": "6",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors claim robustness checks against spurious correlation and reverse causality",
+      "excerpt": "we obtain similar results. This supports the idea that our results are not driven by spurious correlations or reverse causality.",
+      "page": "7",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Policy contribution broadens governance debate beyond legal and contractual aspects",
+      "excerpt": "previous research has mostly focused on the legal and contractual aspects of corporate governance. The evidence provided in this paper and in Dyck and Zingales (2001) suggests that this focus should be broadened",
+      "page": "7",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Trust discussed as informal enforcement via multilateral sanctions, not AI oversight",
+      "excerpt": "The key issue with effective informal contract enforcement is to increase expected penalties associated with breach of trust",
+      "page": "18",
+      "section": "discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Bibliographic identification as NBER working paper by Dyck and Zingales, 2002",
+      "excerpt": "NBER WORKING PAPER SERIES THE CORPORATE GOVERNANCE ROLE OF THE MEDIA Alexander Dyck Luigi Zingales Working Paper 9309",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    }
+  ]
+}

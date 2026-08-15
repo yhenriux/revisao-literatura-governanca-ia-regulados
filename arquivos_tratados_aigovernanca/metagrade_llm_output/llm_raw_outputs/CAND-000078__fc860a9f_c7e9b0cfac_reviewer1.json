@@ -1,0 +1,163 @@
+{
+  "bibliographic": {
+    "title": "The HoPE Model Architecture: a Novel Approach to Pregnancy Information Retrieval Based on Conversational Agents",
+    "authors": "João Luis Zeni Montenegro; Cristiano André da Costa",
+    "year": "2022",
+    "venue": "Journal of Healthcare Informatics Research",
+    "doi": "10.1007/s41666-022-00115-0",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Montenegro, J. L. Z., & da Costa, C. A. (2022). The HoPE Model Architecture: a Novel Approach to Pregnancy Information Retrieval Based on Conversational Agents. Journal of Healthcare Informatics Research, 6, 253–294. https://doi.org/10.1007/s41666-022-00115-0"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "model development and comparative evaluation",
+    "study_design": "technical architecture study with dataset construction and benchmark comparison",
+    "sample_description": "Collections of health documents related to breastfeeding, childcare, pregnant care, nutrition, risks, vaccines, exams, and physical exercises; fine-tuning with 1,500 pairs",
+    "sample_size": "1,500 pairs for fine-tuning; full corpus size unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "Conversational agent using BERTimbau/Sentence-BERT, rule-based dialogue, NLP machine learning engines, ontology-oriented dialogs, knowledge base, and information retrieval for pregnancy questions in Portuguese"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_technology_focus",
+      "wrong_topic_focus",
+      "no_governance_focus"
+    ],
+    "exclusion_reason": "The study proposes and evaluates a pregnancy-focused conversational agent architecture using BERTimbau and information retrieval; it does not address conversational governance, accountability, oversight, audit, compliance, guardrails, or LLM-based systems.",
+    "decision_rationale": "Although the article is clearly about conversational agents in a regulated healthcare domain, the provided text shows a pre-LLM technical architecture and performance evaluation paper (F1-Score, Spearman correlation) rather than governance of conversational AI. GPT-3 appears only as background literature, not as the implemented system. No governance, human oversight, monitoring, audit, compliance, or accountability mechanisms are described as study objectives or contributions.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage marked borderline_manual (84.67, grade B) because conversational and regulated-domain signals are strong, but governance signals are weak; full-text review confirms technical CA focus without governance or LLM specificity."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Appraisal is based only on provided excerpts. The objective and evaluation metrics are clear, but ethics, limitations, and full sampling details are only partially visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the review question on conversational governance in LLM-based regulated systems, relevance is low because the article centers on a BERT-based retrieval architecture and performance benchmarking, not governance mechanisms or LLM deployment controls."
+  },
+  "coding": {
+    "open_codes": [
+      "conversational_agent",
+      "information_retrieval",
+      "pregnancy_healthcare",
+      "BERTimbau",
+      "data_augmentation",
+      "knowledge_base",
+      "ontology_dialog",
+      "rule_based_chatbot"
+    ],
+    "axial_codes": [
+      "technical_CA_architecture",
+      "health_information_retrieval",
+      "pre_llm_transformer_models"
+    ],
+    "theme": "Conversational agent architecture for pregnancy information retrieval",
+    "subtheme": "Hybrid dialogue design with rules, NLP engines, ontology, and knowledge base",
+    "concepts": [
+      "HoPE model",
+      "Sentence-BERT",
+      "intent recognition",
+      "dialogue management",
+      "clinical information support"
+    ],
+    "model_layers": [
+      "rule_based_dialogue",
+      "NLP_NLU",
+      "ontology",
+      "knowledge_base",
+      "information_retrieval"
+    ],
+    "rq_alignment": [
+      "conversational_ai_context",
+      "regulated_healthcare_context"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The authors propose the HoPE architecture, a pregnancy-focused conversational agent information retrieval system using BERTimbau with data augmentation, reporting strong retrieval performance (F1-Score 0.89).",
+    "contribution": "Provides a domain-tailored conversational agent architecture and comparative evaluation for Portuguese pregnancy health information retrieval using transformer-based embeddings rather than governance frameworks.",
+    "limitations": "Provided text indicates future clinical evaluation is still needed; broader limitations, ethics, and operational governance are not described in the excerpts.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance in LLM-regulated settings; at most foundational contextual background on healthcare conversational agents and knowledge-base-driven dialogue design."
+  },
+  "evidence": [
+    {
+      "claim": "Study objective is to evaluate and propose a pregnancy-tailored conversational agent model",
+      "excerpt": "The main goal of this study is to evaluate and propose a HoPE (Healthcare Obstetric in PrEgnancy) model that is tailored to pregnancy data.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Empirical performance outcomes are reported",
+      "excerpt": "The HoPE model architecture achieved an F1-Score of 0.89, outperforming other combinations tested in this study.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Implemented technology is BERTimbau-based, not an LLM governance system",
+      "excerpt": "We evaluated two pre-trained models in the Portuguese language for the conversational agent architecture proposal and chose the one with the best performance to compose the HoPE architecture.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated healthcare domain is explicit",
+      "excerpt": "dataset extraction and construction process based on collections of health documents related to breastfeeding, childcare, pregnant care, nutrition, risks, vaccines, exams, and physical exercises",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Dialog architecture combines rules, NLP ML, and ontology with knowledge base",
+      "excerpt": "The dialog structure proposed by HoPE uses a composite of pre-defined rules, NLP machine learning engines, and ontology-oriented dialogs.",
+      "page": "13",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Knowledge base is part of the conversational support stack",
+      "excerpt": "Prenatal Labor Postpartum NLP Interface NLU Ontology Information Retrieval Dictionary of Synonyms Knowledge Base",
+      "page": "13",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "GPT-3 is cited only in background literature, not as the studied system",
+      "excerpt": "Many architectures such as GPT-3 [32], BERT [27], and ELMO [75] have already been used frequently in recent studies.",
+      "page": "5",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No governance, oversight, audit, or compliance focus is stated in provided text",
+      "excerpt": "We will evaluate this approach for clinical studies in future studies.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

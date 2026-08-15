@@ -1,0 +1,200 @@
+{
+  "bibliographic": {
+    "title": "Building a Safe and Transparent Workflow for Large Language Model (LLM)-Assisted Clinical Trials and Prediction Models: A Technical Report",
+    "authors": "João Frutuoso",
+    "year": "2025",
+    "venue": "Cureus",
+    "doi": "10.7759/cureus.92571",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Frutuoso, J. (2025). Building a safe and transparent workflow for large language model (LLM)-assisted clinical trials and prediction models: A technical report. Cureus, 17(9), e92571. https://doi.org/10.7759/cureus.92571"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "technical report proposing a structured workflow and reusable checklists mapped to international reporting guidelines",
+    "study_design": "framework/workflow proposal",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-assisted clinical trials and prediction models; retrieval-augmented literature review; mapping to CONSORT-AI, SPIRIT-AI, TRIPOD+AI, PRISMA, and DECIDE-AI"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_governance",
+      "regulated_healthcare",
+      "human_oversight",
+      "audit_trail",
+      "risk_management",
+      "reporting_guidelines"
+    ],
+    "exclusion_codes": [
+      "no_conversational_system_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses LLM governance, accountability, audit trails, human oversight, privacy, and security in a regulated healthcare research context, but the provided text focuses on workflows for clinical trials and prediction models rather than conversational AI systems, chatbots, or agents.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and abstract/introduction excerpt were provided; full-text review is needed to confirm whether later sections address conversational systems and to assess complete methodology and limitations."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Appraisal is based only on the available excerpt. Objective and workflow structure are clearly stated, but empirical sampling, data collection, limitations, and detailed validation of the proposed workflow are not evidenced in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The workflow is coherently organized and relevant to LLM governance in regulated healthcare research, but the provided excerpt does not show empirical evaluation, participant/data details, or explicit limitations, limiting confidence in evidentiary adequacy."
+  },
+  "coding": {
+    "open_codes": [
+      "scope_definition_and_governance",
+      "retrieval_augmented_literature_review",
+      "model_evaluation_and_benchmarking",
+      "documentation_and_audit_trail",
+      "expert_quality_gates",
+      "manuscript_disclosure",
+      "privacy_and_security_safeguards",
+      "reporting_guidelines_mapping",
+      "human_oversight",
+      "research_integrity"
+    ],
+    "axial_codes": [
+      "LLM_governance_workflow",
+      "regulated_healthcare_research",
+      "accountability_and_transparency",
+      "technical_safeguards"
+    ],
+    "theme": "Governance workflow for LLM use in regulated clinical research",
+    "subtheme": "Research integrity and reporting compliance for LLM-assisted trials and prediction models",
+    "concepts": [
+      "governance",
+      "accountability",
+      "audit trail",
+      "human oversight",
+      "transparency",
+      "privacy",
+      "security",
+      "fairness",
+      "RAG",
+      "reporting guidelines",
+      "reproducibility"
+    ],
+    "model_layers": [
+      "governance_rules",
+      "technical_safeguards",
+      "human_oversight",
+      "documentation_and_audit",
+      "privacy_and_security"
+    ],
+    "rq_alignment": [
+      "LLM governance in regulated environments",
+      "human oversight and accountability",
+      "auditability and monitoring",
+      "risk mitigation in high-stakes healthcare contexts"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The authors propose a seven-step structured workflow to help research teams adopt LLMs in clinical trials and prediction models while preserving scientific standards, accountability, reproducibility, and transparency.",
+    "contribution": "Provides a practical, auditable governance-oriented workflow with reusable checklists linked to major AI reporting guidelines for trials, prediction models, systematic reviews, and decision-support investigations.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence on LLM governance, audit trails, human oversight, privacy/security safeguards, and reporting compliance in regulated healthcare research; not as central evidence for conversational AI governance unless later sections explicitly address chatbots or conversational systems."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed open access technical report in Cureus with identifiable bibliographic metadata.",
+      "excerpt": "Review began 08/29/2025 Review ended 09/11/2025 Published 09/17/2025",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The study proposes a structured seven-step workflow for safe and transparent LLM use in clinical trials and prediction models.",
+      "excerpt": "The workflow is organized into seven sequential steps: (i) scope definition and governance, (ii) retrieval-augmented literature review, (iii) model evaluation and benchmarking, (iv) documentation and audit trail, (v) expert quality gates, (vi) manuscript disclosure, and (vii) privacy and security safeguards.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "The work addresses governance, accountability, privacy, fairness, and risk concerns relevant to regulated healthcare research.",
+      "excerpt": "offering opportunities for efficiency but also raising concerns about privacy, fairness, accuracy, and accountability.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human oversight is positioned as essential rather than replacement of human reasoning.",
+      "excerpt": "Rather than replacing human reasoning, it aims to augment it, offering greater speed while maintaining accountability, reproducibility, and transparency.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "The framework combines governance rules, technical safeguards, and human oversight to create an auditable integration path.",
+      "excerpt": "By combining governance rules, technical safeguards, and human oversight, this workflow provides a practical and auditable path for integrating LLMs into clinical trials and prediction models",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "The workflow includes retrieval-augmented literature review as a technical step.",
+      "excerpt": "(ii) retrieval-augmented literature review",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Reusable checklists map study types to international AI reporting guidelines.",
+      "excerpt": "we provide reusable checklists that map study types to relevant international reporting guidelines, including Consolidated Standards of Reporting Trials - Artificial Intelligence (CONSORT-AI)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "The regulated healthcare context is explicit.",
+      "excerpt": "in health contexts, require careful governance to safeguard rigor and public trust",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Normative governance principles cited include transparency, accountability, and risk management.",
+      "excerpt": "outline principles of transparency, accountability, and risk management that are directly applicable to research settings",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Editorial accountability expectations require transparent disclosure and human accountability for AI-assisted work.",
+      "excerpt": "requires transparent disclosure of artificial intelligence (AI) assistance and reaffirms that humans remain accountable for the work",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational AI, chatbot, or agent system focus is evidenced in the provided text.",
+      "excerpt": "integrating LLMs into clinical trials and prediction models",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

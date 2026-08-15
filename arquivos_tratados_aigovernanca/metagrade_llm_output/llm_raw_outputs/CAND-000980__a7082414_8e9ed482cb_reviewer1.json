@@ -1,0 +1,193 @@
+{
+  "bibliographic": {
+    "title": "Optimization of hepatological clinical guidelines interpretation by large language models: a retrieval augmented generation-based framework",
+    "authors": "Simone Kresevic, Mauro Giuffrè, Milos Ajcevic, Agostino Accardo, Lory S. Crocè, Dennis L. Shung",
+    "year": "2024",
+    "venue": "npj Digital Medicine",
+    "doi": "10.1038/s41746-024-01091-y",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Kresevic, S., Giuffrè, M., Ajcevic, M., Accardo, A., Crocè, L. S., & Shung, D. L. (2024). Optimization of hepatological clinical guidelines interpretation by large language models: a retrieval augmented generation-based framework. npj Digital Medicine. https://doi.org/10.1038/s41746-024-01091-y"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "ablation study with experimental comparison and expert-reviewed accuracy assessment",
+    "study_design": "Comparison of baseline GPT-4 Turbo against five experimental setups with increasing complexity (in-context guidelines, guideline reformatting, few-shot learning); primary outcome qualitative expert review of accuracy; secondary outcome text-similarity scores",
+    "sample_description": "Clinical guidelines for chronic Hepatitis C Virus infection management; two experts drafted five comprehensive clinical cases reflecting different HCV-related management strategies",
+    "sample_size": "five experimental setups; five clinical cases drafted by two experts",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "OpenAI GPT-4 Turbo; retrieval augmented generation (RAG); prompt engineering; clinical decision support systems (CDSS); guideline conversion and reformatting; few-shot learning"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_SPECIFIC",
+      "RAG",
+      "REGULATED_HEALTHCARE",
+      "CDSS",
+      "EXPERT_REVIEW"
+    ],
+    "exclusion_codes": [
+      "WEAK_CONVERSATIONAL_GOVERNANCE_FOCUS",
+      "NO_OPERATIONAL_GOVERNANCE_FRAMEWORK"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article provides empirical evidence on LLM+RAG optimization for clinical guideline interpretation in regulated healthcare (HCV management) with expert-reviewed accuracy evaluation. It is relevant to operational technical governance of knowledge delivery via RAG and prompt engineering, but the provided text does not address conversational governance, guardrails, auditability, accountability, human oversight in deployment, or post-deployment monitoring as primary objects of study. Dialogue systems are mentioned only as prior LLM application context, not as the studied system.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter, abstract-level content, and partial methods/discussion excerpts were provided; full-text sections on limitations, ethics, deployment governance, and conversational interaction design may alter eligibility and appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Objective and experimental design are clearly described in the abstract. Primary outcome relies on expert qualitative review and secondary text-similarity metrics; statistical significance is reported (p < 0.001). Sampling details beyond five expert-drafted cases and five experimental setups are not visible in the provided excerpts. Ethics, limitations, and deployment governance are not evidenced in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are internally coherent for the stated RAG/prompt-engineering optimization question and report large accuracy gains under expert review. Adequacy for broader inference is limited by narrow disease domain, small case set visible in excerpts, and absence of operational governance evidence. Relevance to conversational governance in regulated LLM systems is partial: strong on regulated healthcare LLM+RAG technical optimization, weak on governance/accountability mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "RAG framework",
+      "guideline reformatting",
+      "prompt engineering",
+      "ablation study",
+      "expert review",
+      "clinical decision support",
+      "accuracy improvement",
+      "few-shot learning",
+      "HCV guidelines",
+      "text-similarity evaluation"
+    ],
+    "axial_codes": [
+      "technical optimization of LLM outputs",
+      "knowledge structuring for retrieval",
+      "human expert validation",
+      "regulated clinical workflow support"
+    ],
+    "theme": "LLM-RAG optimization for clinical guideline interpretation",
+    "subtheme": "structured guideline formatting and prompt engineering in hepatology CDSS",
+    "concepts": [
+      "retrieval augmented generation",
+      "clinical guidelines",
+      "GPT-4 Turbo",
+      "expert-reviewed accuracy",
+      "data quality vs data quantity",
+      "clinical decision support systems"
+    ],
+    "model_layers": [
+      "model layer (GPT-4 Turbo)",
+      "retrieval/knowledge layer (guideline corpus, RAG)",
+      "prompt engineering layer",
+      "evaluation layer (expert review, text-similarity scores)"
+    ],
+    "rq_alignment": [
+      "operational technical governance of knowledge delivery",
+      "human oversight via expert review in evaluation",
+      "regulated healthcare LLM application"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Structured guideline reformatting and RAG-based in-context provision substantially improve GPT-4 Turbo accuracy in interpreting hepatological clinical guidelines for CDSS, rising from 43% to 99% under expert review, whereas few-shot learning did not improve overall accuracy.",
+    "contribution": "Empirical ablation evidence that data quality and guideline structuring matter more than few-shot quantity for accurate LLM-based clinical guideline delivery in a regulated healthcare use case.",
+    "limitations": "Provided excerpts do not report study limitations, ethics approval, or governance/deployment controls; generalizability beyond HCV guideline interpretation is unclear from supplied text.",
+    "use_in_review": "Use as supporting evidence for RAG and prompt-engineering practices in regulated healthcare LLM systems and for expert-in-the-loop evaluation of output accuracy; not suitable as central evidence for conversational governance, accountability, audit, or post-deployment oversight frameworks."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses a specific LLM (GPT-4 Turbo) with RAG and prompt engineering for healthcare CDSS guideline interpretation.",
+      "excerpt": "Utilizing OpenAI’s GPT-4 Turbo model, we developed a customized LLM framework that incorporates retrieval augmented generation (RAG) and prompt engineering.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research design is an ablation study comparing multiple experimental setups.",
+      "excerpt": "An ablation study was conducted to evaluate the impact of different formatting and learning strategies on the LLM’s answer generation accuracy.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Primary outcome is expert-reviewed qualitative accuracy; secondary outcome is text-similarity to expert answers.",
+      "excerpt": "Our primary outcome was the qualitative assessment of accuracy based on expert review, while secondary outcomes included the quantitative measurement of similarity of LLM-generated responses to expert-provided answers using text-similarity scores.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Structured in-context guidelines markedly improved accuracy.",
+      "excerpt": "The results showed a signiﬁcant improvement in accuracy from 43 to 99% (p < 0.001), when guidelines were provided as context in a coherent corpus of text and non-text sources were converted into text.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Few-shot learning did not improve overall accuracy.",
+      "excerpt": "In addition, few-shot learning did not seem to improve overall accuracy.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulated healthcare context with clinical guidelines for HCV management.",
+      "excerpt": "This study investigates the integration of LLMs into healthcare, speciﬁcally focusing on improving clinical decision support systems (CDSSs) through accurate interpretation of medical guidelines for chronic Hepatitis C Virus infection management.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Risk of inaccurate LLM responses is acknowledged as a healthcare concern.",
+      "excerpt": "However, a primary concern for LLMs application in healthcare is the potential risk of inaccurate responses",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Dialogue systems are referenced only as prior LLM clinical applications, not the studied system.",
+      "excerpt": "LLMs have demonstrated proﬁciency in tasks across the spec- trum of clinical activity, such as medical inquiry responses, dialogue sys- tems, and the synthesis and completion of clinical reports",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Experts created five clinical cases for evaluation.",
+      "excerpt": "In addition, the two experts drafted ﬁve comprehensive clinical cases, each reﬂecting different HCV-related management strategies",
+      "page": "5",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Framework integrates patient/EHR context with guideline retrieval before LLM recommendation.",
+      "excerpt": "Afterward, the standardized prompt is queried to the LLM, which has access to the relevant guidelines to recommend the most appropriate treatment.",
+      "page": "4",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Main contribution emphasizes structured reformatting and prompt engineering over data quantity.",
+      "excerpt": "The study highlights that structured guideline reformatting and advanced prompt engineering (data quality vs. data quantity) can enhance the efﬁcacy of LLM integrations to CDSSs for guideline delivery.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "bibliographic": {
+    "title": "ChatGPT as a medical doctor? A diagnostic accuracy study on common and rare diseases",
+    "authors": "Lars Mehnen; Stefanie Gruarin; Mina Vasileva; Bernhard Knapp",
+    "year": "2023",
+    "venue": "medRxiv",
+    "doi": "10.1101/2023.04.20.23288859",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Mehnen, L., Gruarin, S., Vasileva, M., & Knapp, B. (2023). ChatGPT as a medical doctor? A diagnostic accuracy study on common and rare diseases. medRxiv. https://doi.org/10.1101/2023.04.20.23288859"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "diagnostic accuracy evaluation",
+    "study_design": "comparative performance study using clinical case vignettes",
+    "sample_description": "50 full-text clinical case vignettes including 10 rare disease presentations; comparison between ChatGPT 3.5, ChatGPT 4, and human medical doctors",
+    "sample_size": "50",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "ChatGPT 3.5 and ChatGPT 4 used as general-purpose chatbot LLMs for medical differential diagnosis from clinical vignettes"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "no_governance_focus",
+      "performance_evaluation_only"
+    ],
+    "exclusion_reason": "The study evaluates diagnostic accuracy of ChatGPT in healthcare but does not address conversational governance, oversight mechanisms, guardrails, auditability, compliance, monitoring, accountability, or related governance constructs.",
+    "decision_rationale": "Although the paper involves ChatGPT as a chatbot LLM in a regulated healthcare setting and cautions non-professional use, the stated aim and reported work center on diagnostic accuracy and model performance comparison rather than governance of conversational AI systems. No operational, technical, or organizational governance mechanisms are studied in the provided text.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Scope mismatch is explicit from title, abstract, and introduction; exclusion does not depend on ambiguous governance terminology."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "For its own aim of diagnostic accuracy assessment, the objective and sample are reasonably clear in the abstract, but the provided excerpt lacks sufficient methodological detail to appraise data collection, analysis rigor, and limitations. Appraisal is based only on front matter and should not be treated as full-study quality judgment."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The abstract presents internally coherent performance claims for a clearly defined empirical task, but the excerpt provides limited methodological detail and the study is only weakly relevant to conversational governance because it does not examine governance processes, controls, or accountability structures."
+  },
+  "coding": {
+    "open_codes": [
+      "diagnostic_accuracy",
+      "clinical_case_vignettes",
+      "chatgpt_healthcare_use",
+      "rare_disease_diagnosis",
+      "human_doctor_comparison",
+      "caution_for_non_professionals"
+    ],
+    "axial_codes": [
+      "LLM_application_in_healthcare",
+      "performance_benchmarking",
+      "human_assistance_not_governance"
+    ],
+    "theme": "LLM diagnostic performance in healthcare",
+    "subtheme": "ChatGPT accuracy on common and rare clinical cases",
+    "concepts": [
+      "ChatGPT",
+      "clinical case vignettes",
+      "diagnostic accuracy",
+      "differential diagnosis",
+      "rare diseases",
+      "human medical doctors",
+      "large language models",
+      "chatbot"
+    ],
+    "model_layers": [],
+    "rq_alignment": [
+      "regulated_healthcare_context",
+      "conversational_LLM_use"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "ChatGPT 4 achieves high diagnostic accuracy on common clinical vignettes and lower but still notable accuracy on rare cases, outperforming ChatGPT 3.5 and potentially assisting physicians, but it should be used cautiously by non-professionals.",
+    "contribution": "Empirical evidence on ChatGPT diagnostic performance across common and rare disease presentations in a healthcare context.",
+    "limitations": "Only abstract and partial introduction were available for appraisal; peer review status is not certified; governance mechanisms are not investigated.",
+    "use_in_review": "Exclude as central or supporting governance evidence; may serve only as peripheral contextual background on LLM chatbot use in regulated healthcare if broader background mapping is needed."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on diagnostic accuracy, not conversational governance.",
+      "excerpt": "we tested ChatGPT for its diagnostic accuracy on a total of 50 clinical case vignettes",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Uses specific ChatGPT models in a healthcare regulated context.",
+      "excerpt": "ChatGPT 4 solves all common cases within 2 suggested diagnoses",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Involves conversational LLM/chatbot technology.",
+      "excerpt": "GPT models available as chatbot (e.g. chatGPT)",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Recommends human professional assistance rather than governance mechanisms.",
+      "excerpt": "ChatGPT might be a good tool to assist human medical doctors",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Warns against unsupervised use by lay users.",
+      "excerpt": "ChatGPT should be used with caution by non-professionals",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Study is a preprint not certified by peer review.",
+      "excerpt": "which was not certified by peer review",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Sample comprises 50 clinical vignettes including rare cases.",
+      "excerpt": "50 clinical case vignettes including 10 rare case presentations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Compares ChatGPT performance with human doctors.",
+      "excerpt": "compared the performance between ChatGPT and human medical doctors",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No governance, audit, compliance, or oversight framework is studied in provided text.",
+      "excerpt": "tested the ability of ChatGPT to find the correct diagnoses for full-text clinical case vignettes",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

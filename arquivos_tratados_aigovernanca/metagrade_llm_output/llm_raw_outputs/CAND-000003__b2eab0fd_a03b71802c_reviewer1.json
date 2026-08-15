@@ -1,0 +1,167 @@
+{
+  "bibliographic": {
+    "title": "Auditing large language models: a three-layered approach",
+    "authors": "Jakob Mökander; Jonas Schuett; Hannah Rose Kirk; Luciano Floridi",
+    "year": "2023",
+    "venue": "AI and Ethics",
+    "doi": "10.1007/s43681-023-00289-2",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Mökander, J., Schuett, J., Kirk, H. R., & Floridi, L. (2023). Auditing large language models: A three-layered approach. AI and Ethics, 4, 1085–1115. https://doi.org/10.1007/s43681-023-00289-2"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "conceptual framework development",
+    "study_design": "three-layered auditing framework proposal for LLMs",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "technology providers and policymakers",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "large language models; foundation models; downstream LLM applications"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full-text eligibility",
+    "inclusion_codes": [
+      "llm_governance",
+      "auditing_framework",
+      "risk_management",
+      "governance_mechanism"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly targets governance of LLMs through a structured three-layer auditing blueprint (governance, model, application), aligning with the review focus on audit, risk, compliance, and AI governance; conversational specificity is indirect but application-level audits cover LLM-based applications.",
+    "decision_confidence": 0.86,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Provided extract is limited mainly to front matter and page 1; full-text verification is needed to confirm framework detail, operational procedures, and sector-specific claims."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Non-empirical methodological article; sampling and data-collection criteria are not applicable. Appraisal is based only on page-1 text provided; full framework operationalization and validation are not visible in the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 5,
+    "overall_confidence": "moderate",
+    "explanation": "The three-layer framework is clearly and coherently articulated in the abstract, with explicit acknowledgment of auditing limits. Confidence is moderated because only introductory text was supplied and no empirical evaluation or detailed audit protocols are evidenced in the extract."
+  },
+  "coding": {
+    "open_codes": [
+      "auditing",
+      "governance mechanism",
+      "three-layer framework",
+      "governance audits",
+      "model audits",
+      "application audits",
+      "ethical and social risks",
+      "emergent capabilities"
+    ],
+    "axial_codes": [
+      "LLM governance",
+      "risk identification and mitigation",
+      "multi-level accountability",
+      "independent evaluation"
+    ],
+    "theme": "Multi-level auditing as LLM governance",
+    "subtheme": "Governance, model, and application audit coordination",
+    "concepts": [
+      "governance audits",
+      "model audits",
+      "application audits",
+      "procedural regularity",
+      "operational independence",
+      "emergent capabilities",
+      "downstream tasks"
+    ],
+    "model_layers": [
+      "governance audits",
+      "model audits",
+      "application audits"
+    ],
+    "rq_alignment": [
+      "AI governance mechanisms",
+      "auditing and accountability",
+      "risk management for LLMs",
+      "post-release evaluation of LLM applications"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "LLM governance can be advanced through a coordinated three-layer auditing approach spanning governance audits of providers, model audits before release, and application audits of LLM-based systems.",
+    "contribution": "Proposes a novel blueprint to address gaps in existing auditing procedures for LLMs with emergent, task-adaptable capabilities.",
+    "limitations": "Auditing cannot fully resolve all LLM governance challenges; both the three-layer approach and auditing LLMs in general have inherent limits, as stated by the authors.",
+    "use_in_review": "Use as central methodological evidence for structuring governance, audit, and risk-management dimensions in conversational LLM systems, especially at provider, model, and application levels."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses specifically on auditing large language models.",
+      "excerpt": "Auditing large language models: a three‑layered approach",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors propose a three-layer auditing framework for LLMs.",
+      "excerpt": "we propose a three-layered approach, whereby governance audits (of technology providers that design and disseminate LLMs), model audits (of LLMs after pre-training but prior to their release), and application audits (of applications based on LLMs) complement and inform each other",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Auditing is framed as a governance mechanism for ethical, legal, and technical robustness.",
+      "excerpt": "auditing as a promising governance mechanism to help ensure that AI systems are designed and deployed in ways that are ethical, legal, and technically robust",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Existing auditing procedures are insufficient for LLM-specific governance challenges.",
+      "excerpt": "existing auditing procedures fail to address the governance challenges posed by LLMs, which display emergent capabilities and are adaptable to a wide range of downstream tasks",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors explicitly discuss limitations of auditing LLMs.",
+      "excerpt": "we discuss the limitations not only of our three-layered approach but also of the prospect of auditing LLMs at all",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study is presented as original research proposing a methodological toolkit.",
+      "excerpt": "ORIGINAL RESEARCH",
+      "page": "1",
+      "section": "front matter",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Target audience includes technology providers and policymakers evaluating LLMs.",
+      "excerpt": "expand the methodological toolkit available to technology providers and policymakers who wish to analyse and evaluate LLMs from technical, ethical, and legal perspectives",
+      "page": "1",
+      "section": "abstract",
+      "supports": "transferability"
+    },
+    {
+      "claim": "Auditing is defined as systematic, independent evidence evaluation communicated to stakeholders.",
+      "excerpt": "Auditing is characterised by a systematic and independent process of obtaining and evaluating evidence regarding an entity's actions or properties and communicating the results of that evaluation to relevant stakeholders",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    }
+  ]
+}

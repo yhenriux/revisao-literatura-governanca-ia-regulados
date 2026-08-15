@@ -1,0 +1,200 @@
+{
+  "bibliographic": {
+    "title": "From principles to practice: a novel matrix for evaluating AI-powered learning platforms based on the UNESCO Ethical Impact Assessment tool",
+    "authors": "Rima J. Isaifan, Ayman Tawalbeh, Mazen O. Hasna",
+    "year": "2025",
+    "venue": "Frontiers in Education",
+    "doi": "10.3389/feduc.2025.1640780",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Isaifan, R. J., Tawalbeh, A., & Hasna, M. O. (2025). From principles to practice: a novel matrix for evaluating AI-powered learning platforms based on the UNESCO Ethical Impact Assessment tool. Frontiers in Education, 10, 1640780. https://doi.org/10.3389/feduc.2025.1640780"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "framework development and applied platform evaluation using UNESCO Ethical Impact Assessment operationalization",
+    "study_design": "development of Gulf-AI Education Tool Evaluation Matrix (G-AIETM) applied to seven AI-powered educational platforms with 5-point Likert scoring and normalized rankings; actionable implementation framework for Khanmigo",
+    "sample_description": "seven globally recognized AI-powered educational platforms: Khanmigo, CENTURY Tech, MATHia, Knewton Alta, AltSchool, Querium, and Squirrel AI",
+    "sample_size": "7 platforms",
+    "sector": "education",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI-powered learning platforms including intelligent tutoring systems, NLP tools, predictive analytics, recommender systems, and Khanmigo powered by GPT technology; evaluation focused on ethical and pedagogical readiness in Gulf/Qatar education context"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "AI_governance_framework",
+      "regulated_education_context",
+      "ethical_impact_assessment",
+      "platform_evaluation",
+      "accountability_compliance"
+    ],
+    "exclusion_codes": [
+      "limited_conversational_ai_focus",
+      "not_primary_llm_governance_study"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The study operationalizes UNESCO EIA into G-AIETM and evaluates ethical governance of AI educational platforms in a regulated education context, with Khanmigo noted as GPT-powered. It addresses accountability, transparency, data governance, compliance, and localization barriers relevant to governed AI deployment, but does not center conversational systems, chatbot governance, guardrails, observability, or LLM-specific operational controls.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Confirm whether Khanmigo's GPT-powered conversational features are evaluated beyond brief mention of adaptive interaction, and verify full-text coverage of governance mechanisms versus pedagogical localization."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Strengths include clear operationalization of UNESCO EIA into 18 indicators and structured scoring across seven platforms. Limitations visible in excerpt include reliance on publicly available documentation, small purposive platform sample, and limited detail on inter-rater reliability or validation of the adapted matrix."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The framework and evaluation logic are coherent and explicitly tied to UNESCO EIA, but evidence is documentary and platform-scored rather than empirically tested in deployment. Relevance to conversational LLM governance is indirect: governance themes are strong, while conversational/LLM-specific operational governance is only partially evidenced."
+  },
+  "coding": {
+    "open_codes": [
+      "UNESCO Ethical Impact Assessment",
+      "G-AIETM evaluation matrix",
+      "platform ethical scoring",
+      "Arabic language localization",
+      "data governance deficits",
+      "cultural contextualization",
+      "stakeholder dialogue",
+      "implementation phases",
+      "GPT-powered tutoring platform"
+    ],
+    "axial_codes": [
+      "ethical AI governance in education",
+      "framework operationalization",
+      "regulated adoption barriers",
+      "platform readiness assessment"
+    ],
+    "theme": "Ethical governance and evaluation of AI-powered educational platforms",
+    "subtheme": "Operationalizing UNESCO EIA through a localized evaluation matrix",
+    "concepts": [
+      "ethical impact assessment",
+      "responsible AI adoption",
+      "localization",
+      "data residency compliance",
+      "algorithmic transparency",
+      "adaptive learning platforms"
+    ],
+    "model_layers": [
+      "evaluation matrix (18 indicators)",
+      "scoring and ranking layer",
+      "implementation framework (Khanmigo)",
+      "stakeholder engagement and lifecycle ethics"
+    ],
+    "rq_alignment": [
+      "AI governance in regulated education",
+      "accountability and compliance assessment",
+      "ethical evaluation frameworks",
+      "partial alignment to LLM deployment governance"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The authors propose G-AIETM as a structured adaptation of the UNESCO EIA Tool to evaluate AI-powered educational platforms against 18 ethical and pedagogical indicators, finding Khanmigo highest at 74.4% while all platforms require significant Arabic, cultural, and data-governance localization for Qatar.",
+    "contribution": "Provides a replicable, evidence-based evaluation matrix and implementation roadmap linking UNESCO ethical principles to practical platform assessment and localized deployment planning in Gulf education contexts.",
+    "limitations": "Evaluation depends on publicly available platform documentation; persistent barriers include resource limitations, regulatory gaps, insufficient Arabic support, and weak local compliance mechanisms across platforms.",
+    "use_in_review": "Use as supporting evidence on ethical governance frameworks and platform-level accountability/compliance evaluation in regulated education; not as central evidence for conversational LLM governance, guardrails, observability, or human oversight in dialogue systems."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article in Frontiers in Education with DOI and reviewer listing",
+      "excerpt": "REVIEWED BY Mohammad Mohi Uddin, University of Alabama, United States Aarron Atkinson-Toal, Durham University, United Kingdom",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study develops and applies G-AIETM based on UNESCO EIA to seven platforms",
+      "excerpt": "operationalizing the UNESCO Ethical Impact Assessment (EIA) Tool through the development of the Gulf-AI Education Tool Evaluation Matrix (G-AIETM)",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample comprises seven named AI-powered educational platforms",
+      "excerpt": "evaluate seven globally recognized AI-powered educational platforms: Khanmigo, CENTURY Tech, MATHia, Knewton Alta, AltSchool, Querium, and Squirrel AI",
+      "page": "1",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Khanmigo is GPT-powered and scored highest",
+      "excerpt": "Khanmigo, developed by Khan Academy and powered by GPT technology, achieved the highest overall score at 74.4%",
+      "page": "9",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance, accountability, privacy, and transparency are core concerns",
+      "excerpt": "Concerns over bias, data privacy, cultural alignment, and accountability underscore the need for frameworks",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Platforms show data governance and transparency deficits",
+      "excerpt": "requiring significant localization in language, curriculum alignment, and data governance",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "UNESCO EIA framed as participatory lifecycle process with stakeholder dialogue",
+      "excerpt": "a dynamic participatory process that encourages continuous ethical reflection and dialogue among stakeholders",
+      "page": "4",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Khanmigo strengths include ethical compliance and adaptive interaction but lacks Arabic and compliance mechanisms",
+      "excerpt": "strong performance in ethical compliance, explainability, adaptive interaction, and compatibility with classroom platforms",
+      "page": "9",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Regulated education context with compliance and localization requirements",
+      "excerpt": "assurance of data residency compliance",
+      "page": "9",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study contributes to ethical governance of AI in education",
+      "excerpt": "This contributes novel insights into the ethical governance of AI in education",
+      "page": "1",
+      "section": "limitations",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Arabic NLP integration recommended as governance/localization requirement",
+      "excerpt": "Integrate native Modern Standard Arabic (MSA) capability for both input and output",
+      "page": "14",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Generative AI referenced contextually but manuscript declares no Gen AI use in writing",
+      "excerpt": "The author(s) declare that no Gen AI was used in the creation of this manuscript",
+      "page": "18",
+      "section": "results",
+      "supports": "methodology"
+    }
+  ]
+}

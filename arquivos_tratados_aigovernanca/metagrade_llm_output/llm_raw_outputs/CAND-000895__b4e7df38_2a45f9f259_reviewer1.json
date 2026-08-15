@@ -1,0 +1,168 @@
+{
+  "bibliographic": {
+    "title": "Probabilistic Tree-of-thought Reasoning for Answering Knowledge-intensive Complex Questions",
+    "authors": "Shulin Cao, Jiajie Zhang, Jiaxin Shi, Xin Lv, Zijun Yao, Qi Tian, Juanzi Li, Lei Hou",
+    "year": "2023",
+    "venue": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Cao, S., Zhang, J., Shi, J., Lv, X., Yao, Z., Tian, Q., Li, J., & Hou, L. (2023). Probabilistic Tree-of-thought Reasoning for Answering Knowledge-intensive Complex Questions. In Findings of the Association for Computational Linguistics: EMNLP 2023 (pp. 12541–12560)."
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "Probabilistic Tree-of-thought Reasoning (ProbTree) with retrieval-augmented LLM reasoning",
+    "study_design": "Experimental evaluation on three Complex QA datasets under the open-domain setting",
+    "sample_description": "Three Complex QA datasets in open-domain setting; experiments use OpenAI GPT-3 (text-davinci-003) as backend language model",
+    "sample_size": "unclear",
+    "sector": "NLP research / open-domain question answering",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Large language models, chain-of-thought reasoning, retrieval-augmented LLMs, closed-book QA, open-book QA, query-tree decomposition, probabilistic confidence-based answer selection"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "OUT_OF_SCOPE_GOVERNANCE",
+      "NO_CONVERSATIONAL_AI",
+      "NO_REGULATED_DOMAIN",
+      "TECHNICAL_METHOD_ONLY"
+    ],
+    "exclusion_reason": "Technical conference paper on ProbTree for knowledge-intensive complex QA using LLMs and retrieval; does not address conversational governance, regulated/high-stakes deployment, human oversight, accountability, compliance, audit, or operational risk controls.",
+    "decision_rationale": "Although the paper extensively discusses LLMs and retrieval-augmented reasoning, its focus is algorithmic improvement for complex open-domain QA (negative retrieval, limited sight in CoT, probabilistic tree reasoning). No evidence in the provided text addresses chatbots, conversational systems, governance frameworks, supervision, contestability, monitoring, or regulated sectors. Explainability is mentioned only as a structural property of tree-based reasoning, not as a governance mechanism.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Scope mismatch is clear from abstract, introduction, methods, results, and limitations; exclusion does not hinge on ambiguous terminology."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Well-specified technical objective and method with reported ablations and SOTA comparisons on three datasets. Limitations acknowledge dependence on large, well-calibrated LLMs with long context. No ethics, stakeholder, or deployment governance discussion present in provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internally coherent technical study with adequate experimental reporting for its NLP task, but very low relevance to conversational governance in regulated LLM systems because governance, oversight, compliance, and regulated contexts are absent from the provided evidence."
+  },
+  "coding": {
+    "open_codes": [
+      "probabilistic_tree_reasoning",
+      "retrieval_augmented_llm",
+      "chain_of_thought_limitations",
+      "negative_retrieval",
+      "confidence_calibration",
+      "query_tree_decomposition",
+      "structural_explainability",
+      "open_domain_complex_qa"
+    ],
+    "axial_codes": [
+      "llm_reasoning_architecture",
+      "rag_error_mitigation",
+      "uncertainty_in_reasoning"
+    ],
+    "theme": "Technical LLM reasoning and retrieval augmentation",
+    "subtheme": "Tree-structured probabilistic reasoning for complex QA",
+    "concepts": [
+      "ProbTree",
+      "negative retrieval",
+      "limited sight",
+      "closed-book QA",
+      "open-book QA",
+      "answer confidence",
+      "tree-of-thought reasoning"
+    ],
+    "model_layers": [
+      "reasoning_layer",
+      "retrieval_layer",
+      "confidence_estimation_layer"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "ProbTree improves knowledge-intensive complex question answering by decomposing questions into a query tree and conducting probabilistic leaf-to-root reasoning that selects between closed-book and open-book answers based on confidence, mitigating negative retrieval and error propagation in chain-based methods.",
+    "contribution": "Introduces tree-of-thought reasoning with probabilistic self-evaluation for retrieval-augmented LLMs and reports significant F1 gains over SOTA on three open-domain Complex QA datasets using GPT-3 (text-davinci-003).",
+    "limitations": "Requires a backend language model with strong few-shot CoT ability, good calibration, and long context; currently limited to LLMs with over 100B parameters.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance in regulated LLM systems; at most marginal foundational context on RAG failure modes (negative retrieval, error propagation) if the review separately codes technical reliability risks in LLM reasoning pipelines."
+  },
+  "evidence": [
+    {
+      "claim": "Paper is a peer-reviewed EMNLP 2023 conference publication on LLM-based complex QA.",
+      "excerpt": "Findings of the Association for Computational Linguistics: EMNLP 2023, pages 12541–12560",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study proposes ProbTree, a technical reasoning method rather than a governance framework.",
+      "excerpt": "we propose a novel approach: Probabilistic Tree-of-thought Reasoning (ProbTree)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Focus is open-domain complex QA with LLMs and external retrieval, not regulated deployment.",
+      "excerpt": "The experiments on three Complex QA datasets under the open-domain setting show that our approach outperforms SOTA methods significantly",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Addresses RAG reliability issues (negative retrieval, error propagation) at algorithmic level.",
+      "excerpt": "unnecessary or incorrect retrieval may mislead the reasoning",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Uses specific LLM backend in experiments.",
+      "excerpt": "experimental results using OpenAI GPT3 (text-davinci-003) show that ProbTree improves the performance significantly",
+      "page": "2",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Mentions explainability only as structural property of tree reasoning, not governance.",
+      "excerpt": "The tree structure brings explainability to their model.",
+      "page": "3",
+      "section": "related work",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Limitations concern model capabilities, not governance or regulated use.",
+      "excerpt": "ProbTree relies on a backend language model that (1) has good few-shot CoT reasoning ability; (2) is well-calibrated; (3) has a long context size.",
+      "page": "9",
+      "section": "limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational AI or chatbot context appears in provided text.",
+      "excerpt": "Large language models (LLMs) are capable of answering knowledge-intensive complex questions with chain-of-thought (CoT) reasoning.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Methodological transparency includes code availability.",
+      "excerpt": "Our codes and datasets can be obtained from https://github.com/THU-KEG/ProbTree.",
+      "page": "2",
+      "section": "related work",
+      "supports": "appraisal"
+    }
+  ]
+}

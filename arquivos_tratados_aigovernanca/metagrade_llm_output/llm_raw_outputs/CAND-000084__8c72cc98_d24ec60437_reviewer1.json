@@ -1,0 +1,181 @@
+{
+  "bibliographic": {
+    "title": "LLM-Assisted Scoping Review of Artificial Intelligence in Brazilian Public Health: Lessons from Transfer and Federated Learning for Resource-Constrained Settings",
+    "authors": "Fabiano Tonaco Borges; Gabriela do Manco Machado; Maíra Araújo de Santana; Karla Amorim Sancho; Giovanny Vinícius Araújo de França; Wellington Pinheiro dos Santos; Carlos Eduardo Gomes Siqueira",
+    "year": "2026",
+    "venue": "International Journal of Environmental Research and Public Health",
+    "doi": "10.3390/ijerph23010081",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Borges, F. T., Machado, G. M., de Santana, M. A., Sancho, K. A., de França, G. V. A., dos Santos, W. P., & Siqueira, C. E. G. (2026). LLM-Assisted Scoping Review of Artificial Intelligence in Brazilian Public Health: Lessons from Transfer and Federated Learning for Resource-Constrained Settings. International Journal of Environmental Research and Public Health, 23(1), 81. https://doi.org/10.3390/ijerph23010081"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "scoping review with LLM-assisted title screening",
+    "study_design": "scoping review",
+    "sample_description": "Literature retrieved from publicly accessible databases (PubMed, SciELO, and the CNPq Theses and Dissertations Repository); no new individual-level or confidential data were created or analyzed",
+    "sample_size": "unclear",
+    "sector": "public health; Brazilian Unified Health System (SUS)",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "artificial intelligence, machine learning, transfer learning, federated learning, foundation models, large language models in healthcare; resource-constrained and Global South health systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic_focus",
+      "not_conversational_governance",
+      "llm_as_method_tool_only"
+    ],
+    "exclusion_reason": "The article is a scoping review on AI applications in Brazilian public health with primary emphasis on transfer learning and federated learning in resource-constrained settings. LLMs appear as background context and as an assistive tool for title screening, not as the object of conversational governance analysis.",
+    "decision_rationale": "Although the title and screening hits include LLM, governance, healthcare, and compliance terms, the provided text shows the study objective is mapping AI use in the Brazilian SUS and examining transfer learning and federated learning for data scarcity, privacy, and infrastructure limits. ChatGPT is reported only for preliminary title classification in the review workflow. No evidence in the supplied text addresses conversational systems, chatbot/agent governance, guardrails, observability, human oversight of LLM interactions, or post-deployment conversational risk controls.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "High keyword overlap from automated screening (LLM, governance, healthcare) may overstate relevance; manual check needed to confirm LLM is methodological support rather than governance subject and that conversational AI is not substantively covered in unseen sections."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal is partial because only front matter, fragments, acknowledgments, and keyword hits were supplied. Within that material, the review objective and scoping design are clear, but full search strategy, inclusion criteria detail, screening counts, and synthesis procedures are not visible."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the review's target question on conversational governance of LLM-based systems, relevance is low: the study addresses public-health AI deployment patterns and federated/transfer learning governance aligned with data protection, not conversational AI accountability or operational controls."
+  },
+  "coding": {
+    "open_codes": [
+      "scoping_review",
+      "brazilian_public_health",
+      "SUS_mapping",
+      "transfer_learning",
+      "federated_learning",
+      "data_sovereignty",
+      "LGPD_alignment",
+      "resource_constrained_AI",
+      "global_south_health_systems",
+      "LLM_assisted_screening"
+    ],
+    "axial_codes": [
+      "health_system_AI_adoption",
+      "decentralized_AI_governance",
+      "privacy_preserving_AI",
+      "methodological_use_of_LLM"
+    ],
+    "theme": "AI adoption and privacy-preserving deployment models in Brazilian public health",
+    "subtheme": "Transfer and federated learning as governance-aligned alternatives to centralized high-resource AI",
+    "concepts": [
+      "data sovereignty",
+      "digital health sovereignty",
+      "federated learning",
+      "transfer learning",
+      "foundation models",
+      "resource-aware AI",
+      "LGPD"
+    ],
+    "model_layers": [
+      "policy_governance",
+      "data_governance",
+      "deployment_architecture"
+    ],
+    "rq_alignment": [
+      "regulated_healthcare_context",
+      "privacy_and_compliance",
+      "governance_of_decentralized_AI"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "AI adoption in Brazilian healthcare is emerging but uneven; transfer learning and federated learning offer scalable, privacy-preserving pathways for clinically relevant tools in underserved, heterogeneous health systems.",
+    "contribution": "Maps AI application within the Brazilian Unified Health System and positions federated learning as a governance-aligned strategy consistent with data protection laws such as LGPD and national digital health sovereignty.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance of LLM systems. May serve only as peripheral contextual background on federated-learning-based data governance and regulated public-health AI in Brazil if the review includes a separate thread on decentralized AI governance outside conversational systems."
+  },
+  "evidence": [
+    {
+      "claim": "Study is a scoping review of AI in Brazilian healthcare focused on transfer and federated learning.",
+      "excerpt": "This study examines how AI has been applied in Brazilian healthcare through a scoping review",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Primary topical focus is transfer learning and federated learning in public health settings.",
+      "excerpt": "Lessons from Transfer and Federated Learning for Resource-Constrained Settings",
+      "page": "1",
+      "section": "Title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The review maps AI use in the Brazilian Unified Health System rather than conversational LLM governance.",
+      "excerpt": "Maps how artificial intelligence is currently applied within the Brazilian Unified Health System (SUS)",
+      "page": "1",
+      "section": "Highlights",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Federated learning is framed as governance-aligned with data protection law, not as conversational system control.",
+      "excerpt": "Federated Learning as a governance-aligned strategy consistent with data protection laws (e.g., LGPD)",
+      "page": "1",
+      "section": "Highlights",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLM appears in background discussion of medical AI advances, not as the governance object.",
+      "excerpt": "Recent advances in large language models and multimodal AI allow integrated analysis of clinical, genomic, imaging, biosensor, and contextual data",
+      "page": "3",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "ChatGPT was used only to support title screening in the review workflow.",
+      "excerpt": "the authors used ChatGPT (OpenAI, GPT-4o-mini and GPT-5, 2025) for two distinct purposes: (1) as part of the AI-assisted title screening workflow",
+      "page": "17",
+      "section": "Acknowledgments",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Keywords emphasize AI/ML and learning paradigms, not conversational systems.",
+      "excerpt": "Keywords: artificial intelligence; machine learning; transfer learning; federated learning; health systems",
+      "page": "2",
+      "section": "Keywords",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical synthesis emphasizes uneven integration of resource-aware AI in Brazil.",
+      "excerpt": "The findings indicate an emerging yet uneven integration of resource-aware AI in Brazil",
+      "page": "2",
+      "section": "findings",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Literature sources are named, but full sample size is not provided in the supplied text.",
+      "excerpt": "retrieved from publicly accessible databases (PubMed, SciELO, and the CNPq Theses and Dissertations Repository)",
+      "page": "17",
+      "section": "Acknowledgments",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Peer-reviewed journal publication with acceptance metadata is present.",
+      "excerpt": "Received: 22 October 2025 Revised: 19 December 2025 Accepted: 5 January 2026 Published: 7 January 2026",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

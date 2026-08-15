@@ -1,0 +1,171 @@
+{
+  "bibliographic": {
+    "title": "Presenting an International Entrepreneurship Model: A Case Study of ECO Member Countries",
+    "authors": "Mojgan Haji Ghazi, Mohammad Mehdi Mazaheri Tehrani, Fereydoun Rahnamay Roodposhti",
+    "year": "2024",
+    "venue": "Journal of New Approaches in Management and Marketing",
+    "doi": "10.22034/jnamm.2025.550465.1171",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Haji Ghazi, M., Mazaheri Tehrani, M. M., & Rahnamay Roodposhti, F. (2024). Presenting an International Entrepreneurship Model: A Case Study of ECO Member Countries. Journal of New Approaches in Management and Marketing, 3(2), 227-250. https://doi.org/10.22034/jnamm.2025.550465.1171"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "systematic data-based theory (grounded theory) with semi-structured interviews; factor analysis and structural equation modeling (SEM)",
+    "study_design": "mixed-methods case study of ECO member countries",
+    "sample_description": "15 academic and executive experts interviewed until theoretical saturation; 323 managers randomly selected from 2035 managers of knowledge-based companies in the Export Development and Technology Exchange Corridor",
+    "sample_size": "15 (qualitative); 323 (quantitative)",
+    "sector": "international entrepreneurship and knowledge-based companies in ECO member countries",
+    "regulated_domain": "no",
+    "llm_specificity": "not_applicable",
+    "technology_context": "general references to technological infrastructure and digital platforms for regional entrepreneurship; no LLM, generative AI, or conversational systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "off_topic",
+      "no_llm_genai",
+      "no_conversational_ai",
+      "no_ai_governance"
+    ],
+    "exclusion_reason": "The study addresses international entrepreneurship modeling in ECO member countries and contains no discussion of LLMs, generative AI, conversational systems, or governance of AI in regulated environments.",
+    "decision_rationale": "Matches on terms such as governance, legal, policy, transparency, and institutional refer to regional entrepreneurship policy-making, administrative barriers, and economic institutions—not conversational AI governance. Python triage flagged foundational_contextual due to keyword overlap, but full-text evidence shows the article is outside the review scope.",
+    "decision_confidence": 0.96,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is unambiguous; no LLM, chatbot, agent, RAG, guardrails, or regulated AI governance content appears in the provided text."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal reflects methodological quality for the entrepreneurship study as reported; validity confirmed by experts and Cronbach's alpha; qualitative analysis with MAXQDA and quantitative SEM with AMOS. Ethics and study limitations are not described in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "Although the entrepreneurship study appears internally coherent for its own aims, it provides no evidence relevant to conversational governance of LLM-based systems in regulated contexts."
+  },
+  "coding": {
+    "open_codes": [
+      "international_entrepreneurship",
+      "multilevel_convergence",
+      "institutional_coordination",
+      "regional_policy_governance",
+      "legal_and_policy_constraints",
+      "administrative_barriers",
+      "sustainable_development"
+    ],
+    "axial_codes": [
+      "contextual_factors",
+      "intervening_conditions",
+      "development_strategies",
+      "consequences"
+    ],
+    "theme": "Regional international entrepreneurship development",
+    "subtheme": "Institutional and policy governance for cross-border entrepreneurship",
+    "concepts": [
+      "Entrepreneurship Development Based on Multilevel Convergence",
+      "multi-layered model of administrative barriers",
+      "regional entrepreneurship policy model at three levels"
+    ],
+    "model_layers": [
+      "macro",
+      "meso",
+      "micro"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.92
+  },
+  "synthesis": {
+    "main_claim": "International entrepreneurship in ECO member countries can be modeled through multi-level convergence linking contextual, causal, intervention, strategy, and consequence factors across macro, meso, and micro levels.",
+    "contribution": "Presents a mixed-methods indigenous model of entrepreneurship development with practical strategies for policymakers, economic institutions, and knowledge-based companies entering global markets.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central and supporting evidence; institutional governance and legal-policy content pertains to regional entrepreneurship, not conversational AI governance in regulated LLM systems."
+  },
+  "evidence": [
+    {
+      "claim": "Article topic is international entrepreneurship in ECO countries, not AI or conversational systems",
+      "excerpt": "The aim of the present study was to provide a comprehensive model for international entrepreneurship in ECO member countries.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Mixed-methods design with expert interviews and manager survey",
+      "excerpt": "A mixed research method was used: in the qualitative part, data were collected and analyzed using systematic data-based theory and interviews with 15 academic and executive experts",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Quantitative sample of 323 managers analyzed with SEM",
+      "excerpt": "in the quantitative part, 323 managers were selected from 2035 managers of knowledge-based companies in the Export Development and Technology Exchange Corridor by random sampling",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Governance term refers to regional policy-making in entrepreneurship, not AI governance",
+      "excerpt": "macro (regional policy-making and governance), meso (inter-organizational networks) and micro (individual skills and capabilities)",
+      "page": "4",
+      "section": "findings",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Legal and policy content concerns administrative entrepreneurship barriers",
+      "excerpt": "intervening conditions including administrative and bureaucratic challenges, legal and policy constraints and cultural and social barriers were identified",
+      "page": "4",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Transparency discussed as lack of legal transparency in business registration",
+      "excerpt": "Lengthy company registration processes, lack of legal transparency, sudden policy changes",
+      "page": "4",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Core model components are entrepreneurship-focused",
+      "excerpt": "Its main components include contextual factors (regional capacity building), causal factors (strategic context building), intervention factors (challenge management), strategies (operational framework), and consequences (sustainable development)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Multi-level convergence is the central theoretical structure",
+      "excerpt": "the international entrepreneurship model in ECO is based on multi-level convergence (macro, meso, and micro)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No LLM, generative AI, or conversational technology mentioned in provided text",
+      "excerpt": "obstacles such as weak institutional coordination, limited access to capital, ineffective support policies, insufficient use of new technologies, and lack of regional entrepreneurial networks",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Peer-reviewed journal article with acceptance workflow",
+      "excerpt": "Receive: 28 April 2024 Revise: 16 June 2024 Accept: 02 August 2024",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

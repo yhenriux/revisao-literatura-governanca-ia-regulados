@@ -1,0 +1,181 @@
+{
+  "bibliographic": {
+    "title": "Beyond Words: Infusing Conversational Agents with Human-like Typing Behaviors",
+    "authors": "Jijie Zhou; Yuhan Hu",
+    "year": "2024",
+    "venue": "Proceedings of the ACM Conversational User Interfaces 2024 (CUI '24)",
+    "doi": "10.1145/3640794.3665560",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Zhou, J., & Hu, Y. (2024). Beyond words: Infusing conversational agents with human-like typing behaviors. In Proceedings of the ACM Conversational User Interfaces 2024 (CUI '24) (pp. unclear). https://doi.org/10.1145/3640794.3665560"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "HCI design research with within-subject user experiment",
+    "study_design": "within-subject comparative user study of three ChatGPT-based agent variants differing in typing behaviors",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "ChatGPT-based conversational agents with simulated human-like typing behaviors (hesitation, self-editing) via an interactive platform with user-adjustable parameters"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "conversational_ai",
+      "llm_specific"
+    ],
+    "exclusion_codes": [
+      "off_topic_governance",
+      "no_regulated_context",
+      "no_governance_mechanisms"
+    ],
+    "exclusion_reason": "O estudo trata de design de interação multimodal (comportamentos de digitação humanizados) e percepção de naturalidade/confiança em agentes ChatGPT; o texto fornecido não aborda governança conversacional, supervisão humana, compliance, auditoria, guardrails, observabilidade ou contextos regulados.",
+    "decision_rationale": "Embora use LLMs e agentes conversacionais e mencione trustworthiness, o foco é UX de digitação (hesitação, autoedição) e engajamento conversacional, não mecanismos ou práticas de governança em ambientes regulados exigidos pelo escopo da revisão.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Triagem Python classificou como borderline_manual (70.67/100) com menções a trust e termos conversacionais/LLM, mas governança operacional e risco/compliance pontuaram 0/3; confirmação manual necessária para distinguir trust UX de governança."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Avaliação baseada apenas no front matter e trechos fornecidos. Objetivo e desenho experimental são claros, mas tamanho amostral, procedimentos analíticos, ética e limitações detalhadas não aparecem no texto extraído."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Para a pergunta de governança conversacional em contextos regulados, a relevância é baixa. Coerência interna parece razoável para um estudo preliminar de HCI, mas adequação e limitações metodológicas não podem ser plenamente julgadas sem métodos/resultados completos."
+  },
+  "coding": {
+    "open_codes": [
+      "human-like typing behaviors",
+      "hesitation",
+      "self-editing",
+      "multimodal interaction design",
+      "perceived naturalness",
+      "perceived trustworthiness",
+      "within-subject comparison",
+      "user-adjustable parameters"
+    ],
+    "axial_codes": [
+      "conversational agent presentation layer",
+      "user experience and engagement",
+      "perceived trust in conversational AI"
+    ],
+    "theme": "Design de interação para agentes conversacionais baseados em LLM",
+    "subtheme": "Comportamentos de digitação humanizados",
+    "concepts": [
+      "hesitation",
+      "self-editing",
+      "self-correction",
+      "typing delay",
+      "conversational engagement",
+      "trustworthiness (perceptual)"
+    ],
+    "model_layers": [
+      "delivery/presentation layer",
+      "interaction design layer"
+    ],
+    "rq_alignment": [
+      "conversational_ai_partial",
+      "llm_genai_partial",
+      "governance_accountability_no",
+      "regulated_high_stakes_no",
+      "risk_audit_compliance_no"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Incorporar hesitação e autoedição na apresentação de respostas de agentes baseados em ChatGPT pode aumentar naturalidade percebida, engajamento e confiança percebida em relação a um agente baseline.",
+    "contribution": "Propõe design e plataforma interativa para simular comportamentos de digitação humanizados em agentes conversacionais e reporta experimento preliminar comparando três variantes de agente.",
+    "limitations": "Descrito como experimento preliminar; detalhes amostrais, análise estatística e limitações completas não constam no texto fornecido.",
+    "use_in_review": "Excluir como evidência central ou de apoio para governança conversacional regulada; no máximo referência contextual periférica sobre percepção de confiança em interfaces conversacionais com LLM."
+  },
+  "evidence": [
+    {
+      "claim": "Usa LLMs e ChatGPT como tecnologia central do agente conversacional",
+      "excerpt": "ChatGPT has recently emerged as a sophisticated conversational AI, leveraging large language models",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Objetivo focado em comportamentos de digitação humanizados, não governança",
+      "excerpt": "this paper aims to imbue ChatGPT with human-like typing behaviors",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Método empírico within-subject com três variantes de agente",
+      "excerpt": "This paper conducts a within-subject study to examine users’ perceptions of ChatGPT-based conversational agents",
+      "page": "2",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Comparação entre agente baseline, hesitação e hesitação+autoedição",
+      "excerpt": "The three agents under comparison are: a baseline agent (blue), another with integrated hesitation behavior (green)",
+      "page": "2",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Resultado principal sobre preferência e confiança percebida, não governança institucional",
+      "excerpt": "reveals a preference for the agent that incorporates both behaviors, suggesting an improvement in perceived naturalness and trustworthiness",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Estudo caracterizado como preliminar",
+      "excerpt": "a preliminary user experiment to understand whether and to what extent the agent with human-like typing behaviors could potentially affect conversational engagement and its trustworthiness",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Contribuição em design multimodal/UX, não compliance ou supervisão",
+      "excerpt": "this paper contributes to the multimodal interaction design and user experience for conversational AI",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Plataforma interativa com parâmetros ajustáveis pelo usuário",
+      "excerpt": "We’ve constructed an interactive platform featuring user-adjustable parameters, allowing users to personalize the AI’s communication style",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Nenhuma menção a domínios regulados no texto fornecido",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Nenhuma menção a auditoria, compliance, guardrails ou supervisão humana operacional",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

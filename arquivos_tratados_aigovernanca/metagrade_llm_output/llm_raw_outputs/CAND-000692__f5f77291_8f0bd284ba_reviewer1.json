@@ -1,0 +1,180 @@
+{
+  "bibliographic": {
+    "title": "Contraction or steady state? An analysis of credit risk management in Italy in the period 2008-2012",
+    "authors": "Stefano Olgiati; Alessandro Danovi",
+    "year": "2013",
+    "venue": "New York School of Business – Copenhagen Business School International Risk Management Conference 2013: Enduring Financial Stability – Contemporary Challenges for Financial Risk Management and Governance - Credit Risk and Tools for Financial Stability, Copenhagen (DK)",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Olgiati, S., & Danovi, A. (2013). Contraction or steady state? An analysis of credit risk management in Italy in the period 2008-2012. Paper presented at the International Risk Management Conference 2013, Copenhagen Business School, Copenhagen, Denmark."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "econometric time-series analysis; linear regression; chi-square goodness-of-fit",
+    "study_design": "retrospective quantitative analysis of quarterly Italian credit and default-rate data from June 2008 to June 2012",
+    "sample_description": "nominal total credit used by non-financial corporations and default rates derived from the Italian central credit register over quarterly observations",
+    "sample_size": "n=17 quarterly observations (June 2008 – June 2012)",
+    "sector": "banking and financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "credit risk management under Basel II/III and EU Credit Risk Directives; no LLM, conversational AI, or generative AI systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "FOUNDATIONAL_REGULATED_RISK",
+      "BANKING_GOVERNANCE_CONTEXT"
+    ],
+    "exclusion_codes": [
+      "NO_LLM",
+      "NO_CONVERSATIONAL_AI",
+      "NO_GENAI_GOVERNANCE",
+      "PRE_LLM_TECHNOLOGY"
+    ],
+    "exclusion_reason": "Study addresses credit risk management and Basel regulatory frameworks in Italian banking; it does not discuss LLMs, conversational systems, generative AI, guardrails, observability, human oversight of AI, or related conversational governance mechanisms.",
+    "decision_rationale": "The paper is an empirical banking economics study on credit supply fluctuations, default rates, and Basel II/III countercyclical policy. It offers only distant foundational context on regulated financial risk management and governance, not evidence on conversational or LLM governance in regulated environments.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Absence of LLM, conversational AI, and generative AI content is explicit across title, abstract, and background; classification as foundational contextual rather than central evidence is straightforward."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 0,
+    "results_clarity": 3,
+    "limitations_transparency": 0,
+    "evidence_support": 3,
+    "transferability": 1,
+    "notes": "Methodological appraisal is based on limited excerpts (pages 1-2, 4-5, 9). Objective, methods, and results are clearly reported for the banking credit-risk question, but ethics, limitations, and broader validity discussion are not visible in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 0,
+    "overall_confidence": "low",
+    "explanation": "Within its own domain the study presents coherent statistical findings, but for a review on conversational governance in LLM-based regulated systems it provides no direct or adequate evidence; relevance to the review question is very low."
+  },
+  "coding": {
+    "open_codes": [
+      "credit_risk_management",
+      "default_rate",
+      "credit_growth_fluctuations",
+      "steady_state_parameter",
+      "Basel_II",
+      "Basel_III",
+      "countercyclical_buffers",
+      "procyclicality",
+      "central_credit_register",
+      "EU_banking_regulation"
+    ],
+    "axial_codes": [
+      "regulated_financial_risk_management",
+      "macroprudential_governance",
+      "statistical_risk_modeling"
+    ],
+    "theme": "Credit risk management and regulatory capital governance in banking",
+    "subtheme": "Procyclical credit supply and default-rate steady-state dynamics in Italy",
+    "concepts": [
+      "Internal Steady State Parameter (SSP)",
+      "default rate",
+      "Credit/GDP countercyclical buffering",
+      "Basel II operating framework",
+      "adjusted bad debtors (ABD)"
+    ],
+    "model_layers": [
+      "regulatory_policy_layer",
+      "risk_measurement_layer",
+      "macroeconomic_monitoring_layer"
+    ],
+    "rq_alignment": [
+      "indirect_context_regulated_financial_governance"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Quarterly fluctuations in total credit to Italian non-financial corporations are significantly negatively correlated with default rates and fluctuate around a steady state, suggesting effective credit risk parameterization within the Basel II framework rather than purely exogenous procyclical Basel effects.",
+    "contribution": "Provides empirical challenge to attributing credit cyclicality solely to Basel II procyclicality and argues Basel III countercyclical buffers should account for underlying steady-state statistical patterns.",
+    "limitations": "unclear",
+    "use_in_review": "Retain only as foundational contextual reference for regulated financial risk management, Basel governance, and monitoring in banking; exclude as central or supporting evidence for LLM-based conversational governance."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on credit risk management in Italian banking, not LLMs or conversational AI.",
+      "excerpt": "An analysis of credit risk management in Italy in the period 2008-2012",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors are identifiable from the front matter.",
+      "excerpt": "Stefano Olgiati MSc PhD, Prof Alessandro Danovi MSc University of Bergamo",
+      "page": "1",
+      "section": "front matter",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Empirical design uses 17 quarterly observations with regression and chi-square testing.",
+      "excerpt": "in the period June 2008 – June 2012 (n=17), linear regression of credit growth rates on default rates reveals a negative correlation of r=−.6903 with R2=.4765",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study concludes credit variation is explained by default rates and steady-state dynamics.",
+      "excerpt": "fluctuations of the total credit used by non-financial corporations are exhaustively explained by variation of the independent variable “default rate”, and that credit variation fluctuates around a steady state",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulated banking domain with Basel and EU credit risk directives.",
+      "excerpt": "The European Commission with the Credit Risk Directives (CRD I, II and III) and Banking Authorities with Basel Accords on minimum capital requirements and countercyclical buffers (Basel II and III)",
+      "page": "2",
+      "section": "background",
+      "supports": "coding"
+    },
+    {
+      "claim": "Monitoring and cyclical data analysis are part of the regulatory risk context.",
+      "excerpt": "Monitoring, data collecting and analysis of economic and financial cyclicality is coordinated in the EU by Eurostat",
+      "page": "2",
+      "section": "background",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance term appears only in conference title, not as AI or conversational governance.",
+      "excerpt": "Contemporary Challenges for Financial Risk Management and Governance - Credit Risk and Tools for Financial Stability",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Default rate operational definition is specified.",
+      "excerpt": "The default rate of loan facilities in a given quarter is represented by the ratio between the amount of total credit used by borrowers who become adjusted bad debtors (ABD) during the quarter in question",
+      "page": "5",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Data sources are named, supporting transparency of data collection.",
+      "excerpt": "Sources: Banca d’Italia TDB30486, ISTAT, Ministero dell’Economia e delle Finanze",
+      "page": "9",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Main policy implication concerns Basel III countercyclical buffers.",
+      "excerpt": "Basel III prospective countercyclical point-in-time output buffers based on filtered Credit/GDP ratios and dynamic provisioning proposals should take into account this underlying steady state statistical pattern",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

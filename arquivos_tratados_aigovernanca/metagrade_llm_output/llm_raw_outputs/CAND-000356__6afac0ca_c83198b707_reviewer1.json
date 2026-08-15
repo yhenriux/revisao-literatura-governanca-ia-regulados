@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "Conversational Artificial Intelligence in Medical Education: A Scoping Review",
+    "authors": "Tasniya Aktar, Robert J. Farquhar, Chris Jacobs",
+    "year": "2026",
+    "venue": "Cureus",
+    "doi": "10.7759/cureus.107391",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Aktar, T., Farquhar, R. J., & Jacobs, C. (2026). Conversational artificial intelligence in medical education: A scoping review. Cureus. https://doi.org/10.7759/cureus.107391"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "scoping review",
+    "study_design": "scoping review with systematic search across PubMed, Scopus, and Web of Science; screening and inclusion of primary studies on conversational AI in undergraduate medical education",
+    "sample_description": "Primary studies involving medical students in undergraduate medical education using conversational agents, dialogue systems, LLMs (ChatGPT, GPT-4), or AI virtual patients, reporting educational utility, usability, or fidelity",
+    "sample_size": "20 included studies from 496 unique records screened after deduplication (877 articles identified across databases)",
+    "sector": "healthcare; medical education",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "chatbots, conversational AI, large language models (e.g., ChatGPT, GPT-4), dialogue systems, and AI virtual patients for undergraduate medical education"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "conversational_ai",
+      "llm_genai",
+      "regulated_healthcare_education",
+      "scoping_review",
+      "human_oversight_mentioned"
+    ],
+    "exclusion_codes": [
+      "governance_not_primary_focus",
+      "no_operational_technical_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a scoping review centrally focused on educational utility, technology usability, and fidelity of conversational AI and LLMs in undergraduate medical education. It aligns with the review's conversational AI, LLM, and regulated healthcare-education scope, and briefly notes human oversight and safe implementation, but does not primarily address conversational governance, accountability, audit, compliance, guardrails, or operational governance mechanisms.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial methods are available in the supplied extract; full-text review is needed to confirm whether governance, oversight, risk, or compliance themes are developed beyond brief abstract mentions."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Protocol registered on OSF (project ID: XMN8J). Search conducted 27/08/25 across three databases with documented inclusion criteria. Methodological rigour of included primary studies was assessed using a validated medical education framework; authors report that rigour in the underlying literature is often modest."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The scoping review appears methodologically transparent for its stated educational objectives, but confidence for governance-focused synthesis is only moderate because governance is peripheral and the supplied text emphasizes educational outcomes, fidelity, and usability rather than accountability, compliance, or operational controls."
+  },
+  "coding": {
+    "open_codes": [
+      "scoping_review",
+      "medical_education",
+      "conversational_ai",
+      "chatbots",
+      "large_language_models",
+      "chatgpt",
+      "gpt-4",
+      "virtual_patients",
+      "educational_utility",
+      "usability",
+      "fidelity",
+      "human_oversight",
+      "safe_implementation"
+    ],
+    "axial_codes": [
+      "conversational_learning_tools",
+      "healthcare_education_application",
+      "implementation_and_safety_considerations"
+    ],
+    "theme": "Conversational AI and LLMs in undergraduate medical education",
+    "subtheme": "Educational utility, usability, and fidelity with limited oversight emphasis",
+    "concepts": [
+      "interactive learning",
+      "patient encounter simulation",
+      "adaptive feedback",
+      "clinical reasoning training",
+      "human oversight",
+      "reliability and realism limitations"
+    ],
+    "model_layers": [
+      "application_layer",
+      "human_supervision_layer"
+    ],
+    "rq_alignment": [
+      "conversational_ai_in_regulated_context",
+      "partial_alignment_human_oversight"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Conversational AI, including chatbots and LLMs, is a promising adjunct to traditional medical teaching for engagement, self-directed learning, and experiential practice, but evidence remains fragmented and limited by reliability, realism, technical accuracy, and modest methodological rigour.",
+    "contribution": "Provides a mapped synthesis of 20 studies across educational utility, technology usability, and fidelity in undergraduate medical education, with explicit inclusion of LLMs such as ChatGPT and GPT-4.",
+    "limitations": "Outcome measures are inconsistent; few studies assess long-term skill transfer or response latency; underlying primary studies often have modest methodological rigour; governance mechanisms are not a central analytic focus.",
+    "use_in_review": "Use as supporting evidence on conversational AI and LLM adoption in regulated healthcare education, especially implementation challenges, learner acceptance, and the need for human oversight; not suitable as central evidence on conversational governance frameworks, auditability, or compliance controls."
+  },
+  "evidence": [
+    {
+      "claim": "Study is a scoping review on conversational AI including LLMs in medical education",
+      "excerpt": "Conversational artificial intelligence (AI), encompassing chatbots and large language models (LLMs), is rapidly emerging in the sphere of medical education",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Review focuses on educational utility, usability, and fidelity rather than governance",
+      "excerpt": "This scoping review examines the existing literature on conversational AI in undergraduate medical education, focusing on three key domains: educational utility, technology usability, and fidelity.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Systematic search and sample size are reported",
+      "excerpt": "A comprehensive search was conducted across PubMed, Scopus, and Web of Science in August 2025. After deduplication, 496 unique studies were screened, and 20 met the inclusion criteria.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "LLMs including ChatGPT and GPT-4 are explicitly within scope",
+      "excerpt": "conversational agents, dialogue systems, large language models (ChatGPT, GPT-4) and AI virtual patients",
+      "page": "2",
+      "section": "Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Protocol transparency via OSF registration",
+      "excerpt": "registered on the Open Science Framework (project ID: XMN8J)",
+      "page": "2",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Human oversight is mentioned as an implementation requirement",
+      "excerpt": "effective integration requires thoughtful design, validated evaluation frameworks, and ongoing human oversight.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Safe and sustainable implementation is noted",
+      "excerpt": "addressing fidelity and responsiveness to ensure meaningful, safe, and sustainable implementation within modern medical curricula.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors acknowledge methodological limitations in the literature",
+      "excerpt": "methodological rigour is often modest.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Peer review process is documented",
+      "excerpt": "Review began 03/25/2026 Review ended 04/12/2026 Published 04/20/2026",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Primary contribution is educational potential rather than governance design",
+      "excerpt": "conversational AI appears to be a promising adjunct to traditional medical teaching rather than a replacement.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

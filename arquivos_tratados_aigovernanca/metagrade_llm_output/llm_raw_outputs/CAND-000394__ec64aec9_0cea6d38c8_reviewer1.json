@@ -1,0 +1,205 @@
+{
+  "bibliographic": {
+    "title": "AI Governance Control Stack for Operational Stability: Achieving Hardened Governance in AI Systems",
+    "authors": "Horatio Morgan Morgan",
+    "year": "2026",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "report",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Morgan, H. M. (2026). AI Governance Control Stack for Operational Stability: Achieving Hardened Governance in AI Systems. Signing House."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual architecture and pattern-based institutional analysis",
+    "study_design": "three-stage conceptual synthesis: literature analysis, layered architecture development, pattern-based institutional evaluation",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "enterprise environments including financial services, healthcare, logistics, and public administration",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI and generative AI systems with prompts, retrieval data, runtime context; references retrieval-augmented generation in operational governance context"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "governance_framework",
+      "generative_ai",
+      "regulated_context",
+      "post_deployment_monitoring",
+      "audit_logging",
+      "human_oversight",
+      "risk_compliance"
+    ],
+    "exclusion_codes": [
+      "weak_conversational_specificity"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The text proposes a layered AI Governance Control Stack with accountability artefacts, monitoring, drift detection, and escalation for enterprise and regulated deployments, including generative AI. It strongly addresses governance, observability, audit, and regulated sectors, but provides only minimal direct evidence on conversational systems, chatbots, or dialogue-specific governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Verify conversational-AI relevance beyond incidental mentions of interaction and generative AI; confirm publication type and peer-review status not stated in provided excerpts."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Conceptual architecture paper without empirical sample; methodology is explicitly literature synthesis plus pattern-based institutional analysis. Appropriate for framework contribution but limited verifiable empirical validation in provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The governance architecture is coherently described and aligned with regulated enterprise AI concerns, but evidence is conceptual and pattern-based rather than empirically demonstrated; conversational governance relevance is indirect."
+  },
+  "coding": {
+    "open_codes": [
+      "version governance",
+      "explainability logging",
+      "telemetry monitoring",
+      "drift detection",
+      "escalation mechanisms",
+      "accountability artefacts",
+      "institutional oversight",
+      "behavioral drift",
+      "semantic drift"
+    ],
+    "axial_codes": [
+      "operational_stability",
+      "post_deployment_governance",
+      "regulated_enterprise_ai",
+      "generative_ai_lifecycle"
+    ],
+    "theme": "Layered AI governance control architecture for operational stability and accountable deployment",
+    "subtheme": "Monitoring, logging, drift resilience, and institutional control in generative AI systems",
+    "concepts": [
+      "AI Governance Control Stack",
+      "stability as reproducibility of accountable system behaviour",
+      "system-of-record version governance",
+      "evidence-based control verification",
+      "decision-time explainability logging",
+      "drift monitoring",
+      "escalation mechanisms"
+    ],
+    "model_layers": [
+      "version governance layer",
+      "evidence-based verification layer",
+      "explainability logging layer",
+      "drift monitoring and resilience testing layer",
+      "institutional oversight and escalation layer"
+    ],
+    "rq_alignment": [
+      "governance of generative AI",
+      "observability and audit logging",
+      "post-deployment monitoring",
+      "human oversight and escalation",
+      "compliance in regulated sectors",
+      "risk control and operational stability"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Operational AI stability should be defined as the reproducibility of accountable system behaviour, supported by a layered Governance Control Stack integrating version governance, verification, explainability logging, telemetry, drift detection, and escalation.",
+    "contribution": "Proposes a unified governance architecture synthesizing MLOps, explainable AI, and regulatory compliance principles for enterprise and regulated AI deployment, with explicit attention to generative AI behavioural change across prompts, retrieval data, and runtime context.",
+    "limitations": "Provided text indicates conceptual and pattern-based evaluation without reported empirical case studies, sample, or validation metrics; conversational-AI specificity is limited in the excerpts supplied.",
+    "use_in_review": "Use as supporting evidence for operational and technical governance mechanisms applicable to LLM/genAI systems in regulated environments; triangulate with conversational-AI-focused studies for dialogue-specific governance, guardrails, and human handoff."
+  },
+  "evidence": [
+    {
+      "claim": "Paper proposes a conceptual AI Governance Control Stack for operational stability and accountability",
+      "excerpt": "This paper proposes an AI Governance Control Stack, and a layered governance architecture designed to support operational stability through reproducible accountability artefacts",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Methodology is conceptual architecture with pattern-based institutional analysis, not empirical",
+      "excerpt": "The research adopted a conceptual architecture and pattern-based institutional analysis approach to examine how governance infrastructures can stabilize AI-enabled decision systems in enterprise environments.",
+      "page": "1",
+      "section": "methodology",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Three-stage research design combining literature synthesis and architecture evaluation",
+      "excerpt": "The research proceeds in three stages. First, existing literature on machine learning system reliability, concept drift, and explainable AI is analyzed",
+      "page": "1",
+      "section": "methodology",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Generative AI governance must account for prompts, retrieval data, and runtime context",
+      "excerpt": "These challenges are particularly pronounced in generative AI systems, whose outputs depend not only on model parameters but also on prompts, retrieval data, and runtime context.",
+      "page": "3",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated high-risk AI requirements include logging, human oversight, and post-deployment monitoring",
+      "excerpt": "The European Union (EU) Artificial Intelligence Act requires high-risk AI systems to maintain technical documentation, automatic logging, human oversight, and post-deployment monitoring mechanisms",
+      "page": "3",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Sectors include financial services, healthcare, and public administration",
+      "excerpt": "From financial services and healthcare to logistics and public administration, organizations are integrating AI models into automated work",
+      "page": "3",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Core governance mechanisms include version governance, verification, explainability logging, and drift monitoring",
+      "excerpt": "The proposed architecture integrates four core governance mechanisms: system-of-record version governance, evidence-based control verification, decision-time explainability logging, and drift monitoring through structured stress testing.",
+      "page": "1",
+      "section": "methodology",
+      "supports": "coding"
+    },
+    {
+      "claim": "Drift monitoring in generative AI covers semantic, behavioral, and probabilistic dimensions",
+      "excerpt": "Drift monitoring in generative AI systems must account for multiple dimensions of change. Semantic drift refers to changes in the meaning or interpretation of generated outputs. Behavioral drift occurs when models deviate from governance policies or safety constraints.",
+      "page": "13",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Stability reframed as reproducibility of accountable behaviour under institutional control",
+      "excerpt": "the paper introduces the concept of stability as the reproducibility of accountable system behaviour",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Governance resilience includes stress testing and capability-aware control thresholds",
+      "excerpt": "governance resilience mechanisms—such as stress testing and capability-aware control thresholds—ensure that accountability structures remain effective when AI systems operate under adverse or high-risk conditions.",
+      "page": "8",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Conversational specificity is weak; only incidental interaction reference found",
+      "excerpt": "governance resilience mechanisms—such as stress testing and capability-aware control thresholds—ensure that accountability structures remain effective when AI systems operate under adverse or high-risk conditions.",
+      "page": "8",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Results identify system-of-record governance as critical stabilization mechanism",
+      "excerpt": "First, system-of-record governance emerges as a critical stabilization mechanism. By binding model versions, datasets, policy configurations,",
+      "page": "2",
+      "section": "results",
+      "supports": "synthesis"
+    }
+  ]
+}

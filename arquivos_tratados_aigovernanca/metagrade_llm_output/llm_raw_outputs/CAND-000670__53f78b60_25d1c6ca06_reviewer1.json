@@ -1,0 +1,188 @@
+{
+  "bibliographic": {
+    "title": "AI-Driven Governance Systems for Proactive Regulatory Compliance and Fraud Risk Management in Financial Service Environments",
+    "authors": "Iboro Akpan Essien; Joshua Oluwagbenga Ajayi; Eseoghene Daniel Erigha; Ehimah Obuse; Noah Ayanbode",
+    "year": "2025",
+    "venue": "Engineering and Technology Journal",
+    "doi": "10.47191/etj/v10i09.26",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Essien, I. A., Ajayi, J. O., Erigha, E. D., Obuse, E., & Ayanbode, N. (2025). AI-Driven Governance Systems for Proactive Regulatory Compliance and Fraud Risk Management in Financial Service Environments. Engineering and Technology Journal, 10(9), 7114-7125. https://doi.org/10.47191/etj/v10i09.26"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "narrative_literature_review",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "financial_services",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "RegTech; machine learning; natural language processing; robotic process automation; anomaly detection; compliance automation; fraud risk management"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "regulated_domain_finance",
+      "ai_governance_compliance",
+      "risk_audit_fraud"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai",
+      "no_llm_specificity",
+      "no_conversational_governance"
+    ],
+    "exclusion_reason": "Artigo trata governança e compliance com IA/RegTech em serviços financeiros, mas o texto fornecido não aborda sistemas conversacionais, chatbots, agentes ou governança de LLMs.",
+    "decision_rationale": "O estudo é uma revisão sobre tecnologias regulatórias orientadas por IA em finanças, com ênfase em compliance, fraude, accountability e frameworks como Basel III, GDPR e AML. Há relevância contextual para governança de IA em ambiente regulado, porém não há evidência no excerto sobre sistemas conversacionais, handoff, contestação conversacional, guardrails de LLM, RAG, observabilidade de agentes ou modelos de linguagem de grande escala.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Texto fornecido cobre principalmente páginas iniciais; confirmar nas seções posteriores ausência de chatbots, agentes conversacionais ou LLMs antes de exclusão definitiva."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 2,
+    "limitations_transparency": 3,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "O abstract declara tratar-se de revisão do panorama de RegTech com estudos de caso, mas o excerto não detalha método de busca, critérios de inclusão, amostra de estudos ou procedimento analítico. Avaliação limitada ao material disponível."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "Coerência temática razoável entre governança, compliance e risco em finanças, mas adequação e relevância para governança conversacional em sistemas baseados em LLM são baixas com base no texto fornecido; limitações metodológicas da própria revisão permanecem pouco transparentes."
+  },
+  "coding": {
+    "open_codes": [
+      "RegTech",
+      "compliance_automation",
+      "fraud_risk_management",
+      "algorithmic_accountability",
+      "explainability",
+      "data_privacy",
+      "financial_regulation",
+      "NLP_regulatory_interpretation",
+      "case_studies"
+    ],
+    "axial_codes": [
+      "AI_governance",
+      "regulated_financial_services",
+      "proactive_compliance",
+      "risk_and_audit_readiness"
+    ],
+    "theme": "Governança orientada por IA para compliance regulatório e gestão de fraude em finanças",
+    "subtheme": "Tecnologias de IA não conversacionais em RegTech",
+    "concepts": [
+      "AI governance",
+      "regulatory compliance",
+      "fraud analytics",
+      "algorithmic accountability",
+      "explainability",
+      "transparency",
+      "audit readiness",
+      "Basel III",
+      "GDPR",
+      "AML",
+      "KYC"
+    ],
+    "model_layers": [
+      "policy_regulatory_layer",
+      "risk_compliance_layer",
+      "technical_AI_layer"
+    ],
+    "rq_alignment": [
+      "regulated_context",
+      "governance_accountability",
+      "risk_audit_compliance"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "A integração de IA em frameworks de compliance regulatório pode tornar a governança em serviços financeiros mais adaptativa, preditiva e proativa, apoiando monitoramento de compliance, avaliação de risco e prevenção de fraude em tempo real.",
+    "contribution": "Oferece panorama de RegTech com ênfase em ML, NLP e RPA para compliance, discute desafios de accountability, privacidade e explicabilidade, e aponta frameworks estratégicos que integram ética de IA, compliance legal e analytics de fraude.",
+    "limitations": "O excerto não especifica método sistemático de revisão nem detalha limitações empíricas; também não cobre governança de sistemas conversacionais ou LLMs.",
+    "use_in_review": "Usar como evidência contextual/fundacional sobre governança de IA, compliance e accountability em finanças reguladas; não usar como evidência central para governança conversacional em sistemas baseados em LLM."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo é revisão de literatura sobre RegTech e governança com IA em finanças",
+      "excerpt": "This review examines the current landscape of AI-driven regulatory technologies (RegTech)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Domínio regulado é serviços financeiros com referências a Basel III, GDPR e AML",
+      "excerpt": "regulatory requirements, such as Basel III, GDPR, and AML directives",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Tecnologias centrais são ML, NLP e RPA, sem menção a LLMs ou sistemas conversacionais",
+      "excerpt": "machine learning (ML), natural language processing (NLP), robotic process automation (RPA), and predictive analytics",
+      "page": "1",
+      "section": "1.2 Emergence of AI in Compliance Management",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "NLP é usado para interpretação de textos regulatórios, não para governança conversacional",
+      "excerpt": "Natural Language Processing (NLP) Parses regulatory texts like GDPR/Basel III; real-time policy alignment",
+      "page": "2",
+      "section": "2.1 Core AI Technologies in Regulatory Compliance",
+      "supports": "coding"
+    },
+    {
+      "claim": "Aborda accountability algorítmica, privacidade e explicabilidade",
+      "excerpt": "challenges of algorithmic accountability, regulatory uncertainty, data privacy, and explainability",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Menciona audit readiness e reporting em tempo real",
+      "excerpt": "streamline compliance reporting and enhance audit readiness",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Inclui estudos de caso de instituições financeiras e fintechs",
+      "excerpt": "Case studies from leading financial institutions and fintech firms illustrate practical applications",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Escopo inclui transparência algorítmica e accountability regulatória",
+      "excerpt": "ethical concerns such as algorithmic transparency, data protection, and regulatory accountability",
+      "page": "2",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "Objetivo de transformar governança de reativa para preditiva",
+      "excerpt": "transform governance mechanisms from reactive to predictive",
+      "page": "1",
+      "section": "1.1 Background on Regulatory Compliance in Financial Services",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Metodologia da revisão não está detalhada no texto fornecido",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

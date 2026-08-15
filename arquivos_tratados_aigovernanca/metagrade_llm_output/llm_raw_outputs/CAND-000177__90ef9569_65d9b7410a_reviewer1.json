@@ -1,0 +1,201 @@
+{
+  "bibliographic": {
+    "title": "AI-driven framework for contract risk automation and compliance in Oracle CPQ",
+    "authors": "Rajesh Soma",
+    "year": "2026",
+    "venue": "Scientific Reports",
+    "doi": "10.1038/s41598-026-55942-7",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Soma, R. (2026). AI-driven framework for contract risk automation and compliance in Oracle CPQ. Scientific Reports. https://doi.org/10.1038/s41598-026-55942-7"
+  },
+  "methodology": {
+    "research_type": "technical",
+    "method_family": "prototype framework with structured simulation experiments",
+    "study_design": "simulation-validated prototype evaluation against manual legal review and rule-based NLP baselines",
+    "sample_description": "corpus of 500 synthetic SaaS contract documents evaluated under identical simulation conditions",
+    "sample_size": "500",
+    "sector": "IT and SaaS enterprise contract management and quoting (Oracle CPQ)",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Oracle Configure-Price-Quote (CPQ) integrated via REST API event hooks; BERT-based semantic matching; GPT-4 generative module with RAG; compliance benchmarking against GDPR, HIPAA, and ISO 27001"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "governance_accountability",
+      "regulated_high_stakes",
+      "risk_audit_compliance",
+      "operational_technical_governance"
+    ],
+    "exclusion_codes": [
+      "conversational_ai_absent"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article presents a simulation-validated AICRIM framework integrating GPT-4 and BERT into Oracle CPQ for contract compliance and risk assessment in regulated SaaS contexts, with explicit AI governance controls (encryption, bias monitoring, audit trails, guardrails, RAG, human legal review gates). It does not describe or evaluate conversational AI, chatbots, agents, or dialogue-based systems, so it is not central evidence for conversational governance but may support adjacent themes of LLM governance, compliance automation, and oversight in regulated enterprise workflows.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python metadata incorrectly classified venue as conference_paper and garbled the title; full-text scope beyond provided excerpts should be verified for any conversational or agentic components and for completeness of governance claims."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Strengths include a clearly specified multi-module architecture, defined baselines, reported metrics, and explicit acknowledgment that results are simulation-derived pending real-world validation. Weaknesses include reliance on synthetic contracts, prototype-level status rather than production deployment, and limited detail in the provided text on governance implementation beyond high-level controls."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are internally coherent for a CPQ contract-risk prototype, but confidence is moderated because evidence comes from simulation on synthetic data and the study is not conversational-AI focused; governance relevance is partial and indirect for the review's core scope."
+  },
+  "coding": {
+    "open_codes": [
+      "AICRIM framework",
+      "Oracle CPQ integration",
+      "GPT-4 generative module",
+      "BERT semantic matching",
+      "RAG architecture",
+      "compliance detection",
+      "AI governance layer",
+      "audit trails",
+      "bias monitoring",
+      "human legal review gates",
+      "synthetic contract simulation"
+    ],
+    "axial_codes": [
+      "LLM-enabled compliance automation",
+      "technical AI governance controls",
+      "regulated enterprise contracting",
+      "human-in-the-loop oversight"
+    ],
+    "theme": "AI governance and compliance automation for generative AI in enterprise contract workflows",
+    "subtheme": "Non-conversational CPQ risk assessment with governance safeguards",
+    "concepts": [
+      "contract risk automation",
+      "generative AI guardrails",
+      "retrieval-augmented generation",
+      "structured audit trails",
+      "regulatory benchmarking",
+      "human-in-the-loop review"
+    ],
+    "model_layers": [
+      "Data Ingestion Layer",
+      "Clause Interpretation Module",
+      "BERT-Based Semantic Matching Engine",
+      "GPT-4 Generative AI Module",
+      "AI Governance Layer"
+    ],
+    "rq_alignment": [
+      "AI governance in regulated LLM deployments",
+      "compliance and auditability controls",
+      "human oversight in high-stakes workflows"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "AICRIM integrates GPT-4 and BERT into Oracle CPQ to automate real-time contract compliance and risk assessment, achieving reported simulation improvements in error reduction, cycle time, and compliance detection accuracy while embedding governance controls for ethical and auditable deployment.",
+    "contribution": "Provides a prototype-level architectural framework for coupling generative AI, semantic matching, RAG, and an AI governance layer within CPQ workflows for GDPR/HIPAA/ISO 27001-aligned contract review.",
+    "limitations": "Evaluation is simulation-based on 500 synthetic SaaS contracts; results are presented as indicative upper-bound estimates pending real-world validation; the system is a prototype, not a fully deployed production system.",
+    "use_in_review": "Include as supporting evidence on technical and operational governance of specific LLMs (GPT-4) in regulated enterprise settings, but not as central evidence on conversational governance because no conversational, dialogue, chatbot, or agent interaction model is described."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a Scientific Reports journal article by Rajesh Soma (2026) with DOI 10.1038/s41598-026-55942-7",
+      "excerpt": "Soma R. AI‑driven framework for contract risk automation and compliance in oracle CPQ. Sci Rep (2026). https://doi.org/10.1038/s41598-026-55942-7",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study proposes AICRIM, a simulation-validated prototype integrating GPT-4 and BERT into Oracle CPQ",
+      "excerpt": "introduces the Artificial Intelligence Contract Risk and Intelligence Model (AICRIM), a simulation-validated, prototype-level framework that integrates generative AI (GPT-4) and BERT-based semantic matching into Oracle Configure- Price-Quote (CPQ) systems",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated compliance context includes GDPR, HIPAA, and ISO 27001",
+      "excerpt": "benchmarking it against GDPR, HIPAA, and ISO 27001 regulatory standards",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Evaluation uses 500 synthetic SaaS contracts with manual legal review and rule-based NLP baselines",
+      "excerpt": "evaluated through structured simulation experiments over a corpus of 500 synthetic SaaS contract documents, using manual legal review and rule-based NLP as baselines",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Reported simulation outcomes include compliance detection accuracy of 92.1% and cycle time reduction",
+      "excerpt": "a 38.2% reduction in deal cycle time, and a compliance detection accuracy of 92.1%, with statistically significant improvements over both baselines (p < 0.01)",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors state results are simulation-derived and pending real-world validation",
+      "excerpt": "These results are simulation-derived and serve as indicative upper-bound estimates pending real- world validation",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Framework embeds AI governance controls including encryption, bias monitoring, and audit trails",
+      "excerpt": "AICRIM also embeds AI governance controls - AES-256 encryption, bias monitoring, and structured audit trails - to ensure ethical and auditable deployment",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Architecture includes five modules and an explicit AI Governance Layer",
+      "excerpt": "(1) Data Ingestion Layer, (2) Clause Interpretation Module, (3) BERT-Based Semantic Matching Engine, (4) GPT- 4 Generative AI Module, and (5) AI Governance Layer",
+      "page": "4",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "GPT-4 module uses RAG and generates risk summaries and compliant clause alternatives",
+      "excerpt": "The generative AI module (GPT-4, temperature = 0.2, max_tokens = 1024) generates structured risk summaries, recommends compliant clause alternatives, and produces executive compliance reports. A retrieval-augmented generation (RAG) architecture injects",
+      "page": "9",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Generative AI is described with appropriate guardrails for clause suggestions",
+      "excerpt": "Generative AI models, including GPT-4, produce compliant clause suggestions with appropriate guardrails, standardizing negotiation language",
+      "page": "4",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human oversight appears via legal review gates rather than conversational handoff",
+      "excerpt": "Low-risk contracts (Risk Score < 3.0) bypass legal review gates, directly reducing cycle time",
+      "page": "9",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational AI, chatbot, or dialogue system is described in the provided text",
+      "excerpt": "perform real-time compliance and risk assessment during SaaS and cloud deal negotiations",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

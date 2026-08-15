@@ -1,0 +1,194 @@
+{
+  "bibliographic": {
+    "title": "Adoption of AI-Driven Fraud Detection System in the Nigerian Banking Sector: An Analysis of Cost, Compliance, and Competency",
+    "authors": "John Stephen Alaba; Shonubi Joye Ahmed; Azuikpe Patience Farida; Ologun Victor Oluwatosin",
+    "year": "2025",
+    "venue": "Economic Review of Nepal",
+    "doi": "10.3126/ern.v8i1.80740",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Alaba, J. S., Ahmed, S. J., Farida, A. P., & Oluwatosin, O. V. (2025). Adoption of AI-driven fraud detection system in the Nigerian banking sector: An analysis of cost, compliance, and competency. Economic Review of Nepal, 8(1), 16–33. https://doi.org/10.3126/ern.v8i1.80740"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "cross-sectional survey; Ordered Logistic Regression (OLR)",
+    "study_design": "cross-sectional survey research design",
+    "sample_description": "Population of 24 licensed banks in Nigeria; purposive sampling of 5 biggest banks based on market capitalization and customer base; primary data via structured questionnaire (5-point Likert scale)",
+    "sample_size": "unclear",
+    "sector": "Nigerian banking sector",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "AI-driven fraud detection systems using machine learning (supervised, unsupervised, hybrid), predictive analytics, anomaly detection, behavioural analysis, and real-time monitoring; not conversational or agentic LLM systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_technology_focus",
+      "no_conversational_ai",
+      "no_llm_governance_focus"
+    ],
+    "exclusion_reason": "Empirical study on adoption determinants of AI/ML fraud detection in Nigerian banks; does not examine conversational AI, LLM-based systems, or conversational governance mechanisms. LLM references appear only when citing prior work in the literature review.",
+    "decision_rationale": "Although the paper addresses regulated banking, compliance, risk, and generic AI adoption, its empirical focus is fraud-detection system uptake (cost, compliance, competency) rather than governance of conversational or LLM systems. Python triage scored conversational_ai 0/3; provided text supports exclusion from the central corpus of conversational LLM governance evidence.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Clear cross-sectional survey objective and OLR estimation for adoption determinants. Purposive selection of 5 of 24 banks limits generalizability. Respondent/sample size not stated in provided excerpts. Ethics and detailed limitations not visible in supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Methodologically coherent empirical adoption study for banking fraud-detection AI, but low relevance to conversational LLM governance because technology and governance objects differ from the review scope."
+  },
+  "coding": {
+    "open_codes": [
+      "AI fraud detection adoption",
+      "implementation cost barrier",
+      "regulatory compliance driver",
+      "staff competency",
+      "IT infrastructure",
+      "top management support",
+      "perceived effectiveness",
+      "Nigerian banking",
+      "machine learning fraud analytics"
+    ],
+    "axial_codes": [
+      "organizational adoption determinants",
+      "regulated financial sector AI uptake",
+      "compliance and competency enablers",
+      "cost constraints"
+    ],
+    "theme": "Adoption of AI-based fraud detection in regulated banking",
+    "subtheme": "Cost, compliance, and competency as adoption determinants",
+    "concepts": [
+      "regulatory compliance",
+      "staff competency",
+      "implementation cost",
+      "IT infrastructure",
+      "top management support",
+      "machine learning",
+      "fraud detection",
+      "real-time monitoring"
+    ],
+    "model_layers": [
+      "organizational",
+      "regulatory",
+      "technical infrastructure"
+    ],
+    "rq_alignment": [
+      "regulated_domain_context",
+      "risk_audit_compliance"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Top management support, IT infrastructure, regulatory compliance, staff competency, and perceived effectiveness accelerate adoption of AI-driven fraud detection systems in Nigerian banks, while high implementation cost discourages adoption.",
+    "contribution": "Empirical Ordered Logistic Regression evidence on organizational and regulatory factors shaping AI fraud-detection adoption in a regulated banking context.",
+    "limitations": "Purposive sample of five largest banks; respondent count and detailed limitations not provided in supplied text; no analysis of conversational AI, LLM governance, guardrails, or human oversight mechanisms for generative systems.",
+    "use_in_review": "Exclude from central conversational LLM governance synthesis; may serve only as peripheral contextual background on regulated banking AI adoption and compliance drivers if a broader regulated-sector adoption subsection is needed."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with bibliographic metadata",
+      "excerpt": "Received: May 5, 2025 Revised: June 14, 2025 Accepted: June 20, 2025",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Empirical cross-sectional survey design with OLR analysis",
+      "excerpt": "This study adopted a cross-sectional survey research design.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Purposive sample of five largest Nigerian banks from 24 licensed banks",
+      "excerpt": "The population of the study consist of 24 licensed banks in Nigeria. A purposive sampling technique was used to select 5 biggest banks based on market capitalization and customer base.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Primary data collected via structured Likert questionnaire",
+      "excerpt": "Data were extracted from primary sources through structured questionnaire based on 5-point Likert scale.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "OLR used to estimate adoption determinants",
+      "excerpt": "The Ordered Logistic Regression (OLR) model was used to estimate the data.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Regulatory compliance accelerates AI fraud-detection adoption",
+      "excerpt": "The results showed that top management support, IT infrastructure, regulatory compliance, staff competency and perceived effectiveness accelerate the uptake of AI-driven fraud detection systems adoption.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "High implementation cost discourages adoption",
+      "excerpt": "However, high implementation cost discourages it.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Technology focus is ML-based fraud detection, not conversational LLM systems",
+      "excerpt": "AI-driven fraud detection systems utilize advanced machine learning (ML) techniques involving supervised, unsupervised, and hybrid learning models, to detect anomalies and fraudulent activities in banking transactions",
+      "page": "2",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated high-stakes banking context with compliance emphasis",
+      "excerpt": "Keyword: Artificial intelligence, fraud detection, regulatory compliance, staff competency, cost implementation, banking sector, Nigeria",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "NLP mentioned generically in literature review, not as study object",
+      "excerpt": "AI tools like machine learning and natural language processing are often used to detect fraud.",
+      "page": "4",
+      "section": "literature review",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "ChatGPT/LLM references cite external study, not this paper's empirical focus",
+      "excerpt": "They used the LLaMA3 GPT engine (with 8 billion parameters) and the Ollama framework, along with OpenAI models like ChatGPT 3.5 and 4.",
+      "page": "6",
+      "section": "limitations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance signal present but truncated in supplied text",
+      "excerpt": "ed that the board of directors plays a key",
+      "page": "7",
+      "section": "unclear",
+      "supports": "coding"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "Barriers and Facilitators to the Use of Large Language Model-Based Conversational Agents in Mental Healthcare: A Systematic Review",
+    "authors": "Ravi Shankar; Amaevia Lim; Qian Xu",
+    "year": "2026",
+    "venue": "Healthcare",
+    "doi": "10.3390/healthcare14101267",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Shankar, R., Lim, A., & Xu, Q. (2026). Barriers and facilitators to the use of large language model-based conversational agents in mental healthcare: A systematic review. Healthcare, 14(10), 1267. https://doi.org/10.3390/healthcare14101267"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic review with dual independent screening, Mixed Methods Appraisal Tool (MMAT) appraisal, and CFIR-guided directed content analysis",
+    "study_design": "systematic review",
+    "sample_description": "27 included studies (three RCTs, nine mixed methods, eight qualitative, four cross-sectional, three observational) comprising more than 22,000 participants across 12 countries",
+    "sample_size": "27 studies",
+    "sector": "mental healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-based conversational agents (e.g., GPT, Gemini, Claude, LLaMA) deployed for mental health support, therapy delivery, and related clinical functions"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "systematic_review",
+      "llm_conversational_agents",
+      "regulated_healthcare",
+      "governance_safety_oversight"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Peer-reviewed systematic review directly synthesizing barriers and facilitators to LLM-based conversational agents in mental healthcare, with explicit recommendations for human-in-the-loop oversight, safety certification, and regulatory/safety evaluation frameworks (e.g., California SB 243, VERA-MH, CAPE-II). Highly relevant to conversational AI governance in a regulated domain, though primary analytic lens is CFIR implementation science rather than a dedicated conversational governance architecture.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial pages 1-2 were provided; full methods, results tables, and limitations sections should be verified before final coding."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 5,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 5,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Methods appear appropriate for a systematic review: eight databases searched (Jan 2022–Jan 2026), Covidence, two independent reviewers, MMAT appraisal, and CFIR-guided synthesis. Ethics/reflexivity and full limitations discussion are not visible in the excerpt provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 5,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are coherently organized into barrier and facilitator domains with CFIR mapping and quantified reporting frequencies across 27 studies. Confidence is moderate rather than high because the underlying evidence base is described as nascent and largely pre-clinical, and only partial text was available for appraisal."
+  },
+  "coding": {
+    "open_codes": [
+      "crisis_detection_failure",
+      "hallucination_inaccuracy",
+      "human_in_the_loop_oversight",
+      "tiered_implementation_framework",
+      "independent_safety_certification",
+      "regulatory_mechanisms",
+      "CFIR_process_gaps",
+      "equity_sensitive_design"
+    ],
+    "axial_codes": [
+      "safety_and_risk_barriers",
+      "implementation_infrastructure",
+      "clinical_deployment_governance",
+      "regulatory_and_evaluation_frameworks"
+    ],
+    "theme": "Barriers and facilitators to responsible implementation of LLM-based conversational agents in mental healthcare",
+    "subtheme": "Governance, safety oversight, and regulatory models for clinical scaling",
+    "concepts": [
+      "Consolidated Framework for Implementation Research (CFIR)",
+      "human-in-the-loop",
+      "California SB 243",
+      "VERA-MH",
+      "CAPE-II",
+      "independent safety certification",
+      "tiered implementation framework"
+    ],
+    "model_layers": [
+      "oversight",
+      "safety_evaluation",
+      "regulatory_compliance",
+      "deployment_process",
+      "monitoring_and_evaluation"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa",
+      "sistemas conversacionais em contextos regulados",
+      "supervisão humana",
+      "controle de risco e segurança",
+      "compliance e mecanismos regulatórios",
+      "monitoramento pós-implantação"
+    ],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "LLM-based conversational agents demonstrate substantial therapeutic promise in mental healthcare but present critical safety deficiencies; safe scaling requires a tiered implementation framework with mandatory human-in-the-loop oversight and stronger safety/regulatory infrastructure.",
+    "contribution": "Synthesizes 27 studies into five barrier domains (27 sub-themes) and four facilitator domains (22 sub-themes), maps findings onto CFIR to show gaps in implementation process constructs, and links clinical deployment to actionable governance models including standardized safety evaluation frameworks and state regulation.",
+    "limitations": "The included evidence base is described as nascent and largely pre-clinical; CFIR Process-domain constructs such as Evaluating (7%) and Champions (11%) are critically underreported in the literature; full study limitations are not fully visible in the provided excerpt.",
+    "use_in_review": "Use as supporting evidence for mapping governance-relevant barriers, facilitators, and recommended oversight mechanisms when scaling LLM conversational agents in regulated mental healthcare settings."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a peer-reviewed systematic review on LLM-based conversational agents in mental healthcare.",
+      "excerpt": "Systematic Review Barriers and Facilitators to the Use of Large Language Model-Based Conversational Agents in Mental Healthcare: A Systematic Review",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses systematic review methods with dual reviewers and established appraisal/synthesis tools.",
+      "excerpt": "Eight databases were searched from January 2022 to January 2026. Study selection was managed using Covidence. Two reviewers independently screened, extracted, and appraised studies using the Mixed Methods Appraisal Tool.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Sample comprises 27 studies with broad geographic and participant coverage.",
+      "excerpt": "Twenty-seven studies (three RCTs, nine mixed methods, eight qualitative, four cross-sectional, three observational) comprising >22,000 participants across 12 countries met inclusion criteria.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Critical safety barriers include inadequate crisis detection and hallucination/inaccuracy.",
+      "excerpt": "Inadequate crisis detection (21/27 studies) and hallucination/inaccuracy (15/27 studies) represent the most critical safety barriers.",
+      "page": "1",
+      "section": "highlights",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors recommend mandatory human-in-the-loop oversight before safe scaling.",
+      "excerpt": "A tiered implementation framework with mandatory human-in-the-loop oversight is needed before LLM-based conversational agents can be safely scaled in mental healthcare.",
+      "page": "1",
+      "section": "highlights",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulatory and standardized safety evaluation frameworks are presented as governance models.",
+      "excerpt": "Regulatory mechanisms such as California SB 243 and standardised safety evaluation frameworks (VERA-MH, CAPE-II) provide actionable models for governance.",
+      "page": "1",
+      "section": "highlights",
+      "supports": "coding"
+    },
+    {
+      "claim": "CFIR mapping shows critical absence of implementation process constructs in the field.",
+      "excerpt": "Evaluating was reported in 2/27 studies (7%) and Champions in 3/27 (11%), indicating the field has characterised these tools extensively but has not developed the implementation infrastructure for responsible clinical deployment.",
+      "page": "1",
+      "section": "highlights",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Conclusions emphasize safety deficiencies and recommend tiered framework, safety certification, and equity-sensitive design.",
+      "excerpt": "LLM-based conversational agents demonstrate substantial promise but present critical safety deficiencies. A tiered implementation framework, independent safety certification, and equity-sensitive design are recommended.",
+      "page": "2",
+      "section": "conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Technology context includes named LLM families applied to conversational mental health agents.",
+      "excerpt": "The advent of large language models (LLMs), including GPT (OpenAI), Gemini (Google), Claude (Anthropic), and LLaMA (Meta), represents a paradigm shift",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Rapid proliferation has outpaced evidence base and regulatory infrastructure.",
+      "excerpt": "the rapid proliferation of LLM-based conversational agents (CAs) has outpaced both the evidence base and regulatory infrastructure.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

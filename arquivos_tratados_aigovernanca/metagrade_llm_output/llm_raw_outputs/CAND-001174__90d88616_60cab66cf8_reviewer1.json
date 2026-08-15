@@ -1,0 +1,201 @@
+{
+  "bibliographic": {
+    "title": "The Switch, the Ladder, and the Matrix: Models for Classifying AI Systems",
+    "authors": "Jakob Mökander, Margi Sheth, David S. Watson, Luciano Floridi",
+    "year": "2023",
+    "venue": "Minds and Machines",
+    "doi": "10.1007/s11023-022-09620-y",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Mökander, J., Sheth, M., Watson, D. S., & Floridi, L. (2023). The Switch, the Ladder, and the Matrix: Models for classifying AI systems. Minds and Machines, 33, 223–250. https://doi.org/10.1007/s11023-022-09620-y"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "Comparative conceptual literature review",
+    "study_design": "Narrative review and comparison of prior AI system classification approaches organized into three mental models",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "General artificial intelligence systems, including machine learning and hybrid approaches; governance illustrations reference EU AIA and other policy frameworks; no conversational AI or LLM focus in provided text"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "AI_GOVERNANCE",
+      "CLASSIFICATION_FRAMEWORK",
+      "REGULATED_CONTEXT_REFERENCES"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI",
+      "NO_LLM_SPECIFICITY",
+      "NO_OPERATIONAL_CONVERSATIONAL_GOVERNANCE"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses AI governance material scope through a comparative review of classification models (Switch, Ladder, Matrix), which is relevant to governance framing in regulated settings. However, the provided text contains no focus on conversational systems, chatbots, agents, LLMs, RAG, guardrails, observability, or other operational conversational governance mechanisms central to the review scope.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted metadata contains errors (year listed as 2019; publication_type listed as conference_paper) and only partial full text was supplied; confirm study selection, methodology section, and absence of conversational/LLM content in remaining pages."
+  },
+  "appraisal": {
+    "objective_clarity": 9,
+    "method_fit": 8,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 7,
+    "ethics_reflexivity": 3,
+    "results_clarity": 8,
+    "limitations_transparency": 3,
+    "evidence_support": 7,
+    "transferability": 8,
+    "notes": "Objective and conceptual contribution are clearly stated, with a structured three-model synthesis suited to governance demarcation. Appraisal of sampling, search strategy, data collection, limitations, and ethics reflexivity is limited because those details are not present in the supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is conceptually coherent and clearly presented, but methodological details are unclear from the provided text and the article's direct relevance to conversational LLM governance is only partial."
+  },
+  "coding": {
+    "open_codes": [
+      "material scope",
+      "AI classification",
+      "mental models",
+      "principles-practice gap",
+      "risk-based regulation",
+      "multi-dimensional classification"
+    ],
+    "axial_codes": [
+      "AI governance operationalization",
+      "regulatory demarcation of AI systems",
+      "ethics implementation barriers"
+    ],
+    "theme": "Taxonomies for defining the material scope of AI governance",
+    "subtheme": "Switch, Ladder, and Matrix classification models",
+    "concepts": [
+      "Switch",
+      "Ladder",
+      "Matrix",
+      "material scope",
+      "AI governance",
+      "AI ethics",
+      "risk-based approach",
+      "binary classification"
+    ],
+    "model_layers": [
+      "governance",
+      "classification",
+      "policy/regulation"
+    ],
+    "rq_alignment": [
+      "partial alignment to governance and regulated-context questions",
+      "low alignment to conversational AI and LLM-specific governance mechanisms"
+    ],
+    "coding_confidence": 0.84
+  },
+  "synthesis": {
+    "main_claim": "Organizations lack a well-defined material scope for operationalizing AI ethics, and prior attempts to classify AI systems for governance can be grouped into three mental models: the Switch (binary), the Ladder (risk-based), and the Matrix (multi-dimensional).",
+    "contribution": "Provides a conceptual vocabulary and comparative framework to help organizations design, deploy, or regulate AI systems by demarcating which systems fall within AI governance frameworks.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence for governance material scope, AI system classification, and risk-based regulatory framing; do not treat as central evidence on conversational or LLM-specific governance unless additional sections explicitly cover those topics."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a peer-reviewed journal publication from 2023.",
+      "excerpt": "Minds and Machines (2023) 33:223–250 https://doi.org/10.1007/s11023-022-09620-y",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "A prior non-archival conference version was presented at ACM FAccT 2022.",
+      "excerpt": "A previous version of this manuscript was presented as a non-archival paper at ACM FaccT 2022 in Seoul.",
+      "page": "1",
+      "section": "disclaimer",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Study objective is to review and compare AI classification approaches for governance practice.",
+      "excerpt": "In this article, we review and compare previous attempts to classify AI systems for the purpose of implementing AI governance in practice.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Core contribution is three mental models for classifying AI systems.",
+      "excerpt": "we find that attempts to classify AI systems proposed in previous literature use one of three mental models: the Switch, i.e., a binary approach",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "The Ladder is a risk-based classification model.",
+      "excerpt": "the Ladder, i.e., a risk-based approach that classifies systems according to the ethical risks they pose",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "The Matrix is a multi-dimensional classification model.",
+      "excerpt": "the Matrix, i.e., a multi-dimensional classification of systems that take various aspects into account, such as context, input data, and decision-model",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Article targets organizations that design, deploy, or regulate AI systems.",
+      "excerpt": "we hope to provide organisations that design, deploy, or regulate AI systems with the vocabulary needed to demarcate the material scope of their AI governance frameworks",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulated/policy context is referenced illustratively, including EU AIA.",
+      "excerpt": "we therefore make frequent references to the material scope of regulatory proposals like the EU AIA and the US AAA for illustrative purposes",
+      "page": "5",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Technology scope includes machine learning but not LLMs or conversational systems in provided text.",
+      "excerpt": "This latter class includes machine learning algorithms, such as deep neural networks",
+      "page": "6",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "EU AIA definition in the text includes systems that generate content or decisions.",
+      "excerpt": "can, for a given set of human-defined objectives, generate outputs such as content, predictions, recommendations, or decisions influencing the env",
+      "page": "7",
+      "section": "limitations",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational AI or LLM-specific governance focus appears in supplied text.",
+      "excerpt": "Keywords Artificial intelligence · AI systems · Ethics · Classification · Governance · Material scope · Mental models",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Ethical risks discussed include bias, privacy, and harm in general AI use.",
+      "excerpt": "leaving individuals and groups vulnerable to poor quality outcomes, bias and discrimination, and invasion of privacy",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Healthcare is mentioned only as an example domain, not as the study focus.",
+      "excerpt": "AI systems can improve health outcomes",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    }
+  ]
+}

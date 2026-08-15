@@ -1,0 +1,173 @@
+{
+  "bibliographic": {
+    "title": "Large language models improve clinical decision making of medical students through patient simulation and structured feedback: a randomized controlled trial",
+    "authors": "Emilia Brügge, Sarah Ricchizzi, Malin Arenbeck, Marius Niklas Keller, Lina Schur, Walter Stummer, Markus Holling, Max Hao Lu, Dogus Darici",
+    "year": "2024",
+    "venue": "BMC Medical Education",
+    "doi": "10.1186/s12909-024-06399-7",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Brügge, E., Ricchizzi, S., Arenbeck, M., Keller, M. N., Schur, L., Stummer, W., Holling, M., Lu, M. H., & Darici, D. (2024). Large language models improve clinical decision making of medical students through patient simulation and structured feedback: a randomized controlled trial. BMC Medical Education, 24, 1391. https://doi.org/10.1186/s12909-024-06399-7"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "randomized controlled trial",
+    "study_design": "double-blind two-group randomized controlled trial with repeated measures ANOVA",
+    "sample_description": "medical students at the University of Münster, Germany during winter term 2023/2024",
+    "sample_size": "21",
+    "sector": "medical education",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM prompts to simulate patients with different symptoms in medical history conversations; ChatGPT Playground interface; AI-generated structured feedback after simulated conversations"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM",
+      "conversational_simulation",
+      "regulated_healthcare_education"
+    ],
+    "exclusion_codes": [
+      "no_governance_focus",
+      "no_audit_compliance_oversight",
+      "educational_efficacy_only"
+    ],
+    "exclusion_reason": "The study evaluates educational outcomes of LLM-based patient simulation and feedback for medical students; the provided text does not address conversational AI governance, accountability, guardrails, audit, compliance, observability, or human oversight mechanisms.",
+    "decision_rationale": "Although the article uses LLMs for realistic medical history conversations in a regulated healthcare education context, its primary contribution is an RCT on clinical decision-making training effectiveness rather than governance of conversational LLM systems. No governance, risk control, audit, or supervisory framework is examined in the supplied excerpts.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Clear RCT objective and analysis with inter-rater reliability reported (ICC = 0.924), but very small sample (n=21) and reliance on ChatGPT Playground limits generalizability and reproducibility; ethics/reflexivity not substantively addressed in provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Findings are internally coherent for an educational efficacy question, but sample adequacy is limited and the supplied text offers little relevance to conversational governance mechanisms in regulated LLM deployments."
+  },
+  "coding": {
+    "open_codes": [
+      "patient_simulation",
+      "medical_history_conversation",
+      "structured_feedback",
+      "clinical_decision_making",
+      "randomized_controlled_trial",
+      "medical_student_training"
+    ],
+    "axial_codes": [
+      "LLM_training_application",
+      "conversational_patient_simulation",
+      "educational_outcome_evaluation"
+    ],
+    "theme": "LLM-supported clinical training through simulated conversations",
+    "subtheme": "structured feedback after AI patient interactions",
+    "concepts": [
+      "patient simulation",
+      "CDM training",
+      "AI-generated feedback",
+      "medical history conversation"
+    ],
+    "model_layers": [
+      "application_layer"
+    ],
+    "rq_alignment": [
+      "weak_alignment_with_governance_RQs"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "LLM-simulated medical history conversations combined with structured AI feedback improved medical students' clinical decision-making scores more than simulation alone after four training sessions.",
+    "contribution": "Provides empirical RCT evidence that LLM-based patient simulation with automated feedback can support CDM training in medical education as a cost-effective supplement.",
+    "limitations": "Small sample (n=21); used ChatGPT Playground/ChatGPT 3.5 with training data through January 2022; ongoing model updates may affect reproducibility; governance implications not analyzed.",
+    "use_in_review": "Exclude as central or supporting governance evidence; may serve only as peripheral contextual background on LLM conversational use in regulated medical education if a broader scoping note is needed."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses LLMs to simulate patient-doctor medical history conversations and provide structured feedback",
+      "excerpt": "we explored the potential of using Large Language Models (LLM) to simulate patient-doctor interactions and provide structured feedback",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "RCT design with control and feedback groups",
+      "excerpt": "In our double-blind randomized design, the control group participated in simulated medical history conversations with AI patients (control group), while the intervention group, in addition to simulated conversations, also received AI-generated feedback on their performances (feedback group)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Final sample of 21 medical students",
+      "excerpt": "Our final sample included 21 medical students (agemean = 22.10 years, semestermean = 4, 14 females)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Feedback group outperformed control on CDM after four sessions",
+      "excerpt": "After only four training sessions, the feedback group (3.60 ± 0.13) outperformed the control group (3.02 ± 0.12), F (1,18) = 4.44, p = .049 with a strong effect size, partial η2 = 0.198",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Specific LLM technology context includes ChatGPT",
+      "excerpt": "One emerging technology with the potential to make CDM even more accessible is the use of LLMs, such as ChatGPT",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study conducted as two-group randomized-controlled study at University of Münster",
+      "excerpt": "We conducted a two-group randomized-controlled study during winter term 2023/2024 at the University of Münster, Germany and used the large language model",
+      "page": "2",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No prior LLM patient-simulation studies implemented feedback at time of reporting",
+      "excerpt": "Among the few studies that exist on LLM-generated patient simulations [21–24], none have implemented feedback or debriefing at the time of reporting",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors note opportunities and challenges of LLM patient simulations but governance is not specified",
+      "excerpt": "Additionally, we outlined the opportunities and challenges associated with using LLM for patient simulations",
+      "page": "10",
+      "section": "Discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Reproducibility limitation due to evolving language model",
+      "excerpt": "A more significant limitation is the ongoing development of the language model, which may affect reproducibility",
+      "page": "10",
+      "section": "Limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "ChatGPT Playground interface used for execution",
+      "excerpt": "the study used the “Playground” interface of ChatGPT for its execution",
+      "page": "10",
+      "section": "Limitations",
+      "supports": "methodology"
+    }
+  ]
+}

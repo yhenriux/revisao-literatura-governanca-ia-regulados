@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "Compliance Generation for Privacy Documents under GDPR: A Roadmap for Implementing Automation and Machine Learning",
+    "authors": "David Restrepo Amariles, Aurore Clément Troussel, Rajaa El Hamdani",
+    "year": "2019",
+    "venue": "JURIX 2019 Workshop 'GDPR Compliance - Theories, Techniques, Tools', Universidad Politécnica de Madrid",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Restrepo Amariles, D., Troussel, A. C., & El Hamdani, R. (2019). Compliance generation for privacy documents under GDPR: A roadmap for implementing automation and machine learning. arXiv:2012.12718."
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "Literature survey and roadmap/framework development (Privatech project)",
+    "study_design": "Survey of GDPR automation research combined with analysis of corporate operational challenges and a compliance-generation roadmap",
+    "sample_description": "Survey of existing research on GDPR automation and discussion of corporate/law-firm compliance practices; references Privatech prototype development",
+    "sample_size": "unclear",
+    "sector": "Data protection compliance; corporations and law firms",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "Machine learning, NLP classifiers, and automation tools for assessing and generating GDPR-compliant privacy documents"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "governance_accountability",
+      "regulated_high_stakes",
+      "risk_audit_compliance",
+      "foundational_value"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai",
+      "no_llm_genai",
+      "no_operational_conversational_governance"
+    ],
+    "exclusion_reason": "Paper addresses GDPR compliance automation via ML/NLP for privacy documents but does not study conversational systems, chatbots, agents, or LLM-based generative AI governance.",
+    "decision_rationale": "Strong fit for accountability, compliance, and regulated privacy contexts, but outside the review's core focus on conversational governance in LLM-based systems. Useful as foundational/contextual background on corporate compliance automation and accountability documentation.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Scope mismatch (no conversational AI, no LLMs) is explicit in the provided text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Conceptual survey/roadmap with referenced prototype work; limited primary empirical reporting in the provided excerpts. Appropriate for framing compliance automation but not for evaluating conversational LLM governance mechanisms."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Internally coherent roadmap for GDPR document compliance automation, but methodological detail on sampling, evaluation, and limitations is limited in the provided text. Relevance to the review's conversational-LLM governance focus is low despite strong regulatory-compliance relevance."
+  },
+  "coding": {
+    "open_codes": [
+      "GDPR compliance",
+      "privacy documents",
+      "accountability measures",
+      "compliance generation",
+      "machine learning automation",
+      "NLP classification",
+      "corporate agents of compliance",
+      "information asymmetry",
+      "privacy policies"
+    ],
+    "axial_codes": [
+      "regulatory compliance automation",
+      "privacy governance",
+      "document assessment and generation",
+      "corporate compliance tooling"
+    ],
+    "theme": "Automated GDPR compliance for privacy documents",
+    "subtheme": "ML/NLP roadmap for corporate and law-firm compliance",
+    "concepts": [
+      "accountability",
+      "compliance generation",
+      "privacy documents",
+      "automation",
+      "machine learning",
+      "natural language processing",
+      "transparency"
+    ],
+    "model_layers": [
+      "legal-regulatory layer",
+      "organizational compliance layer",
+      "technical automation layer"
+    ],
+    "rq_alignment": [
+      "accountability and compliance in regulated contexts",
+      "risk and privacy governance",
+      "automation of compliance documentation"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The paper proposes a roadmap to bridge GDPR automation research and corporate operational challenges by decomposing compliance issues into ML- and automation-addressable tasks for assessing and generating privacy documents.",
+    "contribution": "Shifts compliance research focus from consumer-centric and regulator-centric approaches to corporations and law firms as agents of compliance, and outlines the Privatech project for GDPR privacy-document assessment.",
+    "limitations": "Provided text does not detail systematic review methods, empirical validation, or study limitations; technology discussed is pre-LLM ML/NLP rather than generative LLMs; no conversational-system governance is addressed.",
+    "use_in_review": "Include as foundational/contextual evidence on accountability, GDPR compliance automation, and corporate privacy-document governance; exclude from central conversational-LLM governance synthesis."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on corporate/law-firm GDPR compliance automation rather than consumer/regulator approaches.",
+      "excerpt": "We shift this perspective with the Privatech project to focus on corporations and law firms as agents of compliance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Accountability and documentation of compliance are central requirements.",
+      "excerpt": "data processors must implement accountability measures to assess and document compliance in relation to both privacy documents and privacy practices.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Study design is a survey plus roadmap for ML/automation tasks.",
+      "excerpt": "We survey, on the one hand, current research on GDPR automation, and on the other hand, the operational challenges corporations face to comply with GDPR",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Technology context is ML and automation, not LLMs or conversational systems.",
+      "excerpt": "breaking them down into tasks that can be addressed through machine learning and automation",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated-domain focus is GDPR and related privacy law.",
+      "excerpt": "The adoption of the principle of accountability by recent regulations such as GDPR and CCPA",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "NLP is used for privacy-policy analysis, not conversational governance.",
+      "excerpt": "used ML and natural language processing (NLP) to automate vagueness assessment.",
+      "page": "5",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Human annotation remains part of proposed automated assessment approaches.",
+      "excerpt": "The most recent research underlines the need for a combination of crowdsourcing, ML, and NLP to analyze privacy policies at a large scale.",
+      "page": "7",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Transparency in data practices affects user willingness to share data.",
+      "excerpt": "The results reveal a correlation between transparency in data practices and the users' willingness to share data.",
+      "page": "3",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Privatech tool supports assessment of privacy-document GDPR compatibility.",
+      "excerpt": "We designed a tool under the name of Privatech, which seeks to assist in the assessment of the compatibility of privacy documents of companies with GDPR",
+      "page": "4",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No conversational AI or LLM governance is discussed in the provided text.",
+      "excerpt": "Keywords: GDPR · Compliance generation · Privacy documents · Automation · Machine learning.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

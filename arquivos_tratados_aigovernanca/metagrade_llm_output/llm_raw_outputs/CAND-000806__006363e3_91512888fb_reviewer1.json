@@ -1,0 +1,172 @@
+{
+  "bibliographic": {
+    "title": "A Meta-Analysis of the Persuasive Power of Large Language Models",
+    "authors": "Lukas Hölbling, Sebastian Maier, Stefan Feuerriegel",
+    "year": "unclear",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Hölbling, L., Maier, S., & Feuerriegel, S. (unclear). A meta-analysis of the persuasive power of large language models. [Accepted manuscript, article in press]."
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic review and meta-analysis (PRISMA 2020)",
+    "study_design": "meta-analysis synthesizing primary empirical studies comparing LLM versus human persuasive effectiveness with exploratory moderator analyses",
+    "sample_description": "7 included primary studies with 17,422 participants primarily recruited from English-speaking countries yielding 12 effect size estimates",
+    "sample_size": "7 studies; 17,422 participants; 12 effect sizes",
+    "sector": "political communication, marketing, healthcare (among application contexts cited)",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-mediated persuasive communication including political messaging, marketing, healthcare nudging, and clinical decision-support contexts; moderators include LLM model, conversation design, and domain"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_research_focus",
+      "insufficient_governance_focus"
+    ],
+    "exclusion_reason": "Primary aim is to meta-analytically compare persuasive effectiveness of LLMs versus humans and identify contextual moderators (model, conversation design, domain), not to study conversational governance, accountability, oversight, compliance, audit, or risk-control mechanisms in regulated LLM systems.",
+    "decision_rationale": "Although the manuscript is LLM-specific, mentions conversation design, dialogue, chatbots, and regulated/high-stakes domains such as healthcare, its central research question and contribution concern persuasion performance and heterogeneity across studies rather than governance of conversational AI. Evidence on guardrails, observability, human supervision, accountability, or compliance frameworks is absent from the provided text.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Accepted manuscript with incomplete bibliographic metadata (year, venue, DOI unclear); only partial text provided; regulated-domain and governance-related terms may appear elsewhere in full text but were not evidenced in the excerpt."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Methodologically appropriate systematic review and meta-analysis for its persuasion-focused question, but based on only 7 studies with substantial heterogeneity (I2 = 75.97%) and acknowledged limited power for single-factor moderator tests. Not appraised as central evidence for conversational governance because the research objective does not address governance mechanisms."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internal methodological coherence for a persuasion meta-analysis appears moderate-to-strong in the provided text, but adequacy is limited by the small number of included studies. Relevance to a review on conversational governance in regulated LLM environments is very low because governance, oversight, and compliance are not studied outcomes."
+  },
+  "coding": {
+    "open_codes": [
+      "persuasive_effectiveness",
+      "llm_human_comparison",
+      "meta_analysis",
+      "conversation_design",
+      "domain_moderation",
+      "heterogeneity",
+      "healthcare_application_context",
+      "high_stakes_clinical_mentions",
+      "prisma_systematic_search"
+    ],
+    "axial_codes": [
+      "LLM_communication_effects",
+      "contextual_moderators",
+      "non_governance_focus"
+    ],
+    "theme": "Persuasive effectiveness of large language models",
+    "subtheme": "Contextual moderators of LLM persuasion versus humans",
+    "concepts": [
+      "Hedges g effect size",
+      "heterogeneity I2",
+      "conversation design",
+      "LLM model differences",
+      "domain effects",
+      "publication bias assessment"
+    ],
+    "model_layers": [
+      "communication_context",
+      "implementation_factors"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "LLMs show no significant overall difference in persuasive performance compared to humans (g = 0.02, p = .530), but persuasiveness varies substantially across studies and depends on contextual factors including LLM model, conversation design, and domain when analyzed jointly.",
+    "contribution": "Quantitative synthesis clarifying inconsistent prior findings on LLM persuasion and identifying implementation and contextual factors as likely drivers of performance differences rather than a uniform LLM advantage or deficit.",
+    "limitations": "Only 7 studies and 12 effect sizes; substantial heterogeneity; individual moderator factors not statistically significant in separate analyses; participants primarily from English-speaking countries; small-study effects suggested by Egger's test (p = .018).",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance. May serve only as distant contextual background on LLM persuasive communication in domains such as healthcare if governance dimensions are discussed elsewhere in the full manuscript, but no such evidence appears in the provided excerpt."
+  },
+  "evidence": [
+    {
+      "claim": "Article title and authorship",
+      "excerpt": "A Meta-Analysis of the Persuasive Power of Large Language Models Lukas Hölbling*1, Sebastian Maier*1,2, and Stefan Feuerriegel†1,2",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Primary research aim is persuasion effectiveness comparison, not governance",
+      "excerpt": "The aim of this study was to systematically review and meta-analytically assess whether LLMs differ from humans in persuasive effectiveness, and under which contextual conditions LLMs are particularly effective.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Systematic review and meta-analysis sample",
+      "excerpt": "We identified 7 studies with 17,422 participants primarily recruited from English-speaking countries and 12 effect size estimates.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Main quantitative finding on LLM versus human persuasion",
+      "excerpt": "The results show no significant overall difference in persuasive performance between LLMs and humans (g = 0.02, p = .530).",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Conversation design is a contextual moderator, not a governance mechanism studied",
+      "excerpt": "suggests that differences in LLM model, conversation design, and domain are important contextual factors in shaping persuasive performance",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Healthcare and high-stakes clinical contexts mentioned as application background only",
+      "excerpt": "In healthcare, LLMs are increasingly used for nudging healthier choices through personalized recommendations and framing techniques [7], but their use is now also being explored in high-stakes clinical decision support",
+      "page": "3",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "PRISMA 2020 systematic review methodology",
+      "excerpt": "Our data collection follows the PRISMA 2020 framework [33] for systematic reviews.",
+      "page": "7",
+      "section": "method",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Search covered AI/LLM persuasion literature, not governance constructs",
+      "excerpt": "Search query TITLE(\"persuasion\" OR \"persuasive\" OR \"persuade\" OR \"persuasiveness\") AND (\"LLM\" OR \"Large Language Model\" OR \"AI\" OR \"artificial intelligence\" OR \"ChatGPT\" OR \"GPT\")",
+      "page": "7",
+      "section": "method",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Included studies involve conversational formats such as dialogue and chatbots",
+      "excerpt": "Claude Sonnet 3.5 interactive quiz multiple round dialogue",
+      "page": "13",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Acknowledged limitation due to small number of primary studies",
+      "excerpt": "Although based on a small number of studies, this suggests that differences in LLM model, conversation design, and domain are important contextual factors",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

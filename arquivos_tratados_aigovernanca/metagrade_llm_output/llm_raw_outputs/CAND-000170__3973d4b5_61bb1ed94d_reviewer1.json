@@ -1,0 +1,179 @@
+{
+  "bibliographic": {
+    "title": "Generative AI in Medicine and Healthcare: A Comprehensive Review of Foundational Technologies, Clinical Applications, and Future Perspectives",
+    "authors": "Tomoshige Nakamura, Wataru Uchida, Akira Yamamoto, Shigeki Aoki",
+    "year": "2026",
+    "venue": "Juntendo Medical Journal",
+    "doi": "10.14789/ejmj.JMJ25-0036-R",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Nakamura, T., Uchida, W., Yamamoto, A., & Aoki, S. (2026). Generative AI in medicine and healthcare: A comprehensive review of foundational technologies, clinical applications, and future perspectives. Juntendo Medical Journal. https://doi.org/10.14789/ejmj.JMJ25-0036-R"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "narrative_literature_review_with_structured_search",
+    "study_design": "keyword-based_literature_search_across_multiple_databases_followed_by_narrative_synthesis",
+    "sample_description": "Peer-reviewed articles and high-impact preprints or conference papers on generative AI, LLMs, diffusion models, NeRF/3DGS, medical imaging, clinical documentation, and drug discovery retrieved from PubMed, IEEE Xplore, Google Scholar, and arXiv through May 2025",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Transformers and LLMs, diffusion models, NeRF and 3D Gaussian Splatting, RAG, on-premises LLMs, no-code platforms, clinical documentation automation, medical imaging, drug discovery, surgical simulation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "governance_accountability",
+      "regulated_healthcare",
+      "risk_audit_compliance",
+      "operational_technical_governance"
+    ],
+    "exclusion_codes": [
+      "limited_conversational_governance_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed healthcare review that explicitly covers LLMs, RAG, data security, and a robust governance framework including bias, interpretability, and accountability in a regulated medical context. However, the provided text centers on foundational technologies and broad clinical applications rather than conversational systems, chatbots, dialogue governance, observability, audit logs, human handoff, or contestability specific to conversational AI.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial methods text were supplied; metadata venue conflicts with the PDF (IEEE Xplore vs Juntendo Medical Journal), and conversational-governance fit cannot be fully verified without the complete full text."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "The review states a clear objective and describes databases, keywords, and prioritization criteria, but the excerpt does not report a full systematic review protocol, screening flow, included-study count, quality appraisal of primary studies, or explicit limitations section."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings about healthcare LLM deployment, RAG, security, and governance are coherent and adequately supported in the available text, but confidence is moderated by incomplete full-text access and limited direct coverage of conversational governance mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "large language models",
+      "retrieval-augmented generation",
+      "on-premises LLMs",
+      "data security",
+      "governance framework",
+      "accountability",
+      "interpretability",
+      "data bias",
+      "clinical documentation",
+      "hallucination mitigation"
+    ],
+    "axial_codes": [
+      "regulated_healthcare_deployment",
+      "technical_risk_mitigation",
+      "ethical_legal_governance",
+      "clinical_workflow_automation"
+    ],
+    "theme": "Generative AI deployment and governance in healthcare",
+    "subtheme": "LLM safeguards and ethical-legal accountability",
+    "concepts": [
+      "RAG",
+      "on-premises deployment",
+      "governance framework",
+      "accountability",
+      "interpretability",
+      "bias",
+      "clinical documentation automation"
+    ],
+    "model_layers": [
+      "infrastructure",
+      "application",
+      "governance"
+    ],
+    "rq_alignment": [
+      "healthcare regulated domain",
+      "LLM-specific governance",
+      "RAG and operational safeguards",
+      "weak alignment with conversational AI oversight"
+    ],
+    "coding_confidence": 0.76
+  },
+  "synthesis": {
+    "main_claim": "Generative AI, especially LLMs together with diffusion models and 3D synthesis technologies, can transform medicine and healthcare, but real-world integration requires technical safeguards such as RAG and on-premises deployment plus a robust governance framework addressing bias, interpretability, and accountability.",
+    "contribution": "Provides a structured healthcare-focused review linking foundational generative AI technologies to clinical use cases and system-level implementation issues, including hallucination mitigation, data security, and ethical-legal governance.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence for healthcare LLM governance, RAG-based risk mitigation, security-conscious deployment, and accountability themes; not suitable as central evidence for conversational governance, dialogue oversight, logging/tracing, or contestability unless later sections add that content."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article in healthcare with accepted publication dates.",
+      "excerpt": "〔Received Sep. 30, 2025〕 〔Accepted Jan. 23, 2026〕",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is a comprehensive review focused on generative AI in medicine and healthcare.",
+      "excerpt": "This review provides a comprehensive overview of its foundational technologies, clinical applications, and pathways to practical integration.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLMs are a core technology addressed by the review.",
+      "excerpt": "Transformers, exemplified by Large Language Models (LLMs)",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "The review addresses RAG, on-premises LLMs, and governance-related ethical-legal issues.",
+      "excerpt": "practical solutions such as Retrieval-Augmented Generation (RAG) to mitigate hallucinations, on-premises LLMs to ensure data security",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Accountability, bias, and interpretability are explicitly framed within a governance framework.",
+      "excerpt": "ethical, legal, and social issues—including data bias, interpretability, and accountability—emphasizing the need for a robust governance framework",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Search strategy uses multiple databases and generative-AI-related keywords through May 2025.",
+      "excerpt": "We queried databases including PubMed, IEEE Xplore, Google Scholar, and arXiv",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Search combined LLM and healthcare application terms.",
+      "excerpt": "Search queries combined keywords such as \"Generative AI,\" \"Large Language Models (LLMs),\" \"Transformer,\" \"Diffusion Models,\"",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Primary emphasis includes clinical documentation rather than conversational systems governance.",
+      "excerpt": "automating clinical documentation, accelerating drug discovery, enhancing medical imaging diagnostics, and innovating surgical simulation",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated healthcare context is explicit.",
+      "excerpt": "Generative Artificial Intelligence (AI) is poised to induce a paradigm shift in medicine and healthcare.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "bibliographic": {
+    "title": "Balancing risks and benefits: clinicians' perspectives on the use of generative AI chatbots in mental healthcare",
+    "authors": "Lyndsey Hipgrave, Jessie Goldie, Simon Dennis, Amanda Coleman",
+    "year": "2025",
+    "venue": "Frontiers in Digital Health",
+    "doi": "10.3389/fdgth.2025.1606291",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Hipgrave, L., Goldie, J., Dennis, S., & Coleman, A. (2025). Balancing risks and benefits: clinicians' perspectives on the use of generative AI chatbots in mental healthcare. Frontiers in Digital Health, 7, 1606291. https://doi.org/10.3389/fdgth.2025.1606291"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "qualitative interviews with scale-based questions and chatbot demonstration",
+    "study_design": "45-minute virtual semi-structured interviews with open-ended and scale-based questions plus screen-recorded ChatGPT 4o chatbot demonstration",
+    "sample_description": "mental health clinicians",
+    "sample_size": "23",
+    "sector": "mental healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "generative-AI chatbots in mental healthcare; demonstration used GPTs created using ChatGPT 4o"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "central_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "generative_ai_chatbots",
+      "mental_healthcare_regulated",
+      "clinician_stakeholder_perspectives",
+      "risk_benefit_governance"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "Primary empirical study directly examining mental health clinicians' perspectives on integrating generative-AI chatbots, reporting benefits, risks, and contextual governance concerns including privacy, regulation, bias, and inappropriate recommendations in a regulated healthcare setting.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial methods/results pages were provided; full analysis, ethics, and limitations sections were not available for complete appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Clear objective and interview protocol described; sample size stated. Qualitative analysis procedures, ethics approval, and study limitations are not present in the supplied text, limiting rigor and reflexivity assessment."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 5,
+    "overall_confidence": "moderate",
+    "explanation": "Findings coherently report clinician-identified benefits and risks of generative AI chatbots in mental healthcare with direct relevance to conversational AI governance in a regulated domain, but appraisal is constrained because analysis methods and limitations are absent from the provided excerpt."
+  },
+  "coding": {
+    "open_codes": [
+      "clinician_perspectives",
+      "risk_benefit_balance",
+      "privacy_concerns",
+      "regulatory_gaps",
+      "chatbot_demonstration",
+      "hallucination_risk",
+      "bias_amplification",
+      "contextual_use_cases"
+    ],
+    "axial_codes": [
+      "stakeholder_governance_views",
+      "generative_ai_chatbot_risks",
+      "mental_health_conversational_ai"
+    ],
+    "theme": "Contextual balancing of risks and benefits in generative AI chatbot adoption in mental healthcare",
+    "subtheme": "Clinician-identified governance and safety concerns for conversational AI tools",
+    "concepts": [
+      "generative AI",
+      "chatbots",
+      "privacy",
+      "regulation",
+      "bias",
+      "hallucinations",
+      "human oversight",
+      "accountability",
+      "accessibility",
+      "clinical workflow"
+    ],
+    "model_layers": [
+      "stakeholder_perspective",
+      "risk_assessment",
+      "regulated_healthcare_context",
+      "conversational_ai_interface"
+    ],
+    "rq_alignment": [
+      "governança de IA generativa",
+      "sistemas conversacionais",
+      "compliance",
+      "privacidade",
+      "vieses",
+      "supervisão humana",
+      "contextos regulados saúde",
+      "controle de risco"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Mental health clinicians identify both benefits and risks of generative-AI chatbots without a significant overall preference for either, and the balance is highly contextual depending on use case and population served.",
+    "contribution": "Provides stakeholder insights from mental health clinicians on benefits, risks, and governance-related concerns to inform future development of AI chatbot tools in mental healthcare.",
+    "limitations": "unclear",
+    "use_in_review": "Central evidence on clinician governance perspectives for generative AI chatbots in regulated mental healthcare, especially regarding privacy, lack of regulation, bias, hallucinations, inappropriate recommendations, and contextual risk-benefit trade-offs."
+  },
+  "evidence": [
+    {
+      "claim": "Study aims to explore clinicians' perspectives on risks and benefits of generative-AI chatbots in mental health",
+      "excerpt": "This paper aimed to explore the perspectives of mental health clinicians regarding the risks and benefits of integrating generative-AI chatbots into the mental health landscape.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical design with 23 clinician virtual interviews and chatbot demonstration",
+      "excerpt": "Twenty-three clinicians participated in a 45-minute virtual interview, in which a series of open-ended and scale-based questions were asked, and a demonstration of a mental health chatbot's potential capabilities was presented.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Clinicians identified governance-related risks including lack of regulation and privacy concerns",
+      "excerpt": "they also identified risks, including the lack of regulation, data and privacy concerns, chatbots' limited understanding of client backgrounds",
+      "page": "1",
+      "section": "Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Risk-benefit balance is contextual and not dominated by either side",
+      "excerpt": "Qualitative responses revealed that the balance of risks and benefits is highly contextual, varying based on the use case and the population group being served.",
+      "page": "1",
+      "section": "Discussion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Generative AI chatbots pose unpredictability, hallucination, and bias risks",
+      "excerpt": "It also risks generating \"hallucinations,\" where the AI generates information that is incorrect, misleading, or entirely fabricated",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Lack of comprehensive regulatory frameworks is a documented concern",
+      "excerpt": "Other concerns include AI's handling of disclosures of criminal activity (29), the lack of comprehensive regulatory frameworks (30, 31)",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Safe integration requires robust regulatory frameworks",
+      "excerpt": "Mitigating risks and ensuring safe, effective integration into mental healthcare requires careful consideration, collaboration, and robust regulatory frameworks.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Demonstration used ChatGPT 4o GPTs in a mental health triage scenario",
+      "excerpt": "The demonstration featured a screen-recorded video of a series of GPTs created using ChatGPT 4o.",
+      "page": "3",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Peer-reviewed journal article in Frontiers in Digital Health",
+      "excerpt": "CITATION Hipgrave L, Goldie J, Dennis S and Coleman A (2025) Balancing risks and benefits: clinicians' perspectives on the use of generative AI chatbots in mental healthcare. Front. Digit. Health 7:1606291.",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Chatbot demonstration did not significantly shift risk-benefit preference",
+      "excerpt": "a demonstration of potential chatbot capabilities was not found to influence whether participants favoured the risks or benefits of chatbots.",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    }
+  ]
+}

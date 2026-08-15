@@ -1,0 +1,209 @@
+{
+  "bibliographic": {
+    "title": "Modelling the microfoundations of the audit society: organizations and the logic of the audit trail",
+    "authors": "Power, Michael",
+    "year": "2021",
+    "venue": "Academy of Management Review",
+    "doi": "10.5465/amr.2017.0212",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Power, M. (2021). Modelling the microfoundations of the audit society: Organizations and the logic of the audit trail. Academy of Management Review, 46(1), 6–32. https://doi.org/10.5465/amr.2017.0212"
+  },
+  "methodology": {
+    "research_type": "theoretical",
+    "method_family": "conceptual process model grounded in institutional theory and microfoundations",
+    "study_design": "theoretical conceptual article proposing a multi-stage process model",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "organizations; public sector management referenced",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "accounting, auditing, performance measurement, and audit trail practices in organizations; no LLM, generative AI, or conversational systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "governance_accountability",
+      "risk_audit_compliance",
+      "regulated_high_stakes",
+      "foundational_value"
+    ],
+    "exclusion_codes": [
+      "no_llm_genai",
+      "no_conversational_ai",
+      "no_operational_technical_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article offers a rigorous theoretical model of audit trail logic, accountability, transparency, and audit society persistence in organizational and public-sector contexts, which is conceptually aligned with governance and audit themes in the review. It does not address LLMs, generative AI, conversational systems, RAG, guardrails, or technical AI governance, so it is best treated as foundational contextual theory rather than central evidence.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal reflects a non-empirical theoretical article. Sampling and data-collection criteria are not applicable rather than weak."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is internally coherent and well developed for organizational audit-trail theory, but direct relevance to conversational LLM governance in regulated technical systems is indirect and limited."
+  },
+  "coding": {
+    "open_codes": [
+      "audit society",
+      "audit trail",
+      "traceability",
+      "accountability",
+      "transparency",
+      "performativity",
+      "microfoundations",
+      "institutional logic",
+      "public sector management",
+      "responsibility"
+    ],
+    "axial_codes": [
+      "organizational governance",
+      "audit and compliance logic",
+      "institutional persistence"
+    ],
+    "theme": "Audit trail as a performative microfoundation of the audit society",
+    "subtheme": "How audit trail logic shapes organizational dispositions and reproduces auditable accounts",
+    "concepts": [
+      "audit trail",
+      "meta-logic",
+      "disposition",
+      "facticity",
+      "traceability",
+      "performativity",
+      "transparency",
+      "accountability"
+    ],
+    "model_layers": [
+      "macro-institutional legitimization",
+      "micro-level process model",
+      "organizational actor dispositions",
+      "performance accounting representations"
+    ],
+    "rq_alignment": [
+      "governance and accountability",
+      "audit trails and traceability",
+      "regulated/public-sector organizational control",
+      "risk and compliance framing"
+    ],
+    "coding_confidence": 0.9
+  },
+  "synthesis": {
+    "main_claim": "The audit trail is theorized as a process and logic that not only produces auditable accounts but also forms organizational actors' dispositions to reproduce those accounts, explaining the persistence and amplification of the audit society.",
+    "contribution": "Supplements macro-institutional explanations with a microfoundational process model showing how audit trail logic is strongly performative of its own reproduction and may be value-enhancing rather than inherently pathological.",
+    "limitations": "No empirical case study or sample is presented in the supplied text; the work is organizational accounting theory and does not engage LLMs, conversational AI, or technical observability/logging systems.",
+    "use_in_review": "Use as foundational contextual evidence for audit trail, accountability, transparency, traceability, and audit-society dynamics when framing governance of regulated conversational LLM systems; not usable as direct evidence on LLM-specific governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article in Academy of Management Review",
+      "excerpt": "Modelling the microfoundations of the audit society: organizations and the logic of the audit trail. Academy of Management Review, 46(1), 6 - 32.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Article is theoretical and proposes a process model rather than reporting empirical data",
+      "excerpt": "This article addresses this puzzle by supplementing macroinstitutional explanations of the audit society with a microfoundational analysis grounded in a process model.",
+      "page": "3",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Central focus is audit trail logic, not AI or conversational technology",
+      "excerpt": "The model theorises the humble notion of the audit trail as a process which not only produces auditable accounts but is also a logic which is formative of organizational actors' dispositions to reproduce those accounts.",
+      "page": "3",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance, control, and accountability are core explanatory themes",
+      "excerpt": "Accounting scholars attribute the expanded organizational and societal significance of accounting and auditing practices to the central role they play in the realisation of \"neoliberal\" ideals of governance, control and accountability",
+      "page": "4",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Transparency and accountability are treated as culturally valued control myths",
+      "excerpt": "culturally valued embodiments of myths of rational organizational control, encompassing notions of transparency, accountability, and the power of the market",
+      "page": "5",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Public-sector regulated management context is referenced",
+      "excerpt": "measurement in public sector management in the United Kingdom and elsewhere.",
+      "page": "9",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Public-sector reform linked accountability and auditability",
+      "excerpt": "a bundle of \"animating myths\", namely a neoliberal political consensus in the early 1980s and its heightened emphasis on values of transparency, efficiency, responsibility, auditability",
+      "page": "9",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "New public management linked accounting and audit to accountability",
+      "excerpt": "accountability, which characterised the reform vectors of a so-called \"new public management\"",
+      "page": "10",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Transparency is central but paradoxical in audit society processes",
+      "excerpt": "Audit society processes are resilient to these many criticisms because they draw upon the bundle of myths noted above, not least that of transparency",
+      "page": "10",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Audit trail logic can attach to varied performance values including fairness",
+      "excerpt": "Specific first order performance values such as \"profit\", \"fairness\", \"diversity\", \"sustainability\", and \"impact\" determine the contingent and potentially varying empirical tokens of the logic of the audit trail.",
+      "page": "18",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Organizational interaction drives formative process in the model",
+      "excerpt": "This recursive interaction between an emotional desire for identity, validation and complexity reduction in externalized representations of performance, and the increased organizational facticity of such performance presentations, drives the formative process from stage 1 to stage 3.",
+      "page": "27",
+      "section": "discussion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Macro-level transparency explanations are limited without micro-process precision",
+      "excerpt": "macro-level explanations of the audit society in general \"rational myth\" terms, such as transparency and neoliberalism, are inevitably limited in their explanatory power. They may explain why the adoption of accounting and auditing practices happens but not how it happens",
+      "page": "11",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Critiques note declining trust in professional judgement from audit expansion",
+      "excerpt": "declining trust in professional judgement; and crises of professional purpose",
+      "page": "4",
+      "section": "introduction",
+      "supports": "synthesis"
+    }
+  ]
+}

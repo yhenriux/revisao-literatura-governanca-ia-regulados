@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "A data-driven governance framework for co-creation healthcare quality in public hospitals",
+    "authors": "Huu Phuc Dang; Nguyen-Kim-Thao Vo",
+    "year": "2026",
+    "venue": "Discover Public Health",
+    "doi": "10.1186/s12982-026-02342-x",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Dang, H. P., & Vo, N.-K.-T. (2026). A data-driven governance framework for co-creation healthcare quality in public hospitals. Discover Public Health, 23, 1087. https://doi.org/10.1186/s12982-026-02342-x"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "exploratory mixed-methods combining conceptual governance framework with computational text analytics (BERTopic topic modelling and prompt-based LLM aspect-based sentiment analysis)",
+    "study_design": "exploratory mixed-methods design with single-site secondary data analysis of public patient reviews",
+    "sample_description": "450 publicly available patient reviews from Google Maps (Q4 2024–Q3 2025) for one public hospital in Viet Nam",
+    "sample_size": "450",
+    "sector": "public healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Gemini 1.5 Flash used for prompt-based ABSA with controlled prompting, JSON-constrained outputs, and automated retry mechanisms; BERTopic with PhoBERT embeddings, UMAP, and HDBSCAN for topic modelling"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "borderline",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM_use_in_regulated_healthcare",
+      "governance_framework",
+      "healthcare_quality_monitoring"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai_system",
+      "llm_as_analytics_tool_not_governed_interactive_system",
+      "no_conversational_governance_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article clearly addresses data-driven healthcare quality governance in public hospitals and empirically uses a specific LLM (Gemini 1.5 Flash) for ABSA on patient reviews, aligning with regulated healthcare and governance themes. However, the provided text does not examine conversational AI, chatbots, agents, RAG, guardrails, human oversight of interactive LLM systems, or governance of LLM-based conversational deployments; the LLM functions as an analytic extraction tool within a public-health intelligence pipeline.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated triage scored the paper as a central candidate due to strong governance, healthcare, and LLM term overlap, but full-text signals indicate governance of healthcare quality rather than conversational governance of LLM systems."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Objectives and mixed-methods design are clearly stated and methodologically coherent for exploratory PX analytics. Sampling is transparent but single-site and context-specific. LLM use is described with prompting and output constraints, yet the text provided does not appraise LLM accountability, safety governance, or oversight mechanisms for the model itself."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are internally coherent for translating patient reviews into governance-relevant quality signals, but relevance to conversational LLM governance is low because the study does not analyze interactive conversational systems or their governance controls."
+  },
+  "coding": {
+    "open_codes": [
+      "patient-generated data",
+      "healthcare quality governance",
+      "patient experience analytics",
+      "topic modelling",
+      "aspect-based sentiment analysis",
+      "SERVQUAL mapping",
+      "Donabedian interpretation",
+      "public hospital monitoring"
+    ],
+    "axial_codes": [
+      "data-driven public health intelligence",
+      "operational quality signals from unstructured reviews",
+      "LLM-assisted text analytics pipeline"
+    ],
+    "theme": "Data-driven governance of healthcare quality using patient review analytics",
+    "subtheme": "LLM-supported ABSA for governance-relevant PX signals in public hospitals",
+    "concepts": [
+      "governance-oriented public health intelligence",
+      "patient experience as governance input",
+      "controlled prompting",
+      "JSON-constrained LLM outputs",
+      "continuous monitoring",
+      "service interaction bottlenecks"
+    ],
+    "model_layers": [
+      "data ingestion from public reviews",
+      "computational analytics layer (BERTopic + LLM ABSA)",
+      "quality-framework interpretation layer (SERVQUAL, Donabedian)",
+      "governance decision-support layer"
+    ],
+    "rq_alignment": [
+      "regulated healthcare context",
+      "governance and monitoring",
+      "LLM technical use"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Patient reviews can be converted into structured, interpretable, governance-relevant healthcare quality signals through topic modelling and LLM-based ABSA, supporting data-informed governance in public hospitals.",
+    "contribution": "Proposes and empirically illustrates a data-driven governance framework that reframes patient-generated data as inputs for healthcare quality monitoring and priority-setting in a public hospital setting.",
+    "limitations": "Exploratory, context-specific findings from one Vietnamese public hospital; the study does not directly examine governance processes or decision-making and does not address governance of conversational LLM systems.",
+    "use_in_review": "Use as borderline or peripheral evidence on LLM use for analytics in regulated healthcare governance; not suitable as central evidence on conversational governance of LLM-based interactive systems unless the review scope is broadened beyond conversational AI."
+  },
+  "evidence": [
+    {
+      "claim": "Bibliographic identification and peer-reviewed journal publication",
+      "excerpt": "A data-driven governance framework for co- creation healthcare quality in public hospitals",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors and corresponding affiliation",
+      "excerpt": "Huu Phuc Dang1 and Nguyen-Kim-Thao Vo1*",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Exploratory mixed-methods design with 450 Google Maps patient reviews",
+      "excerpt": "An exploratory mixed-methods design was employed, combining a conceptual governance framework with empirical analysis of 450 publicly available patient reviews collected from Google Maps",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Specific LLM used for ABSA with controlled prompting",
+      "excerpt": "a prompt-based large language model (Gemini 1.5 Flash) was employed to extract structured aspect-sentiment pairs",
+      "page": "7",
+      "section": "methods/findings",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM outputs stabilized via JSON constraints and retries",
+      "excerpt": "controlled prompting, JSON-constrained outputs, and automated retry mechanisms to improve output stability",
+      "page": "7",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Governance focus is healthcare quality, not conversational AI governance",
+      "excerpt": "This study develops a data-driven governance framework to support data-informed governance of healthcare quality in public hospitals",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Findings framed as governance-oriented public health intelligence",
+      "excerpt": "representing a potential form of governance-oriented public health intelligence aligned with service quality dimensions",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Study does not directly examine governance processes or decision-making",
+      "excerpt": "this study does not directly examine governance processes or decision-making but interprets PX- derived patterns as potentially relevant inputs to governance functions",
+      "page": "10",
+      "section": "findings",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Service interaction identified as quality priority area, not conversational system governance",
+      "excerpt": "inform governance attention towards process coordination and service interaction as priority areas for quality improvement",
+      "page": "10",
+      "section": "findings",
+      "supports": "coding"
+    },
+    {
+      "claim": "Exploratory and context-specific limitation acknowledged",
+      "excerpt": "The findings are exploratory and context-specific but suggest a structured pathway for leveraging PX analytics",
+      "page": "1",
+      "section": "conclusion",
+      "supports": "synthesis"
+    }
+  ]
+}

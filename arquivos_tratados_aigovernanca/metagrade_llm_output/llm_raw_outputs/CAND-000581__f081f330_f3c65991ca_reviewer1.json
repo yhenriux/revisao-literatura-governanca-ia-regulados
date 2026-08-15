@@ -1,0 +1,184 @@
+{
+  "bibliographic": {
+    "title": "Leveraging large language models in patient-reported outcome measure development: practical opportunities, cautions, and a human-in-the-loop roadmap",
+    "authors": "Constance Mara; Tiffany Rybak",
+    "year": "2026",
+    "venue": "Journal of Patient-Reported Outcomes",
+    "doi": "10.1186/s41687-026-01112-2",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Mara, C., & Rybak, T. (2026). Leveraging large language models in patient-reported outcome measure development: Practical opportunities, cautions, and a human-in-the-loop roadmap. Journal of Patient-Reported Outcomes, 10, 93. https://doi.org/10.1186/s41687-026-01112-2"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "editorial commentary with illustrative project examples",
+    "study_design": "commentary",
+    "sample_description": "Illustrative examples from the Eating Behavior Measurement (EBM) pediatric PRO development project; draws on emerging literature from PRO science, survey methodology, and psychological measurement",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "LLMs as structured drafting and analytic tools for qualitative phases of patient-reported outcome measure development, not deployed conversational systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "LLM",
+      "human-in-the-loop",
+      "human oversight",
+      "healthcare",
+      "governance risks",
+      "transparency",
+      "regulated context"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai",
+      "no_chatbot_agent",
+      "no_deployment_governance",
+      "no_RAG_guardrails"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article addresses human-in-the-loop governance, oversight, transparency, and risk mitigation for LLM use in a regulated healthcare context, but focuses on PRO measure qualitative development workflows rather than conversational AI systems, chatbots, agents, or operational governance of deployed conversational LLM applications.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage flagged central_candidate despite conversational_ai score 0/3; adjudication needed on whether non-conversational human-in-the-loop LLM governance qualifies as in-scope supporting evidence."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Peer-reviewed editorial commentary appropriately proposes a practical roadmap and discusses risks, but is not an empirical or systematic study; evidence base is illustrative and literature-informed rather than systematically sampled."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The human-in-the-loop roadmap is internally coherent and transparent about LLM limits, but as a commentary it offers moderate methodological adequacy and only partial relevance to conversational governance because the LLM use cases are bounded drafting and analytic workflows in PRO development."
+  },
+  "coding": {
+    "open_codes": [
+      "human-in-the-loop roadmap",
+      "bounded LLM use cases",
+      "domain cartography",
+      "candidate item generation",
+      "semantic coherence checks",
+      "confirmation bias",
+      "construct drift",
+      "model triangulation",
+      "expert judgment",
+      "content validity preservation"
+    ],
+    "axial_codes": [
+      "human oversight",
+      "LLM risk mitigation",
+      "qualitative measurement development",
+      "healthcare PRO governance"
+    ],
+    "theme": "Human-in-the-loop governance for bounded LLM assistance in regulated healthcare measurement workflows",
+    "subtheme": "PRO qualitative development rather than conversational system deployment",
+    "concepts": [
+      "human-in-the-loop",
+      "bounded use cases",
+      "structured drafting tools",
+      "transparency",
+      "reproducibility",
+      "semantic circularity",
+      "construct drift",
+      "model triangulation"
+    ],
+    "model_layers": [
+      "human oversight layer",
+      "risk identification and mitigation",
+      "workflow boundary controls"
+    ],
+    "rq_alignment": [
+      "human oversight and accountability",
+      "regulated healthcare context",
+      "transparency and bias risks"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "LLMs can support systematic and scalable qualitative PRO development workflows when used as bounded drafting and analytic tools under rigorous human oversight, but they do not replace qualitative inquiry, expert judgment, or empirical psychometric validation.",
+    "contribution": "Proposes a practical human-in-the-loop roadmap with bounded use cases and explicit cautions about confirmation bias, semantic circularity, transparency, reproducibility, and construct drift in healthcare PRO development.",
+    "limitations": "Commentary format with illustrative EBM project examples; does not evaluate deployed conversational LLM systems or provide empirical validation of the proposed roadmap.",
+    "use_in_review": "Include as supporting evidence for human-in-the-loop oversight, transparency, and risk-mitigation patterns in regulated healthcare LLM workflows; exclude from central conversational-governance evidence because the application domain is PRO measure development rather than conversational AI."
+  },
+  "evidence": [
+    {
+      "claim": "Article is an editorial commentary in a peer-reviewed journal on LLMs in PRO development.",
+      "excerpt": "EDITORIAL Open Access Journal of Patient-Reported Outcomes",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors propose a human-in-the-loop roadmap for integrating LLMs into qualitative PRO development.",
+      "excerpt": "This commentary proposes a practical human-in-the-loop roadmap for integrating LLMs into the qualitative phases of PRO development",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLMs function as drafting and analytic tools, not validity arbiters.",
+      "excerpt": "Across these applications, LLMs function as structured drafting and analytic tools rather than arbiters of validity.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors identify governance-relevant risks and mitigation via human oversight.",
+      "excerpt": "practical risks involving confirmation bias, semantic circularity, transparency, reproducibility, and construct drift, along with strategies for mitigation through human oversight and model triangulation",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Regulated healthcare context with pediatric PRO development example.",
+      "excerpt": "Throughout, we draw on examples from our experience developing the Eating Behavior Measurement (EBM), an ongoing multidomain pediatric measure development effort",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Scope excludes replacement of psychometric validation and emphasizes human oversight.",
+      "excerpt": "That does not make them validators of measurement quality, nor does it diminish the need for rigorous human oversight, qualitative inquiry, or empir",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Bounded use case includes LLM-assisted synthesis for human review.",
+      "excerpt": "Using LLMs in this manner does not eliminate the need for investigator judgment or theoretical foundation",
+      "page": "2",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human review remains essential in LLM-based item generation.",
+      "excerpt": "LLMs have rapidly expanded what is feasible in this space... although, again, human review and empirical evaluation remain essential",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational AI, chatbot, agent, or deployment governance focus appears in provided text.",
+      "excerpt": "we outline several bounded use cases for LLMs in PRO measure qualitative development workflows",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

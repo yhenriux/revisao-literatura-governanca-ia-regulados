@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "Moral Perception and Uncertainty Expression in LLM-Augmented Judicial Practice",
+    "authors": "Sylvie Delacroix",
+    "year": "2025",
+    "venue": "Minds and Machines",
+    "doi": "10.1007/s11023-025-09744-x",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Delacroix, S. (2025). Moral perception and uncertainty expression in LLM-augmented judicial practice. Minds and Machines, 35, 44. https://doi.org/10.1007/s11023-025-09744-x"
+  },
+  "methodology": {
+    "research_type": "theoretical",
+    "method_family": "philosophical-conceptual analysis",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "judicial/legal",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-powered augmentation tools deployed in judicial settings; uncertainty communication and epistemic calibration of LLM outputs"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_assessment",
+    "inclusion_codes": [
+      "llm_judicial_deployment",
+      "regulated_legal_context",
+      "uncertainty_governance",
+      "moral_perception_ethics",
+      "human_participatory_oversight"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses LLM augmentation in judicial practice and argues for governance-relevant design of uncertainty expression beyond quantitative calibration. It is strongly situated in a regulated legal domain and engages ethics, moral perception, and human participation, but the provided text frames judicial support/augmentation tools rather than conversational systems, chatbots, agents, RAG, or operational governance mechanisms such as logging, tracing, audit, or compliance workflows.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter, abstract, partial introduction, and one later excerpt were provided; full methods, analysis structure, limitations, and whether conversational interfaces are central cannot be verified from the supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appraisal is constrained by partial text. The stated aim and argumentative framing are clear for a theoretical paper on judicial LLM augmentation and uncertainty, but empirical sampling, data collection, full analysis pathway, and explicit limitations are not evidenced in the excerpts supplied."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is coherent and clearly relevant to LLM governance in regulated judicial contexts, especially uncertainty expression and moral perception. Confidence is moderated because only partial text was available and the work appears conceptual rather than empirically demonstrated in the supplied excerpts."
+  },
+  "coding": {
+    "open_codes": [
+      "moral perception",
+      "ethical uncertainty",
+      "uncertainty expression",
+      "epistemic façade",
+      "epistemic calibration",
+      "judicial augmentation tools",
+      "non-quantifiable uncertainty",
+      "institutional infrastructure",
+      "participatory interfaces",
+      "interactive machine learning"
+    ],
+    "axial_codes": [
+      "governance_of_uncertainty",
+      "human-centered_oversight",
+      "regulated_judicial_ai",
+      "design_for_moral_attention"
+    ],
+    "theme": "Designing LLM judicial augmentation around morally enabling forms of uncertainty",
+    "subtheme": "Limits of quantitative uncertainty calibration for judicial moral perception",
+    "concepts": [
+      "moral perception",
+      "moral attention",
+      "ethical uncertainty",
+      "epistemic calibration",
+      "epistemic façade",
+      "participatory interfaces"
+    ],
+    "model_layers": [
+      "institutional infrastructure",
+      "tool design/expression layer",
+      "human perceptual/oversight layer"
+    ],
+    "rq_alignment": [
+      "LLM governance in regulated contexts",
+      "human oversight and contestation in high-stakes AI use",
+      "uncertainty, transparency, and accountability in AI-supported decision processes"
+    ],
+    "coding_confidence": 0.7
+  },
+  "synthesis": {
+    "main_claim": "In LLM-augmented judicial practice, some non-quantifiable forms of uncertainty should be preserved and surfaced because they support moral perception, and quantitative calibration alone is unlikely to capture this enabling role.",
+    "contribution": "Offers a theoretical reframing of judicial LLM support tools from uncertainty elimination/quantification toward uncertainty expression that enhances moral perception, with a later design-oriented link to participatory interfaces and interactive machine learning in judicial contexts.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting theoretical evidence on governance of LLM uncertainty in legal/judicial settings, especially for discussions of human oversight, moral perception, and why purely quantitative reliability calibration may be insufficient; not primary evidence for operational conversational governance, audit/logging, or deployment controls."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on LLMs in judicial settings and challenges narrow quantification of uncertainty.",
+      "excerpt": "This paper challenges this narrow understanding of uncertainty in LLM-augmented judicial practices.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Core argument distinguishes quantifiable calibration from non-quantifiable uncertainty needed for moral perception.",
+      "excerpt": "we argue that some non-quantifiable forms of uncertainty play a vital role in supporting moral perception.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Research question concerns design of LLM-powered augmentation tools and uncertainty expression.",
+      "excerpt": "Can we design LLM-powered augmentation tools that express uncertainty in ways that enhance rather than diminish the relevant forms of moral perception?",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Most current efforts focus on quantifying and calibrating LLM output reliability.",
+      "excerpt": "Most of these efforts center on developing methods to quantify and calibrate the reliability of LLM outputs.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Quantitative approaches may miss uncertainty types important to moral perception.",
+      "excerpt": "these quantitative approaches are unlikely to capture the types of uncertainty that play a key, enabling role within moral perception.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Moral perception depends on how uncertainty is allowed to surface within institutional infrastructure.",
+      "excerpt": "less attention has been paid to how perceptual intelligence depends on the ways in which uncertainty is allowed to surface within institutional infrastructure.",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Later text links judicial participatory interfaces and interactive machine learning with human-in-the-loop learning.",
+      "excerpt": "such interfaces would enable communities to actively contribute to system learning through interactive machine learning techniques.",
+      "page": "13",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Interactive machine learning places end-users in the learning loop.",
+      "excerpt": "interactive machine learning places end-users in the learning loop (end users are an integral part of the learning process)",
+      "page": "13",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Peer-reviewed journal publication with acceptance metadata.",
+      "excerpt": "Received: 18 March 2025 / Accepted: 14 August 2025 / Published online: 15 October 2025",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Author and venue metadata are present in the supplied text.",
+      "excerpt": "Moral Perception and Uncertainty Expression in LLM- Augmented Judicial Practice Sylvie Delacroix",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "eligibility"
+    }
+  ]
+}

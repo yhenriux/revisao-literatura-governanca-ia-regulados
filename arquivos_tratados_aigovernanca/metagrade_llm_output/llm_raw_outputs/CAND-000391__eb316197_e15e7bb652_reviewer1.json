@@ -1,0 +1,180 @@
+{
+  "bibliographic": {
+    "title": "Perspectives for Evaluating Conversational AI",
+    "authors": "Mahipal Jadeja; Neelanshi Varia",
+    "year": "2017",
+    "venue": "ICTIR'17 Workshop on Search-Oriented Conversational AI (SCAI' 2017), Amsterdam, Netherlands",
+    "doi": "10.1145/nnnnnnn.nnnnnnn",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Jadeja, M., & Varia, N. (2017). Perspectives for evaluating conversational AI. In Proceedings of the ICTIR'17 Workshop on Search-Oriented Conversational AI (SCAI' 2017). https://doi.org/10.1145/nnnnnnn.nnnnnnn"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual framework / perspective paper",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "search-oriented conversational AI; chatbots; virtual personal assistants (Siri, Google Now, Cortana, Alexa); NLP, machine learning, deep learning"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "conversational_ai",
+      "evaluation_framework",
+      "regulated_domain_mentions"
+    ],
+    "exclusion_codes": [
+      "no_llm_focus",
+      "no_governance_focus",
+      "pre_llm_technology"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O texto propõe quatro perspectivas para avaliar sistemas de IA conversacional e discute assistentes pessoais, chatbots e personalização, com menções a aplicações em educação e saúde. Não há evidência no trecho fornecido sobre governança conversacional, LLMs, compliance, auditoria, supervisão humana ou accountability em ambientes regulados.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "A triagem Python classificou como central_candidate, mas o escopo do artigo é avaliação de IA conversacional pré-LLM; é necessário confirmar ausência de conteúdo de governança nas seções não fornecidas."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Artigo conceitual de workshop (2017) com objetivo explícito de definir perspectivas de avaliação para IA conversacional orientada a busca. O trecho fornecido não descreve desenho empírico, amostra, coleta de dados ou limitações metodológicas."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "A proposta é coerente como framework conceitual de avaliação, mas a adequação e a relevância para governança conversacional em LLMs em contextos regulados são baixas com base apenas no texto fornecido; não há método empírico nem evidência operacional de governança."
+  },
+  "coding": {
+    "open_codes": [
+      "evaluation_perspectives",
+      "user_experience",
+      "information_retrieval",
+      "linguistic_evaluation",
+      "artificial_intelligence_evaluation",
+      "chatbot_vs_personal_assistant",
+      "personalization",
+      "search_oriented_conversational_ai",
+      "healthcare_application_mention",
+      "education_application_mention"
+    ],
+    "axial_codes": [
+      "conversational_ai_evaluation",
+      "personal_assistant_design",
+      "application_domains"
+    ],
+    "theme": "Perspectivas de avaliação de IA conversacional",
+    "subtheme": "Métricas e desafios de assistentes pessoais e chatbots",
+    "concepts": [
+      "four evaluation perspectives",
+      "personalization",
+      "chatbot",
+      "personal assistant",
+      "natural language processing",
+      "machine learning",
+      "deep learning"
+    ],
+    "model_layers": [
+      "evaluation_layer"
+    ],
+    "rq_alignment": [
+      "conversational_systems_context"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "É difícil definir sucesso e métricas adequadas para IA conversacional; o artigo propõe quatro perspectivas de avaliação (experiência do usuário, recuperação de informação, linguística e inteligência artificial) e discute personalização, diferenças entre chatbot e assistente pessoal, e desafios de assistentes conversacionais.",
+    "contribution": "Oferece um mapa conceitual inicial para avaliar esforços de design e desenvolvimento de IA conversacional orientada a busca, incluindo características desejáveis de assistentes pessoais e diretrizes para personalização.",
+    "limitations": "unclear",
+    "use_in_review": "Evidência contextual/fundacional sobre avaliação de sistemas conversacionais pré-LLM; útil como pano de fundo metodológico para dimensões de avaliação, mas não como evidência central sobre governança conversacional, LLMs ou compliance em ambientes regulados."
+  },
+  "evidence": [
+    {
+      "claim": "O artigo propõe quatro perspectivas para avaliação de IA conversacional.",
+      "excerpt": "We propose four diﬀerent perspectives namely user experience, information retrieval, linguistic and arti- ﬁcial intelligence for the evaluation of conversational AI systems.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "A questão central é avaliar se esforços de design e desenvolvimento de IA conversacional orientada a busca são bem-sucedidos.",
+      "excerpt": "To identify whether design, as well as development ef- forts for search oriented conversational AI are successful or not.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "O trabalho é de 2017, em workshop ACM sobre IA conversacional orientada a busca.",
+      "excerpt": "ICTIR’ 17 Workshop on Search-Oriented Conversational AI (SCAI’ 2017), Amsterdam, Netherlands",
+      "page": "1",
+      "section": "front matter",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "A tecnologia discutida é pré-LLM, baseada em NLP, ML e redes neurais.",
+      "excerpt": "Techniques such as Natural Language Processing, Machine Learning, Artiﬁcial Neural Networks, etc. come to our aid.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "O texto diferencia chatbot de assistente pessoal inteligente.",
+      "excerpt": "Chatbots are usually programs which are meant to have conversations with human users via text or speech methods.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Assistentes aprendem com uso, enquanto chatbots seguem regras não modificadas.",
+      "excerpt": "It learns along with its usage and gives beter performance whereas the chatbots are based on some rules and regulations which further are not modiﬁed.",
+      "page": "1",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Há menção a aplicações em educação e saúde, sem foco regulatório.",
+      "excerpt": "ssistant technology has applications in smart education, smart hygiene and healthcare",
+      "page": "4",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Não há menção a governança, compliance, auditoria ou LLMs no texto fornecido.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "O objetivo do artigo é relativamente claro no resumo.",
+      "excerpt": "It is tricky to deﬁne ’success’ in the case of conversational AI and equally tricky part is to use appropriate metrics for the evalua- tion of conversational AI.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Personalização e desafios de assistentes ideais são destacados.",
+      "excerpt": "Current challenges in the development of an ideal conversational AI (personal assistant) are also highlighted along with guidelines for achieving personalized experience for users.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

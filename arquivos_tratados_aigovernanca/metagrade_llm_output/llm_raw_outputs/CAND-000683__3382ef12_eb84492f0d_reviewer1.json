@@ -1,0 +1,175 @@
+{
+  "bibliographic": {
+    "title": "Model Risk Governance for AI-Based Compliance Systems in Investment Banking",
+    "authors": "Pratik Chawande",
+    "year": "2025",
+    "venue": "Journal of Multidisciplinary Research and Growth Evaluation",
+    "doi": "10.54660/.IJMRGE.2025.6.3.2027-2035",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Chawande, P. (2025). Model risk governance for AI-based compliance systems in investment banking. Journal of Multidisciplinary Research and Growth Evaluation, 6(3), 2027–2035. https://doi.org/10.54660/.IJMRGE.2025.6.3.2027-2035"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "multidisciplinary conceptual analysis",
+    "study_design": "theoretical framework and governance recommendations",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "investment banking / financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "AI, machine learning, natural language processing, deep learning, robotic process automation applied to compliance, AML, fraud detection, regulatory reporting, and document parsing"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "governance_accountability",
+      "regulated_high_stakes",
+      "risk_audit_compliance"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai",
+      "no_llm_specificity"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article addresses AI governance, model risk governance, explainability, fairness, accountability, validation, lifecycle management, and compliance in regulated investment banking, which aligns partially with the review's governance and regulated-context dimensions. However, the provided text contains no discussion of conversational systems, chatbots, agents, LLMs, RAG, guardrails, human handoff, contestation, or other conversational governance mechanisms. NLP is mentioned only for parsing regulatory documents, not for conversational interaction.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage scored conversational_ai at 0/3 and the excerpt set does not confirm LLM or conversational scope; full-text verification is needed to rule out later sections on conversational compliance interfaces."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 0,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 0,
+    "evidence_support": 1,
+    "transferability": 2,
+    "notes": "Conceptual paper proposing governance structures for AI-based compliance in investment banking. No empirical sample, data collection protocol, or explicit limitations section is visible in the provided excerpts. Strength is regulatory-context clarity; weakness for review purposes is absence of conversational or LLM-specific operational governance detail."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "The argument is coherent for model risk governance in banking compliance, but the supplied text offers limited methodological detail and no direct evidence on conversational or LLM governance. Relevance to the review is partial: strong on regulated AI governance, weak on the review's core conversational-LLM focus."
+  },
+  "coding": {
+    "open_codes": [
+      "model risk governance",
+      "AI-based compliance systems",
+      "model validation gaps",
+      "black-box opacity",
+      "regulatory reporting",
+      "lifecycle management",
+      "documentation practices"
+    ],
+    "axial_codes": [
+      "AI governance in regulated finance",
+      "model validation and oversight",
+      "explainability and accountability"
+    ],
+    "theme": "Model risk governance for AI compliance in investment banking",
+    "subtheme": "Regulatory alignment and validation of non-transparent ML models",
+    "concepts": [
+      "explainability",
+      "fairness",
+      "accountability",
+      "model validation",
+      "lifecycle management",
+      "documentation",
+      "operational risk",
+      "compliance risk",
+      "algorithmic opacity"
+    ],
+    "model_layers": [
+      "policy and regulatory layer",
+      "model validation layer",
+      "monitoring and lifecycle layer"
+    ],
+    "rq_alignment": [
+      "governance and accountability in regulated AI",
+      "risk management and compliance controls",
+      "human oversight themes only indirectly via audit and regulator scrutiny"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "AI adoption in investment-banking compliance increases model risk and creates validation, explainability, fairness, and accountability gaps that require enhanced model risk governance aligned with Basel III, Dodd-Frank, and Federal Reserve reporting requirements.",
+    "contribution": "Integrates regulatory compliance, AI governance, and operational risk into feasible tactics covering validation practices, lifecycle management, and documentation for more transparent, auditable, regulation-compatible AI compliance solutions.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence on AI/model risk governance in regulated financial services, especially validation, documentation, and regulatory expectations. Do not treat as central evidence for conversational governance or LLM-specific operational controls unless later full-text sections add that scope."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on model risk governance for AI-based compliance in investment banking",
+      "excerpt": "Model Risk Governance for AI-Based Compliance Systems in Investment Banking",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated financial domain with explicit regulatory frameworks",
+      "excerpt": "particularly with changing regulations such as Basel III and Dodd-Frank and U.S. regulatory reports, such as Y-14 and 2052a",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance concerns include explainability, fairness, and accountability",
+      "excerpt": "more interest is raised about the lack of explainability, fairness, and accountability in these models",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Paper is conceptual and recommends governance structures rather than reporting empirical study methods",
+      "excerpt": "offers usable governance structures that align with real-life regulatory requirements",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "NLP is used for regulatory document parsing, not conversational interaction",
+      "excerpt": "The regulatory documents, which are being parsed, with the help of NLP algorithms, include the Basel III Accord, Dodd- Frank Act, and Mifid II",
+      "page": "2",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Technology context is ML/deep learning/NLP/RPA without LLM mention",
+      "excerpt": "AI, primarily Machine Learning (ML), Natural Language Processing (NLP), and Robotic Process Automation (RPA) are being implemented",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Black-box AI models create audit and compliance oversight challenges",
+      "excerpt": "Such models are usually not transparent, which causes a significant concern to auditors, compliance officers, and regulators",
+      "page": "2",
+      "section": "background",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Lifecycle governance is emphasized for iterative AI models",
+      "excerpt": "artificial intelligence models tend to have an iterative, non- linear progression",
+      "page": "3",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "High-stakes regulatory reporting requires strict model governance",
+      "excerpt": "Any model used to generate such reports based on artificial intelligence has to be of utmost governance because data inaccuracy can hugely affect the macroprudential evaluation",
+      "page": "4",
+      "section": "unclear",
+      "supports": "synthesis"
+    }
+  ]
+}

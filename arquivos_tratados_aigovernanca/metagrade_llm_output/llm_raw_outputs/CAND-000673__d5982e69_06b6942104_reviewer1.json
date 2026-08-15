@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Large Language Models for Cybersecurity Policy Compliance and Risk Mitigation",
+    "authors": "Emmanuel Cadet; Edima David Etim; Iboro Akpan Essien; Eseoghene Daniel Erigha; Lawal Abdulmutalib Babatunde; Joshua Oluwagbenga Ajayi; Ehimah Obuse",
+    "year": "2024",
+    "venue": "International Journal of Scientific Research in Humanities and Social Sciences",
+    "doi": "10.32628/IJSRSSH242560",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Cadet, E., Etim, E. D., Essien, I. A., Erigha, E. D., Babatunde, L. A., Ajayi, J. O., & Obuse, E. (2024). Large language models for cybersecurity policy compliance and risk mitigation. International Journal of Scientific Research in Humanities and Social Sciences, 1(2), 612-643. https://doi.org/10.32628/IJSRSSH242560"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "unclear",
+    "study_design": "exploratory study with case studies and simulated enterprise performance evaluation mentioned in abstract; full methods not provided in excerpt",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "cybersecurity; IT and operational technology environments",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLMs integrated with SIEM systems for policy analysis, regulatory interpretation, compliance monitoring, and risk assessment"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM",
+      "governance",
+      "compliance",
+      "risk_mitigation",
+      "regulated_standards",
+      "human_oversight",
+      "monitoring"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai",
+      "no_chatbot_agent_rag"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses LLMs for policy compliance, regulatory interpretation, risk mitigation, governance, monitoring, and human oversight in regulated cybersecurity contexts (GDPR, HIPAA, NIST, ISO 27001). However, the provided text contains no evidence of conversational systems, chatbots, agents, RAG, or conversational governance, which is the core scope of the review. It is relevant as supporting evidence on LLM governance/compliance/risk rather than central conversational-governance evidence.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial introduction/literature review were provided; automated triage marked it central despite zero conversational-AI matches; full-text verification needed for study design, case studies, and empirical claims."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 1,
+    "sampling_adequacy": 0,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 1,
+    "transferability": 2,
+    "notes": "Abstract clearly states aims and claimed contributions, including case studies and simulated enterprise evaluation, but the provided excerpt does not describe sampling, data collection procedures, analysis methods, or ethics. Appraisal is therefore limited and conservative."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "The abstract presents a coherent argument linking LLMs to compliance and risk mitigation in regulated environments, but methodological detail is absent in the supplied text. Relevance to the review is partial: strong on governance/compliance/risk with LLMs, weak on conversational governance."
+  },
+  "coding": {
+    "open_codes": [
+      "automated compliance audits",
+      "regulatory mapping",
+      "SIEM integration",
+      "continuous control monitoring",
+      "hallucination mitigation",
+      "explainable AI",
+      "RLHF",
+      "privacy-preserving inference",
+      "AI-human governance models"
+    ],
+    "axial_codes": [
+      "LLM-enabled compliance management",
+      "risk assessment and remediation",
+      "governance and oversight",
+      "regulated standards interpretation"
+    ],
+    "theme": "LLM-supported cybersecurity policy compliance and risk mitigation",
+    "subtheme": "Regulatory mapping, monitoring, and governance controls in regulated IT/OT environments",
+    "concepts": [
+      "policy compliance automation",
+      "regulatory interpretation",
+      "risk mitigation",
+      "organizational governance",
+      "human oversight",
+      "interpretability",
+      "monitoring"
+    ],
+    "model_layers": [
+      "policy/regulatory layer",
+      "operational control layer",
+      "monitoring and alerting layer",
+      "governance and oversight layer"
+    ],
+    "rq_alignment": [
+      "LLM governance in regulated contexts",
+      "compliance and risk control",
+      "human oversight and accountability",
+      "monitoring and audit"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "LLMs can automate policy analysis, monitor adherence to standards, support real-time risk assessment, and serve as dynamic compliance advisors when integrated with systems such as SIEM, while challenges include interpretability, hallucinations, and data privacy.",
+    "contribution": "Positions LLMs as tools for translating regulatory frameworks into technical controls, improving compliance mapping accuracy, reducing false positives versus rule-based systems, and supporting collaborative AI-human governance in complex regulated environments.",
+    "limitations": "Provided text notes challenges with interpretability, domain-specific fine-tuning, hallucinations, and securing sensitive data during inference; detailed study limitations are not available in the excerpt.",
+    "use_in_review": "Include as supporting evidence for LLM governance, compliance automation, risk mitigation, monitoring, and human oversight in regulated/high-stakes settings; do not treat as central evidence for conversational governance because no conversational-AI application is described."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on LLMs for cybersecurity policy compliance and risk mitigation.",
+      "excerpt": "Large Language Models for Cybersecurity Policy Compliance and Risk Mitigation",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study explores LLM application to compliance management, regulatory interpretation, and security decision-making.",
+      "excerpt": "This study explores the application of LLMs in automating policy analysis, monitoring adherence to industry-specific standards, and facilitating real-time risk assessment.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLMs are applied to regulated frameworks including GDPR, HIPAA, NIST, and ISO 27001.",
+      "excerpt": "LLMs can interpret complex regulatory frameworks such as GDPR, HIPAA, NIST, and ISO 27001, translating them into actionable technical controls.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Governance and monitoring functions are described via SIEM integration and remediation recommendations.",
+      "excerpt": "By integrating with security information and event management (SIEM) systems, LLMs can contextualize alerts, identify potential policy violations, and recommend remediation steps aligned with organizational governance requirements.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "The study claims empirical support through case studies and simulated enterprise evaluation.",
+      "excerpt": "Case studies illustrate how LLM-powered systems have improved response efficiency in identifying misconfigurations, insider threats, and third-party compliance risks",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Human oversight and governance balancing are explicitly mentioned.",
+      "excerpt": "collaborative AI-human governance models to balance automation with oversight",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Proposed governance-related controls include interpretability, RLHF, and privacy-preserving methods.",
+      "excerpt": "integration of explainable AI (XAI) techniques, reinforcement learning from human feedback (RLHF), and the application of privacy-preserving methods such as federated learning",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Reported performance outcome compares LLM-enabled tools with rule-based systems.",
+      "excerpt": "LLM-enabled compliance tools achieve higher accuracy in regulatory mapping and lower rates of false positives compared to traditional rule-based systems",
+      "page": "2",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational AI, chatbot, or dialogue-system context appears in the provided text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "provided excerpt",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors position LLMs as augmenting rather than replacing human expertise.",
+      "excerpt": "the paper positions LLMs not as a replacement for human expertise, but as a force multiplier capable of augmenting organizational capacity to manage compliance and mitigate risk",
+      "page": "3",
+      "section": "introduction",
+      "supports": "synthesis"
+    }
+  ]
+}

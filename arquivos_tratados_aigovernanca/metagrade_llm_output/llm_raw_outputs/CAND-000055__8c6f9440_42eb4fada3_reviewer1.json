@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "Ethical Pluralism in AI Policy: A Framework for Islamic Integration into Global AI Governance",
+    "authors": "Nisrina Salwa Muchtasor",
+    "year": "2025",
+    "venue": "Sinergi International Journal of Islamic Studies",
+    "doi": "10.61194/ijis.v3i3.897",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Muchtasor, N.S. (2025). Ethical Pluralism in AI Policy: A Framework for Islamic Integration into Global AI Governance. Sinergi International Journal of Islamic Studies, 3(3), 191-203. https://doi.org/10.61194/ijis.v3i3.897"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "comparative conceptual mapping with policy review and literature analysis",
+    "study_design": "conceptual framework development through comparative policy and ethics mapping",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "AI policy and ethics; cross-sector at regulatory level",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "general artificial intelligence governance referencing EU AI Act, NIST AI RMF, UNESCO, and OECD frameworks; no conversational systems or LLM-specific operational controls described in provided text"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "AI_GOVERNANCE",
+      "ETHICAL_FRAMEWORK",
+      "REGULATORY_POLICY",
+      "RISK_MANAGEMENT_FRAMEWORK"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI",
+      "NO_LLM_SPECIFICITY",
+      "NO_OPERATIONAL_GOVERNANCE"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article offers a conceptual governance framework integrating Maqasid al-Shariah with global AI standards and NIST RMF, which is relevant to normative AI governance and regulated policy contexts. However, the provided text addresses artificial intelligence in general, not LLM-based conversational systems, and does not cover operational conversational governance mechanisms such as guardrails, observability, handoff, or post-deployment monitoring.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Keyword hits for conversation and dialogue appear in policy-discourse contexts rather than conversational AI systems; full text should be checked for any LLM or chatbot-specific operational governance content not captured in excerpts."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Conceptual study with clearly stated aim and reported thematic alignment findings, but provided excerpts do not detail sampling criteria, systematic review procedures, or explicit limitations. Adequate for normative framework contribution; weak for empirical or operational governance appraisal."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and adequately supported for policy-level ethical pluralism, but methodological transparency and empirical validation are limited in the provided text. Relevance to the review focus on conversational LLM governance in regulated operational environments is indirect and low."
+  },
+  "coding": {
+    "open_codes": [
+      "ethical pluralism",
+      "Maqasid al-Shariah integration",
+      "comparative policy mapping",
+      "NIST RMF overlay",
+      "normative legitimacy",
+      "biometric surveillance opposition",
+      "social scoring opposition"
+    ],
+    "axial_codes": [
+      "global AI governance standards",
+      "culturally grounded ethics",
+      "risk-based regulatory alignment"
+    ],
+    "theme": "Normative AI governance and ethical pluralism",
+    "subtheme": "Islamic ethical integration into global AI policy frameworks",
+    "concepts": [
+      "Maqasid al-Shariah",
+      "EU AI Act",
+      "NIST AI Risk Management Framework",
+      "UNESCO Recommendation on AI Ethics",
+      "OECD AI Principles",
+      "GOVERN",
+      "MAP",
+      "MEASURE",
+      "MANAGE"
+    ],
+    "model_layers": [
+      "policy",
+      "normative ethics",
+      "risk management structure"
+    ],
+    "rq_alignment": [
+      "AI governance in regulated contexts",
+      "risk management and compliance at policy level"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Integrating Maqasid al-Shariah as a complementary ethical layer within global AI governance enhances normative legitimacy in Muslim-majority contexts and can be operationalized by overlaying Maqasid criteria onto the NIST RMF structure.",
+    "contribution": "Provides a culturally grounded governance model mapping Islamic higher objectives to international standards, with thematic compatibility findings against UNESCO and OECD principles and opposition to biometric surveillance and social scoring.",
+    "limitations": "Provided text does not establish LLM or conversational-system specificity, operational deployment controls, or empirically validated implementation evidence; sampling and analysis procedures are only briefly described.",
+    "use_in_review": "Use as foundational contextual evidence on pluralistic AI policy, ethics, and high-level risk-governance framing; not suitable as central evidence for conversational LLM governance in regulated operational settings."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses comparative conceptual mapping with policy and ethics sources",
+      "excerpt": "Using a comparative conceptual mapping approach, the research analyzes the alignment between Maqasid principles and global standards through policy reviews, AI ethics literature, and Islamic jurisprudence.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Generic AI governance focus without LLM specificity in provided text",
+      "excerpt": "The rapid adoption of artificial intelligence (AI) has intensified global efforts to establish ethical and legal governance.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Proposes governance model mapped to NIST RMF functions",
+      "excerpt": "A governance model is introduced by overlaying Maqasid criteria onto the NIST RMF structure (GOVERN, MAP, MEASURE, MANAGE), offering a culturally coherent implementation strategy.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "References regulated policy instruments and risk categorization",
+      "excerpt": "Among the most significant of these efforts is the European Union (EU) AI Act, which categorizes AI systems by risk level",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Emphasizes safety, transparency, accountability, and systemic oversight at deployment level",
+      "excerpt": "establishes foundational objectives aimed at enhancing safety, transparency, and accountability in AI deployment.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "NIST RMF described as structured operational risk methodology",
+      "excerpt": "the National Institute of Standards and Technology (NIST) has developed the AI Risk Management Framework (AI RMF), offering a structured, operational methodology that emphasizes risk awareness, iterative learning, and systemic oversight.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Conversation term reflects policy discourse, not conversational AI systems",
+      "excerpt": "it contributes to the broader conversation on ethical pluralism in technology governance",
+      "page": "3",
+      "section": "limitations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Dialogue term refers to stakeholder harmonization, not chatbot dialogue",
+      "excerpt": "Legal scholars emphasize the need for comparative legal studies and collaborative dialogue involving theologians, jurists, and technologists",
+      "page": "9",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Findings report thematic compatibility with global ethics principles",
+      "excerpt": "Findings reveal strong thematic compatibility between Maqasid domains (protection of religion, life, intellect, lineage, and property) and principles emphasized by UNESCO and the OECD",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Shared governance stance against high-risk surveillance practices",
+      "excerpt": "including shared opposition to biometric surveillance and social scoring.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

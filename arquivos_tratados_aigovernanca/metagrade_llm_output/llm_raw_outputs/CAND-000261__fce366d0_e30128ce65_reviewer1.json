@@ -1,0 +1,180 @@
+{
+  "bibliographic": {
+    "title": "Emergency presentations following youth suicide attempts during the COVID-19 pandemic: temporal trends and associations with containment measures",
+    "authors": "Johannes Schmier, Paul L. Plener, Diana Klinger",
+    "year": "2026",
+    "venue": "European Child & Adolescent Psychiatry",
+    "doi": "10.1007/s00787-026-03119-y",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Schmier, J., Plener, P. L., & Klinger, D. (2026). Emergency presentations following youth suicide attempts during the COVID-19 pandemic: temporal trends and associations with containment measures. European Child & Adolescent Psychiatry. https://doi.org/10.1007/s00787-026-03119-y"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "retrospective observational epidemiological analysis",
+    "study_design": "single-center retrospective cohort with monthly Poisson regression",
+    "sample_description": "Children and adolescents up to 18 years presenting to a tertiary psychiatric emergency outpatient service in Vienna, Austria, January 2019 to December 2023",
+    "sample_size": "6319 psychiatric emergency presentations; 722 following suicide attempts (11.4%)",
+    "sector": "child and adolescent psychiatry / healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "clinical documentation from psychiatric emergency service; Oxford COVID-19 Government Response Tracker Stringency Index for containment policy intensity"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_wrong_topic",
+      "E2_no_llm_genai",
+      "E3_no_conversational_ai",
+      "E4_no_ai_governance"
+    ],
+    "exclusion_reason": "The article is a clinical epidemiology study on youth suicide attempt emergency presentations during COVID-19. The provided text contains no LLMs, generative AI, conversational systems, chatbots, agents, RAG, guardrails, or AI governance mechanisms.",
+    "decision_rationale": "Python triage matched governance-adjacent terms (bias, ethics, government, policy, monitoring, risk) in non-AI contexts such as research ethics, COVID containment policy, recall bias, and clinical monitoring. The study objective, methods, and findings concern psychiatric emergency trends and governmental containment stringency, not conversational AI governance in regulated settings.",
+    "decision_confidence": 0.97,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Absence of LLM, conversational AI, and AI governance content is explicit across abstract, methods, findings, and limitations."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Methodologically sound for its clinical epidemiology question, but monocentric design and service-level presentation rates limit generalizability. Appraisal reflects only signals present in the supplied text and does not support inclusion in an LLM conversational governance review."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "Internal methodological coherence appears adequate for the suicide-attempt trend question, but relevance to conversational AI governance in regulated environments is absent in the provided text; keyword overlaps are contextual false positives."
+  },
+  "coding": {
+    "open_codes": [
+      "suicide attempt presentations",
+      "psychiatric emergencies",
+      "COVID-19 pandemic phases",
+      "containment stringency index",
+      "Poisson regression",
+      "monocentric retrospective design",
+      "recall bias"
+    ],
+    "axial_codes": [
+      "youth mental health epidemiology",
+      "pandemic policy exposure",
+      "clinical service utilization"
+    ],
+    "theme": "Temporal trends in youth suicide attempt emergency presentations associated with COVID-19 containment policy",
+    "subtheme": "Psychiatric emergency service monitoring during pandemic phases",
+    "concepts": [
+      "OxCGRT Stringency Index",
+      "psychosocial burden indicator",
+      "continuous emergency monitoring"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.95
+  },
+  "synthesis": {
+    "main_claim": "Suicide attempt-related psychiatric emergency presentations increased significantly during the COVID-19 pandemic compared with the pre-pandemic period and were positively associated with monthly governmental containment stringency, alongside an independent upward temporal trend.",
+    "contribution": "Provides quantitative evidence linking pandemic-phase emergency presentations for youth suicide attempts to intensity of governmental containment measures at a tertiary psychiatric center in Vienna.",
+    "limitations": "Monocentric design, service-level rather than population-based incidence, recall bias in suicide attempt classification, no severity or socioeconomic data, and stringency index may not fully capture local policy nuance.",
+    "use_in_review": "Exclude from the conversational AI governance synthesis. Useful only as an example of keyword false positives where terms like government, policy, ethics, monitoring, bias, and risk appear in unrelated clinical research contexts."
+  },
+  "evidence": [
+    {
+      "claim": "Study topic is youth suicide attempt emergency presentations during COVID-19, not AI or conversational systems.",
+      "excerpt": "This study examined trends in psychiatric emergency presentations following suicide attempts among children and adolescents across COVID-19 pandemic phases",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM, generative AI, or conversational technology is described in methods.",
+      "excerpt": "data including age, gender and information regarding suicide attempts (yes/no) were collected from the documentation written by medical staff",
+      "page": "3",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Government/policy terms refer to COVID containment measures, not AI governance.",
+      "excerpt": "COVID-19 containment stringency was quantified using the Oxford COVID-19 Government Response Tracker Stringency Index",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Monitoring refers to clinical emergency surveillance, not AI observability or audit.",
+      "excerpt": "Continuous monitoring of emergency presentations and access to low-threshold mental health support are necessary beyond periods of acute crisis",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Ethics approval pertains to human subjects research, not AI ethics governance.",
+      "excerpt": "The study received approval from the Ethics Committee of the Medical University of Vienna (no. 1744/2021)",
+      "page": "3",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Bias mention is recall bias in clinical documentation, not algorithmic bias.",
+      "excerpt": "Therefore, recall bias cannot be excluded, and the data do not capture lifetime history of suicide attempts",
+      "page": "7",
+      "section": "limitations",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research objective is clearly stated and measurable.",
+      "excerpt": "Temporal changes in monthly suicide attempt presentations were analyzed using Poisson regression models, adjusting for linear time trends",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Sample size and setting are explicitly reported.",
+      "excerpt": "A total of 6,319 psychiatric emergency presentations were recorded, including 722 presentations following suicide attempts (11.4%)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Primary findings are reported with effect estimates.",
+      "excerpt": "suicide attempt-related presentations increased significantly during the pandemic (RR = 1.80, p < .001)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors acknowledge monocentric and generalizability limitations.",
+      "excerpt": "The monocentric design may limit generalizability to other healthcare settings or regions",
+      "page": "7",
+      "section": "limitations",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study operates in regulated healthcare domain but not AI-regulated technology context.",
+      "excerpt": "It provides 24/7 emergency psychiatric care and is one of the two child and adolescent psychiatric services in Vienna",
+      "page": "3",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Main synthesis claim supported by association with policy stringency.",
+      "excerpt": "Higher monthly suicide attempt presentation rates were associated with greater containment stringency (RR per point = 1.007, p < .001)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

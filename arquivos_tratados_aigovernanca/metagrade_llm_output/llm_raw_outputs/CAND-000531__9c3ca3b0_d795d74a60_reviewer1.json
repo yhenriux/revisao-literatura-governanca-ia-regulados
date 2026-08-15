@@ -1,0 +1,190 @@
+{
+  "bibliographic": {
+    "title": "Dis/ordering AI–Human Oversight: Materialities, Aesthetics and Contestability",
+    "authors": "Joaquín Santuber; Mariana Costa Morais; Kristina Tica",
+    "year": "2026",
+    "venue": "Law, Technology and Humans",
+    "doi": "10.5204/lthj.4170",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Santuber, J., Costa Morais, M., & Tica, K. (2026). Dis/ordering AI–Human Oversight: Materialities, Aesthetics and Contestability. Law, Technology and Humans. Advance online publication. https://doi.org/10.5204/lthj.4170"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "critical legal and media theory with artistic research and installation practice",
+    "study_design": "conceptual critique of EU AI Act Article 14 combined with design and documentation of the artistic installation HUMAN OVERS[A]IGHT: THE OPS ROOM",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "legal studies, media theory, arts and design research",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI systems under the EU AI Act with human-machine interface tools; installation using machine learning-based computer vision, surveillance footage, and button-pressing interaction"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "human_oversight",
+      "contestability",
+      "EU_AI_Act",
+      "regulated_AI_governance",
+      "conceptual_framework"
+    ],
+    "exclusion_codes": [
+      "not_conversational_ai",
+      "not_llm_specific",
+      "not_operational_governance"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article offers a strong conceptual treatment of human oversight and contestability under EU AI Act Article 14, but the provided text centers on legal critique and an artistic installation with computer vision rather than conversational AI, LLM-based systems, or operational governance mechanisms such as guardrails, logging, or compliance tooling. It is relevant as foundational context for oversight and contestability in regulated AI, not as central evidence on conversational LLM governance.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted bibliographic metadata was corrupted; only partial PDF text was supplied; conversational and LLM specificity must be confirmed against the full article."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Clear conceptual aim and coherent interdisciplinary method for critical legal-aesthetic inquiry, but limited empirical sampling, limited discussion of limitations in the excerpt, and low direct transferability to conversational LLM governance in regulated deployments."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is internally coherent for reconceptualizing human oversight as contestation, but the artistic-theoretical design offers limited adequacy and relevance for answering operational questions about conversational LLM governance in regulated environments."
+  },
+  "coding": {
+    "open_codes": [
+      "human_oversight",
+      "contestability",
+      "EU_AI_Act_Article_14",
+      "human_machine_interface",
+      "stop_button",
+      "aesthetics",
+      "materiality",
+      "alienation_law_technology",
+      "artistic_installation",
+      "button_pressing_interaction",
+      "computer_vision",
+      "machine_learning"
+    ],
+    "axial_codes": [
+      "regulatory_governance",
+      "human_supervision_design",
+      "critical_reconceptualization",
+      "art_as_intervention"
+    ],
+    "theme": "Reconceptualizing human oversight beyond supervisory control",
+    "subtheme": "Contestability through aesthetics and material human-machine interfaces",
+    "concepts": [
+      "contestation",
+      "dis/ordering",
+      "human-machine interface tools",
+      "appropriate interface",
+      "open-ended interaction",
+      "alienation between law and technics"
+    ],
+    "model_layers": [
+      "policy_legal",
+      "human_oversight",
+      "interface_interaction",
+      "conceptual_normative"
+    ],
+    "rq_alignment": [
+      "human_oversight",
+      "contestation",
+      "regulated_AI_compliance",
+      "accountability"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Human oversight under EU AI Act Article 14 can be critically dis/ordered and reconceived as a form of contestation rather than only a supervisory mechanism, using aesthetics and material human-machine interfaces to overcome alienation between law and technology.",
+    "contribution": "Provides a critical legal-media-theoretical lens on Article 14 and materializes it through the installation HUMAN OVERS[A]IGHT: THE OPS ROOM, which expands the legal 'stop button' into multiple buttons and social, open-ended interaction.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence on human oversight, contestability, and EU AI Act interface requirements; do not treat as central evidence on conversational LLM systems, chatbots, agents, RAG, or operational audit/compliance tooling."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on human oversight in EU AI Act Article 14",
+      "excerpt": "Our aim in this article is to critically examine the AI–human construct for oversight as delineated by the EU’s AI regulation, specifically Article 14 of the European Artificial Intelligence Act (EU AI Act).",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Proposes oversight as contestation rather than only supervision",
+      "excerpt": "we imagine that human oversight can serve as a form of contestation rather than merely as a supervisory mechanism.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Artistic installation is the main material intervention",
+      "excerpt": "We address this issue by materialising oversight in the form of an artistic project and installation, HUMAN OVERS[A]IGHT: THE OPS ROOM.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Legal provision references human-machine interface tools and stop control",
+      "excerpt": "This legal provision equips oversight with ‘human–machine interface tools’ for real-time control, and even a ‘stop button’ for a natural person to ‘bring the system to a halt’.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Installation expands the legal button metaphor into social interaction",
+      "excerpt": "Our human–machine interface is not just ‘a button’ – as per Article 14 of the EU AI Act – but rather a multitude of buttons.",
+      "page": "10",
+      "section": "findings",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Technology uses machine learning computer vision, not conversational LLM focus",
+      "excerpt": "documentary and surveillance video footage upon which machine learning-based models for computer vision render and alter data based on human input via button pressing.",
+      "page": "12",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "AI interactions include prompts but within broad AI-system framing",
+      "excerpt": "Every interaction, every prompt, every click, every enter or delete of information is captured.",
+      "page": "9",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Conceptual framework emphasizes open-ended interaction over game-like control",
+      "excerpt": "The project's conceptual framework was to foster an open-ended interaction, focused on the experience rather than a game-like narrative.",
+      "page": "12",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Peer-reviewed journal context with 2026 advance online publication",
+      "excerpt": "LAW, TECHNOLOGY AND HUMANS Advance online publication https://doi.org/10.5204/lthj.4170",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Regulated legal domain is explicitly EU AI Act",
+      "excerpt": "Keywords: Human oversight; individuation; EU AI Act; aesthetics; media theory.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

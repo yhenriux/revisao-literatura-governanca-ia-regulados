@@ -1,0 +1,202 @@
+{
+  "bibliographic": {
+    "title": "Discursos sobre regulação e governança algorítmica",
+    "authors": "Sergio Amadeu da Silveira",
+    "year": "2020",
+    "venue": "Estudos Sociológicos (Araraquara)",
+    "doi": "unclear",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Silveira, S. A. (2020). Discursos sobre regulação e governança algorítmica. Estudos Sociológicos, 25(48), 63-85."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "discourse analysis of algorithmic governance literature",
+    "study_design": "conceptual essay analyzing discursive practices in research on algorithmic regulation and governance",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "general societal and institutional perspectives on algorithmic systems",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "Big Data, machine learning, Inteligência Artificial, sistemas algorítmicos, plataformas online"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "governance_accountability",
+      "regulated_high_stakes",
+      "foundational_value"
+    ],
+    "exclusion_codes": [
+      "no_llm_focus",
+      "no_conversational_ai",
+      "pre_llm_technology_context"
+    ],
+    "exclusion_reason": "O texto aborda governança e regulação algorítmica de forma conceitual e discursiva, com foco em Big Data, aprendizado de máquina e IA genérica, sem menção a LLMs, sistemas conversacionais, chatbots, agentes, RAG ou governança operacional de IA generativa conversacional em ambientes regulados.",
+    "decision_rationale": "O artigo oferece enquadramento teórico relevante sobre regulação sobre algoritmos, accountability, transparência e supervisão social, mas não constitui evidência central para governança conversacional em sistemas baseados em LLMs. A triagem automatizada superestimou relevância por termos amplos de governança, regulação e IA.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Metadados Python indicam ano 2013, mas o cabeçalho do periódico aponta publicação em 2020; apenas trechos iniciais do PDF foram fornecidos para avaliação metodológica completa."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Avaliação baseada em front matter e trechos iniciais. O objetivo de mapear práticas discursivas sobre regulação e governança algorítmica está explícito, mas o desenho amostral, procedimentos de coleta e limitações não aparecem no material fornecido."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "O argumento é coerente para enquadramento conceitual de governança algorítmica pré-LLM, mas a adequação e relevância para a revisão sobre governança conversacional em LLMs em contextos regulados são limitadas porque o texto não trata dessa tecnologia nem de sistemas conversacionais."
+  },
+  "coding": {
+    "open_codes": [
+      "regulação sobre algoritmos",
+      "governança algorítmica",
+      "discursos promocionais e críticos",
+      "accountability",
+      "transparência algorítmica",
+      "intervenção humana",
+      "autorregulação de plataformas"
+    ],
+    "axial_codes": [
+      "governança normativa de IA",
+      "responsabilização institucional",
+      "riscos de autonomia algorítmica"
+    ],
+    "theme": "Regulação e governança de sistemas algorítmicos",
+    "subtheme": "Discursos sobre accountability, transparência e controle social de ML/IA",
+    "concepts": [
+      "regulação feita pelos algoritmos",
+      "regulação realizada sobre os algoritmos",
+      "accountability",
+      "transparência",
+      "superioridade algorítmica",
+      "autorregulação de plataformas"
+    ],
+    "model_layers": [
+      "normative governance",
+      "institutional oversight",
+      "algorithmic accountability"
+    ],
+    "rq_alignment": [
+      "governança de IA",
+      "accountability",
+      "supervisão humana",
+      "regulação institucional"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "As pesquisas e discursos sobre regulação e governança algorítmica articulam controvérsias entre promoção da autonomia de sistemas baseados em dados e necessidade de controle social, explicação e responsabilização de empresas e pessoas.",
+    "contribution": "Diferencia regulação pelos algoritmos e regulação sobre algoritmos, e situa machine learning e IA como núcleo das dificuldades de governança por opacidade e autonomia operacional.",
+    "limitations": "Não aborda LLMs, arquiteturas conversacionais, guardrails, observabilidade operacional, RAG ou governança pós-implantação de chatbots; material fornecido não expõe método empírico detalhado nem limitações explícitas do estudo.",
+    "use_in_review": "Usar como referência fundacional/contextual para conceitos de governança algorítmica, accountability, transparência e regulação legal/institucional, sem tratá-lo como evidência central sobre governança conversacional em LLMs."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo publicado em periódico acadêmico revisado por pares em 2020",
+      "excerpt": "63 Estud. sociol. Araraquara v.25 n.48 p.63-85 jan.-jun. 2020",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Autor identificado como Sergio Amadeu da Silveira",
+      "excerpt": "Sergio Amadeu da SILVEIRA*",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Estudo conceitual sobre práticas discursivas em pesquisas de regulação e governança algorítmica",
+      "excerpt": "O texto traz as práticas discursivas das principais pesquisas sobre a regulação e a governança dos algoritmos.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Foco tecnológico em Big Data, machine learning e IA genérica, não em LLMs",
+      "excerpt": "sistemas algorítmicos e suas expressões como Big Data, machine learning e Inteligência Artificial (IA)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Diferencia regulação pelos algoritmos e regulação sobre algoritmos",
+      "excerpt": "É preciso diferenciar a regulação feita pelos algoritmos da realizada sobre os algoritmos.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Algoritmos têm vocação para ação sem intervenção humana",
+      "excerpt": "os algoritmos têm vocação para a ação sem a necessidade da intervenção humana",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Accountability é ponto controverso em sistemas de IA",
+      "excerpt": "Em relação aos sistemas algoritmos da chamada Inteligência Artificial, a questão do accountability se tornou um dos pontos de controvérsia",
+      "page": "7",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Impossibilidade de acompanhar, compreender e explicar funcionamento de IA algorítmica",
+      "excerpt": "dada a impossibilidade de acompanhar, compreender e explicar o seu funcionamento",
+      "page": "7",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulação de ML e IA recai sobre empresas e pessoas",
+      "excerpt": "a regulação sobre algoritmos, machine learning e outros modelos de Inteligência Artificial recairá sobre empresas e pessoas",
+      "page": "8",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Crítica à autorregulação de plataformas e defesa de regulação legal",
+      "excerpt": "Desconfie dos mecanismos autorreguláveis das plataformas",
+      "page": "8",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Algoritmos operados por regras extraídas de dados geram maiores dificuldades de governança",
+      "excerpt": "Esse segundo tipo de algoritmo gera maior dificuldades para sua governança.",
+      "page": "10",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Menção a plataformas online e algoritmos de linguagem natural, sem foco conversacional ou LLM",
+      "excerpt": "são utilizados algoritmos de aprendizado de máquina, de linguagem natural, de reconhecimento de imagens",
+      "page": "5",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Ausência de sistemas conversacionais, chatbots, agentes ou LLMs no material fornecido",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

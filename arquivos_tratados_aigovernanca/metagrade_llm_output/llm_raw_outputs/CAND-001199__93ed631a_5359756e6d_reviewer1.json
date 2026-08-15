@@ -1,0 +1,160 @@
+{
+  "bibliographic": {
+    "title": "AI chatbots not yet ready for clinical use",
+    "authors": "Joshua Au Yeung; Zeljko Kraljevic; Akish Luintel; Alfred Balston; Esther Idowu; Richard J. Dobson; James T. Teo",
+    "year": "2023",
+    "venue": "Frontiers in Digital Health",
+    "doi": "10.3389/fdgth.2023.1161098",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Au Yeung, J., Kraljevic, Z., Luintel, A., Balston, A., Idowu, E., Dobson, R. J., & Teo, J. T. (2023). AI chatbots not yet ready for clinical use. Frontiers in Digital Health, 5, 1161098. https://doi.org/10.3389/fdgth.2023.1161098"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "perspective with comparative performance illustration",
+    "study_design": "perspective article comparing ChatGPT and Foresight on diagnosis forecasting from clinical vignettes",
+    "sample_description": "clinical vignettes used for comparing diagnostic forecasting performance",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "transformer-based conversational AI and large language models (ChatGPT, GatorTron, Foresight) for healthcare chatbots"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_CHATBOT",
+      "REGULATED_HEALTHCARE",
+      "AI_SAFETY_LIMITATIONS"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses LLM-based conversational AI in healthcare and discusses clinical limitations and AI safety, but the provided text is a perspective focused on readiness and model comparison rather than explicit conversational governance mechanisms such as guardrails, audit, compliance, or human oversight frameworks.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and page 1 are available; full-text sections on methods, results, governance considerations, and limitations are needed to confirm eligibility and appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Peer-reviewed perspective with stated comparison of ChatGPT and Foresight on clinical vignettes; appraisal is limited because methods, sample size, results, and detailed safety/governance analysis are not present in the supplied excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The text coherently frames LLM chatbot potential and clinical limitations in healthcare, but the excerpt provides insufficient methodological and governance detail to support high-confidence synthesis on conversational governance."
+  },
+  "coding": {
+    "open_codes": [
+      "clinical_readiness",
+      "LLM_chatbot_comparison",
+      "transformer_architecture",
+      "diagnosis_forecasting",
+      "clinical_vignettes",
+      "AI_safety"
+    ],
+    "axial_codes": [
+      "healthcare_conversational_AI",
+      "clinical_risk_and_limitations",
+      "LLM_performance_comparison"
+    ],
+    "theme": "Readiness and limitations of transformer-based LLM chatbots for clinical use",
+    "subtheme": "Comparative diagnostic forecasting with general and healthcare-focused LLMs",
+    "concepts": [
+      "ChatGPT",
+      "Foresight",
+      "GatorTron",
+      "conversational AI",
+      "clinical vignettes",
+      "AI safety",
+      "emergent properties"
+    ],
+    "model_layers": [
+      "risk_safety"
+    ],
+    "rq_alignment": [
+      "regulated_healthcare_context",
+      "conversational_LLM_systems",
+      "clinical_safety_limitations"
+    ],
+    "coding_confidence": 0.68
+  },
+  "synthesis": {
+    "main_claim": "LLM-based conversational AI chatbots show growing potential in healthcare, but transformer-based chatbots are not yet ready for clinical use and require important limitations to be considered.",
+    "contribution": "Compares ChatGPT and Foresight on forecasting diagnoses from clinical vignettes and situates emerging transformer/LLM chatbots against prior rules-based or Bayesian healthcare chatbot approaches.",
+    "limitations": "Appraisal is constrained to page 1; the excerpt announces discussion of limitations for clinical use but does not provide full empirical results or governance-operational recommendations.",
+    "use_in_review": "Use as supporting evidence on clinical readiness, safety concerns, and performance comparison of LLM chatbots in regulated healthcare; not sufficient as central evidence on conversational governance frameworks."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a peer-reviewed perspective in Frontiers in Digital Health published in 2023.",
+      "excerpt": "TYPE Perspective PUBLISHED 12 April 2023",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study focuses on LLM-based conversational AI/chatbots in healthcare.",
+      "excerpt": "As large language models (LLMs) expand and become more advanced, so do the natural language processing capabilities of conversational AI, or \"chatbots\".",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Specific LLMs named include ChatGPT and healthcare-focused models.",
+      "excerpt": "OpenAI's recent release, ChatGPT, uses a transformer-based model to enable human-like text generation and question-answering on general domain knowledge, while a healthcare-specific Large Language Model (LLM) such as GatorTron has focused on the real-world healthcare domain knowledge.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors compare ChatGPT and Foresight on clinical vignette diagnosis forecasting.",
+      "excerpt": "we discuss the potential and compare the performance of two different approaches to generative pretrained transformers—ChatGPT, the most widely used general conversational LLM, and Foresight, a GPT (generative pretrained transformer) based model focused on modelling patients and disorders. The comparison is conducted on the task of forecasting relevant diagnoses based on clinical vignettes.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Article addresses regulated clinical healthcare context.",
+      "excerpt": "it is probable that Conversational AI will soon be developed for use in healthcare.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Clinical limitations and safety are explicit concerns.",
+      "excerpt": "We also discuss important considerations and limitations of transformer-based chatbots for clinical use. KEYWORDS large language models, chatbot, natural language processing (computer science), digital health, AI safety, transformer",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Prior healthcare chatbots used non-transformer approaches.",
+      "excerpt": "Currently, NLP chatbots in healthcare primarily use rules-based, tree-based or Bayesian algorithms",
+      "page": "1",
+      "section": "background",
+      "supports": "coding"
+    },
+    {
+      "claim": "No explicit operational governance mechanisms are described in the provided text.",
+      "excerpt": "These models have the potential to be used as conversational AI or chatbots in healthcare.",
+      "page": "1",
+      "section": "background",
+      "supports": "eligibility"
+    }
+  ]
+}

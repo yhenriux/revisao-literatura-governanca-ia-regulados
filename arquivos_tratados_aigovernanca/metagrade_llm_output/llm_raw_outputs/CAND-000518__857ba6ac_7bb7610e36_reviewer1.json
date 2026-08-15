@@ -1,0 +1,200 @@
+{
+  "bibliographic": {
+    "title": "Human-in-the-Loop Automation: Redesigning Global Business Processes to Optimize Collaboration between AI and Employees",
+    "authors": "Abdullateef Okuboye",
+    "year": "2022",
+    "venue": "International Journal of Multidisciplinary Research and Growth Evaluation",
+    "doi": "10.54660/.IJMRGE.2022.3.1.1169-1178",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Okuboye, A. (2022). Human-in-the-Loop Automation: Redesigning Global Business Processes to Optimize Collaboration between AI and Employees. International Journal of Multidisciplinary Research and Growth Evaluation, 3(1), 1169-1178. https://doi.org/10.54660/.IJMRGE.2022.3.1.1169-1178"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "mixed-methods framework development with literature review and case studies",
+    "study_design": "conceptual multi-layered framework development supported by literature review, theoretical assessment, and illustrative global case studies",
+    "sample_description": "globally distributed business environments and illustrative organizational case studies across regions and sectors including banking, healthcare, logistics, education, and public administration; one named case (NexSys Manufacturing in Japan, Mexico, Germany)",
+    "sample_size": "unclear",
+    "sector": "cross-sector global business (banking, healthcare, logistics, education, public administration, manufacturing)",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Human-in-the-Loop automation, Intelligent Process Automation, machine learning, customer service chatbots, predictive maintenance, process automation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "human_oversight",
+      "ai_governance",
+      "regulated_domains",
+      "compliance",
+      "hitl_framework"
+    ],
+    "exclusion_codes": [
+      "insufficient_llm_conversational_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article centrally addresses Human-in-the-Loop supervision, AI governance, regulatory compliance, and regulated sectors in global business process redesign, which aligns with oversight and governance dimensions of the review. However, it does not study conversational systems or LLM-based deployments as its primary object; LLMs and generative AI are cited only as underexplored gaps in prior literature, and chatbots appear only as a brief background example.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Deterministic triage likely over-scored LLM and conversational relevance from incidental keyword hits; full-text confirms primary focus is general HITL business-process automation rather than conversational LLM governance."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Objective and scope are clearly stated and method is described as mixed-methods with case studies, but provided excerpts offer limited transparency on empirical sampling, data collection procedures, and analytic steps. The work reads primarily as a conceptual framework with illustrative cases rather than a rigorously reported primary empirical study."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings on HITL integration, governance, and compliance are internally coherent and adequately supported for a framework paper, but methodological detail and empirical depth are limited in the available text. Relevance to the review's core focus on conversational governance in LLM systems is indirect because the study does not center on LLMs or conversational architectures."
+  },
+  "coding": {
+    "open_codes": [
+      "human-in-the-loop",
+      "process redesign",
+      "regulatory compliance",
+      "cross-cultural adaptability",
+      "workforce engagement",
+      "operational excellence",
+      "case studies",
+      "generative AI gap"
+    ],
+    "axial_codes": [
+      "human oversight",
+      "AI governance",
+      "regulated business operations",
+      "hybrid human-AI automation"
+    ],
+    "theme": "Human-in-the-Loop governance for global business automation",
+    "subtheme": "Supervised automation in regulated and cross-border contexts",
+    "concepts": [
+      "Human-in-the-Loop",
+      "AI governance",
+      "human oversight",
+      "regulatory compliance",
+      "Intelligent Process Automation",
+      "ethical governance",
+      "trust calibration"
+    ],
+    "model_layers": [
+      "theory",
+      "design",
+      "policy",
+      "human experience"
+    ],
+    "rq_alignment": [
+      "human oversight",
+      "accountability",
+      "compliance",
+      "regulated domains",
+      "operational governance"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Human-in-the-Loop automation should be used to preserve human supervision, judgment, and ethical thinking within automated global business processes, enabling operational excellence, regulatory compliance, and workforce engagement.",
+    "contribution": "Proposes a comprehensive multi-layered HITL framework for globally distributed business environments that bridges theory, design, policy, and human experience, supported by literature review, theoretical assessment, and case-study illustrations.",
+    "limitations": "The paper itself notes insufficient exploration of HITL in generative AI contexts such as LLMs and content moderation, inadequate domain-specific frameworks, and limited interdisciplinary synthesis; empirical procedures and longitudinal evidence are not clearly detailed in the provided text.",
+    "use_in_review": "Use as foundational contextual evidence for human-in-the-loop oversight, AI governance, and compliance in regulated sectors; not suitable as central evidence on conversational governance in LLM-based systems because LLMs and conversational governance are not the study's primary focus."
+  },
+  "evidence": [
+    {
+      "claim": "Study objective centers on HITL as a hybrid governance and design approach for supervised automation.",
+      "excerpt": "This essay discusses Human-in-the-Loop (HITL) paradigm, a kind of hybrid approach that preserves human supervision during the automatized processes",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Mixed-methods design is claimed.",
+      "excerpt": "Using a mixed-methods design, the paper answers practical questions related to task design, regulatory compliance, and cross-cultural adaptability",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated and high-stakes sectors are explicitly in scope.",
+      "excerpt": "organizations of various segments their business- banking, healthcare, logistics, education, and others to prevent automation (mistakes) and improve cross-border business performance and compliance",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "AI governance is a core concept in the paper.",
+      "excerpt": "AI Governance: Framew",
+      "page": "2",
+      "section": "Literature Review",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs are mentioned only as an underexplored gap, not as the studied technology.",
+      "excerpt": "Insufficient exploration of HITL in generative AI contexts, such as large language models (LLMs) and content moderation.",
+      "page": "4",
+      "section": "Results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The study proposes a multi-layered HITL framework bridging governance-relevant layers.",
+      "excerpt": "developing a comprehensive, multi-layered framework for HITL integration in globally distributed business environments— bridging theory, design, policy, and human experience.",
+      "page": "4",
+      "section": "Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Human oversight is framed as necessary in international legal and organizational contexts.",
+      "excerpt": "connecting the human oversight modality to AI systems can be, not only desirable, but even a necessity",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Chatbots appear only as a background example of AI use, not as the main conversational system studied.",
+      "excerpt": "AI is employed levels, such as customer service chatbots, supply chain optimization and predictive analytics",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Healthcare and finance are identified as high-risk sectors.",
+      "excerpt": "especially in high-risk sectors such as healthcare and finance.",
+      "page": "7",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "An illustrative case study uses machine learning with human operator oversight.",
+      "excerpt": "Case Study 3: NexSys Manufacturing (Industrial Automation) Regions: Japan, Mexico, Germany AI System: Predictive maintenance using machine learning, overseen by human operators",
+      "page": "8",
+      "section": "Findings",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "The paper acknowledges HITL systems are not fail-safe and discusses human-machine dialogue failures.",
+      "excerpt": "HITL systems cannot be fail-safe. The Boeing 737 MAX crisis identified a design flaw in the human-machine dialogue",
+      "page": "4",
+      "section": "Literature Review",
+      "supports": "coding"
+    },
+    {
+      "claim": "Future research calls for work on human-machine interaction but not specifically conversational LLM governance.",
+      "excerpt": "Ethnographic work to explore deep cultural dimensions of human-machine interaction in specific national contexts.",
+      "page": "6",
+      "section": "Limitations",
+      "supports": "appraisal"
+    }
+  ]
+}

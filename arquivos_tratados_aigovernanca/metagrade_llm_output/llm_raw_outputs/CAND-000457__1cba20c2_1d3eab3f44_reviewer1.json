@@ -1,0 +1,176 @@
+{
+  "bibliographic": {
+    "title": "Generative psychometrics via AI-GENIE: Automatic item generation and validation with network-integrated evaluation",
+    "authors": "Russell-Lasalandra, L. L.; Christensen, A. P.; Golino, H.",
+    "year": "2026",
+    "venue": "Behavior Research Methods",
+    "doi": "10.3758/s13428-026-03082-1",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Russell-Lasalandra, L. L., Christensen, A. P., & Golino, H. (2026). Generative psychometrics via AI-GENIE: Automatic item generation and validation with network-integrated evaluation. Behavior Research Methods, 58, 217. https://doi.org/10.3758/s13428-026-03082-1"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "generative psychometrics; Monte Carlo simulation; network psychometrics; empirical scale validation",
+    "study_design": "methodological framework (AI-GENIE) evaluated via Monte Carlo simulations across multiple LLMs and empirical testing with nationally representative U.S. samples",
+    "sample_description": "five nationally representative U.S. samples for empirical testing; simulation conditions using LLM-generated item pools for Big Five personality traits and AI anxiety construct",
+    "sample_size": "N = 4,964 total across five U.S. samples; 75 experimental simulation conditions with repeated text generation until 100 samples of at least 60 unique items per condition",
+    "sector": "psychological measurement and academic psychometrics research",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM prompting for psychological assessment item generation, redundancy filtering, and structural validation using network psychometric techniques (EGA, embeddings); not a conversational AI or deployment-governance system"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "no_conversational_ai",
+      "no_governance_focus",
+      "out_of_scope_intervention"
+    ],
+    "exclusion_reason": "The study presents AI-GENIE, a psychometric methodology for LLM-based psychological item generation and structural validation. The provided text does not address conversational AI systems, conversational governance, guardrails, audit/logging, compliance frameworks, or governance in regulated operational deployments.",
+    "decision_rationale": "Although the article strongly involves specific LLMs and generative AI, its focus is psychological scale development and validation in silico, not governance of conversational LLM systems in regulated environments. Keyword overlap from automated screening (ethics, oversight, review) is insufficient without substantive governance or conversational-system content in the supplied text.",
+    "decision_confidence": 0.91,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated triage graded this as supporting_candidate due to LLM and partial governance-term matches; manual adjudication is needed to confirm exclusion despite methodological relevance to generative AI."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Within its own domain, the abstract and methods excerpt describe a coherent methodological study with simulation and large empirical samples. Appraisal is based only on provided text; ethics, limitations, and full analytic detail are not sufficiently visible in the excerpt for higher reflexivity or limitations scores."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The evidence appears internally coherent and adequate for psychometric item-generation claims, but relevance to conversational governance in regulated LLM systems is very low based on the provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "automatic item generation",
+      "network psychometrics",
+      "Monte Carlo simulation",
+      "structural validity",
+      "expert intervention reduction",
+      "generative psychometrics",
+      "LLM model comparison"
+    ],
+    "axial_codes": [
+      "LLM-assisted research methodology",
+      "psychological measurement automation",
+      "human/expert oversight reduction"
+    ],
+    "theme": "Generative psychometrics for psychological scale development",
+    "subtheme": "LLM item generation with network-integrated validation",
+    "concepts": [
+      "AI-GENIE",
+      "exploratory graph analysis",
+      "normalized mutual information",
+      "item pool filtering",
+      "Big Five personality assessment",
+      "AI anxiety"
+    ],
+    "model_layers": [
+      "LLM text generation layer",
+      "psychometric evaluation pipeline",
+      "simulation and empirical validation layer"
+    ],
+    "rq_alignment": [
+      "tangential: use of LLMs in research workflows",
+      "tangential: reduced reliance on expert intervention"
+    ],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "AI-GENIE can efficiently generate and select high-quality, non-redundant psychological assessment items using LLMs and network psychometrics, achieving structural validity comparable to traditional expert-developed measures.",
+    "contribution": "Introduces and evaluates a methodological pipeline combining LLM item generation with network psychometric filtering and validation across multiple models and empirical U.S. samples.",
+    "limitations": "Provided text does not discuss conversational system deployment, operational governance, auditability, compliance, or regulated-domain implementation; broader ethics and study limitations are not fully evidenced in the excerpt.",
+    "use_in_review": "Exclude from central conversational-governance evidence. At most, it may serve as peripheral background on LLM use in research instrument development, not as evidence on governance of conversational LLM systems in regulated settings."
+  },
+  "evidence": [
+    {
+      "claim": "Article uses specific LLMs for generative item development",
+      "excerpt": "evaluated through Monte Carlo simulations using the Mixtral, Gemma 2, Llama 3, GPT-3.5, and GPT-4o models",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study objective is psychometric scale development, not conversational governance",
+      "excerpt": "methodology for efficiently generating and selecting high-quality, non-redundant items for psychological assessments using LLMs and network psychometrics",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Empirical sample size is large and nationally representative",
+      "excerpt": "empirically tested with five nationally representative U.S. samples (N = 4,964 total)",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "AI-GENIE reduces expert involvement rather than governing deployed conversational systems",
+      "excerpt": "reduces reliance on expert intervention by integrating generative AI with the latest network psychometric techniques",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Core workflow begins with LLM prompting and psychometric filtering",
+      "excerpt": "AI-GENIE begins by prompting an LLM to generate an initial pool of items; these items are then evaluated and refined using a multi-step psychometric pipeline",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Simulation design is transparent in the excerpt",
+      "excerpt": "Each of the five models was tested under three temperature settings (0.5, 1, and 1.5) for each of the Big Five personality traits, resulting in a total of 75 experimental conditions",
+      "page": "3",
+      "section": "Methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "No conversational AI system is described in the provided text",
+      "excerpt": "prompting LLMs to generate dozens of candidate items for conscientiousness, then evaluates and filters these using network psychometrics",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Human oversight appears only as background to prior item-generation work, not as a governance framework for this study",
+      "excerpt": "typically under structured human oversight or multi-agent quality-control pipelines",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Main reported outcome concerns psychometric efficiency and validity",
+      "excerpt": "AI-GENIE-generated scales achieve structural validity—that is, evidence based on internal structure (dimensionality and item stability)—comparable to traditional expert-developed measures",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Technology context is text generation for measurement items",
+      "excerpt": "Inferencing (or text generation) on the models was repeated until 100 samples of at least 60 unique items were collected",
+      "page": "3",
+      "section": "Methods",
+      "supports": "coding"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "bibliographic": {
+    "title": "Benchmarking large language models for congenital cataract parent counseling: safety, readability, and knowledge translation of developmental and genetic information",
+    "authors": "Ligang Jiang, Yihan Zhu, Chunyan Song, Xinya Hu, Xianming Fan, Weihua Yang, Yune Zhao",
+    "year": "2026",
+    "venue": "Frontiers in Cell and Developmental Biology",
+    "doi": "10.3389/fcell.2026.1785731",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Jiang, L., Zhu, Y., Song, C., Hu, X., Fan, X., Yang, W., & Zhao, Y. (2026). Benchmarking large language models for congenital cataract parent counseling: safety, readability, and knowledge translation of developmental and genetic information. Frontiers in Cell and Developmental Biology, 14, 1785731. https://doi.org/10.3389/fcell.2026.1785731"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "cross-sectional comparative benchmarking evaluation",
+    "study_design": "Cross-sectional comparative evaluation of five publicly accessible Chinese conversational LLMs using 30 standardized parent-facing questions, with blinded expert ratings and statistical group comparisons",
+    "sample_description": "Five Chinese conversational LLMs (ChatGPT-5.2, Gemini 3 Pro, DeepSeek-V3.1, Doubao, Kimi K2); 30 standardized congenital cataract parent-facing questions developed by senior ophthalmologists across five domains; two researchers independently queried models; two blinded ophthalmologists rated responses",
+    "sample_size": "30 questions x 5 LLMs; 2 querying investigators; 2 rating ophthalmologists",
+    "sector": "healthcare",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Publicly accessible Chinese conversational LLMs evaluated via zero-shot parent counseling queries in pediatric ophthalmology (congenital cataract), without customized system prompts, using independent conversation sessions per question"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_conversational_system",
+      "regulated_healthcare_context",
+      "safety_evaluation",
+      "human_expert_oversight"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The study provides empirical comparative evidence on safety, readability, and counseling quality of conversational LLMs in a regulated healthcare setting, with blinded expert oversight and standardized querying. However, the provided text focuses on clinical content benchmarking rather than conversational governance mechanisms such as guardrails, auditability, compliance frameworks, accountability structures, or post-deployment operational governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial methods/findings excerpts are available; full limitations, ethics, and governance-related discussion sections were not supplied and should be verified before final coding."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Methods are clearly described for zero-shot benchmarking, independent sessions, dual investigators, blinded ratings, and statistical testing with inter-rater reliability. Ethics approval, limitations, and reflexivity are not evidenced in the supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 4,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The benchmarking design is coherent and adequately reported in the available text, with statistically supported between-model differences on safety and accessibility. Confidence is moderate rather than high because supplied evidence is incomplete, the study addresses clinical safety benchmarking rather than governance architecture, and transferability is limited to Chinese-language pediatric ophthalmology counseling."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM benchmarking",
+      "zero-shot querying",
+      "safety rating",
+      "readability assessment",
+      "expert blinded evaluation",
+      "independent conversation sessions",
+      "parent counseling",
+      "structured output"
+    ],
+    "axial_codes": [
+      "safety_assessment",
+      "human_expert_oversight",
+      "conversational_AI_evaluation",
+      "regulated_healthcare_application"
+    ],
+    "theme": "Safety and quality benchmarking of conversational LLMs for medical parent counseling",
+    "subtheme": "Pediatric ophthalmology congenital cataract counseling in Chinese",
+    "concepts": [
+      "safety",
+      "readability",
+      "content accessibility",
+      "inter-rater reliability",
+      "model-dependent performance",
+      "structured presentation"
+    ],
+    "model_layers": [
+      "application_layer",
+      "output_quality_layer"
+    ],
+    "rq_alignment": [
+      "safety_in_regulated_conversational_AI",
+      "human_oversight_of_LLM_outputs",
+      "deployment_readiness_in_healthcare"
+    ],
+    "coding_confidence": 0.76
+  },
+  "synthesis": {
+    "main_claim": "LLM performance in translating lens developmental pathology and genetics for congenital cataract parent counseling is model-dependent; longer outputs did not necessarily mean higher quality, and structured presentation was more closely associated with better safety and accessibility.",
+    "contribution": "Provides quantitative benchmarks intended to support safer, parent-centered deployment of LLMs in pediatric ophthalmology education and more reliable translation of complex disease-related knowledge into actionable parent guidance.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence on safety/readability benchmarking and expert-rated evaluation of conversational LLMs in a regulated healthcare counseling context; not primary evidence for conversational governance frameworks, auditability, compliance controls, or operational oversight mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed original research article in Frontiers in Cell and Developmental Biology, 2026.",
+      "excerpt": "REVIEWED BY Runhan Shi, Fudan University, China John Davis Akkara",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study evaluates five specific Chinese conversational LLMs using standardized parent-facing questions.",
+      "excerpt": "cross-sectional comparative evaluation of five publicly accessible Chinese conversational LLMs (ChatGPT-5.2, Gemini 3 Pro, DeepSeek- V3.1, Doubao, and Kimi K2)",
+      "page": "1",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample comprises 30 expert-developed congenital cataract counseling questions.",
+      "excerpt": "Thirty standardized parent-facing CC questions were developed by senior ophthalmologists and mapped to five domains",
+      "page": "1",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Responses were rated by blinded ophthalmologists on safety and related quality dimensions.",
+      "excerpt": "Two blinded ophthalmologists rated each response on a 5-point Likert scale across Accuracy, Logic, Coherence, Safety, and Content Accessibility",
+      "page": "1",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Conversational context was controlled via independent sessions per question.",
+      "excerpt": "Each question was entered in a new conversation window to prevent carryover effects from conversational memory and context.",
+      "page": "4",
+      "section": "background",
+      "supports": "coding"
+    },
+    {
+      "claim": "No customized governance prompts or role instructions were applied.",
+      "excerpt": "We did not add any customized system prompts or fixed role instructions; if a platform imposed a default system prompt, it was left unchanged.",
+      "page": "4",
+      "section": "background",
+      "supports": "coding"
+    },
+    {
+      "claim": "Significant between-model differences were found in safety-related content quality.",
+      "excerpt": "Content quality differed significantly across models (Accuracy H = 41.15, Logic H = 32.95, Content accessibility H =",
+      "page": "1",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Structured presentation was associated with better safety and accessibility.",
+      "excerpt": "structured presentation was more closely associated with better safety and accessibility",
+      "page": "2",
+      "section": "conclusion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Study aims to support safer deployment of LLMs in pediatric ophthalmology education.",
+      "excerpt": "quantitative benchmarks for safer, parent-centered deployment of LLMs in pediatric ophthalmology education",
+      "page": "2",
+      "section": "findings",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Inter-rater reliability of expert ratings was good.",
+      "excerpt": "Quadratic weighted Cohen's kappa indicated good inter-rater reliability (0.686–0.767)",
+      "page": "1",
+      "section": "results",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Ethics/reflexivity details are not evidenced in the supplied text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study limitations are not evidenced in the supplied text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "appraisal"
+    }
+  ]
+}

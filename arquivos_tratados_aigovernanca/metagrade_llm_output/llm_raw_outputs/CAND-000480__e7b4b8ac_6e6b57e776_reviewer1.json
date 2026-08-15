@@ -1,0 +1,190 @@
+{
+  "bibliographic": {
+    "title": "An Overview of the Risk-based Model of AI Governance",
+    "authors": "Veve Fry",
+    "year": "unclear",
+    "venue": "unclear",
+    "doi": "10.1093/oxfordhb/9780199560219.003.0014",
+    "publication_type": "thesis",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Fry, V. (unclear). An overview of the risk-based model of AI governance [Supervised work; supervisor: Kathryn Henne]. https://doi.org/10.1093/oxfordhb/9780199560219.003.0014"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "policy analysis and critical governance scholarship",
+    "study_design": "conceptual critique of risk-based AI regulation drawing on regulatory governance literature and cross-jurisdictional policy comparison",
+    "sample_description": "not applicable; no empirical sample; analyzes AI policy efforts in Europe, North America, and Australia and examples from food safety and financial regulation",
+    "sample_size": "not applicable",
+    "sector": "cross-sector AI governance policy; examples include food safety and financial regulation",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "general AI systems and governance; generative AI, frontier models, and GPT-4 cited as examples of uncertainty and systemic risk within broader risk-based regulatory debate"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "AI_governance",
+      "risk_based_regulation",
+      "regulated_contexts",
+      "generative_ai_mentioned",
+      "policy_analysis"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The text provides a structured conceptual critique of risk-based AI governance, with substantive coverage of the EU AI Act, jurisdictional policy efforts, harm-risk-uncertainty distinctions, and references to generative AI and GPT-4. It is relevant to governance and regulated AI contexts but does not center conversational systems, chatbots, agents, RAG, or operational conversational governance mechanisms.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Metadata conflicts with text: extracted year is 2010 while the document cites 2024 policy sources and GPT-4; publication type is ambiguous between supervised thesis and Oxford Handbook chapter; authors metadata marked unclear though front matter names Veve Fry."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Conceptual policy paper with clear argumentative structure; not empirical and does not report systematic document retrieval methods. Strengths include explicit objective, jurisdictional comparison, and engagement with governance scholarship. Limitations of the author's own study are not evident in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is internally coherent and well supported for a conceptual critique of risk-based AI governance, but the provided text offers limited direct evidence on conversational governance, deployment controls, observability, or sector-specific operational governance in regulated conversational systems."
+  },
+  "coding": {
+    "open_codes": [
+      "risk-based regulation",
+      "EU AI Act",
+      "harm versus risk",
+      "deep uncertainty",
+      "frontier models",
+      "generative AI systemic risk",
+      "policy comparison",
+      "marginalised groups",
+      "accountability mechanisms"
+    ],
+    "axial_codes": [
+      "regulatory governance",
+      "risk categorization critique",
+      "cross-jurisdictional AI policy",
+      "normativity of risk"
+    ],
+    "theme": "Critique of risk-based AI governance frameworks",
+    "subtheme": "Limits of risk classification for uncertain and generative AI harms",
+    "concepts": [
+      "risk-based approach",
+      "risk governance",
+      "harm",
+      "uncertainty",
+      "high-risk AI",
+      "frontier models",
+      "generative AI",
+      "accountability"
+    ],
+    "model_layers": [
+      "policy and regulatory layer",
+      "risk assessment layer"
+    ],
+    "rq_alignment": [
+      "AI governance in regulated environments",
+      "risk management and compliance framing",
+      "contestation and challenge of governance narratives",
+      "limited alignment with conversational system governance"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "The widely promoted risk-based model of AI governance, exemplified by the EU AI Act and followed in other jurisdictions, is flawed because risk construction and calculation can reproduce inequalities, conflate risk with harm, and fail to address deep uncertainty in technologies such as frontier models and generative AI.",
+    "contribution": "Offers a critical governance perspective distinguishing risk from harm and uncertainty, summarizes AI policy efforts in Europe, North America, and Australia, and argues that risk-based regulation may insufficiently protect marginalised groups and incalculable AI harms.",
+    "limitations": "Provided excerpts do not show author-stated study limitations; the work is conceptual rather than empirically validated and does not analyze conversational AI systems in operational regulated settings.",
+    "use_in_review": "Use as supporting evidence on risk-based AI governance, regulatory framing, and critiques relevant to compliance and high-risk classification; not suitable as central evidence for conversational governance mechanisms in LLM-based regulated deployments."
+  },
+  "evidence": [
+    {
+      "claim": "Paper title and supervised authorship context",
+      "excerpt": "An Overview of the Risk-based Model of AI Governance Veve Fry Supervisor Kathryn Henne",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Clear conceptual objective challenging risk-based AI governance",
+      "excerpt": "In this paper, I challenge this narrative, arguing that there are flaws with the proposed risk-based approach that require attention and further research.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Focus on AI governance and EU AI Act as leading risk-based framework",
+      "excerpt": "the topic of artificial intelligence governance has become an issue of increasing priority",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Cross-jurisdictional regulated policy landscape reviewed",
+      "excerpt": "in The AI policy landscape in Europe, North America and Australia section, I summarise the existing AI policy efforts across these three jurisdictions",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Distinction between risk and harm with normative implications",
+      "excerpt": "I distinguish the concept of ‘risk’ from ‘harm’ and argue that certain AI technologies do not pose ‘risks’ so much as they present deep uncertainties",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Governance critique links risk framing to inequality and exclusion",
+      "excerpt": "the construction and calculation of risks they propose reproduces existing inequalities",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Generative AI cited among systemic and unforeseen risks",
+      "excerpt": "‘systemic risks’ such as so-called ‘frontier models’ and the use of generative AI systems that produce unforeseen and unpredictable outcomes",
+      "page": "8",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "GPT-4/LLM used as example of frontier-model uncertainty",
+      "excerpt": "A prime example of a ‘frontier model’ is GPT-4, OpenAI’s well known LLM.",
+      "page": "13",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Accountability mechanisms mentioned within AI regulation efforts",
+      "excerpt": "to establish laws that regulate AI, ethics principles to govern it, and to a lesser extent, accountability mechanisms to hold AI actors responsible",
+      "page": "6",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Opacity and difficulty challenging AI outcomes referenced in risk discussion",
+      "excerpt": "bility and opacity’ of AI systems that make it difficult to identify harms and challenge outcomes",
+      "page": "8",
+      "section": "unclear",
+      "supports": "rq_alignment"
+    },
+    {
+      "claim": "No conversational-system focus in provided text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

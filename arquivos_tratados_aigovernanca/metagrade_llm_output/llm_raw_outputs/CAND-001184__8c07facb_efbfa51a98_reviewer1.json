@@ -1,0 +1,152 @@
+{
+  "bibliographic": {
+    "title": "Performance of the pre-trained large language model GPT-4 on automated short answer grading",
+    "authors": "Gerd Kortemeyer",
+    "year": "2024",
+    "venue": "Discover Artificial Intelligence",
+    "doi": "10.1007/s44163-024-00147-y",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Kortemeyer, G. (2024). Performance of the pre-trained large language model GPT-4 on automated short answer grading. Discover Artificial Intelligence, 4, 47. https://doi.org/10.1007/s44163-024-00147-y"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative benchmark evaluation",
+    "study_design": "comparison of GPT-4 against hand-engineered and specialized LLM models on standard ASAG benchmark datasets with and without reference answers",
+    "sample_description": "standard benchmark 2-way and 3-way datasets SciEntsBank and Beetle for automated short answer grading",
+    "sample_size": "unclear",
+    "sector": "higher education",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "out-of-the-box GPT-4 applied to automated short answer grading without task-specific training"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "no_conversational_ai",
+      "no_governance_focus"
+    ],
+    "exclusion_reason": "The article is an empirical performance study of GPT-4 on automated short answer grading benchmarks and does not address conversational AI systems or conversational governance mechanisms.",
+    "decision_rationale": "Provided text describes a brief communication comparing GPT-4 grading performance on SciEntsBank and Beetle against other models, with optional withholding of reference answers. The study concerns educational assessment automation, not chatbots, agents, guardrails, oversight, audit, compliance, accountability, or other governance dimensions central to the review scope.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Exclusion is clear from abstract and introduction: focus is ASAG benchmark performance, with no governance or conversational-system content in the supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Appraisal is based only on partial front matter (pages 1-2). Methods, full results, limitations, and ethics are not visible in the supplied excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The stated objective and main finding are coherent in the abstract, but the supplied text is incomplete and the study is not relevant to conversational governance in regulated LLM systems."
+  },
+  "coding": {
+    "open_codes": [
+      "automated short answer grading",
+      "GPT-4 benchmark comparison",
+      "SciEntsBank",
+      "Beetle",
+      "reference answer withholding",
+      "higher education assessment"
+    ],
+    "axial_codes": [
+      "LLM performance evaluation",
+      "educational AI application",
+      "benchmark-based empirical study"
+    ],
+    "theme": "LLM performance in educational assessment",
+    "subtheme": "automated short answer grading without task-specific training",
+    "concepts": [
+      "ASAG",
+      "GPT-4",
+      "pre-trained LLM",
+      "benchmark datasets",
+      "reference answer"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Pre-trained general-purpose GPT-4 performs comparably to hand-engineered ASAG models but worse than pre-trained LLMs with specialized training on standard SciEntsBank and Beetle benchmarks.",
+    "contribution": "Provides an out-of-the-box GPT-4 benchmark comparison for ASAG, including conditions with and without providing the reference answer.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance; at most marginal contextual background on LLM use in education assessment."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses GPT-4 on standard ASAG benchmark datasets.",
+      "excerpt": "We studied the performance of GPT-4 on the standard benchmark 2-way and 3-way datasets SciEntsBank and Beetle",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Main performance finding reported in abstract.",
+      "excerpt": "the performance of the pre-trained general-purpose GPT-4 LLM is comparable to hand-engineered models, but worse than pre-trained LLMs that had specialized training",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Study also tests grading without reference answer.",
+      "excerpt": "we also investigated with- holding the reference answer",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Application context is higher education assessment, not conversational systems.",
+      "excerpt": "when it comes to the use of AI in higher education, assessment and evaluation are the most prominent topics",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "GPT-4 is evaluated as a general-purpose out-of-the-box model.",
+      "excerpt": "compares the performance of an out-of-the-box Large Language Model in ASAG of standardized problem sets",
+      "page": "2",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational governance content appears in supplied text.",
+      "excerpt": "Automated Short Answer Grading (ASAG) has been an active area of machine-learning research for over a decade",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Peer-reviewed journal article in Discover Artificial Intelligence.",
+      "excerpt": "Discover Artificial Intelligence (2024) 4:47 | https://doi.org/10.1007/s44163-024-00147-y",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Author affiliation supports education sector context.",
+      "excerpt": "Gerd Kortemeyer, kgerd@ethz.ch | 1Rectorate and AI Center, ETH Zurich",
+      "page": "1",
+      "section": "front matter",
+      "supports": "methodology"
+    }
+  ]
+}

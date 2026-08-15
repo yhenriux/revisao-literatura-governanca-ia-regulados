@@ -1,0 +1,188 @@
+{
+  "bibliographic": {
+    "title": "Why LLM Safety Guardrails Collapse After Fine-tuning: A Similarity Analysis Between Alignment and Fine-tuning Datasets",
+    "authors": "Lei Hsiung; Tianyu Pang; Yung-Chen Tang; Linyue Song; Tsung-Yi Ho; Pin-Yu Chen; Yaoqing Yang",
+    "year": "2025",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Hsiung, L., Pang, T., Tang, Y.-C., Song, L., Ho, T.-Y., Chen, P.-Y., & Yang, Y. (2025). Why LLM safety guardrails collapse after fine-tuning: A similarity analysis between alignment and fine-tuning datasets. arXiv preprint arXiv:2506.05346."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "computational experiment; representation similarity analysis between alignment and fine-tuning datasets",
+    "study_design": "experimental study of LLM safety guardrail degradation under downstream fine-tuning",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM safety alignment, instruction fine-tuning, downstream fine-tuning, safety guardrails, jailbreaking"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text assessment",
+    "inclusion_codes": [
+      "guardrails",
+      "llm_safety",
+      "fine_tuning_risk",
+      "deployment_vulnerability"
+    ],
+    "exclusion_codes": [
+      "not_conversational_governance_focus",
+      "regulated_context_incidental_only"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O artigo trata empiricamente da degradação de guardrails de segurança em LLMs após fine-tuning downstream, com análise de similaridade entre datasets de alinhamento e de fine-tuning. Isso é relevante para governança técnica-operacional de LLMs, mas o foco não é governança conversacional, supervisão humana, accountability ou compliance em ambientes regulados; menções a healthcare e finance aparecem apenas como exemplos de adoção setorial.",
+    "decision_confidence": 0.74,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "A triagem automática pontuou alto em termos regulatórios e conversacionais com evidência fraca; é necessário confirmar se o escopo conversacional/regulado é substantivo ou apenas incidental no texto completo."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "O excerto fornecido descreve claramente objetivo, método experimental e achados principais, mas não expõe detalhes completos de amostragem, protocolo experimental, limitações ou ética além de menções gerais."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Há coerência entre a pergunta sobre colapso de guardrails após fine-tuning e a análise de similaridade de datasets, com resultados quantitativos reportados. A adequação e a relevância para governança conversacional em contextos regulados permanecem limitadas no material disponível."
+  },
+  "coding": {
+    "open_codes": [
+      "guardrail_durability",
+      "dataset_similarity",
+      "downstream_fine_tuning",
+      "jailbreak_vulnerability",
+      "upstream_alignment_data",
+      "harmfulness_reduction"
+    ],
+    "axial_codes": [
+      "operational_technical_governance",
+      "model_adaptation_risk",
+      "safety_alignment"
+    ],
+    "theme": "Degradação de guardrails de segurança em LLMs após fine-tuning",
+    "subtheme": "Papel da similaridade entre datasets de alinhamento e de fine-tuning",
+    "concepts": [
+      "safety guardrails",
+      "alignment datasets",
+      "fine-tuning datasets",
+      "jailbreaking",
+      "representation similarity",
+      "harmfulness score"
+    ],
+    "model_layers": [
+      "pre-training",
+      "instruction fine-tuning",
+      "downstream fine-tuning",
+      "safety alignment"
+    ],
+    "rq_alignment": [
+      "guardrails",
+      "risk control",
+      "deployment",
+      "operational technical governance"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Alta similaridade entre datasets de alinhamento de segurança e datasets de fine-tuning downstream enfraquece guardrails de segurança e aumenta suscetibilidade a jailbreaks; baixa similaridade produz modelos mais robustos e reduz harmfulness score em até 10,33%.",
+    "contribution": "Introduz o design upstream de datasets de alinhamento como fator crítico para durabilidade de guardrails, oferecendo insights acionáveis para provedores de serviços de fine-tuning além de estratégias reativas pós-comprometimento.",
+    "limitations": "unclear",
+    "use_in_review": "Evidência de apoio para a dimensão de governança técnica-operacional sobre durabilidade de guardrails em LLMs, útil para discutir riscos de adaptação downstream, mas não como evidência central sobre governança conversacional ou compliance em setores regulados."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo é preprint arXiv de 2025 sobre colapso de guardrails de segurança em LLMs após fine-tuning.",
+      "excerpt": "arXiv:2506.05346v1 [cs.CR] 5 Jun 2025 Why LLM Safety Guardrails Collapse After Fine-tuning",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Estudo investiga degradação de guardrails via similaridade entre datasets de alinhamento e fine-tuning.",
+      "excerpt": "This paper therefore investigates the degradation of safety guardrails through the lens of representation similarity between upstream alignment datasets and downstream fine-tuning tasks.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Experimentos mostram que alta similaridade enfraquece guardrails e baixa similaridade reduz harmfulness score em até 10,33%.",
+      "excerpt": "high similarity between these datasets significantly weakens safety guardrails",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Achado quantitativo sobre redução de harmfulness com baixa similaridade.",
+      "excerpt": "low similarity between these two types of datasets yields substantially more robust models and thus reduces harmfulness score by up to 10.33%",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Contribuição direcionada a provedores de fine-tuning sobre design upstream de datasets.",
+      "excerpt": "these findings offer actionable insights for fine-tuning service providers",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Fine-tuning downstream por terceiros pode comprometer guardrails embutidos.",
+      "excerpt": "once these safety-aligned models undergo further fine-tuning by third parties, their embedded safety guardrails can become compromised",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Preocupações éticas, sociais e operacionais ligadas à durabilidade do alinhamento em deployment real.",
+      "excerpt": "This raises serious ethical, societal, and operational concerns, calling into question the durability of current alignment approaches in real-world deployment settings",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Menção incidental a setores regulados/sensíveis como healthcare e finance, sem estudo nesses domínios.",
+      "excerpt": "Their rapid adoption across sectors from healthcare to finance underscores their transformative potential",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Pipeline técnico descreve formação e vulnerabilidade de guardrails em LLM.",
+      "excerpt": "Figure 1: Formation and vulnerability of safety guardrails in an LLM’s training pipeline.",
+      "page": "2",
+      "section": "figure 1",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Fine-tuning com datasets benignos comuns também pode enfraquecer guardrails de segurança.",
+      "excerpt": "fine-tuning LLMs with commonly used instruction-following datasets (e.g., Alpaca (Taori et al., 2023)) can also weaken models’ safety guardrails",
+      "page": "3",
+      "section": "introduction/related work",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Evidência conversacional é apenas referencial em citação bibliográfica, não foco do estudo.",
+      "excerpt": "Enhancing chat language models by scaling high-quality instructional conversations",
+      "page": "9",
+      "section": "references",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "bibliographic": {
+    "title": "Exploring the Vulnerability of the Content Moderation Guardrail in Large Language Models via Intent Manipulation",
+    "authors": "Jun Zhuang, Haibo Jin, Ye Zhang, Zhengjian Kang, Wenbin Zhang, Gaby G. Dagher, Haohan Wang",
+    "year": "2025",
+    "venue": "arXiv preprint",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Zhuang, J., Jin, H., Zhang, Y., Kang, Z., Zhang, W., Dagher, G. G., & Wang, H. (2025). Exploring the vulnerability of the content moderation guardrail in large language models via intent manipulation. arXiv preprint arXiv:2505.18556."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "adversarial red-teaming and experimental security evaluation",
+    "study_design": "proposed attack framework (Intent-Prompt) evaluated against intent-aware and CoT-based guardrails across multiple benchmarks and black-box victim LLMs",
+    "sample_description": "four public benchmarks and various black-box LLMs, including o1 and GPT-4o",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "intent detection, intent-aware content moderation guardrails, jailbreak attacks, Intent Analysis (IA), Chain-of-Thought (CoT) defenses, black-box LLMs"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "borderline",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_guardrails",
+      "technical_safety_evaluation",
+      "intent_detection"
+    ],
+    "exclusion_codes": [
+      "no_regulated_domain",
+      "limited_conversational_governance",
+      "adversarial_attack_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper provides empirical evidence on vulnerabilities of intent-aware content moderation guardrails in LLMs, which is peripherally relevant to operational technical governance and risk/safety. However, the provided text does not situate the study in regulated high-stakes domains nor address conversational governance mechanisms such as human oversight, accountability, audit, compliance workflows, or post-deployment operational governance. The primary contribution is a red-teaming jailbreak framework rather than governance of conversational systems in regulated environments.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Automated triage scored borderline_manual (70.67/100, grade B) with weak matches on conversational AI, governance/accountability, and regulated contexts; adjudication needed on whether guardrail vulnerability studies count as in-scope supporting evidence."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Within the excerpt, the research objective and experimental claims are clearly stated, with quantitative attack success rates reported. Detailed sampling, full protocol transparency, ethics discussion, and limitations are not sufficiently evidenced in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The study appears internally coherent and reports strong empirical attack outcomes against guardrail defenses, but its direct relevance to regulated conversational governance is limited in the provided text. Confidence for use as central review evidence is low; it may serve as peripheral supporting evidence on guardrail robustness."
+  },
+  "coding": {
+    "open_codes": [
+      "intent_manipulation",
+      "guardrail_vulnerability",
+      "jailbreak_attacks",
+      "red_teaming",
+      "intent_detection",
+      "content_moderation",
+      "imperative_sensitivity_bias"
+    ],
+    "axial_codes": [
+      "technical_safety",
+      "adversarial_evaluation",
+      "guardrail_defenses"
+    ],
+    "theme": "Vulnerability of LLM content moderation guardrails",
+    "subtheme": "Intent-aware guardrail bypass via prompt refinement",
+    "concepts": [
+      "Intent-Prompt",
+      "FSTR+SPIN",
+      "intent detection",
+      "intent-aware guardrails",
+      "Intent Analysis",
+      "Chain-of-Thought defenses",
+      "declarative vs imperative sensitivity"
+    ],
+    "model_layers": [
+      "guardrails",
+      "intent_analysis",
+      "content_moderation"
+    ],
+    "rq_alignment": [
+      "operational_technical_governance",
+      "risk_audit_compliance"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "Intent-aware content moderation guardrails in LLMs are vulnerable to intent manipulation, and the proposed Intent-Prompt framework can evade advanced IA-based and CoT-based defenses with high attack success rates.",
+    "contribution": "Introduces a two-stage intent-based prompt-refinement framework (Intent-Prompt) for red-teaming and provides extensive benchmark experiments showing superior jailbreak performance against intent-aware guardrails on models such as o1 and GPT-4o.",
+    "limitations": "unclear",
+    "use_in_review": "Peripheral/borderline supporting evidence on technical limitations of intent-aware guardrails and safety monitoring defenses; not suitable as central evidence for regulated conversational governance without additional domain-specific operational governance content."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on LLMs and content moderation guardrails.",
+      "excerpt": "safeguarding large language models (LLMs)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study investigates vulnerability of intent-aware guardrails via intent manipulation.",
+      "excerpt": "we investigate the vulnerability of intent-aware guardrails",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Proposes Intent-Prompt, a two-stage intent-based prompt-refinement framework for red-teaming.",
+      "excerpt": "We propose a two-stage intent-based prompt-refinement framework, Intent-Prompt",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Experiments span four public benchmarks and various black-box LLMs.",
+      "excerpt": "Extensive experiments across four public benchmarks and various black-box LLMs",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Attack framework evades advanced IA and CoT-based defenses with high success rates.",
+      "excerpt": "evades even advanced Intent Analysis (IA) and Chain-of-Thought (CoT)-based defenses",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Reports quantitative attack success rates on o1 and GPT-4o.",
+      "excerpt": "attack success rates ranging from 88.25% to 96.54% against CoT-based defenses on the o1 model",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Findings indicate a critical weakness in LLM safety mechanisms.",
+      "excerpt": "These findings highlight a critical weakness in LLMs’ safety mechanisms",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Minimal conversational interaction is illustrated only as an attack example.",
+      "excerpt": "The above dialogue shows the LLM correctly refusing a harmful inquiry",
+      "page": "1",
+      "section": "findings",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Prior work applied intent detection to strengthen LLM moderation guardrails.",
+      "excerpt": "applying intent detection techniques to enhance the robustness of LLM content moderation guardrails",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors formalize a structural bias in moderation guardrails toward imperative prompts.",
+      "excerpt": "Conjecture 2 (Imperative Sensitivity Bias)",
+      "page": "4",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Guardrails may block imperative harmful prompts more than declarative equivalents.",
+      "excerpt": "harmful inquiries paraphrased as commands are more likely to be blocked than those paraphrased as descriptive statements",
+      "page": "4",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Publication is an arXiv preprint.",
+      "excerpt": "arXiv:2505.18556v2 [cs.CL] 25 Aug",
+      "page": "1",
+      "section": "findings",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "No regulated-domain application is evidenced in the provided text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

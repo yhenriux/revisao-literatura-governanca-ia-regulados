@@ -1,0 +1,173 @@
+{
+  "bibliographic": {
+    "title": "多模态医养大数据动态聚合与智慧服务模式",
+    "authors": "杨雪洁; 刘佳; 吴青筱; 王雨菲; 顾东晓",
+    "year": "2025",
+    "venue": "农业图书情报学报",
+    "doi": "10.13998/j.cnki.issn1002-1248.25-0079",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Yang, X., Liu, J., Wu, Q., Wang, Y., & Gu, D. (2025). Dynamic aggregation of multimodal healthcare and eldercare big data and intelligent service model. Journal of Agricultural Library and Information Science, 37(4), 24-38. https://doi.org/10.13998/j.cnki.issn1002-1248.25-0079"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "literature review and conceptual framework development",
+    "study_design": "framework proposal with literature synthesis and methodological component design",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare and eldercare",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "multimodal healthcare and eldercare big data integration, knowledge graphs, NLP, machine learning, deep learning, explainable machine learning, human-machine collaboration"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_TOPIC_MISMATCH",
+      "E_NO_CONVERSATIONAL_AI",
+      "E_NO_LLM_GOVERNANCE"
+    ],
+    "exclusion_reason": "The article addresses multimodal healthcare/eldercare big data aggregation, knowledge discovery, and intelligent service frameworks, not conversational AI, LLM-based systems, or conversational governance.",
+    "decision_rationale": "Although the paper operates in regulated healthcare, mentions NLP/machine learning, human-machine collaboration, privacy, compliance, and risk-related governance in references, its central object is cross-organizational multimodal health data fusion and proactive knowledge services. The provided text contains no primary treatment of conversational systems, chatbots, agents, RAG, guardrails, observability, human oversight in dialogue, or governance of generative LLM interactions.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Full text clearly centers on healthcare big data aggregation and knowledge service architecture rather than conversational LLM governance."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Conceptual/methodological framework paper with literature synthesis; no empirical participant sample or conversational-system evaluation is described in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internal coherence is moderate for a healthcare big-data framework, but relevance to conversational governance in LLM systems is very low because the article does not study conversational interfaces, LLM deployment, or governance mechanisms for generative dialogue."
+  },
+  "coding": {
+    "open_codes": [
+      "multimodal healthcare big data",
+      "cross-organizational data sharing",
+      "knowledge discovery",
+      "human-machine collaboration",
+      "NLP in medical records",
+      "explainable machine learning",
+      "health knowledge graph",
+      "privacy and security",
+      "proactive health service"
+    ],
+    "axial_codes": [
+      "health data integration",
+      "knowledge service architecture",
+      "regulated healthcare informatics"
+    ],
+    "theme": "Multimodal healthcare and eldercare big data aggregation with intelligent knowledge services",
+    "subtheme": "Cross-domain health data fusion and proactive service modeling",
+    "concepts": [
+      "multimodal semantic fusion",
+      "human-machine collaborative knowledge acquisition",
+      "explainable medical decision support",
+      "full-cycle health service model",
+      "risk and privacy in health data sharing"
+    ],
+    "model_layers": [
+      "data aggregation and sharing layer",
+      "knowledge discovery and reasoning layer",
+      "intelligent service delivery layer"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The authors propose a multimodal healthcare and eldercare big data dynamic aggregation framework and an intelligent, demand-driven full-cycle service model to overcome data silos and passive service modes in regulated health environments.",
+    "contribution": "Integrates cross-organizational heterogeneous health data, proposes NLP/ML-based knowledge discovery methods, and outlines a proactive smart health service architecture for healthcare and eldercare.",
+    "limitations": "Provided text emphasizes framework and method design without reporting empirical validation of conversational systems; governance discussion is peripheral and not focused on LLM conversational accountability.",
+    "use_in_review": "Exclude from central evidence on conversational governance in LLM systems; at most a distant contextual citation for regulated healthcare knowledge services, NLP, privacy, and broad risk-governance themes."
+  },
+  "evidence": [
+    {
+      "claim": "Article focus is multimodal healthcare/eldercare big data aggregation and intelligent services, not conversational AI governance.",
+      "excerpt": "构建了多模态医养大数据动态聚合与智慧服务模式",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Keywords confirm big data, intelligent service, human-machine collaboration, and knowledge graphs rather than conversational LLMs.",
+      "excerpt": "关键词：多模态医养大数据；深度聚合；智慧服务；人机协同；健康知识图谱",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated healthcare context is explicit through national health policy framing.",
+      "excerpt": "中共中央、国务院等先后制定了《“健康中国2030”规划纲要》",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Study is a conceptual framework addressing data fusion, dynamic modeling, and human-machine collaborative knowledge discovery.",
+      "excerpt": "研究医疗与健康养老信息处理中大规模异构数据的深度聚合、数据动态演化建模、人机协同知识发现等信息管理的理论方法",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Human-machine collaboration appears as knowledge acquisition support, not conversational oversight or contestation.",
+      "excerpt": "在基于多模态实时信息感知、医养知识语义融合、人机协同知识获取、群体智能协同预警和主动动态智能服务模式等方面的研究尚未形成系统化的解决方法",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "NLP is used for medical text processing and risk-factor mining, not for governing conversational LLM interactions.",
+      "excerpt": "A natural language processing-based cross-domain disease risk factor mining framework",
+      "page": "15",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance appears only in cited related work on medical large language models and risk management, not as the article's primary studied object.",
+      "excerpt": "synergetic governance of risk management",
+      "page": "14",
+      "section": "references",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Privacy, security, and access control are discussed in the literature review on data sharing mechanisms.",
+      "excerpt": "云存储架构具备一定灵活性和成本优势，但在隐私保护与访问控制方面仍存不足",
+      "page": "2",
+      "section": "literature review",
+      "supports": "coding"
+    },
+    {
+      "claim": "Explainable machine learning is proposed for medical decision support, supporting interpretability but not dialogue governance.",
+      "excerpt": "A medical decision support approach integrating case-based reasoning (CBR) and explainable machine learning",
+      "page": "15",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No conversational system, chatbot, agent, or LLM interaction governance is described in the provided full text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

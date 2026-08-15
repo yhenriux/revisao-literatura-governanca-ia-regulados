@@ -1,0 +1,170 @@
+{
+  "bibliographic": {
+    "title": "Empowering Working Memory for Large Language Model Agents",
+    "authors": "Jing Guo, Nan Li, Jianchuan Qi, Hang Yang, Ruiqiao Li, Yuzhen Feng, Si Zhang, Ming Xu",
+    "year": "unclear",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "unknown",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Guo, J., Li, N., Qi, J., Yang, H., Li, R., Feng, Y., Zhang, S., & Xu, M. (unclear). Empowering Working Memory for Large Language Model Agents. unclear."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "cognitive psychology framework application; architectural blueprint",
+    "study_design": "conceptual framework proposing Working Memory Hub and Episodic Buffer for LLM agents",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "no",
+    "llm_specificity": "generic_genai",
+    "technology_context": "large language models, LLM agents, multi-agent systems, ChatGPT as exemplar"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "no_governance_focus",
+      "no_regulated_context"
+    ],
+    "exclusion_reason": "The paper proposes a working-memory architecture for LLM agents and does not address conversational governance, accountability, compliance, audit, human oversight, or regulated high-stakes deployment contexts.",
+    "decision_rationale": "Although the text discusses LLMs, sequential interactions, dialog episodes, and multi-agent systems, its central focus is cognitive memory architecture (Working Memory Hub, Episodic Buffer) rather than governance of conversational AI. Security is mentioned only as a future research need, with no treatment of risk control, compliance, observability, supervision, or regulated domains. Therefore it falls outside the review scope on conversational governance in regulated LLM systems.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Exclusion is supported by consistent abstract and introduction content with no governance or regulated-domain signals."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 3,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Conceptual/architectural proposal without empirical sample, data collection, or evaluated outcomes in the provided text. Appropriate as a design blueprint, but not as empirical evidence for governance practices."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "The argument is internally coherent as a memory-architecture proposal, but the provided text offers no empirical validation and little direct relevance to conversational governance or regulated deployment."
+  },
+  "coding": {
+    "open_codes": [
+      "working memory",
+      "episodic memory",
+      "dialog episode isolation",
+      "multi-agent systems",
+      "context retention",
+      "memory security"
+    ],
+    "axial_codes": [
+      "LLM agent architecture",
+      "memory continuity across interactions"
+    ],
+    "theme": "LLM agent memory architecture",
+    "subtheme": "working memory hub and episodic buffer for cross-episode retention",
+    "concepts": [
+      "Working Memory Hub",
+      "Episodic Buffer",
+      "Baddeley's working memory model",
+      "episodic memory",
+      "multi-agent cooperation"
+    ],
+    "model_layers": [
+      "memory encoding",
+      "memory storage",
+      "memory retrieval",
+      "agent interaction continuity"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "LLM agents lack human-like working memory and episodic continuity across dialog episodes; a centralized Working Memory Hub with Episodic Buffer access can improve contextual reasoning in complex and collaborative tasks.",
+    "contribution": "Provides a strategic blueprint for enhancing LLM agent memory by adapting cognitive psychology working-memory frameworks to artificial architectures.",
+    "limitations": "Further research is needed on episodic memory encoding, storage, prioritization, retrieval, and security; human-centric memory concepts may not translate straightforwardly to AI systems.",
+    "use_in_review": "Exclude from central and supporting evidence on conversational governance in regulated LLM systems; at most peripheral background on agent memory limitations if needed elsewhere."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on LLM memory architecture rather than governance.",
+      "excerpt": "an innovative model is proposed incorporating a centralized Working Memory Hub and Episodic Buffer access to retain memories across episodes",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study addresses generic LLM agents and interactions, not regulated domains.",
+      "excerpt": "Standard LLM agent designs lack robust episodic memory and continuity across distinct interactions.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Conversational context appears as memory continuity problem, not governance topic.",
+      "excerpt": "each interaction is treated as an isolated episode, with no linkage between sequential dialogues",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Multi-agent interaction is framed as cooperation/memory sharing, not oversight or accountability.",
+      "excerpt": "the lack of cooperative communication among agents can lead to suboptimal outcomes",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Security is noted only as future research, not as operational governance.",
+      "excerpt": "further research is required into optimizing episodic memory encoding, storage, prioritization, retrieval, and security",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research type is conceptual blueprint without empirical evaluation in provided text.",
+      "excerpt": "Overall, this paper provides a strategic blueprint for developing LLM agents with more sophisticated, human- like memory capabilities",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "LLM specificity is generic with ChatGPT cited as exemplar.",
+      "excerpt": "These models, exemplified by OpenAI's ChatGPT, are characterized by their extensive architectures and massive parameter sets",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Proposed design targets contextual retention and collaborative performance.",
+      "excerpt": "This design aims to endow agents with enhanced contextual retention and improved performance in intricat",
+      "page": "2",
+      "section": "limitations",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors and affiliation are identifiable from front matter.",
+      "excerpt": "Jing Guo, Nan Li*, Jianchuan Qi, Hang Yang, Ruiqiao Li, Yuzhen Feng, Si Zhang, Ming Xu Tsinghua University",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Human memory frameworks may not translate directly to AI systems.",
+      "excerpt": "there are inherent limitations to how these human-centric concepts can be translated into artificial systems",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    }
+  ]
+}

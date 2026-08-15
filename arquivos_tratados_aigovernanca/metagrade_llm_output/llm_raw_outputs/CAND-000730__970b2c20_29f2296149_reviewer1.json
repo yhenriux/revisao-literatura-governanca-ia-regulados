@@ -1,0 +1,202 @@
+{
+  "bibliographic": {
+    "title": "Computable Gap Assessment of Artificial Intelligence Governance in Children's Centres: Evidence-Mechanism-Governance-Indicator Modelling of UNICEF's Guidance on AI and Children 3.0 Based on the Graph-GAP Framework",
+    "authors": "Wei Meng",
+    "year": "2025",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Meng, W. (2025). Computable gap assessment of artificial intelligence governance in children's centres: Evidence-mechanism-governance-indicator modelling of UNICEF's Guidance on AI and Children 3.0 based on the Graph-GAP framework."
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "Graph-GAP framework; policy-text decomposition into evidence-mechanism-governance-indicator graph; dual quantifiable metrics (GAP scoring and mitigation readiness); multi-algorithm review-aggregation-revision coding with inter-rater reliability validation",
+    "study_design": "Conceptual-methodological framework development with exemplar application to UNICEF Guidance on AI and Children 3.0 and ten requirements",
+    "sample_description": "Primary material: UNICEF Innocenti's Guidance on AI and Children 3.0; external triangulation sources including EU AI Act, NIST AI RMF, Europol reports; exemplar gap profiles for ten requirements",
+    "sample_size": "ten requirements",
+    "sector": "child-centred artificial intelligence; children's rights; education and child-related AI scenarios",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Generative AI applications used by children (educational support, content recommendation, social interaction, psychological support, identity verification, safety monitoring); LLMs deployed as heterogeneous evaluators (LLM-A, LLM-B) within the coding methodology; companion chatbots referenced in external evidence units"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "AI_GOVERNANCE",
+      "REGULATED_CONTEXT",
+      "RISK_AUDIT_COMPLIANCE",
+      "GENAI_CONTEXT",
+      "GOVERNANCE_FRAMEWORK",
+      "HUMAN_OVERSIGHT_REVIEW"
+    ],
+    "exclusion_codes": [
+      "CONVERSATIONAL_AI_NOT_CENTRAL",
+      "LLM_AS_SUBJECT_NOT_PRIMARY"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper strongly addresses AI governance, auditability, risk, compliance, accountability, and grievance redress in a regulated child-centred context, but its primary focus is a computable gap-assessment methodology applied to policy text rather than governance of conversational LLM systems in operation. Generative AI and chatbots appear as contextual or corpus evidence; LLMs are used as parallel coders in the proposed evaluation pipeline, not as the governed conversational technology under study.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Venue and peer-review status are unclear from the provided text; conversational/chatbot relevance is indirect and may require adjudication against the review's central conversational-governance criterion."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Objectives and RQs are explicit and aligned with the proposed Graph-GAP method. The study offers reproducible extraction units, coding manuals, scoring scales, and consistency protocols, with formal reliability measures (Krippendorff's α, weighted κ, ICC, bootstrap CIs). Ethics/reflexivity and study limitations are not clearly reported in the provided excerpts. Transferability to conversational LLM governance in other regulated sectors is partial because the empirical anchor is child-centred policy formalization."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and operationally detailed for translating policy requirements into auditable indicators, but the provided text does not establish empirical validation beyond exemplar profiles on ten requirements. Relevance to conversational LLM governance is moderate because chatbots and LLMs are secondary to the core policy-gap modelling contribution."
+  },
+  "coding": {
+    "open_codes": [
+      "computable audit metrics",
+      "evidence-mechanism-governance-indicator graph",
+      "governance gap scoring",
+      "mitigation readiness",
+      "policy formalization",
+      "child rights impact assessment",
+      "continuous monitoring metrics",
+      "grievance redress procedures",
+      "multi-algorithm review-aggregation-revision",
+      "heterogeneous evaluators",
+      "inter-rater reliability validation"
+    ],
+    "axial_codes": [
+      "computable AI governance",
+      "policy-to-indicator translation",
+      "risk and harm mitigation",
+      "accountability and explainability gaps",
+      "regulated child-centred AI"
+    ],
+    "theme": "Computable governance gap assessment for child-centred AI",
+    "subtheme": "Formalizing policy requirements into auditable evidence-mechanism-governance-indicator structures",
+    "concepts": [
+      "Graph-GAP",
+      "GAP scoring",
+      "mitigation readiness",
+      "evidence anchors",
+      "governance priority matrices",
+      "closed-loop audit systems"
+    ],
+    "model_layers": [
+      "evidence",
+      "mechanism",
+      "governance",
+      "indicator"
+    ],
+    "rq_alignment": [
+      "RQ on formalising policy requirements into reproducible traceable auditable governance indicator systems",
+      "RQ on defining and quantifying evidence mechanism governance and metrics gaps"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Regulatory texts for child-centred AI often lack reproducible evidence anchors, causal pathways, executable governance toolchains, and computable audit metrics; the Graph-GAP methodology can decompose policy requirements into an evidence-mechanism-governance-indicator graph and quantify gaps and mitigation readiness.",
+    "contribution": "Provides a reproducible methodological framework with coding manuals, graph patterns, scoring scales, consistency verification protocols, exemplar gap profiles, and a multi-algorithm review mechanism using rule engines, statistical or machine learning evaluators, and large-model evaluators as parallel coders.",
+    "limitations": "Based on the provided text, explicit discussion of study limitations, ethics, and external empirical validation beyond exemplar application is unclear; conversational-system governance is not the primary object of analysis.",
+    "use_in_review": "Use as supporting evidence for computable governance metrics, auditability, gap assessment, monitoring, grievance redress, and policy-to-indicator translation in regulated high-stakes contexts; cite cautiously for conversational LLM governance because chatbots and LLMs are peripheral rather than central."
+  },
+  "evidence": [
+    {
+      "claim": "The study targets computable, auditable AI governance for children and identifies governance gaps in policy translation.",
+      "excerpt": "regulatory texts often outline principles and requirements yet lack reproducible evidence anchors, clear causal pathways, executable governance toolchains, and computable audit metrics",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "The paper proposes the Graph-GAP methodology with dual quantifiable metrics.",
+      "excerpt": "this paper proposes the Graph-GAP methodology: decomposing requirements from authoritative policy texts into a four-layer graph structure of ‘evidence-mechanism-governance-indicator’",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Primary empirical material is UNICEF Guidance on AI and Children 3.0 with exemplars for ten requirements.",
+      "excerpt": "Using UNICEF Innocenti's Guidance on AI and Children 3.0 as primary material",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "The regulated domain is child-centred generative AI in high-stakes child scenarios.",
+      "excerpt": "Generative artificial intelligence is rapidly integrating into applications and platforms used daily by children",
+      "page": "3",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research questions focus on auditable governance indicator systems rather than conversational system design.",
+      "excerpt": "how to translate high-level policy requirements into a reproducible, traceable, and auditable governance indicator system",
+      "page": "3",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Findings prioritize explainability, accountability, monitoring, and grievance redress over privacy-only coverage.",
+      "excerpt": "themes such as ‘child well-being/development,’ ‘explainability and accountability,’ and ‘cross-agency implementation and resource allocation’ are more prone to indicator gaps and mechanism gaps",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "The method includes governance mechanisms for monitoring and redress.",
+      "excerpt": "closed-loop systems incorporating child rights impact assessments, continuous monitoring metrics, and grievance redress procedures",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs are used as heterogeneous evaluators in the coding pipeline, not as the governed conversational system.",
+      "excerpt": "deploying rule encoders, statistical/ machine learning evaluators and large-model evaluators with diverse prompt configurations as parallel coders",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Reliability and auditability of scoring are explicitly validated.",
+      "excerpt": "Consistency, stability, and uncertainty are validated using Krippendorff’s α, weighted κ, ICC, and bootstrap confidence intervals",
+      "page": "2",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Chatbot harm appears only as external corpus evidence, not as the study's central technology focus.",
+      "excerpt": "Given the harm that companion chatbot interactions can pose to children there have been",
+      "page": "36",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM evaluators are operational components of the proposed review mechanism.",
+      "excerpt": "Introduce at least three distinct external evaluators: rule engines, LLM-A (prompt paradigm 1), and LLM-B (prompt paradigm 2 or different model families)",
+      "page": "38",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "The study situates itself within regulated AI governance references including EU AI Act and NIST AI RMF.",
+      "excerpt": "EU Artificial Intelligence Act (Regulation (EU) 2024/1689, CELEX:32024R1689)",
+      "page": "41",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

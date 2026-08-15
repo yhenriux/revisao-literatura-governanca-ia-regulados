@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Responsible Artificial Intelligence governance in oncology",
+    "authors": "Peter D. Stetson, January Choy, Natalia Summerville, Abigail Baldwin-Medsker, Janet Mak, Avijit Chatterjee, Kristen Kim, Chhavi Kumar, Patrick Samedy, Joanna Halperin, Louis Voigt, Justin Jee, Jill Fraser, MaryAnn Connor, Richard Harper, Rémy Evard, Anaeze C. Offodile 2nd",
+    "year": "2025",
+    "venue": "npj Digital Medicine",
+    "doi": "10.1038/s41746-025-01794-w",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Stetson, P. D., Choy, J., Summerville, N., Baldwin-Medsker, A., Mak, J., Chatterjee, A., Kim, K., Kumar, C., Samedy, P., Halperin, J., Voigt, L., Jee, J., Fraser, J., Connor, M., Harper, R., Evard, R., & Offodile, A. C., 2nd. (2025). Responsible Artificial Intelligence governance in oncology. npj Digital Medicine. https://doi.org/10.1038/s41746-025-01794-w"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "institutional implementation report and organizational case study",
+    "study_design": "single-center prospective governance implementation with retrospective review of existing models",
+    "sample_description": "Memorial Sloan Kettering Comprehensive Cancer Center AI Governance Committee one-year program covering clinical, operations, and research AI",
+    "sample_size": "26 AI models (including large language models), 2 ambient AI pilots, retrospective review of 33 nomograms",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Responsible AI governance across generative AI, ambient AI, intelligent automation, traditional AI/ML/NLP in oncology clinical, operations, and research programs"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "regulated_healthcare",
+      "ai_governance_framework",
+      "llm_in_scope",
+      "risk_assessment_monitoring",
+      "institutional_implementation"
+    ],
+    "exclusion_codes": [
+      "conversational_governance_not_primary"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article reports a concrete Responsible AI governance model in a regulated oncology setting and explicitly registers and monitors AI models including LLMs, ambient AI pilots, risk assessment, and lifecycle tools. It strongly supports governance, risk, and compliance themes in healthcare but the provided text does not center conversational systems, chatbots, agents, or dialogue-specific guardrails; ambient AI is mentioned without conversational governance detail.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Confirm whether ambient AI pilots and LLM use cases involve conversational interfaces and whether later sections add dialogue-specific governance, observability, or human oversight mechanisms not present in the supplied excerpts."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Descriptive single-institution implementation report with useful governance artifacts and counts, but limited generalizability beyond oncology and no rigorous comparative or experimental design evident in the supplied text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are internally coherent and grounded in a one-year institutional program with named tools and inventories, but evidence is from one cancer center, largely descriptive, and weakly aligned to conversational LLM governance specifically."
+  },
+  "coding": {
+    "open_codes": [
+      "responsible AI governance",
+      "AI Governance Committee",
+      "model registration",
+      "model monitoring",
+      "risk assessment tool",
+      "lifecycle management tool",
+      "Express Pass methodology",
+      "ambient AI pilots",
+      "nomogram review",
+      "oncology AI"
+    ],
+    "axial_codes": [
+      "institutional governance structures",
+      "risk-based model oversight",
+      "regulated healthcare deployment",
+      "LLM portfolio management"
+    ],
+    "theme": "Institutional Responsible AI governance in oncology",
+    "subtheme": "Governance tools and lifecycle management for diverse AI including LLMs",
+    "concepts": [
+      "program model",
+      "model information sheet",
+      "risk assessment tool",
+      "lifecycle management tool",
+      "Express Pass",
+      "ambient AI",
+      "enterprise AI program structure"
+    ],
+    "model_layers": [
+      "governance",
+      "risk management",
+      "lifecycle management",
+      "ethics",
+      "monitoring",
+      "organizational structure"
+    ],
+    "rq_alignment": [
+      "governance and accountability in regulated domains",
+      "risk assessment and monitoring",
+      "LLM deployment oversight",
+      "human-in-the-loop and review processes"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "A Comprehensive Cancer Center implemented and reported a Responsible AI governance model that registered, evaluated, and monitored 26 AI models including LLMs, 2 ambient AI pilots, and 33 nomograms, and shared reusable governance tools and case studies.",
+    "contribution": "Provides one of the first published oncology-specific RAI governance reports at scale, including program structure, risk assessment, lifecycle management, and operational inventories for LLM and non-LLM models in clinical, operations, and research domains.",
+    "limitations": "Single-institution descriptive report; oncology-specific context may limit transferability; few rigorous LLM studies in cancer care noted; open research questions remain; conversational or dialogue-system governance not substantively addressed in supplied text.",
+    "use_in_review": "Use as supporting evidence for institutional AI governance, registration, monitoring, and risk tooling in regulated healthcare where LLMs are part of a broader AI portfolio; not as central evidence for conversational governance unless full text confirms ambient/conversational use-case governance."
+  },
+  "evidence": [
+    {
+      "claim": "Article focuses on Responsible AI governance in oncology at a Comprehensive Cancer Center",
+      "excerpt": "Our study reports on a Comprehensive Cancer Center’s Responsible AI governance model for clinical, operations, and research programs.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs are explicitly within the governed model inventory",
+      "excerpt": "We report our one-year AI Governance Committee results with respect to the registration and monitoring of 26 AI models (including large language models)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance tools include risk assessment and lifecycle management",
+      "excerpt": "Novel management tools for AI governance are shared, including an overall program model, model information sheet, risk assessment tool, and lifecycle management tool.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Ambient AI pilots are part of the governed portfolio",
+      "excerpt": "registration and monitoring of 26 AI models (including large language models), 2 ambient AI pilots, and a review of 33 nomograms",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Few rigorous LLM studies exist in cancer care, signaling implementation risk",
+      "excerpt": "Few rigorous studies of large language models (LLMs) have been done in cancer care",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Institution deploys generative, ambient, and NLP-based AI forms",
+      "excerpt": "Our institution is deliberately testing and deploying numerous forms of AI, such as Generative, Ambient, Intelligent Automation, and traditional AI, Machine Learning (ML), and natural language processing (NLP)",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Results section reports registration, evaluation, and monitoring using shared tools",
+      "excerpt": "Using these tools in the implementation phase of the study, we registered, evaluated, and monitored 26 AI models (including large language models), and 2 ambient AI pilots.",
+      "page": "2",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Enterprise program structure includes governance with ethics",
+      "excerpt": "Governance (Including Ethics) Research AI Programs Clinical AI Programs Operations AI Programs",
+      "page": "2",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs appear across research, clinical, and operations domains",
+      "excerpt": "Clinical Model development 6 8 (5 LLM) 4 Pilots of 3rd party vendor models 2 Support of 16 EHR models Operations Model development 4 5 (2 LLM)",
+      "page": "7",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Article claims novelty as an oncology RAI governance report at scale",
+      "excerpt": "To the best of our knowledge, this is one of the first published reports on Responsible AI governance at scale in oncology.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    }
+  ]
+}

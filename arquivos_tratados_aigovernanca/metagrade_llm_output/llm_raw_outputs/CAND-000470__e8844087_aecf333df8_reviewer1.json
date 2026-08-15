@@ -1,0 +1,175 @@
+{
+  "bibliographic": {
+    "title": "Artificial Intelligence in Governance, Risk and Compliance: Results of a study on potentials for the application of artificial intelligence (AI) in governance, risk and compliance (GRC)",
+    "authors": "Eva Ponick; Gabriele Wieczorek",
+    "year": "2021",
+    "venue": "Hochschule Hamm-Lippstadt (University of Applied Sciences)",
+    "doi": "unclear",
+    "publication_type": "report",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Ponick, E., & Wieczorek, G. (2021). Artificial intelligence in governance, risk and compliance: Results of a study on potentials for the application of artificial intelligence (AI) in governance, risk and compliance (GRC). Hochschule Hamm-Lippstadt."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "survey",
+    "study_design": "cross-sectional survey",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "enterprise GRC (governance, risk and compliance) across business areas",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "generic artificial intelligence methods (machine learning, neural networks, natural language processing, deep learning) for GRC applications such as processing and analysis of unstructured data"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "GRC_GOVERNANCE",
+      "REGULATED_COMPLIANCE",
+      "GENERIC_AI"
+    ],
+    "exclusion_codes": [
+      "NO_LLM_FOCUS",
+      "NO_CONVERSATIONAL_GOVERNANCE",
+      "NO_OPERATIONAL_GUARDRAILS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The document is an empirical 2021 survey on AI application potentials in GRC and provides regulated-context governance evidence, but the supplied text does not address large language models, conversational systems, chatbots, agents, RAG, guardrails, observability, audit logs, human oversight of generative dialogue, or post-deployment conversational governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter, abstract, and scattered survey-item excerpts were provided; sample size, full methods, results, and limitations require manual verification from the complete report."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Appraisal is constrained by incomplete text. Objective and survey intent are clear, but sampling, analysis procedures, ethics, results detail, and limitations are not evidenced in the supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "The study appears coherent for mapping generic AI potentials in GRC, but provided evidence is insufficient to judge sampling adequacy, analytic rigor, and result detail; relevance to conversational LLM governance in regulated systems is indirect and weak."
+  },
+  "coding": {
+    "open_codes": [
+      "GRC_integrated_governance",
+      "AI_application_potentials",
+      "unstructured_data_analysis",
+      "enterprise_survey_2021",
+      "regulatory_compliance_context",
+      "generic_NLP_ML_DL"
+    ],
+    "axial_codes": [
+      "organizational_governance",
+      "risk_and_compliance_management",
+      "AI_adoption_assessment"
+    ],
+    "theme": "Survey-based identification of generic AI application potentials in GRC",
+    "subtheme": "Unstructured data processing in governance, risk and compliance",
+    "concepts": [
+      "GRC",
+      "artificial intelligence",
+      "risk management",
+      "compliance management",
+      "internal control system",
+      "unstructured data",
+      "natural language processing",
+      "machine learning",
+      "deep learning"
+    ],
+    "model_layers": [
+      "organizational_governance",
+      "regulatory_compliance"
+    ],
+    "rq_alignment": [
+      "regulated_context",
+      "governance_and_compliance",
+      "generic_AI_not_LLM",
+      "limited_conversational_relevance"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "A 2021 survey was conducted to identify and analyze potential applications of artificial intelligence in integrated governance, risk and compliance functions, including use cases such as processing and analysis of unstructured data.",
+    "contribution": "Provides empirical, organization-oriented evidence on perceived AI application areas within GRC and frames GRC as an integrated governance approach linked to regulatory requirements and risk management.",
+    "limitations": "Supplied text does not report sample size, response rate, sector breakdown, analytic methods, detailed findings, or study limitations; it also predates LLM-era systems and does not examine conversational AI governance mechanisms.",
+    "use_in_review": "Use as foundational contextual evidence on AI-in-GRC adoption and compliance-oriented governance framing; do not treat as central evidence for conversational governance of LLM-based systems."
+  },
+  "evidence": [
+    {
+      "claim": "Authors and institutional source are identifiable.",
+      "excerpt": "Eva Ponick, Gabriele Wieczorek",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is a 2021 survey on AI potentials in GRC.",
+      "excerpt": "This study contains the results of a survey conducted in 2021 to identify and analyze the potential applications of artificial intelligence in GRC.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Technology scope is generic AI, not LLM-specific.",
+      "excerpt": "machine learning, artificial neural networks, natural language processing or deep learning",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "GRC is defined as integrated governance across risk, compliance, and internal control.",
+      "excerpt": "GRC (Governance, Risk and Compliance) means an integrated governance-approach, in which the mentioned governance functions are interlinked and not separated from each other.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulatory and compliance context is explicit.",
+      "excerpt": "decisive to follow guidelines and regulatory requirements",
+      "page": "2",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Example GRC AI use case is unstructured data processing and analysis.",
+      "excerpt": "Artificial intelligence is also being used in GRC, for example for processing and analysis of unstructured data sets.",
+      "page": "2",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Survey instrument reference suggests online survey software.",
+      "excerpt": "Sosci Survey (Version 3.3.06)",
+      "page": "55",
+      "section": "references",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Conversational relevance is only incidental via broad AI examples in survey notes.",
+      "excerpt": "human-computer interaction or assistance systems",
+      "page": "62",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Survey lists speech or text comprehension among generic application areas.",
+      "excerpt": "Speech or text comprehension",
+      "page": "63",
+      "section": "unclear",
+      "supports": "coding"
+    }
+  ]
+}

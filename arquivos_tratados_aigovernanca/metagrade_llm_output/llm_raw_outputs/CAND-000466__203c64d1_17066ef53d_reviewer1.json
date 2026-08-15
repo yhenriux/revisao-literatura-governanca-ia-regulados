@@ -1,0 +1,176 @@
+{
+  "bibliographic": {
+    "title": "Feasibility of a multi-metric framework for evaluating patient-facing AI communication in cosmetic dentistry: an exploratory proof-of-concept study",
+    "authors": "Alaa Al-Haddad, Omar Al-Karadsheh, Yazan Hassona",
+    "year": "2026",
+    "venue": "Frontiers in Oral Health",
+    "doi": "10.3389/froh.2026.1837073",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Al-Haddad, A., Al-Karadsheh, O., & Hassona, Y. (2026). Feasibility of a multi-metric framework for evaluating patient-facing AI communication in cosmetic dentistry: An exploratory proof-of-concept study. Frontiers in Oral Health, 7, 1837073. https://doi.org/10.3389/froh.2026.1837073"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "comparative benchmarking with expert human evaluation",
+    "study_design": "exploratory proof-of-concept comparative benchmarking study",
+    "sample_description": "80-prompt test set across four cosmetic dentistry domains; 160 responses from CSA-GPT and ChatGPT5.2; two board-certified specialists independently evaluated all responses",
+    "sample_size": "160 responses; 2 evaluators",
+    "sector": "healthcare; dentistry; cosmetic dentistry",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "patient-facing large language models; instruction-configured assistant (CSA-GPT) versus general-purpose baseline (ChatGPT5.2); conversational agents for health education and treatment explanations"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_patient_facing",
+      "healthcare_regulated_context",
+      "communication_quality_evaluation",
+      "safety_audit_disclaimers"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The study empirically benchmarks patient-facing LLM communication quality in cosmetic dentistry using a multi-metric rubric and clinical safety audit, which is relevant to governed conversational outputs in healthcare. However, governance is referenced as a future application rather than being the primary object of study; the core contribution is an exploratory evaluation framework feasibility proof rather than operational conversational governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front matter and excerpted pages were supplied; confirm full-text coverage of governance, oversight, and implementation claims before final inclusion tier."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Exploratory proof-of-concept with transparent statistical comparisons and stated need for external validation; ethics/reflexivity not evidenced in supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Findings are internally coherent and statistically reported, but the design is exploratory, domain-specific, and authors state psychometric refinement and broader testing are needed before informing governance or implementation."
+  },
+  "coding": {
+    "open_codes": [
+      "patient-facing LLM communication",
+      "multi-metric benchmarking rubric",
+      "instruction-configured assistant",
+      "clinical safety audit",
+      "ethical disclaimers",
+      "readability assessment",
+      "empathetic tone",
+      "safety boundary-setting"
+    ],
+    "axial_codes": [
+      "LLM output evaluation",
+      "healthcare patient communication",
+      "pre-governance validation"
+    ],
+    "theme": "Evaluation of patient-facing LLM communication quality",
+    "subtheme": "Cosmetic dentistry benchmarking and safety messaging",
+    "concepts": [
+      "communication quality as multidimensional construct",
+      "instruction-based configuration",
+      "safety disclaimers",
+      "major factual errors and critical omissions audit"
+    ],
+    "model_layers": [
+      "output quality evaluation",
+      "safety messaging and disclaimers",
+      "clinical safety audit"
+    ],
+    "rq_alignment": [
+      "evaluation frameworks for governed conversational outputs",
+      "risk and safety in regulated healthcare LLM use",
+      "communication quality beyond factual accuracy"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "An instruction-configured LLM (CSA-GPT) significantly outperformed a general-purpose baseline (ChatGPT5.2) on patient-facing communication metrics in cosmetic dentistry without increasing major factual errors, supporting feasibility of a multi-metric benchmarking approach.",
+    "contribution": "Provides an exploratory 20-point, theory-informed rubric and clinical safety audit for reproducible benchmarking of readability, practicality, empathetic tone, structural clarity, and safety messaging in patient-facing LLM outputs.",
+    "limitations": "Exploratory proof-of-concept requiring psychometric refinement, external validation, and broader testing before approaches can inform governance or implementation.",
+    "use_in_review": "Use as supporting evidence for evaluation metrics, safety disclaimers, and communication-quality governance prerequisites in regulated patient-facing LLM systems; not primary evidence for operational conversational governance architectures."
+  },
+  "evidence": [
+    {
+      "claim": "Study addresses patient-facing LLMs in healthcare including conversational agents",
+      "excerpt": "Large language models (LLMs) are increasingly integrated into patient-facing healthcare applications, including conversational agents used for health education, treatment explanations, and preliminary decision support",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Core design is comparative benchmarking of two LLM configurations",
+      "excerpt": "This proof-of-concept comparative benchmarking study used a consolidated 80-prompt test set derived from thematic analysis of real-world patient inquiries and cross-LLM synthesis",
+      "page": "1",
+      "section": "Methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Evaluation includes ethical disclaimers and clinical safety audit",
+      "excerpt": "Two board-certified specialists independently evaluated all responses using a theory-informed, exploratory 20-point rubric assessing readability (Flesch-Kincaid Grade Level, FKGL), ethical disclaimer inclusion, practicality, empathetic tone, and structural clarity. A separate clinical safety audit assessed major factual errors and critical omissions.",
+      "page": "1",
+      "section": "Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Instruction-configured model outperformed baseline on communication metrics",
+      "excerpt": "CSA-GPT outperformed ChatGPT5.2 across all evaluated communication metrics. Mean total rubric score was 17.95 ± 1.62 for CSA-GPT vs. 9.55 ± 1.94 for ChatGPT5.2 (p < 0.001; Cohen’s d = 3.22).",
+      "page": "1",
+      "section": "Results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Mandatory disclaimers were fully present in configured model outputs",
+      "excerpt": "Mandatory disclaimers were present in 100% of CSA-GPT",
+      "page": "1",
+      "section": "Results",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors position benchmarking as potentially informing future governance after validation",
+      "excerpt": "highlighting the need for psychometric refinement, external validation, and broader testing before such approaches can inform governance or implementation.",
+      "page": "2",
+      "section": "Conclusion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study rejects null hypotheses favoring configured model across domains",
+      "excerpt": "The findings reject the null hypotheses: the configured model significantly outperformed the baseline across all measured dimensio",
+      "page": "9",
+      "section": "Discussion",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Prior chatbot evaluations in dentistry show communication shortcomings",
+      "excerpt": "Studies of orthodontic and aligner-based treatments have identified limitations in chatbot-generated responses, including variability in accuracy, structure, and patient appropriateness",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Communication quality should be evaluated beyond accuracy alone",
+      "excerpt": "this challenge is not limited to whether AI-generated content is factually acceptable, but also whether it is communicated in a manner that is understandable, usable, and appropriately bounded for patient decision-",
+      "page": "2",
+      "section": "Methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Exploratory benchmarking may inform future governance strategies pending validation",
+      "excerpt": "This highlights the need for exploratory benchmarking approaches that may inform future governance strategies, provided they undergo formal validation.",
+      "page": "2",
+      "section": "Methods",
+      "supports": "eligibility"
+    }
+  ]
+}

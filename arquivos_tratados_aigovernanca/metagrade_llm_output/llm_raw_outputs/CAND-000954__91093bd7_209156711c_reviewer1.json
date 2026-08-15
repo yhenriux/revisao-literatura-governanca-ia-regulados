@@ -1,0 +1,156 @@
+{
+  "bibliographic": {
+    "title": "Leveraging ChatGPT and Other Generative Artificial Intelligence (AI)-Based Applications in the Hospitality and Tourism Industry: Practices, Challenges, and Research Agenda",
+    "authors": "Yogesh K Dwivedi; Neeraj Pandey; Wendy Currie; Adrian Micu",
+    "year": "2024",
+    "venue": "International Journal of Contemporary Hospitality Management",
+    "doi": "10.1108/IJCHM-05-2023-0686",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Dwivedi, Y. K., Pandey, N., Currie, W., & Micu, A. (2024). Leveraging ChatGPT and other generative artificial intelligence (AI)-based applications in the hospitality and tourism industry: Practices, challenges, and research agenda. International Journal of Contemporary Hospitality Management, 36(1), 1-12. https://doi.org/10.1108/IJCHM-05-2023-0686"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "literature and practice analysis with research agenda development",
+    "study_design": "conceptual research agenda paper",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "hospitality and tourism",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "generative artificial intelligence (ChatGPT, Bard), self-serving technologies (SSTs), customer interface and backend applications"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "TOPIC_MISMATCH",
+      "DOMAIN_MISMATCH",
+      "INSUFFICIENT_GOVERNANCE_FOCUS"
+    ],
+    "exclusion_reason": "The available text describes a conceptual hospitality/tourism research agenda on GenAI adoption and implementation challenges; it does not address conversational governance mechanisms, oversight, auditability, or regulated high-stakes deployment contexts central to the review scope.",
+    "decision_rationale": "Although the paper explicitly discusses ChatGPT and generative AI and mentions challenges from the perspectives of companies, customers, and regulators, the provided evidence is limited to front matter and abstract. The focus is sectoral adoption in hospitality and tourism rather than conversational AI governance in regulated environments. No explicit treatment of guardrails, observability, human oversight, accountability frameworks, or compliance-oriented conversational system design appears in the supplied text.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only pages 1-3 (HAL front matter, author list, and abstract) were supplied; governance-related terms may appear later in the full article and should be verified before final exclusion."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Appraisal is constrained to abstract-level evidence. The paper presents itself as a literature-and-practice analysis proposing a research agenda, not as an empirical governance evaluation. Limitations, ethics, and detailed methods are not visible in the supplied excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "For the target review on conversational governance of LLMs in regulated settings, relevance is low despite clear GenAI focus. Confidence is limited because only the abstract/front matter was available; the study also appears conceptual rather than empirically grounded in governance practices."
+  },
+  "coding": {
+    "open_codes": [
+      "generative AI adoption",
+      "hospitality and tourism",
+      "implementation challenges",
+      "regulator perspective",
+      "research agenda",
+      "self-serving technologies"
+    ],
+    "axial_codes": [
+      "sectoral GenAI adoption",
+      "stakeholder implementation challenges",
+      "future research directions"
+    ],
+    "theme": "GenAI adoption in hospitality and tourism",
+    "subtheme": "practices, challenges, and research agenda",
+    "concepts": [
+      "ChatGPT",
+      "generative AI",
+      "Bard",
+      "self-serving technologies",
+      "customer interface technologies",
+      "regulators"
+    ],
+    "model_layers": [],
+    "rq_alignment": [
+      "generic GenAI adoption context",
+      "stakeholder challenge framing including regulators"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Integrating generative AI technologies such as ChatGPT will have a transformational impact on hospitality and tourism, while implementation poses challenges for companies, customers, and regulators.",
+    "contribution": "The paper analyzes existing literature and practices and outlines a novel research agenda for scholars and practitioners planning to use generative AI tools such as ChatGPT in hospitality and tourism businesses.",
+    "limitations": "Supplied text does not report empirical methods, sample, governance mechanisms, or study limitations; appraisal is based only on abstract-level claims.",
+    "use_in_review": "Not recommended as central or supporting evidence for conversational governance in regulated LLM systems; at most potentially useful as contextual background on sectoral GenAI adoption and generic stakeholder challenges if later full-text review confirms absence of governance content."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal publication in IJCHM 2024",
+      "excerpt": "International Jour- nal of Contemporary Hospitality Management, 2024, 36 (1), pp.1-12.",
+      "page": "1",
+      "section": "HAL citation block",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is conceptual and based on literature and practices rather than primary empirical governance research",
+      "excerpt": "The study analyzes the existing literature and practices.",
+      "page": "3",
+      "section": "Abstract - Design/methodology/approach",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Paper focuses on specific LLMs including ChatGPT and Bard",
+      "excerpt": "Keywords: artificial intelligence, Bard, ChatGPT, generative AI, hospitality, tourism",
+      "page": "3",
+      "section": "Abstract - Keywords",
+      "supports": "coding"
+    },
+    {
+      "claim": "Sector is hospitality and tourism, not a regulated high-stakes domain emphasized by the review",
+      "excerpt": "implementation of generative artificial intelligence (such as ChatGPT) and similar tools in the hospitality and tourism industry.",
+      "page": "3",
+      "section": "Abstract - Purpose",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulators are mentioned only as one stakeholder perspective on implementation challenges, not as a governance framework study",
+      "excerpt": "The study highlights the potential challenges of implementing such technologies from the perspectives of companies, customers, and regulators.",
+      "page": "3",
+      "section": "Abstract - Findings",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Technology context includes customer-facing conversational/service interfaces via SSTs",
+      "excerpt": "technologies in customer interface and backend activities, including the adoption of self- serving technologies (SSTs).",
+      "page": "3",
+      "section": "Abstract - Purpose",
+      "supports": "coding"
+    },
+    {
+      "claim": "Objective is clear: analyze practices/challenges and establish a research agenda",
+      "excerpt": "This study analyzes the existing practices and challenges, and also establishes a research agenda",
+      "page": "3",
+      "section": "Abstract - Purpose",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Main contribution is a research agenda and reference material for practitioners",
+      "excerpt": "It draws upon these practices to outline a novel research agenda for scholars and practitioners working in this domain.",
+      "page": "3",
+      "section": "Abstract - Design/methodology/approach",
+      "supports": "synthesis"
+    }
+  ]
+}

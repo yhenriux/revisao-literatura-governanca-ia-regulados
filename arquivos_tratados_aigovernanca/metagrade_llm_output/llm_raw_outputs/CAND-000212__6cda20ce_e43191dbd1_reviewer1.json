@@ -1,0 +1,188 @@
+{
+  "bibliographic": {
+    "title": "Strategies and Pathways for Emerging Pollutant Governance Based on Artificial Intelligence Technology",
+    "authors": "Chen Xiaohong, Liu Xiaoliang, Yuan Yige, An Qingxian",
+    "year": "2025",
+    "venue": "Chinese Engineering Science",
+    "doi": "10.15302/J-SSCAE-2025.02.001",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Chen, X., Liu, X., Yuan, Y., & An, Q. (2025). Strategies and pathways for emerging pollutant governance based on artificial intelligence technology. Chinese Engineering Science, 27(3), 152–159. https://doi.org/10.15302/J-SSCAE-2025.02.001"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "literature review and conceptual framework development",
+    "study_design": "conceptual framework paper with narrative review",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "environmental protection and emerging pollutant governance",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "deep learning, natural language processing, machine learning, and large models applied to pollutant screening, risk assessment, monitoring, and control"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E1_wrong_topic",
+      "E2_no_conversational_ai",
+      "E3_wrong_application_domain"
+    ],
+    "exclusion_reason": "The article focuses on environmental emerging-pollutant governance using AI and large models, not on conversational governance, chatbots, agents, or LLM oversight in regulated conversational systems.",
+    "decision_rationale": "Although the text mentions artificial intelligence, large models, ChatGPT, governance, risk assessment, and monitoring, these refer to environmental pollutant management frameworks rather than governance of conversational LLM systems. No conversational AI, human oversight, guardrails, audit/logging for dialogue systems, or regulated-sector conversational deployment contexts appear in the provided text.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is explicit in title, abstract, and body; LLM references are ancillary to environmental pollutant management."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal reflects only the provided excerpts. The paper presents a clear conceptual objective and AI-based pollutant governance framework, but offers no empirical sample, data collection protocol, or validated conversational/LLM governance evaluation relevant to the review scope."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 1,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "For the review question on conversational governance of LLMs in regulated environments, the article has low relevance and limited usable evidence because governance, risk, and monitoring are framed around environmental pollutants rather than conversational AI systems."
+  },
+  "coding": {
+    "open_codes": [
+      "emerging pollutant governance",
+      "AI screening",
+      "risk assessment",
+      "intelligent monitoring",
+      "large model framework",
+      "policy reference"
+    ],
+    "axial_codes": [
+      "environmental AI application",
+      "domain-specific governance framework",
+      "non-conversational LLM mention"
+    ],
+    "theme": "AI-enabled environmental pollutant governance",
+    "subtheme": "large-model-assisted decision support for pollutants",
+    "concepts": [
+      "emerging pollutants",
+      "deep learning",
+      "natural language processing",
+      "machine learning",
+      "large model framework",
+      "risk assessment",
+      "intelligent monitoring",
+      "knowledge-driven decision support"
+    ],
+    "model_layers": [
+      "data screening",
+      "risk assessment",
+      "control and monitoring",
+      "large model integration"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.88
+  },
+  "synthesis": {
+    "main_claim": "Artificial intelligence and large models can support emerging pollutant identification, real-time risk assessment, intelligent monitoring, and optimization of pollutant governance strategies.",
+    "contribution": "Proposes an AI-based framework and a large-model architecture for emerging pollutant governance across screening, risk assessment, and control phases.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central and supporting evidence for conversational LLM governance; at most peripheral contextual background on generic large-model governance language in environmental policy."
+  },
+  "evidence": [
+    {
+      "claim": "Article topic is environmental pollutant governance, not conversational AI governance.",
+      "excerpt": "Strategies and Pathways for Emerging Pollutant Governance Based on Artificial Intelligence Technology",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study reviews pollutant governance challenges and proposes an AI-based management framework.",
+      "excerpt": "This study reviews the current status and major challenges regarding emerging pollutant governance, and proposes an AI-based framework for managing emerging pollutants.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "AI methods cited are screening, risk assessment, and control monitoring for pollutants.",
+      "excerpt": "deep learning and natural language processing technologies are utilized to identify potential emerging pollutants",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Large model framework targets pollutant identification and governance optimization.",
+      "excerpt": "the study proposes a large model framework for emerging pollutants, aiming to integrate multimodal environmental data",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLMs are mentioned as examples in environmental governance context, not as conversational systems under governance.",
+      "excerpt": "With the rapid development and engineering application of large models such as DeepSeek, ChatGPT, and LLaMA",
+      "page": "8",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance in the article refers to pollutant management systems and policy support.",
+      "excerpt": "building a knowledge-driven large-model-assisted decision-making system",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Risk and monitoring refer to environmental health and pollutant behavior assessment.",
+      "excerpt": "machine learning models integrate multidimensional data to construct a dynamic evaluation system that can quantitatively assess environmental behaviors and health risks of pollutants in real time",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulatory context concerns environmental policy for new pollutants, not regulated conversational AI deployment.",
+      "excerpt": "providing references for scientific research, industry applications, and policy-making in related fields",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Corresponding author research field links large language models to pollutant management, not conversational governance.",
+      "excerpt": "Her major research field is large language model and new pollutant management.",
+      "page": "10",
+      "section": "corresponding author note",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational AI, chatbot, agent, human oversight, or dialogue-system governance constructs appear in provided text.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "full provided text",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Objective is clearly stated and coherent within environmental governance domain.",
+      "excerpt": "artificial intelligence (AI), leveraging its efficiency and precision, is gradually becoming a critical tool for emerging pollutant governance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Empirical sampling and primary data collection are not described in provided excerpts.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "provided text",
+      "supports": "appraisal"
+    }
+  ]
+}

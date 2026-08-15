@@ -1,0 +1,213 @@
+{
+  "bibliographic": {
+    "title": "Effective Human Oversight of AI-Based Systems: A Signal Detection Perspective on the Detection of Inaccurate and Unfair Outputs",
+    "authors": "Markus Langer; Kevin Baum; Nadine Schlicker",
+    "year": "2025",
+    "venue": "Minds and Machines",
+    "doi": "10.1007/s11023-024-09701-0",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Langer, M., Baum, K., & Schlicker, N. (2025). Effective human oversight of AI-based systems: A signal detection perspective on the detection of inaccurate and unfair outputs. Minds and Machines, 35(1). https://doi.org/10.1007/s11023-024-09701-0"
+  },
+  "methodology": {
+    "research_type": "theoretical",
+    "method_family": "conceptual framework applying Signal Detection Theory (SDT) to human oversight of AI-based systems",
+    "study_design": "theoretical/conceptual analysis with literature-based factor synthesis; no primary empirical study reported in provided text",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "high-risk AI decision contexts including hiring, medical decision-making, and judicial decision-making",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI-based systems and machine learning approaches; explainable AI (XAI) referenced; no specific large language model or conversational system focus in provided text"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "human_oversight",
+      "governance_accountability",
+      "risk_mitigation",
+      "regulated_high_stakes",
+      "fairness_bias"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article directly addresses effective human oversight, error detection, fairness, risk mitigation, and high-risk regulated contexts (including EU AI Act Article 14), which align strongly with the review's governance and oversight dimensions. However, the provided text frames AI-based systems generically and does not specifically address conversational AI, chatbots, agents, RAG, or LLM-based systems; therefore it is better classified as supporting rather than central evidence for conversational LLM governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Metadata year conflict (2019 vs journal 2025); confirm full-text scope for LLM/conversational specificity and whether any empirical validation is present beyond the excerpted pages."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Strong conceptual clarity and fit of SDT for explaining oversight effectiveness via sensitivity and response bias. Appraisal limited by absence of primary empirical sample or data collection in provided excerpts; authors note limited evidence interpretable from an SDT perspective on AI error detection."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and highly relevant to human oversight and risk reduction in regulated AI use, but confidence is moderated because the work is theoretical, cites limited SDT-applicable evidence for AI unfairness detection, and the provided text does not establish LLM- or conversation-specific applicability."
+  },
+  "coding": {
+    "open_codes": [
+      "human oversight",
+      "error detection",
+      "signal detection theory",
+      "sensitivity",
+      "response bias",
+      "inaccuracies",
+      "unfairness",
+      "high-risk AI",
+      "EU AI Act Article 14",
+      "explainable AI",
+      "task-related factors",
+      "system-related factors",
+      "person-related factors"
+    ],
+    "axial_codes": [
+      "runtime human oversight",
+      "governance and compliance",
+      "fairness and bias detection",
+      "risk mitigation through oversight",
+      "human-AI decision-making"
+    ],
+    "theme": "Conditions for effective human oversight of AI-based systems",
+    "subtheme": "Signal Detection Theory perspective on detecting inaccurate and unfair AI outputs",
+    "concepts": [
+      "human oversight",
+      "error detection",
+      "Signal Detection Theory",
+      "sensitivity",
+      "response bias",
+      "fairness standards",
+      "risk mitigation",
+      "human-AI decision-making"
+    ],
+    "model_layers": [
+      "oversight governance",
+      "error detection mechanism",
+      "task factors",
+      "system factors",
+      "person factors"
+    ],
+    "rq_alignment": [
+      "human oversight and supervision",
+      "accountability",
+      "risk control and mitigation",
+      "fairness and bias governance",
+      "regulated high-stakes contexts"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Reliable detection of errors—covering both inaccuracies and unfairness—is crucial for effective human oversight of AI-based systems in high-risk contexts, and Signal Detection Theory offers a useful framework for understanding what affects human sensitivity and response bias when detecting such errors.",
+    "contribution": "Extends an SDT lens to both inaccuracy and unfairness detection in AI oversight, including the need to choose a fairness standard, and synthesizes task-, system-, and person-related factors hypothesized to affect oversight effectiveness.",
+    "limitations": "Provided text indicates limited evidence that can be interpreted from an SDT perspective on detection of AI-related errors; the article is theoretical rather than empirically validating the framework, and does not address conversational or LLM-specific systems.",
+    "use_in_review": "Use as supporting theoretical evidence for governance dimensions of human oversight, error detection, fairness standards, and risk mitigation in regulated AI environments; cite cautiously for conversational LLM governance claims without additional LLM-specific mapping."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with 2025 publication in Minds and Machines",
+      "excerpt": "Minds and Machines (2025) 35:1 https://doi.org/10.1007/s11023-024-09701-0",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors are Markus Langer, Kevin Baum, and Nadine Schlicker",
+      "excerpt": "Effective Human Oversight of AI-Based Systems: A Signal Detection Perspective on the Detection of Inaccurate and Unfair Outputs Markus Langer1 · Kevin Baum2 · Nadine Schlicker3",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is theoretical/conceptual, proposing SDT as oversight framework",
+      "excerpt": "We then propose that Signal Detection Theory (SDT) offers a promising framework for better understanding what affects people’s sensitivity",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Human oversight is central in high-risk regulated AI use",
+      "excerpt": "Legislation and ethical guidelines around the globe call for effective human oversight of AI-based systems in high-risk contexts",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Errors include inaccuracies and unfairness relevant to oversight",
+      "excerpt": "we refer to those two issues as inaccuracies and unfairness",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "EU AI Act Article 14 highlights effective human oversight",
+      "excerpt": "most prominently Article 14 of the European AI Act – highlight the central role of effective human oversight in the use of AI-based systems for high-risk tasks",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated high-stakes domains include hiring and medical decision-making",
+      "excerpt": "From hiring to medical decision-making, Artificial Intelligence (AI)-based systems are integral to many high-risk decisions today.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Focus is runtime/inspection-stage human oversight rather than full lifecycle",
+      "excerpt": "we focus on human oversight at runtime or ins",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Technology context is generic AI/ML, not LLM-specific",
+      "excerpt": "certain machine learning approaches; Schwartz et al., 2022",
+      "page": "15",
+      "section": "discussion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "XAI may improve error detection via understandability",
+      "excerpt": "providing explanations for system outputs employing approaches from the field of explainable artificial intelligence (XAI; Arrieta et al., 2020)",
+      "page": "18",
+      "section": "findings",
+      "supports": "coding"
+    },
+    {
+      "claim": "Limited SDT-applicable evidence for AI error detection is acknowledged",
+      "excerpt": "Given that there is limited evidence that can be interpreted from an SDT perspective on the detection of",
+      "page": "15",
+      "section": "discussion",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Human-computer interaction is referenced but not conversational AI focus",
+      "excerpt": "research on human-computer-interaction that focuses on how to improve human-system collaboration",
+      "page": "16",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Task-, system-, and person-related factors affect unfairness detection",
+      "excerpt": "overview of the sample task-, system-, and person-related factors and their hypothesized effects on sensitivity and response bias in unfairness detection",
+      "page": "16",
+      "section": "unclear",
+      "supports": "synthesis"
+    }
+  ]
+}

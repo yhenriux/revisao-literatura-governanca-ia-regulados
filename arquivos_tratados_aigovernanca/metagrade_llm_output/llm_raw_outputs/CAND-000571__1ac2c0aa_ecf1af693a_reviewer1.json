@@ -1,0 +1,186 @@
+{
+  "bibliographic": {
+    "title": "Designing and evaluating large language model-enabled clinical decision support for heart failure: a modular and risk-tiered framework",
+    "authors": "Zhu W, Peng J, Yan Z, Chen Y, Xu J, Zhang L",
+    "year": "2026",
+    "venue": "Frontiers in Digital Health",
+    "doi": "10.3389/fdgth.2026.1730457",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Zhu, W., Peng, J., Yan, Z., Chen, Y., Xu, J., & Zhang, L. (2026). Designing and evaluating large language model-enabled clinical decision support for heart failure: A modular and risk-tiered framework. Frontiers in Digital Health, 8, 1730457. https://doi.org/10.3389/fdgth.2026.1730457"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual framework / perspective",
+    "study_design": "perspective article proposing modular risk-tiered design and evaluation framework (HF-IA)",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare / cardiology / clinical decision support",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-enabled clinical decision support for heart failure; retrieval-augmented generation; modular agent functions; electronic health record integration; risk-tiered autonomy"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening and eligibility adjudication",
+    "inclusion_codes": [
+      "LLM_clinical_decision_support",
+      "governance_framework",
+      "regulated_healthcare",
+      "risk_tiered_autonomy",
+      "post_deployment_monitoring",
+      "RAG"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed conceptual perspective on governance, design, and evaluation of LLM-enabled clinical decision support in regulated heart-failure care. It directly addresses LLMs, clinical governance, risk-tiered autonomy, RAG, and post-deployment monitoring, but it is not primarily about conversational governance of chatbots or dialogue systems and does not report an implemented conversational product or empirical conversational evaluation.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial introduction were provided; full framework sections on governance, oversight, and monitoring may alter conversational-governance coding and appraisal."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appropriate as a conceptual governance/design framework rather than empirical study. Authors explicitly state the work is conceptual, not an implemented software product, and not a systematic review. Sampling and data-collection criteria are weakly applicable because no primary dataset or participant sample is reported in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is clearly articulated and internally coherent for LLM-enabled HF clinical decision support governance, but confidence is moderated because the provided excerpt contains no empirical validation, no full operational governance specification, and limited direct evidence on conversational oversight mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "modular_agent_architecture",
+      "risk_tiered_autonomy",
+      "clinical_governance",
+      "post_deployment_monitoring",
+      "RAG",
+      "gold_standard_case_replay",
+      "silent_prospective_validation",
+      "node_level_testing",
+      "natural_language_interaction",
+      "heart_failure_CDS"
+    ],
+    "axial_codes": [
+      "technical_governance",
+      "risk_management",
+      "evaluation_framework",
+      "regulated_healthcare_AI"
+    ],
+    "theme": "Risk-tiered governance and evaluation of LLM-enabled clinical decision support",
+    "subtheme": "Modular HF intelligent agent framework embedded in clinical governance",
+    "concepts": [
+      "Heart Failure Intelligent Agent (HF-IA)",
+      "risk-tiered autonomy",
+      "clinical governance",
+      "retrieval-augmented generation",
+      "post-deployment monitoring",
+      "longitudinal case replay"
+    ],
+    "model_layers": [
+      "design requirements",
+      "risk stratification",
+      "validation pathways",
+      "deployment monitoring",
+      "clinical governance embedding"
+    ],
+    "rq_alignment": [
+      "governance of generative AI in regulated settings",
+      "risk control and monitoring",
+      "human oversight and validation pathways",
+      "operational evaluation of LLM systems"
+    ],
+    "coding_confidence": 0.74
+  },
+  "synthesis": {
+    "main_claim": "HF-specific LLM clinical decision support should be designed as a modular, risk-tiered framework (HF-IA) rather than a single autonomous agent, with evaluation combining node-level tests, longitudinal case replay, silent prospective validation, and post-deployment monitoring within clinical governance.",
+    "contribution": "Provides a disease-specific conceptual framework clarifying design, evaluation, and governance requirements for future LLM-enabled heart failure decision support, including RAG and differentiated risk levels across agent functions.",
+    "limitations": "Conceptual only; does not claim clinical effectiveness; not an implemented software product; not a systematic review of LLM cardiology applications; provided excerpt does not establish conversational-system governance empirically.",
+    "use_in_review": "Use as supporting evidence for governance patterns in regulated LLM clinical systems, especially modular risk-tiering, validation pathways, RAG integration, and post-deployment monitoring; treat as foundational context for healthcare CDS rather than central evidence on conversational governance."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article in regulated clinical domain with explicit LLM focus",
+      "excerpt": "Designing and evaluating large language model-enabled clinical decision support for heart failure: a modular and risk-tiered framework",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is conceptual framework, not empirical implementation",
+      "excerpt": "This framework is conceptual and does not claim clinical effectiveness",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Explicit governance and monitoring requirements for LLM-enabled CDS",
+      "excerpt": "its value is to clarify design, evaluation, and governance requirements for future LLM-enabled HF decision support",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Modular risk-tiered agent architecture instead of monolithic autonomy",
+      "excerpt": "We present the Heart Failure Intelligent Agent (HF-IA) as a modular, risk-tiered conceptual framework in which agent functions have different data requirements, reference standards, risk levels, and validation pathways",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Post-deployment monitoring included in proposed evaluation approach",
+      "excerpt": "evaluation should combine node-level tests, longitudinal case replay, silent prospective validation, and post- deployment monitoring",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "RAG and natural language interaction are part of technology context",
+      "excerpt": "combine natural language interaction with retrieval-augmented generation (RAG)",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Framework embedded in clinical governance",
+      "excerpt": "We therefore present the Heart Failure Intelligent Agent (HF-IA) as a conceptual, modular, disease-specific, risk-tiered framework embedded in clinical governance",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Not a systematic review or implemented product report",
+      "excerpt": "This Perspective is not intended as a systematic review of all LLM applications in cardiology or as a report of an implemented software product",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Clinical safety risk motivates governance-oriented evaluation",
+      "excerpt": "benchmark performance does not by itself establish clinical safety",
+      "page": "2",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Keywords signal risk-tiered autonomy and RAG",
+      "excerpt": "KEYWORDS clinical decision support, gold-standard case replay, heart failure, large language model, retrieval-augmented generation, risk-tiered autonomy",
+      "page": "1",
+      "section": "keywords",
+      "supports": "coding"
+    }
+  ]
+}

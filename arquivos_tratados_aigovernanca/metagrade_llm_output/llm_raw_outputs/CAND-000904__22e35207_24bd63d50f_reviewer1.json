@@ -1,0 +1,165 @@
+{
+  "bibliographic": {
+    "title": "Softmax Bottleneck Makes Language Models Unable to Represent Multi-mode Word Distributions",
+    "authors": "Haw-Shiuan Chang and Andrew McCallum",
+    "year": "2022",
+    "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics Volume 1: Long Papers",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "yes",
+    "citation_apa": "Chang, H.-S., & McCallum, A. (2022). Softmax bottleneck makes language models unable to represent multi-mode word distributions. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (pp. 8048–8073). Association for Computational Linguistics."
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "theoretical analysis combined with empirical evaluation of transformer-based language models",
+    "study_design": "softmax bottleneck theory with proofs; comparative experiments on GPT-2 and BERT using standard softmax, mixture of softmax (MoS), and proposed multi-facet softmax (MFS)",
+    "sample_description": "Transformer-based language models (GPT-2, BERT); test sets including OpenWebText and Wikipedia 2021; ProtoQA ambiguous question-answering dataset",
+    "sample_size": "unclear",
+    "sector": "academic NLP research",
+    "regulated_domain": "no",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "GPT-2, BERT, softmax layer, mixture of softmax (MoS), multi-facet softmax (MFS), ambiguous next-word/masked-word prediction"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "off_topic",
+      "no_governance_accountability",
+      "no_conversational_systems",
+      "no_regulated_deployment_context"
+    ],
+    "exclusion_reason": "The paper is a technical NLP study on softmax bottleneck limitations and architecture modifications in GPT-2/BERT; it does not address conversational governance, accountability, compliance, human oversight, audit, or deployment of LLM systems in regulated environments.",
+    "decision_rationale": "Although the article analyzes language models (GPT-2, BERT) and their inability to represent multi-mode word distributions in ambiguous contexts, the scope is architectural and probabilistic modeling. There is no discussion of chatbots, agents, RAG, guardrails, observability, risk control, supervision, contestation, or regulated sectors. Python triage score was borderline (47.33/100, grade D) due to incidental keyword matches (e.g., bias as model parameter, law as predicted token, standard errors), not substantive governance content.",
+    "decision_confidence": 0.92,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Full text clearly establishes a narrow focus on softmax bottleneck theory and MFS architecture; absence of governance or regulated conversational AI content is unambiguous."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 5,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 5,
+    "ethics_reflexivity": 2,
+    "results_clarity": 5,
+    "limitations_transparency": 4,
+    "evidence_support": 5,
+    "transferability": 2,
+    "notes": "Methodologically strong within NLP architecture research. Ethics, societal impact, and deployment governance are not addressed. Transferability to the review scope on conversational governance in regulated LLM systems is very limited."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 5,
+    "adequacy": 4,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Internal methodological coherence and empirical support for softmax-bottleneck claims appear strong, but relevance to conversational governance, accountability, and regulated LLM deployment is very low based on provided text."
+  },
+  "coding": {
+    "open_codes": [
+      "softmax bottleneck",
+      "multi-mode word distributions",
+      "ambiguous context prediction",
+      "GPT-2",
+      "BERT",
+      "mixture of softmax",
+      "multi-facet softmax",
+      "ProtoQA"
+    ],
+    "axial_codes": [
+      "language model architecture limitations",
+      "probability distribution representation",
+      "empirical LM evaluation"
+    ],
+    "theme": "Structural limitations of language model output distributions",
+    "subtheme": "Softmax bottleneck and multi-facet softmax mitigation",
+    "concepts": [
+      "softmax bottleneck theory",
+      "single hidden state embedding constraint",
+      "mixture of softmax (MoS)",
+      "multi-facet softmax (MFS)",
+      "ambiguous next-word prediction failure"
+    ],
+    "model_layers": [
+      "model architecture",
+      "softmax output layer"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.9
+  },
+  "synthesis": {
+    "main_claim": "Neural language models using a single hidden state in the final softmax layer cannot represent all multi-mode next-word probability distributions; the authors propose multi-facet softmax (MFS) to alleviate this limitation and report improved perplexity over standard softmax and mixture of softmax on GPT-2 and BERT.",
+    "contribution": "Theoretical demonstration of softmax bottleneck restrictions; empirical confirmation on ambiguous contexts and non-English text; proposal and evaluation of MFS as an architectural improvement over MoS.",
+    "limitations": "Theoretical analyses focus on LMs without per-word bias terms (e.g., GPT-2 rather than BERT with bias); extent of generalization to modern large-scale LLMs and deployed conversational systems is unclear from the provided text.",
+    "use_in_review": "Exclude from central and supporting evidence on conversational governance in regulated LLM systems. At most, it offers distant foundational context on why LMs may misrepresent ambiguous token distributions, but it provides no governance, oversight, compliance, or operational control mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on softmax architectural limitations in language models, not governance.",
+      "excerpt": "Neural language models (LMs) such as GPT-2 estimate the probability distribution over the next word by a softmax over the vocabulary.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Research question concerns LM architectural restrictions on next-word distributions.",
+      "excerpt": "Do modern language modeling architectures still have restrictions in their ability to represent the appropriate distribution over next words or masked words?",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "GPT-2 fails on ambiguous multi-candidate contexts.",
+      "excerpt": "when predicting the next word probabilities given an ambiguous context, GPT-2 is often incapable of assigning the highest probabilities to the appropriate non-synonym candidates.",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors formalize softmax bottleneck theory.",
+      "excerpt": "We call this restriction softmax bottleneck theory.",
+      "page": "3",
+      "section": "background",
+      "supports": "coding"
+    },
+    {
+      "claim": "Proposed remedy is architectural (MFS), not governance-related.",
+      "excerpt": "To address the systematic failure caused by these structural weaknesses, we propose multi-facet softmax (MFS).",
+      "page": "9",
+      "section": "conclusion",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "MFS outperforms standard softmax and MoS empirically.",
+      "excerpt": "the MFS significantly outperforms the standard softmax layer and alleviates the softmax bottleneck in the transformer-based LMs such as GPT-2 better than mixture of softmax (MoS).",
+      "page": "9",
+      "section": "conclusion",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Evaluation includes ProtoQA ambiguous question answering.",
+      "excerpt": "ProtoQA (Boratko et al., 2020) is a question- answering dataset built for evaluating the common- sense reasoning ability of language models.",
+      "page": "8",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Python 'bias' hits refer to model bias terms, not governance bias.",
+      "excerpt": "Notice that some LMs such as BERT add a bias term for each word before the softmax layer.",
+      "page": "3",
+      "section": "background",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No regulated-domain or compliance context is present.",
+      "excerpt": "Extensive empirical analyses confirm our findings and show that against MoS, the proposed MFS achieves two-fold improvements in the perplexity of GPT-2 and BERT.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

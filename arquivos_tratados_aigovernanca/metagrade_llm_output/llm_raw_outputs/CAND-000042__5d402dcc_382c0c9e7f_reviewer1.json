@@ -1,0 +1,202 @@
+{
+  "bibliographic": {
+    "title": "unclear",
+    "authors": "Ignacio Olmeda",
+    "year": "2026",
+    "venue": "Journal of Banking Regulation",
+    "doi": "10.1057/s41261-026-00320-6",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Olmeda, I. (2026). unclear. Journal of Banking Regulation, 27, 19. https://doi.org/10.1057/s41261-026-00320-6"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "comparative legal and regulatory analysis",
+    "study_design": "three-level comparative matrix across nine jurisdictions using ten analytical dimensions at micro, meso, and macro levels",
+    "sample_description": "Nine jurisdictions: European Union, United Kingdom, United States, Canada, Japan, Australia, India, China, and Islamic banking states; regulatory materials reviewed January–October 2025",
+    "sample_size": "9 jurisdictions",
+    "sector": "banking",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Artificial intelligence embedded in core banking processes such as credit scoring, market surveillance, anti-money-laundering, and prudential oversight; includes references to generative AI regulation in some jurisdictions but not conversational or LLM-system governance"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "governance_accountability",
+      "regulated_banking",
+      "risk_audit_compliance",
+      "human_oversight_contestation"
+    ],
+    "exclusion_codes": [
+      "conversational_ai_not_central",
+      "llm_operational_governance_limited"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article provides a structured comparative analysis of AI governance, accountability, human oversight, and supervisory enforceability in banking across nine jurisdictions. It strongly matches regulated-domain and governance dimensions of the review, but the provided text centers on prudential and conduct regulation of algorithmic AI in banking rather than conversational LLM systems, chatbots, agents, RAG, or operational conversational governance mechanisms.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted title metadata is corrupted in the source extract; confirm full bibliographic title and whether any sections beyond the provided excerpts address conversational or LLM-specific governance in more detail."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 3,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Clear comparative regulatory framework with explicit jurisdictional selection criteria and a ten-dimension matrix. Strength is normative-institutional analysis rather than empirical evaluation of deployed conversational systems. Limitations section not visible in the provided excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The study coherently links research questions to a comparative matrix and jurisdictional archetypes, with adequate transparency on materials and timeframe. Relevance to conversational LLM governance is partial because the evidence provided focuses on banking AI regulation broadly, with only limited generative-AI jurisdictional references."
+  },
+  "coding": {
+    "open_codes": [
+      "proportional oversight",
+      "supervisory enforceability",
+      "accountability gap",
+      "trustworthy AI principles",
+      "comparative jurisdictional matrix",
+      "three governance archetypes",
+      "human oversight obligations",
+      "model risk governance",
+      "independent supervisory authorities",
+      "documentation requirements"
+    ],
+    "axial_codes": [
+      "regulatory governance",
+      "institutional accountability",
+      "rights-based oversight",
+      "systemic safeguards",
+      "enforcement vs normative ambition"
+    ],
+    "theme": "AI governance and supervisory accountability in banking",
+    "subtheme": "comparative cross-jurisdictional regulatory maturity",
+    "concepts": [
+      "proportional oversight",
+      "legal-normative model",
+      "executive-fragmented model",
+      "state-centralized model",
+      "micro-meso-macro supervision",
+      "enforceable accountability"
+    ],
+    "model_layers": [
+      "micro",
+      "meso",
+      "macro"
+    ],
+    "rq_alignment": [
+      "governance",
+      "accountability",
+      "compliance",
+      "human oversight",
+      "risk management",
+      "regulated banking context"
+    ],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "Regulatory legitimacy in AI-driven banking depends less on high-level trustworthy-AI principles than on translating them into enforceable supervisory practices through proportional oversight calibrated to impacts on rights, prudential soundness, and systemic stability.",
+    "contribution": "Offers a ten-dimension, three-level comparative matrix across nine jurisdictions and identifies three archetypes of algorithmic governance, showing uneven normative consolidation and a gap between trustworthy-AI language and enforceable supervision.",
+    "limitations": "Provided excerpts do not detail study limitations, empirical validation, or conversational/LLM-specific operational controls; title is not cleanly extractable from the supplied text.",
+    "use_in_review": "Use as supporting evidence for governance, accountability, human oversight, and compliance frameworks in regulated banking AI; use as foundational contextual evidence for cross-jurisdictional regulatory models, not as central evidence on conversational LLM governance."
+  },
+  "evidence": [
+    {
+      "claim": "Article addresses accountability and proportional oversight in AI-driven banking supervision",
+      "excerpt": "how far do existing regulatory models for AI in banking achieve enforceable accountability, and can proportional oversight mechanisms bridge the persistent gap between normative ambition and institutional capacity?",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Comparative design covers nine jurisdictions with micro, meso, and macro dimensions",
+      "excerpt": "develops a three-level comparative matrix evaluating nine jurisdictions across micro, meso, and macro dimensions of regulatory maturity",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Study focuses on governance responsibilities, documentation, and accountability enforceability",
+      "excerpt": "particularly in relation to model risk, governance responsibilities, documentation standards, and the enforceability of accountability obligations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulatory materials were reviewed within a defined period",
+      "excerpt": "All regulatory materials were reviewed between January and October 2025",
+      "page": "3",
+      "section": "background",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "EU framework includes human oversight and ex post enforcement",
+      "excerpt": "AI systems are subject to ex ante obligations—conformity assessment, documentation, human oversight—and to ex post enforcement by independent supervisory authorities",
+      "page": "3",
+      "section": "background",
+      "supports": "coding"
+    },
+    {
+      "claim": "Meso-level analysis includes transparency, explicability, bias mitigation, and due process",
+      "excerpt": "AI-driven decisions in banking, including privacy, transparency, explicability, bias mitigation, and due process",
+      "page": "6",
+      "section": "discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Generative AI appears only as part of jurisdictional regulatory comparison",
+      "excerpt": "China’s Provisions on Deep Synthesis Internet Information Services (2022) and Interim Measures for Generative AI Services (2023)",
+      "page": "4",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "China generative AI rules prioritize stability and control over user rights",
+      "excerpt": "The Generative AI Measures and Algorithmic Recommendation Rules impose administrative duties prioritizing stability and control over user rights",
+      "page": "12",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Findings identify three archetypes of algorithmic governance",
+      "excerpt": "identifies three archetypes of algorithmic governance—legal-normative, executive-fragmented, and state-centralized",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Many jurisdictions use trustworthy-AI language without equivalent enforceability",
+      "excerpt": "many jurisdictions adopt the language of “trustworthy” AI without establishing equivalent mechanisms of supervisory enforceability",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Nine jurisdictions were selected for comparative assessment",
+      "excerpt": "The comparative assessment covers nine jurisdictions that together represent a substantial share of global banking assets",
+      "page": "11",
+      "section": "results",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No conversational AI, chatbot, or LLM-system operational governance is described in the provided text",
+      "excerpt": "Algorithmic systems now mediate credit scoring, market surveillance",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

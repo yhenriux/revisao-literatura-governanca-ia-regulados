@@ -1,0 +1,205 @@
+{
+  "bibliographic": {
+    "title": "Operationalising ethics in artificial intelligence for healthcare: a framework for AI developers",
+    "authors": "Pravik Solanki; John Grundy; Waqar Hussain",
+    "year": "2022",
+    "venue": "AI and Ethics",
+    "doi": "10.1007/s43681-022-00195-z",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Solanki, P., Grundy, J., & Hussain, W. (2022). Operationalising ethics in artificial intelligence for healthcare: a framework for AI developers. AI and Ethics, 3(2), 223–240. https://doi.org/10.1007/s43681-022-00195-z"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "scoping review with framework synthesis",
+    "study_design": "scoping review of ethical AI guidelines, frameworks and technical solutions used to construct a solution-based operational framework",
+    "sample_description": "existing solutions of ethical AI guidelines, frameworks and technical solutions addressing human values in healthcare AI",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "machine learning, natural language processing, NLP-driven chatbots, deep learning algorithms applied to clinical text, images and unstructured healthcare data"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "healthcare_regulated_domain",
+      "ai_governance_ethics_framework",
+      "nlp_chatbot_mention",
+      "deployment_monitoring_lifecycle",
+      "human_ai_interaction"
+    ],
+    "exclusion_codes": [
+      "no_llm_specific_focus",
+      "limited_conversational_governance_depth"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article provides a healthcare-focused, developer-oriented ethics governance framework spanning data management, model development, deployment and monitoring, with brief references to NLP-driven chatbots and human-AI interaction. Provided text does not address large language models or dedicated conversational governance mechanisms such as guardrails, tracing, contestation or post-deployment operational learning, so it supports regulated AI governance themes but is not central evidence for LLM-based conversational governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial PDF text was supplied; confirm full-text coverage of conversational systems, monitoring practices, accountability mechanisms and absence of LLM-specific discussion before final inclusion coding."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 4,
+    "notes": "Clear objective and appropriate scoping-review-plus-framework approach for operationalising ethics for healthcare AI developers. Adequacy of literature sampling and detailed review protocol are not fully evidenced in the supplied excerpts."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is coherently presented and grounded in a stated scoping review, but the supplied text gives limited detail on review sampling and selection. Relevance to the review focus is moderate because governance and healthcare regulation are strong, while LLM-specific and conversational-governance content is peripheral in the provided evidence."
+  },
+  "coding": {
+    "open_codes": [
+      "operationalising ethics",
+      "solution-based framework",
+      "AI lifecycle governance",
+      "healthcare AI harms",
+      "NLP chatbots",
+      "human-AI interaction",
+      "deployment and monitoring",
+      "transparency and explainability",
+      "vulnerable populations",
+      "documentation requirements"
+    ],
+    "axial_codes": [
+      "ethical AI governance",
+      "regulated healthcare context",
+      "developer-oriented operational controls",
+      "conversational AI as secondary use case"
+    ],
+    "theme": "Operational ethics governance for healthcare AI developers",
+    "subtheme": "Lifecycle framework translating ethical principles into actionable technical and non-technical practices",
+    "concepts": [
+      "governance",
+      "ethics",
+      "accountability",
+      "transparency",
+      "explainability",
+      "monitoring",
+      "deployment",
+      "human-AI interaction",
+      "risk",
+      "compliance"
+    ],
+    "model_layers": [
+      "data management",
+      "model development",
+      "deployment",
+      "monitoring"
+    ],
+    "rq_alignment": [
+      "regulated healthcare AI governance",
+      "human oversight in AI deployment",
+      "partial alignment to conversational systems via chatbot and human-AI interaction references",
+      "weak alignment to LLM-specific conversational governance"
+    ],
+    "coding_confidence": 0.81
+  },
+  "synthesis": {
+    "main_claim": "The authors propose a solution-based framework to operationalise ethics in healthcare AI for developers by collating actionable technical and non-technical practices across the full AI lifecycle.",
+    "contribution": "Moves beyond principle-based guidance by synthesising existing ethical AI guidelines, frameworks and technical solutions into developer-accessible recommendations covering data management, model development, deployment and monitoring.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence for regulated healthcare AI governance, lifecycle controls, monitoring, transparency and human-AI interaction; not as central evidence for LLM-based conversational governance because LLMs and conversational-specific controls are not substantively addressed in the supplied text."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed original research in AI and Ethics.",
+      "excerpt": "ORIGINAL RESEARCH Operationalising ethics in artificial intelligence for healthcare: a framework for AI developers",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses a scoping review to build an operational ethics framework.",
+      "excerpt": "Our framework is built from a scoping review of existing solutions of ethical AI guidelines, frameworks and technical solutions",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Framework spans the full AI lifecycle including deployment and monitoring.",
+      "excerpt": "Our view spans the entire length of the AI lifecycle: data management, model development, deployment and monitoring.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Healthcare is the regulated domain of focus.",
+      "excerpt": "ensuring human values and ethics are appropriately respected in AI for healthcare",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Technology context includes NLP and chatbots but not LLMs.",
+      "excerpt": "using NLP-driven chatbots to deliver cognitive behavioural therapy",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Conversational AI appears only as an example application.",
+      "excerpt": "Technical failures, such as AI chatbots that cease to function properly",
+      "page": "3",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance themes include explainability and interpretability trade-offs.",
+      "excerpt": "low interpretability and/or explainability, and shortcomings of AI not being fully disclosed",
+      "page": "5",
+      "section": "findings",
+      "supports": "coding"
+    },
+    {
+      "claim": "Deployment governance includes human-AI interaction guidance.",
+      "excerpt": "22. Ensure appropriate human-AI interaction [51]",
+      "page": "8",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "NLP documentation requirements are specified as a governance practice.",
+      "excerpt": "For NLP, documentation should encompass the following areas: curation rationale, language variety, speaker demographic",
+      "page": "9",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Objective is clearly stated for AI developers in healthcare.",
+      "excerpt": "we offer a solution-based framework for operationalising ethics in AI for healthcare",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Framework is intended to be adopted by AI developers with literature-driven recommendations.",
+      "excerpt": "Our framework is intended to be adopted by AI developers, with recommendations that are accessible and driven by the existing literature.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Risk and safety are central concerns in regulated healthcare AI.",
+      "excerpt": "Safety is a key priority in AI for healthcare, especially since relatively few initiatives are backed by empirical evidence",
+      "page": "3",
+      "section": "unclear",
+      "supports": "coding"
+    }
+  ]
+}

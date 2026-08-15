@@ -1,0 +1,187 @@
+{
+  "bibliographic": {
+    "title": "Large language models to process, analyze, and synthesize biomedical texts: a scoping review",
+    "authors": "Simona Emilova Doneva, Sijing Qin, Beate Sick, Tilia Ellendorff, Jean-Philippe Goldman, Gerold Schneider, Benjamin Victor Ineichen",
+    "year": "2024",
+    "venue": "Discover Artificial Intelligence",
+    "doi": "10.1007/s44163-024-00197-2",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Doneva, S. E., Qin, S., Sick, B., Ellendorff, T., Goldman, J.-P., Schneider, G., & Ineichen, B. V. (2024). Large language models to process, analyze, and synthesize biomedical texts: a scoping review. Discover Artificial Intelligence, 4, 107. https://doi.org/10.1007/s44163-024-00197-2"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "scoping review with systematic literature search",
+    "study_design": "scoping review",
+    "sample_description": "Studies and conference proceedings published from 2017 to December 19, 2023 that develop or utilize LLMs for NLP tasks in biomedicine",
+    "sample_size": "199",
+    "sector": "biomedicine, healthcare, clinical applications",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Biomedical NLP tasks including text classification, relation extraction, named entity recognition, knowledge management, text mining, drug discovery, and evidence synthesis; BERT-based and GPT-based models"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "not_conversational_ai",
+      "not_governance_focus"
+    ],
+    "exclusion_reason": "Scoping review on biomedical NLP applications of LLMs; does not address conversational AI, conversational governance, guardrails, human oversight, accountability mechanisms, or governance of regulated conversational LLM systems.",
+    "decision_rationale": "Although the article systematically reviews LLM use in a regulated healthcare/biomedical domain and briefly notes transparency and privacy challenges, its focus is mapping BioNLP tasks and LLM architectures for text processing, not governance of conversational or interactive LLM systems. References to accountability and fairness appear only in related-work discussion of other surveys, not as the study's primary object.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Scope mismatch is clear from title, abstract, and stated review goals; no conversational governance content identified in provided text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Methodologically appropriate scoping review for mapping biomedical LLM-NLP literature, but provided excerpts offer limited detail on analysis procedures, limitations, and ethics beyond a 3-item risk-of-bias checklist mention."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "As a biomedical NLP scoping review, the study appears adequately conducted for its own aims, but it has very low relevance to conversational governance in regulated LLM systems because it does not examine chatbots, agents, conversational interfaces, or governance/oversight mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "biomedical_nlp",
+      "scoping_review",
+      "llm_task_mapping",
+      "bert_gpt_architectures",
+      "transparency_challenges",
+      "privacy_concerns",
+      "evidence_synthesis",
+      "clinical_text_processing"
+    ],
+    "axial_codes": [
+      "llm_applications_healthcare",
+      "nlp_method_landscape",
+      "method_transparency_assessment"
+    ],
+    "theme": "Mapping LLM applications in biomedical text processing",
+    "subtheme": "BioNLP task taxonomy and model architectures",
+    "concepts": [
+      "large language models",
+      "natural language processing",
+      "biomedicine",
+      "text classification",
+      "relation extraction",
+      "named entity recognition",
+      "transparency",
+      "privacy"
+    ],
+    "model_layers": [],
+    "rq_alignment": [
+      "peripheral_llm_context_only"
+    ],
+    "coding_confidence": 0.87
+  },
+  "synthesis": {
+    "main_claim": "LLMs are increasingly applied across diverse biomedical NLP tasks, with BERT-based models still prevalent and GPT-based use rising since 2023, while clinical and evidence-synthesis applications raise transparency and privacy challenges.",
+    "contribution": "Provides a systematic scoping map of LLM use in biomedical NLP from 199 included studies, categorizing tasks, architectures, and method transparency.",
+    "limitations": "Provided text does not fully detail study limitations; review scope is biomedical text processing rather than conversational or governance dimensions.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational governance; may serve only as peripheral background on LLM adoption and generic transparency/privacy concerns in healthcare NLP."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a scoping review of LLMs for biomedical NLP, not conversational governance.",
+      "excerpt": "this scoping review aims to provide a detailed overview of the current state of biomedical NLP research and its applications, with a special focus on the evolving role of LLMs",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Systematic search and inclusion of 199 biomedical LLM studies.",
+      "excerpt": "We conducted a systematic search of PubMed, EMBASE, and Google Scholar for studies and conference proceedings published from 2017 to December 19, 2023, that develop or utilize LLMs for NLP tasks in biomedicine.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Sample size of 199 publications selected from 13,823 references.",
+      "excerpt": "From 13,823 references, we selected 199 publications and conference proceedings for our review.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Review goals focus on BioNLP tasks, architectures, and method transparency, not conversational governance.",
+      "excerpt": "this scoping review has three goals: Firstly, we aim to identify and categorize the specific tasks within BioNLP that are currently being addressed using LLMs",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Third goal assesses transparency of LLM development methods, not governance of conversational systems.",
+      "excerpt": "this study sets out to assess the transparency of methods used in the development of these LLMs, including the availability of source code and data as well as used hardware and software.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Primary applications are text-processing NLP tasks, not conversational AI.",
+      "excerpt": "Prominent among these tasks are text classification, relation extraction, and named entity recognition.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated healthcare context is present but via biomedical/clinical NLP applications.",
+      "excerpt": "widely adopted in various fields including biomedical research and clinical applications",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Transparency and privacy mentioned as challenges in clinical medicine and evidence synthesis.",
+      "excerpt": "LLMs also present challenges, particularly in clinical medicine and evidence synthesis, such as issues with transparency and privacy concerns.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Accountability mentioned only in related work about other healthcare LLM surveys.",
+      "excerpt": "Recent surveys have delved into the unique challenges posed by deploying LLMs in healthcare, especially concerning fairness and accountability.",
+      "page": "2",
+      "section": "related work",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Risk-of-bias assessment used a 3-item checklist.",
+      "excerpt": "We evaluated the risk of bias in these studies using a 3-item checklist.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Published as peer-reviewed journal review article.",
+      "excerpt": "Discover Artificial Intelligence Review",
+      "page": "1",
+      "section": "front matter",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Examines discriminative and generative LLM architectures for biomedical text-processing applications.",
+      "excerpt": "we systematically examine the usage of both discriminative and generative LLM architectures in biomedical text-processing applications.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    }
+  ]
+}

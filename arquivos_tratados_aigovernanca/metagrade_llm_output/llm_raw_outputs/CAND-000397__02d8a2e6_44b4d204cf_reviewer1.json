@@ -1,0 +1,193 @@
+{
+  "bibliographic": {
+    "title": "Reproducibility: The New Frontier in AI Governance",
+    "authors": "Israel Mason-Williams; Gabryel Mason-Williams",
+    "year": "2025",
+    "venue": "Workshop on Technical AI Governance (TAIG) at ICML 2025, Vancouver, Canada",
+    "doi": "unclear",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Mason-Williams, I., & Mason-Williams, G. (2025). Reproducibility: The new frontier in AI governance. Workshop on Technical AI Governance (TAIG) at ICML 2025, Vancouver, Canada."
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "policy commentary drawing on replication crises in other scientific domains",
+    "study_design": "conceptual commentary with cross-domain comparative lens",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "AI research and AI policy/governance",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "AI research broadly, with secondary mention of LLM capability evaluations and deep learning research practices"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "AI_GOVERNANCE",
+      "POLICYMAKER_GOVERNANCE",
+      "REPRODUCIBILITY_STANDARDS"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI",
+      "NO_OPERATIONAL_GOVERNANCE"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper argues that weak reproducibility protocols erode policymakers' ability to enact meaningful AI governance and recommends preregistration, increased statistical power, and negative-result publication. Provided text contains no discussion of conversational systems, chatbots, agents, RAG, guardrails, observability, audit logs, human oversight of deployed conversational AI, or sector-specific regulated deployment of LLM conversational systems. It is relevant as foundational context on meta-level AI governance and scientific standards for risk assessment, but not as central evidence for conversational governance in regulated LLM environments.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Extracted metadata conflicts with PDF front matter on year and venue; confirm bibliographic fields and whether workshop paper status affects inclusion."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Conceptual commentary without empirical sample; objective and recommendations are clearly stated, but limitations of the commentary approach are not explicitly discussed in the provided excerpts. Replication code link is provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is internally coherent and clearly links reproducibility standards to policymaker capacity for AI governance, but the provided text offers no direct evidence on conversational AI governance, operational controls, or regulated deployment contexts central to the review scope."
+  },
+  "coding": {
+    "open_codes": [
+      "reproducibility crisis",
+      "signal-to-noise ratio",
+      "preregistration",
+      "negative results publication",
+      "statistical power",
+      "policymaker uncertainty",
+      "regulatory capture risk",
+      "AI risk landscape consensus"
+    ],
+    "axial_codes": [
+      "scientific standards for governance",
+      "information environment for policymakers",
+      "research integrity as governance tool"
+    ],
+    "theme": "Reproducibility as a governance mechanism for AI policymaking",
+    "subtheme": "Scientific standards to improve trustworthy evidence for AI risk prioritization",
+    "concepts": [
+      "Signal-To-Noise Ratio",
+      "reproducibility protocols",
+      "preregistration",
+      "negative results",
+      "statistical power",
+      "reactive AI governance"
+    ],
+    "model_layers": [
+      "policy/governance layer",
+      "research integrity layer"
+    ],
+    "rq_alignment": [
+      "AI governance mechanisms",
+      "risk assessment evidence base",
+      "trustworthy AI development"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Weak reproducibility in fast-moving AI research lowers the signal-to-noise ratio available to policymakers, undermining effective AI governance, and stronger reproducibility protocols should be treated as core governance tools.",
+    "contribution": "Frames reproducibility—via preregistration, larger-sample statistical power, and publication of negative results—as a policy-relevant governance intervention, illustrated through analogies to replication crises in other scientific domains.",
+    "limitations": "Provided text does not address conversational AI systems, operational deployment governance, or regulated-sector implementation; limitations of the commentary itself are not clearly stated in the excerpts.",
+    "use_in_review": "Use as foundational/contextual evidence on how scientific reproducibility standards can support AI governance and policymaker decision-making; do not use as central evidence for conversational governance, human oversight of LLM interactions, or operational compliance controls."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on AI governance for policymakers via reproducibility standards.",
+      "excerpt": "AI policymakers are responsible for delivering effective governance mechanisms that can provide safe, aligned and trustworthy AI development.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Weak reproducibility erodes policymaker capacity to govern AI.",
+      "excerpt": "the current publication speeds in AI combined with the lack of strong scientific standards, via weak reproducibility protocols, effectively erodes the power of policymakers to enact meaningful policy and governance protocols.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Authors recommend specific reproducibility protocols for AI governance.",
+      "excerpt": "adopting preregistration, increased statistical power and negative result publication reproducibility protocols can enable effective AI governance.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Reproducibility protocols are proposed as core governance tools.",
+      "excerpt": "policymakers and governments must consider reproducibility protocols as a core tool in the governance arsenal and demand higher standards for AI research.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Venue and publication year differ from extracted metadata.",
+      "excerpt": "Workshop on Technical AI Governance (TAIG) at ICML 2025, Vancouver, Canada. Copyright 2025 by the author(s).",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Authors and affiliations are identifiable in the text.",
+      "excerpt": "Israel Mason-Williams 1 Gabryel Mason-Williams 2",
+      "page": "1",
+      "section": "Front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study design is conceptual commentary using cross-domain lens.",
+      "excerpt": "We evaluate the forthcoming reproducibility crisis within AI research through the lens of crises in other scientific domains; providing a commentary",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLMs are mentioned only in broader AI research evaluation context, not conversational governance.",
+      "excerpt": "has also been suggested to improve capability reporting for evaluations of LLMs (Miller, 2024), but can and should be applied to AI research more broadly.",
+      "page": "5",
+      "section": "findings",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational AI content appears in provided evidence.",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated/high-stakes domains appear only as broad societal impact examples.",
+      "excerpt": "new cyber security threats and opportunities (Dash et al., 2022), and revolutionising healthcare (Lee & Yoon, 2021).",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Transparency artifact supports some data-collection transparency.",
+      "excerpt": "Code to replicate data and figures: https://github .com/IFMW01/reproducibility-the -new-frontier-in-ai-governance",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Bias is referenced as a reason to improve research signal quality for regulators.",
+      "excerpt": "current AI systems propagate and amplify complex biases (Caliskan, 2023; Kotek et al., 2023), it is crucial that the Signal-To-Noise Ratio for AI research is increased",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    }
+  ]
+}

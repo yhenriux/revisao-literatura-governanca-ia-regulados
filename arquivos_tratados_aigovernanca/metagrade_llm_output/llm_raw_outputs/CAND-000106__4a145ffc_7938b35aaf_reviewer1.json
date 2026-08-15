@@ -1,0 +1,164 @@
+{
+  "bibliographic": {
+    "title": "Industrial applications of large language models",
+    "authors": "Mubashar Raza, Zarmina Jahangir, Muhammad Bilal Riaz, Muhammad Jasim Saeed, Muhammad Awais Sattar",
+    "year": "2025",
+    "venue": "unclear",
+    "doi": "10.1038/s41598-025-98483-1",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Raza, M., Jahangir, Z., Riaz, M. B., Saeed, M. J., & Sattar, M. A. (2025). Industrial applications of large language models. unclear. https://doi.org/10.1038/s41598-025-98483-1"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "unclear",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "healthcare, automotive, education, finance and banking",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "Large language models (LLMs), natural language processing (NLP), transformer architectures, text generation, industry automation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_focus",
+      "regulated_domain_mentioned",
+      "ethics_risk_mentioned"
+    ],
+    "exclusion_codes": [
+      "no_conversational_governance_focus",
+      "no_operational_governance_mechanisms"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O texto fornecido descreve uma análise abrangente de aplicações industriais de LLMs em setores como saúde, educação e finanças, com menção genérica a desafios éticos, vieses e gestão de risco. Não há, no excerto disponível, foco em governança conversacional, guardrails, observabilidade, auditoria, supervisão humana ou mecanismos operacionais de compliance em sistemas conversacionais. O artigo parece servir melhor como contexto fundacional sobre adoção industrial de LLMs do que como evidência central para governança conversacional.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Apenas a página 1 foi fornecida; triagem Python classificou como central_candidate, mas o escopo declarado é revisão ampla de aplicações industriais sem evidência explícita de governança conversacional no texto disponível."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 2,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 1,
+    "ethics_reflexivity": 2,
+    "results_clarity": 1,
+    "limitations_transparency": 3,
+    "evidence_support": 2,
+    "transferability": 3,
+    "notes": "Avaliação limitada ao front matter da página 1. O objetivo declarado é claro, mas desenho metodológico, amostragem, coleta e análise não são descritos no trecho fornecido. Menções a ética, viés e recursos computacionais são genéricas, sem detalhamento metodológico de governança."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "Relevância limitada para governança conversacional em ambientes regulados com base no texto fornecido. Coerência narrativa razoável sobre aplicações industriais de LLMs, mas adequação e rigor metodológico não podem ser avaliados além da introdução."
+  },
+  "coding": {
+    "open_codes": [
+      "industrial_llm_applications",
+      "healthcare_use_cases",
+      "finance_banking_automation",
+      "education_personalization",
+      "ethical_concerns",
+      "training_data_bias",
+      "computational_resource_constraints",
+      "customer_service_automation"
+    ],
+    "axial_codes": [
+      "LLM_adoption_across_sectors",
+      "high_level_risk_and_ethics",
+      "NLP_task_automation"
+    ],
+    "theme": "Aplicações industriais de LLMs",
+    "subtheme": "Adoção setorial e desafios genéricos de implantação",
+    "concepts": [
+      "large language models",
+      "natural language processing",
+      "transformers",
+      "text generation",
+      "risk management",
+      "fraud detection",
+      "customer service automation",
+      "bias",
+      "ethical concerns"
+    ],
+    "model_layers": [],
+    "rq_alignment": [
+      "contexto_de_adocao_de_LLM_em_setores_regulados",
+      "mencao_generica_a_risco_e_etica"
+    ],
+    "coding_confidence": 0.58
+  },
+  "synthesis": {
+    "main_claim": "LLMs estão transformando múltiplas indústrias ao automatizar tarefas de NLP, com aplicações em saúde, educação, finanças e outros setores, mas enfrentam desafios como preocupações éticas, vieses nos dados de treinamento e altos requisitos computacionais.",
+    "contribution": "Oferece visão panorâmica introdutória sobre evolução e aplicações industriais de LLMs, útil como contexto de adoção tecnológica em domínios regulados.",
+    "limitations": "No trecho fornecido, limitações são mencionadas apenas de forma genérica (ética, viés, recursos computacionais); não há detalhamento de métodos, achados empíricos ou mecanismos de governança conversacional.",
+    "use_in_review": "Usar como evidência contextual/fundacional sobre adoção de LLMs em setores regulados e desafios genéricos de implantação; não como evidência central para práticas de governança conversacional, compliance operacional ou supervisão humana."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo foca em aplicações industriais de LLMs",
+      "excerpt": "Industrial applications of large language models",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Estudo se apresenta como análise abrangente de LLMs e aplicações industriais",
+      "excerpt": "This study provides a comprehensive analysis of LLMs, their evolution, and their diverse applications across industries",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Aplicações em domínios regulados como saúde, educação e finanças",
+      "excerpt": "In healthcare, they assist in diagnosing diseases, personalizing treatment plans, and managing patient data.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Uso em finanças inclui automação de atendimento ao cliente e gestão de risco",
+      "excerpt": "In finance and banking, LLMs are used for fraud detection, customer service automation, and risk management.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Menção genérica a desafios éticos, viés e requisitos de implantação",
+      "excerpt": "LLMs face challenges such as ethical concerns, biases in training data, and significant computational resource requirements",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Não há evidência de foco em governança conversacional no texto fornecido",
+      "excerpt": "This study provides a comprehensive analysis of LLMs, their evolution, and their diverse applications across industries",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Tipo de pesquisa indicado como revisão/análise abrangente, sem desenho empírico descrito",
+      "excerpt": "offering researchers valuable insights into their transformative potential and the accompanying limitations",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Tecnologia central são LLMs baseados em transformers para NLP",
+      "excerpt": "Most of the LLMs are built on transformer architectures",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    }
+  ]
+}

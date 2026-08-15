@@ -1,0 +1,190 @@
+{
+  "bibliographic": {
+    "title": "Future directions for chatbot research: an interdisciplinary research agenda",
+    "authors": "Asbjørn Følstad, Theo Araujo, Effie Lai-Chong Law, Petter Bae Brandtzaeg, Symeon Papadopoulos, Lea Reis, Marcos Baez, Guy Laban, Patrick McAllister, Carolin Ischen, Rebecca Wald, Fabio Catania, Raphael Meyer von Wolff, Sebastian Hobert, Ewa Luger",
+    "year": "2021",
+    "venue": "Computing",
+    "doi": "10.1007/s00607-021-01016-7",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Følstad, A., Araujo, T., Law, E. L.-C., Brandtzaeg, P. B., Papadopoulos, S., Reis, L., Baez, M., Laban, G., McAllister, P., Ischen, C., Wald, R., Catania, F., Meyer von Wolff, R., Hobert, S., & Luger, E. (2021). Future directions for chatbot research: An interdisciplinary research agenda. Computing, 103, 2915–2942. https://doi.org/10.1007/s00607-021-01016-7"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "deliberative interdisciplinary research agenda synthesis from CONVERSATIONS workshop discussions",
+    "study_design": "research agenda / expert deliberation synthesis",
+    "sample_description": "workshop participants and researchers in chatbot research consolidated through the CONVERSATIONS workshop series",
+    "sample_size": "unclear",
+    "sector": "customer service, health, education, office work, collaboration",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "chatbots, conversational agents, dialogue systems, NLP/NLU, machine learning, GPT-3, BERT, transformer-based generative models"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full-text assessment",
+    "inclusion_codes": [
+      "conversational_ai",
+      "ethics_privacy",
+      "regulated_domains_mentioned",
+      "research_agenda"
+    ],
+    "exclusion_codes": [
+      "not_llm_governance_focus",
+      "not_empirical_governance_study",
+      "pre_llm_primary_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a 2021 interdisciplinary research agenda for chatbot research derived from CONVERSATIONS workshop deliberations. It addresses conversational agents, ethics, privacy, GDPR, bias, and application domains such as health and education, and references GPT-3 and large language models. However, it does not empirically study or operationalize conversational governance for LLM-based systems in regulated environments; its primary contribution is future research directions rather than governance mechanisms, audit, oversight, or compliance frameworks.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage graded it as central_candidate, but full-text content is agenda-setting and only partially aligned with LLM conversational governance in regulated contexts; manual adjudication is needed to confirm foundational versus supporting placement."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Appropriate as a conceptual agenda paper with transparent objectives and structured outputs, but not designed as empirical or governance-implementation research; workshop-based synthesis limits sampling rigor for evidence claims."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The paper is internally coherent and clearly structured across six research topics, including ethics and privacy, but offers agenda-level recommendations rather than evaluated governance evidence for LLM conversational systems in regulated settings."
+  },
+  "coding": {
+    "open_codes": [
+      "research agenda",
+      "interdisciplinary synthesis",
+      "future directions",
+      "ethics and privacy",
+      "democratizing chatbots",
+      "human-chatbot collaboration",
+      "bias mitigation",
+      "GDPR"
+    ],
+    "axial_codes": [
+      "conversational AI research",
+      "ethical and social implications",
+      "platforms and frameworks",
+      "regulated application domains"
+    ],
+    "theme": "Interdisciplinary chatbot research agenda",
+    "subtheme": "Ethics, privacy, and social implications of conversational agents",
+    "concepts": [
+      "chatbots",
+      "conversational agents",
+      "dialogue systems",
+      "ethics",
+      "privacy",
+      "fairness",
+      "bias",
+      "transparency",
+      "accountability",
+      "human oversight",
+      "GPT-3",
+      "large language models",
+      "GDPR"
+    ],
+    "model_layers": [
+      "user experience and design",
+      "frameworks and platforms",
+      "ethics and privacy"
+    ],
+    "rq_alignment": [
+      "conversational_ai_context",
+      "ethics_governance_themes",
+      "regulated_domain_applications"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The authors propose an interdisciplinary research agenda outlining future directions and challenges for chatbot research across six topics: users and implications, user experience and design, frameworks and platforms, chatbots for collaboration, democratizing chatbots, and ethics and privacy.",
+    "contribution": "Consolidates years of CONVERSATIONS workshop discussions into a structured 5-year research agenda for chatbot scholarship, including ethical risks, privacy regulation, bias, and emerging generative model developments.",
+    "limitations": "Agenda-setting paper without primary empirical governance evaluation; LLM references are contextual rather than central; published in 2021 and oriented to general chatbot research rather than operational LLM governance in regulated deployments.",
+    "use_in_review": "Use as foundational contextual evidence on chatbot research priorities, ethics, and privacy; cite for background on conversational-agent challenges and ethical risks, not as central evidence on LLM conversational governance mechanisms in regulated environments."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article proposing a chatbot research agenda",
+      "excerpt": "we propose a research agenda in the form of future directions and challenges to be addressed by chatbot research",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Derived from deliberative workshop synthesis rather than empirical governance study",
+      "excerpt": "This proposal consolidates years of discussions at the CONVERSATIONS workshop series on chatbot research. Following a deliberative research analysis process among the workshop participants",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Covers regulated-adjacent application domains including health and education",
+      "excerpt": "Chatbots are currently taken up in application areas as diverse as customer service [1], health [105], education [53], and office work [7",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "References GPT-3 and large-scale generative models as chatbot enablers",
+      "excerpt": "Models such as GPT-3 [16] by OpenAI and BERT (Bidirectional Encoder Representations from Transformers) [29] by Google leverage massive amounts of data",
+      "page": "12",
+      "section": "background",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Discusses ethical risks of large language models in conversational AI",
+      "excerpt": "The ethical discussion in chatbot research may, however, be gaining traction motivated, for example, by Bender et al.'s [9] critical overview of ethical risks pertaining to large language models",
+      "page": "18",
+      "section": "discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Addresses privacy governance via GDPR in Europe",
+      "excerpt": "the General Data Protection Regulation (GDPR) is now used to govern privacy in technology-based systems and services",
+      "page": "18",
+      "section": "discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Identifies bias, discrimination, and black-box machine learning as ethical challenges",
+      "excerpt": "research on how to avoid biases in chatbots, how to avoid chatbot discrimination and redlining, and how to mitigate the ethical issues introduced by the black-box approach to machine learning",
+      "page": "19",
+      "section": "discussion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Foresees human-chatbot collaboration as important future research",
+      "excerpt": "Human–chatbot collaboration is foreseen as an increasingly important aspect of chatbot research and applications",
+      "page": "20",
+      "section": "background",
+      "supports": "coding"
+    },
+    {
+      "claim": "Six-topic agenda structure including ethics and privacy",
+      "excerpt": "we explore future directions within six topics of interest: (a) users and implications, (b) user experience and design, (c) frameworks and platforms, (d) chatbots for collaboration, (e) democratizing chatbots, and (f) ethics and privacy",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Does not present operational governance mechanisms such as audit, guardrails, or post-deployment monitoring",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

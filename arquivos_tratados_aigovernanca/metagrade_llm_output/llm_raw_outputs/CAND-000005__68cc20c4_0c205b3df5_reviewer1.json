@@ -1,0 +1,200 @@
+{
+  "bibliographic": {
+    "title": "Artificial Intelligence Regulation: a framework for governance",
+    "authors": "Patricia Gomes Rêgo de Almeida; Carlos Denner dos Santos; Josivania Silva Farias",
+    "year": "2021",
+    "venue": "Ethics and Information Technology",
+    "doi": "10.1007/s10676-021-09593-z",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "de Almeida, P. G. R., dos Santos, C. D., & Farias, J. S. (2021). Artificial Intelligence Regulation: a framework for governance. Ethics and Information Technology. https://doi.org/10.1007/s10676-021-09593-z"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "systematic literature review and integrative framework development",
+    "study_design": "systematic review of Artificial Intelligence Regulation (AIR) literature (2010–2020) combined with analytical synthesis into an integrative framework based on Design and Action Theory",
+    "sample_description": "literature on Artificial Intelligence Regulation published between 2010 and 2020, including frameworks and guidelines organized around the framework concept",
+    "sample_size": "21 prior depictions of the policy-making process integrated",
+    "sector": "public policy and AI regulation",
+    "regulated_domain": "partial",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "general artificial intelligence and machine learning systems; public policy, legislation, and governance contexts"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "governance_accountability",
+      "regulated_high_stakes",
+      "risk_audit_compliance",
+      "foundational_value"
+    ],
+    "exclusion_codes": [
+      "llm_conversational_specificity_gap"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article provides a conceptual integrative framework for AI regulation and governance based on a systematic review of AIR literature, which aligns with governance and regulated-context themes. However, the provided text addresses AI and machine learning generally and does not mention LLMs, conversational systems, chatbots, agents, RAG, or operational conversational governance mechanisms specific to the review scope.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python triage marked central_candidate, but full-text evidence shows no LLM or conversational-AI specificity; confirm whether generic AI regulation frameworks should be included as foundational context."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Objective and outputs are clearly stated, and the method family (systematic review plus integrative framework synthesis) fits the stated aim. Appraisal is limited by the excerpt: detailed search strategy, inclusion or exclusion criteria, quality assessment, and explicit limitations are not visible in the provided text."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is coherently presented as an integrative synthesis of 21 prior policy-making depictions with a clear governance objective. Relevance to the target review is moderate-to-low because evidence concerns generic AI regulation rather than conversational or LLM-specific governance in regulated deployments."
+  },
+  "coding": {
+    "open_codes": [
+      "systematic review",
+      "policy-making stages",
+      "ethical principles",
+      "stakeholder-aware analysis",
+      "human-AI collaboration",
+      "accountability",
+      "dialogue",
+      "data governance",
+      "explainable AI"
+    ],
+    "axial_codes": [
+      "AI regulation",
+      "governance framework",
+      "public policy",
+      "ethical compliance"
+    ],
+    "theme": "Conceptual framework for artificial intelligence regulation and governance",
+    "subtheme": "Integrative public-policy framework for AIR",
+    "concepts": [
+      "AIR framework",
+      "Design and Action Theory",
+      "fairness",
+      "freedom",
+      "long-term sustainability",
+      "dialogical interaction",
+      "accountability of AI",
+      "Explainable Artificial Intelligence"
+    ],
+    "model_layers": [
+      "policy-making process",
+      "ethical perspectives",
+      "core functions for AI system development",
+      "country-specific stakeholder analysis"
+    ],
+    "rq_alignment": [
+      "governance_accountability",
+      "regulated_high_stakes",
+      "risk_audit_compliance",
+      "human_oversight_contestation"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The authors propose an integrative AIR framework for regulating AI across all stages of modern public policy-making, derived from a systematic review of AIR literature from 2010 to 2020 and synthesis of 21 prior depictions of the policy-making process.",
+    "contribution": "Offers a generic, country-specific, stakeholder-aware conceptual lens for deciding what, when, and how AI uses should be regulated, combining diverse theories and principles such as Agile and Ethics within Design and Action Theory.",
+    "limitations": "unclear",
+    "use_in_review": "Use as foundational contextual evidence on AI regulation and governance frameworks; not central evidence for LLM-based conversational governance because the text does not address conversational AI, LLMs, or deployment-specific operational controls."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with identifiable venue and DOI",
+      "excerpt": "Ethics and Information Technology https://doi.org/10.1007/s10676-021-09593-z ORIGINAL PAPER",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is a conceptual framework based on systematic review of AIR literature 2010–2020",
+      "excerpt": "Based on a vast systematic review of the literature on Artificial Intelligence Regulation (AIR) published between 2010 and 2020",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Framework integrates 21 prior depictions of the policy-making process",
+      "excerpt": "The resulting integrative framework encapsulates 21 prior depictions of the policy-making process",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Framework is grounded in Design and Action Theory",
+      "excerpt": "customised as a framework based on the Design and Action Theory (Gregor, 2006)",
+      "page": "1",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Technology context is generic AI and machine learning, not LLM-specific",
+      "excerpt": "the complexity of data treatment in the design and development process of a machine learning solution increases the likelihood of ethical surprises",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance emphasis includes dialogue and socially legitimated values",
+      "excerpt": "social values legitimated via dialogue and scientific research",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human-AI interaction and accountability are recommended core functions",
+      "excerpt": "Collaborating with AI—dialogical interaction, listening, and understanding between humans and AI.",
+      "page": "6",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Accountability and ethical compliance are explicit governance functions",
+      "excerpt": "Accountability of AI—guaranteeing the ethical compliance of AI systems and their designers.",
+      "page": "6",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulatory and legal policy context is discussed",
+      "excerpt": "other alternatives to regulate human behaviour may also be widely used",
+      "page": "3",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Explainability and data governance are recognized regulatory concerns",
+      "excerpt": "Explainable Artificial Intelligence (XAI) standard for the creation of coding models oriented towards a global comprehension",
+      "page": "3",
+      "section": "results",
+      "supports": "coding"
+    },
+    {
+      "claim": "No conversational AI or LLM specificity appears in provided text",
+      "excerpt": "Keywords Ethics · Artificial Intelligence · Regulation · Governance · Framework",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Framework aims to support legislation, research, and policy decisions",
+      "excerpt": "starting point for endeavours related to AI regulation, from legislation to research and development",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

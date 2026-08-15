@@ -1,0 +1,197 @@
+{
+  "bibliographic": {
+    "title": "Privacy, ethics, transparency, and accountability in AI systems for wearable devices",
+    "authors": "Petar Radanliev",
+    "year": "2025",
+    "venue": "Frontiers in Digital Health",
+    "doi": "10.3389/fdgth.2025.1431246",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Radanliev, P. (2025). Privacy, ethics, transparency, and accountability in AI systems for wearable devices. Frontiers in Digital Health, 7, 1431246. https://doi.org/10.3389/fdgth.2025.1431246"
+  },
+  "methodology": {
+    "research_type": "mixed",
+    "method_family": "systematic examination of ethical/regulatory challenges; privacy framework analysis; empirical assessment of publicly available datasets; data-driven methodological framework development",
+    "study_design": "unclear",
+    "sample_description": "publicly available datasets used for empirical assessment of model performance disparities",
+    "sample_size": "unclear",
+    "sector": "healthcare; wearable health technology",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "AI and machine learning integrated into wearable sensor technologies for continuous monitoring, personalised interventions, and predictive analytics; models include CNN, RNN, random forests, gradient-boosted trees, and other ML/DL techniques"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "governance_accountability",
+      "privacy_ethics_transparency",
+      "regulated_healthcare",
+      "bias_fairness",
+      "regulatory_compliance",
+      "framework_proposal"
+    ],
+    "exclusion_codes": [
+      "no_conversational_ai_focus",
+      "no_llm_system_focus",
+      "wearable_sensor_domain_mismatch"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article strongly addresses privacy, ethics, transparency, accountability, bias, and regulatory alignment for AI in regulated healthcare wearables, but the provided text does not focus on conversational AI, chatbots, agents, RAG, or LLM-based systems. It is better suited as supporting governance evidence than as central evidence for conversational LLM governance.",
+    "decision_confidence": 0.74,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "High automated screening score may overstate fit because governance terms are present while conversational AI and LLM-specific governance are largely absent from the provided text."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 4,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Provided excerpts show a clear objective and proposed framework, but detailed study design, dataset enumeration, analysis procedures, results, and limitations are not sufficiently visible in the supplied text for stronger methodological appraisal."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The framework is internally coherent and relevant to AI governance in regulated healthcare wearables, but methodological detail and direct relevance to conversational LLM governance are limited in the evidence provided."
+  },
+  "coding": {
+    "open_codes": [
+      "privacy",
+      "ethics",
+      "transparency",
+      "accountability",
+      "algorithmic bias",
+      "informed consent",
+      "explainable AI",
+      "bias mitigation",
+      "consent-aware data processing",
+      "GDPR alignment",
+      "EU AI Act alignment",
+      "wearable sensors",
+      "health data science",
+      "demographic performance disparities"
+    ],
+    "axial_codes": [
+      "ethical governance",
+      "regulatory compliance",
+      "algorithmic fairness",
+      "transparent AI development",
+      "healthcare AI risk"
+    ],
+    "theme": "Governance of AI in wearable healthcare through privacy, ethics, transparency, and accountability",
+    "subtheme": "Operational ethical framework for ML/DL wearable health systems",
+    "concepts": [
+      "data-driven methodological framework",
+      "explainable AI",
+      "bias mitigation techniques",
+      "consent-aware data processing pipelines",
+      "regulatory alignment",
+      "trustworthy AI-driven health monitoring"
+    ],
+    "model_layers": [
+      "principles",
+      "technical mechanisms",
+      "regulatory alignment",
+      "data processing pipeline"
+    ],
+    "rq_alignment": [
+      "governance",
+      "accountability",
+      "privacy",
+      "compliance",
+      "bias",
+      "transparency",
+      "regulated healthcare context"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "AI and ML in wearable healthcare raise major privacy, bias, transparency, and accountability risks, and these can be addressed through a data-driven framework that embeds ethical principles and regulatory alignment across AI development stages.",
+    "contribution": "Proposes a replicable framework operationalising transparency, accountability, explainable AI, bias mitigation, and consent-aware processing for wearable healthcare AI, aligned with GDPR, UK Data Protection Act, and EU AI Act.",
+    "limitations": "unclear",
+    "use_in_review": "Use as supporting evidence on governance principles, privacy, ethics, transparency, accountability, bias mitigation, and regulatory alignment in regulated healthcare AI; not as central evidence for conversational or LLM-specific governance."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal article with identifiable bibliographic metadata.",
+      "excerpt": "REVIEWED BY Catherine Knibbs",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study focuses on AI/ML in wearable sensor technologies for healthcare, not conversational systems.",
+      "excerpt": "The integration of artificial intelligence (AI) and machine learning (ML) into wearable sensor technologies has substantially advanced health data science",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Article addresses privacy, ethics, transparency, accountability, bias, and regulatory concerns.",
+      "excerpt": "critical ethical and regulatory concerns, particularly around data privacy, algorithmic bias, informed consent, and the opacity of automated decision-making",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Methods include analysis of privacy frameworks and empirical assessment of publicly available datasets.",
+      "excerpt": "Through an analysis of current privacy frameworks and empirical assessment of publicly available datasets",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Study identifies demographic disparities in model performance.",
+      "excerpt": "identifies significant disparities in model performance across demographic groups",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Proposes a data-driven methodological framework embedding transparency, accountability, and regulatory alignment.",
+      "excerpt": "introduces a data-driven methodological framework that embeds transparency, accountability, and regulatory alignment across all stages of AI development",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Framework includes explainable AI, bias mitigation, and consent-aware processing aligned with major legal standards.",
+      "excerpt": "including explainable AI, bias mitigation techniques, and consent-aware data processing pipelines, while aligning with legal standards such as the GDPR, the UK Data Protection Act, and the EU AI Act",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Technology context is traditional ML/DL for wearables rather than LLM systems.",
+      "excerpt": "machine learning algorithms, or even deep learning techniques. For wearable sensor data, some popularly applied models include time-series analysis, convolutional neural networks (CNN)",
+      "page": "5",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Only weak conversational-AI signal appears, as a general ethics discussion rather than conversational system governance.",
+      "excerpt": "wearable sensors are integral to the broader conversation on ethics and privacy in AI and ML",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Foundation models are referenced in bibliography, not established as the article's primary technology focus.",
+      "excerpt": "Do Foundation Model Providers Comply with the Draft EU AI Act?",
+      "page": "15",
+      "section": "references",
+      "supports": "eligibility"
+    }
+  ]
+}

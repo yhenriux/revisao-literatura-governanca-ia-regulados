@@ -1,0 +1,196 @@
+{
+  "bibliographic": {
+    "title": "Generative AI and large language models in health care: pathways to implementation",
+    "authors": "unclear",
+    "year": "2024",
+    "venue": "npj Digital Medicine",
+    "doi": "10.1038/s41746-023-00988-4",
+    "publication_type": "journal_article",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Generative AI and large language models in health care: pathways to implementation. (2024). npj Digital Medicine, 7, 62. https://doi.org/10.1038/s41746-023-00988-4"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "editorial commentary with framework synthesis",
+    "study_design": "editorial perspective synthesizing prior review literature and proposing an evaluation checklist",
+    "sample_description": "No primary sample; references Wornow et al. review of 84 foundation models trained on clinical structured text data from EMRs",
+    "sample_size": "84 (referenced third-party review, not studied directly)",
+    "sector": "health care",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "generative AI and LLMs applied to electronic medical records, EHR integrations, clinical language models, EMR representation models, chatbots, and clinical digital assistants"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "llm_genai",
+      "conversational_ai",
+      "regulated_healthcare",
+      "implementation_governance"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The document is a healthcare editorial on generative AI and LLMs with conversational interfaces and regulated-context concerns such as privacy and FDA responsibility, but its primary contribution is an EMR model evaluation checklist and implementation pathways rather than conversational governance mechanisms such as oversight, audit, guardrails, or contestability.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Provided text is partial, author names are not visible, and governance content may appear in unread sections."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 3,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Editorial synthesis without primary empirical methods; useful for implementation framing and regulated healthcare context but weak as standalone methodological evidence for conversational governance."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The text coherently links LLM healthcare applications to implementation and evaluation concerns, but offers limited direct evidence on conversational governance controls; confidence is moderate because the excerpt is incomplete and the piece is opinion/editorial rather than empirically grounded."
+  },
+  "coding": {
+    "open_codes": [
+      "EMR foundation models",
+      "clinical language models",
+      "implementation pathways",
+      "evaluation checklist",
+      "hallucination risk",
+      "data privacy",
+      "FDA leadership",
+      "EHR digital assistant"
+    ],
+    "axial_codes": [
+      "regulated healthcare AI",
+      "model evaluation governance",
+      "conversational clinical interfaces"
+    ],
+    "theme": "Implementation and evaluation of generative AI and LLMs in healthcare EMRs",
+    "subtheme": "Conversational tools and clinical digital assistants in regulated health systems",
+    "concepts": [
+      "generative AI",
+      "large language models",
+      "foundation models",
+      "electronic medical records",
+      "chatbot",
+      "clinical digital assistant",
+      "privacy",
+      "regulation",
+      "responsibility",
+      "hallucination"
+    ],
+    "model_layers": [
+      "deployment",
+      "risk_control",
+      "regulatory_governance"
+    ],
+    "rq_alignment": [
+      "LLM/generative AI in regulated healthcare",
+      "conversational interfaces in clinical workflows",
+      "partial alignment with governance via privacy, regulation, and evaluation criteria"
+    ],
+    "coding_confidence": 0.74
+  },
+  "synthesis": {
+    "main_claim": "The editorial argues that health systems need structured pathways and an evaluation checklist to implement generative AI and LLM models on electronic medical records, building on a large prior review of clinical foundation models.",
+    "contribution": "Provides contextual implementation framing for healthcare LLMs, references an EMR-focused model taxonomy, and highlights regulated deployment examples including EHR-integrated conversational tools.",
+    "limitations": "No primary empirical study design; conversational governance is not the central focus; provided text is truncated and authorship is unclear.",
+    "use_in_review": "Use as supporting contextual evidence on healthcare LLM implementation, EMR evaluation criteria, privacy and regulatory responsibility, and examples of conversational clinical assistants rather than as central evidence on conversational governance architecture."
+  },
+  "evidence": [
+    {
+      "claim": "Article is an editorial on generative AI and LLMs in healthcare implementation.",
+      "excerpt": "EDITORIAL OPEN Generative AI and large language models in health care: pathways to implementation",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Published in npj Digital Medicine with DOI provided.",
+      "excerpt": "npj Digital Medicine (2024) 7:62 ; https://doi.org/ 10.1038/s41746-023-00988-4",
+      "page": "1",
+      "section": "front matter",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Discusses LLMs and chatbots as conversational generative AI.",
+      "excerpt": "OpenAI launched ChatGPT, an artificial intelligence (AI) chatbot and search tool.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "LLMs are described as simulating human conversation.",
+      "excerpt": "many of these models aim to simulate human conversation",
+      "page": "1",
+      "section": "front matter",
+      "supports": "coding"
+    },
+    {
+      "claim": "Primary contribution is an evaluation checklist for generative AI on EMRs.",
+      "excerpt": "Inspired by that work, we present our evaluation checklist for generative AI models applied to electronic medical records.",
+      "page": "1",
+      "section": "front matter",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Builds on a review of 84 foundation models for EMRs.",
+      "excerpt": "Wornow et al. conducted a review of 84 foundation models trained on clinical structured text data from EMRs.",
+      "page": "1",
+      "section": "evaluating generative AI models for EMRs",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Identifies privacy as a limitation in current healthcare generative AI uses.",
+      "excerpt": "current uses of generative AI within healthcare are limited by their lack of generalizability and issues of data privacy.",
+      "page": "1",
+      "section": "evaluating generative AI models for EMRs",
+      "supports": "coding"
+    },
+    {
+      "claim": "Raises hallucination as an implementation risk.",
+      "excerpt": "generative AI models ‘hallucinating,’ or inventing responses when they do not have sufficient information",
+      "page": "1",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Describes a regulated clinical digital assistant use case.",
+      "excerpt": "Oracle Cerner announced the Oracle Clinical Digital Assistant tool, a multimodal voice and screen-based tool that will participate in appointments",
+      "page": "1",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "Mentions conversational drafting of patient messages in EHR deployment.",
+      "excerpt": "using generative AI to auto-draft responses to common and/or time-intensive patient messages",
+      "page": "1",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "References regulatory responsibility in healthcare AI leadership.",
+      "excerpt": "A sub-committee within the FDA could be well positioned to undertake such responsibility.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "States continued regulation is required.",
+      "excerpt": "Alongside leadership, continued regulation will be required to balance the interests of dev",
+      "page": "2",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

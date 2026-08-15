@@ -1,0 +1,147 @@
+{
+  "bibliographic": {
+    "title": "Adding Recurrence to Pretrained Transformers for Improved Efficiency and Context Size",
+    "authors": "Davis Yoshida; Allyson Ettinger; Kevin Gimpel",
+    "year": "2019",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Yoshida, D., Ettinger, A., & Gimpel, K. (2019). Adding recurrence to pretrained transformers for improved efficiency and context size. Preprint."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "experimental neural architecture evaluation on language modeling benchmarks",
+    "study_design": "comparative benchmark experiment with modified GPT-2 versus baseline",
+    "sample_description": "PG-19 and WikiText-103 corpora for perplexity evaluation",
+    "sample_size": "unclear",
+    "sector": "NLP research",
+    "regulated_domain": "no",
+    "llm_specificity": "specific_llm",
+    "technology_context": "pretrained transformer language models, especially GPT-2, augmented with a small recurrence module to extend context and reduce memory use"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "no_conversational_ai",
+      "no_governance_accountability",
+      "no_regulated_deployment_context"
+    ],
+    "exclusion_reason": "Technical NLP paper on transformer efficiency and context extension; does not study conversational AI, governance, accountability, compliance, oversight, or regulated deployment.",
+    "decision_rationale": "The article proposes and evaluates a recurrence module for pretrained transformers to improve memory efficiency and context size on language modeling corpora. Provided text contains no discussion of conversational systems, chatbots, agents, guardrails, audit, compliance, human oversight, or governance in regulated settings. Matches to education, government, law, and trust in automated screening come from PG-19 text continuations, not from the study's domain or aims.",
+    "decision_confidence": 0.96,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is clear from title, abstract, and methods; no governance or conversational-AI content in supplied text."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 2,
+    "notes": "Appraised only on supplied text. Study appears methodologically coherent for an NLP architecture paper, but ethics, limitations, and sampling details are limited in the excerpt. Not transferable to conversational governance in regulated LLM systems."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 1,
+    "overall_confidence": "high",
+    "explanation": "High confidence in exclusion: the paper is internally coherent as technical NLP research, but provides no substantive evidence on conversational governance, accountability, compliance, or regulated deployment."
+  },
+  "coding": {
+    "open_codes": [
+      "recurrence_module",
+      "extended_context",
+      "memory_efficiency",
+      "pretrained_transformers",
+      "perplexity_evaluation"
+    ],
+    "axial_codes": [
+      "NLP_model_architecture",
+      "language_model_optimization"
+    ],
+    "theme": "Technical efficiency of pretrained language models",
+    "subtheme": "Context extension via recurrence over transformer windows",
+    "concepts": [
+      "GPT-2",
+      "pretrained transformers",
+      "context size",
+      "perplexity",
+      "recurrence module",
+      "memory footprint"
+    ],
+    "model_layers": [
+      "model_architecture"
+    ],
+    "rq_alignment": [],
+    "coding_confidence": 0.92
+  },
+  "synthesis": {
+    "main_claim": "Adding a small recurrence module to pretrained transformer language models can lower memory requirements and remove fixed context-size constraints while improving perplexity on PG-19 and WikiText-103 for a given computation or memory budget.",
+    "contribution": "Proposes a method to augment and fine-tune pretrained transformers so they use prior-window hidden states without directly attending to full long contexts.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central and supporting evidence. At most peripheral foundational context on transformer context-size and efficiency limits, not on conversational governance."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focus is transformer efficiency and context extension, not governance or conversational AI",
+      "excerpt": "We present a novel method for applying pretrained transformer language models which lowers their memory requirement both at training and inference time.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study evaluates GPT-2 on standard language modeling corpora",
+      "excerpt": "When applied to the GPT-2 language model, we find that our method attains better perplexity than an unmodified GPT-2 model on the PG-19 and WikiText-103 corpora",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Core problem is computational cost and fixed context windows in transformers",
+      "excerpt": "these models have a memory footprint that is quadratic in input sequence length",
+      "page": "1",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Method adds recurrence using hidden states from preceding windows",
+      "excerpt": "for subsequent windows we add a supplementary embedding, which is generated using the hidden states from the preceding window",
+      "page": "2",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "GPT-3 mention is incidental application context, not governance study",
+      "excerpt": "Note that AIDungeon now uses the OpenAI GPT-3 API, but a similar project without OpenAI API access would still have to use GPT-2.",
+      "page": "4",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated-domain terms in screening are artifacts of generated PG-19 continuations, not study sector",
+      "excerpt": "Table 3: Continuations of PG-19 validation set passages using recurrent model (T = 300, disjoint) which display approximate continuation of topic.",
+      "page": "9",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No conversational-system or governance constructs appear in provided text",
+      "excerpt": "Fine-tuning a pretrained transformer for a downstream task has become a standard method in NLP in the last few years.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

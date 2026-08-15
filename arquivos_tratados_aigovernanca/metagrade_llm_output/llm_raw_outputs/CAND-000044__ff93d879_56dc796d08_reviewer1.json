@@ -1,0 +1,192 @@
+{
+  "bibliographic": {
+    "title": "AI ethics in banking services: a systematic and bibliometric review of regulatory and consumer perspectives",
+    "authors": "McArthur Fundira; Charles Mbohwa",
+    "year": "2025",
+    "venue": "Discover Artificial Intelligence",
+    "doi": "10.1007/s44163-025-00432-4",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Fundira, M., & Mbohwa, C. (2025). AI ethics in banking services: A systematic and bibliometric review of regulatory and consumer perspectives. Discover Artificial Intelligence, 5, 319. https://doi.org/10.1007/s44163-025-00432-4"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic literature review; bibliometric mapping; content analysis; thematic clustering",
+    "study_design": "multi-method systematic review with bibliometric mapping and content-driven thematic analysis using a three-level article selection strategy",
+    "sample_description": "peer-reviewed articles on AI ethics in banking services published between 2018 and 2024",
+    "sample_size": "25",
+    "sector": "banking; financial services",
+    "regulated_domain": "yes",
+    "llm_specificity": "unclear",
+    "technology_context": "AI and machine learning in banking, including chatbots, robo-advisors, fraud detection, credit scoring, personalization, and automated customer assistants"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "regulated_banking_domain",
+      "ai_ethics_governance",
+      "systematic_review",
+      "chatbots_customer_facing_ai",
+      "regulatory_compliance_risk"
+    ],
+    "exclusion_codes": [
+      "no_explicit_llm_focus",
+      "conversational_governance_not_primary"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed systematic and bibliometric review synthesizing AI ethics, governance, regulation, and customer impact in banking. It is relevant to regulated-domain AI governance but does not center on LLM-based conversational systems, guardrails, observability, or operational conversational governance; chatbots appear as one customer-facing application among broader banking AI uses.",
+    "decision_confidence": 0.74,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python-extracted title metadata is corrupted; provided excerpts do not mention LLMs/generative AI explicitly, so full-text verification is needed to confirm absence of conversational-LLM governance content."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Clear multi-method review design and reported thematic outputs, but only 25 included studies and the provided text gives limited detail on search strategy, screening, and quality appraisal procedures."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The review presents a coherent synthesis of AI ethics and governance themes in banking and cites structured selection and clustering, but the small corpus, acknowledged empirical and enforcement gaps, and lack of LLM/conversational governance specificity limit confidence for the project’s central focus."
+  },
+  "coding": {
+    "open_codes": [
+      "AI ethics in banking",
+      "systematic literature review",
+      "bibliometric mapping",
+      "ethical governance",
+      "regulatory oversight",
+      "customer-centric AI",
+      "chatbots",
+      "algorithmic bias",
+      "transparency",
+      "fairness",
+      "risk management",
+      "research gaps"
+    ],
+    "axial_codes": [
+      "regulated financial services AI governance",
+      "consumer protection and trust",
+      "risk-based regulatory frameworks",
+      "customer-facing automated assistants"
+    ],
+    "theme": "AI ethics and governance in regulated banking services",
+    "subtheme": "regulatory and consumer perspectives on responsible AI deployment",
+    "concepts": [
+      "ethical governance",
+      "AI application areas",
+      "customer-centric AI technologies",
+      "risk and ethical decision-making",
+      "EU Artificial Intelligence Act",
+      "Singapore AI Governance Framework",
+      "chatbots",
+      "robo-advisors",
+      "credit scoring",
+      "algorithmic bias"
+    ],
+    "model_layers": [
+      "policy/regulatory layer",
+      "organizational governance layer",
+      "customer interaction layer"
+    ],
+    "rq_alignment": [
+      "governance and accountability in regulated AI",
+      "compliance and risk in financial services",
+      "human/customer oversight and trust",
+      "bias, fairness, transparency, privacy"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "AI integration in banking raises major ethical issues around privacy, bias, transparency, fairness, and regulatory oversight; the reviewed literature clusters around ethical governance, AI applications, customer-centric technologies, and risk/ethics decision-making, with persistent gaps in empirical validation, customer trust, and enforcement of governance principles.",
+    "contribution": "Integrates bibliometric mapping with thematic content analysis to consolidate knowledge on AI ethics in banking and highlight harmonized, context-specific regulatory approaches such as the EU AI Act and Singapore’s AI Governance Framework.",
+    "limitations": "Small included sample (n=25); gaps in empirical validation, customer trust, and practical enforcement of AI governance; excerpts provide limited methodological detail and no explicit LLM/conversational governance analysis.",
+    "use_in_review": "Use as supporting evidence for regulated-domain AI ethics/governance in banking and as contextual background on chatbots and regulatory frameworks; not suitable as central evidence for LLM conversational governance unless full text confirms broader generative/conversational scope."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a multi-method systematic review with bibliometric and content analysis.",
+      "excerpt": "This study employs a multi- method approach comprising a systematic literature review (SLR), bibliometric mapping, and content analysis",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Included corpus comprises 25 peer-reviewed articles from 2018–2024.",
+      "excerpt": "A total of 25 peer-reviewed articles published between 2018 and 2024 were analysed using structured selection criteria and thematic clustering.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Findings organize into four dominant thematic domains relevant to governance and risk.",
+      "excerpt": "The findings reveal four dominant thematic domains: ethical governance, AI application areas, customer-centric AI technologies, and risk and ethical decision-making.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Chatbots are identified as a customer-facing banking AI exposure point.",
+      "excerpt": "Banking service customers are directly exposed to AI whenever they use automated assistants such as chatbots and Robo-advisors",
+      "page": "2",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulatory governance frameworks include the EU AI Act and Singapore’s AI Governance Framework.",
+      "excerpt": "the recently adopted EU Artificial Intelligence Act [24] offers a pioneer­ ing risk-based framework for governing AI",
+      "page": "4",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Authors acknowledge gaps in empirical validation, trust, and enforcement of governance principles.",
+      "excerpt": "research gaps remain regarding empirical validation, customer trust, and the practical enforcement of AI governance principles.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Customer-centric AI cluster explicitly includes chatbots and human-centred AI.",
+      "excerpt": "Cluster 3: Customer-centric AI technologies. This cluster explores AI technologies that are centred on customers in financial services. Keywords: Customer experience, Chatbots, Personalization, Human-centred AI",
+      "page": "12",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study targets banking as a high-stakes regulated sector with ethical and compliance concerns.",
+      "excerpt": "However, these technological advances have introduced critical ethical concerns, particularly around data privacy, algorithmic bias, transparency, fairness, and regulatory oversight.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Selection followed a structured three-level article selection strategy.",
+      "excerpt": "The article selection strategy followed a three-level approach [28].",
+      "page": "5",
+      "section": "unclear",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Machine learning and AI are discussed generically without explicit LLM reference in provided excerpts.",
+      "excerpt": "Many arguments also relate to the immunity of machine learning systems to discrimination based on race, gender, sexual orientation, or political affilia­ tion",
+      "page": "3",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

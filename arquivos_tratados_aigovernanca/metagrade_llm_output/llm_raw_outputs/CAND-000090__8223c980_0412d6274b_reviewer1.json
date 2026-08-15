@@ -1,0 +1,205 @@
+{
+  "bibliographic": {
+    "title": "Ethical Implications and Accountability of Algorithms",
+    "authors": "Kirsten Martin",
+    "year": "2019",
+    "venue": "Journal of Business Ethics",
+    "doi": "10.1007/s10551-018-3921-3",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Martin, K. (2019). Ethical implications and accountability of algorithms. Journal of Business Ethics, 160, 835–850. https://doi.org/10.1007/s10551-018-3921-3"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "normative conceptual analysis with illustrative cases",
+    "study_design": "theoretical argument and conceptual framework",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "criminal justice, employment, housing, finance, education, government",
+    "regulated_domain": "yes",
+    "llm_specificity": "pre_llm_ai",
+    "technology_context": "algorithms, artificial intelligence, machine learning, neural networks, big data; not conversational systems or LLMs"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "GOV_ACCOUNTABILITY",
+      "REGULATED_CONTEXT",
+      "ETHICS_FAIRNESS",
+      "HUMAN_OVERSIGHT"
+    ],
+    "exclusion_codes": [
+      "NOT_LLM_SPECIFIC",
+      "NOT_CONVERSATIONAL_AI",
+      "NO_OPERATIONAL_TECH_GOVERNANCE"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O artigo oferece fundamentação normativa robusta sobre responsabilidade e accountability de algoritmos em contextos regulados de alto risco, mas não aborda governança conversacional, sistemas baseados em LLM, chatbots, agentes, RAG, guardrails, observabilidade operacional ou tracing. A única ocorrência de conversation refere-se ao debate acadêmico sobre algoritmos, não a IA conversacional.",
+    "decision_confidence": 0.82,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Estudo conceitual sem coleta empírica primária; usa casos ilustrativos (ex.: COMPAS) para sustentar argumento normativo. Adequado ao seu objetivo teórico, mas com limitada aplicabilidade direta a governança conversacional em LLMs."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "Argumento conceitual coerente e bem articulado sobre accountability algorítmica, porém com relevância limitada para o escopo específico de governança conversacional em LLMs; evidência indireta e contextual."
+  },
+  "coding": {
+    "open_codes": [
+      "algorithmic accountability",
+      "value-laden algorithms",
+      "designer responsibility",
+      "human role in decisions",
+      "algorithmic transparency",
+      "machine learning bias",
+      "proxy variables",
+      "trade secret opacity"
+    ],
+    "axial_codes": [
+      "ethical governance",
+      "accountability allocation",
+      "regulated decision systems",
+      "bias and fairness"
+    ],
+    "theme": "Responsabilidade ética e accountability na concepção e uso de algoritmos",
+    "subtheme": "Papel humano versus autonomia algorítmica em decisões reguladas",
+    "concepts": [
+      "value-laden algorithms",
+      "who-does-what in algorithmic decisions",
+      "algorithmic transparency",
+      "machine learning bias",
+      "caveat user approach",
+      "black box narrative"
+    ],
+    "model_layers": [
+      "normative principles",
+      "role allocation in decision processes",
+      "developer accountability"
+    ],
+    "rq_alignment": [
+      "accountability",
+      "human oversight",
+      "bias and fairness",
+      "regulated high-stakes contexts"
+    ],
+    "coding_confidence": 0.85
+  },
+  "synthesis": {
+    "main_claim": "Empresas desenvolvedoras de algoritmos devem ser responsáveis tanto pelo caráter valorativo dos algoritmos quanto pelo desenho de quem faz o quê nas decisões algorítmicas; se o algoritmo impede que indivíduos assumam responsabilidade, o designer deve ser responsabilizado pelas implicações éticas do uso.",
+    "contribution": "Framework normativo que trata algoritmos como atores éticos valorativos e propõe alocação explícita de papéis e responsabilidades em decisões algorítmicas, com implicações para transparência, viés e contextos regulados como justiça criminal e admissões universitárias.",
+    "limitations": "Não aborda LLMs, sistemas conversacionais, governança operacional pós-implantação, observabilidade, tracing, guardrails ou mecanismos técnicos de supervisão; foco em algoritmos e ML genéricos anteriores ao contexto LLM.",
+    "use_in_review": "Evidência fundacional contextual para accountability, supervisão humana e viés em decisões algorítmicas reguladas; não serve como evidência central sobre governança conversacional em sistemas LLM."
+  },
+  "evidence": [
+    {
+      "claim": "Autor e periódico revisado por pares",
+      "excerpt": "Kirsten Martin",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Publicação em periódico com revisão por pares duplo-cego",
+      "excerpt": "subject to full double-blind peer-review processes",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Objetivo: identificar responsabilidade de desenvolvedores por algoritmos em uso",
+      "excerpt": "This article identifies whether developers have a responsibility for their algorithms later in use",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Algoritmos são valorativos e moldam papéis em decisões éticas",
+      "excerpt": "I conceptualize algorithms as value-laden, rather than neutral",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Designer responsável se algoritmo exclui responsabilidade individual",
+      "excerpt": "if an algorithm is designed to preclude individuals from taking responsibility within a decision, then the designer of the algorithm should be held accountable",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Contexto regulado de alto risco: justiça criminal com COMPAS",
+      "excerpt": "a computer system called COMPAS had ranked him \"high risk.\"",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Opacidade algorítmica por segredo comercial",
+      "excerpt": "Northpointe, the for-profit company that sells COMPAS, considers that information to be a trade secret",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Conversation refere-se a debate acadêmico, não IA conversacional",
+      "excerpt": "The current conversation about algorithms absolves firms of responsibility",
+      "page": "2",
+      "section": "results",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Escopo tecnológico: ML, IA e redes neurais, sem LLM ou chatbots",
+      "excerpt": "more autonomous algorithms such as machine learning, artificial intelligence, and neural networks",
+      "page": "3",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Transparência como precursor para governança de algoritmos",
+      "excerpt": "how algorithms can and should be transparent in order to be governed",
+      "page": "3",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Viés indireto via proxies e machine learning",
+      "excerpt": "two mechanisms can also indirectly drive bias in the process: proxies and machine learning",
+      "page": "4",
+      "section": "findings",
+      "supports": "coding"
+    },
+    {
+      "claim": "Exemplo regulado: admissões universitárias com ML",
+      "excerpt": "a university could use a machine learning algorithm with historical admissions, rejection, and graduation records",
+      "page": "12",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Viés de ML reflete dados históricos enviesados",
+      "excerpt": "whenever you train a model on historical human data, you will end up inviting whatever that data carries",
+      "page": "12",
+      "section": "unclear",
+      "supports": "synthesis"
+    }
+  ]
+}

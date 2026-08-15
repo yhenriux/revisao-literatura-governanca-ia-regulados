@@ -1,0 +1,214 @@
+{
+  "bibliographic": {
+    "title": "From ethical AI frameworks to tools: a review of approaches",
+    "authors": "Erich Prem",
+    "year": "2023",
+    "venue": "AI and Ethics",
+    "doi": "10.1007/s43681-023-00258-9",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Prem, E. (2023). From ethical AI frameworks to tools: a review of approaches. AI and Ethics, 3(3), 699–716. https://doi.org/10.1007/s43681-023-00258-9"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic literature review and taxonomy development",
+    "study_design": "systematic analysis of more than 100 frameworks, process models, remedies and tools, expanding on Morley et al.",
+    "sample_description": "frameworks, process models, proposed remedies and tools for ethical AI published in the literature",
+    "sample_size": ">100",
+    "sector": "general artificial intelligence ethics and development",
+    "regulated_domain": "partial",
+    "llm_specificity": "generic_genai",
+    "technology_context": "ethical AI frameworks, guidelines, process models, software tools, algorithms, infrastructure, and methods across AI applications including conversational agents"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_assessment",
+    "inclusion_codes": [
+      "governance_accountability",
+      "risk_audit_compliance",
+      "human_oversight_contestation",
+      "foundational_value",
+      "generic_genai"
+    ],
+    "exclusion_codes": [
+      "llm_specificity_insufficient",
+      "conversational_governance_not_primary"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed systematic review mapping ethical AI frameworks to implementation tools, with strong relevance to governance, accountability, explainability, privacy, fairness, and human oversight. It does not focus on LLM-based conversational systems or operational conversational governance in regulated high-stakes deployments, so it is better classified as foundational contextual evidence than central evidence for the review scope.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial full text and excerpted evidence were provided; confirm search strategy, inclusion criteria, and whether later sections address conversational agents, regulated domains, or post-deployment monitoring in greater depth."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Clear review objective and structured outputs are evident, but the provided excerpts do not fully document search protocol, screening workflow, or detailed limitations. Transferability to LLM conversational governance in regulated environments is indirect."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The review coherently maps principles-to-tools gaps and ethical issue coverage across a large sample, but supplied text gives limited detail on retrieval and appraisal methods. Relevance to the target review is moderate because governance themes are strong while conversational AI and regulated operational governance are peripheral."
+  },
+  "coding": {
+    "open_codes": [
+      "principlism",
+      "principles_to_implementation_gap",
+      "ethical_frameworks",
+      "ethics_tools",
+      "algorithmic_remedies",
+      "process_models",
+      "AI_development_segmentation",
+      "explicability",
+      "fairness",
+      "privacy",
+      "accountability",
+      "human_oversight",
+      "trustworthy_AI_guidelines"
+    ],
+    "axial_codes": [
+      "AI_ethics_governance",
+      "implementation_tooling",
+      "development_lifecycle_governance",
+      "transparency_and_accountability"
+    ],
+    "theme": "Ethical AI governance from abstract principles to implementable tools",
+    "subtheme": "Taxonomy of frameworks, remedies, and development-process segmentation",
+    "concepts": [
+      "principlism",
+      "ethical frameworks",
+      "ethics tools",
+      "accountability",
+      "explainability",
+      "fairness",
+      "privacy",
+      "human agency and oversight",
+      "technical robustness and safety",
+      "privacy and data governance",
+      "transparency",
+      "checklist-based assessment"
+    ],
+    "model_layers": [
+      "principles",
+      "conceptual frameworks",
+      "process models",
+      "software and algorithms",
+      "infrastructure",
+      "methods",
+      "development lifecycle"
+    ],
+    "rq_alignment": [
+      "governance frameworks for AI systems",
+      "accountability and explainability mechanisms",
+      "human oversight requirements",
+      "mapping ethical principles to operational controls",
+      "tooling gap between policy and implementation"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Most ethical AI proposals remain too abstract for concrete system design; the literature strongly emphasizes a few issues—explicability, fairness, privacy, and accountability—often via software and algorithms, while broader ethical concerns are handled mainly through conceptual frameworks, guidelines, or process models.",
+    "contribution": "Provides a structured list and definitions of approaches, a refined nine-step segmentation of the AI development process, and a systematic analysis of more than 100 frameworks, process models, remedies, and tools for moving from ethical principles to implementation.",
+    "limitations": "The provided excerpts do not state the review's full methodological limitations; the study scope is broad generic AI ethics rather than LLM conversational systems or regulated operational governance.",
+    "use_in_review": "Use as foundational contextual evidence to frame how ethical governance principles are translated into tools and lifecycle stages, and to support discussion of accountability, explainability, privacy, fairness, and human oversight; not suitable as primary evidence on conversational LLM governance in regulated deployments."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal review article with identifiable bibliographic metadata",
+      "excerpt": "AI and Ethics (2023) 3:699–716 https://doi.org/10.1007/s43681-023-00258-9 REVIEW From ethical AI frameworks to tools: a review of approaches Erich Prem1",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study is a systematic review analyzing more than 100 ethical AI approaches",
+      "excerpt": "This paper presents a systematic analysis of more than 100 frameworks, process models, and proposed remedies and tools for helping to make the necessary shift from principles to implementation",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Research focuses on governance-related ethical issues including accountability and explainability",
+      "excerpt": "This analysis confirms a strong focus of proposed approaches on only a few ethical issues such as explicability, fairness, privacy, and accountability.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Conversational agents are mentioned only as one application context among others",
+      "excerpt": "AI systems that have become widely used in different applications ranging from robotics to conversational agents and from credit rating to autonomous cars.",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Technology context is generic AI and machine learning rather than LLM-specific",
+      "excerpt": "In data analysis and machine learning, however, the focus is usually on model construction and the machine learning pipeline",
+      "page": "5",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Paper develops taxonomy of software, infrastructure, and methods for ethical AI",
+      "excerpt": "The development of a structured list and definitions of approaches such as software, infrastructure, or methods proposed in the literature for designing ethical AI systems.",
+      "page": "2",
+      "section": "results",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Accountability is linked to transparency and understandability requirements",
+      "excerpt": "The concern is that AI system behaviors should be transparent and that there should be accountability, for which understandability is a prerequisite.",
+      "page": "2",
+      "section": "limitations",
+      "supports": "coding"
+    },
+    {
+      "claim": "Human oversight appears through trustworthy AI governance requirements",
+      "excerpt": "Human agency and oversight • Technical robustness and safety • Privacy and data governance • Transparency • Diversity, non-discrimination, and fairness • Societal and environmental wellbeing • Accountability",
+      "page": "3",
+      "section": "discussion",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance guidance includes practical company-facing assessment tools",
+      "excerpt": "Besides the general recommendation that trustworthy AI systems adhere to these principles, the guideline also includes an assessment list for practical use by companies.",
+      "page": "3",
+      "section": "discussion",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Infrastructure category includes resources supporting ethical machine learning",
+      "excerpt": "Under infrastructure I summarize resources such as the provision of online data sets to help support ethical machine learning and online communities of experts or resources for debate etc.",
+      "page": "7",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Software agents/dialog systems are classified within the software layer",
+      "excerpt": "Software assistants: A computer program (running code) or software agents that operates autonomously or in a dialog with the user.",
+      "page": "7",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Regulated-domain specificity is not established as a primary focus in provided text",
+      "excerpt": "Policymakers have reacted with new rules for designing and operating A",
+      "page": "1",
+      "section": "introduction",
+      "supports": "appraisal"
+    }
+  ]
+}

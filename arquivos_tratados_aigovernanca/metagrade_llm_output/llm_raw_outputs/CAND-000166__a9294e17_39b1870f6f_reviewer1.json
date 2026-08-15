@@ -1,0 +1,199 @@
+{
+  "bibliographic": {
+    "title": "Mapping the use of large language models in hiring decisions: a scoping review",
+    "authors": "Arpit Tripathi, Ankit Tripathi, Frantisek Darena, Pawan Kumar Mishra",
+    "year": "2026",
+    "venue": "Frontiers in Artificial Intelligence",
+    "doi": "10.3389/frai.2026.1798519",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Tripathi, A., Tripathi, A., Darena, F., & Mishra, P. K. (2026). Mapping the use of large language models in hiring decisions: A scoping review. Frontiers in Artificial Intelligence, 9, 1798519. https://doi.org/10.3389/frai.2026.1798519"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "scoping review (PRISMA-ScR) with lexicon-based coding",
+    "study_design": "scoping review",
+    "sample_description": "Journal articles and review articles from Scopus on LLM or generative AI systems used for hiring-related decision support or automation; population includes job applicants, candidates, recruiters, HR professionals, hiring managers, and organizations",
+    "sample_size": "unclear",
+    "sector": "human resources / recruitment and selection",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLMs used across recruitment and selection processes through language-mediated interaction, including résumé parsing/summarization, interview question generation, simulated candidate interactions, evaluative narratives, and compliance documentation"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full_text",
+    "inclusion_codes": [
+      "LLM_SPECIFIC",
+      "SCOPING_REVIEW",
+      "RISK_MITIGATION",
+      "REGULATED_ADJACENT_HR"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed PRISMA-ScR scoping review focused on LLM use in hiring, documenting application points, outcomes, risks, and mitigation strategies in an employment-regulated context. It is relevant to LLM governance and risk themes but does not center conversational governance, chatbot/agent guardrails, observability, audit/tracing, or operational conversational controls; therefore it is better classified as supporting rather than central evidence for conversational governance in regulated LLM systems.",
+    "decision_confidence": 0.72,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial front matter and early methods text were provided; full results, included-study count, and detailed governance/conversational mechanisms require verification."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 5,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 4,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 4,
+    "results_clarity": 4,
+    "limitations_transparency": 4,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Objectives and PRISMA-ScR alignment are clearly stated. Search strategy and PCC eligibility criteria are transparent, but the provided excerpt does not report the number of included studies or full screening flow. Lexicon-based coding is explicit, yet the authors themselves note limited empirical validation of controls in the underlying literature."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "Methods are coherent and appropriate for a scoping review, but adequacy of synthesis cannot be fully judged without the complete results and included-study corpus. Relevance to conversational governance is indirect: the review maps hiring-stage LLM use and documented risks/mitigations rather than operational conversational controls."
+  },
+  "coding": {
+    "open_codes": [
+      "hiring pipeline mapping",
+      "language-mediated interaction",
+      "ethical risk awareness",
+      "mitigation strategies",
+      "lexicon-based coding",
+      "interdisciplinary literature gaps"
+    ],
+    "axial_codes": [
+      "responsible LLM use",
+      "socio-technical hiring systems",
+      "algorithmic decision-making",
+      "evidence synthesis"
+    ],
+    "theme": "LLM applications and responsible use in recruitment and selection",
+    "subtheme": "risk and mitigation mapping across hiring stages",
+    "concepts": [
+      "large language models",
+      "generative AI",
+      "PRISMA-ScR",
+      "language-mediated interaction",
+      "algorithmic hiring",
+      "responsible LLM use",
+      "socio-technical systems"
+    ],
+    "model_layers": [
+      "interpretive layer",
+      "evaluative layer",
+      "hiring pipeline application points"
+    ],
+    "rq_alignment": [
+      "LLM risk and mitigation in regulated-adjacent decision contexts",
+      "governance gaps in empirical validation of controls",
+      "indirect relevance to conversational interaction in hiring workflows"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "The literature on LLMs in hiring is rapidly expanding but uneven, concentrated in early hiring stages, focused on efficiency/performance outcomes, aware of ethical risks yet lacking empirical validation of controls, and constrained by limited interdisciplinarity.",
+    "contribution": "Provides a PRISMA-ScR map of where and how LLMs are applied in hiring, what outcomes and risks are studied, and which mitigation strategies are documented, offering a foundation for future interdisciplinary and field-based research on responsible LLM use in hiring.",
+    "limitations": "Uneven literature coverage, selective outcome measurement, high ethical-risk awareness with limited empirical validation of controls, and structurally constrained interdisciplinarity; full quantitative scope of included studies is not visible in the provided excerpt.",
+    "use_in_review": "Use as supporting evidence for LLM governance themes—risk identification, mitigation documentation, and responsible deployment gaps—in a regulated-adjacent employment domain; not a primary source for conversational governance mechanisms such as guardrails, observability, audit logs, handoff, or contestability."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed scoping review article on LLMs in hiring",
+      "excerpt": "TYPE Review PUBLISHED 13 March 2026",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study follows PRISMA-ScR with lexicon-based coding",
+      "excerpt": "Following PRISMA-ScR guidelines, we synthesize research published between 2018 and 2026 across multiple disciplines using a transparent, lexicon-based coding approach.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Clear review objectives across application, outcomes, risks, and disciplinary structure",
+      "excerpt": "This scoping review maps the academic literature on LLMs in hiring to examine (i) where and how these systems are applied across the hiring pipeline, (ii) what forms of evidence and outcomes are assessed, (iii) which risks and mitigation strategies are documented, and (iv) how disciplinary structures shape research focus.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "LLMs operate through language-mediated interaction in hiring",
+      "excerpt": "Unlike earlier algorithmic hiring tools, LLMs operate through language-mediated interaction, influencing interpretive and evaluative layers of decision-making.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Main synthesis findings on literature gaps and controls",
+      "excerpt": "The results reveal a rapidly expanding but uneven literature, characterized by concentration in early hiring stages, selective outcome measurement favoring efficiency and performance, high awareness of ethical risks with limited empirical validation of controls, and structurally constrained interdisciplinarity.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Search conducted in Scopus with LLM and hiring terms",
+      "excerpt": "Search was conducted in Scopus, selected for its broad interdisciplinary coverage and consistent bibliographic metadata",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "PCC eligibility criteria define population, concept, and context",
+      "excerpt": "Population: Job applicants, candidates, recruiters, HR professionals, hiring managers, and organizations.",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Included studies must examine LLM-based hiring tools",
+      "excerpt": "Concept: Large language models or generative AI systems explicitly used for hiring-related decision support or automation.",
+      "page": "2",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Context covers recruitment, selection, interviewing, and onboarding",
+      "excerpt": "Context: Recruitment, selection, interviewing, and onboarding processes.",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Coding used explicit lexicon-based rule-driven approach",
+      "excerpt": "Coding relied exclusively on explicit terms",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Hiring is a regulated organizational function with legal relevance",
+      "excerpt": "relevant work has appeared across computer science, information systems, management, psychology, social sciences, medicine, and law.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLM hiring use cases include simulated interactions and compliance documentation",
+      "excerpt": "They are increasingly used to parse and summarize résumés, generate interview questions, simulate candidate interactions, draft evaluative narratives, and documentation and complian",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Contribution emphasizes responsible LLM use foundation",
+      "excerpt": "The review highlights key gaps and provides a foundation for future interdisciplinary and field-based research on responsible LLM use in hiring.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    }
+  ]
+}

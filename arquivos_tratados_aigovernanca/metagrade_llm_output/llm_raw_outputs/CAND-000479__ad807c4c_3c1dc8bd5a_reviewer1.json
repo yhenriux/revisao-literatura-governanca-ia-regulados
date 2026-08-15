@@ -1,0 +1,154 @@
+{
+  "bibliographic": {
+    "title": "Systemic risk governance in a dynamical model of a banking system",
+    "authors": "Lorella Fatone; Francesca Mariani",
+    "year": "2018",
+    "venue": "arXiv",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Fatone, L., & Mariani, F. (2018). Systemic risk governance in a dynamical model of a banking system. arXiv preprint arXiv:1812.06973."
+  },
+  "methodology": {
+    "research_type": "theoretical",
+    "method_family": "mathematical modeling, stochastic differential equations, optimal control, statistical simulation",
+    "study_design": "dynamical model with numerical simulation experiments",
+    "sample_description": "homogeneous population of banks represented as log-monetary reserves in a stochastic differential equation system",
+    "sample_size": "unclear",
+    "sector": "banking",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "stochastic differential equation banking system model with inter-bank and bank-monetary authority cooperation parameters alpha and gamma"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_TECH_NO_LLM",
+      "E_TOPIC_NOT_CONVERSATIONAL_AI",
+      "E_WRONG_GOVERNANCE_DOMAIN"
+    ],
+    "exclusion_reason": "The paper governs systemic risk in a mathematical banking model via optimal control; it does not address LLMs, generative AI, conversational systems, or conversational governance.",
+    "decision_rationale": "Automated screening matched governance, banking, regulated, risk, and interaction terms, but the text shows these refer to systemic risk control in a stochastic banking model, inter-bank borrowing/lending dynamics, and monetary authority regulation. There is no mention of large language models, chatbots, agents, RAG, guardrails, human-AI oversight, or conversational interfaces. The work is a 2018 quantitative finance preprint outside the review's technology and governance scope.",
+    "decision_confidence": 0.97,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 2,
+    "notes": "Methodologically appropriate for mathematical systemic risk modeling, but not empirically grounded in real banking data within the provided excerpts. No discussion of AI, conversational systems, or LLM governance."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "high",
+    "explanation": "High confidence that the study is not relevant to conversational governance of LLM-based systems; within its own domain the abstract presents a coherent optimal-control governance method, but provided text does not support synthesis for the review question."
+  },
+  "coding": {
+    "open_codes": [
+      "systemic_risk",
+      "banking_system_model",
+      "optimal_control",
+      "monetary_authority",
+      "inter_bank_cooperation",
+      "statistical_simulation",
+      "quarterly_governance_decisions"
+    ],
+    "axial_codes": [
+      "financial_systemic_risk_governance",
+      "mathematical_dynamical_modeling"
+    ],
+    "theme": "Systemic risk governance in banking",
+    "subtheme": "Optimal control of cooperation parameters via mean field approximation",
+    "concepts": [
+      "systemic risk",
+      "governance",
+      "banking",
+      "monetary authority",
+      "cooperation parameters",
+      "default threshold",
+      "ideal bank trajectory"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.95
+  },
+  "synthesis": {
+    "main_claim": "Systemic risk probability in a banking system can be governed between two thresholds by choosing an ideal bank reserve trajectory and solving an optimal control problem that sets inter-bank and monetary-authority cooperation rules over time.",
+    "contribution": "Provides a mathematical governance mechanism tested quarterly over a two-year simulation period, including scenarios with positive and negative shocks.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from evidence synthesis; may serve only as an out-of-scope example of non-AI systemic risk governance in regulated banking if a background contrast is needed."
+  },
+  "evidence": [
+    {
+      "claim": "Paper title and publication context identify a 2018 arXiv quantitative finance preprint on banking systemic risk.",
+      "excerpt": "arXiv:1812.06973v1 [q-fin.RM] 17 Dec 2018 Systemic risk governance in a dynamical model of a banking system",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance target is systemic risk probability in a banking SDE model, not AI or conversational system governance.",
+      "excerpt": "A method to govern the probability of systemic risk in a bounded time interval is presented. The goal of the governance is to keep the probability of systemic risk in a bounded time interval between two given thresholds.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Technology context is a stochastic differential equation model of bank reserves with cooperation parameters.",
+      "excerpt": "The banking system model consists in an initial value problem for a system of stochastic differential equations whose dependent variables are the log-monetary reserves of the banks as functions of time.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Regulated banking context involves monetary authority and bank cooperation mechanisms.",
+      "excerpt": "Two distinct mechanisms are used to model the cooperation among banks and the cooperation between banks and monetary authority. These mechanisms are regulated respectively by the parameters α and γ.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Interaction refers to inter-bank borrowing and lending dynamics, not conversational interaction.",
+      "excerpt": "The interaction mechanism among banks given by (5) is based on the idea that \"who has more gives to those who have less\", and is a simple form of cooperative behaviour between banks.",
+      "page": "6",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance decisions are implemented through optimal control of model parameters over time.",
+      "excerpt": "The solution of the optimal control problem determines the parameters α and γ as functions of time, that is defines the rules of the borrowing and lending activity among banks and between banks and monetary authority.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Evaluation uses statistical simulation with quarterly governance decisions over a two-year period.",
+      "excerpt": "during a two year period we consider the governance of systemic risk in the next year when governance decisions are taken quarterly.",
+      "page": "2",
+      "section": "unclear",
+      "supports": "methodology"
+    },
+    {
+      "claim": "No LLM, generative AI, or conversational AI content appears in the provided text.",
+      "excerpt": "Given an interacting system made of agents that can fail individually, the systemic risk associated to the system is the risk that a large number of agents fails simultaneously leading to the failure of the entire system.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    }
+  ]
+}

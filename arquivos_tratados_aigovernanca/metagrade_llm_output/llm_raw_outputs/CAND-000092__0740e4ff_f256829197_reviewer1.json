@@ -1,0 +1,192 @@
+{
+  "bibliographic": {
+    "title": "Does Public Accountability Work?: An Assessment Tool",
+    "authors": "Bovens, M.A.P.; 't Hart, P.; Schillemans, T.",
+    "year": "2008",
+    "venue": "Public Administration",
+    "doi": "10.1111/j.1467-9299.2008.00716.x",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Bovens, M. A. P., 't Hart, P., & Schillemans, T. (2008). Does public accountability work?: An assessment tool. Public Administration, 86(1), 225-242. https://doi.org/10.1111/j.1467-9299.2008.00716.x"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "multicriteria normative assessment framework with illustrative case application",
+    "study_design": "conceptual instrument development demonstrated through analysis of boards of oversight of agencies",
+    "sample_description": "illustrative application to boards of oversight of agencies",
+    "sample_size": "unclear",
+    "sector": "public administration",
+    "regulated_domain": "yes",
+    "llm_specificity": "not_applicable",
+    "technology_context": "public accountability arrangements in government and agencies; no AI or LLM technology discussed"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "include",
+    "final_decision": "foundational_contextual",
+    "prisma_stage": "full_text_review",
+    "inclusion_codes": [
+      "accountability_governance",
+      "regulated_public_sector",
+      "assessment_framework"
+    ],
+    "exclusion_codes": [
+      "no_llm_or_genai",
+      "no_conversational_ai_system"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article develops and demonstrates a multicriteria tool for assessing public accountability arrangements in government. It is strongly relevant to accountability, governance, oversight, dialogue, and regulated public-sector contexts, but contains no LLM, generative AI, chatbot, agent, RAG, or conversational-system technology. It should inform conceptual framing rather than serve as central empirical evidence on conversational governance in LLM-based systems.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 3,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 2,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Appraisal based on partial text provided. The study clearly states its objective and methodological approach, but limited excerpts restrict assessment of sampling, data collection detail, limitations discussion, and ethics/reflexivity."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The accountability framework is conceptually coherent and well specified in the available text, but its direct relevance to LLM-based conversational governance is indirect. Adequacy for the review is moderate as foundational context; empirical fit to the review's technology focus is low."
+  },
+  "coding": {
+    "open_codes": [
+      "public_accountability",
+      "accountability_arrangements",
+      "accountability_forum",
+      "actor_forum_relationship",
+      "democratic_perspective",
+      "constitutional_perspective",
+      "learning_perspective",
+      "multicriteria_assessment",
+      "oversight_boards",
+      "stakeholder_dialogue",
+      "performance_feedback",
+      "sanctions_and_consequences"
+    ],
+    "axial_codes": [
+      "accountability_governance",
+      "institutional_oversight",
+      "normative_assessment",
+      "public_sector_regulation"
+    ],
+    "theme": "Public accountability assessment in government",
+    "subtheme": "Multicriteria normative framework for evaluating accountability arrangements",
+    "concepts": [
+      "accountability deficits and overloads",
+      "democratic chain of delegation",
+      "abuses of public authority",
+      "explain and justify conduct",
+      "pose questions and pass judgment",
+      "interaction routines",
+      "consequential dialogue",
+      "continuous improvement"
+    ],
+    "model_layers": [
+      "normative perspectives",
+      "assessment criteria",
+      "accountability forum",
+      "executive actor",
+      "stakeholders",
+      "consequences"
+    ],
+    "rq_alignment": [
+      "accountability",
+      "governance",
+      "human oversight and contestation",
+      "regulated contexts",
+      "audit and monitoring"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Public accountability arrangements can be systematically assessed using a multicriteria tool grounded in democratic, constitutional, and learning perspectives, and the authors demonstrate this tool through analysis of boards of oversight of agencies.",
+    "contribution": "Provides a structured yardstick to evaluate whether accountability arrangements work, moving debate beyond impressionistic claims of accountability deficits or overloads.",
+    "limitations": "Provided text does not fully expose study limitations, empirical breadth, or validation beyond the illustrative case of oversight boards.",
+    "use_in_review": "Use as foundational contextual evidence for accountability, forum-actor relations, questioning, judgment, consequences, stakeholder dialogue, and oversight in regulated public administration. Do not use as central evidence on conversational governance or LLM systems."
+  },
+  "evidence": [
+    {
+      "claim": "Article develops a systematic assessment instrument for public accountability arrangements",
+      "excerpt": "In this article we develop an instrument for systematically assessing public accountability arrangements, drawing on three different normative perspectives.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Research type is methodological instrument development with illustrative application",
+      "excerpt": "We demonstrate the use of our multicriteria assessment tool in an analysis of a new accountability arrangement: the boards of oversight of agencies.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Accountability is defined as a forum-actor relationship involving explanation, questioning, judgment, and consequences",
+      "excerpt": "Accountability, defined here as ' the relationship between an actor and a forum, in which the actor has an obligation to explain and justify his or her conduct, the forum can pose questions and pass judgment, and the actor may face consequences '",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Three normative perspectives structure the assessment tool",
+      "excerpt": "In the democratic perspective, accountability arrangements should effectively link government actions to the ' democratic chain of delegation ' . In the constitutional perspective, it is essential that accountability arrangements prevent or uncover abuses of public authority. In the learning perspective, accountability is a tool to make governments effective in delivering on their promises.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Assessment criteria include interaction and dialogue between forums and executive actors",
+      "excerpt": "Does the accountability forum have incentives to engage executive actors in relevant questioning and debate and is their interaction focused on conformity of actions with laws and norms?",
+      "page": "8",
+      "section": "assessment criteria",
+      "supports": "coding"
+    },
+    {
+      "claim": "Learning perspective emphasizes ongoing consequential dialogue with stakeholders",
+      "excerpt": "Does the accountability arrangement provide a setting and a set of interaction routines which induces ongoing, consequential dialogue among executive actors and key stakeholders about performance feedback?",
+      "page": "9",
+      "section": "assessment criteria",
+      "supports": "coding"
+    },
+    {
+      "claim": "Illustrative case concerns oversight boards in public administration",
+      "excerpt": "We demonstrate the use of our multicriteria assessment tool in an analysis of a new accountability arrangement: the boards of oversight of agencies.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM, generative AI, or conversational-system technology is present in the provided text",
+      "excerpt": "In recent years, there has been a drive to strengthen existing public accountability arrangements and to design new ones.",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Published in peer-reviewed journal Public Administration",
+      "excerpt": "Public Administration Vol. 86, No. 1, 2008 (225–242)",
+      "page": "2",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Debate and interaction criteria distinguish conformity with laws/norms and stakeholder performance dialogue",
+      "excerpt": "Interaction concentrates on conformity of actions with laws and norms Ongoing, substantial dialogue with clients and other stakeholders about performance feedback",
+      "page": "15",
+      "section": "conclusion",
+      "supports": "synthesis"
+    }
+  ]
+}

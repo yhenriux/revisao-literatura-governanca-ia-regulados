@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "Impact of open‑air dumping of urban solid waste on soil toxicity and properties in a tropical environment",
+    "authors": "Ana C. De la Parra‑Guerra; Kelly J. Rodelo‑Soto; Shania Polo‑Camargo; Mildreth Pallares‑Arévalo; Erico Marlon Moraes Flores; Rochele Picoloto; Cristian Rafael Andriolli; Jorge Osorio‑Martínez; Katy Rematoza‑Chamorro; Fabio Fuentes‑Gandara",
+    "year": "2026",
+    "venue": "Environmental Science and Pollution Research",
+    "doi": "10.1007/s11356-026-37862-1",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "De la Parra-Guerra, A. C., Rodelo-Soto, K. J., Polo-Camargo, S., Pallares-Arévalo, M., Moraes Flores, E. M., Picoloto, R., Andriolli, C. R., Osorio-Martínez, J., Rematoza-Chamorro, K., & Fuentes-Gandara, F. (2026). Impact of open-air dumping of urban solid waste on soil toxicity and properties in a tropical environment. Environmental Science and Pollution Research. https://doi.org/10.1007/s11356-026-37862-1"
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "environmental soil science field sampling and laboratory analysis",
+    "study_design": "cross-sectional field sampling with physicochemical characterization, trace element analysis (ICP-MS), and toxicological bioassays (Caenorhabditis elegans)",
+    "sample_description": "Soil and sediment samples collected at nine sampling points in a tropical dry forest area in the Caribbean region of Colombia, at 20 cm depth, approximately 1 kg each",
+    "sample_size": "9 sampling points",
+    "sector": "environmental science / solid waste management",
+    "regulated_domain": "partial",
+    "llm_specificity": "not_applicable",
+    "technology_context": "ICP-MS trace element analysis, standardized physicochemical soil methods, C. elegans ecotoxicological bioassays; no AI or LLM systems"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "wrong_topic",
+      "no_llm_or_conversational_ai",
+      "no_ai_governance"
+    ],
+    "exclusion_reason": "The article is an environmental empirical study on soil toxicity from open-air solid waste dumping. The provided text contains no LLMs, generative AI, conversational systems, chatbots, agents, RAG, or AI governance mechanisms. Keyword matches for governance, monitoring, risk, and mitigation refer to environmental policy and ecotoxicological risk, not conversational AI governance in regulated settings.",
+    "decision_rationale": "Title, abstract, and methods consistently describe soil/sediment contamination assessment in Colombia using chemical and biological assays. Despite Python triage scoring governance-related terms, these occur in environmental governance and public health contexts only. The study is outside the review scope on governança conversacional em sistemas baseados em LLMs.",
+    "decision_confidence": 0.98,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is unambiguous from title, abstract, objectives, and methods; no LLM or conversational AI content appears in the provided text."
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 0,
+    "results_clarity": 2,
+    "limitations_transparency": 0,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal reflects environmental study quality only from provided excerpts. Ethics approval and study limitations are not visible in the supplied text. High internal clarity for its own domain, but zero applicability to the LLM conversational governance review."
+  },
+  "cerqual": {
+    "methodological_limitations": 1,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "Within environmental science the study appears methodologically coherent, but it has no conceptual or empirical relevance to conversational governance, LLMs, or regulated AI systems. Confidence for use in the target review is very low."
+  },
+  "coding": {
+    "open_codes": [
+      "open dumping",
+      "soil toxicity",
+      "trace elements",
+      "ecotoxicological risk",
+      "environmental governance",
+      "solid waste management",
+      "tropical dry forest",
+      "C. elegans bioassay"
+    ],
+    "axial_codes": [
+      "environmental contamination assessment",
+      "environmental policy support",
+      "ecological risk monitoring"
+    ],
+    "theme": "Environmental soil contamination from open solid waste dumping",
+    "subtheme": "Physicochemical and toxicological soil assessment in tropical dry forest",
+    "concepts": [
+      "open dumping",
+      "leachate infiltration",
+      "potentially toxic elements",
+      "environmental governance",
+      "monitoring and mitigation programs"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.97
+  },
+  "synthesis": {
+    "main_claim": "Open-air dumping of urban solid waste causes slight to moderate soil deterioration and contamination by Ni, Cu, and Cd in a tropical dry forest environment in Colombia, with implications for environmental policy and monitoring.",
+    "contribution": "Provides baseline physicochemical and toxicological data on soil and sediment impacts of open dumping to inform environmental policies and sustainable waste management with local stakeholders.",
+    "limitations": "unclear",
+    "use_in_review": "Exclude from central and supporting evidence. Not usable as foundational context for LLM conversational governance because the governance, risk, monitoring, and responsibility references are environmental, not AI-related. May be noted only as a keyword false-positive example in screening QA."
+  },
+  "evidence": [
+    {
+      "claim": "Article topic is environmental soil contamination from open dumping, not AI or conversational systems",
+      "excerpt": "Impact of open‑air dumping of urban solid waste on soil toxicity and properties in a tropical environment",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study evaluates soil and sediment toxicity in Colombia using chemical and biological methods",
+      "excerpt": "the impact of OD on soil and sediments toxicity and properties in the Caribbean region of Colombia, specifically in a tropical dry forest (Td-F) environment, was evaluated",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "No LLM, generative AI, or conversational AI technology is discussed",
+      "excerpt": "toxicological bioassays were carried out with the Caenorhabditis elegans biological model",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governance reference is environmental governance, not AI governance",
+      "excerpt": "contributing to the strengthening of environmental governance and the protection of ecosystems and public health",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Nine sampling points with standardized soil analysis methods",
+      "excerpt": "Soil and sediment samples were collected at nine sampling points distributed throughout the area, at a depth of 20 cm",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Physicochemical methods use standardized protocols",
+      "excerpt": "texture according to the Bouyoucos method (Colombian Technical Standard NTC 6299)",
+      "page": "3",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Statistical analysis procedures are described",
+      "excerpt": "Data are presented as mean ± standard error. Normal distribution and homoscedasticity were checked using the Shapiro–Wilk and Bartlett tests",
+      "page": "5",
+      "section": "data analysis",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Risk assessment refers to ecological/soil contamination risk, not AI risk governance",
+      "excerpt": "fewer assessments integrate chemical contamination, biological toxicity, and site-specific risk assessment in TD-F environments",
+      "page": "2",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Monitoring refers to environmental contamination programs",
+      "excerpt": "The results may serve as a baseline for monitoring, prevention, and mitigation programs related to contamination by potentially toxic elements",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Transparency match is biological model property, not governance transparency",
+      "excerpt": "the nematode Caenorhabditis elegans has been widely adopted due to its small size, transparency, short life cycle",
+      "page": "3",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Main empirical finding on soil contamination",
+      "excerpt": "The soil and sediment samples showed contamination by Ni, Cu, and Cd",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Peer-reviewed journal article",
+      "excerpt": "RESEARCH ARTICLE",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

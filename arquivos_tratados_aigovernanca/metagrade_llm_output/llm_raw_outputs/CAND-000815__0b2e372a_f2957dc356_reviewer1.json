@@ -1,0 +1,184 @@
+{
+  "bibliographic": {
+    "title": "SkinGPT-4: An Interactive Dermatology Diagnostic System with Visual Large Language Model",
+    "authors": "Juexiao Zhou, Xiaonan He, Liyuan Sun, Jiannan Xu, Xiuying Chen, Yuetan Chu, Longxi Zhou, Xingyu Liao, Bin Zhang, Xin Gao",
+    "year": "2023",
+    "venue": "unclear",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Zhou, J., He, X., Sun, L., Xu, J., Chen, X., Chu, Y., Zhou, L., Liao, X., Zhang, B., & Gao, X. (2023). SkinGPT-4: An interactive dermatology diagnostic system with visual large language model. [Venue unclear]."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "fine-tuned visual large language model development and quantitative clinical evaluation",
+    "study_design": "technical system development with two-step training on dermatology image-text data and independent dermatologist review of 150 real-life cases",
+    "sample_description": "training on 52,929 publicly available and proprietary skin disease images with clinical concepts and doctors' notes; evaluation on 150 real-life cases independently reviewed by certified dermatologists",
+    "sample_size": "52,929 training images; 150 evaluation cases",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "specific_llm",
+    "technology_context": "interactive dermatology diagnostic system based on fine-tuned MiniGPT-4 with Vicuna/LLaMA language decoder and visual encoder; supports image upload, autonomous evaluation, interactive treatment recommendations, and local deployment"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "llm_healthcare_application",
+      "interactive_conversational_system",
+      "regulated_healthcare_context"
+    ],
+    "exclusion_codes": [
+      "insufficient_governance_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article provides empirical evidence of an interactive visual LLM deployed for regulated healthcare dermatology diagnosis, with mentions of privacy, local deployment, and physician communication. However, the provided text centers on model development and diagnostic accuracy rather than conversational governance mechanisms such as guardrails, audit, compliance frameworks, human oversight, contestation, or post-deployment monitoring.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Venue and peer-review status are unclear; governance relevance is borderline and depends on whether interactive treatment recommendations and privacy/local-deployment claims are developed further in unseen sections."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 4,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 4,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 4,
+    "transferability": 3,
+    "notes": "Clear technical objective and evaluation design are described in the abstract and introduction. Ethics and governance reflexivity are limited in the provided text to privacy/local deployment and a disclaimer that the system is not a substitute for doctors."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 3,
+    "adequacy": 3,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The study appears internally coherent for a technical healthcare AI evaluation, but its relevance to conversational governance in regulated LLM systems is partial because governance, oversight, and accountability are not primary objects of analysis in the supplied text."
+  },
+  "coding": {
+    "open_codes": [
+      "visual large language model",
+      "interactive dermatology diagnosis",
+      "fine-tuned MiniGPT-4",
+      "patient-friendly reports",
+      "local deployment",
+      "user privacy",
+      "dermatologist-reviewed evaluation",
+      "not a substitute for doctors"
+    ],
+    "axial_codes": [
+      "regulated healthcare AI application",
+      "multimodal conversational diagnostic system",
+      "privacy-preserving deployment"
+    ],
+    "theme": "Interactive visual LLM for clinical dermatology support",
+    "subtheme": "Privacy-aware local deployment in healthcare diagnosis",
+    "concepts": [
+      "SkinGPT-4",
+      "MiniGPT-4",
+      "interactive treatment recommendations",
+      "healthcare equity",
+      "human-centred care",
+      "communication between patients and doctors"
+    ],
+    "model_layers": [
+      "application layer",
+      "deployment/privacy layer"
+    ],
+    "rq_alignment": [
+      "LLM systems in regulated healthcare",
+      "interactive conversational medical assistants"
+    ],
+    "coding_confidence": 0.78
+  },
+  "synthesis": {
+    "main_claim": "SkinGPT-4 is presented as the world's first interactive dermatology diagnostic system powered by a fine-tuned visual large language model, capable of analyzing uploaded skin images and providing interactive treatment recommendations with demonstrated diagnostic accuracy on 150 dermatologist-reviewed cases.",
+    "contribution": "Offers an empirical technical case of a domain-specific visual LLM for regulated healthcare use, emphasizing interactive diagnosis, patient-friendly reporting, local deployment, and privacy.",
+    "limitations": "The provided text does not substantively address conversational governance, auditability, compliance controls, human oversight workflows, or post-deployment monitoring; it also states the system is not a substitute for doctors.",
+    "use_in_review": "Use as supporting evidence for regulated healthcare applications of interactive visual LLMs and privacy/local-deployment considerations; not suitable as central evidence on conversational governance unless additional sections provide governance-specific analysis."
+  },
+  "evidence": [
+    {
+      "claim": "Study uses a specific visual LLM architecture for dermatology diagnosis",
+      "excerpt": "SkinGPT-4 leverages a fine-tuned version of MiniGPT-4, trained on an extensive collection of skin disease images",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "System is interactive and supports treatment recommendations",
+      "excerpt": "users could upload their own skin photos for diagnosis, and the system could autonomously evaluate the images, identifies the characteristics and categories of the skin conditions, performs in-depth analysis, and provides interactive treatment recommendations",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Regulated healthcare context with clinical evaluation sample",
+      "excerpt": "we conducted quantitative evaluations on 150 real-life cases, which were independently reviewed by certified dermatologists",
+      "page": "1",
+      "section": "abstract",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Privacy and local deployment are emphasized",
+      "excerpt": "SkinGPT-4’s local deployment capability and commitment to user privacy also render it an appealing choice for patients",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "System is not positioned as replacing clinicians",
+      "excerpt": "Though SkinGPT-4 is not a substitute for doctors, it could enhance users’ comprehension of their medical conditions",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "LLM stack includes Vicuna and LLaMA",
+      "excerpt": "the model uses Vicuna [59] as its language decoder, which is built on top of LLaMA [60]",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Local deployment is motivated by privacy risks in medical images",
+      "excerpt": "medical images and text descriptions contain a lot of patients’ private information",
+      "page": "2",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "MiniGPT-4 enables local interaction with LLMs using natural language",
+      "excerpt": "MiniGPT-4 [58] is the first open-source method that allows users to deploy locally to interface images with state-of-the-art LLMs and interact using natural language",
+      "page": "2",
+      "section": "methods",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Conversational diagnosis context is referenced via ChatGPT literature",
+      "excerpt": "ChatGPT, which is also developed by OpenAI, has demonstrated the potential to assist in disease diagnosis through conversation with patients",
+      "page": "2",
+      "section": "methods",
+      "supports": "coding"
+    },
+    {
+      "claim": "Training dataset scale is reported",
+      "excerpt": "comprising 52,929 publicly available and proprietary images",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Governance-specific mechanisms are not described in supplied text",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    }
+  ]
+}

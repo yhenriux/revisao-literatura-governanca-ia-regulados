@@ -1,0 +1,174 @@
+{
+  "bibliographic": {
+    "title": "Night-sky brightness monitoring in Hong Kong - a city-wide light pollution assessment",
+    "authors": "Chun Shing Jason Pun; Chu Wing So",
+    "year": "2011",
+    "venue": "arXiv preprint (arXiv:1106.3842v1 [astro-ph.IM])",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "no",
+    "citation_apa": "Pun, C. S. J., & So, C. W. (2011). Night-sky brightness monitoring in Hong Kong - a city-wide light pollution assessment. arXiv preprint arXiv:1106.3842."
+  },
+  "methodology": {
+    "research_type": "empirical",
+    "method_family": "city-wide environmental observational survey using portable Sky Quality Meter (SQM) photometry",
+    "study_design": "15-month repeated-measures field survey across urban and rural sites in all 18 Administrative Districts of Hong Kong",
+    "sample_description": "1,957 data sets collected at 199 distinct observation sites by 171 volunteering participants, covering urban, rural, commercial, residential, GIC, and country park locations",
+    "sample_size": "1957 data sets; 199 sites; 171 participants",
+    "sector": "environmental science; astronomy; light pollution assessment",
+    "regulated_domain": "no",
+    "llm_specificity": "not_applicable",
+    "technology_context": "portable Sky Quality Meter for night-sky brightness (NSB) measurement; comparison with government air quality monitoring data"
+  },
+  "eligibility": {
+    "title_abstract_decision": "exclude",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "title_abstract_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "OUT_OF_SCOPE",
+      "NO_LLM_GENAI",
+      "NO_CONVERSATIONAL_AI",
+      "NO_AI_GOVERNANCE",
+      "FALSE_POSITIVE_KEYWORD_MATCH"
+    ],
+    "exclusion_reason": "The article is an environmental astronomy study on night-sky light pollution in Hong Kong. It contains no content on LLMs, generative AI, conversational systems, AI governance, accountability, guardrails, or regulated AI deployment.",
+    "decision_rationale": "Title and abstract describe a comprehensive light pollution survey measuring night-sky brightness with a Sky Quality Meter. Python screening hits on terms such as government, education, standard, monitoring, risk, and safety reflect environmental policy, statistical deviation, civic organizations, and outdoor lighting safety—not conversational AI governance. The study is wholly outside the review scope.",
+    "decision_confidence": 0.98,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": "Topic mismatch is unambiguous from title, abstract, and full-text evidence; keyword matches are false positives from unrelated domains."
+  },
+  "appraisal": {
+    "objective_clarity": 2,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 1,
+    "results_clarity": 2,
+    "limitations_transparency": 1,
+    "evidence_support": 2,
+    "transferability": 1,
+    "notes": "Appraisal reflects internal methodological quality of an environmental survey only. Findings are not transferable to LLM or conversational governance because the subject matter is unrelated."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 0,
+    "overall_confidence": "very_low",
+    "explanation": "Within its own domain the study appears methodologically coherent, but it has zero relevance to conversational governance, LLMs, or regulated AI systems. No usable evidence for the target review question."
+  },
+  "coding": {
+    "open_codes": [
+      "light_pollution",
+      "night_sky_brightness_monitoring",
+      "environmental_survey",
+      "urban_rural_comparison",
+      "government_land_use_data",
+      "air_quality_monitoring_comparison"
+    ],
+    "axial_codes": [
+      "environmental_monitoring",
+      "public_policy_implications_outdoor_lighting"
+    ],
+    "theme": "Environmental light pollution assessment",
+    "subtheme": "City-wide night-sky brightness measurement in Hong Kong",
+    "concepts": [
+      "Sky Quality Meter",
+      "night-sky brightness",
+      "light pollution",
+      "land utilization",
+      "population density"
+    ],
+    "model_layers": [],
+    "rq_alignment": [],
+    "coding_confidence": 0.95
+  },
+  "synthesis": {
+    "main_claim": "Hong Kong suffers severe light pollution, with urban night-skies on average roughly 100 times brighter than the darkest rural sites, influenced by land use, population density, and observation time.",
+    "contribution": "Provides a comprehensive baseline database of night-sky brightness across Hong Kong to inform potential outdoor lighting regulations.",
+    "limitations": "No concrete relationship between sky brightness and air pollutant concentrations could be established with limited survey sampling.",
+    "use_in_review": "exclude; no contribution to conversational governance, LLM systems, or regulated AI deployment."
+  },
+  "evidence": [
+    {
+      "claim": "Article topic is night-sky light pollution monitoring, not AI or conversational systems",
+      "excerpt": "Night-sky brightness monitoring in Hong Kong - a city-wide light pollution assessment",
+      "page": "1",
+      "section": "title",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses environmental photometry hardware, not LLM or conversational technology",
+      "excerpt": "The night-sky brightness was measured and monitored around the city using a portable light sensing device called the Sky Quality Meter",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Large-scale empirical environmental survey design",
+      "excerpt": "A total of 1,957 data sets were taken at 199 distinct locations, including urban and rural sites covering all 18 Administrative Districts of Hong Kong",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Policy aim concerns outdoor lighting regulation, not AI governance",
+      "excerpt": "Results from this survey will serve as an important database for the public to assess whether new rules and regulations are necessary to control the use of outdoor lightings in Hong Kong",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Python hit on government refers to land-use classification by Planning Department, not AI governance",
+      "excerpt": "The land usage in Hong Kong is defined by the Planning Department of the government and any piece of land can be classified into any one of 28 land utilization categories",
+      "page": "20",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Python hit on education refers to an astronomical education centre co-organizer, not regulated education AI",
+      "excerpt": "Co-organizers of the project include the Hong Kong Space Museum, the Sky Observers' Association (Hong Kong), Ho Koon Nature Education cum Astronomical Centre",
+      "page": "31",
+      "section": "acknowledgements",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Python hit on monitoring refers to environmental air-quality and NSB monitoring",
+      "excerpt": "Air quality data taken by the Environmental Protection Department (EPD) of the Hong Kong government were downloaded and extracted to compare with the night-sky measurements",
+      "page": "26",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Python hit on standard refers to statistical standard deviations of SQM readings",
+      "excerpt": "The error bars shown in the plot are the standard deviations of the five SQM readings reported by the observers for every data set",
+      "page": "17",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Main environmental finding on severity of urban light pollution",
+      "excerpt": "the urban night-skies (sky brightness at 15.0 mag arcsec−2) are on average ∼100 times brighter than at the darkest rural sites (20.1 mag arcsec−2)",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Limitation regarding pollutant relationship",
+      "excerpt": "no concrete relationship between the observed sky brightness and air pollutant concentrations could be established with the limited survey sampling",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Preprint publication status without peer review indication",
+      "excerpt": "arXiv:1106.3842v1 [astro-ph.IM] 20 Jun 2011",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    }
+  ]
+}

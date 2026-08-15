@@ -1,0 +1,204 @@
+{
+  "bibliographic": {
+    "title": "From Deterministic Pipelines to Intelligent Orchestration: A Transformer-Driven Framework for LLM-Augmented DevOps Automation",
+    "authors": "Shekar Vollem",
+    "year": "2024",
+    "venue": "International Journal of Research Publications in Engineering, Technology and Management (IJRPETM)",
+    "doi": "10.15662/IJRPETM.2024.0701009",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Vollem, S. (2024). From deterministic pipelines to intelligent orchestration: A transformer-driven framework for LLM-augmented DevOps automation. International Journal of Research Publications in Engineering, Technology and Management, 7(1). https://doi.org/10.15662/IJRPETM.2024.0701009"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "framework synthesis and critical analysis of prior literature and industry implementations",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "software engineering / enterprise DevOps / IT operations",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "LLM-augmented DevOps automation, CI/CD, MLOps/LLMOps, AIOps, infrastructure as code, observability, retrieval-augmented reasoning, policy guardrails"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "borderline",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [
+      "LLM_FOCUS",
+      "OPERATIONAL_GOVERNANCE",
+      "GUARDRAILS_OBSERVABILITY",
+      "HUMAN_AUGMENTATION"
+    ],
+    "exclusion_codes": [
+      "NO_CONVERSATIONAL_AI_FOCUS",
+      "NO_REGULATED_SECTOR_CONTEXT",
+      "INSUFFICIENT_FULL_TEXT_FOR_CORE_CLAIMS"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "O texto fornecido trata de um modelo de referência para automação DevOps com LLMs, com menções a governança operacional, guardrails, observabilidade, RAG e accountability, mas não aborda governança conversacional nem ambientes regulados setoriais (saúde, financeiro, jurídico etc.). O encaixe com o escopo da revisão é parcial e depende de confirmação no texto integral.",
+    "decision_confidence": 0.62,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "A triagem automática classificou como central_candidate, porém o excerto disponível é predominantemente de página 1 e fragmentos esparsos; faltam seções completas sobre desenho metodológico, limitações e evidência empírica própria."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Trabalho conceitual que propõe síntese de modelo de referência via análise crítica de estudos e implementações prévias; não há descrição clara de amostra, protocolo de revisão ou estudo empírico primário no material fornecido."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 3,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "low",
+    "explanation": "A coerência interna do enquadramento DevOps/LLMOps parece razoável no abstract, mas a adequação metodológica e a relevância para governança conversacional em contextos regulados permanecem fracas com base apenas no texto fornecido."
+  },
+  "coding": {
+    "open_codes": [
+      "LLM-driven DevOps",
+      "reference model",
+      "observability ingestion",
+      "prompt orchestration",
+      "retrieval-augmented reasoning",
+      "policy guardrails",
+      "automated action pipelines",
+      "human augmentation",
+      "accountability",
+      "operational control",
+      "MLOps traceability",
+      "compliance"
+    ],
+    "axial_codes": [
+      "operational_technical_governance",
+      "LLM_orchestration",
+      "human_in_the_loop_augmentation",
+      "risk_and_compliance_in_MLOps"
+    ],
+    "theme": "Governança operacional e orquestração de LLMs em DevOps",
+    "subtheme": "Guardrails, observabilidade e controle em pipelines de entrega de software",
+    "concepts": [
+      "transformer-driven orchestration",
+      "deterministic vs intelligent automation",
+      "LLMOps",
+      "policy guardrails",
+      "retrieval-augmented reasoning",
+      "accountability",
+      "operational control"
+    ],
+    "model_layers": [
+      "observability ingestion",
+      "prompt orchestration layers",
+      "retrieval-augmented reasoning",
+      "policy guardrails",
+      "automated action pipelines"
+    ],
+    "rq_alignment": [
+      "operational_technical_governance",
+      "risk_audit_compliance",
+      "human_oversight_contestation"
+    ],
+    "coding_confidence": 0.58
+  },
+  "synthesis": {
+    "main_claim": "LLMs podem orquestrar dinamicamente fluxos DevOps complexos por meio de um modelo de referência que integra observabilidade, orquestração de prompts, RAG, guardrails de política e pipelines de ação automatizada, preservando accountability e controle operacional.",
+    "contribution": "Síntese conceitual de um framework de otimização DevOps orientado por LLM, articulando camadas técnicas de governança operacional e análise crítica de trade-offs, riscos e escalabilidade.",
+    "limitations": "O material fornecido não detalha método de seleção de evidências, validação empírica do framework nem limitações explícitas do estudo; o foco é automação DevOps, não governança conversacional em setores regulados.",
+    "use_in_review": "Evidência contextual ou de apoio limitado para camadas técnicas de governança operacional (guardrails, observabilidade, RAG, supervisão humana indireta); não deve ser tratado como evidência central para governança conversacional em ambientes regulados sem leitura integral e confirmação."
+  },
+  "evidence": [
+    {
+      "claim": "Artigo é peer reviewed segundo o periódico",
+      "excerpt": "A Bimonthly, Peer Reviewed & Scholarly Journal",
+      "page": "1",
+      "section": "front matter",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Foco explícito em LLMs aplicados a DevOps",
+      "excerpt": "The convergence of Large Language Models (LLMs) and DevOps practices represents a transformative phase in software delivery automation",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Propõe modelo de referência com RAG e guardrails",
+      "excerpt": "this work synthesizes a comprehensive reference model for LLM-driven DevOps optimization that spans observability ingestion, prompt orchestration layers, retrieval-augmented reasoning, policy guardrails, and automated action pipelines",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Menciona governança, riscos de segurança e accountability operacional",
+      "excerpt": "we examine empirical performance evidence, system design trade-offs, governance considerations, security risks, scalability constraints, and cost–latency implications, ultimately outlining how LLM-based automation can augment human engineers",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Enfatiza accountability e controle operacional empresarial",
+      "excerpt": "while maintaining accountability and operational control within enterprise DevOps ecosystems",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Menciona compliance e traceability no contexto MLOps, não em setor regulado específico",
+      "excerpt": "This stage ensures traceability and governance, which are critical for compliance and reproduc",
+      "page": "5",
+      "section": "IV. FROM MLOPS TO LLMOPS IN DEVOPS PIPELINES",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Aborda governança em integração de ML a DevOps de forma genérica",
+      "excerpt": "Research examining the integration of machine learning practices into DevOps extends this foundation by formalizing processes for reproducibility, experiment tracking, model lifecycle management, and monitoring",
+      "page": "7",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Relaciona AIOps e técnicas de IA para operações de TI",
+      "excerpt": "The formalization of AIOps concepts introduced the application of artificial intelligence techniques to IT operations, particularly for anomaly detection, event c",
+      "page": "8",
+      "section": "6.2 AIOps & Automation",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Não há menção a sistemas conversacionais, chatbots ou governança conversacional no texto fornecido",
+      "excerpt": "unclear",
+      "page": "unclear",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Tipo de pesquisa é síntese conceitual/análise crítica, não estudo empírico primário descrito",
+      "excerpt": "Through critical analysis of prior studies and industry implementations, we examine empirical performance evidence",
+      "page": "1",
+      "section": "abstract",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Human oversight aparece como augmentação de engenheiros, não como governança conversacional",
+      "excerpt": "ultimately outlining how LLM-based automation can augment human engineers, reduce mean time to resolution",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "LLMs interpretam requisitos em linguagem natural, mas sem enquadramento conversacional",
+      "excerpt": "capable of interpreting natural language requirements, generating deployment configurations, summarizing distributed system logs",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    }
+  ]
+}

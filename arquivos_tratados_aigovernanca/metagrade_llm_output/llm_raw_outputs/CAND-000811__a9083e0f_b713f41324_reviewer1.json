@@ -1,0 +1,199 @@
+{
+  "bibliographic": {
+    "title": "On the Complexities of Testing for Compliance with Human Oversight Requirements in AI Regulation",
+    "authors": "Markus Langer; Veronika Lazar; Kevin Baum",
+    "year": "2026",
+    "venue": "AISoLA 2025, LNCS 16220",
+    "doi": "10.1007/978-3-032-07132-3_11",
+    "publication_type": "conference_paper",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Langer, M., Lazar, V., & Baum, K. (2026). On the complexities of testing for compliance with human oversight requirements in AI regulation. In B. Steffen (Ed.), AISoLA 2025 (LNCS 16220, pp. 160–169). Springer. https://doi.org/10.1007/978-3-032-07132-3_11"
+  },
+  "methodology": {
+    "research_type": "conceptual",
+    "method_family": "conceptual regulatory analysis and argumentative perspective",
+    "study_design": "unclear",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "AI regulation and high-risk AI systems",
+    "regulated_domain": "yes",
+    "llm_specificity": "unclear",
+    "technology_context": "AI-based systems for high-risk tasks; (semi-)autonomous agentic systems; compliance testing under emerging AI legislation including the European AI Act"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "human_oversight",
+      "compliance_testing",
+      "ai_act_regulation",
+      "auditing",
+      "sociotechnical_governance"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper directly addresses human oversight, compliance testing, auditing, and AI Act requirements in regulated high-risk AI contexts, which aligns with governance dimensions of the review. Provided text does not specifically address conversational AI, chatbots, agents in conversational settings, or LLM-based systems, so it is better classified as supporting rather than central evidence for conversational LLM governance.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Python metadata incorrectly merged affiliation text into the title field; full-text coverage in the prompt is partial (pages 1-2, 4, 7 only), limiting appraisal completeness."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 3,
+    "sampling_adequacy": 1,
+    "data_collection_transparency": 1,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 2,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Conceptual perspective paper without empirical sample or reported primary data collection. Argumentative analysis is appropriate for identifying regulatory testing challenges but offers limited directly transferable operational guidance for conversational LLM systems."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 3,
+    "overall_confidence": "moderate",
+    "explanation": "The argument is coherent and clearly linked to AI Act human oversight and compliance testing, but relevance to conversational LLM governance is indirect and the available excerpt set does not show empirical validation or LLM-specific operational mechanisms."
+  },
+  "coding": {
+    "open_codes": [
+      "human_oversight",
+      "compliance_testing",
+      "checklist_vs_empirical_testing",
+      "automation_bias",
+      "context_dependence",
+      "sociotechnical_governance",
+      "human_computer_interaction",
+      "auditing"
+    ],
+    "axial_codes": [
+      "regulatory_compliance",
+      "oversight_effectiveness",
+      "governance_operationalization",
+      "human_factors_in_ai"
+    ],
+    "theme": "Challenges in testing compliance with human oversight requirements",
+    "subtheme": "Operationalizing AI Act Article 14 through auditing and empirical oversight evaluation",
+    "concepts": [
+      "human oversight",
+      "compliance testing",
+      "AI Act",
+      "auditing",
+      "automation bias",
+      "sociotechnical systems",
+      "human-centered AI"
+    ],
+    "model_layers": [
+      "policy_regulatory",
+      "organizational_process",
+      "human_factors",
+      "technical_system"
+    ],
+    "rq_alignment": [
+      "human_oversight",
+      "compliance",
+      "auditing",
+      "risk_management",
+      "accountability",
+      "regulated_contexts"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Testing compliance with human oversight requirements under the European AI Act is inherently complex because checklist-based approaches may be ineffective while empirical, context-sensitive testing is resource-intensive and difficult to standardize.",
+    "contribution": "The paper frames human oversight compliance as a sociotechnical governance challenge, identifies tensions between simple audits and empirical effectiveness testing, and argues for integrating psychology and HCI expertise into AI governance.",
+    "limitations": "Human oversight requirements are context-dependent, standards are difficult to operationalize, and transferring oversight effectiveness insights across contexts may be challenging.",
+    "use_in_review": "Use as supporting evidence on human oversight, compliance testing, and auditing challenges in regulated AI governance; not as primary evidence for conversational or LLM-specific governance mechanisms."
+  },
+  "evidence": [
+    {
+      "claim": "Paper focuses on human oversight compliance testing under AI regulation",
+      "excerpt": "Human oversight requirements are a core component of the European AI Act and in AI governance.",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Central tension between checklist and empirical compliance testing",
+      "excerpt": "balancing simple, but potentially ineffective checklist-based approaches with resource-intensive and context-sensitive empirical testing",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Regulated high-risk AI context",
+      "excerpt": "when these systems are used for high-risk tasks",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Human oversight linked to AI Act Article 14",
+      "excerpt": "One such key requirement is effective human oversight, as outlined in Article 14 of the AI Act",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Oversight includes automation bias awareness",
+      "excerpt": "ensuring that human oversight personnel remain aware of their tendency to over-rely on outputs produced by a high-risk AI system (e.g., automation bias",
+      "page": "2",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Empirical oversight testing requires HCI/psychology expertise",
+      "excerpt": "Empirical testing for the effectiveness of human oversight requires expertise with empirical methods and user studies.",
+      "page": "4",
+      "section": "background",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Context transferability is a limitation",
+      "excerpt": "transferring insights across contexts may be challenging, as oversight effec",
+      "page": "4",
+      "section": "background",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Future tasks combine checklists with empirical testing and HCI-informed standards",
+      "excerpt": "establish a middle ground or a feasible combination between checklists and empirical testing",
+      "page": "7",
+      "section": "unclear",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Governance shift from product to sociotechnical systems",
+      "excerpt": "a future that shifts from ensuring \"good\" technological products to \"good\" sociotechnical systems",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "HCI and psychology should inform oversight design and testing",
+      "excerpt": "research(ers) from psychology, human-computer interaction and related fields should play a key role",
+      "page": "7",
+      "section": "methods",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No explicit LLM or conversational system focus in provided text",
+      "excerpt": "Testing for compliance with emerging legislation regarding Artificial Intelligence (AI)",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Auditing is an explicit keyword and theme",
+      "excerpt": "Keywords: Human Oversight · Auditing · AI Act · Regulation",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    }
+  ]
+}

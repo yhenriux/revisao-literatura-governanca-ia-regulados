@@ -1,0 +1,196 @@
+{
+  "bibliographic": {
+    "title": "With Great Capabilities Come Great Responsibilities: Introducing the Agentic Risk & Capability Framework for Governing Agentic AI Systems",
+    "authors": "Shaun Khoo, Jessica Foo, Roy Ka-Wei Lee",
+    "year": "2025",
+    "venue": "arXiv preprint (submitted to IASEAI'26)",
+    "doi": "unclear",
+    "publication_type": "preprint",
+    "peer_reviewed": "unclear",
+    "citation_apa": "Khoo, S., Foo, J., & Lee, R. K.-W. (2025). With great capabilities come great responsibilities: Introducing the Agentic Risk & Capability Framework for governing agentic AI systems. arXiv. https://arxiv.org/abs/2512.22211"
+  },
+  "methodology": {
+    "research_type": "methodological",
+    "method_family": "technical governance framework development",
+    "study_design": "conceptual framework paper with structured risk-capability analysis",
+    "sample_description": "unclear",
+    "sample_size": "unclear",
+    "sector": "unclear",
+    "regulated_domain": "unclear",
+    "llm_specificity": "specific_llm",
+    "technology_context": "agentic AI systems and LLM agents with autonomous action (code execution, internet interaction, file modification); components include LLM, tools, instructions, memory; agentic architecture, access controls, monitoring"
+  },
+  "eligibility": {
+    "title_abstract_decision": "include",
+    "full_text_decision": "include",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text screening",
+    "inclusion_codes": [
+      "llm_agents",
+      "ai_governance_framework",
+      "risk_management",
+      "technical_controls",
+      "organizational_governance"
+    ],
+    "exclusion_codes": [],
+    "exclusion_reason": "",
+    "decision_rationale": "The paper directly addresses technical governance of LLM-based agentic AI systems, including risk identification, assessment, mitigation, and organizational controls. It aligns strongly with governance and risk dimensions of the review scope and explicitly covers LLM agents. However, the provided text does not center conversational interfaces, chatbots, or conversational governance; interaction appears only in the context of autonomous agent actions, so it is better classified as supporting rather than central conversational-governance evidence.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only partial full text was supplied; metadata title was corrupted; peer-review status and venue finalization are unclear; regulated-domain applicability and conversational-governance relevance need confirmation against the complete paper."
+  },
+  "appraisal": {
+    "objective_clarity": 5,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 4,
+    "limitations_transparency": 3,
+    "evidence_support": 3,
+    "transferability": 4,
+    "notes": "Appropriate for a framework/methodological contribution with clearly stated objectives and contributions. Provided excerpts do not describe empirical sampling, data collection procedures, or validation studies. The authors acknowledge the framework is not a panacea, but broader limitations cannot be fully appraised from the excerpt."
+  },
+  "cerqual": {
+    "methodological_limitations": 3,
+    "coherence": 4,
+    "adequacy": 3,
+    "relevance": 4,
+    "overall_confidence": "moderate",
+    "explanation": "The ARC framework is presented coherently with explicit contributions linking risk sources, materialized risks, and technical controls for agentic LLM systems. Confidence is moderate rather than high because only partial text was available, no empirical evaluation is evident in the excerpts, and regulated or conversational-specific applicability remains unclear."
+  },
+  "coding": {
+    "open_codes": [
+      "agentic AI governance",
+      "capability-centric risk analysis",
+      "LLM agents",
+      "technical controls",
+      "organizational risk mitigation",
+      "open-source framework"
+    ],
+    "axial_codes": [
+      "AI governance frameworks",
+      "risk identification and mitigation",
+      "agent system architecture"
+    ],
+    "theme": "Technical governance of agentic LLM-based AI systems",
+    "subtheme": "Capability-centric risk and control framework (ARC)",
+    "concepts": [
+      "ARC Framework",
+      "agentic capabilities",
+      "risk sources: components, design, capabilities",
+      "technical controls",
+      "AI control",
+      "monitoring",
+      "access controls",
+      "attributability"
+    ],
+    "model_layers": [
+      "components",
+      "design",
+      "capabilities",
+      "domain/use-case/organizational context",
+      "technical controls"
+    ],
+    "rq_alignment": [
+      "governance of LLM-based systems",
+      "risk management and mitigation",
+      "agentic AI oversight",
+      "technical guardrails and controls"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "The Agentic Risk & Capability (ARC) Framework offers a capability-centric technical governance approach to help organizations identify, assess, contextualize, and mitigate safety and security risks arising from agentic LLM-based AI systems.",
+    "contribution": "Introduces a novel capability-centric perspective; distills three intrinsic risk sources (components, design, capabilities); links each risk source to materialized risks and technical controls; provides a structured practical implementation approach; and is open-sourced.",
+    "limitations": "The framework is explicitly not a panacea for governing agentic systems. Per-system customized risk assessments are described as unsustainable long term, motivating the framework, but fuller limitations cannot be determined from the provided excerpts.",
+    "use_in_review": "Use as supporting evidence for technical governance of agentic LLM systems, especially risk taxonomy, capability-based analysis, and mapping risks to technical controls. Useful contextual support for agent governance, monitoring, and organizational risk management, but not as primary evidence for conversational-governance mechanisms unless fuller text shows stronger conversational focus."
+  },
+  "evidence": [
+    {
+      "claim": "Paper introduces ARC as a technical governance framework for agentic AI risk management",
+      "excerpt": "we introduce the Agentic Risk & Capability (ARC) Framework, a technical governance framework designed to help organizations identify, assess, and mitigate risks arising from agentic AI systems",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Focuses on LLM agents with autonomous action",
+      "excerpt": "systems that allowed large language model (\"LLM\") agents to reason, plan, and autonomously execute tasks such as code development or web surfing",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Governing agentic systems is harder than governing traditional LLM systems",
+      "excerpt": "governing agentic systems presents unique challenges compared to traditional LLM systems - they have the autonomy to execute a wide variety of actions",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "coding"
+    },
+    {
+      "claim": "Framework analyzes risks via components, design, and capabilities",
+      "excerpt": "it distills three primary sources of risk intrinsic to agentic AI systems - components, design, and capabilities",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Links risk sources to materialized risks and technical controls",
+      "excerpt": "it establishes a clear nexus between each risk source, specific materialized risks, and corresponding technical controls",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Framework contextualizes risks by domain, use case, and organization",
+      "excerpt": "contextualizes the agentic system’s risks given its domain, use case, and organizational context",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "LLM is a core agent component for reasoning and response generation",
+      "excerpt": "LLM: The LLM is the central reasoning engine that processes instructions, interprets user inputs, and generates contextually appropriate responses",
+      "page": "4",
+      "section": "4.1.1 Components",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance analysis includes agentic architecture, access controls, and monitoring",
+      "excerpt": "the design of the agentic system (i.e. agentic architecture, access controls, and monitoring)",
+      "page": "2",
+      "section": "unclear",
+      "supports": "coding"
+    },
+    {
+      "claim": "Accountability and real-time anomaly detection are governance concerns",
+      "excerpt": "real-time anomaly detection, and establishing accountability particularly when agents operate with a degree of autonomy",
+      "page": "4",
+      "section": "unclear",
+      "supports": "rq_alignment"
+    },
+    {
+      "claim": "Authors acknowledge framework limitations",
+      "excerpt": "While the ARC framework is not a panacea to the complex challenges of governing agentic systems",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Publication is an arXiv preprint associated with IASEAI'26",
+      "excerpt": "Second Conference of the International Association for Safe and Ethical Artificial Intelligence (IASEAI’26). arXiv:2512.22211v1 [cs.AI] 22 Dec 2025",
+      "page": "1",
+      "section": "Introduction",
+      "supports": "bibliographic"
+    },
+    {
+      "claim": "Agentic systems involve internet interaction but not specifically conversational governance",
+      "excerpt": "autonomous action, encompassing tasks such as code execution, internet interaction, and file modification",
+      "page": "1",
+      "section": "Abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "bibliographic": {
+    "title": "A survey on augmenting knowledge graphs (KGs) with large language models (LLMs): models, evaluation metrics, benchmarks, and challenges",
+    "authors": "Nourhan Ibrahim; Samar Aboulela; Ahmed Ibrahim; Rasha Kashef",
+    "year": "2024",
+    "venue": "Discover Artificial Intelligence",
+    "doi": "10.1007/s44163-024-00175-8",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Ibrahim, N., Aboulela, S., Ibrahim, A., & Kashef, R. (2024). A survey on augmenting knowledge graphs (KGs) with large language models (LLMs): models, evaluation metrics, benchmarks, and challenges. Discover Artificial Intelligence, 4, 76. https://doi.org/10.1007/s44163-024-00175-8"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "systematic literature review",
+    "study_design": "multi-phase survey with comparative framework",
+    "sample_description": "key papers from NLP, machine learning, and knowledge representation gathered to understand KG-LLM integration approaches in the last decade",
+    "sample_size": "unclear",
+    "sector": "healthcare, finance, telecommunications, e-commerce",
+    "regulated_domain": "partial",
+    "llm_specificity": "specific_llm",
+    "technology_context": "KG-augmented LLMs, LLM-augmented KGs, synergized frameworks, RAG, evaluation metrics and benchmarks"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "maybe",
+    "final_decision": "supporting_evidence",
+    "prisma_stage": "full-text adjudication",
+    "inclusion_codes": [
+      "LLM",
+      "RAG",
+      "knowledge_graphs",
+      "interpretability",
+      "systematic_review"
+    ],
+    "exclusion_codes": [
+      "no_conversational_governance",
+      "no_human_oversight",
+      "no_compliance_audit_focus"
+    ],
+    "exclusion_reason": "",
+    "decision_rationale": "The article is a peer-reviewed survey on KG-LLM integration with explicit RAG and interpretability content, which is peripherally relevant to knowledge-base and retrieval governance in LLM systems. The provided text does not address conversational governance, human oversight, accountability, audit, compliance, guardrails, or regulated-domain operational controls, so it is not central evidence for the review scope.",
+    "decision_confidence": 0.78,
+    "manual_spotcheck_required": "yes",
+    "manual_spotcheck_reason": "Only front matter and partial methodology are available; full paper needed to confirm absence of governance, oversight, and regulated-context operational content beyond introductory industry mentions."
+  },
+  "appraisal": {
+    "objective_clarity": 4,
+    "method_fit": 4,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 3,
+    "analysis_rigor": 3,
+    "ethics_reflexivity": 1,
+    "results_clarity": 3,
+    "limitations_transparency": 2,
+    "evidence_support": 3,
+    "transferability": 3,
+    "notes": "Clear survey objective and stated multi-phase systematic review methodology with three-paradigm classification and comparative framework. Sample size, search strategy details, ethics, and full limitations are not evidenced in the excerpt provided."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 4,
+    "adequacy": 2,
+    "relevance": 2,
+    "overall_confidence": "moderate",
+    "explanation": "The study is internally coherent as a technical survey of KG-LLM integration paradigms, but adequacy of sampling and direct relevance to conversational governance in regulated environments are limited based on the text provided."
+  },
+  "coding": {
+    "open_codes": [
+      "KG-LLM integration",
+      "systematic literature review",
+      "RAG",
+      "interpretability",
+      "evaluation metrics",
+      "benchmarks",
+      "scalability challenges"
+    ],
+    "axial_codes": [
+      "technical architecture",
+      "knowledge augmentation",
+      "performance evaluation"
+    ],
+    "theme": "LLM-KG integration paradigms and evaluation",
+    "subtheme": "RAG and knowledge-graph augmentation",
+    "concepts": [
+      "KG-augmented LLMs",
+      "LLM-augmented KGs",
+      "synergized frameworks",
+      "retrieval augmentation generation",
+      "interpretability"
+    ],
+    "model_layers": [
+      "knowledge layer",
+      "retrieval layer",
+      "model integration layer"
+    ],
+    "rq_alignment": [
+      "RAG",
+      "knowledge governance",
+      "interpretability"
+    ],
+    "coding_confidence": 0.72
+  },
+  "synthesis": {
+    "main_claim": "Integrating LLMs with knowledge graphs enhances interpretability and performance of AI systems, and integration approaches can be classified into three paradigms with distinct methodologies, strengths, drawbacks, and applications.",
+    "contribution": "Provides a structured survey taxonomy (KG-augmented LLMs, LLM-augmented KGs, synergized frameworks), discusses evaluation metrics and benchmarks, and identifies challenges such as scalability and computational overhead.",
+    "limitations": "The provided text notes challenges including scalability and computational overhead, but full study limitations are unclear from the excerpt.",
+    "use_in_review": "Use as supporting technical background for RAG, knowledge-base integration, and interpretability in LLM systems; not suitable as central evidence for conversational governance, oversight, audit, or compliance in regulated settings."
+  },
+  "evidence": [
+    {
+      "claim": "Peer-reviewed journal survey article with identifiable bibliographic metadata",
+      "excerpt": "Discover Artificial Intelligence Review A survey on augmenting knowledge graphs (KGs) with large language models (LLMs)",
+      "page": "1",
+      "section": "front matter",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Study uses systematic literature review methodology",
+      "excerpt": "We adopted a multi-phase methodology to systematically analyze the integration of Knowledge Graphs (KGs) and Large Language Models (LLMs).",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Literature sample drawn from NLP, machine learning, and knowledge representation over the last decade",
+      "excerpt": "conducted a systematic literature review, gathering key papers from NLP, machine learning, and knowledge representation to understand integration approaches in the last decade.",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Three integration paradigms are the core organizing framework",
+      "excerpt": "classifying approaches into three fundamental paradigms: KG-augmented LLMs, LLM-augmented KGs, and synergized frameworks.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "RAG is an explicit keyword and technology context",
+      "excerpt": "Keywords Large language models (LLMs) · Knowledge graphs (KGs) · Retrieval augmentation generation (RAG)",
+      "page": "1",
+      "section": "keywords",
+      "supports": "coding"
+    },
+    {
+      "claim": "Interpretability is presented as a benefit of KG-LLM integration",
+      "excerpt": "Integrating Large Language Models (LLMs) with Knowledge Graphs (KGs) enhances the interpretability and performance of AI systems.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "Healthcare and finance appear only as example application industries, not as regulated governance focus",
+      "excerpt": "industries such as healthcare, finance, telecommunications, and e-commerce",
+      "page": "1",
+      "section": "introduction",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Specific LLM examples are named in the text",
+      "excerpt": "Some prevalent cases are GPT-3 by OpenAI, touted to create coherent, relevant text, and BERT by Google",
+      "page": "2",
+      "section": "introduction",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Comparative analysis framework uses accuracy, efficiency, scalability, and generalization",
+      "excerpt": "designed a comparative framework to analyze integration approaches based on key factors like accuracy, computational efficiency, scalability, and generalization capabili",
+      "page": "2",
+      "section": "methods",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Challenges include scalability and computational overhead",
+      "excerpt": "addressing challenges like scalability and computational overhead, and providing potential solutions.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "synthesis"
+    },
+    {
+      "claim": "No conversational governance, oversight, audit, or compliance content is evidenced in the provided text",
+      "excerpt": "The evaluation examines each paradigm’s methodology, strengths, drawbacks, and practical applications in real-life scenarios.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    }
+  ]
+}

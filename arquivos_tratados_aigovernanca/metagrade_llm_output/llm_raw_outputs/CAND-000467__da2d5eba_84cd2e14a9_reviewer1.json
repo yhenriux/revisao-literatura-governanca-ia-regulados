@@ -1,0 +1,177 @@
+{
+  "bibliographic": {
+    "title": "Addressing Bias, Privacy, Security, and Patient Autonomy in Artificial Intelligence (AI)-Driven Healthcare: A Review of Current Guidelines",
+    "authors": "Shruti Singh, Prashant K. Singh, Rajesh Kumar, Riya Vaidyar",
+    "year": "2026",
+    "venue": "Cureus",
+    "doi": "10.7759/cureus.103999",
+    "publication_type": "journal_article",
+    "peer_reviewed": "yes",
+    "citation_apa": "Singh, S., Singh, P. K., Kumar, R., & Vaidyar, R. (2026). Addressing bias, privacy, security, and patient autonomy in artificial intelligence (AI)-driven healthcare: A review of current guidelines. Cureus, 18(2), e103999. https://doi.org/10.7759/cureus.103999"
+  },
+  "methodology": {
+    "research_type": "review",
+    "method_family": "narrative review",
+    "study_design": "narrative review of global regulations, ethics frameworks, standards, and peer-reviewed literature on privacy, security, and ethics in healthcare AI",
+    "sample_description": "English-language sources from January 2020 to January 2026 comprising primary legal and regulatory instruments, ethics frameworks and standards, and peer-reviewed empirical studies or reviews addressing privacy, security, or ethics in healthcare AI",
+    "sample_size": "unclear",
+    "sector": "healthcare",
+    "regulated_domain": "yes",
+    "llm_specificity": "generic_genai",
+    "technology_context": "Healthcare AI broadly, including post-2022 guidance on generative AI and large language models; chatbots and AI-generated medical summaries mentioned in policy recommendations; authors used ChatGPT only for grammatical editing"
+  },
+  "eligibility": {
+    "title_abstract_decision": "maybe",
+    "full_text_decision": "exclude",
+    "final_decision": "exclude",
+    "prisma_stage": "full_text_screening",
+    "inclusion_codes": [],
+    "exclusion_codes": [
+      "E_TOPIC_MISMATCH",
+      "E_NOT_CONVERSATIONAL_AI",
+      "E_NOT_LLM_GOVERNANCE_FOCUS"
+    ],
+    "exclusion_reason": "Narrative review centered on general healthcare AI governance (bias, privacy, security, patient autonomy) and regulatory guidelines; generative AI, LLMs, and chatbots are peripheral rather than the primary object of conversational governance analysis.",
+    "decision_rationale": "The article explicitly defines itself as a narrative review of current guidelines addressing bias, privacy, security, and patient autonomy in AI-driven healthcare. Although the literature search included post-2022 guidance on generative AI and large language models in healthcare, and chatbots are briefly cited in policy recommendations, the provided text does not analyze conversational AI systems, LLM-based agents, or conversational governance mechanisms as the study focus.",
+    "decision_confidence": 0.88,
+    "manual_spotcheck_required": "no",
+    "manual_spotcheck_reason": ""
+  },
+  "appraisal": {
+    "objective_clarity": 3,
+    "method_fit": 2,
+    "sampling_adequacy": 2,
+    "data_collection_transparency": 2,
+    "analysis_rigor": 2,
+    "ethics_reflexivity": 2,
+    "results_clarity": 2,
+    "limitations_transparency": 2,
+    "evidence_support": 2,
+    "transferability": 2,
+    "notes": "Adequate as a narrative healthcare AI governance review with stated search window and eligibility criteria, but limited methodological detail on databases, screening, and synthesis procedures in the provided text. ChatGPT use for editing is transparently disclosed."
+  },
+  "cerqual": {
+    "methodological_limitations": 2,
+    "coherence": 2,
+    "adequacy": 2,
+    "relevance": 1,
+    "overall_confidence": "low",
+    "explanation": "Findings are coherent for healthcare AI privacy, bias, and regulatory governance, but relevance to conversational LLM governance in regulated environments is low because LLMs and chatbots appear only incidentally in search scope and recommendations."
+  },
+  "coding": {
+    "open_codes": [
+      "healthcare AI governance",
+      "data privacy",
+      "algorithmic bias",
+      "patient autonomy",
+      "regulatory compliance",
+      "ethical governance",
+      "generative AI mention",
+      "chatbots mention"
+    ],
+    "axial_codes": [
+      "regulated healthcare AI",
+      "privacy and security governance",
+      "policy and ethics frameworks"
+    ],
+    "theme": "Healthcare AI regulatory and ethical governance",
+    "subtheme": "Bias, privacy, security, and patient autonomy under global and Indian frameworks",
+    "concepts": [
+      "GDPR",
+      "HIPAA",
+      "DPDP Act",
+      "OECD AI principles",
+      "algorithmic transparency",
+      "patient consent",
+      "generative AI",
+      "large language models",
+      "chatbots"
+    ],
+    "model_layers": [
+      "policy/regulatory layer",
+      "ethics layer"
+    ],
+    "rq_alignment": [
+      "partial overlap on regulated healthcare governance, privacy, bias, compliance, and human oversight themes, but not conversational LLM system governance"
+    ],
+    "coding_confidence": 0.82
+  },
+  "synthesis": {
+    "main_claim": "Integrating AI in healthcare raises major privacy, security, bias, and patient autonomy concerns that require stronger governance through harmonized regulations and ethical frameworks such as GDPR, HIPAA, OECD guidelines, and India's DPDP Act.",
+    "contribution": "Synthesizes global and Indian regulatory landscapes and ethical challenges in healthcare AI, with policy recommendations to strengthen governance and ethical AI development.",
+    "limitations": "Narrative review methodology with heterogeneous evidence; generative AI and LLMs are secondary search targets rather than the core analytic focus; no dedicated analysis of conversational AI governance mechanisms.",
+    "use_in_review": "Exclude as central or supporting evidence for conversational LLM governance; at most peripheral contextual value for regulated healthcare privacy, bias, and compliance themes."
+  },
+  "evidence": [
+    {
+      "claim": "Article is a narrative review on healthcare AI governance focused on bias, privacy, security, and patient autonomy.",
+      "excerpt": "This narrative review examines global regulations, including the General Data Protection Regulation, the Health Insurance Portability and Accountability Act, and Organization for Economic Co-operation and Development guidelines",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Primary objective is ethical governance in healthcare AI, not conversational LLM systems.",
+      "excerpt": "The paper concludes with policy recommendations to harmonize international standards, strengthen AI governance in healthcare, and foster ethical AI development.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Search included post-2022 generative AI and LLM guidance but as part of broader healthcare AI ethics and privacy review.",
+      "excerpt": "with specific attention to post- 2022 guidance on generative AI and large language models in healthcare.",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Eligibility criteria cover regulations, ethics frameworks, and peer-reviewed studies on privacy, security, or ethics.",
+      "excerpt": "Eligibility criteria included English-language sources comprising the following: 1) primary legal and regulatory instruments; 2) ethics frameworks and standards; 3) peer-reviewed empirical studies or reviews addressing privacy, security, or eth",
+      "page": "2",
+      "section": "methods",
+      "supports": "methodology"
+    },
+    {
+      "claim": "Chatbots appear only briefly in policy recommendations, not as studied conversational systems.",
+      "excerpt": "Governments and professional bodies should regularly update AI policies/laws/regulations to address new challenges like generative AI in healthcare (e.g., chatbots, AI-generated medical summaries)",
+      "page": "12",
+      "section": "unclear",
+      "supports": "eligibility"
+    },
+    {
+      "claim": "Authors' LLM use was limited to manuscript editing, not study of LLM governance.",
+      "excerpt": "The authors report using an AI tool based on a large language model (ChatGPT, OpenAI) for grammatical editing and stylistic refinement only.",
+      "page": "2",
+      "section": "conclusion",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Regulated healthcare domain is explicit.",
+      "excerpt": "Integrating artificial intelligence (AI) in healthcare has revolutionized patient care, diagnostics, and operational efficiency.",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Governance themes include bias, transparency, trust, and accountability concerns in healthcare AI.",
+      "excerpt": "The review explores key ethical challenges, including AI bias, patient consent, data security, and algorithmic transparency",
+      "page": "1",
+      "section": "abstract",
+      "supports": "coding"
+    },
+    {
+      "claim": "Narrative synthesis prioritized consensus guidance where evidence was heterogeneous.",
+      "excerpt": "Where evidence was heterogeneous or contested, consensus guidance and landmark empirical studies were prioritized, and conclusions were framed accordingly.",
+      "page": "2",
+      "section": "conclusion",
+      "supports": "appraisal"
+    },
+    {
+      "claim": "Indian regulated healthcare data governance context is addressed.",
+      "excerpt": "AI- driven healthcare and cross-border data collaborations must align with DPDP Act standards to ensure privacy, security, and fairness",
+      "page": "7",
+      "section": "unclear",
+      "supports": "synthesis"
+    }
+  ]
+}
