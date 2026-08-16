@@ -6,11 +6,11 @@ Esta pasta contém somente versões oficiais ou historicamente necessárias do m
 
 | Necessidade | Arquivo |
 |---|---|
-| Enviar aos professores ou ler | `ARTIGO__T-v1__LEITURA.pdf` |
-| Editar o manuscrito | `ARTIGO__T-v1__EDICAO.docx` |
-| Revisar alterações | `ARTIGO__T-v1__REDLINE.docx` |
-| Consultar o manuscrito original | `ARTIGO__T-v0__FONTE.docx` ou `ARTIGO__T-v0__LEITURA.pdf` |
-| Auditar o estado anterior à correção final | arquivos `ARTIGO__T-v1-pre-auditoria__*` |
+| Enviar aos professores ou ler | `Artigo_Governanca_Conversacional_v1_FINAL_PARA_LEITURA.pdf` |
+| Editar o manuscrito | `Artigo_Governanca_Conversacional_v1_EDITAVEL.docx` |
+| Revisar alterações | `Artigo_Governanca_Conversacional_v1_COM_ALTERACOES.docx` |
+| Consultar o manuscrito original | `Artigo_Governanca_Conversacional_v0_ORIGINAL.docx` ou `.pdf` |
+| Auditar o estado anterior à correção final | arquivos `Artigo_Governanca_Conversacional_v1_PRE_AUDITORIA_*` |
 
 ## Regra de preservação
 

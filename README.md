@@ -4,8 +4,8 @@ Revisão sistemática da literatura sobre governança conversacional em sistemas
 
 ## Comece aqui
 
-- **Artigo para leitura e envio:** [`01_ARTIGO__VERSOES/ARTIGO__T-v1__LEITURA.pdf`](01_ARTIGO__VERSOES/ARTIGO__T-v1__LEITURA.pdf)
-- **Versão editável:** [`01_ARTIGO__VERSOES/ARTIGO__T-v1__EDICAO.docx`](01_ARTIGO__VERSOES/ARTIGO__T-v1__EDICAO.docx)
+- **Artigo para leitura e envio:** [`01_ARTIGO__VERSOES/Artigo_Governanca_Conversacional_v1_FINAL_PARA_LEITURA.pdf`](01_ARTIGO__VERSOES/Artigo_Governanca_Conversacional_v1_FINAL_PARA_LEITURA.pdf)
+- **Versão editável:** [`01_ARTIGO__VERSOES/Artigo_Governanca_Conversacional_v1_EDITAVEL.docx`](01_ARTIGO__VERSOES/Artigo_Governanca_Conversacional_v1_EDITAVEL.docx)
 - **Guia dos artefatos:** [`01_ARTIGO__VERSOES/README.md`](01_ARTIGO__VERSOES/README.md)
 - **Histórico editorial:** [`04_DOCUMENTACAO__PMEST/editorial/`](04_DOCUMENTACAO__PMEST/editorial/)
 - **Método e reprodução:** [`04_DOCUMENTACAO__PMEST/methodology/`](04_DOCUMENTACAO__PMEST/methodology/)
@@ -19,7 +19,7 @@ Revisão sistemática da literatura sobre governança conversacional em sistemas
 |---|---|
 | Manuscrito corrente | v1 final fechada |
 | Marco Git | `article-v1-final` |
-| Arquivo para envio | `01_ARTIGO__VERSOES/ARTIGO__T-v1__LEITURA.pdf` |
+| Arquivo para envio | `01_ARTIGO__VERSOES/Artigo_Governanca_Conversacional_v1_FINAL_PARA_LEITURA.pdf` |
 | Corpus desta rodada | congelado |
 | Nova busca bibliográfica | não prevista |
 | Próxima ação | submissão ou avaliação pelos professores |

@@ -1,6 +1,6 @@
 # Contrato de fidelidade da v0
 
-- Referência: `01_ARTIGO__VERSOES/ARTIGO__T-v0__FONTE.docx`.
+- Referência: `01_ARTIGO__VERSOES/Artigo_Governanca_Conversacional_v0_ORIGINAL.docx`.
 - SHA-256: `73E87B454BE1974234275ADAADB7465AB49209183CF79B5496C02353438B4843`.
 - Estrutura: uma seção A4 retrato.
 - Margens: 0,95 pol. esquerda/direita; 0,87 pol. superior/inferior.

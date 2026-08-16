@@ -16,7 +16,7 @@
 | M12 | Discussão insuficiente na v1 pré-auditoria | Expansão para 734 palavras com diálogo bibliográfico, trade-offs, implicações proporcionais ao risco e limites | Seção 5 | Atendido |
 | M13 | Evidência e proposição autoral precisam ser distinguidas | Uso explícito de “a revisão identificou” e “o modelo propõe”; modelo delimitado como estrutura ainda não validada | Seções 4.7 e 5 | Atendido |
 | M14 | Conclusão curta | Expansão para 182 palavras com resposta, contribuição teórica e prática, limitação e agenda verificável | Seção 6 | Atendido |
-| M15 | Rastreabilidade da correção | Redline real com 33 inserções, 33 exclusões e quatro comentários editoriais | `ARTIGO__T-v1__REDLINE.docx` | Atendido |
+| M15 | Rastreabilidade da correção | Redline real com 33 inserções, 33 exclusões e quatro comentários editoriais | `Artigo_Governanca_Conversacional_v1_COM_ALTERACOES.docx` | Atendido |
 | M16 | Integridade e acessibilidade | Referências idênticas, sete figuras, três tabelas, equivalência após aceitação e zero achados de acessibilidade | Relatório de QA | Atendido |
 
 Não há critérios classificados como parcial, pendente ou não aplicável.
