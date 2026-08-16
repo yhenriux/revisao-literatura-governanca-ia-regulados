@@ -11,7 +11,7 @@ Revisão sistemática da literatura sobre governança conversacional em sistemas
 - **Método e reprodução:** [`04_DOCUMENTACAO__PMEST/methodology/`](04_DOCUMENTACAO__PMEST/methodology/)
 - **Decisões e versionamento:** [`04_DOCUMENTACAO__PMEST/project/`](04_DOCUMENTACAO__PMEST/project/)
 - **Arquitetura facetada PMEST:** [`04_DOCUMENTACAO__PMEST/project/RANGANATHAN_FACETED_ARCHITECTURE.md`](04_DOCUMENTACAO__PMEST/project/RANGANATHAN_FACETED_ARCHITECTURE.md)
-- **Corpus tratado:** [`arquivos_tratados_aigovernanca/`](arquivos_tratados_aigovernanca/)
+- **Corpus tratado:** [`arquivos_tratados_aigovernanca/`](arquivos_tratados_aigovernanca/) — nome preservado por compatibilidade com o pipeline; no Drive, aparece como `02_CORPUS__ARQUIVOS_TRATADOS`.
 
 ## Status atual
 

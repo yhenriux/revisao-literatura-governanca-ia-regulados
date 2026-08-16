@@ -23,6 +23,8 @@ Esta arquitetura aplica as cinco facetas de S. R. Ranganathan à organização d
 | Reproduzir o método | `04_DOCUMENTACAO__PMEST/methodology/` e `tools/` | P método/ferramenta · E reproduzir · T corrente |
 | Consultar evidências | `arquivos_tratados_aigovernanca/` | P corpus · M evidência · E analisar · T corpus congelado |
 
+O diretório do corpus mantém o identificador técnico `arquivos_tratados_aigovernanca/` para não quebrar o pipeline. Na camada de apresentação do Google Drive, ele é exibido como `02_CORPUS__ARQUIVOS_TRATADOS`.
+
 ## Regra de nomenclatura
 
 Os nomes oficiais do manuscrito permanecem estáveis porque são usados em citações, scripts, hashes, e-mails e instruções de envio. Para novos documentos auxiliares, prefira nomes descritivos com função explícita, por exemplo `RANGANATHAN_FACETED_ARCHITECTURE.md` e `CONTRIBUTING.md`.
