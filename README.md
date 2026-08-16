@@ -4,13 +4,13 @@ Revisão sistemática da literatura sobre governança conversacional em sistemas
 
 ## Comece aqui
 
-- **Artigo para leitura e envio:** [`versoes_artigo/Governanca_Conversacional_v1.pdf`](versoes_artigo/Governanca_Conversacional_v1.pdf)
-- **Versão editável:** [`versoes_artigo/Governanca_Conversacional_v1.docx`](versoes_artigo/Governanca_Conversacional_v1.docx)
-- **Guia dos artefatos:** [`versoes_artigo/README.md`](versoes_artigo/README.md)
-- **Histórico editorial:** [`docs/editorial/`](docs/editorial/)
-- **Método e reprodução:** [`docs/methodology/`](docs/methodology/)
-- **Decisões e versionamento:** [`docs/project/`](docs/project/)
-- **Arquitetura facetada PMEST:** [`docs/project/RANGANATHAN_FACETED_ARCHITECTURE.md`](docs/project/RANGANATHAN_FACETED_ARCHITECTURE.md)
+- **Artigo para leitura e envio:** [`01_ARTIGO__VERSOES/ARTIGO__T-v1__LEITURA.pdf`](01_ARTIGO__VERSOES/ARTIGO__T-v1__LEITURA.pdf)
+- **Versão editável:** [`01_ARTIGO__VERSOES/ARTIGO__T-v1__EDICAO.docx`](01_ARTIGO__VERSOES/ARTIGO__T-v1__EDICAO.docx)
+- **Guia dos artefatos:** [`01_ARTIGO__VERSOES/README.md`](01_ARTIGO__VERSOES/README.md)
+- **Histórico editorial:** [`04_DOCUMENTACAO__PMEST/editorial/`](04_DOCUMENTACAO__PMEST/editorial/)
+- **Método e reprodução:** [`04_DOCUMENTACAO__PMEST/methodology/`](04_DOCUMENTACAO__PMEST/methodology/)
+- **Decisões e versionamento:** [`04_DOCUMENTACAO__PMEST/project/`](04_DOCUMENTACAO__PMEST/project/)
+- **Arquitetura facetada PMEST:** [`04_DOCUMENTACAO__PMEST/project/RANGANATHAN_FACETED_ARCHITECTURE.md`](04_DOCUMENTACAO__PMEST/project/RANGANATHAN_FACETED_ARCHITECTURE.md)
 - **Corpus tratado:** [`arquivos_tratados_aigovernanca/`](arquivos_tratados_aigovernanca/)
 
 ## Status atual
@@ -19,22 +19,22 @@ Revisão sistemática da literatura sobre governança conversacional em sistemas
 |---|---|
 | Manuscrito corrente | v1 final fechada |
 | Marco Git | `article-v1-final` |
-| Arquivo para envio | `versoes_artigo/Governanca_Conversacional_v1.pdf` |
+| Arquivo para envio | `01_ARTIGO__VERSOES/ARTIGO__T-v1__LEITURA.pdf` |
 | Corpus desta rodada | congelado |
 | Nova busca bibliográfica | não prevista |
 | Próxima ação | submissão ou avaliação pelos professores |
 
 ## Conteúdo do repositório
 
-- `versoes_artigo/`: versão de trabalho do artigo em DOCX e PDF.
-- `exemplos_qualificados_revisao_literatura/`: exemplo de survey/review usado como referência de qualidade.
+- `01_ARTIGO__VERSOES/`: versão de trabalho do artigo em DOCX e PDF.
+- `03_REFERENCIAS__EXEMPLOS/`: exemplo de survey/review usado como referência de qualidade.
 - `arquivos_tratados_aigovernanca/`: corpus tratado, textos completos, PDFs, resultados brutos de avaliação por LLM, planilha de metagrade e utilitário Python de adjudicação.
 
 O detalhamento metodológico, as regras de governança do corpus e o estado do pipeline estão documentados em [`arquivos_tratados_aigovernanca/README.md`](arquivos_tratados_aigovernanca/README.md).
 
-A organização documental segue as facetas PMEST de Ranganathan: personalidade, matéria, energia, espaço e tempo. A classificação é explicada em [`docs/project/RANGANATHAN_FACETED_ARCHITECTURE.md`](docs/project/RANGANATHAN_FACETED_ARCHITECTURE.md).
+A organização documental segue as facetas PMEST de Ranganathan: personalidade, matéria, energia, espaço e tempo. A classificação é explicada em [`04_DOCUMENTACAO__PMEST/project/RANGANATHAN_FACETED_ARCHITECTURE.md`](04_DOCUMENTACAO__PMEST/project/RANGANATHAN_FACETED_ARCHITECTURE.md).
 
-A documentação técnica, metodológica e editorial do projeto está organizada em [`docs/README.md`](docs/README.md). Esse centro documental registra a arquitetura da informação, a política de versionamento, o parecer editorial, a matriz de resposta, as decisões e o material suplementar.
+A documentação técnica, metodológica e editorial do projeto está organizada em [`04_DOCUMENTACAO__PMEST/README.md`](04_DOCUMENTACAO__PMEST/README.md). Esse centro documental registra a arquitetura da informação, a política de versionamento, o parecer editorial, a matriz de resposta, as decisões e o material suplementar.
 
 ## Segurança
 

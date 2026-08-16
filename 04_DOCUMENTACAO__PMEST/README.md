@@ -18,17 +18,17 @@ Este diretório reúne a documentação técnica, metodológica e editorial da r
 
 ## Artefatos principais
 
-- Manuscrito integral original: `versoes_artigo/Governanca_Conversacional_v0.docx`.
-- Manuscrito revisado limpo: `versoes_artigo/Governanca_Conversacional_v1.docx`.
-- Manuscrito revisado e comentado: `versoes_artigo/Governanca_Conversacional_v1_redline.docx`.
-- PDF revisado: `versoes_artigo/Governanca_Conversacional_v1.pdf`.
-- Estado original da v1 antes da auditoria: arquivos `versoes_artigo/*_pre_auditoria.*`.
+- Manuscrito integral original: `01_ARTIGO__VERSOES/ARTIGO__T-v0__FONTE.docx`.
+- Manuscrito revisado limpo: `01_ARTIGO__VERSOES/ARTIGO__T-v1__EDICAO.docx`.
+- Manuscrito revisado e comentado: `01_ARTIGO__VERSOES/ARTIGO__T-v1__REDLINE.docx`.
+- PDF revisado: `01_ARTIGO__VERSOES/ARTIGO__T-v1__LEITURA.pdf`.
+- Estado original da v1 antes da auditoria: arquivos `01_ARTIGO__VERSOES/ARTIGO__T-v1-pre-auditoria__*`.
 
 A tag `article-v1` preserva o primeiro fechamento. A tag `article-v1-final` identifica a correção definitiva dos próprios artefatos da v1, sem criação de v2.
 
 ## Rotas rápidas
 
-- Para enviar o artigo: `../versoes_artigo/Governanca_Conversacional_v1.pdf`.
+- Para enviar o artigo: `../01_ARTIGO__VERSOES/ARTIGO__T-v1__LEITURA.pdf`.
 - Para entender o histórico: `editorial/QA_REPORT_V1.md` e `project/CHANGELOG.md`.
 - Para reproduzir ou manter o corpus: `methodology/REPRODUCIBILITY_GUIDE.md`.
 - Para registrar uma nova decisão: `project/DECISION_LOG.md`.

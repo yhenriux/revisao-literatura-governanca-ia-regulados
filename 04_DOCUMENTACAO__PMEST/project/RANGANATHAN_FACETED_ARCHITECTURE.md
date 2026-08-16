@@ -16,11 +16,11 @@ Esta arquitetura aplica as cinco facetas de S. R. Ranganathan à organização d
 
 | Necessidade | Rota recomendada | Código PMEST |
 |---|---|---|
-| Enviar o artigo | `versoes_artigo/Governanca_Conversacional_v1.pdf` | P artigo · E publicar · T v1 final |
-| Editar o artigo | `versoes_artigo/Governanca_Conversacional_v1.docx` | P artigo · E editar · T v1 final |
-| Auditar alterações | `docs/editorial/` e `versoes_artigo/*redline*` | P auditoria · E auditar · T v1 final |
-| Consultar decisões | `docs/project/DECISION_LOG.md` | P documentação · E versionar · T corrente |
-| Reproduzir o método | `docs/methodology/` e `tools/` | P método/ferramenta · E reproduzir · T corrente |
+| Enviar o artigo | `01_ARTIGO__VERSOES/ARTIGO__T-v1__LEITURA.pdf` | P artigo · E publicar · T v1 final |
+| Editar o artigo | `01_ARTIGO__VERSOES/ARTIGO__T-v1__EDICAO.docx` | P artigo · E editar · T v1 final |
+| Auditar alterações | `04_DOCUMENTACAO__PMEST/editorial/` e `01_ARTIGO__VERSOES/*redline*` | P auditoria · E auditar · T v1 final |
+| Consultar decisões | `04_DOCUMENTACAO__PMEST/project/DECISION_LOG.md` | P documentação · E versionar · T corrente |
+| Reproduzir o método | `04_DOCUMENTACAO__PMEST/methodology/` e `tools/` | P método/ferramenta · E reproduzir · T corrente |
 | Consultar evidências | `arquivos_tratados_aigovernanca/` | P corpus · M evidência · E analisar · T corpus congelado |
 
 ## Regra de nomenclatura
