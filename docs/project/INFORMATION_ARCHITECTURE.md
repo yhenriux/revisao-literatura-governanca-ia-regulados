@@ -2,6 +2,8 @@
 
 ## Classes documentais
 
+A navegação transversal usa as facetas PMEST descritas em `RANGANATHAN_FACETED_ARCHITECTURE.md`. As classes abaixo permanecem como rotas estáveis para leitura e manutenção.
+
 ### Manuscritos
 
 Versões intelectuais do artigo. São imutáveis depois de declaradas como marco. Uma nova revisão recebe novo número de versão.

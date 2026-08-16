@@ -26,7 +26,15 @@ Este diretório reúne a documentação técnica, metodológica e editorial da r
 
 A tag `article-v1` preserva o primeiro fechamento. A tag `article-v1-final` identifica a correção definitiva dos próprios artefatos da v1, sem criação de v2.
 
+## Rotas rápidas
+
+- Para enviar o artigo: `../versoes_artigo/Governanca_Conversacional_v1.pdf`.
+- Para entender o histórico: `editorial/QA_REPORT_V1.md` e `project/CHANGELOG.md`.
+- Para reproduzir ou manter o corpus: `methodology/REPRODUCIBILITY_GUIDE.md`.
+- Para registrar uma nova decisão: `project/DECISION_LOG.md`.
+
 ## Índices de controle
 
 - [Inventário de artefatos](project/ARTIFACT_INVENTORY.md)
 - [Relatório de verificação da v1](editorial/QA_REPORT_V1.md)
+- [Arquitetura facetada PMEST](project/RANGANATHAN_FACETED_ARCHITECTURE.md)

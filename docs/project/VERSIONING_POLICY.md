@@ -25,4 +25,22 @@ Arquivos históricos nunca são excluídos nem sobrescritos. Correções editori
 - Não substituir a v0 por uma versão reduzida.
 - Não alterar números, amostras ou conclusões sem registro metodológico.
 - Não apagar artefatos técnicos para “limpar” o repositório; classificá-los e documentá-los.
+- Não criar uma nova versão apenas para corrigir formatação, atualizar documentação ou regenerar um artefato equivalente. Essas mudanças devem ser registradas no histórico do marco corrente, quando autorizadas.
+- Não usar nomes como `final_final`, `novo`, `corrigido2` ou equivalentes ambíguos.
+
+## Mensagens de commit
+
+Use mensagens curtas, orientadas ao efeito da mudança:
+
+- `article:` para manuscritos e PDFs;
+- `docs:` para documentação editorial ou técnica;
+- `audit:` para verificações e relatórios de QA;
+- `corpus:` para dados e inventários do corpus;
+- `build:` para artefatos regenerados por ferramentas.
+
+Exemplos: `docs: atualizar matriz de resposta ao parecer` e `audit: registrar verificação de acessibilidade`.
+
+## Política de limpeza
+
+O Git deve conter versões oficiais, documentação necessária à proveniência, corpus/derivados necessários à reprodução e ferramentas usadas para gerar ou verificar artefatos. Renders PNG temporários, caches, logs locais, cópias de download e intermediários não reproduzíveis devem permanecer fora do repositório.
 
