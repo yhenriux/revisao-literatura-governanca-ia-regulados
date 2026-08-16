@@ -1,5 +1,39 @@
 # Changelog
 
+## v1 final — correção pós-auditoria
+
+### Preservado
+
+- Estado originalmente publicado da v1 em arquivos `pre_auditoria` e na tag imutável `article-v1`.
+- V0 como autoridade científica e numérica.
+- Sete figuras, três tabelas, 29 referências, achados e conclusões científicas.
+
+### Corrigido
+
+- Total reduzido de 8.095 para 7.906 palavras sem criar uma v2.
+- Resultados condensados apenas por remoção de recapitulações e transcrições de gráficos.
+- Fontes dos gráficos normalizadas para “corpus analítico”.
+- Resumo e abstract simplificados e semanticamente equivalentes.
+- Discussão ampliada de 323 para 734 palavras.
+- Conclusão ampliada para 182 palavras.
+- Distinção explícita entre evidência sintetizada e contribuição autoral.
+- Trade-offs e implicações proporcionais ao risco desenvolvidos por setor.
+- Redline reconstruída com 33 inserções, 33 exclusões e quatro comentários editoriais.
+- Página final vazia da redline eliminada.
+
+### Verificado
+
+- Versão limpa com 16 páginas e redline com 19, todas inspecionadas.
+- Sete textos alternativos e zero achados de acessibilidade.
+- Equivalência de texto, tabelas e mídia após aceitação da redline.
+- Ocorrências numéricas e construções defensivas dentro dos limites definidos.
+
+### Controle de versão
+
+- Preservação pré-auditoria: commit `1c71e1e`.
+- Artefatos finais e geradores: commit `905d692`.
+- Marco final: tag `article-v1-final`.
+
 ## v1 — revisão pós-parecer
 
 ### Adicionado

@@ -22,6 +22,9 @@ Este diretório reúne a documentação técnica, metodológica e editorial da r
 - Manuscrito revisado limpo: `versoes_artigo/Governanca_Conversacional_v1.docx`.
 - Manuscrito revisado e comentado: `versoes_artigo/Governanca_Conversacional_v1_redline.docx`.
 - PDF revisado: `versoes_artigo/Governanca_Conversacional_v1.pdf`.
+- Estado original da v1 antes da auditoria: arquivos `versoes_artigo/*_pre_auditoria.*`.
+
+A tag `article-v1` preserva o primeiro fechamento. A tag `article-v1-final` identifica a correção definitiva dos próprios artefatos da v1, sem criação de v2.
 
 ## Índices de controle
 

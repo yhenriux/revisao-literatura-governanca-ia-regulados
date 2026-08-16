@@ -16,7 +16,7 @@
 
 - Status: aceito.
 - Decisão: reduzir o manuscrito aproximadamente à metade, preservando resultados, modelo, discussão e contribuição.
-- Resultado: 16.201 palavras na v0 e 8.095 na v1 completa, redução de 50,0%.
+- Resultado: o primeiro fechamento alcançou 8.095 palavras; a correção pós-auditoria encerrou a v1 com 7.906 palavras, redução de 51,2% em relação às 16.201 da v0.
 
 ## ADR-004 — Separação artigo/suplemento
 
@@ -32,3 +32,22 @@
 
 - Status: aceito.
 - Decisão: produzir redline com alterações rastreadas nos marcos seccionais e comentários ancorados que explicam cada transformação estrutural; a matriz editorial oferece rastreabilidade detalhada.
+
+## ADR-007 — Correção interna da v1
+
+- Status: aceito.
+- Decisão: corrigir os artefatos oficiais da v1 sem criar v2.
+- Justificativa: os desvios foram introduzidos na própria elaboração da v1 e não representam novo corpus, nova busca ou nova contribuição científica.
+- Consequência: a versão antes publicada permanece recuperável como `pre_auditoria` e pela tag `article-v1`; a corrente recebe a tag `article-v1-final`.
+
+## ADR-008 — Regra de evidência e proposição
+
+- Status: aceito.
+- Decisão: reservar formulações como “a revisão identificou” para a síntese da literatura e “o modelo propõe” para a contribuição autoral.
+- Consequência: o modelo é apresentado como estrutura analítica sujeita a validação empírica, não como escala de maturidade, evidência de efetividade ou substituto de normas setoriais.
+
+## ADR-009 — Critério de equivalência da redline
+
+- Status: aceito.
+- Decisão: considerar equivalentes a versão limpa e a redline aceita quando coincidirem os parágrafos não vazios, as tabelas e os objetos de mídia.
+- Resultado: equivalência confirmada em 183 parágrafos não vazios, três tabelas e sete imagens; 33 inserções e 33 exclusões permaneceram rastreáveis antes da aceitação.
