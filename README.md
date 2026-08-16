@@ -4,14 +4,14 @@ Revisão sistemática da literatura sobre governança conversacional em sistemas
 
 ## Comece aqui
 
-- **Artigo para leitura e envio:** [`01_ARTIGO__VERSOES/Artigo_Governanca_Conversacional_v1_FINAL_PARA_LEITURA.pdf`](01_ARTIGO__VERSOES/Artigo_Governanca_Conversacional_v1_FINAL_PARA_LEITURA.pdf)
-- **Versão editável:** [`01_ARTIGO__VERSOES/Artigo_Governanca_Conversacional_v1_EDITAVEL.docx`](01_ARTIGO__VERSOES/Artigo_Governanca_Conversacional_v1_EDITAVEL.docx)
-- **Guia dos artefatos:** [`01_ARTIGO__VERSOES/README.md`](01_ARTIGO__VERSOES/README.md)
-- **Histórico editorial:** [`04_DOCUMENTACAO__PMEST/editorial/`](04_DOCUMENTACAO__PMEST/editorial/)
-- **Método e reprodução:** [`04_DOCUMENTACAO__PMEST/methodology/`](04_DOCUMENTACAO__PMEST/methodology/)
-- **Decisões e versionamento:** [`04_DOCUMENTACAO__PMEST/project/`](04_DOCUMENTACAO__PMEST/project/)
-- **Arquitetura facetada PMEST:** [`04_DOCUMENTACAO__PMEST/project/RANGANATHAN_FACETED_ARCHITECTURE.md`](04_DOCUMENTACAO__PMEST/project/RANGANATHAN_FACETED_ARCHITECTURE.md)
-- **Corpus tratado:** [`arquivos_tratados_aigovernanca/`](arquivos_tratados_aigovernanca/) — nome preservado por compatibilidade com o pipeline; no Drive, aparece como `02_CORPUS__ARQUIVOS_TRATADOS`.
+- **Artigo para leitura e envio:** [`Artigo/Artigo_final.pdf`](Artigo/Artigo_final.pdf)
+- **Versão editável:** [`Artigo/Artigo_para_editar.docx`](Artigo/Artigo_para_editar.docx)
+- **Guia dos artefatos:** [`Artigo/LEIA_PRIMEIRO.md`](Artigo/LEIA_PRIMEIRO.md)
+- **Histórico editorial:** [`Documentacao_do_projeto/editorial/`](Documentacao_do_projeto/editorial/)
+- **Método e reprodução:** [`Documentacao_do_projeto/methodology/`](Documentacao_do_projeto/methodology/)
+- **Decisões e versionamento:** [`Documentacao_do_projeto/project/`](Documentacao_do_projeto/project/)
+- **Arquitetura facetada PMEST:** [`Documentacao_do_projeto/project/RANGANATHAN_FACETED_ARCHITECTURE.md`](Documentacao_do_projeto/project/RANGANATHAN_FACETED_ARCHITECTURE.md)
+- **Corpus tratado:** [`arquivos_tratados_aigovernanca/`](arquivos_tratados_aigovernanca/) — nome preservado por compatibilidade com o pipeline; no Drive, aparece como `Corpus_da_revisao`.
 
 ## Status atual
 
@@ -19,22 +19,22 @@ Revisão sistemática da literatura sobre governança conversacional em sistemas
 |---|---|
 | Manuscrito corrente | v1 final fechada |
 | Marco Git | `article-v1-final` |
-| Arquivo para envio | `01_ARTIGO__VERSOES/Artigo_Governanca_Conversacional_v1_FINAL_PARA_LEITURA.pdf` |
+| Arquivo para envio | `Artigo/Artigo_final.pdf` |
 | Corpus desta rodada | congelado |
 | Nova busca bibliográfica | não prevista |
 | Próxima ação | submissão ou avaliação pelos professores |
 
 ## Conteúdo do repositório
 
-- `01_ARTIGO__VERSOES/`: versão de trabalho do artigo em DOCX e PDF.
-- `03_REFERENCIAS__EXEMPLOS/`: exemplo de survey/review usado como referência de qualidade.
+- `Artigo/`: versões oficiais e históricas do artigo em DOCX e PDF.
+- `Referencias_da_pesquisa/`: exemplo de survey/review usado como referência de qualidade.
 - `arquivos_tratados_aigovernanca/`: corpus tratado, textos completos, PDFs, resultados brutos de avaliação por LLM, planilha de metagrade e utilitário Python de adjudicação.
 
 O detalhamento metodológico, as regras de governança do corpus e o estado do pipeline estão documentados em [`arquivos_tratados_aigovernanca/README.md`](arquivos_tratados_aigovernanca/README.md).
 
-A organização documental segue as facetas PMEST de Ranganathan: personalidade, matéria, energia, espaço e tempo. A classificação é explicada em [`04_DOCUMENTACAO__PMEST/project/RANGANATHAN_FACETED_ARCHITECTURE.md`](04_DOCUMENTACAO__PMEST/project/RANGANATHAN_FACETED_ARCHITECTURE.md).
+A organização documental segue as facetas PMEST de Ranganathan: personalidade, matéria, energia, espaço e tempo. A classificação é explicada em [`Documentacao_do_projeto/project/RANGANATHAN_FACETED_ARCHITECTURE.md`](Documentacao_do_projeto/project/RANGANATHAN_FACETED_ARCHITECTURE.md).
 
-A documentação técnica, metodológica e editorial do projeto está organizada em [`04_DOCUMENTACAO__PMEST/README.md`](04_DOCUMENTACAO__PMEST/README.md). Esse centro documental registra a arquitetura da informação, a política de versionamento, o parecer editorial, a matriz de resposta, as decisões e o material suplementar.
+A documentação técnica, metodológica e editorial do projeto está organizada em [`Documentacao_do_projeto/README.md`](Documentacao_do_projeto/README.md). Esse centro documental registra a arquitetura da informação, a política de versionamento, o parecer editorial, a matriz de resposta, as decisões e o material suplementar.
 
 ## Segurança
 

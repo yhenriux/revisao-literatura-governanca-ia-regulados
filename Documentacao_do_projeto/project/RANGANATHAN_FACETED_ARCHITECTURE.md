@@ -16,18 +16,18 @@ Esta arquitetura aplica as cinco facetas de S. R. Ranganathan à organização d
 
 | Necessidade | Rota recomendada | Código PMEST |
 |---|---|---|
-| Enviar o artigo | `01_ARTIGO__VERSOES/Artigo_Governanca_Conversacional_v1_FINAL_PARA_LEITURA.pdf` | P artigo · E publicar · T v1 final |
-| Editar o artigo | `01_ARTIGO__VERSOES/Artigo_Governanca_Conversacional_v1_EDITAVEL.docx` | P artigo · E editar · T v1 final |
-| Auditar alterações | `04_DOCUMENTACAO__PMEST/editorial/` e `01_ARTIGO__VERSOES/*COM_ALTERACOES*` | P auditoria · E auditar · T v1 final |
-| Consultar decisões | `04_DOCUMENTACAO__PMEST/project/DECISION_LOG.md` | P documentação · E versionar · T corrente |
-| Reproduzir o método | `04_DOCUMENTACAO__PMEST/methodology/` e `tools/` | P método/ferramenta · E reproduzir · T corrente |
+| Enviar o artigo | `Artigo/Artigo_final.pdf` | P artigo · E publicar · T v1 final |
+| Editar o artigo | `Artigo/Artigo_para_editar.docx` | P artigo · E editar · T v1 final |
+| Auditar alterações | `Documentacao_do_projeto/editorial/` e `Artigo/Artigo_com_alteracoes.docx` | P auditoria · E auditar · T v1 final |
+| Consultar decisões | `Documentacao_do_projeto/project/DECISION_LOG.md` | P documentação · E versionar · T corrente |
+| Reproduzir o método | `Documentacao_do_projeto/methodology/` e `tools/` | P método/ferramenta · E reproduzir · T corrente |
 | Consultar evidências | `arquivos_tratados_aigovernanca/` | P corpus · M evidência · E analisar · T corpus congelado |
 
-O diretório do corpus mantém o identificador técnico `arquivos_tratados_aigovernanca/` para não quebrar o pipeline. Na camada de apresentação do Google Drive, ele é exibido como `02_CORPUS__ARQUIVOS_TRATADOS`.
+O diretório do corpus mantém o identificador técnico `arquivos_tratados_aigovernanca/` para não quebrar o pipeline. Na camada de apresentação do Google Drive, ele é exibido como `Corpus_da_revisao`.
 
 ## Regra de nomenclatura
 
-Os nomes oficiais do manuscrito permanecem estáveis porque são usados em citações, scripts, hashes, e-mails e instruções de envio. Para novos documentos auxiliares, prefira nomes descritivos com função explícita, por exemplo `RANGANATHAN_FACETED_ARCHITECTURE.md` e `CONTRIBUTING.md`.
+Os nomes técnicos do corpus permanecem estáveis porque são usados em scripts. Para a camada humana, os nomes oficiais do manuscrito usam linguagem simples e função explícita: `Artigo_final.pdf`, `Artigo_para_editar.docx` e `Artigo_com_alteracoes.docx`.
 
 Não usar `final_final`, `novo`, `corrigido2` ou nomes que dependam da memória de quem criou o arquivo. A versão e o estado devem aparecer no nome apenas quando forem parte da identidade documental.
 
