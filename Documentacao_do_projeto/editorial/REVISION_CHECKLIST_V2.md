@@ -8,5 +8,6 @@
 - [x] Papel auxiliar e limitações do LLM explicitados.
 - [x] Critérios completos de elegibilidade preservados no suplemento.
 - [x] Redundâncias residuais auditadas editorialmente.
-- [ ] DOCX/PDF v2 renderizados e inspecionados integralmente.
-- [ ] Redline, hashes, tag `article-v2` e sincronização Drive concluídos.
+- [x] DOCX final v2 formatado em APA 7 e convertido em PDF no Google Drive.
+- [x] Hash do DOCX, tag `article-v2` e sincronização Drive registrados.
+- [ ] SHA-256 e inspeção PNG do PDF local — bloqueado pela ausência de LibreOffice/Word no ambiente.
