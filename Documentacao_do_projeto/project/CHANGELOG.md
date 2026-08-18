@@ -66,5 +66,11 @@
 - Criado inventário auditável dos 177 estudos e documento de reconciliação.
 - Explicitado o status epistemológico do modelo de cinco camadas.
 - Documentadas limitações da recuperação, da cobertura de fontes e da adjudicação assistida por LLM.
-- Preparada a condensação dos critérios da Tabela 3 no corpo, com preservação integral no suplemento.
-- Artefatos da v1 permanecem imutáveis; os arquivos finais da v2 serão registrados após renderização e QA.
+- Reconciliadas 408 linhas operacionais com 407 estudos publicados mediante documentação de uma duplicata exata.
+- Readjudicados os 17 casos de fronteira em nove evidências de apoio, cinco referências contextuais e três exclusões.
+- Condensada a Tabela 3 em quatro categorias de inclusão e quatro de exclusão, com as sete regras completas de cada tipo preservadas no suplemento.
+- Reduzidas repetições entre resultados, síntese e discussão, sem alterar achados ou referências.
+- Gerados DOCX final, DOCX editável, redline e PDF final de 15 páginas.
+- Confirmadas três tabelas, sete figuras, 29 referências e equivalência da redline após aceitação.
+- Auditoria de acessibilidade concluída sem achados; todas as páginas do PDF foram inspecionadas.
+- Artefatos da v1 permanecem imutáveis e o estado anterior à correção foi marcado por tag própria.

@@ -1,15 +1,27 @@
-# Inventário de artefatos da v2
+# Inventário de artefatos — v2 final
 
-| Artefato | Função | Estado |
+## Manuscrito
+
+| Artefato | Função | SHA-256 |
 |---|---|---|
-| `Artigo/Artigo_v2_para_editar.docx` | Manuscrito limpo da v2 | preservado como fonte |
-| `Artigo/Artigo_v2_com_alteracoes.docx` | Redline da v1 para a v2 | preservado |
-| `Artigo/Artigo_v2_final.docx` | Manuscrito final compacto, com acabamento editorial | corrente |
-| `Artigo/Artigo_v2_final.pdf` | PDF final compacto convertido pelo Google Drive | corrente no Drive; SHA-256 local pendente |
-| `Documentacao_do_projeto/methodology/CORPUS_ANALYTIC_177_INVENTORY.csv` | Inventário dos 177 estudos | corrente |
-| `Documentacao_do_projeto/methodology/CORPUS_RECONCILIATION_177.md` | Reconciliação das contagens | corrente |
-| `Documentacao_do_projeto/methodology/METHODS_SUPPLEMENT_V2.md` | Suplemento metodológico | corrente |
+| `Artigo/Artigo_v2_final.docx` | Manuscrito final compacto | `E03C4DD19DB4BEA0640D12E86797E3EEA8E9052C93C01A19AD2D6093C8FD5540` |
+| `Artigo/Artigo_v2_para_editar.docx` | Cópia editável, idêntica à final | `E03C4DD19DB4BEA0640D12E86797E3EEA8E9052C93C01A19AD2D6093C8FD5540` |
+| `Artigo/Artigo_v2_com_alteracoes.docx` | Redline da v1 para a v2 | `BB2EEEF0F168045693199B9B179607BBD6F26F7C30C5616553BA6104A0D1614B` |
+| `Artigo/Artigo_v2_final.pdf` | PDF final, 15 páginas | `4D153B32BCBDE92CCC19D9C63B3C96A79076264D77C063B93F9D9B86303A08E8` |
 
-SHA-256 do DOCX final compacto: `D83CEDEE08BA005C18A71A32C7F5B8E63C5FB64B7086DD063484603086897203`.
+## Rastreabilidade metodológica
 
-O PDF final está no Drive com ID `1esvofd87o_0hpOVkLUG2qyKgBRwtJDZb`. O ambiente local não possui LibreOffice/Word nem acesso de arquivo ao artefato sediment para calcular o SHA-256 local; essa limitação permanece registrada no checklist.
+| Artefato | Função | SHA-256 |
+|---|---|---|
+| `CORPUS_ANALYTIC_177_INVENTORY.csv` | Inventário individual do corpus analítico | `3D80BE7EA8C4078D085AC3ADDE4C684DFCDF40CCC8AE3BE0CF594B3A218EF7EB` |
+| `CORPUS_UNIVERSE_RECONCILIATION.csv` | Reconciliação das 408 linhas operacionais com 407 estudos publicados | `5AB47969E045625545421265D0E1E1C4F2BA308AA33AC4BF624B1A4DE7B77363` |
+| `CORPUS_BORDERLINE_ADJUDICATION_V2.csv` | Readjudicação dos 17 casos de fronteira | `7E73EF73F5D15A75EC6AB51BF57B23D8E87A7EDA408FE2C8928319462DFBEC7E` |
+| `CORPUS_RECONCILIATION_177.md` | Explicação auditável da reconciliação | `0064197DB5FFA396D676515239BEF29F67F808668AB9011C47F333CE7A5AE340` |
+| `METHODS_SUPPLEMENT_V2.md` | Critérios completos, cobertura e controles metodológicos | `A88E613DD2E2D248420F1F175C61EF718EE61E6B3E214C0D9AE414CA3BB95C57` |
+
+## Marcos de versão
+
+- Estado anterior à auditoria final: `article-v2-pre-final-audit`.
+- Marco metodológico original: `article-v2`, mantido sem movimentação.
+- Marco desta entrega: `article-v2-final`.
+- O commit de conteúdo será registrado no fechamento documental imediatamente anterior à tag final.
