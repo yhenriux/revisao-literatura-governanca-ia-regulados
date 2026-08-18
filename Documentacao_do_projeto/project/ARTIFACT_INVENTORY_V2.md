@@ -36,6 +36,7 @@
 - Marco desta entrega: `article-v2-final`.
 - Marco visual, sem movimentar as tags anteriores: `article-v2-final-visual`.
 - Commit de conteúdo científico e artefatos: `11c06c2`.
+- Commit do redesign visual e dos recursos reprodutíveis: `2325db1`.
 
 ## Cópias correntes no Google Drive
 
