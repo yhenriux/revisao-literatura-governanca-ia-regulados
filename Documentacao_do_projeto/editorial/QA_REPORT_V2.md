@@ -37,3 +37,10 @@ As 15 páginas foram rasterizadas a 120 dpi e inspecionadas integralmente. Não 
 ## Limitação declarada
 
 Os logs preservados não permitem atribuir retrospectivamente, estudo a estudo, a fonte e a consulta exatas de recuperação. O inventário registra essa indisponibilidade e não fabrica proveniência. A rastreabilidade atendida liga cada estudo à referência, decisão, evidência, arquivo e hash; a limitação da cobertura de recuperação permanece explicitada como ameaça metodológica.
+
+## Publicação
+
+- Commit de conteúdo: `11c06c2`.
+- Estado pré-correção: `article-v2-pre-final-audit`.
+- Marco final: `article-v2-final`.
+- GitHub e Google Drive sincronizados com os artefatos correntes.

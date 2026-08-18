@@ -41,4 +41,6 @@
 
 ## Publicação
 
-- [ ] Commit de conteúdo, tag `article-v2-final`, push e sincronização final do Drive — concluir após este checklist.
+- [x] Commit de conteúdo publicado no GitHub.
+- [x] Tag `article-v2-final` reservada para o commit documental de fechamento.
+- [x] Artefatos correntes e suplementos sincronizados no Google Drive, preservando os IDs existentes quando aplicável.

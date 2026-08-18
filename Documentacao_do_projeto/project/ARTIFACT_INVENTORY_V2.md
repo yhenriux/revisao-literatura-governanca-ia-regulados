@@ -24,4 +24,12 @@
 - Estado anterior à auditoria final: `article-v2-pre-final-audit`.
 - Marco metodológico original: `article-v2`, mantido sem movimentação.
 - Marco desta entrega: `article-v2-final`.
-- O commit de conteúdo será registrado no fechamento documental imediatamente anterior à tag final.
+- Commit de conteúdo científico e artefatos: `11c06c2`.
+
+## Cópias correntes no Google Drive
+
+- PDF final: ID `1KXQchTmWKICS-p6JkgxT8kFIZ7siVAnY`.
+- DOCX final: ID `1kLWQhY_qVN2iZONIrEi9Y9ERdeMAwiRU`.
+- DOCX editável: ID `1qGDfndeHw3Gdrge7klZ2XK3TnRnhZ5-U`.
+- DOCX com alterações: ID `1CVc3DJW1k03Fwltap369IFdJdpHiO2BS`.
+- Os IDs foram preservados e os bytes substituídos, mantendo o histórico de revisões do Drive.
