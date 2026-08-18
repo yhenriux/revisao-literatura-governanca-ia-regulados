@@ -4,8 +4,8 @@ Revisão sistemática da literatura sobre governança conversacional em sistemas
 
 ## Comece aqui
 
-- **Artigo para leitura e envio:** [`Artigo/Artigo_final.pdf`](Artigo/Artigo_final.pdf)
-- **Versão editável:** [`Artigo/Artigo_para_editar.docx`](Artigo/Artigo_para_editar.docx)
+- **Artigo para leitura e envio:** [`Artigo/Artigo_v2_final.pdf`](Artigo/Artigo_v2_final.pdf)
+- **Versão editável:** [`Artigo/Artigo_v2_para_editar.docx`](Artigo/Artigo_v2_para_editar.docx)
 - **Guia dos artefatos:** [`Artigo/LEIA_PRIMEIRO.md`](Artigo/LEIA_PRIMEIRO.md)
 - **Histórico editorial:** [`Documentacao_do_projeto/editorial/`](Documentacao_do_projeto/editorial/)
 - **Método e reprodução:** [`Documentacao_do_projeto/methodology/`](Documentacao_do_projeto/methodology/)
@@ -17,9 +17,9 @@ Revisão sistemática da literatura sobre governança conversacional em sistemas
 
 | Item | Estado |
 |---|---|
-| Manuscrito corrente | v1 final fechada |
+| Manuscrito corrente | v2 em revisão metodológica |
 | Marco Git | `article-v1-final` |
-| Arquivo para envio | `Artigo/Artigo_final.pdf` |
+| Arquivo para envio | `Artigo/Artigo_v2_final.pdf` |
 | Corpus desta rodada | congelado |
 | Nova busca bibliográfica | não prevista |
 | Próxima ação | submissão ou avaliação pelos professores |
@@ -42,7 +42,7 @@ O utilitário Python aceita credenciais somente por argumento ou pelas variávei
 
 ## Versionamento do manuscrito
 
-Versões publicadas são imutáveis. A `v0` preserva o manuscrito integral avaliado pelo parecerista; a `v1` representa a revisão estrutural pós-parecer e possui cópia limpa, redline comentada e PDF. A v1 final é o artefato corrente. Qualquer alteração posterior deve preservar este estado e receber nova identificação somente quando representar um novo marco editorial formal, aprovado e documentado.
+Versões publicadas são imutáveis. A `v0` preserva o manuscrito integral avaliado pelo parecerista; a `v1` representa a revisão estrutural pós-parecer; a `v2` incorpora a segunda rodada metodológica, o inventário dos 177 estudos e as limitações documentadas. Cada marco possui cópia limpa, redline, PDF, hash, commit e tag próprios.
 
 ## Observação sobre direitos autorais
 

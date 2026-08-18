@@ -61,3 +61,10 @@
 - Referências bibliográficas.
 - Arquivos integrais da v0.
 
+# v2 — revisão metodológica após segundo parecer (2026-08-17)
+
+- Criado inventário auditável dos 177 estudos e documento de reconciliação.
+- Explicitado o status epistemológico do modelo de cinco camadas.
+- Documentadas limitações da recuperação, da cobertura de fontes e da adjudicação assistida por LLM.
+- Preparada a condensação dos critérios da Tabela 3 no corpo, com preservação integral no suplemento.
+- Artefatos da v1 permanecem imutáveis; os arquivos finais da v2 serão registrados após renderização e QA.
