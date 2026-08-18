@@ -1,5 +1,11 @@
 # Registro de formatação final da v2
 
+## Correção de 2026-08-18
+
+A aplicação literal de APA 7 com espaçamento duplo foi rejeitada por ampliar indevidamente o manuscrito de aproximadamente 16 para 42 páginas. O artefato corrente voltou ao estado compacto anterior, que preserva a proporção editorial aprovada. A tentativa APA permanece recuperável no histórico Git, mas não é versão de envio.
+
+O acabamento corrente deve priorizar legibilidade, hierarquia visual e estabilidade de paginação, sem aumentar substancialmente o volume da obra.
+
 Data: 2026-08-18
 
 Aplicada somente a `Artigo/Artigo_v2_final.docx`, usando a versão editável como fonte intacta.
