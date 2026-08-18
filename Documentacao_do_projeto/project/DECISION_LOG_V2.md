@@ -25,3 +25,13 @@
 - Preservar o formato compacto do artigo em vez de impor espaçamento APA que aumentaria artificialmente a extensão.
 - Normalizar somente os dois blocos adicionados e a numeração de páginas.
 - Aceitar o PDF final após inspeção integral das 15 páginas e auditoria de acessibilidade sem achados.
+
+## 2026-08-18 — redesign visual da v2 final
+
+- Alterar exclusivamente os artefatos finais `Artigo_v2_final.docx` e `Artigo_v2_final.pdf`; preservar a versão editável, a redline, o corpus e as versões históricas.
+- Tratar os valores já publicados na v2 como fonte congelada para os gráficos, sem recodificação ou nova análise do corpus.
+- Adotar barras, dot plots e mapa de calor com rótulos diretos e marcadores redundantes, de modo que a leitura não dependa apenas de cor.
+- Incorporar PNGs a 360 dpi no DOCX para estabilidade de conversão e preservar as fontes SVG para reprodução.
+- Manter o limite editorial de 15–16 páginas; melhorar o fluxo de figuras e ampliar somente a tipografia das referências, sem reduzir corpo, legendas ou tabelas abaixo dos limites de legibilidade.
+- Aceitar quatro ajustes textuais estritamente semânticos para substituir referências a “área”, “bolha” e “treemap” pelos novos formatos visuais; nenhuma afirmação científica, contagem ou conclusão foi alterada.
+- Preservar a tag `article-v2-final` no estado anterior ao redesign e criar `article-v2-final-visual` como novo marco.

@@ -74,3 +74,23 @@
 - Confirmadas três tabelas, sete figuras, 29 referências e equivalência da redline após aceitação.
 - Auditoria de acessibilidade concluída sem achados; todas as páginas do PDF foram inspecionadas.
 - Artefatos da v1 permanecem imutáveis e o estado anterior à correção foi marcado por tag própria.
+
+## v2 final — redesign visual acadêmico (2026-08-18)
+
+### Melhorado
+
+- Redesenhadas as sete figuras em sistema visual acadêmico unificado, com rótulos diretos, marcadores redundantes e paleta compatível com leitura em escala de cinza.
+- Substituídos o treemap setorial e o gráfico de bolhas por barras ordenadas e dot plot, preservando integralmente os valores publicados.
+- Recompostas as três tabelas com larguras explícitas, alinhamento sem recuos indevidos, cabeçalhos discretos e fonte mínima de 8,5 pt.
+- Reorganizado o fluxo dos Gráficos 5 e 6 para eliminar vazios excessivos sem fragmentar o conteúdo científico.
+- Normalizados os rodapés pares e ímpares e iniciada a lista de referências em página própria.
+- Elevada a bibliografia de 8 pt para 10 pt, melhorando a leitura de autoria, títulos e identificadores persistentes.
+
+### Verificado
+
+- PDF final mantido em 15 páginas A4.
+- Sete imagens incorporadas a 359–361 dpi, todas com texto alternativo.
+- Auditoria de acessibilidade concluída com zero achados altos, médios ou baixos.
+- Teste em escala de cinza confirmou distinção por luminosidade, forma e rótulos, sem dependência exclusiva de cor.
+- Todas as 15 páginas foram inspecionadas; não há cortes, sobreposições, tabelas quebradas ou paginação incorreta.
+- O texto científico foi preservado, exceto por quatro descrições estritamente necessárias para refletir os novos formatos dos Gráficos 4 e 5.
