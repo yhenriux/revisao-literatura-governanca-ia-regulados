@@ -41,3 +41,10 @@
 - Atender ao ajuste visual solicitado aplicando branco a todos os valores internos do mapa de calor.
 - Não alterar a paleta, os valores, a geometria ou os rótulos externos do gráfico.
 - Preservar `article-v2-final-visual` como marco anterior e registrar a correção em uma nova tag descritiva, sem criar v3.
+
+## 2026-08-19 — retorno à Figura 1 anterior
+
+- Adotar novamente a Figura 1 do marco `article-v2-final`, por decisão visual do autor.
+- Recuperar o PNG diretamente do DOCX versionado, sem redesenho, reinterpretação ou alteração de conteúdo.
+- Incorporar a figura sem recorte e com proporção original de 1468 × 1071 pixels.
+- Tratar a Figura 1 como recurso histórico rasterizado; o gerador reprodutível permanece responsável pelos seis gráficos quantitativos.

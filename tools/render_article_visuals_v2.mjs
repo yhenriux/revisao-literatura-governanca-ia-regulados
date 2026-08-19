@@ -1,4 +1,6 @@
-/** Gera as sete figuras acadêmicas da v2 em SVG e PNG (360 dpi). */
+/** Gera os seis gráficos acadêmicos da v2 em SVG e PNG (360 dpi).
+ * A Figura 1 é o PNG histórico restaurado do marco article-v2-final e não é regenerada.
+ */
 import { createRequire } from "node:module";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
@@ -23,7 +25,6 @@ const files = [
   ["Grafico_4_distribuicao_setorial", 443, 234],
   ["Grafico_5_cobertura_dos_achados", 443, 198],
   ["Grafico_6_coocorrencia_mecanismos_camadas", 443, 256],
-  ["Figura_1_modelo_de_cinco_camadas", 443, 268],
 ];
 
 const esc = (s) => String(s).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
@@ -85,26 +86,11 @@ function graph6(rows){
   cats.forEach((cat,i)=>{b+=multiline(left-8,top+i*ch+ch/2+3,wrap(cat,28),8.5,"end");cols.forEach((col,j)=>{const v=lookup(rows,cat,col),color=cividis(v,max);b+=rect(left+j*cw,top+i*ch,cw,ch,color,0,C.white,1);b+=text(left+j*cw+cw/2,top+i*ch+ch/2+3,String(v),8.5,"middle",C.white,700);});});
   b+=text(left+2.5*cw,253,"Número de estudos por coocorrência",8.5,"middle");return svg(443,256,b);
 }
-function figure1(){
-  const w=443,h=268,cx=221.5,cy=135;const nodes=[
-    ["Técnica","RAG, guardrails, avaliação\ne observabilidade",221.5,39,"#DCEEF4"],
-    ["Interacional","limites, explicabilidade,\ncontestação e escalonamento",365,89,"#DDF1EA"],
-    ["Evolutiva","monitoramento, feedback,\naprendizagem e mudança",315,213,"#E5E7F5"],
-    ["Regulatória","risco, conformidade,\nauditoria e documentação",128,213,"#F7E7D0"],
-    ["Organizacional","papéis, supervisão, incidentes\ne accountability",78,89,"#E9E1F1"],
-  ];const defs='<marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#82929B"/></marker>';let b="";
-  const connectors=[[221.5,87,221.5,68],[263,112,304,96],[254,171,280,188],[189,171,186,188],[180,112,139,96]];
-  connectors.forEach(c=>b+=line(...c,"#82929B",1,{"marker-start":"url(#arrow)","marker-end":"url(#arrow)"}));
-  b+=circle(cx,cy,48,C.dark,C.white,2);b+=multiline(cx,cy-12,"Governança\nconversacional",10,"middle",C.white,700,12);b+=multiline(cx,cy+25,"sistema sociotécnico\nregulado",8.5,"middle","#DCEAF0",400,9);
-  nodes.forEach(([title,desc,x,y,color])=>{b+=rect(x-59,y-27,118,54,color,8,"#7F929C",0.8);b+=text(x,y-7,title,9,"middle",C.dark,700);b+=multiline(x,y+11,desc,8.5,"middle",C.text,400,10);});
-  b+=text(w/2,h-4,"Camadas interdependentes: o diagrama não representa sequência nem escala de maturidade.",8.5,"middle","#5B6B73");return svg(w,h,b,defs);
-}
-
 async function save(stem,w,h,content){await writeFile(path.join(SVG_DIR,`${stem}.svg`),content,"utf8");await sharp(Buffer.from(content)).resize(w*5,h*5).png({compressionLevel:9}).withMetadata({density:360}).toFile(path.join(PNG_DIR,`${stem}.png`));}
 async function main(){
   await mkdir(PNG_DIR,{recursive:true});await mkdir(SVG_DIR,{recursive:true});const rows=parseCsv(await readFile(DATA,"utf8"));
-  const svgs=[graph1(group(rows,"grafico_1")),graph2(group(rows,"grafico_2")),graph3(group(rows,"grafico_3")),graph4(group(rows,"grafico_4")),graph5(group(rows,"grafico_5")),graph6(group(rows,"grafico_6")),figure1()];
+  const svgs=[graph1(group(rows,"grafico_1")),graph2(group(rows,"grafico_2")),graph3(group(rows,"grafico_3")),graph4(group(rows,"grafico_4")),graph5(group(rows,"grafico_5")),graph6(group(rows,"grafico_6"))];
   for(let i=0;i<files.length;i++)await save(...files[i],svgs[i]);
-  console.log(`Geradas ${files.length} figuras em SVG e PNG a 360 dpi.`);
+  console.log(`Gerados ${files.length} gráficos em SVG e PNG a 360 dpi; Figura 1 histórica preservada.`);
 }
 await main();

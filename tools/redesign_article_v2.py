@@ -33,7 +33,7 @@ FIGURES = [
     ("Grafico_4_distribuicao_setorial", 6.15, 3.25),
     ("Grafico_5_cobertura_dos_achados", 6.15, 2.75),
     ("Grafico_6_coocorrencia_mecanismos_camadas", 6.15, 3.55),
-    ("Figura_1_modelo_de_cinco_camadas", 6.15, 3.72),
+    ("Figura_1_modelo_de_cinco_camadas", 4.89, 3.57),
 ]
 
 ALT_TEXTS = [
@@ -43,7 +43,7 @@ ALT_TEXTS = [
     "Distribuição setorial do corpus analítico; saúde e medicina concentram 78 estudos e 12 evidências centrais.",
     "Comparação entre cobertura total e evidências centrais dos cinco achados da revisão.",
     "Mapa de calor da coocorrência entre oito famílias de mecanismos e cinco camadas de governança.",
-    "Arquitetura conceitual de governança conversacional com cinco camadas interdependentes ao redor do sistema sociotécnico regulado.",
+    "Diagrama de governança integrada e retroalimentada com cinco camadas interdependentes ao redor de um sistema conversacional baseado em LLM.",
 ]
 
 VISUAL_TEXT_REPLACEMENTS = {
@@ -64,7 +64,8 @@ def render_figures() -> None:
     for stem, width, height in FIGURES:
         png = PNG_DIR / f"{stem}.png"
         svg = SVG_DIR / f"{stem}.svg"
-        if not png.exists() or not svg.exists():
+        requires_svg = stem.startswith("Grafico_")
+        if not png.exists() or (requires_svg and not svg.exists()):
             raise FileNotFoundError(f"Recurso visual ausente: {stem}")
         with Image.open(png) as image:
             expected = (round(width * 300), round(height * 300))
@@ -322,6 +323,9 @@ def replace_figures(doc: Document) -> None:
         relation_id = blip.embed
         image_part = doc.part.related_parts[relation_id]
         image_part._blob = image_path.read_bytes()
+        if stem == "Figura_1_modelo_de_cinco_camadas":
+            for source_crop in shape._inline.graphic.graphicData.pic.blipFill.xpath("./a:srcRect"):
+                source_crop.getparent().remove(source_crop)
         shape.width = Inches(width)
         shape.height = Inches(height)
         shape._inline.docPr.set("descr", alt)
@@ -386,5 +390,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-

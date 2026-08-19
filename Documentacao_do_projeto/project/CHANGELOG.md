@@ -102,3 +102,11 @@
 - Regeneradas as fontes SVG e PNG do Gráfico 6 e atualizados somente o DOCX e o PDF finais.
 - Confirmadas 15 páginas, sete imagens com texto alternativo e auditoria de acessibilidade sem achados.
 - A comparação visual com o marco anterior mostrou alteração somente na página 9.
+
+## v2 final — restauração da Figura 1 histórica (2026-08-19)
+
+- Restaurada a Figura 1 usada no marco `article-v2-final`, conforme preferência editorial do autor.
+- Removidos o recorte herdado e a distorção de proporção; a imagem foi incorporada em sua razão original.
+- Preservados o texto científico, os seis gráficos redesenhados e os 40 rótulos brancos do Gráfico 6.
+- Mantidas 15 páginas, sete imagens com texto alternativo e auditoria de acessibilidade sem achados.
+- O SVG da proposta visual substituída foi retirado do estado corrente para não representar falsamente a Figura 1 final; permanece recuperável no histórico Git.

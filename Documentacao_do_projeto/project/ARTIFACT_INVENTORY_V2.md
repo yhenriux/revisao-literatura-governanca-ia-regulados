@@ -4,20 +4,21 @@
 
 | Artefato | Função | SHA-256 |
 |---|---|---|
-| `Artigo/Artigo_v2_final.docx` | Manuscrito final com redesign visual | `FD8645C9A167B005E693BED4D1F46A040B3CB30EB95ED447EA5B8932CFB1A61B` |
+| `Artigo/Artigo_v2_final.docx` | Manuscrito final com redesign visual | `936B4838C80746075745CEB6ECE19AF5452C5CD8C5A5F9B92CEAA038BA7E2781` |
 | `Artigo/Artigo_v2_para_editar.docx` | Versão editável preservada, sem o redesign visual final | `E03C4DD19DB4BEA0640D12E86797E3EEA8E9052C93C01A19AD2D6093C8FD5540` |
 | `Artigo/Artigo_v2_com_alteracoes.docx` | Redline da v1 para a v2 | `BB2EEEF0F168045693199B9B179607BBD6F26F7C30C5616553BA6104A0D1614B` |
-| `Artigo/Artigo_v2_final.pdf` | PDF final redesenhado, 15 páginas | `778C695C2D60011C8A8ECF8D9CC7889FA2407B389EF586ADC440E435B4D95DB3` |
+| `Artigo/Artigo_v2_final.pdf` | PDF final redesenhado, 15 páginas | `977FC0CB76D90494A3B8FAE52B72E86D32FEACC35A8257464A62CF40BC1C5588` |
 
 ## Recursos visuais reprodutíveis
 
 | Artefato | Função | SHA-256 |
 |---|---|---|
 | `Recursos_do_artigo/v2/dados_figuras_v2.csv` | Dados longos congelados dos Gráficos 1–6 | `AF11FD28867BB360DD865C9CB413CE503DCC8035E450483E0439F7BB52885B10` |
-| `tools/render_article_visuals_v2.mjs` | Gerador único das fontes SVG e PNGs a 360 dpi | `465EACC392877AFD00F3FD5A0548D4DBEDC73666C78D66317D69C9D44FCAC546` |
-| `tools/redesign_article_v2.py` | Aplicação reprodutível do redesign ao DOCX final | `F95219BAF04E22FF9E5A749D4D8C49A52B2A94603531860868E8E62231AA742E` |
-| `Recursos_do_artigo/v2/fontes_vetoriais/` | Sete fontes SVG versionadas | ver hashes individuais no histórico Git |
-| `Recursos_do_artigo/v2/imagens/` | Sete PNGs efetivamente incorporados, 359–361 dpi | ver hashes individuais no histórico Git |
+| `tools/render_article_visuals_v2.mjs` | Gerador das fontes SVG e PNGs dos seis gráficos quantitativos | `C2E5592868BB214DBD66BD53E56E9C3B8C3D005236CD854ACFCAD4DF49737AAF` |
+| `tools/redesign_article_v2.py` | Aplicação reprodutível do redesign ao DOCX final | `3273B1E144EEE8E2CD60B756CD971578FF26D45F6014DCD0A4CB9E74EDB4DAF0` |
+| `Recursos_do_artigo/v2/fontes_vetoriais/` | Seis fontes SVG dos gráficos quantitativos | ver hashes individuais no histórico Git |
+| `Recursos_do_artigo/v2/imagens/` | Sete PNGs efetivamente incorporados | ver hashes individuais no histórico Git |
+| `Recursos_do_artigo/v2/imagens/Figura_1_modelo_de_cinco_camadas.png` | Figura 1 histórica restaurada de `article-v2-final` | `A160B7C68DD7F78DC910AB497C1AF51F91FDBF5EF4F22B0F47D292ABFF14930D` |
 
 ### Ajuste de contraste do Gráfico 6
 
@@ -43,6 +44,7 @@
 - Marco desta entrega: `article-v2-final`.
 - Marco visual, sem movimentar as tags anteriores: `article-v2-final-visual`.
 - Marco do ajuste de contraste: `article-v2-final-visual-white-labels`.
+- Marco da restauração da Figura 1: `article-v2-final-figure-restored`.
 - Commit de conteúdo científico e artefatos: `11c06c2`.
 - Commit do redesign visual e dos recursos reprodutíveis: `2325db1`.
 
