@@ -50,8 +50,10 @@
 - Marco visual, sem movimentar as tags anteriores: `article-v2-final-visual`.
 - Marco do ajuste de contraste: `article-v2-final-visual-white-labels`.
 - Marco da restauração da Figura 1: `article-v2-final-figure-restored`.
+- Marco do fechamento da auditoria metodológica: `article-v2-final-audit-closure`.
 - Commit de conteúdo científico e artefatos: `11c06c2`.
 - Commit do redesign visual e dos recursos reprodutíveis: `2325db1`.
+- Commit de fechamento metodológico: `4d71188`.
 
 ## Cópias correntes no Google Drive
 
@@ -59,4 +61,9 @@
 - DOCX final: ID `1kLWQhY_qVN2iZONIrEi9Y9ERdeMAwiRU`.
 - DOCX editável: ID `1qGDfndeHw3Gdrge7klZ2XK3TnRnhZ5-U`.
 - DOCX com alterações: ID `1CVc3DJW1k03Fwltap369IFdJdpHiO2BS`.
+- Verificação das evidências dos 177 estudos: ID `1xqK9bpRUmFegdKa9agxrt0f0xoVxFTlU`.
+- Reconciliação temática e auditoria: ID `1qF9DiWlqjZFfWxiQl7TtcdS2jT3WeTyG`.
+- Auditoria de cobertura da busca: ID `10FBDwH2IqZ4FZauj7l-rFIlKsBRg7nto`.
+- Auditoria da adjudicação assistida por LLM: ID `18Iw7Nr-cWVGBi8uvuS8w171gpKDT6WR8`.
+- Auditoria final de atendimento ao parecer: ID `11RTpvVUGvI2xY1DDADg8H-cVTVdwKk4p`.
 - Os IDs foram preservados e os bytes substituídos, mantendo o histórico de revisões do Drive.
