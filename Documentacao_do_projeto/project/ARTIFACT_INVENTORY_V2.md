@@ -4,20 +4,27 @@
 
 | Artefato | Função | SHA-256 |
 |---|---|---|
-| `Artigo/Artigo_v2_final.docx` | Manuscrito final com redesign visual | `BD0ACAAF7372C5F1AD5A30582B5F8F86BC5AF2D7810357B341C0EA2F0F462677` |
+| `Artigo/Artigo_v2_final.docx` | Manuscrito final com redesign visual | `FD8645C9A167B005E693BED4D1F46A040B3CB30EB95ED447EA5B8932CFB1A61B` |
 | `Artigo/Artigo_v2_para_editar.docx` | Versão editável preservada, sem o redesign visual final | `E03C4DD19DB4BEA0640D12E86797E3EEA8E9052C93C01A19AD2D6093C8FD5540` |
 | `Artigo/Artigo_v2_com_alteracoes.docx` | Redline da v1 para a v2 | `BB2EEEF0F168045693199B9B179607BBD6F26F7C30C5616553BA6104A0D1614B` |
-| `Artigo/Artigo_v2_final.pdf` | PDF final redesenhado, 15 páginas | `5F36558998C1CBE264241164E0035B3B12CF57C68F45E6BCBB7E589439D14EE4` |
+| `Artigo/Artigo_v2_final.pdf` | PDF final redesenhado, 15 páginas | `778C695C2D60011C8A8ECF8D9CC7889FA2407B389EF586ADC440E435B4D95DB3` |
 
 ## Recursos visuais reprodutíveis
 
 | Artefato | Função | SHA-256 |
 |---|---|---|
 | `Recursos_do_artigo/v2/dados_figuras_v2.csv` | Dados longos congelados dos Gráficos 1–6 | `AF11FD28867BB360DD865C9CB413CE503DCC8035E450483E0439F7BB52885B10` |
-| `tools/render_article_visuals_v2.mjs` | Gerador único das fontes SVG e PNGs a 360 dpi | `A405C2C29487F74D66BE06DE8566FE54814F78E500C2DB9DF52E8EA1F68984A7` |
+| `tools/render_article_visuals_v2.mjs` | Gerador único das fontes SVG e PNGs a 360 dpi | `465EACC392877AFD00F3FD5A0548D4DBEDC73666C78D66317D69C9D44FCAC546` |
 | `tools/redesign_article_v2.py` | Aplicação reprodutível do redesign ao DOCX final | `F95219BAF04E22FF9E5A749D4D8C49A52B2A94603531860868E8E62231AA742E` |
 | `Recursos_do_artigo/v2/fontes_vetoriais/` | Sete fontes SVG versionadas | ver hashes individuais no histórico Git |
 | `Recursos_do_artigo/v2/imagens/` | Sete PNGs efetivamente incorporados, 359–361 dpi | ver hashes individuais no histórico Git |
+
+### Ajuste de contraste do Gráfico 6
+
+| Artefato | SHA-256 |
+|---|---|
+| `Recursos_do_artigo/v2/fontes_vetoriais/Grafico_6_coocorrencia_mecanismos_camadas.svg` | `271DEC1C9123F795A0430D1BCDF361F47337C0B181C2498F3E21494C14118F8E` |
+| `Recursos_do_artigo/v2/imagens/Grafico_6_coocorrencia_mecanismos_camadas.png` | `890F911469EDDA24B297FBD060171D02C67B2A837C9FA32210782B209FC35115` |
 
 ## Rastreabilidade metodológica
 
@@ -35,6 +42,7 @@
 - Marco metodológico original: `article-v2`, mantido sem movimentação.
 - Marco desta entrega: `article-v2-final`.
 - Marco visual, sem movimentar as tags anteriores: `article-v2-final-visual`.
+- Marco do ajuste de contraste: `article-v2-final-visual-white-labels`.
 - Commit de conteúdo científico e artefatos: `11c06c2`.
 - Commit do redesign visual e dos recursos reprodutíveis: `2325db1`.
 

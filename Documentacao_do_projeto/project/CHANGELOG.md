@@ -94,3 +94,11 @@
 - Teste em escala de cinza confirmou distinção por luminosidade, forma e rótulos, sem dependência exclusiva de cor.
 - Todas as 15 páginas foram inspecionadas; não há cortes, sobreposições, tabelas quebradas ou paginação incorreta.
 - O texto científico foi preservado, exceto por quatro descrições estritamente necessárias para refletir os novos formatos dos Gráficos 4 e 5.
+
+## v2 final — contraste dos rótulos do Gráfico 6 (2026-08-19)
+
+- Alterada exclusivamente a cor dos 40 valores internos do mapa de calor para branco.
+- Preservados dados, escala cromática, dimensões, texto científico e todos os demais recursos visuais.
+- Regeneradas as fontes SVG e PNG do Gráfico 6 e atualizados somente o DOCX e o PDF finais.
+- Confirmadas 15 páginas, sete imagens com texto alternativo e auditoria de acessibilidade sem achados.
+- A comparação visual com o marco anterior mostrou alteração somente na página 9.

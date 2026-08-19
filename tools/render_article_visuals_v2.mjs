@@ -82,7 +82,7 @@ function cividis(v,max){const stops=[[0,"#00204C"],[.25,"#334E6F"],[.5,"#6C6F72"
 function graph6(rows){
   const cats=categories(rows),cols=["Técnica","Interacional","Organizacional","Regulatória","Evolutiva"],left=181,top=51,cw=48,ch=24,max=131;let b="";
   cols.forEach((c,j)=>{const x=left+j*cw+cw/2;b+=text(x,38,c,8.5,"start",C.text,700,{transform:`rotate(-35 ${x} 38)`});});
-  cats.forEach((cat,i)=>{b+=multiline(left-8,top+i*ch+ch/2+3,wrap(cat,28),8.5,"end");cols.forEach((col,j)=>{const v=lookup(rows,cat,col),color=cividis(v,max);b+=rect(left+j*cw,top+i*ch,cw,ch,color,0,C.white,1);b+=text(left+j*cw+cw/2,top+i*ch+ch/2+3,String(v),8.5,"middle",v>68?C.white:"#101820",700);});});
+  cats.forEach((cat,i)=>{b+=multiline(left-8,top+i*ch+ch/2+3,wrap(cat,28),8.5,"end");cols.forEach((col,j)=>{const v=lookup(rows,cat,col),color=cividis(v,max);b+=rect(left+j*cw,top+i*ch,cw,ch,color,0,C.white,1);b+=text(left+j*cw+cw/2,top+i*ch+ch/2+3,String(v),8.5,"middle",C.white,700);});});
   b+=text(left+2.5*cw,253,"Número de estudos por coocorrência",8.5,"middle");return svg(443,256,b);
 }
 function figure1(){

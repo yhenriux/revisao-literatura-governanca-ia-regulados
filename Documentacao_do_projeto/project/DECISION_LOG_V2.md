@@ -35,3 +35,9 @@
 - Manter o limite editorial de 15–16 páginas; melhorar o fluxo de figuras e ampliar somente a tipografia das referências, sem reduzir corpo, legendas ou tabelas abaixo dos limites de legibilidade.
 - Aceitar quatro ajustes textuais estritamente semânticos para substituir referências a “área”, “bolha” e “treemap” pelos novos formatos visuais; nenhuma afirmação científica, contagem ou conclusão foi alterada.
 - Preservar a tag `article-v2-final` no estado anterior ao redesign e criar `article-v2-final-visual` como novo marco.
+
+## 2026-08-19 — contraste numérico do Gráfico 6
+
+- Atender ao ajuste visual solicitado aplicando branco a todos os valores internos do mapa de calor.
+- Não alterar a paleta, os valores, a geometria ou os rótulos externos do gráfico.
+- Preservar `article-v2-final-visual` como marco anterior e registrar a correção em uma nova tag descritiva, sem criar v3.
