@@ -48,3 +48,11 @@
 - Recuperar o PNG diretamente do DOCX versionado, sem redesenho, reinterpretação ou alteração de conteúdo.
 - Incorporar a figura sem recorte e com proporção original de 1468 × 1071 pixels.
 - Tratar a Figura 1 como recurso histórico rasterizado; o gerador reprodutível permanece responsável pelos seis gráficos quantitativos.
+
+## 2026-08-19 — fechamento dos alertas sem reconstrução especulativa
+
+- Decisão: verificar os 105 alertas históricos contra o texto integral, preservando separadamente o estado do checkpoint e o estado final.
+- Resultado: 94 âncoras confirmadas por correspondência literal normalizada e 11 substituídas por evidência alternativa literalmente localizada; zero pendências.
+- Decisão: não distribuir retroativamente os totais temáticos publicados entre os 177 estudos, pois a matriz final de rótulos normalizados por estudo não foi preservada.
+- Decisão: registrar como `não preservado` os quantitativos históricos por fonte e consulta, sem executar nova busca e apresentá-la como reprodução do processo original.
+- Consequência: a v2 alcança o máximo atendimento cientificamente defensável, mas a auditoria final não declara 100/100 absoluto.

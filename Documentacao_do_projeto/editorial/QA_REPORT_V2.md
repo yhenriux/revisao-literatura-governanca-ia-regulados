@@ -6,6 +6,8 @@ Data da auditoria: 2026-08-17.
 
 A v2 atende aos três bloqueadores da auditoria: rastreabilidade individual do corpus analítico, condensação efetiva da Tabela 3 e redução das redundâncias entre resultados, síntese e discussão. O manuscrito final permaneceu compacto, com 15 páginas.
 
+Na auditoria final de evidências, os 105 alertas históricos foram examinados contra o texto integral. Noventa e quatro âncoras foram confirmadas por correspondência literal normalizada e 11 foram substituídas por evidências alternativas literalmente localizadas. Os 177 estudos ficaram sem pendências de localização de evidência.
+
 ## Reconciliação científica
 
 | Classe | Quantidade |
@@ -37,6 +39,8 @@ As 15 páginas foram rasterizadas a 120 dpi e inspecionadas integralmente. Não 
 ## Limitação declarada
 
 Os logs preservados não permitem atribuir retrospectivamente, estudo a estudo, a fonte e a consulta exatas de recuperação. O inventário registra essa indisponibilidade e não fabrica proveniência. A rastreabilidade atendida liga cada estudo à referência, decisão, evidência, arquivo e hash; a limitação da cobertura de recuperação permanece explicitada como ameaça metodológica.
+
+A matriz final de rótulos normalizados por estudo utilizada para produzir as frequências temáticas dos gráficos também não foi preservada separadamente. As contagens publicadas são mantidas como resultados históricos, mas não são declaradas como reproduzidas diretamente a partir do novo inventário. Essa distinção impede uma declaração metodologicamente indevida de 100/100 absoluto.
 
 ## Publicação
 

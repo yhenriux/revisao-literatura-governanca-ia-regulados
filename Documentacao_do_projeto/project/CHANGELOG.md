@@ -110,3 +110,13 @@
 - Preservados o texto científico, os seis gráficos redesenhados e os 40 rótulos brancos do Gráfico 6.
 - Mantidas 15 páginas, sete imagens com texto alternativo e auditoria de acessibilidade sem achados.
 - O SVG da proposta visual substituída foi retirado do estado corrente para não representar falsamente a Figura 1 final; permanece recuperável no histórico Git.
+
+## v2 final — fechamento metodológico dos alertas (2026-08-19)
+
+- Examinados os 105 alertas históricos de localização de evidência: 94 âncoras confirmadas por normalização e 11 substituídas por evidência literal alternativa.
+- Criada trilha auditável dos 177 estudos, com preservação do alerta original, método de verificação, trecho, página, arquivo e hash.
+- Criada reconciliação em workbook entre identidade, classificação, codificação original e evidência, com fórmulas de controle e zero pendências.
+- Explicitados, em matriz fonte × família, os quantitativos de recuperação que não foram preservados nos logs históricos.
+- Acrescentada auditoria empírica da adjudicação assistida por LLM, sem equipará-la a dupla revisão humana independente.
+- Reduzidas repetições residuais nos resultados e fortalecidas as limitações metodológicas no método e na discussão.
+- Preservadas 15 páginas, sete figuras, três tabelas e 29 referências.

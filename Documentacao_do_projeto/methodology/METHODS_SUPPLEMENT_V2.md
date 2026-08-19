@@ -19,6 +19,8 @@ O limite de até 25 resultados por combinação entre estratégia e fonte foi um
 
 Os logs preservados não permitem atribuir retrospectivamente, estudo a estudo, a fonte e a família de consulta que originaram cada registro. Por isso, nenhuma proveniência individual foi inferida. APIs e mecanismos de ordenação podem favorecer relevância, recência ou popularidade. O snowballing por referências, citações, trabalhos relacionados, autoria e veículo reduz, mas não elimina, o risco de perda. A revisão deve ser interpretada como síntese sistemática de um corpus documentado, não como enumeração exaustiva de toda a literatura existente.
 
+O arquivo `SEARCH_COVERAGE_AUDIT_V2.csv` explicita as 40 combinações entre oito fontes e cinco famílias de consulta. Os campos de total reportado pela API, resultados retornados, armazenados, deduplicados, obtidos em texto completo e incorporados ao corpus estão marcados como `não preservado` ou `não atribuível` quando os logs históricos não os sustentam. Essa ausência impede uma análise quantitativa retrospectiva do efeito do limite de 25; ela não foi preenchida por estimativa nem por nova busca apresentada como reprodução histórica.
+
 ## Critérios operacionais completos
 
 | Código | Tipo | Formulação operacional |
@@ -49,10 +51,12 @@ A triagem determinística registrou termos, páginas e evidências literais. A a
 | Triagem determinística | termos, regras e evidências literais | falsos positivos ou negativos por vocabulário |
 | Adjudicação assistida | JSON estruturado e prompt restritivo | interpretação contextual, enquadramento e alucinação |
 | Validação | confronto de citações com o texto extraído | falha de extração, hifenização ou localização |
-| Readjudicação humana | critérios explícitos, justificativa e evidência por caso de fronteira | julgamento de um único revisor |
+| Readjudicação documentada | critérios explícitos, justificativa e evidência por caso de fronteira | ausência de segundo revisor humano independente |
 | Síntese | distinção entre central, apoio, contextual e exclusão | dependência das decisões anteriores |
 
-Não houve dupla revisão humana independente. A confiança numérica do LLM não é probabilidade calibrada. Persistem dependências de versão, prompt, configuração e disponibilidade do serviço. A readjudicação humana dos 17 casos de fronteira corrige a seleção posicional anteriormente usada, mas não transforma o fluxo em dupla codificação independente.
+Não houve dupla revisão humana independente. A confiança numérica do LLM não é probabilidade calibrada. Persistem dependências de versão, prompt, configuração e disponibilidade do serviço. A readjudicação documentada dos 17 casos de fronteira corrige a seleção posicional anteriormente usada, mas não transforma o fluxo em dupla codificação independente.
+
+A auditoria final dos 177 estudos examinou os 105 alertas históricos de localização de evidência. Noventa e quatro âncoras foram confirmadas no texto integral após normalização de Unicode, diacríticos, espaços e pontuação; nos 11 casos restantes, a âncora foi substituída por evidência alternativa já registrada na matriz e literalmente localizada no texto integral. O arquivo `CORPUS_EVIDENCE_VERIFICATION_177.csv` preserva o alerta original, o método de confirmação, o trecho final, a página e o estado da verificação. Não restaram casos sem evidência literal verificável. Essa conferência demonstra existência do trecho, não concordância temática entre revisores humanos independentes.
 
 ## Reconciliação do universo e do corpus
 
@@ -63,6 +67,10 @@ Os 17 registros `borderline` foram readjudicados em nove evidências de apoio, c
 ## Inventário e reprodução
 
 - `CORPUS_ANALYTIC_177_INVENTORY.csv`: composição integral do corpus analítico.
+- `CORPUS_EVIDENCE_VERIFICATION_177.csv`: fechamento auditável dos 105 alertas históricos e verificação dos 177 estudos.
+- `CORPUS_THEME_RECONCILIATION_177.xlsx`: ligação direta entre estudo, classificação, codificação original, evidência, arquivo e hash.
+- `SEARCH_COVERAGE_AUDIT_V2.csv`: matriz fonte × família de consulta, incluindo indisponibilidades históricas explicitadas.
+- `LLM_ADJUDICATION_AUDIT_V2.md`: controles, resultados empíricos e riscos residuais da adjudicação assistida.
 - `CORPUS_UNIVERSE_RECONCILIATION.csv`: reconciliação das 408 linhas operacionais com o universo de 407 estudos únicos.
 - `CORPUS_BORDERLINE_ADJUDICATION_V2.csv`: decisões humanas dos 17 casos de fronteira.
 - `CORPUS_RECONCILIATION_177.md`: explicação e testes de invariantes.
@@ -70,3 +78,5 @@ Os 17 registros `borderline` foram readjudicados em nove evidências de apoio, c
 - `tools/build_v2_inventory.ps1`: gerador reprodutível que falha se as contagens ou hashes obrigatórios divergirem.
 
 PDFs, hashes, saídas JSON, checkpoint e planilha permanecem preservados. A rastreabilidade demonstrada cobre identidade, pertencimento ao corpus, decisão, arquivo, hash e evidência-âncora. A proveniência bibliográfica individual não preservada permanece registrada como limitação, sem reconstrução retroativa não verificável.
+
+As frequências temáticas publicadas permanecem preservadas em `Recursos_do_artigo/v2/dados_figuras_v2.csv`. A matriz final de rótulos normalizados por estudo que originou essas frequências não foi preservada como artefato independente; por isso, `CORPUS_THEME_RECONCILIATION_177.xlsx` não fabrica retroativamente marcações individuais para forçar a reprodução dos totais. A planilha separa o que é diretamente reconciliável do que permanece como valor publicado, tornando esse limite auditável.
