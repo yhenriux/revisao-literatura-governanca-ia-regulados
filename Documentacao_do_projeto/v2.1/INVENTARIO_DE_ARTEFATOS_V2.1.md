@@ -23,6 +23,18 @@ Os hashes abaixo identificam o pacote entregue para validação humana. Eles dev
 
 As respostas brutas ficam em `busca_de_sensibilidade/respostas_brutas/`. Cada arquivo é identificado pelo hash registrado na linha correspondente de `Log_de_execucao_das_consultas_v2.1.csv`. Fontes bloqueadas ou falhas não possuem resposta bruta inventada.
 
+## Triagem assistida de título e resumo
+
+Esta etapa classifica prioridades de leitura, não incorpora estudos ao corpus. Os campos de decisão final do autor permanecem vazios nos 992 registros prospectivos.
+
+| Artefato | Função | Bytes | SHA-256 |
+|---|---|---:|---|
+| `DECLARACAO_DO_AUTOR_SOBRE_CURADORIA_V2.1.md` | declaração do autor sobre a curadoria humana do corpus histórico | 1.008 | `c81c68a4725968de318ae9a13262f4509e1a09022fc85e9c72f56018fa587596` |
+| `triagem_assistida/TRIAGEM_ASSISTIDA_DOS_REGISTROS_V2.1.csv` | decisões assistidas, critérios e fila de texto completo dos 992 registros | 2.147.283 | `abc007db24dcd8a3c172d39b9f341467945c307e335a06efca31e2c2280637ef` |
+| `triagem_assistida/RELATORIO_DA_TRIAGEM_ASSISTIDA_V2.1.md` | síntese quantitativa da triagem | 1.031 | `5f1138703a0c16ea8db8989ba9cc3ffe3f29f836eefd618f5ef6aaf7be1b11ee` |
+| `triagem_assistida/RELATORIO_DE_QUALIDADE_DA_TRIAGEM_V2.1.md` | controles, riscos e limites de interpretação | 4.287 | `040f93b4e28aeeb93ee09d08b7e527e1815ca748407c035f987c3ae865acaa3c` |
+| `../../tools/triage_sensitivity_v21.py` | reprodução das regras de triagem assistida | 11.975 | `355dde4e5e8551d255b07b06066d165071d3d0c63020fc4905917a79be09177f` |
+
 ## Artefatos ainda não existentes
 
 O DOCX limpo, a redline, o PDF e a tag `article-v2.1` ainda não existem. Sua criação depende do fechamento humano e da reconciliação científica.
