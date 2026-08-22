@@ -1,5 +1,29 @@
 # Changelog
 
+## v2.1 — ciclo metodológico em validação humana (2026-08-22)
+
+### Preparado
+
+- Protocolo metodológico para responder aos seis pontos do terceiro parecer.
+- Declaração verificável sobre a origem híbrida e iterativa das cinco camadas.
+- Critério operacional de evidência central em três condições cumulativas.
+- Fluxo explícito de adjudicação assistida por LLM com decisão final do autor.
+- Planilha controlada para validar 177 estudos, JBI por desenho, CERQual por achado e busca complementar.
+- Registro de 40 combinações prospectivas, posições e hashes de respostas.
+
+### Resultado provisório da busca
+
+- 1.342 ocorrências recuperadas nas fontes que responderam.
+- 992 registros únicos não localizados entre os 407 registros históricos e ainda pendentes de decisão humana.
+- PubMed e CORE bloqueados por configuração ausente; Semantic Scholar limitado por HTTP 429.
+
+### Estado
+
+- `aguardando_validacao_humana`.
+- Nenhum DOCX, redline ou PDF final v2.1 foi publicado.
+- Nenhuma tag `article-v2.1` foi criada.
+- A v2 permanece o último marco científico fechado.
+
 ## v1 final — correção pós-auditoria
 
 ### Preservado

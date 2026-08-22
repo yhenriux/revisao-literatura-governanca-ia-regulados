@@ -7,6 +7,7 @@ Este diretório reúne a documentação técnica, metodológica e editorial da r
 - `project/`: visão geral, arquitetura documental, política de versionamento e decisões.
 - `editorial/`: parecer, checklist, matriz de resposta e relatório comparativo da v1.
 - `methodology/`: suplemento metodológico e guia de reprodução/manutenção.
+- `v2.1/`: protocolo, planilha e busca prospectiva do ciclo metodológico atualmente em validação humana.
 
 ## Princípios de governança
 
@@ -16,19 +17,21 @@ Este diretório reúne a documentação técnica, metodológica e editorial da r
 4. Dados ativos, derivados, documentação e manuscritos têm funções distintas e devem permanecer identificáveis.
 5. Todo marco editorial recebe versão de arquivo, commit e tag Git.
 
-## Artefatos principais
+## Artefatos principais e estado atual
 
 - Manuscrito integral original: `../Artigo/Artigo_original_v0.docx`.
-- Manuscrito revisado limpo: `../Artigo/Artigo_para_editar.docx`.
-- Manuscrito revisado e comentado: `../Artigo/Artigo_com_alteracoes.docx`.
-- PDF revisado: `../Artigo/Artigo_final.pdf`.
+- PDF científico corrente e aprovado antes do novo parecer: `../Artigo/Artigo_v2_final.pdf`.
+- DOCX científico corrente: `../Artigo/Artigo_v2_final.docx`.
 - Estado original da v1 antes da auditoria: arquivos `../Artigo/Artigo_pre_auditoria_*`.
 
-A tag `article-v1` preserva o primeiro fechamento. A tag `article-v1-final` identifica a correção definitiva dos próprios artefatos da v1, sem criação de v2.
+A v2.1 está em **validação humana**. Ainda não existe PDF final v2.1, pois corpus, JBI, CERQual e busca de sensibilidade dependem de decisões científicas de Yago. O ponto de entrada é `v2.1/LEIA_PRIMEIRO_V2.1.md`.
+
+As tags das versões anteriores permanecem imutáveis. A tag `article-v2.1` só será criada depois do fechamento integral do checklist humano e documental.
 
 ## Rotas rápidas
 
-- Para enviar o artigo: `../Artigo/Artigo_final.pdf`.
+- Para ler o último artigo fechado: `../Artigo/Artigo_v2_final.pdf`.
+- Para trabalhar na v2.1: `v2.1/LEIA_PRIMEIRO_V2.1.md` e `v2.1/Validacao_humana_do_corpus_v2.1.xlsx`.
 - Para entender o histórico: `editorial/QA_REPORT_V1.md` e `project/CHANGELOG.md`.
 - Para reproduzir ou manter o corpus: `methodology/REPRODUCIBILITY_GUIDE.md`.
 - Para registrar uma nova decisão: `project/DECISION_LOG.md`.
