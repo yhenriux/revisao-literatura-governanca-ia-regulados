@@ -15,10 +15,9 @@ para PDF antes da revisão.
 
 ## Renderização final da v2.1
 
-1. Abrir `texto_exportado/Artigo_v2.1_para_editar.md` no editor utilizado para a composição do artigo.
-2. Substituir a Figura 1 pela imagem em `Recursos_do_artigo/v2.1/imagens/Figura_1_modelo_de_cinco_camadas.png`.
-3. Aplicar alinhamento central às sete figuras e manter as notas curtas conforme a fonte textual.
-4. Exportar como `Artigo_v2.1_para_leitura.pdf`.
-5. Conferir visualmente todas as páginas, o número de páginas, as chamadas de figuras/tabelas, o rodapé do catálogo e a equivalência textual com a fonte Markdown.
+1. Executar `node tools/render_v21_markdown.js` para gerar a composição HTML reproduzível em `Artigo/v2.1_render.html`.
+2. Imprimir `Artigo/v2.1_render.html` como PDF em `Artigo_v2.1_para_leitura.pdf`.
+3. A Figura 1 é carregada de `Recursos_do_artigo/v2.1/imagens/Figura_1_modelo_de_cinco_camadas.png`; as sete figuras são centralizadas pelo CSS do gerador.
+4. Conferir visualmente todas as páginas, o número de páginas, as chamadas de figuras/tabelas, o rodapé do catálogo e a equivalência textual com a fonte Markdown.
 
 A renderização local não foi declarada como concluída quando o ambiente não disponibilizou um conversor DOCX/PDF. O PDF deve ser substituído somente após essa verificação visual.
