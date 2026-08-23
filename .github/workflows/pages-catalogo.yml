@@ -1,0 +1,37 @@
+name: Publicar catálogo bibliográfico no GitHub Pages
+
+on:
+  push:
+    branches: [codex/article-v2-1]
+    paths:
+      - "catalogo_virtual/**"
+      - ".github/workflows/pages-catalogo.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-catalogo
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Empacotar catálogo estático
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./catalogo_virtual
+      - name: Publicar catálogo
+        id: deployment
+        uses: actions/deploy-pages@v4

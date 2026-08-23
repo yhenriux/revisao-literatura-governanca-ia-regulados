@@ -30,6 +30,14 @@ python -m http.server 8000 --directory catalogo_virtual
 
 Acesse `http://localhost:8000`.
 
+## Publicação no GitHub Pages
+
+O workflow `.github/workflows/pages-catalogo.yml` publica somente esta pasta no GitHub Pages quando há alteração na branch `codex/article-v2-1`. No repositório, habilite `Settings → Pages → Source: GitHub Actions` caso a configuração ainda esteja como `None`.
+
+O endereço esperado é:
+
+`https://yhenriux.github.io/revisao-literatura-governanca-ia-regulados/`
+
 ## Relação com o artigo
 
 O catálogo será citado como suplemento de rastreabilidade. As contagens, conclusões e decisões científicas continuam subordinadas ao manuscrito e aos registros metodológicos versionados; uma ficha catalográfica não transforma automaticamente um candidato em estudo incluído.
