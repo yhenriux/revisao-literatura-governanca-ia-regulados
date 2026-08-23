@@ -62,3 +62,6 @@ Os 223 PDFs totalizam 292.924.414 bytes e possuem hashes individuais no manifest
 | `triagem_texto_completo/RELATORIO_DA_EXTRAÇÃO_INTEGRAL_APOIO_V2.1.md` | controle da extração dos 77 PDFs e 1.530 páginas | 4.133 | `f57cbc5bf39ca86bd1d9e47d6f0af33fb9a840a280ef55cc30a0fd05165cfb90` |
 | `triagem_texto_completo/FILA_DE_TRIAGEM_INTEGRAL_INCERTOS_V2.1.jsonl` | texto extraído por página dos 129 registros incertos | 1.533.382 | `b9adb4e19008d9a2c2a279caa0a5b69edfe08014e28e287292ffe1ffc61635eb` |
 | `triagem_texto_completo/RELATORIO_DA_EXTRAÇÃO_INTEGRAL_INCERTOS_V2.1.md` | controle da extração dos 129 PDFs e 2.509 páginas | 6.705 | `477cfbd92d6d961d106e6ab8068261389ab7b1fdf3f5a48a22bcb495cd3c4c9d` |
+| `triagem_texto_completo/MATRIZ_DECISAO_INTEGRAL_APOIO_INCERTOS_V2.1.csv` | matriz assistida dos 206 artigos com decisão sugerida, páginas, setores, mecanismos, camadas e limitações | 348.779 | `8691c1c166eb0fcc977300d6efeb7e70fa1f7667ccfac9385af346ab8050c60d` |
+| `triagem_texto_completo/RELATORIO_DA_MATRIZ_INTEGRAL_APOIO_INCERTOS_V2.1.md` | síntese das recomendações assistidas e controle de campos finais vazios | 535 | `aa380803ae7dad53dc23ee27d60bd2d02640297a5ac70bcd7392b40cabfdd99d` |
+| `../../tools/build_integral_decision_matrix_v21.py` | reprodução da matriz assistida | 7.719 | `affffbe8f25f04f6f850f3226d4d29bfedf6f92e97c21aafa489c7e89177f0af` |
