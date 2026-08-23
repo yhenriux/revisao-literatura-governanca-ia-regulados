@@ -12,6 +12,7 @@ Revisão sistemática da literatura sobre governança conversacional em sistemas
 - **Decisões e versionamento:** [`Documentacao_do_projeto/project/`](Documentacao_do_projeto/project/)
 - **Arquitetura facetada PMEST:** [`Documentacao_do_projeto/project/RANGANATHAN_FACETED_ARCHITECTURE.md`](Documentacao_do_projeto/project/RANGANATHAN_FACETED_ARCHITECTURE.md)
 - **Corpus tratado:** [`arquivos_tratados_aigovernanca/`](arquivos_tratados_aigovernanca/) — nome preservado por compatibilidade com o pipeline; no Drive, aparece como `Corpus_da_revisao`.
+- **Catálogo bibliográfico digital:** [`catalogo_virtual/index.html`](catalogo_virtual/index.html) — navegação Swagger-like dos metadados e estados de triagem.
 
 ## Status atual
 
@@ -29,6 +30,7 @@ Revisão sistemática da literatura sobre governança conversacional em sistemas
 - `Artigo/`: versões oficiais e históricas do artigo em DOCX e PDF.
 - `Referencias_da_pesquisa/`: exemplo de survey/review usado como referência de qualidade.
 - `arquivos_tratados_aigovernanca/`: corpus tratado, textos completos, PDFs, resultados brutos de avaliação por LLM, planilha de metagrade e utilitário Python de adjudicação.
+- `catalogo_virtual/`: catálogo técnico derivado dos inventários, sem duplicar a fonte de verdade científica.
 
 O detalhamento metodológico, as regras de governança do corpus e o estado do pipeline estão documentados em [`arquivos_tratados_aigovernanca/README.md`](arquivos_tratados_aigovernanca/README.md).
 
