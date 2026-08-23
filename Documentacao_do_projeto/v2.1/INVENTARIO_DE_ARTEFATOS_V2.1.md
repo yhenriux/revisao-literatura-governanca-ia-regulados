@@ -38,3 +38,13 @@ Esta etapa classifica prioridades de leitura, não incorpora estudos ao corpus. 
 ## Artefatos ainda não existentes
 
 O DOCX limpo, a redline, o PDF e a tag `article-v2.1` ainda não existem. Sua criação depende do fechamento humano e da reconciliação científica.
+
+## Acervo prospectivo de textos completos abertos
+
+| Artefato | Função | Bytes | SHA-256 |
+|---|---|---:|---|
+| `../../arquivos_tratados_aigovernanca/ft_v21/MANIFESTO_TEXTOS_COMPLETOS_V2.1.csv` | reconciliação dos 575 registros com PDFs, URLs, licenças e falhas | 237.293 | `2c29d01d60d9bc2f5e0e09f8e5f652eded6f36abe43d5b72449cb332e6c95125` |
+| `../../arquivos_tratados_aigovernanca/ft_v21/LEIA_ME.md` | síntese do acervo e controle estrutural | 980 | `ac3f69fafa6c0b9fef2e58461da0b5c4399390c7e04d7ea9e4da38621c8a6c0d` |
+| `../../tools/retrieve_open_fulltexts_v21.py` | resolução reproduzível de cópias abertas | 11.356 | `4cf83b5571034ea1494b9b0d6c8ae9dacb5e749a96fea534fa3f77d955805277` |
+
+Os 223 PDFs totalizam 292.924.414 bytes e possuem hashes individuais no manifesto. Todos foram abertos estruturalmente: 4.439 páginas, zero PDFs inválidos e zero duplicatas binárias.

@@ -13,3 +13,4 @@
 | 2026-08-22 | Retirar PubMed, CORE e Semantic Scholar da análise prospectiva | Decisão expressa do autor após bloqueios operacionais; a delimitação será relatada como limitação, não ocultada. |
 | 2026-08-22 | Aplicar triagem assistida em dois passes aos 992 registros | O primeiro passe priorizou sensibilidade; o segundo exigiu governança explícita no título para centralidade e realizou deduplicação adicional por título. |
 | 2026-08-22 | Não incorporar candidatos sem texto completo | Preserva equivalência com a regra histórica de elegibilidade e evita alteração do corpus baseada apenas em metadados. |
+| 2026-08-22 | Arquivar somente PDFs obtidos legitimamente em acesso aberto | Impede contorno de paywalls e preserva proveniência, licença informada, URL e hash. Foram obtidos 223 de 575 textos completos prospectivos; 352 permanecem documentados como não obtidos. |
