@@ -76,7 +76,7 @@ Fonte. Protocolo metodológico da revisão.
 
 A extração de texto completo registrou páginas, qualidade da extração e trechos relevantes. Uma triagem determinística localizou termos e evidências literais; em seguida, o LLM recebeu metadados e trechos selecionados, produziu campos estruturados e foi instruído a não inferir informação ausente. O modelo sugeriu elegibilidade, classificação e códigos, mas não tomou a decisão científica final.
 
-O primeiro autor confrontou as sugestões do LLM com o texto integral, verificou os trechos e as páginas correspondentes e resolveu as divergências por meio da leitura da evidência original. A decisão final fundamentada foi tomada pelo primeiro autor, sob a supervisão dos coautores. Não houve dupla revisão humana independente; portanto, a concordância entre a avaliação humana e a sugestão do LLM foi tratada apenas descritivamente.
+As classificações sugeridas pelo LLM a partir dos textos integrais foram validadas por avaliação humana, mediante verificação dos trechos e das páginas correspondentes na evidência original. Eventuais divergências foram resolvidas com base na leitura da fonte primária.
 
 Os instrumentos CASP/JBI adaptados foram usados como apoio para identificar limitações metodológicas e qualificar a interpretação, sem determinar elegibilidade ou a distinção entre evidência central e de apoio. As dimensões do CERQual orientaram a reflexão sobre coerência, adequação, relevância e limitações dos achados qualitativos; não foram atribuídos níveis formais de confiança a achados incompatíveis com essa abordagem.
 
