@@ -16,12 +16,15 @@ const imageByLabel = {
   'Gráfico 6': 'Grafico_6_coocorrencia_mecanismos_camadas.png',
   'Figura 1': 'Figura_1_modelo_de_cinco_camadas.png'
 };
-const lines = fs.readFileSync(source, 'utf8').replace(/^# Exportação textual[^\n]*\n[\s\S]*?\n\n/, '').split(/\r?\n/);
+const lines = fs.readFileSync(source, 'utf8').split(/\r?\n/).slice(3);
 let html = [];
 let i = 0;
+let firstContent = true;
 while (i < lines.length) {
   const line = lines[i].trim();
   if (!line) { i++; continue; }
+  if (firstContent) { html.push(`<h1>${inline(line)}</h1>`); firstContent = false; i++; continue; }
+  if (/^(Resumo|Abstract)$/.test(line)) { html.push(`<h2>${inline(line)}</h2>`); i++; continue; }
   if (/^\|/.test(line) && i + 1 < lines.length && /^\|?\s*:?-+/.test(lines[i+1].trim())) {
     const rows = [];
     while (i < lines.length && /^\|/.test(lines[i].trim())) {
@@ -38,7 +41,8 @@ while (i < lines.length) {
   if (visual) {
     html.push(`<h3>${inline(line)}</h3>`);
     const img = path.join(imageRoot, imageByLabel[visual[1]]).replace(/\\/g, '/');
-    html.push(`<figure><img src="file:///${img.replace(/:/g, '%3A').replace(/ /g, '%20')}" alt="${esc(line)}"><figcaption>${inline(line)}</figcaption></figure>`);
+    const dataUri = 'data:image/png;base64,' + fs.readFileSync(img).toString('base64');
+    html.push(`<figure><img src="${dataUri}" alt="${esc(line)}"><figcaption>${inline(line)}</figcaption></figure>`);
     i++; continue;
   }
   if (/^Nota\./.test(line)) { html.push(`<p class="note">${inline(line)}</p>`); i++; continue; }
@@ -47,7 +51,7 @@ while (i < lines.length) {
   while (i < lines.length && lines[i].trim() && !/^#/.test(lines[i]) && !/^\|/.test(lines[i].trim()) && !/^(Nota|Fonte|Gráfico [1-6]|Figura 1)\./.test(lines[i].trim())) { para.push(lines[i].trim()); i++; }
   html.push(`<p>${inline(para.join(' '))}</p>`);
 }
-const css = `@page{size:A4;margin:19mm 19mm 19mm 21mm}body{font-family:Arial,Helvetica,sans-serif;color:#172033;font-size:10pt;line-height:1.35}h1{text-align:center;font-size:17pt;margin:0 0 15pt}h2{font-size:13pt;margin:16pt 0 7pt;border-bottom:1px solid #9aa7b7;padding-bottom:2pt}h3{font-size:11pt;margin:11pt 0 5pt}p{margin:0 0 6pt;text-align:justify}table{width:100%;border-collapse:collapse;margin:8pt 0 10pt;font-size:8.7pt}th{background:#eaf0f4;font-weight:bold;text-align:left;border-top:1px solid #637789;border-bottom:1px solid #bcc9d2;padding:4pt}td{border-bottom:1px solid #d6dee5;padding:4pt;vertical-align:top}.note,.source{font-size:8.2pt;font-style:italic;text-align:left;margin:2pt 0 4pt}.source{font-style:normal}figure{margin:9pt auto 11pt;text-align:center;page-break-inside:avoid}figure img{max-width:100%;max-height:160mm;display:block;margin:0 auto}figcaption{font-size:8.7pt;font-weight:bold;margin-top:3pt}code{font-family:Consolas,monospace;font-size:8.2pt}@media print{h2,h3{break-after:avoid}table,figure{break-inside:avoid}}`;
+const css = `@page{size:A4;margin:17mm 18mm 17mm 20mm}body{font-family:Arial,Helvetica,sans-serif;color:#172033;font-size:9.6pt;line-height:1.3}h1{text-align:center;font-size:17pt;margin:0 0 13pt}h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1px solid #9aa7b7;padding-bottom:2pt}h3{font-size:10.8pt;margin:9pt 0 4pt}p{margin:0 0 5pt;text-align:justify}table{width:100%;border-collapse:collapse;margin:7pt 0 9pt;font-size:8.5pt}th{background:#eaf0f4;font-weight:bold;text-align:left;border-top:1px solid #637789;border-bottom:1px solid #bcc9d2;padding:3.5pt}td{border-bottom:1px solid #d6dee5;padding:3.5pt;vertical-align:top}.note,.source{font-size:8pt;font-style:italic;text-align:left;margin:2pt 0 3pt}.source{font-style:normal}figure{margin:5pt auto 7pt;text-align:center;page-break-inside:avoid}figure img{max-width:100%;max-height:90mm;display:block;margin:0 auto}figcaption{font-size:8.4pt;font-weight:bold;margin-top:2pt}code{font-family:Consolas,monospace;font-size:8pt}@media print{h2,h3{break-after:avoid}table,figure{break-inside:avoid}}`;
 const documentTitle = 'Governança Conversacional em Sistemas Baseados em Modelos de Linguagem de Grande Escala em Ambientes Regulados';
 fs.writeFileSync(out, `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>${documentTitle}</title><style>${css}</style></head><body>${html.join('\n')}</body></html>`, 'utf8');
 console.log(out);
