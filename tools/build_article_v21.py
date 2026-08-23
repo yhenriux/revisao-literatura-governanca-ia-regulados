@@ -90,6 +90,14 @@ LAYER_ORIGIN = (
     "consolidado e não constituem validação empírica do modelo."
 )
 
+EPISTEMIC_STATUS = (
+    "Este artigo apresenta uma primeira proposição conceitual derivada da síntese sistemática da literatura. "
+    "As cinco camadas organizam padrões recorrentes identificados no corpus, mas sua presença nas publicações "
+    "analisadas não constitui validação empírica do modelo. O modelo não pretende funcionar como escala de "
+    "maturidade, norma ou certificação; sua validade externa e utilidade operacional ainda deverão ser examinadas "
+    "em estudos de caso, avaliações com especialistas e aplicações em sistemas reais de ambientes regulados."
+)
+
 LLM_METHOD = (
     "A extração de texto completo registrou páginas, qualidade da extração e trechos relevantes. Uma triagem "
     "determinística localizou termos e evidências literais; em seguida, o LLM recebeu metadados e trechos "
@@ -187,6 +195,7 @@ def build(source: Path, target: Path) -> None:
     insert_after(validation, QUALITY_ROLE)
     synthesis = replace(doc, "A síntese temática identificou mecanismos", CENTRAL_CRITERIA)
     insert_after(synthesis, LAYER_ORIGIN)
+    replace(doc, "O Modelo Conceitual Integrado é uma proposição analítica derivada", EPISTEMIC_STATUS)
     replace(doc, "A generalização deve ser cautelosa", LIMITATION)
 
     replace(doc, "Gráfico 1. Composição dos 407", "Gráfico 1. Composição das decisões documentadas na seleção integral")
