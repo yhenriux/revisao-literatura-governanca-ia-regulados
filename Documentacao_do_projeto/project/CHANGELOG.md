@@ -169,3 +169,12 @@
 - Preservadas sete figuras, três tabelas e a Figura 1 aprovada.
 - PDF final mantido em 16 páginas; todas as páginas da versão limpa e da redline foram renderizadas e inspecionadas.
 - Auditoria final concluída sem falhas de corpus, contagens, rastreabilidade, acessibilidade ou equivalência documental.
+### 2026-08-23 — revisão editorial v2.1
+
+- Ajustada a descrição metodológica para rodadas sucessivas de recuperação e análise de sensibilidade até a centésima posição.
+- Incluída explicação didática de configuração sociotécnica e regra de codificação multirrótulo.
+- Removido subtítulo não numerado sobre o estatuto epistemológico do modelo; a explicação foi integrada ao corpo do texto.
+- Simplificadas notas repetitivas de gráficos e tabelas.
+- Clarificada a rastreabilidade dos 358 estudos pelo catálogo virtual de código aberto.
+- Acrescentadas porcentagens às principais volumetrias dos resultados.
+- Substituída a Figura 1 pela versão “Governança integrada e retroalimentada” (SHA-256 `98C0DAEA8B4760CD2518F467D498EE78D437474AAFF88EF0CE431B26B855FBDA`).

@@ -24,13 +24,15 @@ Modelos de Linguagem de Grande Escala (LLMs) ampliaram o uso de interfaces conve
 
 Em ambientes regulados, uma resposta conversacional pode influenciar orientação clínica, aconselhamento financeiro, acesso a serviços públicos, interpretação jurídica ou exercício de direitos. A governança, portanto, não pode se restringir ao desempenho do modelo: precisa abranger a cadeia que produz a resposta, incluindo prompts, fontes de conhecimento, guardrails, ferramentas, registros, supervisão humana e contexto organizacional.
 
+Neste artigo, sistemas conversacionais baseados em LLMs são entendidos como **configurações sociotécnicas**: arranjos nos quais modelos, dados, interfaces, guardrails, registros e mecanismos de monitoramento funcionam em conjunto com pessoas, papéis organizacionais, procedimentos, normas e responsabilidades institucionais. Essa perspectiva foi adotada porque os efeitos regulatórios de uma resposta resultam da interação entre tecnologia, usuários, organizações e contexto normativo, e não apenas do comportamento do modelo. Ela permite analisar conjuntamente as dimensões técnica, interacional, organizacional, regulatória e evolutiva identificadas na revisão.
+
 A literatura oferece bases importantes, porém fragmentadas. Governança de IA e Responsible AI estabelecem princípios; accountability algorítmica trata de justificação, auditoria e responsabilização; estudos de LLMs examinam riscos e avaliação; interação humano-IA investiga confiança, transparência e correção; e trabalhos setoriais enfatizam conformidade e segurança. Falta uma síntese que integre essas perspectivas em mecanismos próprios da interação conversacional.
 
 Esta revisão sistemática identifica e organiza mecanismos técnicos, interacionais, organizacionais, regulatórios e evolutivos que orientam, controlam, monitoram, justificam e corrigem sistemas conversacionais baseados em LLMs em ambientes regulados. As questões de pesquisa examinam os mecanismos relatados, sua relação com risco e accountability, as capacidades associadas, as lacunas metodológicas e setoriais e o papel de explicabilidade, contestabilidade, reparo e aprendizagem operacional.
 
 A principal contribuição é o Modelo Conceitual Integrado de Governança Conversacional, apresentado desde o início como síntese dos resultados. Suas cinco camadas - técnica, interacional, organizacional, regulatória e evolutiva - mostram que governar a conversa requer coordenar controles do sistema, desenho da interação, responsabilidades institucionais, obrigações externas e aprendizagem em produção.
 
-O artigo contribui ao consolidar uma literatura dispersa, organizar os mecanismos em famílias analíticas e propor uma arquitetura conceitual aplicável à pesquisa, à avaliação e à prática organizacional. A narrativa segue do posicionamento da lacuna ao método, aos resultados, ao modelo e às suas implicações.
+O artigo contribui ao consolidar uma literatura dispersa, organizar os mecanismos em famílias analíticas e propor uma arquitetura conceitual aplicável à pesquisa, à avaliação e à prática organizacional. A narrativa segue do posicionamento da lacuna ao método, aos resultados, ao modelo e às suas implicações. Essa lacuna orienta a revisão das abordagens existentes na seção seguinte.
 
 ## 2. Trabalhos relacionados
 
@@ -42,47 +44,51 @@ A terceira vertente examina modelos fundacionais e IA generativa. A escala e a g
 
 A quarta vertente, interação humano-IA, mostra que usuários precisam compreender capacidades, limites, incertezas e caminhos de correção (Amershi et al., 2019; Shneiderman, 2020). Em uma interface conversacional, explicação, confirmação, recusa, escalonamento e reparo são simultaneamente escolhas de design e controles de governança; a fluência linguística pode elevar confiança além da competência real do sistema (Luger & Sellen, 2016; Rapp et al., 2021).
 
-A quinta vertente discute a adoção de IA em setores regulados. Saúde, finanças, governo, jurídico e seguros compartilham exigências de segurança, privacidade, auditabilidade, dever de cuidado e contestação, embora variem em risco e obrigação setorial. A lacuna não é ausência de princípios ou controles isolados, mas falta de integração entre o que controla o sistema, governa a interação, atribui responsabilidades, demonstra conformidade e aprende com o uso real. Essa lacuna fundamenta o modelo de cinco camadas.
+A quinta vertente discute a adoção de IA em setores regulados. Saúde, finanças, governo, jurídico e seguros compartilham exigências de segurança, privacidade, auditabilidade, dever de cuidado e contestação, embora variem em risco e obrigação setorial. A lacuna não é ausência de princípios ou controles isolados, mas falta de integração entre o que controla o sistema, governa a interação, atribui responsabilidades, demonstra conformidade e aprende com o uso real. Essa lacuna fundamenta o modelo de cinco camadas e orienta o método de busca e análise apresentado a seguir.
 
 ## 3. Método
 
 A revisão seguiu o PRISMA 2020 e recomendações para revisões sistemáticas em engenharia de software, complementadas por snowballing (Kitchenham & Charters, 2007; Page et al., 2021; Wohlin, 2014). O protocolo articulou identificação e consolidação do corpus, avaliação de elegibilidade e qualidade, validação de evidências e síntese temática orientada à construção conceitual.
 
-A busca combinou consultas estruturadas e expansão bibliográfica. A recuperação ampliada utilizou OpenAlex, Crossref, Europe PMC, arXiv e DOAJ em cinco famílias: governança de LLMs, LLMOps e observabilidade, governança conversacional, ambientes regulados e supervisão humana/contestabilidade. Referências, citações, autoria e veículos foram rastreados para ampliar a cobertura.
+A busca combinou consultas estruturadas e expansão bibliográfica. A recuperação ampliada utilizou múltiplas bases e serviços em cinco famílias: governança de LLMs, LLMOps e observabilidade, governança conversacional, ambientes regulados e supervisão humana/contestabilidade. Referências, citações, autoria e veículos foram rastreados para ampliar a cobertura.
 
 Tabela 2. Famílias conceituais e operacionalização da estratégia de busca
 
-Nota. As cinco famílias de consulta foram executadas nas mesmas bases e serviços bibliográficos: OpenAlex, Crossref, Semantic Scholar, PubMed, Europe PMC, CORE, arXiv e DOAJ. Essas plataformas são fontes de recuperação bibliográfica e APIs; não representam setores de aplicação dos estudos. A sintaxe, os campos e os parâmetros foram adaptados às regras de cada serviço. Os registros recuperados foram posteriormente deduplicados e submetidos aos critérios de elegibilidade da revisão.
+Nota. As consultas foram adaptadas à sintaxe de cada base e serviço de busca.
 
 Fonte. Elaboração própria com base nos registros de execução da busca.
 
-A recuperação bibliográfica foi realizada em múltiplas fontes e famílias de consulta. A análise de sensibilidade examinou faixas sucessivas até a centésima posição por combinação, complementadas por rastreamento de referências, citações, autoria e veículos. Os registros foram deduplicados por identificadores persistentes e, subsidiariamente, por título normalizado, autoria e ano. A abrangência foi examinada por análise de sensibilidade das posições recuperadas e pelo confronto entre fontes, mantendo-se no corpus apenas estudos elegíveis segundo os critérios definidos.
+A recuperação bibliográfica foi realizada em rodadas sucessivas, combinando cinco famílias conceituais, múltiplas bases e serviços de busca e estratégias complementares de rastreamento de referências, citações, autoria e veículos. Em cada rodada, os resultados foram ampliados progressivamente até a centésima posição por combinação de consulta e fonte, deduplicados por identificadores persistentes e, subsidiariamente, por título normalizado, autoria e ano. A estabilidade da recuperação foi examinada por análise de sensibilidade, verificando-se se as rodadas posteriores acrescentavam estudos elegíveis não identificados nas etapas anteriores. Esse procedimento permitiu avaliar a abrangência da busca sem assumir que os primeiros resultados fossem necessariamente os mais relevantes.
 
 O snowballing incluiu referências citadas, trabalhos citantes, relacionados e expansões controladas por autoria e veículo. Todos os registros foram consolidados e deduplicados por DOI, título exato e similaridade textual, com validação de grupos potencialmente ambíguos. Como verificação de abrangência, a execução ampliada registrou 1.342 ocorrências e 1.074 registros únicos após deduplicação interna, distribuídos por todas as faixas examinadas até a centésima posição. A seleção integral documentou decisões sobre 383 textos completos.
 
-Os critérios de elegibilidade selecionaram estudos sobre LLMs, IA generativa ou sistemas conversacionais que apresentassem mecanismos de governança e implicação para ambientes regulados ou de alto impacto. Após a decisão integral e a reconciliação de versões, o corpus analítico reuniu 358 estudos únicos: 30 evidências centrais e 328 evidências de apoio. Vinte e quatro registros permaneceram fora do escopo analítico e uma versão redundante foi vinculada à publicação correspondente, sem exclusão do histórico documental.
+Foram incluídos estudos sobre LLMs, IA generativa ou sistemas conversacionais que apresentassem mecanismos de governança relacionados a ambientes regulados ou de alto impacto. O corpus analítico final reuniu 358 estudos únicos, dos quais 30 foram classificados como evidências centrais e 328 como evidências de apoio. Outros 24 registros foram considerados fora do escopo da revisão.
 
-Os 358 estudos estão identificados individualmente no suplemento por referência, classificação, setor, família de mecanismos, camada normalizada, PDF, hash, página e trecho de evidência. A matriz longa estudo-mecanismo-camada é a fonte única para recalcular as tabelas e figuras; todos os arquivos indicados foram localizados e nenhum estudo incluído permaneceu sem evidência verificável.
+Os 358 estudos estão identificados individualmente no catálogo virtual da pesquisa, objeto digital de documentação desenvolvido em código aberto para esta revisão.[^1] O catálogo permite consultar referência, classificação, setor, família de mecanismos, camada normalizada, PDF, hash, página e trecho de evidência. A matriz estudo–mecanismo–camada é a fonte para recalcular tabelas e figuras, enquanto os PDFs rastreados constituem a fonte do texto integral.
+
+[^1]: Catálogo bibliográfico da pesquisa: *Governança conversacional em sistemas baseados em LLMs*. GitHub Pages. https://yhenriux.github.io/revisao-literatura-governanca-ia-regulados/
 
 Tabela 3. Critérios consolidados de inclusão e exclusão
 
-Nota. Os critérios foram consolidados no corpo do artigo; as sete regras de inclusão, as sete de exclusão e os exemplos de fronteira permanecem integralmente no suplemento metodológico.
+Nota. A tabela resume os critérios aplicados na seleção dos estudos.
 
 Fonte. Protocolo metodológico da revisão.
 
 A extração de texto completo registrou páginas, qualidade da extração e trechos relevantes. Uma triagem determinística localizou termos e evidências literais; em seguida, o LLM recebeu metadados e trechos selecionados, produziu campos estruturados e foi instruído a não inferir informação ausente. O modelo sugeriu elegibilidade, classificação e códigos, mas não tomou a decisão científica final.
 
-O autor confrontou as sugestões com o texto integral, verificou trechos e páginas e resolveu divergências pela leitura da evidência correspondente. A decisão fundamentada do autor prevaleceu. Não houve dupla revisão humana independente, e a concordância humano-LLM foi tratada apenas descritivamente. Permanecem riscos de enquadramento, interpretação, alucinação, falha de extração e dependência de versão, prompt e configuração; a confiança numérica do LLM não foi interpretada como probabilidade calibrada.
+O primeiro autor confrontou as sugestões do LLM com o texto integral, verificou os trechos e as páginas correspondentes e resolveu as divergências por meio da leitura da evidência original. A decisão final fundamentada foi tomada pelo primeiro autor, sob a supervisão dos coautores. Não houve dupla revisão humana independente; portanto, a concordância entre a avaliação humana e a sugestão do LLM foi tratada apenas descritivamente.
 
 Os instrumentos CASP/JBI adaptados foram usados como apoio para identificar limitações metodológicas e qualificar a interpretação, sem determinar elegibilidade ou a distinção entre evidência central e de apoio. As dimensões do CERQual orientaram a reflexão sobre coerência, adequação, relevância e limitações dos achados qualitativos; não foram atribuídos níveis formais de confiança a achados incompatíveis com essa abordagem.
 
 A classificação como evidência central exigiu simultaneamente três condições: tratamento direto de governança, supervisão, risco, accountability, auditoria, compliance ou operação controlada de LLMs ou sistemas conversacionais; relação explícita com ambiente regulado, de alto impacto ou mecanismo demonstravelmente transferível; e contribuição substantiva para pelo menos uma questão da revisão, por resultado empírico, síntese sistemática, mecanismo avaliado ou arquitetura conceitual. Estudos elegíveis com contribuição periférica, contextual ou apenas transferível foram classificados como evidência de apoio.
 
-As perguntas de pesquisa e a literatura inicial forneceram dimensões sensibilizadoras, sem constituírem um esquema final fechado. A análise combinou codificação aberta, agrupamento axial, comparação constante e refinamento iterativo. A consolidação desses padrões resultou nas cinco camadas, posteriormente aplicadas como vocabulário normalizado ao corpus. As frequências descrevem a incidência dos mecanismos no esquema consolidado e não constituem validação empírica do modelo.
+As perguntas de pesquisa e a literatura inicial forneceram dimensões sensibilizadoras, sem constituírem um esquema final fechado. A análise combinou codificação aberta, agrupamento axial, comparação constante e refinamento iterativo. A consolidação desses padrões resultou nas cinco camadas, posteriormente aplicadas como vocabulário normalizado ao corpus. As frequências foram calculadas a partir da aplicação desse esquema aos estudos incluídos, seguindo os critérios e procedimentos descritos nesta seção.
+
+As categorias analíticas seguem uma regra de codificação multirrótulo: um mesmo estudo pode ser associado simultaneamente a mais de uma família de mecanismos, setor, achado ou camada quando o texto apresentar evidência correspondente. As contagens representam ocorrências de codificação e não necessariamente estudos distintos; por isso, os totais entre categorias não devem ser somados para reconstruir o tamanho do corpus. Nas tabelas de coocorrência, cada célula indica o número de estudos codificados simultaneamente na categoria da linha e na categoria da coluna.
+
+O Gráfico 1 apresenta o fluxo de composição do corpus e permite visualizar as etapas de identificação, seleção e inclusão.
 
 Gráfico 1. Composição das decisões documentadas na seleção integral
-
-Nota. As categorias representam estudos incluídos, registros fora do escopo analítico e uma versão redundante vinculada à publicação final.
 
 Fonte. Elaboração própria com base na base consolidada da revisão.
 
@@ -94,21 +100,17 @@ O Gráfico 2 compara a incidência das oito famílias normalizadas de mecanismos
 
 Gráfico 2. Incidência das famílias de mecanismos e presença de evidência central
 
-Nota. As famílias são multirrótulos. Um estudo pode contribuir para mais de uma categoria. A distância entre os marcadores corresponde às evidências de apoio.
-
 Fonte. Elaboração própria com base no corpus analítico.
 
-Compliance e gestão de risco apresentaram a maior cobertura, com 339 estudos e 29 das 30 evidências centrais. Accountability e auditoria apareceram em 250 estudos, supervisão humana e escalonamento em 243, e aprendizagem operacional e monitoramento em 232. Contestabilidade e reparo tiveram incidência residual, com três estudos e nenhuma evidência central. O padrão desloca a lacuna principal da identificação de riscos para a capacidade de recurso, correção e reparação.
+Compliance e gestão de risco apresentaram a maior cobertura, com 339 estudos (94,7% do corpus) e 29 das 30 evidências centrais (96,7%). Accountability e auditoria apareceram em 250 estudos (69,8%), supervisão humana e escalonamento em 243 (67,9%), e aprendizagem operacional e monitoramento em 232 (64,8%). Contestabilidade e reparo tiveram incidência residual, com três estudos (0,8%) e nenhuma evidência central. O padrão desloca a lacuna principal da identificação de riscos para a capacidade de recurso, correção e reparação.
 
 A reorganização dos códigos pelas cinco camadas do modelo conceitual permite observar o grau de consolidação de cada dimensão. O Gráfico 3 compara evidências centrais e de apoio nas camadas técnica, interacional, organizacional, regulatória e evolutiva.
 
 Gráfico 3. Distribuição dos estudos pelas camadas do modelo conceitual
 
-Nota. As camadas são multirrótulo. Um mesmo estudo pode contribuir para diferentes dimensões do modelo.
-
 Fonte. Elaboração própria com base no corpus analítico.
 
-A camada regulatória foi identificada em 339 estudos e a organizacional em 324, seguidas pela técnica, com 284. As dimensões interacional e evolutiva reuniram 248 e 233 estudos. A diferença entre as camadas é menos polarizada que no corpus anterior, mas a raridade de mecanismos de contestação mostra que a presença de códigos interacionais não equivale, por si só, a poder efetivo de ação do usuário.
+A camada regulatória foi identificada em 339 estudos (94,7% do corpus) e a organizacional em 324 (90,5%), seguidas pela técnica, com 284 (79,3%). As dimensões interacional e evolutiva reuniram 248 (69,3%) e 233 estudos (65,1%), respectivamente. A diferença entre as camadas é menos polarizada que no corpus anterior, mas a raridade de mecanismos de contestação mostra que a presença de códigos interacionais não equivale, por si só, a poder efetivo de ação do usuário.
 
 ## 4.1. Mecanismos técnicos e operacionais
 
@@ -124,11 +126,11 @@ Logs, tracing e observabilidade ampliam a governança ao registrar o comportamen
 
 A avaliação contínua é outro mecanismo técnico-operacional. Ela inclui testes antes da implantação, red teaming, avaliação com datasets de referência, monitoramento pós-implantação e análise de regressão quando prompts, modelos, bases de conhecimento ou políticas são alterados. Em LLMs, a avaliação precisa contemplar factualidade, segurança, robustez, aderência ao domínio, consistência, privacidade, viés, toxicidade, capacidade de recusa, rastreabilidade de fontes e comportamento diante de incerteza. Essa lógica aproxima a governança técnica da gestão de risco, pois os testes deixam de ser apenas indicadores de qualidade e passam a funcionar como evidências de controle.
 
-Em síntese, os mecanismos técnicos e operacionais oferecem a camada de controle instrumental da governança conversacional. Eles tornam possível observar, restringir e corrigir o comportamento do sistema. Ainda assim, sua efetividade depende da conexão com mecanismos humanos, organizacionais e regulatórios.
+O conjunto das evidências indica que os mecanismos técnicos e operacionais oferecem a camada de controle instrumental da governança conversacional. Eles tornam possível observar, restringir e corrigir o comportamento do sistema. Sua efetividade depende da conexão com mecanismos humanos, organizacionais e regulatórios, examinados nas subseções seguintes.
 
 ## 4.2. Supervisão humana, escalonamento e contestabilidade
 
-Mecanismos de supervisão humana e escalonamento foram identificados em 243 estudos, incluindo 14 evidências centrais; contestabilidade e reparo apareceram em apenas três, sem evidência central. A diferença revela atenção ampla à intervenção humana, mas baixa operacionalização de mecanismos formais para questionar, revisar ou reparar respostas.
+Mecanismos de supervisão humana e escalonamento foram identificados em 243 estudos (67,9% do corpus), incluindo 14 evidências centrais (46,7% das evidências centrais); contestabilidade e reparo apareceram em apenas três estudos (0,8%), sem evidência central. A diferença revela atenção ampla à intervenção humana, mas baixa operacionalização de mecanismos formais para questionar, revisar ou reparar respostas.
 
 A literatura de interação humano-IA demonstra que a qualidade da automação depende da forma como o sistema comunica suas capacidades, limitações, incertezas e possibilidades de correção (Amershi et al., 2019). Em sistemas conversacionais, essa comunicação não ocorre apenas em painéis administrativos ou documentos técnicos. Ela ocorre também no próprio diálogo, quando o sistema reconhece limites, solicita confirmação, orienta o usuário, encaminha para atendimento humano ou explica por que não pode executar determinada ação.
 
@@ -164,8 +166,6 @@ A distribuição por domínio primário é apresentada no Gráfico 4. Como os do
 
 Gráfico 4. Composição setorial do corpus analítico
 
-Nota. O comprimento das barras representa o total de estudos; o segmento em destaque indica as evidências centrais de cada domínio.
-
 Fonte. Elaboração própria com base no corpus analítico.
 
 A concentração em saúde e medicina, responsável por 41,9% do corpus, contrasta com a cobertura reduzida dos demais domínios específicos. Essa distribuição limita a transferência direta dos achados e exige validação do modelo em ambientes com obrigações, riscos, usuários, consequências e práticas profissionais distintos.
@@ -177,8 +177,6 @@ Como os achados foram codificados de maneira multirrótulo, essas quantidades re
 Os cinco achados diferem tanto em cobertura temática quanto na quantidade de evidências centrais que os sustentam. O Gráfico 5 combina essas duas dimensões: o marcador final representa o total de estudos, e o marcador inicial indica o subconjunto de evidências centrais.
 
 Gráfico 5. Cobertura temática e densidade de evidência central por achado
-
-Nota. Os achados são multirrótulo. Os marcadores representam o total de estudos e o subconjunto de evidências centrais.
 
 Fonte. Elaboração própria com base no corpus analítico.
 
@@ -225,8 +223,6 @@ As capacidades identificadas não funcionam de forma isolada. RAG sem curadoria 
 Para examinar como os mecanismos se distribuem entre as cinco camadas, foi calculada a coocorrência dos códigos no nível do estudo. O Gráfico 6 apresenta a quantidade de estudos simultaneamente associados a cada família de mecanismos e a cada camada conceitual.
 
 Gráfico 6. Coocorrência entre famílias de mecanismos e camadas de governança
-
-Nota. Cada célula representa o número de estudos simultaneamente codificados na família da linha e na camada da coluna. As categorias são multirrótulo.
 
 Fonte. Elaboração própria com base nos códigos normalizados do corpus analítico.
 
@@ -282,9 +278,7 @@ Fonte. Elaboração própria com base no Modelo Conceitual Integrado.
 
 A tabela traduz as cinco camadas em critérios que podem orientar revisão de arquitetura, avaliação de risco, auditoria, desenho de interação e monitoramento pós-implantação. Sua aplicação não substitui requisitos regulatórios específicos, mas oferece uma estrutura comum para organizar evidências e responsabilidades.
 
-## Status epistemológico do modelo
-
-Este artigo apresenta uma primeira proposição conceitual derivada da síntese sistemática da literatura. As cinco camadas organizam padrões recorrentes identificados no corpus, mas sua presença nas publicações analisadas não constitui validação empírica do modelo. O modelo não pretende funcionar como escala de maturidade, norma ou certificação; sua validade externa e utilidade operacional ainda deverão ser examinadas em estudos de caso, avaliações com especialistas e aplicações em sistemas reais de ambientes regulados.
+Quanto ao estatuto epistemológico do modelo, este artigo apresenta uma primeira proposição conceitual derivada da síntese sistemática da literatura. As cinco camadas organizam padrões recorrentes identificados no corpus. O modelo não é uma escala de maturidade, norma, certificação ou requisito regulatório, nem substitui normas setoriais; sua validade externa e utilidade operacional dependem de estudos de caso, avaliações com especialistas e aplicações em sistemas reais de ambientes regulados.
 
 ## 5. Discussão
 
