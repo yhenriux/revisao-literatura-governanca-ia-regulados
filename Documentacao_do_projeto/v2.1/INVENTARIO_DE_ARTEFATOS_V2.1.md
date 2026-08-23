@@ -48,3 +48,12 @@ O DOCX limpo, a redline, o PDF e a tag `article-v2.1` ainda não existem. Sua cr
 | `../../tools/retrieve_open_fulltexts_v21.py` | resolução reproduzível de cópias abertas | 11.356 | `4cf83b5571034ea1494b9b0d6c8ae9dacb5e749a96fea534fa3f77d955805277` |
 
 Os 223 PDFs totalizam 292.924.414 bytes e possuem hashes individuais no manifesto. Todos foram abertos estruturalmente: 4.439 páginas, zero PDFs inválidos e zero duplicatas binárias.
+
+## Triagem integral — primeira rodada dos candidatos centrais
+
+| Artefato | Função | Bytes | SHA-256 |
+|---|---|---:|---|
+| `triagem_texto_completo/FILA_DE_TRIAGEM_INTEGRAL_CENTRAIS_V2.1.jsonl` | texto extraído por página e campos estruturados dos 17 PDFs centrais | 220.495 | `92d9180ddf43a0ae372e2a0838beefa06dc5f230d66a8acd2398411d115724ef` |
+| `triagem_texto_completo/RELATORIO_DA_EXTRAÇÃO_INTEGRAL_CENTRAIS_V2.1.md` | controle de extração: 17 PDFs, 400 páginas | 1.191 | `00ee3ee47ce128fc8bdb26611627c396270479eb9d3762fa9a53ab8417023ab3` |
+| `triagem_texto_completo/DECISOES_ASSISTIDAS_CENTRAIS_V2.1.md` | classificação assistida e justificativas por estudo | 5.253 | `5893def820d66f7ed9c22b9b45ae97a1d364875df1ea2812447b712a9e19613a` |
+| `../../tools/extract_fulltext_triage_v21.py` | reprodução da extração por página | 4.049 | `2f29b834f831a3307f99f0a3a77a147b12ea0a3d56f24ca98aa07d86e24c1e49` |
