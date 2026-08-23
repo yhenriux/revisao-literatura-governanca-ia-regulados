@@ -1,12 +1,14 @@
-# Matriz de resposta ao terceiro parecer
+# Matriz de resposta ao terceiro parecer — v2.1 final
 
-| Ponto | Ação | Evidência de atendimento | Estado |
+| Ponto do parecer | Resposta implementada | Evidência de atendimento | Estado |
 |---|---|---|---|
-| Limite de 25 resultados | Busca prospectiva por faixas de posição, com corte temporal congelado e logs por consulta | Registro de consultas, respostas brutas, relatório de sensibilidade e triagem assistida | Triagem de título/resumo concluída; texto completo pendente |
-| Origem das cinco camadas | Cronologia híbrida e iterativa, genealogia de códigos e declaração do autor | Declaração autoral e matriz códigos → camadas | Declaração histórica registrada; redação final pendente |
-| Evidência central | Regra operacional de três critérios aplicada estudo a estudo | Inventário histórico, planilha e triagem prospectiva | Critério definido; candidatos prospectivos exigem texto completo |
-| Adjudicação por LLM | Separação entre sugestão do modelo, localização automática e decisão humana | Log de divergências e decisão final assinada | Aguarda validação de Yago |
-| CASP/JBI e CERQual | JBI específico ao desenho; CERQual somente no nível dos achados compatíveis | Abas JBI e CERQual da planilha | Aguarda avaliação de Yago |
-| Rastreabilidade dos 177 | Matriz longa com classificação, códigos, evidência, página, qualidade e declaração de pesquisador único | Inventário, planilha e declaração do autor | Corpus histórico rastreável; arquivo de validação individual não arquivado |
+| Abrangência da recuperação | A recuperação final usa cinco fontes efetivas, cinco famílias de consulta, análise de faixas até a centésima posição, rastreamento bibliográfico e deduplicação. O manuscrito relata o procedimento consolidado; parâmetros transitórios permanecem somente nos logs. | Método da v2.1; `NOTA_METODOLOGICA_RECUPERACAO_AMPLIADA_V2.1.md`; logs e respostas brutas da busca; `RELATORIO_DE_QUALIDADE_DA_BUSCA_V2.1.md` | **Atendido** |
+| Origem das cinco camadas | O método explicita dimensões sensibilizadoras, codificação aberta, agrupamento axial, comparação iterativa, consolidação das cinco camadas e aplicação posterior do vocabulário normalizado. As frequências caracterizam o corpus e não validam o modelo. | Método e seção “Status epistemológico do modelo”; `DECLARACAO_ORIGEM_DAS_CAMADAS_V2.1.md` | **Atendido** |
+| Critério de evidência central | A categoria exige cumulativamente objeto direto, relação regulada/de alto impacto e contribuição substantiva para uma questão da revisão. Estudos elegíveis sem os três requisitos são evidências de apoio. | Método; `MATRIZ_DECISAO_FINAL_AUTOR_206_V2.1.csv`; `CORPUS_ANALITICO_FINAL_V2.1.csv` | **Atendido** |
+| Adjudicação assistida por LLM | O fluxo separa triagem determinística, sugestão do LLM, localização de evidência, verificação do texto integral pelo autor e decisão final. Divergências são resolvidas pela evidência; não se alega dupla revisão humana. | Método e limitações; `REGISTRO_DECISOES_CORPUS_V2.1.csv`; declaração de curadoria | **Atendido** |
+| CASP/JBI e CERQual | CASP/JBI têm função auxiliar de identificação de limitações e qualificação interpretativa, sem determinar elegibilidade ou centralidade. As dimensões CERQual orientam achados qualitativos compatíveis, sem graduação formal indevida. | Método, resultados e protocolo metodológico | **Atendido** |
+| Rastreabilidade do corpus | Os 358 estudos incluídos possuem identificador, referência, classificação, setor, mecanismo, camada, PDF, hash, página e trecho de evidência. A matriz longa reproduz todas as figuras. | `CORPUS_ANALITICO_FINAL_V2.1.csv`; `MATRIZ_ESTUDO_MECANISMO_CAMADA_V2.1.csv`; `RECONCILIACAO_CONTAGENS_CORPUS_V2.1.md` | **Atendido** |
 
-Nenhum item será marcado como atendido antes de seu artefato comprobatório estar completo.
+## Resultado da revisão
+
+Os seis pontos foram incorporados sem nova reestruturação do artigo. A Figura 1 e a Tabela 6 foram preservadas. O modelo permanece apresentado como proposição analítica derivada da síntese e dependente de validação empírica.

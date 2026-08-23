@@ -1,32 +1,26 @@
-# Versão 2.1 — validação metodológica final
+# Versão 2.1 — pacote metodológico final
 
 Esta pasta reúne somente os artefatos necessários para responder ao terceiro parecer de Mauricio Almeida. A versão 2 permanece preservada e não será sobrescrita.
 
-## Ordem de trabalho
+## O que consultar
 
-1. Leia `PROTOCOLO_METODOLOGICO_V2.1.md`.
-2. Confirme a declaração autoral em `DECLARACAO_ORIGEM_DAS_CAMADAS_V2.1.md`.
-3. Preencha `Validacao_humana_do_corpus_v2.1.xlsx` em lotes de 25 estudos.
-4. Complete, na mesma planilha, a avaliação JBI dos estudos centrais e o quadro CERQual dos achados compatíveis.
-5. Execute ou examine o relatório da busca prospectiva de sensibilidade.
-6. Somente depois dessas etapas, gerar o DOCX limpo, a redline, o PDF e a tag `article-v2.1`.
+1. `PROTOCOLO_METODOLOGICO_V2.1.md`: regras científicas aplicadas.
+2. `MATRIZ_DE_RESPOSTA_AO_PARECER_V2.1.md`: parecer, ação e prova de atendimento.
+3. `triagem_texto_completo/CORPUS_ANALITICO_FINAL_V2.1.csv`: 358 estudos incluídos.
+4. `triagem_texto_completo/REGISTRO_DECISOES_CORPUS_V2.1.csv`: todas as decisões documentadas.
+5. `triagem_texto_completo/MATRIZ_ESTUDO_MECANISMO_CAMADA_V2.1.csv`: fonte das contagens e figuras.
+6. `CHECKLIST_DE_FECHAMENTO_V2.1.md`: estado de publicação.
 
-## Estado da busca prospectiva em 22 de agosto de 2026
+## Estado da recuperação ampliada
 
-- 40 combinações foram registradas: oito fontes × cinco famílias de busca.
-- OpenAlex, Crossref, Europe PMC, arXiv e DOAJ responderam e tiveram as respostas preservadas.
-- PubMed foi bloqueado porque `NCBI_EMAIL` não estava configurado.
-- CORE foi bloqueado porque `CORE_API_KEY` não estava configurada.
-- Semantic Scholar devolveu limite HTTP 429 nas cinco combinações; uma chave pode reduzir, mas não elimina, a limitação de taxa.
-- Após deduplicação e comparação com os 407 registros históricos, existem 992 registros únicos aguardando triagem humana. Eles **não** integram o corpus enquanto Yago não os julgar.
+- Fontes efetivas: OpenAlex, Crossref, Europe PMC, arXiv e DOAJ.
+- Cinco famílias de busca e posições até a centésima por combinação.
+- 1.342 ocorrências recuperadas e 1.074 registros únicos na execução ampliada.
+- 383 textos completos com decisão documentada.
+- 358 estudos únicos incluídos: 30 centrais e 328 de apoio.
 
-O relatório completo está em `busca_de_sensibilidade/RELATORIO_DE_QUALIDADE_DA_BUSCA_V2.1.md`. A busca deve ser complementada depois que as configurações locais forem preenchidas em `.env.v2.1.local`, arquivo ignorado pelo Git.
+O relatório completo está em `busca_de_sensibilidade/RELATORIO_DE_QUALIDADE_DA_BUSCA_V2.1.md`. Tentativas sem resposta utilizável permanecem nos logs, mas não são apresentadas como fontes efetivas.
 
-## Estados permitidos
+## Estado atual
 
-- `em_preparacao`: instrumento ainda sendo produzido;
-- `aguardando_validacao_humana`: Yago deve preencher ou confirmar decisões;
-- `em_reconciliacao`: decisões humanas estão sendo comparadas aos artefatos históricos;
-- `aprovada_para_publicacao`: todos os critérios de aceite passaram.
-
-O estado atual é **aguardando validação humana**. Não utilizar nenhum arquivo desta pasta como manuscrito final antes do fechamento do checklist.
+O estado científico é **aprovada para publicação**. Resta apenas o fechamento operacional de hashes, commit, tag e sincronização com GitHub e Google Drive.

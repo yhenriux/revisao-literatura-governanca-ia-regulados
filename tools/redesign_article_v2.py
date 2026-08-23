@@ -22,8 +22,9 @@ from docx.shared import Cm, Inches, Pt, RGBColor, Twips
 
 
 ROOT = Path(os.environ.get("REV_LIT_ROOT") or Path(__file__).resolve().parents[1])
-PNG_DIR = ROOT / "Recursos_do_artigo" / "v2" / "imagens"
-SVG_DIR = ROOT / "Recursos_do_artigo" / "v2" / "fontes_vetoriais"
+VISUAL_VERSION = os.environ.get("ARTICLE_VISUAL_VERSION", "v2")
+PNG_DIR = ROOT / "Recursos_do_artigo" / VISUAL_VERSION / "imagens"
+SVG_DIR = ROOT / "Recursos_do_artigo" / VISUAL_VERSION / "fontes_vetoriais"
 
 
 FIGURES = [
@@ -37,10 +38,10 @@ FIGURES = [
 ]
 
 ALT_TEXTS = [
-    "Barra segmentada com 407 registros: 177 estudos no corpus analítico, 112 referências contextuais e 118 estudos excluídos.",
+    "Barras horizontais com 358 estudos incluídos, 24 registros fora do escopo analítico e uma versão redundante.",
     "Comparação entre incidência total e evidências centrais em oito famílias de mecanismos; compliance e gestão de risco têm a maior cobertura.",
-    "Barras empilhadas com evidências centrais e de apoio nas cinco camadas; as camadas técnica e organizacional concentram mais estudos.",
-    "Distribuição setorial do corpus analítico; saúde e medicina concentram 78 estudos e 12 evidências centrais.",
+    "Barras empilhadas com evidências centrais e de apoio nas cinco camadas; as camadas regulatória e organizacional concentram mais estudos.",
+    "Distribuição setorial do corpus analítico; saúde e medicina concentram 150 estudos e 19 evidências centrais.",
     "Comparação entre cobertura total e evidências centrais dos cinco achados da revisão.",
     "Mapa de calor da coocorrência entre oito famílias de mecanismos e cinco camadas de governança.",
     "Diagrama de governança integrada e retroalimentada com cinco camadas interdependentes ao redor de um sistema conversacional baseado em LLM.",
@@ -368,10 +369,11 @@ def redesign(docx_path: Path) -> None:
     if after_text != expected_text:
         raise RuntimeError("O texto contém alterações além das quatro descrições visuais autorizadas.")
     temp_path = docx_path.with_name(f"{docx_path.stem}.visual_tmp.docx")
-    marker = "Redesign visual v2: figuras em alta resolução e tabelas com geometria explícita; conteúdo científico preservado."
+    marker = f"Redesign visual {VISUAL_VERSION}: figuras em alta resolução e tabelas com geometria explícita; conteúdo científico preservado."
     comments = doc.core_properties.comments or ""
     if marker not in comments:
-        doc.core_properties.comments = f"{comments} {marker}".strip()
+        combined = f"{comments} {marker}".strip()
+        doc.core_properties.comments = combined if len(combined) <= 255 else marker
     doc.save(temp_path)
     os.replace(temp_path, docx_path)
     print(f"text_sha256_before={before_hash}")

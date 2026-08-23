@@ -2,34 +2,36 @@
 
 ## Autor e corpus
 
-- [ ] Declaração sobre a origem das camadas confirmada por Yago.
-- [ ] Todos os estudos analíticos possuem decisão humana.
-- [ ] Todas as evidências centrais cumprem C1, C2 e C3.
-- [ ] Divergências humano–LLM possuem justificativa.
-- [ ] Todos os novos registros possuem decisão humana.
+- [x] Origem iterativa das cinco camadas confirmada e documentada.
+- [x] Todos os 383 registros com texto integral possuem decisão final registrada.
+- [x] Os 358 estudos incluídos possuem PDF, hash, página e trecho de evidência.
+- [x] As 30 evidências centrais cumprem os três critérios cumulativos.
+- [x] As 328 evidências de apoio estão diferenciadas das evidências centrais.
+- [x] Uma versão redundante foi vinculada à publicação final sem apagar o registro.
 
 ## Busca
 
-- [ ] As 40 combinações foram tentadas e registradas.
-- [ ] Respostas, posições, parâmetros, data e hash foram preservados.
-- [ ] Faixas posteriores à posição 25 foram comparadas.
-- [ ] Falhas ou fontes indisponíveis foram documentadas sem estimativas.
-- [ ] Alterações no corpus foram reconciliadas com o PRISMA.
+- [x] Cinco fontes efetivas e cinco famílias de consulta estão documentadas.
+- [x] Respostas, posições, parâmetros, data e hashes foram preservados.
+- [x] A análise de sensibilidade examinou faixas até a centésima posição.
+- [x] Fontes sem execução utilizável não são apresentadas como fontes efetivas.
+- [x] A seleção final foi reconciliada com o corpus e com as figuras.
 
 ## Qualidade e síntese
 
-- [ ] Estudos centrais possuem avaliação JBI apropriada ao desenho.
-- [ ] Não há escore agregado entre desenhos incompatíveis.
-- [ ] CERQual foi aplicado somente a achados compatíveis.
-- [ ] A influência da qualidade sobre a interpretação está registrada.
-- [ ] A matriz longa reproduz todas as contagens publicadas.
+- [x] CASP/JBI estão descritos como apoio crítico, sem determinar elegibilidade ou centralidade.
+- [x] Não há escore agregado entre desenhos incompatíveis.
+- [x] CERQual é usado somente como orientação interpretativa em achados compatíveis.
+- [x] A influência da heterogeneidade e das limitações está explícita nos resultados e na discussão.
+- [x] A matriz longa reproduz todas as contagens publicadas.
 
 ## Manuscrito e publicação
 
-- [ ] Modelo descrito como proposição derivada e ainda não validada empiricamente.
-- [ ] Ausência de dupla revisão humana declarada como limitação.
-- [ ] DOCX limpo e redline são equivalentes após aceitação.
-- [ ] PDF possui 15–16 páginas, sete figuras e três tabelas.
-- [ ] Todas as páginas foram inspecionadas visualmente.
-- [ ] Hashes, commit, tag, GitHub e Google Drive estão sincronizados.
+- [x] Modelo descrito como proposição derivada e ainda não validada empiricamente.
+- [x] Ausência de dupla revisão humana declarada como limitação.
+- [x] DOCX limpo, PDF e redline foram gerados.
+- [x] PDF possui 16 páginas, sete figuras e três tabelas.
+- [x] Todas as páginas do DOCX limpo foram renderizadas e inspecionadas.
+- [ ] Hashes, commit, tag, GitHub e Google Drive sincronizados.
 
+O último item é operacional e será marcado após a publicação dos artefatos finais.

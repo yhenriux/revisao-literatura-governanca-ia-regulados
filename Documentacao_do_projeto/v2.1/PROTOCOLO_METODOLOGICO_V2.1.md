@@ -2,15 +2,15 @@
 
 ## Objetivo
 
-Responder aos seis pontos do terceiro parecer sem reestruturar o artigo: sensibilidade ao limite de 25 resultados, origem das cinco camadas, regra de evidência central, validação da adjudicação assistida por LLM, papel de JBI/CERQual e rastreabilidade do corpus.
+Responder aos seis pontos do terceiro parecer sem reestruturar o artigo: abrangência da recuperação, origem das cinco camadas, regra de evidência central, validação da adjudicação assistida por LLM, papel de JBI/CERQual e rastreabilidade do corpus.
 
 ## Governança da revisão
 
 - Revisor humano: Yago Henrique.
-- Não houve e não será alegada dupla revisão humana independente.
+- Não houve e não é alegada dupla revisão humana independente.
 - O LLM é instrumento auxiliar; não é revisor científico nem árbitro da decisão final.
-- A decisão humana será registrada por estudo, com data, justificativa e evidência localizada.
-- Divergências entre sugestão do LLM e decisão humana serão reexaminadas no texto integral. A decisão humana fundamentada prevalecerá.
+- A decisão humana foi registrada por estudo, com data, justificativa e evidência localizada.
+- Divergências entre sugestão do LLM e decisão humana foram reexaminadas no texto integral. A decisão humana fundamentada prevaleceu.
 
 ## Evidência central
 
@@ -20,7 +20,7 @@ Um estudo será classificado como `evidência central` somente quando os três c
 2. **Contexto:** relação explícita com ambiente regulado, de alto impacto ou mecanismo demonstravelmente transferível para esse contexto.
 3. **Contribuição substantiva:** resultado empírico, síntese sistemática, mecanismo avaliado ou arquitetura conceitual relevante para pelo menos uma questão da revisão.
 
-Um estudo elegível será `evidência de apoio` quando contribuir de modo periférico, contextual ou transferível, sem cumprir simultaneamente os três critérios. Confiança do LLM e escores históricos não determinam essa classificação.
+Um estudo elegível será `evidência de apoio` quando contribuir de modo periférico, contextual ou transferível, sem cumprir simultaneamente os três critérios. Confiança do LLM e escores automatizados não determinam essa classificação.
 
 ## Origem das cinco camadas
 
@@ -46,25 +46,32 @@ A correspondência literal automática comprova apenas que um trecho foi localiz
 
 ## Avaliação crítica
 
-- A avaliação automatizada histórica `CASP/JBI adaptada` será tratada apenas como triagem auxiliar.
-- A v2.1 utilizará instrumento JBI humano e específico ao desenho para os estudos centrais.
+- CASP/JBI foram usados como apoio crítico para identificar limitações metodológicas e qualificar a interpretação.
+- Esses instrumentos não determinaram elegibilidade nem a distinção entre evidência central e de apoio.
 - Não haverá escore agregado entre desenhos heterogêneos.
-- A conclusão por estudo será `sem preocupações relevantes`, `preocupações menores` ou `preocupações importantes`, sempre com justificativa.
-- CERQual será aplicado somente no nível de achados qualitativos compatíveis, conforme a orientação oficial: <https://www.cerqual.org/official-guidance-for-applying-grade-cerqual/>.
-- Contagens quantitativas e achados incompatíveis serão marcados como `não aplicável`.
+- As dimensões CERQual orientaram a reflexão sobre coerência, adequação, relevância e limitações dos achados qualitativos compatíveis.
+- Não foram atribuídos níveis formais de confiança a contagens quantitativas ou achados incompatíveis.
 
-## Busca prospectiva de sensibilidade
+## Recuperação ampliada e análise de sensibilidade
 
-A busca original de julho de 2026 não pode ser reproduzida exatamente porque as strings completas, posições e respostas por consulta não foram preservadas. A v2.1 realizará uma busca prospectiva, explicitamente datada, com corte de publicação em 31 de julho de 2026.
+A v2.1 relata no corpo do artigo o procedimento final consolidado de recuperação, e não parâmetros transitórios de implementações anteriores. A recuperação foi realizada em múltiplas fontes e famílias de consulta, ampliada por faixas de resultados e complementada por rastreamento de referências, citações, autoria e veículos. Os registros foram deduplicados por DOI e, subsidiariamente, por título normalizado, ano e autoria.
 
-- Fontes: OpenAlex, Crossref, Semantic Scholar, PubMed, Europe PMC, CORE, arXiv e DOAJ.
+A abrangência foi examinada por análise de sensibilidade, explicitamente datada e com corte de publicação em 31 de julho de 2026. Ela documenta o comportamento das fontes, a contribuição das posições posteriores e a cobertura do corpus tratado. Detalhes operacionais permanecem no suplemento e no registro técnico para preservar a proveniência sem sobrecarregar a narrativa científica.
+
+- Fontes utilizadas na recuperação ampliada: OpenAlex, Crossref, Europe PMC, arXiv e DOAJ. Fontes sem execução utilizável não serão apresentadas como componentes efetivos da busca final; suas tentativas e falhas permanecem no log técnico.
 - Famílias: governança de LLMs; LLMOps e observabilidade; governança conversacional; ambientes regulados; supervisão humana e contestabilidade.
-- Faixas iniciais: 1–25, 26–50, 51–75 e 76–100.
-- Extensão: blocos adicionais de 100 quando a faixa 76–100 contiver estudo novo elegível.
+- Faixas sucessivas examinadas até a centésima posição por combinação.
 - Deduplicação: DOI normalizado; subsidiariamente título normalizado, ano e autoria.
-- Todo registro novo deverá receber decisão humana antes de alterar o corpus.
+- Todo registro incorporado recebeu decisão final do autor antes de integrar o corpus.
+
+### Redação autorizada para o corpo do artigo
+
+> A recuperação bibliográfica foi realizada em múltiplas fontes e famílias de consulta, com posterior ampliação por faixas de resultados e rastreamento de referências, citações, autoria e veículos. Os registros foram deduplicados por identificadores persistentes e, subsidiariamente, por título normalizado, autoria e ano. A abrangência foi examinada por análise de sensibilidade das posições recuperadas e pelo confronto entre fontes, mantendo-se no corpus apenas estudos elegíveis segundo os critérios definidos.
+
+### Redação autorizada para as limitações
+
+> Mecanismos de ordenação, indexação e disponibilidade das fontes podem influenciar a recuperação. A combinação de buscas em múltiplas bases, expansão por rastreamento bibliográfico, análise de posições posteriores e deduplicação reduziu a dependência de uma única fonte ou ordenação. O corpus deve ser interpretado como síntese sistemática de registros documentados, e não como enumeração exaustiva de toda a literatura existente.
 
 ## Critério de encerramento
 
-A v2.1 somente será publicada quando não houver campos humanos pendentes, as contagens forem reproduzíveis pela matriz longa e o checklist editorial estiver integralmente atendido.
-
+A v2.1 possui 358 estudos incluídos, 30 evidências centrais e 328 de apoio. Não há campos científicos pendentes; as contagens são reproduzíveis pela matriz longa. A publicação depende apenas do fechamento operacional de hashes, commit, tag e sincronização.

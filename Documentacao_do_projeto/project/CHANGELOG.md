@@ -144,3 +144,28 @@
 - Acrescentada auditoria empírica da adjudicação assistida por LLM, sem equipará-la a dupla revisão humana independente.
 - Reduzidas repetições residuais nos resultados e fortalecidas as limitações metodológicas no método e na discussão.
 - Preservadas 15 páginas, sete figuras, três tabelas e 29 referências.
+
+## v2.1 — fechamento metodológico e corpus analítico único (2026-08-23)
+
+### Consolidado
+
+- Fechado o corpus analítico único com 358 estudos: 30 evidências centrais e 328 evidências de apoio.
+- Registradas 383 decisões integrais: 358 inclusões, 24 exclusões por escopo e uma versão redundante vinculada à publicação final.
+- Criada matriz longa estudo–mecanismo–camada–achado para reproduzir todas as contagens do manuscrito e dos gráficos.
+- Atualizado o catálogo bibliográfico público para representar somente o corpus analítico final.
+
+### Fortalecido metodologicamente
+
+- Documentada a recuperação ampliada em cinco fontes efetivas, com posições até o centésimo resultado, deduplicação e trilha de execução.
+- Explicitada a origem iterativa das cinco camadas e afastada a interpretação circular das frequências.
+- Formalizados três critérios cumulativos para evidência central e a distinção em relação à evidência de apoio.
+- Descrito o fluxo de adjudicação assistida por LLM com decisão científica final do autor e ausência de dupla revisão independente.
+- Delimitado o papel auxiliar de CASP/JBI e o uso interpretativo de CERQual.
+- Mantido o modelo como proposição derivada da síntese, ainda dependente de validação empírica.
+
+### Entregue e verificado
+
+- Gerados DOCX limpo, PDF de leitura e redline completa entre v2 e v2.1.
+- Preservadas sete figuras, três tabelas e a Figura 1 aprovada.
+- PDF final mantido em 16 páginas; todas as páginas da versão limpa e da redline foram renderizadas e inspecionadas.
+- Auditoria final concluída sem falhas de corpus, contagens, rastreabilidade, acessibilidade ou equivalência documental.

@@ -1,6 +1,6 @@
 # Catálogo bibliográfico digital do corpus
 
-Este diretório contém uma interface estática, inspirada em documentação Swagger, para navegar pelos metadados dos estudos históricos e prospectivos da revisão.
+Este diretório contém uma interface estática, inspirada em documentação Swagger, para navegar pelos metadados dos 358 estudos do corpus analítico final da revisão.
 
 ## O que este objeto é
 
@@ -12,13 +12,9 @@ O termo **Objeto Digital de Aprendizagem (ODA)** só deve ser usado se o catálo
 
 ## Fonte de verdade
 
-`catalogo.json` é gerado por `tools/build_catalogo_virtual_v21.py` a partir dos inventários versionados. Não editar o JSON manualmente. Corrija o inventário de origem e regenere o catálogo.
+`catalogo.json` é gerado por `tools/build_catalogo_virtual_v21.py` a partir de `CORPUS_ANALITICO_FINAL_V2.1.csv`. Não edite o JSON manualmente. Corrija a fonte e regenere o catálogo.
 
-Fontes atuais:
-
-- corpus histórico de 177 estudos;
-- triagem prospectiva de 992 registros;
-- matriz integral assistida dos 206 PDFs prospectivos disponíveis.
+O catálogo apresenta apenas o corpus incluído: 30 evidências centrais e 328 evidências de apoio. Registros excluídos e logs de recuperação permanecem na documentação metodológica, não na navegação principal.
 
 ## Uso local
 
@@ -40,4 +36,4 @@ O endereço esperado é:
 
 ## Relação com o artigo
 
-O catálogo será citado como suplemento de rastreabilidade. As contagens, conclusões e decisões científicas continuam subordinadas ao manuscrito e aos registros metodológicos versionados; uma ficha catalográfica não transforma automaticamente um candidato em estudo incluído.
+O catálogo será citado como suplemento de rastreabilidade. As contagens, conclusões e decisões científicas continuam subordinadas ao manuscrito, ao registro de decisões e à matriz longa versionada.

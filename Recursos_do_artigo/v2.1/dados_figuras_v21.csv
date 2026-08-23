@@ -1,0 +1,96 @@
+﻿figura,ordem,categoria,serie,valor,proveniencia
+grafico_1,1,Estudos incluídos,Estudos,358,Registro de decisões do corpus analítico único tratado — v2.1
+grafico_1,2,Fora do escopo analítico,Estudos,24,Registro de decisões do corpus analítico único tratado — v2.1
+grafico_1,3,Versão redundante,Estudos,1,Registro de decisões do corpus analítico único tratado — v2.1
+grafico_2,1,Compliance e gestão de risco,Total,339,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,1,Compliance e gestão de risco,Evidência central,29,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,2,Controles técnicos e avaliação,Total,140,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,2,Controles técnicos e avaliação,Evidência central,11,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,3,Accountability e auditoria,Total,250,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,3,Accountability e auditoria,Evidência central,19,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,4,"Explicabilidade, confiança e limites",Total,136,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,4,"Explicabilidade, confiança e limites",Evidência central,9,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,5,Aprendizagem operacional e monitoramento,Total,232,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,5,Aprendizagem operacional e monitoramento,Evidência central,20,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,6,Supervisão humana e escalonamento,Total,243,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,6,Supervisão humana e escalonamento,Evidência central,14,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,7,Governança do conhecimento,Total,44,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,7,Governança do conhecimento,Evidência central,5,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,8,Contestabilidade e reparo,Total,3,Matriz estudo–mecanismo–camada — v2.1
+grafico_2,8,Contestabilidade e reparo,Evidência central,0,Matriz estudo–mecanismo–camada — v2.1
+grafico_3,1,Técnica,Evidência central,23,Matriz estudo–mecanismo–camada — v2.1
+grafico_3,1,Técnica,Evidência de apoio,261,Matriz estudo–mecanismo–camada — v2.1
+grafico_3,2,Interacional,Evidência central,19,Matriz estudo–mecanismo–camada — v2.1
+grafico_3,2,Interacional,Evidência de apoio,229,Matriz estudo–mecanismo–camada — v2.1
+grafico_3,3,Organizacional,Evidência central,30,Matriz estudo–mecanismo–camada — v2.1
+grafico_3,3,Organizacional,Evidência de apoio,294,Matriz estudo–mecanismo–camada — v2.1
+grafico_3,4,Regulatória,Evidência central,29,Matriz estudo–mecanismo–camada — v2.1
+grafico_3,4,Regulatória,Evidência de apoio,310,Matriz estudo–mecanismo–camada — v2.1
+grafico_3,5,Evolutiva,Evidência central,20,Matriz estudo–mecanismo–camada — v2.1
+grafico_3,5,Evolutiva,Evidência de apoio,213,Matriz estudo–mecanismo–camada — v2.1
+grafico_4,1,Saúde e medicina,Total,150,Classificação setorial primária reproduzível — v2.1
+grafico_4,1,Saúde e medicina,Evidência central,19,Classificação setorial primária reproduzível — v2.1
+grafico_4,2,Multissetorial,Total,112,Classificação setorial primária reproduzível — v2.1
+grafico_4,2,Multissetorial,Evidência central,4,Classificação setorial primária reproduzível — v2.1
+grafico_4,3,Tecnologia e operações empresariais,Total,47,Classificação setorial primária reproduzível — v2.1
+grafico_4,3,Tecnologia e operações empresariais,Evidência central,6,Classificação setorial primária reproduzível — v2.1
+grafico_4,4,Educação,Total,17,Classificação setorial primária reproduzível — v2.1
+grafico_4,4,Educação,Evidência central,0,Classificação setorial primária reproduzível — v2.1
+grafico_4,5,Finanças e seguros,Total,14,Classificação setorial primária reproduzível — v2.1
+grafico_4,5,Finanças e seguros,Evidência central,1,Classificação setorial primária reproduzível — v2.1
+grafico_4,6,Infraestrutura crítica e cibersegurança,Total,10,Classificação setorial primária reproduzível — v2.1
+grafico_4,6,Infraestrutura crítica e cibersegurança,Evidência central,0,Classificação setorial primária reproduzível — v2.1
+grafico_4,7,Jurídico e judiciário,Total,4,Classificação setorial primária reproduzível — v2.1
+grafico_4,7,Jurídico e judiciário,Evidência central,0,Classificação setorial primária reproduzível — v2.1
+grafico_4,8,Governo e setor público,Total,4,Classificação setorial primária reproduzível — v2.1
+grafico_4,8,Governo e setor público,Evidência central,0,Classificação setorial primária reproduzível — v2.1
+grafico_5,1,"Avaliação, riscos e qualidade",Total,350,Síntese de achados derivada das famílias de mecanismos — v2.1
+grafico_5,1,"Avaliação, riscos e qualidade",Evidência central,30,Síntese de achados derivada das famílias de mecanismos — v2.1
+grafico_5,2,Supervisão humana e accountability,Total,288,Síntese de achados derivada das famílias de mecanismos — v2.1
+grafico_5,2,Supervisão humana e accountability,Evidência central,24,Síntese de achados derivada das famílias de mecanismos — v2.1
+grafico_5,3,"Observabilidade, auditoria e monitoramento",Total,276,Síntese de achados derivada das famílias de mecanismos — v2.1
+grafico_5,3,"Observabilidade, auditoria e monitoramento",Evidência central,23,Síntese de achados derivada das famílias de mecanismos — v2.1
+grafico_5,4,"Conhecimento, RAG e guardrails",Total,160,Síntese de achados derivada das famílias de mecanismos — v2.1
+grafico_5,4,"Conhecimento, RAG e guardrails",Evidência central,14,Síntese de achados derivada das famílias de mecanismos — v2.1
+grafico_5,5,"Confiança, explicabilidade e orientação",Total,278,Síntese de achados derivada das famílias de mecanismos — v2.1
+grafico_5,5,"Confiança, explicabilidade e orientação",Evidência central,17,Síntese de achados derivada das famílias de mecanismos — v2.1
+grafico_6,1,Compliance e gestão de risco,Técnica,271,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,1,Compliance e gestão de risco,Interacional,236,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,1,Compliance e gestão de risco,Organizacional,315,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,1,Compliance e gestão de risco,Regulatória,339,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,1,Compliance e gestão de risco,Evolutiva,230,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,2,Controles técnicos e avaliação,Técnica,140,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,2,Controles técnicos e avaliação,Interacional,83,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,2,Controles técnicos e avaliação,Organizacional,125,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,2,Controles técnicos e avaliação,Regulatória,129,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,2,Controles técnicos e avaliação,Evolutiva,89,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,3,Accountability e auditoria,Técnica,222,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,3,Accountability e auditoria,Interacional,202,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,3,Accountability e auditoria,Organizacional,250,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,3,Accountability e auditoria,Regulatória,249,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,3,Accountability e auditoria,Evolutiva,206,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,4,"Explicabilidade, confiança e limites",Técnica,109,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,4,"Explicabilidade, confiança e limites",Interacional,136,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,4,"Explicabilidade, confiança e limites",Organizacional,123,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,4,"Explicabilidade, confiança e limites",Regulatória,126,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,4,"Explicabilidade, confiança e limites",Evolutiva,98,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,5,Aprendizagem operacional e monitoramento,Técnica,214,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,5,Aprendizagem operacional e monitoramento,Interacional,192,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,5,Aprendizagem operacional e monitoramento,Organizacional,226,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,5,Aprendizagem operacional e monitoramento,Regulatória,229,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,5,Aprendizagem operacional e monitoramento,Evolutiva,232,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,6,Supervisão humana e escalonamento,Técnica,216,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,6,Supervisão humana e escalonamento,Interacional,201,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,6,Supervisão humana e escalonamento,Organizacional,243,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,6,Supervisão humana e escalonamento,Regulatória,235,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,6,Supervisão humana e escalonamento,Evolutiva,191,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,7,Governança do conhecimento,Técnica,44,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,7,Governança do conhecimento,Interacional,32,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,7,Governança do conhecimento,Organizacional,39,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,7,Governança do conhecimento,Regulatória,41,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,7,Governança do conhecimento,Evolutiva,32,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,8,Contestabilidade e reparo,Técnica,2,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,8,Contestabilidade e reparo,Interacional,3,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,8,Contestabilidade e reparo,Organizacional,3,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,8,Contestabilidade e reparo,Regulatória,3,Coocorrência por estudo na matriz normalizada — v2.1
+grafico_6,8,Contestabilidade e reparo,Evolutiva,3,Coocorrência por estudo na matriz normalizada — v2.1
