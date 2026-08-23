@@ -45,4 +45,4 @@ Data da auditoria: 23 de agosto de 2026.
 
 ## Conclusão
 
-Todos os critérios científicos, documentais e visuais verificáveis localmente foram atendidos. Resta apenas confirmar a sincronização remota após commit e publicação.
+Todos os critérios científicos, documentais, visuais e operacionais foram atendidos. O commit científico, o catálogo no GitHub Pages e as cópias no Google Drive foram verificados em 23 de agosto de 2026.

@@ -32,6 +32,6 @@
 - [x] DOCX limpo, PDF e redline foram gerados.
 - [x] PDF possui 16 páginas, sete figuras e três tabelas.
 - [x] Todas as páginas do DOCX limpo foram renderizadas e inspecionadas.
-- [ ] Hashes, commit, tag, GitHub e Google Drive sincronizados.
+- [x] Hashes, commit, tag, GitHub e Google Drive sincronizados.
 
-O último item é operacional e será marcado após a publicação dos artefatos finais.
+Publicação verificada em 23 de agosto de 2026. O catálogo remoto apresenta 358 estudos e o Drive contém o manuscrito, o corpus e os documentos de auditoria da v2.1.

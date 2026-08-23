@@ -45,6 +45,9 @@ O corpus final contém 358 estudos únicos: 30 evidências centrais e 328 evidê
 - Versão preservada de comparação: `article-v2`.
 - Branch de preparação: `codex/article-v2-1`.
 - Marco de entrega: `article-v2.1`.
-- O commit e a confirmação das cópias remotas serão registrados após a publicação.
+- Commit científico: `4d3f2e3`.
+- Catálogo verificado com 358 estudos em `https://yhenriux.github.io/revisao-literatura-governanca-ia-regulados/`.
+- Pasta do artigo no Drive: `https://drive.google.com/drive/folders/1mBMhIJ2HTfZ1y6AxrsVWJoB2W7VvBmX7`.
+- Pacote documental v2.1 no Drive: `https://drive.google.com/drive/folders/1ZAwQC4rwraOsXgjy-T2B4_thyyMlHL4u`.
 
 Nenhum arquivo da v2 foi sobrescrito. A v2.1 possui nomes próprios e permanece reproduzível pelos scripts versionados em `tools/`.
