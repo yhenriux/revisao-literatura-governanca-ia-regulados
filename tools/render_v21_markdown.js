@@ -42,7 +42,7 @@ while (i < lines.length) {
     html.push(`<h3>${inline(line)}</h3>`);
     const img = path.join(imageRoot, imageByLabel[visual[1]]).replace(/\\/g, '/');
     const dataUri = 'data:image/png;base64,' + fs.readFileSync(img).toString('base64');
-    html.push(`<figure><img src="${dataUri}" alt="${esc(line)}"><figcaption>${inline(line)}</figcaption></figure>`);
+    html.push(`<figure><img src="${dataUri}" alt="${esc(line)}"></figure>`);
     i++; continue;
   }
   if (/^Nota\./.test(line)) { html.push(`<p class="note">${inline(line)}</p>`); i++; continue; }
