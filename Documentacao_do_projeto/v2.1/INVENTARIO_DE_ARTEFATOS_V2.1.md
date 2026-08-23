@@ -56,4 +56,9 @@ Os 223 PDFs totalizam 292.924.414 bytes e possuem hashes individuais no manifest
 | `triagem_texto_completo/FILA_DE_TRIAGEM_INTEGRAL_CENTRAIS_V2.1.jsonl` | texto extraído por página e campos estruturados dos 17 PDFs centrais | 220.495 | `92d9180ddf43a0ae372e2a0838beefa06dc5f230d66a8acd2398411d115724ef` |
 | `triagem_texto_completo/RELATORIO_DA_EXTRAÇÃO_INTEGRAL_CENTRAIS_V2.1.md` | controle de extração: 17 PDFs, 400 páginas | 1.191 | `00ee3ee47ce128fc8bdb26611627c396270479eb9d3762fa9a53ab8417023ab3` |
 | `triagem_texto_completo/DECISOES_ASSISTIDAS_CENTRAIS_V2.1.md` | classificação assistida e justificativas por estudo | 5.253 | `5893def820d66f7ed9c22b9b45ae97a1d364875df1ea2812447b712a9e19613a` |
-| `../../tools/extract_fulltext_triage_v21.py` | reprodução da extração por página | 4.049 | `2f29b834f831a3307f99f0a3a77a147b12ea0a3d56f24ca98aa07d86e24c1e49` |
+| `../../tools/extract_fulltext_triage_v21.py` | reprodução da extração por página | 4.278 | `c6fd1e3fd199cc2c83da2701805721f3aa858f063f3e410375953133ac1cbb8b` |
+
+| `triagem_texto_completo/FILA_DE_TRIAGEM_INTEGRAL_APOIO_V2.1.jsonl` | texto extraído por página dos 77 candidatos de apoio | 999.337 | `1121721bbcfc02c32c8496d34a6d16cf8afac8c9886e02885c32f38d6499b090` |
+| `triagem_texto_completo/RELATORIO_DA_EXTRAÇÃO_INTEGRAL_APOIO_V2.1.md` | controle da extração dos 77 PDFs e 1.530 páginas | 4.133 | `f57cbc5bf39ca86bd1d9e47d6f0af33fb9a840a280ef55cc30a0fd05165cfb90` |
+| `triagem_texto_completo/FILA_DE_TRIAGEM_INTEGRAL_INCERTOS_V2.1.jsonl` | texto extraído por página dos 129 registros incertos | 1.533.382 | `b9adb4e19008d9a2c2a279caa0a5b69edfe08014e28e287292ffe1ffc61635eb` |
+| `triagem_texto_completo/RELATORIO_DA_EXTRAÇÃO_INTEGRAL_INCERTOS_V2.1.md` | controle da extração dos 129 PDFs e 2.509 páginas | 6.705 | `477cfbd92d6d961d106e6ab8068261389ab7b1fdf3f5a48a22bcb495cd3c4c9d` |

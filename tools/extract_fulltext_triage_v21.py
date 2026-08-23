@@ -32,10 +32,12 @@ def evidence_pages(pages: list[str], pattern: str) -> list[dict[str, str]]:
 
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
+    triage_class = os.environ.get("TRIAGE_CLASS", "candidata_evidencia_central")
+    class_slug = {"candidata_evidencia_central": "CENTRAIS", "candidata_evidencia_apoio": "APOIO", "incerta_exige_texto_completo": "INCERTOS"}.get(triage_class, "CUSTOM")
     with MANIFEST.open(encoding="utf-8-sig", newline="") as handle:
         records = list(csv.DictReader(handle))
-    target = [r for r in records if r.get("status_pdf") == "obtido_pdf_aberto" and r.get("classe_triagem") == "candidata_evidencia_central"]
-    output = OUT / "FILA_DE_TRIAGEM_INTEGRAL_CENTRAIS_V2.1.jsonl"
+    target = [r for r in records if r.get("status_pdf") == "obtido_pdf_aberto" and r.get("classe_triagem") == triage_class]
+    output = OUT / f"FILA_DE_TRIAGEM_INTEGRAL_{class_slug}_V2.1.jsonl"
     summary = []
     with output.open("w", encoding="utf-8") as handle:
         for record in sorted(target, key=lambda r: r["id_v21"]):
@@ -55,8 +57,8 @@ def main() -> int:
             }
             handle.write(json.dumps(item, ensure_ascii=False) + "\n")
             summary.append(item)
-    md = OUT / "RELATORIO_DA_EXTRAÇÃO_INTEGRAL_CENTRAIS_V2.1.md"
-    lines = ["# Extração integral — candidatos a evidência central v2.1", "", f"- PDFs processados: {len(summary)}.", f"- Páginas processadas: {sum(x['paginas_pdf'] for x in summary)}.", f"- Itens com extração textual: {sum(x['texto_extraido_completo'] for x in summary)}.", "", "A extração localiza evidências e páginas; não substitui a decisão científica final do autor.", "", "| ID | Páginas | Caracteres | LLM/governança/regulação/supervisão |", "|---|---:|---:|---|"]
+    md = OUT / f"RELATORIO_DA_EXTRAÇÃO_INTEGRAL_{class_slug}_V2.1.md"
+    lines = [f"# Extração integral — {triage_class} v2.1", "", f"- PDFs processados: {len(summary)}.", f"- Páginas processadas: {sum(x['paginas_pdf'] for x in summary)}.", f"- Itens com extração textual: {sum(x['texto_extraido_completo'] for x in summary)}.", "", "A extração localiza evidências e páginas; não substitui a decisão científica final do autor.", "", "| ID | Páginas | Caracteres | LLM/governança/regulação/supervisão |", "|---|---:|---:|---|"]
     for item in summary:
         pres = item["presenca_termos"]
         lines.append(f"| {item['id_v21']} | {item['paginas_pdf']} | {item['caracteres_extraidos']} | {pres['llm']}/{pres['governanca']}/{pres['regulacao']}/{pres['supervisao']} |")
