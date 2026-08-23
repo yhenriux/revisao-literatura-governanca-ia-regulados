@@ -17,12 +17,25 @@ const imageByLabel = {
   'Figura 1': 'Figura_1_modelo_de_cinco_camadas.png'
 };
 const lines = fs.readFileSync(source, 'utf8').split(/\r?\n/).slice(3);
+// As tabelas são armazenadas no Markdown como blocos finais para facilitar edição.
+// Aqui elas são indexadas e reinseridas no ponto editorial de cada chamada.
+const tableBlocks = {};
+for (let t = 1; t <= 3; t++) {
+  const start = lines.findIndex(x => x.trim() === `## Tabela ${t}`);
+  if (start < 0) continue;
+  const block = [];
+  for (let k = start + 1; k < lines.length && !/^##\s+Tabela\s+\d+/.test(lines[k].trim()); k++) block.push(lines[k]);
+  tableBlocks[t] = block;
+}
 let html = [];
 let i = 0;
 let firstContent = true;
+let inTableAppendix = false;
 while (i < lines.length) {
   const line = lines[i].trim();
   if (!line) { i++; continue; }
+  if (/^##\s+Tabela\s+1$/.test(line)) { inTableAppendix = true; i++; continue; }
+  if (inTableAppendix) { i++; continue; }
   if (firstContent) { html.push(`<h1>${inline(line)}</h1>`); firstContent = false; i++; continue; }
   if (/^(Resumo|Abstract)$/.test(line)) { html.push(`<h2>${inline(line)}</h2>`); i++; continue; }
   if (/^\|/.test(line) && i + 1 < lines.length && /^\|?\s*:?-+/.test(lines[i+1].trim())) {
@@ -37,6 +50,19 @@ while (i < lines.length) {
   }
   const heading = line.match(/^(#{1,6})\s+(.+)$/);
   if (heading) { const n = heading[1].length; html.push(`<h${n}>${inline(heading[2])}</h${n}>`); i++; continue; }
+  const tableCaption = line.match(/^Tabela\s+(2|3|6)\./);
+  if (tableCaption) {
+    const sourceNumber = ({2: 1, 3: 2, 6: 3})[tableCaption[1]];
+    const rows = [];
+    const block = tableBlocks[sourceNumber] || [];
+    for (const raw of block) {
+      if (!/^\|/.test(raw.trim())) continue;
+      const cells = raw.trim().replace(/^\||\|$/g, '').split('|').map(x => inline(x.trim()));
+      if (!cells.every(x => /^:?-+$/.test(x.replace(/<[^>]+>/g, '')))) rows.push(cells);
+    }
+    if (rows.length) html.push(`<h3>${inline(line)}</h3><table><thead><tr>${rows[0].map(x => `<th>${x}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map(r => '<tr>' + r.map(x => `<td>${x}</td>`).join('') + '</tr>').join('')}</tbody></table>`);
+    i++; continue;
+  }
   const visual = line.match(/^(Gráfico [1-6]|Figura 1)\./);
   if (visual) {
     html.push(`<h3>${inline(line)}</h3>`);
