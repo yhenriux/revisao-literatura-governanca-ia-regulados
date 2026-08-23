@@ -52,7 +52,7 @@ A busca combinou consultas estruturadas e expansão bibliográfica. A recuperaç
 
 Tabela 2. Famílias conceituais e operacionalização da estratégia de busca
 
-Nota. As consultas foram adaptadas às regras de sintaxe, indexação e processamento de cada fonte; a cobertura operacional e suas limitações estão descritas no suplemento metodológico.
+Nota. As cinco famílias de consulta foram executadas nas mesmas bases e serviços bibliográficos: OpenAlex, Crossref, Semantic Scholar, PubMed, Europe PMC, CORE, arXiv e DOAJ. Essas plataformas são fontes de recuperação bibliográfica e APIs; não representam setores de aplicação dos estudos. A sintaxe, os campos e os parâmetros foram adaptados às regras de cada serviço. Os registros recuperados foram posteriormente deduplicados e submetidos aos critérios de elegibilidade da revisão.
 
 Fonte. Elaboração própria com base nos registros de execução da busca.
 
@@ -376,13 +376,13 @@ Wohlin, C. (2014). Guidelines for snowballing in systematic literature studies a
 
 ## Tabela 1
 
-| ID | Família | Blocos conceituais principais | Fontes de aplicação |
-| --- | --- | --- | --- |
-| A | Governança de LLMs | LLMs e IA generativa combinados a governança, accountability, compliance, auditoria e risco | Cinco fontes, com sintaxe adaptada por serviço |
-| B | LLMOps e observabilidade | LLMOps, observabilidade, monitoramento e guardrails combinados a governança e compliance | Cinco fontes, com sintaxe adaptada por serviço |
-| C | Governança conversacional | IA conversacional, chatbots e agentes combinados a LLMs, governança e supervisão humana | Cinco fontes, com sintaxe adaptada por serviço |
-| D | Ambientes regulados | LLMs e IA generativa combinados a setores regulados, risco, auditoria e conformidade | Cinco fontes, com sintaxe adaptada por serviço |
-| E | Supervisão humana e contestabilidade | Supervisão humana, human-in-the-loop, contestabilidade e escalonamento combinados a LLMs e chatbots | Cinco fontes, com sintaxe adaptada por serviço |
+| ID | Família | Blocos conceituais principais |
+| --- | --- | --- |
+| A | Governança de LLMs | LLMs e IA generativa combinados a governança, accountability, compliance, auditoria e risco |
+| B | LLMOps e observabilidade | LLMOps, observabilidade, monitoramento e guardrails combinados a governança e compliance |
+| C | Governança conversacional | IA conversacional, chatbots e agentes combinados a LLMs, governança e supervisão humana |
+| D | Ambientes regulados | LLMs e IA generativa combinados a setores regulados, risco, auditoria e conformidade |
+| E | Supervisão humana e contestabilidade | Supervisão humana, human-in-the-loop, contestabilidade e escalonamento combinados a LLMs e chatbots |
 
 ## Tabela 2
 
