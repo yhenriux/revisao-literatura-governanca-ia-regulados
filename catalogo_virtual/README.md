@@ -8,6 +8,15 @@ O nome técnico recomendado é **catálogo bibliográfico digital do corpus**. E
 
 Não é um repositório de textos integrais, uma API pública nem uma norma regulatória. Os PDFs permanecem no acervo rastreável e o catálogo representa apenas metadados, proveniência, estados de triagem, páginas de evidência e hashes.
 
+## Como navegar
+
+- **Catálogo**: busca textual, filtros por ano, setor e camada e ficha detalhada do estudo.
+- **Assuntos**: descritores, camadas e setores agregados a partir dos registros; clique em um termo para voltar ao catálogo filtrado.
+- **Mapa da evidência**: matriz de contagens por setor e camada, sem interpretar contagem como eficácia.
+- **Relações**: estudos centrais agrupados por descritores compartilhados; relações formais só aparecem quando registradas na fonte.
+
+A classificação ampla `004.8 › Inteligência artificial › Governança de IA` funciona como localização bibliográfica comum. Ela não substitui os descritores controlados ou as facetas do corpus.
+
 O termo **Objeto Digital de Aprendizagem (ODA)** só deve ser usado se o catálogo for explicitamente utilizado como recurso pedagógico. Para o artigo, “catálogo bibliográfico digital do corpus” é a designação mais precisa.
 
 ## Fonte de verdade
