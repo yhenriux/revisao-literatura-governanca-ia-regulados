@@ -21,3 +21,8 @@ para PDF antes da revisão.
 4. Conferir visualmente todas as páginas, o número de páginas, as chamadas de figuras/tabelas, o rodapé do catálogo e a equivalência textual com a fonte Markdown.
 
 A renderização local não foi declarada como concluída quando o ambiente não disponibilizou um conversor DOCX/PDF. O PDF deve ser substituído somente após essa verificação visual.
+
+## Arquivo final para leitura
+
+Use **Artigo_v2.1_final.pdf**. Os demais PDFs da pasta são versões históricas e não devem ser usados para a revisão corrente.
+
