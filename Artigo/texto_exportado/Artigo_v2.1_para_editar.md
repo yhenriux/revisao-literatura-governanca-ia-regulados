@@ -186,6 +186,8 @@ Em sistemas baseados em LLMs, métricas tradicionais de desempenho são insufici
 
 Outro ponto crítico é a qualidade metodológica dos estudos. Parte da literatura é conceitual, normativa ou técnica, enquanto outra parte é empírica, experimental ou aplicada a domínios específicos. Essa heterogeneidade dificulta comparações diretas e exige instrumentos flexíveis de avaliação crítica. O uso combinado de appraisal metodológico, análise temática e avaliação de confiança das evidências permite diferenciar estudos com forte suporte empírico, contribuições conceituais fundacionais e propostas técnicas ainda pouco validadas.
 
+Na interpretação, essa avaliação foi usada para calibrar a força da linguagem: resultados empíricos e sínteses sistemáticas foram distinguidos de frameworks, princípios normativos e propostas técnicas. Nenhum estudo foi excluído automaticamente por qualidade, e a avaliação não foi convertida em escore agregado entre desenhos incompatíveis.
+
 A diferença entre referências normativas à supervisão e mecanismos operacionais explícitos indica que accountability, oversight e controle humano são frequentemente defendidos sem detalhamento equivalente sobre atores, autoridade, evidências e responsabilidades.
 
 Essa lacuna é especialmente importante em sistemas conversacionais. Em uma interface baseada em linguagem natural, a supervisão humana não ocorre apenas no treinamento ou na validação do modelo. Ela pode ocorrer durante o atendimento, em fluxos de escalonamento, na revisão de respostas sensíveis, na curadoria de bases de conhecimento, na análise de incidentes e na atualização de políticas. A governança conversacional exige, portanto, uma arquitetura de supervisão distribuída ao longo do ciclo de vida do sistema.
