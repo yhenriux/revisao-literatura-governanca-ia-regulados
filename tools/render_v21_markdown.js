@@ -31,6 +31,7 @@ let html = [];
 let i = 0;
 let firstContent = true;
 let inTableAppendix = false;
+let inReferences = false;
 while (i < lines.length) {
   const line = lines[i].trim();
   if (!line) { i++; continue; }
@@ -49,7 +50,7 @@ while (i < lines.length) {
     continue;
   }
   const heading = line.match(/^(#{1,6})\s+(.+)$/);
-  if (heading) { const n = heading[1].length; html.push(`<h${n}>${inline(heading[2])}</h${n}>`); i++; continue; }
+  if (heading) { const n = heading[1].length; inReferences = /^Referências$/i.test(heading[2]); html.push(`<h${n}>${inline(heading[2])}</h${n}>`); i++; continue; }
   const tableCaption = line.match(/^Tabela\s+(1|2|3)\./);
   if (tableCaption) {
     const sourceNumber = Number(tableCaption[1]);
@@ -75,9 +76,9 @@ while (i < lines.length) {
   if (/^Fonte\./.test(line)) { html.push(`<p class="source">${inline(line)}</p>`); i++; continue; }
   let para = [line]; i++;
   while (i < lines.length && lines[i].trim() && !/^#/.test(lines[i]) && !/^\|/.test(lines[i].trim()) && !/^(Nota|Fonte|Gráfico [1-6]|Figura 1)\./.test(lines[i].trim())) { para.push(lines[i].trim()); i++; }
-  html.push(`<p>${inline(para.join(' '))}</p>`);
+  html.push(`<p${inReferences ? ' class="reference"' : ''}>${inline(para.join(' '))}</p>`);
 }
-const css = `@page{size:A4;margin:17mm 18mm 17mm 20mm}body{font-family:Arial,Helvetica,sans-serif;color:#172033;font-size:9.6pt;line-height:1.3}h1{text-align:center;font-size:17pt;margin:0 0 13pt}h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1px solid #9aa7b7;padding-bottom:2pt}h3{font-size:10.8pt;margin:9pt 0 4pt}p{margin:0 0 5pt;text-align:justify}table{width:100%;border-collapse:collapse;margin:7pt 0 9pt;font-size:8.5pt}th{background:#eaf0f4;font-weight:bold;text-align:left;border-top:1px solid #637789;border-bottom:1px solid #bcc9d2;padding:3.5pt}td{border-bottom:1px solid #d6dee5;padding:3.5pt;vertical-align:top}.note,.source{font-size:8pt;font-style:italic;text-align:left;margin:2pt 0 3pt}.source{font-style:normal}figure{margin:5pt auto 7pt;text-align:center;page-break-inside:avoid}figure img{max-width:100%;max-height:90mm;display:block;margin:0 auto}figcaption{font-size:8.4pt;font-weight:bold;margin-top:2pt}code{font-family:Consolas,monospace;font-size:8pt}@media print{h2,h3{break-after:avoid}table,figure{break-inside:avoid}}`;
+const css = `@page{size:A4;margin:17mm 18mm 17mm 20mm}body{font-family:Arial,Helvetica,sans-serif;color:#172033;font-size:9.6pt;line-height:1.3}h1{text-align:center;font-size:17pt;margin:0 0 13pt}h2{font-size:13pt;margin:14pt 0 6pt;border-bottom:1px solid #9aa7b7;padding-bottom:2pt}h3{font-size:10.8pt;margin:9pt 0 4pt}p{margin:0 0 5pt;text-align:justify}.reference{margin-left:12.7mm;text-indent:-12.7mm}table{width:100%;border-collapse:collapse;margin:7pt 0 9pt;font-size:8.5pt}th{background:#eaf0f4;font-weight:bold;text-align:left;border-top:1px solid #637789;border-bottom:1px solid #bcc9d2;padding:3.5pt}td{border-bottom:1px solid #d6dee5;padding:3.5pt;vertical-align:top}.note,.source{font-size:8pt;font-style:italic;text-align:left;margin:2pt 0 3pt}.source{font-style:normal}figure{margin:5pt auto 7pt;text-align:center;page-break-inside:avoid}figure img{max-width:100%;max-height:90mm;display:block;margin:0 auto}figcaption{font-size:8.4pt;font-weight:bold;margin-top:2pt}code{font-family:Consolas,monospace;font-size:8pt}@media print{h2,h3{break-after:avoid}table,figure{break-inside:avoid}}`;
 const documentTitle = 'Governança Conversacional em Sistemas Baseados em Modelos de Linguagem de Grande Escala em Ambientes Regulados';
 fs.writeFileSync(out, `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>${documentTitle}</title><style>${css}</style></head><body>${html.join('\n')}</body></html>`, 'utf8');
 console.log(out);
