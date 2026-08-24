@@ -52,7 +52,7 @@ A revisão seguiu o PRISMA 2020 e recomendações para revisões sistemáticas e
 
 A busca combinou consultas estruturadas e expansão bibliográfica. A recuperação ampliada utilizou múltiplas bases e serviços em cinco famílias: governança de LLMs, LLMOps e observabilidade, governança conversacional, ambientes regulados e supervisão humana/contestabilidade. Referências, citações, autoria e veículos foram rastreados para ampliar a cobertura.
 
-Tabela 2. Famílias conceituais e operacionalização da estratégia de busca
+Tabela 1. Famílias conceituais e operacionalização da estratégia de busca
 
 Nota. As consultas foram adaptadas à sintaxe de cada base e serviço de busca.
 
@@ -68,7 +68,7 @@ Os 358 estudos estão identificados individualmente no catálogo virtual da pesq
 
 [^1]: Catálogo bibliográfico da pesquisa: *Governança conversacional em sistemas baseados em LLMs*. GitHub Pages. https://yhenriux.github.io/revisao-literatura-governanca-ia-regulados/
 
-Tabela 3. Critérios consolidados de inclusão e exclusão
+Tabela 2. Critérios consolidados de inclusão e exclusão
 
 Nota. A tabela resume os critérios aplicados na seleção dos estudos.
 
@@ -268,9 +268,9 @@ A governança conversacional é, portanto, definida neste estudo como o conjunto
 
 Essa definição amplia a noção de governança para além do controle do modelo. Ela inclui a governança da resposta, da interação, da fonte de conhecimento, do escalonamento, do reparo, da evidência, da responsabilidade e da aprendizagem operacional. Com isso, o modelo oferece uma base para análise de sistemas existentes, desenho de novos sistemas, auditoria de aplicações em produção e desenvolvimento de agendas de pesquisa empírica.
 
-Para converter o modelo conceitual em instrumento de análise organizacional, a Tabela 6 apresenta perguntas verificáveis associadas às camadas e aos controles esperados.
+Para converter o modelo conceitual em instrumento de análise organizacional, a Tabela 3 apresenta perguntas verificáveis associadas às camadas e aos controles esperados.
 
-Tabela 6. Perguntas operacionais e exemplos de evidência de controle
+Tabela 3. Perguntas operacionais e exemplos de evidência de controle
 
 Nota. As perguntas sintetizam evidências recorrentes; sua organização em cinco camadas e seu uso como estrutura diagnóstica são proposições do modelo, ainda sujeitas a validação empírica. A aplicação deve ser calibrada conforme risco, setor e autonomia do sistema.
 

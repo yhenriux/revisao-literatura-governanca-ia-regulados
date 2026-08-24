@@ -178,3 +178,9 @@
 - Clarificada a rastreabilidade dos 358 estudos pelo catálogo virtual de código aberto.
 - Acrescentadas porcentagens às principais volumetrias dos resultados.
 - Substituída a Figura 1 pela versão “Governança integrada e retroalimentada” (SHA-256 `98C0DAEA8B4760CD2518F467D498EE78D437474AAFF88EF0CE431B26B855FBDA`).
+
+### 2026-08-23 — auditoria de tabelas v2.1
+- Corrigida a numeração das tabelas no manuscrito: Tabela 1 (famílias de busca), Tabela 2 (elegibilidade) e Tabela 3 (perguntas operacionais).
+- Reposicionadas as três tabelas no fluxo do texto; nenhum bloco tabular permanece como conteúdo solto ao final.
+- PDF verificado: 17 páginas; tabelas presentes nas páginas 3, 4 e 14; sete figuras preservadas.
+

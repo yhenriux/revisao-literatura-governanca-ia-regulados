@@ -50,9 +50,9 @@ while (i < lines.length) {
   }
   const heading = line.match(/^(#{1,6})\s+(.+)$/);
   if (heading) { const n = heading[1].length; html.push(`<h${n}>${inline(heading[2])}</h${n}>`); i++; continue; }
-  const tableCaption = line.match(/^Tabela\s+(2|3|6)\./);
+  const tableCaption = line.match(/^Tabela\s+(1|2|3)\./);
   if (tableCaption) {
-    const sourceNumber = ({2: 1, 3: 2, 6: 3})[tableCaption[1]];
+    const sourceNumber = Number(tableCaption[1]);
     const rows = [];
     const block = tableBlocks[sourceNumber] || [];
     for (const raw of block) {
