@@ -110,7 +110,7 @@ Gráfico 3. Distribuição dos estudos pelas camadas do modelo conceitual
 
 Fonte. Elaboração própria com base no corpus analítico.
 
-A camada regulatória foi identificada em 339 estudos (94,7% do corpus) e a organizacional em 324 (90,5%), seguidas pela técnica, com 284 (79,3%). As dimensões interacional e evolutiva reuniram 248 (69,3%) e 233 estudos (65,1%), respectivamente. A diferença entre as camadas é menos polarizada que no corpus anterior, mas a raridade de mecanismos de contestação mostra que a presença de códigos interacionais não equivale, por si só, a poder efetivo de ação do usuário.
+A camada regulatória foi identificada em 339 estudos (94,7% do corpus) e a organizacional em 324 (90,5%), seguidas pela técnica, com 284 (79,3%). As dimensões interacional e evolutiva reuniram 248 (69,3%) e 233 estudos (65,1%), respectivamente. As diferenças de incidência entre as camadas são moderadas, mas a raridade de mecanismos de contestação mostra que a presença de códigos interacionais não equivale, por si só, a poder efetivo de ação do usuário.
 
 ## 4.1. Mecanismos técnicos e operacionais
 

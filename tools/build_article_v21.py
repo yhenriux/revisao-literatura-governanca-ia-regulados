@@ -217,8 +217,8 @@ def build(source: Path, target: Path) -> None:
         doc,
         "A camada técnica foi identificada em 147 estudos",
         "A camada regulatória foi identificada em 339 estudos e a organizacional em 324, seguidas pela técnica, com 284. "
-        "As dimensões interacional e evolutiva reuniram 248 e 233 estudos. A diferença entre as camadas é menos polarizada "
-        "que no corpus anterior, mas a raridade de mecanismos de contestação mostra que a presença de códigos interacionais "
+        "As dimensões interacional e evolutiva reuniram 248 e 233 estudos. As diferenças de incidência entre as camadas "
+        "são moderadas, mas a raridade de mecanismos de contestação mostra que a presença de códigos interacionais "
         "não equivale, por si só, a poder efetivo de ação do usuário.",
     )
     replace(
