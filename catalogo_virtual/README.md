@@ -10,6 +10,8 @@ Não é um repositório de textos integrais, uma API pública nem uma norma regu
 
 ## Como navegar
 
+- **Sobre a pesquisa**: apresenta o pesquisador, os objetivos da revisão, definições de leitura, transparência e formas de contato.
+
 - **Catálogo**: busca textual, filtros por ano, setor e camada e ficha detalhada do estudo.
 - **Assuntos**: descritores, camadas e setores agregados a partir dos registros; clique em um termo para voltar ao catálogo filtrado.
 - **Mapa da evidência**: matriz de contagens por setor e camada, sem interpretar contagem como eficácia.
