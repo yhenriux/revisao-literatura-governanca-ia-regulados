@@ -32,6 +32,18 @@ Esta revisão sistemática identifica e organiza mecanismos técnicos, interacio
 
 A principal contribuição é o Modelo Conceitual Integrado de Governança Conversacional, apresentado desde o início como síntese dos resultados. Suas cinco camadas - técnica, interacional, organizacional, regulatória e evolutiva - mostram que governar a conversa requer coordenar controles do sistema, desenho da interação, responsabilidades institucionais, obrigações externas e aprendizagem em produção.
 
+As questões de pesquisa são:
+
+**QP1.** Quais mecanismos de governança conversacional são relatados na literatura sobre sistemas baseados em LLMs em ambientes regulados?
+
+**QP2.** Como esses mecanismos tratam risco, accountability, supervisão humana, auditoria, explicabilidade e conformidade?
+
+**QP3.** Quais capacidades técnicas, interacionais, organizacionais, regulatórias e evolutivas estão associadas à governança conversacional?
+
+**QP4.** Quais lacunas metodológicas, setoriais e operacionais persistem na literatura?
+
+**QP5.** Como a literatura articula explicabilidade, contestabilidade, reparo e aprendizagem operacional em sistemas baseados em LLMs?
+
 O artigo contribui ao consolidar uma literatura dispersa, organizar os mecanismos em famílias analíticas e propor uma arquitetura conceitual aplicável à pesquisa, à avaliação e à prática organizacional. A narrativa segue do posicionamento da lacuna ao método, aos resultados, ao modelo e às suas implicações. Essa lacuna orienta a revisão das abordagens existentes na seção seguinte.
 
 ## 2. Trabalhos relacionados
@@ -304,7 +316,7 @@ Pesquisas futuras devem validar o modelo em organizações e setores distintos, 
 
 ## 6. Conclusão
 
-A revisão responde às questões de pesquisa ao mostrar que a governança conversacional depende da coordenação entre controles técnicos, desenho da interação, responsabilidades organizacionais, obrigações regulatórias e aprendizagem operacional. O problema central não é apenas controlar o modelo, mas governar o sistema sociotécnico que produz, apresenta, registra e corrige respostas.
+A revisão responde à QP1 ao identificar mecanismos de controle técnico, interação, organização, regulação e evolução. À QP2, mostra que esses mecanismos conectam risco e conformidade a accountability, auditoria, supervisão e explicabilidade. À QP3, associa capacidades de observabilidade, escalonamento, documentação, responsabilização e aprendizagem operacional. À QP4, evidencia lacunas de operacionalização, avaliação longitudinal e cobertura setorial. À QP5, mostra que explicabilidade e supervisão são mais frequentes, enquanto contestabilidade, reparo e aprendizagem permanecem menos desenvolvidos. O problema central não é apenas controlar o modelo, mas governar o sistema sociotécnico que produz, apresenta, registra e corrige respostas.
 
 O Modelo Conceitual Integrado organiza essa evidência em cinco camadas interdependentes: técnica, interacional, organizacional, regulatória e evolutiva. Sua contribuição teórica é deslocar a unidade de análise do modelo isolado para o sistema conversacional; sua contribuição prática é oferecer categorias verificáveis para arquitetura, supervisão, auditoria, ação do usuário e mudança controlada.
 
