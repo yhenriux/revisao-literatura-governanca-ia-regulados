@@ -8,7 +8,7 @@ const require = createRequire(import.meta.url);
 const sharp = require("sharp");
 
 const root = path.resolve(process.env.REV_LIT_ROOT || process.cwd());
-const output = path.join(root, "Recursos_do_artigo", "v2.2", "imagens");
+const output = path.join(path.resolve(process.env.V22_VISUAL_OUT || root), "Recursos_do_artigo", "v2.2", "imagens");
 await mkdir(output, { recursive: true });
 
 const esc = (value) => String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
@@ -35,7 +35,7 @@ const svg = `
 <path d="M 796 809 C 650 884, 447 884, 302 809" fill="none" stroke="#173b73" stroke-width="3" stroke-dasharray="3 8" marker-end="url(#arrow)"/>
 <path d="M 205 702 C 108 592, 108 392, 207 286" fill="none" stroke="#173b73" stroke-width="3" stroke-dasharray="3 8" marker-end="url(#arrow)"/>
 
-${label(435, 116, "GOVERN", ["set responsibilities", "and direction"], "#173b73")}
+${label(435, 82, "GOVERN", ["set responsibilities", "and direction"], "#173b73")}
 ${label(835, 284, "EMBED", ["controls in the", "system lifecycle"], "#173b73")}
 ${label(835, 612, "DEFINE", ["risk boundaries", "and objectives"], "#173b73")}
 ${label(435, 744, "EVALUATE", ["evidence, outcomes", "and performance"], "#173b73")}
@@ -43,7 +43,7 @@ ${label(35, 612, "CONSULT", ["users, experts", "and stakeholders"], "#173b73")}
 ${label(35, 284, "REVIEW", ["monitor, inspect", "and reassess"], "#173b73")}
 
 <!-- layers -->
-${label(435, 220, "Technical", ["RAG, guardrails,", "logs and testing"], "#3867c8")}
+${label(435, 232, "Technical", ["RAG, guardrails,", "logs and testing"], "#3867c8")}
 ${label(690, 404, "Interactional", ["limits, handoff,", "contestability, redress"], "#0f766e")}
 ${label(575, 600, "Organizational", ["roles, policies,", "internal auditing"], "#a16207")}
 ${label(295, 600, "Regulatory", ["risk, compliance,", "data protection"], "#7c3aed")}
@@ -62,7 +62,9 @@ ${label(180, 404, "Evolutionary", ["incidents, feedback,", "controlled change"],
   <line x1="465" y1="585" x2="455" y2="597"/>
   <line x1="424" y1="456" x2="412" y2="454"/>
 </g>
-<text x="550" y="931" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#526174">The five layers act together: governance is distributed across technology, interaction, organization, regulation and learning.</text>
+<rect x="135" y="904" width="830" height="54" rx="12" fill="#eef4ff" stroke="#b8cbed" stroke-width="1.5"/>
+<text x="550" y="926" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#173b73">Scope of governance</text>
+<text x="550" y="946" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#334155">The full socio-technical system: model, data, prompts, tools, interface, people, processes and regulatory context.</text>
 </svg>`;
 
 const svgFile = path.join(output, "Figura_7_integrated_conversational_governance.svg");
