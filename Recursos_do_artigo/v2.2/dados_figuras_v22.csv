@@ -1,0 +1,96 @@
+﻿figura,ordem,categoria,serie,valor,proveniencia
+grafico_1,1,Included studies,Studies,358,Normalized corpus decision register — v2.2
+grafico_1,2,Outside analytical scope,Studies,24,Normalized corpus decision register — v2.2
+grafico_1,3,Redundant version,Studies,1,Normalized corpus decision register — v2.2
+grafico_2,1,Compliance and risk management,Total,339,Study–mechanism–layer matrix — v2.2
+grafico_2,1,Compliance and risk management,Central evidence,29,Study–mechanism–layer matrix — v2.2
+grafico_2,2,Technical controls and evaluation,Total,140,Study–mechanism–layer matrix — v2.2
+grafico_2,2,Technical controls and evaluation,Central evidence,11,Study–mechanism–layer matrix — v2.2
+grafico_2,3,Accountability and auditing,Total,250,Study–mechanism–layer matrix — v2.2
+grafico_2,3,Accountability and auditing,Central evidence,19,Study–mechanism–layer matrix — v2.2
+grafico_2,4,"Explainability, trust and limits",Total,136,Study–mechanism–layer matrix — v2.2
+grafico_2,4,"Explainability, trust and limits",Central evidence,9,Study–mechanism–layer matrix — v2.2
+grafico_2,5,Operational learning and monitoring,Total,232,Study–mechanism–layer matrix — v2.2
+grafico_2,5,Operational learning and monitoring,Central evidence,20,Study–mechanism–layer matrix — v2.2
+grafico_2,6,Human oversight and escalation,Total,243,Study–mechanism–layer matrix — v2.2
+grafico_2,6,Human oversight and escalation,Central evidence,14,Study–mechanism–layer matrix — v2.2
+grafico_2,7,Knowledge governance,Total,44,Study–mechanism–layer matrix — v2.2
+grafico_2,7,Knowledge governance,Central evidence,5,Study–mechanism–layer matrix — v2.2
+grafico_2,8,Contestability and redress,Total,3,Study–mechanism–layer matrix — v2.2
+grafico_2,8,Contestability and redress,Central evidence,0,Study–mechanism–layer matrix — v2.2
+grafico_3,1,Technical,Central evidence,23,Study–mechanism–layer matrix — v2.2
+grafico_3,1,Technical,Supporting evidence,261,Study–mechanism–layer matrix — v2.2
+grafico_3,2,Interactional,Central evidence,19,Study–mechanism–layer matrix — v2.2
+grafico_3,2,Interactional,Supporting evidence,229,Study–mechanism–layer matrix — v2.2
+grafico_3,3,Organizational,Central evidence,30,Study–mechanism–layer matrix — v2.2
+grafico_3,3,Organizational,Supporting evidence,294,Study–mechanism–layer matrix — v2.2
+grafico_3,4,Regulatory,Central evidence,29,Study–mechanism–layer matrix — v2.2
+grafico_3,4,Regulatory,Supporting evidence,310,Study–mechanism–layer matrix — v2.2
+grafico_3,5,Evolutionary,Central evidence,20,Study–mechanism–layer matrix — v2.2
+grafico_3,5,Evolutionary,Supporting evidence,213,Study–mechanism–layer matrix — v2.2
+grafico_4,1,Health care and medicine,Total,150,Reproducible primary sector classification — v2.2
+grafico_4,1,Health care and medicine,Central evidence,19,Reproducible primary sector classification — v2.2
+grafico_4,2,Multi-sector,Total,112,Reproducible primary sector classification — v2.2
+grafico_4,2,Multi-sector,Central evidence,4,Reproducible primary sector classification — v2.2
+grafico_4,3,Technology and business operations,Total,47,Reproducible primary sector classification — v2.2
+grafico_4,3,Technology and business operations,Central evidence,6,Reproducible primary sector classification — v2.2
+grafico_4,4,Education,Total,17,Reproducible primary sector classification — v2.2
+grafico_4,4,Education,Central evidence,0,Reproducible primary sector classification — v2.2
+grafico_4,5,Finance and insurance,Total,14,Reproducible primary sector classification — v2.2
+grafico_4,5,Finance and insurance,Central evidence,1,Reproducible primary sector classification — v2.2
+grafico_4,6,Critical infrastructure and cybersecurity,Total,10,Reproducible primary sector classification — v2.2
+grafico_4,6,Critical infrastructure and cybersecurity,Central evidence,0,Reproducible primary sector classification — v2.2
+grafico_4,7,Legal and judicial,Total,4,Reproducible primary sector classification — v2.2
+grafico_4,7,Legal and judicial,Central evidence,0,Reproducible primary sector classification — v2.2
+grafico_4,8,Government and public sector,Total,4,Reproducible primary sector classification — v2.2
+grafico_4,8,Government and public sector,Central evidence,0,Reproducible primary sector classification — v2.2
+grafico_5,1,"Evaluation, risk and quality",Total,350,Findings synthesis derived from mechanism families — v2.2
+grafico_5,1,"Evaluation, risk and quality",Central evidence,30,Findings synthesis derived from mechanism families — v2.2
+grafico_5,2,Human oversight and accountability,Total,288,Findings synthesis derived from mechanism families — v2.2
+grafico_5,2,Human oversight and accountability,Central evidence,24,Findings synthesis derived from mechanism families — v2.2
+grafico_5,3,"Observability, auditing and monitoring",Total,276,Findings synthesis derived from mechanism families — v2.2
+grafico_5,3,"Observability, auditing and monitoring",Central evidence,23,Findings synthesis derived from mechanism families — v2.2
+grafico_5,4,"Knowledge, RAG and guardrails",Total,160,Findings synthesis derived from mechanism families — v2.2
+grafico_5,4,"Knowledge, RAG and guardrails",Central evidence,14,Findings synthesis derived from mechanism families — v2.2
+grafico_5,5,"Trust, explainability and guidance",Total,278,Findings synthesis derived from mechanism families — v2.2
+grafico_5,5,"Trust, explainability and guidance",Central evidence,17,Findings synthesis derived from mechanism families — v2.2
+grafico_6,1,Compliance and risk management,Technical,271,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,1,Compliance and risk management,Interactional,236,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,1,Compliance and risk management,Organizational,315,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,1,Compliance and risk management,Regulatory,339,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,1,Compliance and risk management,Evolutionary,230,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,2,Technical controls and evaluation,Technical,140,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,2,Technical controls and evaluation,Interactional,83,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,2,Technical controls and evaluation,Organizational,125,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,2,Technical controls and evaluation,Regulatory,129,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,2,Technical controls and evaluation,Evolutionary,89,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,3,Accountability and auditing,Technical,222,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,3,Accountability and auditing,Interactional,202,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,3,Accountability and auditing,Organizational,250,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,3,Accountability and auditing,Regulatory,249,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,3,Accountability and auditing,Evolutionary,206,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,4,"Explainability, trust and limits",Technical,109,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,4,"Explainability, trust and limits",Interactional,136,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,4,"Explainability, trust and limits",Organizational,123,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,4,"Explainability, trust and limits",Regulatory,126,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,4,"Explainability, trust and limits",Evolutionary,98,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,5,Operational learning and monitoring,Technical,214,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,5,Operational learning and monitoring,Interactional,192,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,5,Operational learning and monitoring,Organizational,226,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,5,Operational learning and monitoring,Regulatory,229,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,5,Operational learning and monitoring,Evolutionary,232,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,6,Human oversight and escalation,Technical,216,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,6,Human oversight and escalation,Interactional,201,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,6,Human oversight and escalation,Organizational,243,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,6,Human oversight and escalation,Regulatory,235,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,6,Human oversight and escalation,Evolutionary,191,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,7,Knowledge governance,Technical,44,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,7,Knowledge governance,Interactional,32,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,7,Knowledge governance,Organizational,39,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,7,Knowledge governance,Regulatory,41,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,7,Knowledge governance,Evolutionary,32,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,8,Contestability and redress,Technical,2,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,8,Contestability and redress,Interactional,3,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,8,Contestability and redress,Organizational,3,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,8,Contestability and redress,Regulatory,3,Study-level co-occurrence in normalized matrix — v2.2
+grafico_6,8,Contestability and redress,Evolutionary,3,Study-level co-occurrence in normalized matrix — v2.2
